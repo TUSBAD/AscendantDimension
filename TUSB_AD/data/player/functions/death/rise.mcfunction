@@ -9,7 +9,7 @@
     scoreboard players set @s MPAcceleration -600
 
 # 最大体力
-    function player:effect/status/modify_max
+    function effects:status/modify_max
 
 # MP超過修正
     scoreboard players operation @s MP < @s MPMax
@@ -21,7 +21,7 @@
     function job:mp/bar/set
 
 # 満腹度調整
-    function player:effect/status/hunger
+    function effects:status/hunger
 
 # 祈りを有効にする
     scoreboard players enable @s kill

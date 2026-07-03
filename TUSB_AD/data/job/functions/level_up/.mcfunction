@@ -21,7 +21,7 @@ title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 execute if entity @s[scores={Level=..500}] run function job:set_display/learn/
 
 # ステータス設定
-function player:effect/status/life_to_max
+function effects:status/life_to_max
 
 ### 次の経験値の設定(難易度補正付き)
 scoreboard players operation @s NextExp = @s Level

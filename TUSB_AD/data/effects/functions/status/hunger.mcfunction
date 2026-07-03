@@ -1,4 +1,4 @@
-#> player:effect/status/hunger
+#> effects:status/hunger
 #
 # 空腹処理
 #
