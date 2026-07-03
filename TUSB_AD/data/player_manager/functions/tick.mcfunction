@@ -36,7 +36,7 @@
     execute if entity @s[scores={TradedVillager=1..}] run function player_manager:inventory_event/trade_event/
 
 # 生き返ったときは満腹度調整処理
-    execute if entity @s[scores={HP=1..,Hunger=0..}] run function player_manager:death/rise
+    execute if entity @s[scores={LiveTime=1..,Hunger=0..}] run function player_manager:death/rise
 
 # 経験値取得処理
     execute if entity @s[predicate=player_manager:has_netherstar] run function job:pick_exp/
