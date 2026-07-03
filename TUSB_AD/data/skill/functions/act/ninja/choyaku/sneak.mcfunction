@@ -5,7 +5,7 @@
 
 ### 剣を装備している＆モードが真空斬り
 ### モンスターを見ている＆スニーク時間が短い時だけ
-execute if score @s CurrentMode matches 2220..2229 if entity @s[predicate=job:is_onground] run function skill:act/ninja/choyaku/triggered
+execute if score @s CurrentMode matches 2220..2229 if entity @s[predicate=skill:is_onground] run function skill:act/ninja/choyaku/triggered
 scoreboard players reset @s SneakTime
 
 advancement revoke @s only skill:trigger/ninja/choyaku/sneak

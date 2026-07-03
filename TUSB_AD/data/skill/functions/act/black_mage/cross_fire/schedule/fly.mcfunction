@@ -13,9 +13,9 @@ execute if entity @s[tag=CrossFire1] run data modify storage score_damage: Argum
 execute if entity @s[tag=CrossFire2] run data modify storage score_damage: Argument set value {Damage:20.00,DamageType:"Projectile"}
 execute if entity @s[tag=CrossFire3] run data modify storage score_damage: Argument set value {Damage:30.00,DamageType:"Projectile"}
 
-execute positioned ~-7 ~ ~ as @e[dx=14,type=#lib:mob,tag=Enemy] unless predicate job:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
-execute positioned ~ ~-7 ~ as @e[dy=14,type=#lib:mob,tag=Enemy] unless predicate job:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
-execute positioned ~ ~ ~-7 as @e[dz=14,type=#lib:mob,tag=Enemy] unless predicate job:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
+execute positioned ~-7 ~ ~ as @e[dx=14,type=#lib:mob,tag=Enemy] unless predicate skill:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
+execute positioned ~ ~-7 ~ as @e[dy=14,type=#lib:mob,tag=Enemy] unless predicate skill:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
+execute positioned ~ ~ ~-7 as @e[dz=14,type=#lib:mob,tag=Enemy] unless predicate skill:is_saturation run function skill:act/black_mage/cross_fire/schedule/hit
 
 ### クロスファイアーは氷を溶かす
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:water replace minecraft:frosted_ice

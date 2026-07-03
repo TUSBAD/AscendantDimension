@@ -10,8 +10,8 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 3 1 0
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 
 ### 死んだドロップしたアイテムを、死んだ地点に残す
-execute as @e[type=item,distance=..16] if predicate job:is_life_0 at @s run data modify entity @s Motion set value [0d,0d,0d]
-tp @e[type=item,distance=..16,predicate=job:is_life_0] @s
+execute as @e[type=item,distance=..16] if predicate skill:is_life_0 at @s run data modify entity @s Motion set value [0d,0d,0d]
+tp @e[type=item,distance=..16,predicate=skill:is_life_0] @s
 
 ### ..19 ４ｍ
 ### 20..39 ８ｍ

@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # 接地矢無効化
-execute as @s[predicate=job:is_inground] run function skill:trigger/projectile/check/ground
+execute as @s[predicate=skill:is_inground] run function skill:trigger/projectile/check/ground
 
 execute unless entity @s[tag=Chaser] run function skill:trigger/projectile/check/normal
 execute if entity @s[tag=Chaser] run function skill:trigger/projectile/check/chaser/

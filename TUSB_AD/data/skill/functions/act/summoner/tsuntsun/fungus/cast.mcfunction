@@ -15,7 +15,7 @@
 data modify storage skill: tsuntsun_attack set value {}
 
 execute as @e[distance=..15,type=snow_golem,team=FriendlyTeam] at @s run function skill:act/summoner/tsuntsun/fungus/attack/snow_golem
-execute as @e[distance=..15,type=wolf,team=FriendlyTeam] if predicate job:is_sitting at @s run function skill:act/summoner/tsuntsun/fungus/attack/wolf
+execute as @e[distance=..15,type=wolf,team=FriendlyTeam] if predicate skill:is_sitting at @s run function skill:act/summoner/tsuntsun/fungus/attack/wolf
 execute as @e[distance=..15,type=iron_golem,team=FriendlyTeam] at @s run function skill:act/summoner/tsuntsun/fungus/attack/iron_golem
 
 ### 飛んでるやつの判定有効化

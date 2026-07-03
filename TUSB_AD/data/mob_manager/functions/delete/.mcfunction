@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # 接地削除処理(FloatingRequired)
-    tag @e[tag=FloatingRequired,predicate=job:is_onground] add Garbage
+    tag @e[tag=FloatingRequired,predicate=skill:is_onground] add Garbage
 # 乗っていないと削除(RidingRequired)
     tag @e[tag=RidingRequired,predicate=!lib:is_riding] add Garbage
 # 時間削除処理(CooldownRequired / PortalCooldown=0)

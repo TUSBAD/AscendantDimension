@@ -7,9 +7,9 @@ execute as @e[distance=0,type=snowball,limit=1] run function skill:act/white_mag
 
 # 発射時攻撃判定
 
-execute if score _ ActivatedSkill matches 4220 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate job:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/1
-execute if score _ ActivatedSkill matches 4221 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate job:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/2
-execute if score _ ActivatedSkill matches 4222..4229 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate job:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/3
+execute if score _ ActivatedSkill matches 4220 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate skill:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/1
+execute if score _ ActivatedSkill matches 4221 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate skill:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/2
+execute if score _ ActivatedSkill matches 4222..4229 run execute as @e[distance=..8,type=#lib:mob,tag=Enemy,team=Enemy] unless predicate skill:is_saturation at @s run function skill:act/white_mage/flower_gift/schedule/hit/3
 ### フラワーギフトの演出有効化
 function skill:act/white_mage/flower_gift/schedule/
 
