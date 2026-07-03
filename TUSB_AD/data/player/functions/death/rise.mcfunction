@@ -23,10 +23,6 @@
 # 満腹度調整
     function player:effect/status/hunger
 
-# 満腹度を調整
-    scoreboard players operation @s FoodMax = @s Hunger
-    scoreboard players set @s[scores={FoodMax=0..3}] FoodMax 4
-
 # 祈りを有効にする
     scoreboard players enable @s kill
 

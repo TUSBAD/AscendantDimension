@@ -30,3 +30,6 @@ function job:init_table/black_mage
 
 ### 召喚士
 function job:init_table/summoner
+
+### 全職共通
+function job:init_table/common

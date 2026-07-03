@@ -10,7 +10,7 @@ advancement revoke @s only player:trigger/death
 
 # RR追加部分
 # アイテムをぶちまける
-execute unless data storage core: settings{is_keepinventory:true} run function player:death/item_drop
+execute unless data storage core: settings{is_keepinventory:true} run function player:death_item_drop/
 
 ### 死をカウントアップ
 scoreboard players add AllDeathCount DeathCount 1
@@ -45,3 +45,8 @@ tag @s[tag=ReRaise] remove ReRaise
 # ハードコア死亡時
 execute if data storage core: settings{hardcore:true} run tag @s add death
 execute if data storage core: settings{hardcore:true} run gamemode spectator @s
+
+## 死亡トリガーリセット
+execute store result score @s Hunger run data get entity @s foodLevel
+scoreboard players reset @s Deaths
+advancement revoke @s only player_manager:trigger/death
