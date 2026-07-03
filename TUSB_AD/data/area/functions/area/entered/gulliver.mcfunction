@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/gulliver
 function settings:area/gulliver
 function area:area/entered/
 # 演出表示
-function area:area/makeup/gulliver
+function makeup:area/gulliver

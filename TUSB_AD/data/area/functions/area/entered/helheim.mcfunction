@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/helheim
 function settings:area/helheim
 function area:area/entered/
 # 演出表示
-function area:area/makeup/helheim
+function makeup:area/helheim

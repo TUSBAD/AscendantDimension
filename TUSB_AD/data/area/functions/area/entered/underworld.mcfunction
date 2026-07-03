@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/underworld
 function settings:area/underworld
 function area:area/entered/
 # 演出表示
-function area:area/makeup/underworld
+function makeup:area/underworld

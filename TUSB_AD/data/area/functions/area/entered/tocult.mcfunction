@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/tocult
 function settings:area/tocult
 function area:area/entered/
 # 演出表示
-function area:area/makeup/tocult
+function makeup:area/tocult

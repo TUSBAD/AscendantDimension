@@ -1,10 +1,10 @@
-#> area:area/makeup/tocult
+#> makeup:area/tocult
 #
 #> トカルトコルデ演出
 #
 #@within function area:/entered/**
 
-function area:area/makeup/
+function makeup:area/
 playsound minecraft:ambient.crimson_forest.shine_1 master @s ~ ~ ~ 4 1.8 0
 playsound minecraft:ambient.crimson_forest.shine_2 master @s ~ ~ ~ 4 0.7 0
 playsound minecraft:ambient.crimson_forest.shine_3 master @s ~ ~ ~ 4 0.9 0

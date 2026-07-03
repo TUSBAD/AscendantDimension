@@ -1,4 +1,4 @@
-#> area:area/makeup/
+#> makeup:area/
 #
 #> 共通演出
 #

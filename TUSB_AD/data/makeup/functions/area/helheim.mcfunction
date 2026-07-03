@@ -1,10 +1,10 @@
-#> area:area/makeup/helheim
+#> makeup:area/helheim
 #
 #> ヘルヘイム演出
 #
 #@within function area:/entered/**
 
-function area:area/makeup/
+function makeup:area/
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.1 0
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.101 0
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.3 0

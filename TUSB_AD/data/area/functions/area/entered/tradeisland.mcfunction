@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/tradeisland
 function settings:area/tradeisland
 function area:area/entered/
 # 演出表示
-function area:area/makeup/tradeisland
+function makeup:area/tradeisland

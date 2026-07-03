@@ -1,10 +1,10 @@
-#> area:area/makeup/cloudia
+#> makeup:area/cloudia
 #
 #> クラウディア演出
 #
 #@within function area:/entered/**
 
-function area:area/makeup/
+function makeup:area/
 playsound minecraft:ambient.crimson_forest.shine_1 master @s ~ ~ ~ 4 1.8 0
 playsound minecraft:ambient.crimson_forest.shine_1 master @s ~ ~ ~ 4 1.4 0
 playsound minecraft:ambient.crimson_forest.shine_2 master @s ~ ~ ~ 4 1.7 0
