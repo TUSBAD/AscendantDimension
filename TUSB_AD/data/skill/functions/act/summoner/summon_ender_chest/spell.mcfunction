@@ -7,7 +7,7 @@
     scoreboard players operation @s ActivatedSkill = @s CurrentMode
     scoreboard players operation @s MPConsumption = @s CurrentModeCost
 ### MPチェック
-    function job:mp/check/
+    function skill:mp/check/
 
 # 使えるかチェック
     function skill:act/summoner/summon_ender_chest/check

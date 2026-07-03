@@ -11,7 +11,7 @@ execute if entity @s[scores={ActivatedSkill=..0}] run playsound block.fire.extin
 scoreboard players reset @s[scores={ActivatedSkill=..0}] ActivatedSkill
 
 ### MPチェック
-function job:mp/check/
+function skill:mp/check/
 
 ### ここでActivatedSkillに合わせてスキルを実行
 function job:egg/instant/fork
