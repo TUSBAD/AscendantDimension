@@ -19,4 +19,4 @@ execute as @e[distance=..15,type=wolf,team=FriendlyTeam] if predicate job:is_sit
 execute as @e[distance=..15,type=iron_golem,team=FriendlyTeam] at @s run function skill:act/summoner/tsuntsun/fungus/attack/iron_golem
 
 ### 飛んでるやつの判定有効化
-execute if data storage skill: tsuntsun_attack{snow_golem:true} run function job:trigger/projectile/
+execute if data storage skill: tsuntsun_attack{snow_golem:true} run function skill:trigger/projectile/

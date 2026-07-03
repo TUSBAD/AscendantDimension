@@ -27,4 +27,4 @@ execute in minecraft:overworld run schedule function skill:act/ninja/suriken/cou
 function skill:act/ninja/suriken/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

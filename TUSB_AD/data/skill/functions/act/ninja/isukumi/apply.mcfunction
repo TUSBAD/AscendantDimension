@@ -11,4 +11,4 @@ scoreboard players operation @e[distance=0,type=snowball,limit=1] ProjectileSkil
 function skill:act/ninja/isukumi/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

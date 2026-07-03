@@ -7,4 +7,4 @@ execute as @e[distance=0,type=arrow,limit=1] run function skill:act/archer/e_su/
 function skill:act/archer/e_su/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

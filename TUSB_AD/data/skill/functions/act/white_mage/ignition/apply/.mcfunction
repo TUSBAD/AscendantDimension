@@ -9,4 +9,4 @@ execute as @e[distance=..8,type=#lib:mob,tag=Enemy] unless predicate job:is_satu
 function skill:act/white_mage/ignition/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

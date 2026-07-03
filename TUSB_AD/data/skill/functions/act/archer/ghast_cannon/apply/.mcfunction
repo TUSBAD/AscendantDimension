@@ -11,4 +11,4 @@ execute as @e[distance=0,tag=!GhastCannon,type=#lib:arrow,limit=1] run function 
 function skill:act/archer/ghast_cannon/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

@@ -1,4 +1,4 @@
-#> job:trigger/projectile/check/normal
+#> skill:trigger/projectile/check/normal
 # ノーマル
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

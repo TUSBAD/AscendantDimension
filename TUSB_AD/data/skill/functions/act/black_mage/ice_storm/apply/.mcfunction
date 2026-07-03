@@ -9,4 +9,4 @@ execute as @e[distance=0,type=snowball,limit=1] run function skill:act/black_mag
 function skill:act/black_mage/ice_storm/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

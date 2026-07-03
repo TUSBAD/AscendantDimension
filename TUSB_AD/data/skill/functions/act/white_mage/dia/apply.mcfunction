@@ -10,4 +10,4 @@ scoreboard players operation @s ProjectileSkill = _ ActivatedSkill
 function skill:act/white_mage/dia/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

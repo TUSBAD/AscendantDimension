@@ -8,4 +8,4 @@ execute as @e[distance=0,type=#lib:arrow,limit=1] run function skill:act/archer/
 function skill:act/archer/madan/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/

@@ -12,4 +12,4 @@ execute as @e[distance=0,tag=!ChainArrow,type=#lib:arrow,limit=1] run function s
 # function skill:act/archer/stakes_fire/schedule/
 
 ### 飛んでるやつの判定有効化
-function job:trigger/projectile/
+function skill:trigger/projectile/
