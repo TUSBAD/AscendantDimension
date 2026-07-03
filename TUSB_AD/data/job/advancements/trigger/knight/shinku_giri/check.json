@@ -27,6 +27,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:skill/knight/shinku_giri/check"
+		"function": "skill:act/knight/shinku_giri/check"
 	}
 }

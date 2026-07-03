@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:skill/black_mage/magic_shield/damaged"
+		"function": "skill:act/black_mage/magic_shield/damaged"
 	}
 }

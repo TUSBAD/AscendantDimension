@@ -6,25 +6,25 @@
 
 ## 剣士
 # 流し斬り
-execute as @s[scores={CurrentMode=1200..1209},predicate=lib:has_sword] run function job:skill/knight/nagashi_giri/hit
+execute as @s[scores={CurrentMode=1200..1209},predicate=lib:has_sword] run function skill:act/knight/nagashi_giri/hit
 # 薙ぎ払い
-execute as @s[scores={CurrentMode=1210..1219},predicate=lib:has_sword] run function job:skill/knight/nagi_harai/hit
+execute as @s[scores={CurrentMode=1210..1219},predicate=lib:has_sword] run function skill:act/knight/nagi_harai/hit
 # 魔人斬り
-execute as @s[scores={CurrentMode=1240..1249},predicate=lib:has_sword] run function job:skill/knight/majin_giri/hit
+execute as @s[scores={CurrentMode=1240..1249},predicate=lib:has_sword] run function skill:act/knight/majin_giri/hit
 # 斬鉄剣
-execute as @s[scores={CurrentMode=1250..1259},predicate=lib:has_sword] run function job:skill/knight/zan_tetsu_ken/hit
+execute as @s[scores={CurrentMode=1250..1259},predicate=lib:has_sword] run function skill:act/knight/zan_tetsu_ken/hit
 # 連舞
-execute as @s[scores={CurrentMode=2210..2219}] run function job:skill/ninja/tsuremai/hit
+execute as @s[scores={CurrentMode=2210..2219}] run function skill:act/ninja/tsuremai/hit
 # 瞬獄殺
-execute as @s[scores={CurrentMode=2270..2279}] run function job:skill/ninja/syungokusatsu/punch/hit
+execute as @s[scores={CurrentMode=2270..2279}] run function skill:act/ninja/syungokusatsu/punch/hit
 # 夢想
-execute as @s[scores={CurrentMode=1270..1279},predicate=lib:has_sword] run function job:skill/knight/musou/hit
+execute as @s[scores={CurrentMode=1270..1279},predicate=lib:has_sword] run function skill:act/knight/musou/hit
 # ブレードワルツ
-execute as @s[scores={CurrentMode=1280..1289},predicate=lib:has_sword] run function job:skill/knight/waltz/spell
+execute as @s[scores={CurrentMode=1280..1289},predicate=lib:has_sword] run function skill:act/knight/waltz/spell
 
 ## 黒魔
 # エンアスピル
-execute as @s[scores={EnAspir=0..}] run function job:skill/black_mage/enaspir/hit
+execute as @s[scores={EnAspir=0..}] run function skill:act/black_mage/enaspir/hit
 
 # レガシー
 execute if data entity @s SelectedItem.tag.Legacy run function skill:trigger/hit/legacy/

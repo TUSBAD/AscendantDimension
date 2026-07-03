@@ -4,24 +4,24 @@
 ### This software is released under the MIT License, see LICENSE.
 
 #真空斬りHIT処理
-execute if score @s PotentialSkill matches 1220..1229 run function job:skill/knight/shinku_giri/hit
+execute if score @s PotentialSkill matches 1220..1229 run function skill:act/knight/shinku_giri/hit
 #手裏剣HIT処理
-execute if score @s PotentialSkill matches 2200..2209 run function job:skill/ninja/suriken/hit
+execute if score @s PotentialSkill matches 2200..2209 run function skill:act/ninja/suriken/hit
 #居縮HIT処理
-execute unless entity @s[team=Boss] if score @s PotentialSkill matches 2230..2239 run function job:skill/ninja/isukumi/hit
+execute unless entity @s[team=Boss] if score @s PotentialSkill matches 2230..2239 run function skill:act/ninja/isukumi/hit
 #チェインアローHIT処理
-execute if score @s PotentialSkill matches 10000..99999 run function job:skill/archer/chain_arrow/hit/
-execute if score @s PotentialSkill matches 100000.. run function job:skill/archer/madan/hit/
-execute if score @s PotentialSkill matches 3280..3289 run function job:skill/archer/e_su/hit/
+execute if score @s PotentialSkill matches 10000..99999 run function skill:act/archer/chain_arrow/hit/
+execute if score @s PotentialSkill matches 100000.. run function skill:act/archer/madan/hit/
+execute if score @s PotentialSkill matches 3280..3289 run function skill:act/archer/e_su/hit/
 #ブラストショットHIT処理
-execute if score @s PotentialSkill matches 3230..3239 run function job:skill/archer/blast_shot/hit/
+execute if score @s PotentialSkill matches 3230..3239 run function skill:act/archer/blast_shot/hit/
 #ガストキャノンHIT処理
-execute if score @s PotentialSkill matches 3250..3259 run function job:skill/archer/ghast_cannon/hit/
+execute if score @s PotentialSkill matches 3250..3259 run function skill:act/archer/ghast_cannon/hit/
 #フェイタルショットHIT処理
-execute if score @s PotentialSkill matches 3260..3269 run function job:skill/archer/fatal_shot/hit/
+execute if score @s PotentialSkill matches 3260..3269 run function skill:act/archer/fatal_shot/hit/
 #ディアHIT処理
-execute if score @s PotentialSkill matches 4210..4219 run function job:skill/white_mage/dia/hit
+execute if score @s PotentialSkill matches 4210..4219 run function skill:act/white_mage/dia/hit
 #つんつん雪玉HIT処理
-execute if score @s PotentialSkill matches 6240..6249 run function job:skill/summoner/tsuntsun/fungus/attack/snowball/hit
+execute if score @s PotentialSkill matches 6240..6249 run function skill:act/summoner/tsuntsun/fungus/attack/snowball/hit
 
 data modify storage skill: projectile_loop set value true

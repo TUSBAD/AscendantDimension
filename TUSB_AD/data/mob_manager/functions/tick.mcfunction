@@ -14,7 +14,7 @@
 #execute as @e[type=area_effect_cloud,tag=!TypeChecked] at @s run function mob_manager:entity/type_check
 
 # 魔法のブロックの共通処理
-    execute as @e[type=item_frame,tag=MagicBlock] at @s run function job:skill/summoner/magic_block/check
+    execute as @e[type=item_frame,tag=MagicBlock] at @s run function skill:act/summoner/magic_block/check
 
 # スポナー更新
     execute as @e[tag=Spawner,type=armor_stand,scores={SpawnerId=-2147483648..2147483647}] at @s run function asset_manager:spawner/

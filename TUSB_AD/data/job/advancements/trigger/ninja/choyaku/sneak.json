@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:skill/ninja/choyaku/sneak"
+		"function": "skill:act/ninja/choyaku/sneak"
 	}
 }

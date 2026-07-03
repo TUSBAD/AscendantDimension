@@ -31,7 +31,7 @@
     scoreboard players enable @s kill
 
 # レイズ中ならレイズの後処理
-    execute as @s[tag=Raise] at @s run function job:skill/white_mage/raise/return
+    execute as @s[tag=Raise] at @s run function skill:act/white_mage/raise/return
 
 # フラグリセット
     scoreboard players reset @s Hunger

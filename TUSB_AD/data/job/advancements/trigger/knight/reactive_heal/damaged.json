@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:skill/knight/reactive_heal/damaged"
+		"function": "skill:act/knight/reactive_heal/damaged"
 	}
 }

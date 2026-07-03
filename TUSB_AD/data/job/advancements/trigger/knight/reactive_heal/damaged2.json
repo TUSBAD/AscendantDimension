@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:skill/knight/uxo_pu/damaged"
+		"function": "skill:act/knight/uxo_pu/damaged"
 	}
 }

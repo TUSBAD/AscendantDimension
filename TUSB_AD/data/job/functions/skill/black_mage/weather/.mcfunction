@@ -1,8 +1,0 @@
-#> job:skill/black_mage/weather/
-# ウェザーを召喚
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
-
-execute store result storage skill: raining byte 1 if predicate lib:weather/rain
-execute if data storage skill: {raining:true} run weather clear
-execute if data storage skill: {raining:false} run weather rain
