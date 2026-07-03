@@ -1,0 +1,11 @@
+{
+  "type": "area:another",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:another",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

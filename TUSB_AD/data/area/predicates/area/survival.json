@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "area:area/skyland"
+		},
+		{
+			"condition": "reference",
+			"name": "area:area/underworld"
+		},
+		{
+			"condition": "reference",
+			"name": "area:area/nether"
+		},
+		{
+			"condition": "reference",
+			"name": "area:area/skyland_high"
+		}
+	]
+}

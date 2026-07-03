@@ -1,0 +1,11 @@
+{
+  "type": "area:niflheimr",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:niflheimr",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

@@ -6,8 +6,8 @@
 ### 一回ライトブロックがあったら空気に置き換え
 #execute store success storage skill: test byte 1 run fill ~ 320 ~ ~ 320 ~ air replace light
 ### 頭上の障害物の数を取得
-execute if entity @s[predicate=world_manager:area/overworld] store result storage skill: return_obstacle int 1 if blocks ~ ~ ~ ~ 319 ~ ~ ~ ~ masked
-execute unless entity @s[predicate=world_manager:area/overworld] store result storage skill: return_obstacle int 1 if blocks ~ ~ ~ ~ 255 ~ ~ ~ ~ masked
+execute if entity @s[predicate=area:area/overworld] store result storage skill: return_obstacle int 1 if blocks ~ ~ ~ ~ 319 ~ ~ ~ ~ masked
+execute unless entity @s[predicate=area:area/overworld] store result storage skill: return_obstacle int 1 if blocks ~ ~ ~ ~ 255 ~ ~ ~ ~ masked
 ### ライトブロックを戻す
 #execute if data storage skill: {test:true} run setblock ~ 320 ~ light
 ### 障害物があったら

@@ -5,4 +5,4 @@
 #
 #markerを使い終わったら必ず実行すること
 
-execute in world_manager:control run tp @s 5 5 5
+execute in area:control run tp @s 5 5 5

@@ -23,12 +23,12 @@ execute if entity @s[advancements={player_manager:block_interact/sign_event={ins
 #execute if entity @s[advancements={player_manager:block_interact/sign_event={reset_mp=true}}] run function player_manager:mp/reset_display
 
 ## ヘルクライムのリセット
-execute if entity @s[advancements={player_manager:block_interact/sign_event={hell_climb=true}}] run function world_manager:dimension/nether/athletic/hell_climb/start
+execute if entity @s[advancements={player_manager:block_interact/sign_event={hell_climb=true}}] run function area:dimension/nether/athletic/hell_climb/start
 ## スピードランのリセット
-execute if entity @s[advancements={player_manager:block_interact/sign_event={speed_run=true}}] run function world_manager:dimension/nether/athletic/speed_run/start
+execute if entity @s[advancements={player_manager:block_interact/sign_event={speed_run=true}}] run function area:dimension/nether/athletic/speed_run/start
 ## ライクスネークのリセット
-execute if entity @s[advancements={player_manager:block_interact/sign_event={like_snake=true}}] run function world_manager:dimension/nether/athletic/like_snake/start
-execute if entity @s[advancements={player_manager:block_interact/sign_event={like_snake_up=true}}] run function world_manager:dimension/nether/athletic/like_snake/return
+execute if entity @s[advancements={player_manager:block_interact/sign_event={like_snake=true}}] run function area:dimension/nether/athletic/like_snake/start
+execute if entity @s[advancements={player_manager:block_interact/sign_event={like_snake_up=true}}] run function area:dimension/nether/athletic/like_snake/return
 
 ## ガリバーの大砲準備
 execute if entity @s[advancements={player_manager:block_interact/sign_event={cannon_ready=true}}] run function player_manager:block_interact/sign_event/gullivers_land/cannon_ready

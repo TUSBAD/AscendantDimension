@@ -1,0 +1,11 @@
+{
+  "type": "area:revskyland",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:revskyland",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

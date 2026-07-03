@@ -1,0 +1,11 @@
+{
+  "type": "area:airport",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:airport",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

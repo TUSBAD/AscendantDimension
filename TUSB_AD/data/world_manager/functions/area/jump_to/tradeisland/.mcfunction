@@ -1,1 +1,0 @@
-execute in world_manager:trade run tp @s 0 105 0

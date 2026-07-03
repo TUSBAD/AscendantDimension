@@ -1,0 +1,11 @@
+{
+  "type": "area:nethertrial",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:nethertrial",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

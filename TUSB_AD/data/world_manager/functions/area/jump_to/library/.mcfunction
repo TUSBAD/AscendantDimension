@@ -1,1 +1,0 @@
-execute in world_manager:library run tp @s 0 200 0

@@ -1,0 +1,11 @@
+{
+  "type": "area:exdomain",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:exdomain",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

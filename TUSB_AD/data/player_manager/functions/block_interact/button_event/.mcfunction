@@ -10,6 +10,6 @@ execute unless entity @s[advancements={player_manager:block_interact/button_even
 execute in minecraft:overworld positioned 16 114 -2231 if block ~ ~ ~ minecraft:command_block{powered:true} positioned 16 116 -2230 run function player_manager:block_interact/button_event/reload_anvil/
 
 ## ワープクリスタルの解除を確認
-function world_manager:area/portal/open_warp_crystal
+function area:area/portal/open_warp_crystal
 
 advancement revoke @s only player_manager:block_interact/button_event

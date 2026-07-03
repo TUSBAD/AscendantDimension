@@ -11,14 +11,14 @@
     execute if score #Ticks Count matches 0 run function player_manager:one_second
 
 # ワープポータル処理待ちの時はチェックする
-    execute if entity @s[tag=PortalCheck] run function world_manager:warp/
+    execute if entity @s[tag=PortalCheck] run function area:warp/
 
 # 強制的に消したいアイテムをドロップしていたら消す(インベントリ内の場合は進捗で消す)
     execute if entity @s[scores={Drop=1..}] anchored eyes positioned ^ ^ ^ run kill @e[distance=..2,type=item,predicate=lib:force_vanishing]
     scoreboard players reset @s Drop
 
 # アスレチックのバードケージでエリトラの飛べるタイミングを昔と同じにする
-    execute if entity @s[predicate=player_manager:bird_in_cage] run function world_manager:dimension/nether/athletic/bird_cage/modify_elytra
+    execute if entity @s[predicate=player_manager:bird_in_cage] run function area:dimension/nether/athletic/bird_cage/modify_elytra
 
 # 不滅
 # TypeCheckedされると不都合なのでここ
@@ -45,7 +45,7 @@
     execute if entity @s[scores={ExpToLevel=..0,Job=1..}] run function player_manager:job/level_up/
 
 # 島攻略
-    execute if entity @s[scores={UseEnderEye=1..}] run function world_manager:area/conquer/
+    execute if entity @s[scores={UseEnderEye=1..}] run function area:area/conquer/
 
 # 緩衝体力付きで死んでいる場合、エフェクトクリアすることで、体力を正常にする
     effect clear @s[scores={Deaths=1..,HP=1..}]

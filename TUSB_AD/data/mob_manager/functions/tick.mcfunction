@@ -32,7 +32,7 @@
 
 
 # 個人ロッカー(印板)
-    execute as @e[tag=PersonalLockerSign] at @s run function world_manager:personal_locker/tick/personal_locker_sign
+    execute as @e[tag=PersonalLockerSign] at @s run function area:personal_locker/tick/personal_locker_sign
 
 # 盾持ちmob処理
     execute as @e[type=#lib:mob,tag=!ShieldTried,limit=1] run function mob_manager:entity/time_shield/detect_enemy

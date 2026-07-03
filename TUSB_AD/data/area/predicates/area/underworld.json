@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"dimension": "area:underworld",
+		"position": {
+			"x": {
+				"min": 752,
+				"max": 2192
+			},
+			"y": {
+				"min": -400,
+				"max": 200
+			},
+			"z": {
+				"min": -320,
+				"max": 384
+			}
+		}
+	}
+}

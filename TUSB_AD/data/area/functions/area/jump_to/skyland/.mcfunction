@@ -1,0 +1,1 @@
+execute in area:newskyland run tp @s 0 5 0

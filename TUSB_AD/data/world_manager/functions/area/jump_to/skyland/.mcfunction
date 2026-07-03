@@ -1,1 +1,0 @@
-execute in world_manager:newskyland run tp @s 0 5 0

@@ -18,7 +18,7 @@
     execute as @a[scores={LeaveGame=1..}] at @s run function core:login/
 
 #> ワールドTick
-    function world_manager:tick
+    function area:tick
 
 #> MobTick
 

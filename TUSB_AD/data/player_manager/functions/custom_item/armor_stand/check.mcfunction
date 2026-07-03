@@ -9,7 +9,7 @@ execute store result storage item: motion_y byte 1 run data modify storage item:
 execute if data storage item: {motion_y:true} run function player_manager:custom_item/armor_stand/error/old
 
 ### オーバーワールド限定かどうかをチェック
-execute if entity @s[tag=SignStand,tag=OverOnly,predicate=!world_manager:area/overworld] run function player_manager:custom_item/armor_stand/error/warped
+execute if entity @s[tag=SignStand,tag=OverOnly,predicate=!area:area/overworld] run function player_manager:custom_item/armor_stand/error/warped
 
 ### 土台かスポナーを設置する空間がなければエラー
 execute if entity @s[tag=SignStand] unless block ~ ~ ~ #lib:accept_sign run function player_manager:custom_item/armor_stand/error/shrunk

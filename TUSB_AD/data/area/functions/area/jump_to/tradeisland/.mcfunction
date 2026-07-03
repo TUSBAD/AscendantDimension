@@ -1,0 +1,1 @@
+execute in area:trade run tp @s 0 105 0

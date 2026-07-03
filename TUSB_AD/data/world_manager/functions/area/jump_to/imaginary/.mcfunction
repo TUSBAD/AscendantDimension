@@ -1,1 +1,0 @@
-execute in world_manager:imaginary run tp @s 1000 100 1000 0 0

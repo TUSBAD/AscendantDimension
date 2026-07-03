@@ -27,7 +27,7 @@ tellraw @a [{"translate":"%1$sの生存時間 : %2$s","italic":false,"color":"gr
 scoreboard players reset @s LiveTime
 
 ### ネザーアスレチック
-execute as @s[predicate=world_manager:area/nether_trial] at @s run function player_manager:death/in_nether_trial
+execute as @s[predicate=area:area/nether_trial] at @s run function player_manager:death/in_nether_trial
 
 ### コンテナを開いていたら閉じたことにする
 execute if entity @s[advancements={close_detector:open=true}] run function #close_detector:on_closed

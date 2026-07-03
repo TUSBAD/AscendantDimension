@@ -1,0 +1,11 @@
+{
+  "type": "area:library",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:library",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}
