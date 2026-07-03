@@ -1,4 +1,4 @@
-#> job:skill/common/dig_tomb/success
+#> skill:act/common/dig_tomb/success
 #
 # 成功時処理
 #
@@ -10,4 +10,4 @@
     tellraw @a {"nbt":"Item.tag.DeathInventory","storage": "item:","color": "aqua"}
     tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory","storage": "oh_my_dat:","color": "aqua"}
     tag @s add DigTomb
-    schedule function job:skill/common/dig_tomb/schedule1 1t
+    schedule function skill:act/common/dig_tomb/schedule1 1t

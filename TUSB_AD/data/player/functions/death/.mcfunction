@@ -49,4 +49,4 @@ execute if data storage core: settings{hardcore:true} run gamemode spectator @s
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
-advancement revoke @s only player_manager:trigger/death
+advancement revoke @s only player:trigger/death

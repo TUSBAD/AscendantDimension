@@ -1,8 +1,8 @@
-#> job:skill/common/dig_tomb/act1
+#> skill:act/common/dig_tomb/act1
 #
 # シュルカーボックスを使用してアイテムを入れ替える
 #
-# @within function job:skill/common/dig_tomb/act0
+# @within function skill:act/common/dig_tomb/act0
 
 data modify storage item: Slot set from storage item: DeathInventory.Set[0].Slot
 data modify storage item: Items set from storage item: DeathInventory.Set
