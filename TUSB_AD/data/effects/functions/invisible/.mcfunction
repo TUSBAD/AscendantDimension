@@ -6,20 +6,20 @@
 
 
 ### エーテル Lv1~3
-execute if entity @s[advancements={effects:invisible={ether_1=true}}] run function player:effect/invisible/ether/1
-execute if entity @s[advancements={effects:invisible={ether_2=true}}] run function player:effect/invisible/ether/2
-execute if entity @s[advancements={effects:invisible={ether_3=true}}] run function player:effect/invisible/ether/3
+execute if entity @s[advancements={effects:invisible={ether_1=true}}] run function effects:ether/1
+execute if entity @s[advancements={effects:invisible={ether_2=true}}] run function effects:ether/2
+execute if entity @s[advancements={effects:invisible={ether_3=true}}] run function effects:ether/3
 
 ### エリクサー Lv4~5
-execute if entity @s[advancements={effects:invisible={elixir_1=true}}] run function player:effect/invisible/elixir/1
-execute if entity @s[advancements={effects:invisible={elixir_2=true}}] run function player:effect/invisible/elixir/2
+execute if entity @s[advancements={effects:invisible={elixir_1=true}}] run function effects:elixir/1
+execute if entity @s[advancements={effects:invisible={elixir_2=true}}] run function effects:elixir/2
 
 ### 聖水 Lv6
-execute if entity @s[advancements={effects:invisible={holywater=true}}] run function player:effect/invisible/doom/clear
+execute if entity @s[advancements={effects:invisible={holywater=true}}] run function effects:doom/clear
 
 
 ## Lv 8~16 特殊デバフ
-
+execute if entity @s[predicate=effects:too_bad_effect,scores={LiveTime=1..},predicate=entity:player] run function effects:too_bad_effect
 
 ## Lv 20~23 難易度選択
 execute if entity @s[advancements={effects:invisible={another=true}}] run function core:difficulty/select/another
@@ -28,13 +28,13 @@ execute if entity @s[advancements={effects:invisible={picnic=true}}] run functio
 execute if entity @s[advancements={effects:invisible={nightmare=true}}] run function core:difficulty/select/nightmare
 
 ### 黄金酒の聖水 Lv25
-execute if entity @s[advancements={effects:invisible={goldwater=true}}] run function player:effect/invisible/doom_ex/clear
+execute if entity @s[advancements={effects:invisible={goldwater=true}}] run function effects:doom_ex/clear
 
 ### リコール Lv30
-execute if entity @s[advancements={effects:invisible={recallpotion=true}}] run function player:effect/invisible/recall_potion/give
+execute if entity @s[advancements={effects:invisible={recallpotion=true}}] run function effects:recall_potion/give
 
 ### 死の宣告 Lv70
-execute if entity @s[advancements={effects:invisible={doom=true}},tag=!Doom] run function player:effect/invisible/doom/give
+execute if entity @s[advancements={effects:invisible={doom=true}},tag=!Doom] run function effects:doom/give
 
 ### 強化死の宣告 Lv71
 
@@ -51,11 +51,11 @@ execute if entity @s[advancements={effects:invisible={anti_tnt=true}}] if score 
 execute if entity @s[advancements={effects:invisible={anti_pale=true}}] if score @s PaleLevel matches 0.. run function effects:pale/cure
 
 ### 致死の宣告 Lv110
-execute if entity @s[advancements={effects:invisible={doom_ex=true}},tag=!DoomEx] run function player:effect/invisible/doom_ex/give
+execute if entity @s[advancements={effects:invisible={doom_ex=true}},tag=!DoomEx] run function effects:doom_ex/give
 ### 即死の宣告 Lv115
-execute if entity @s[advancements={effects:invisible={death_doom=true}},tag=!DeathDoom] run function player:effect/invisible/death_doom/give
+execute if entity @s[advancements={effects:invisible={death_doom=true}},tag=!DeathDoom] run function effects:death_doom/give
 ### 魔力浸食 Lv120
-execute if entity @s[advancements={effects:invisible={mana_erosion=true}},tag=!ManaErosion] run function player:effect/invisible/mana_erosion/give
+execute if entity @s[advancements={effects:invisible={mana_erosion=true}},tag=!ManaErosion] run function effects:mana_erosion/give
 
 ## Lv 100 温泉入浴
 execute if entity @s[advancements={effects:invisible={hot_spring=true}}] run function effects:hot_spring/apply

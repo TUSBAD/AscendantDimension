@@ -8,3 +8,6 @@ scoreboard players operation @s HealCount += @s HPMax
 scoreboard players operation @s HealCount += @s HPMax
 ### MP回復
 scoreboard players operation @s MP = @s MPMax
+
+### 演出
+function makeup:effects/mp_regen/elixir_ether

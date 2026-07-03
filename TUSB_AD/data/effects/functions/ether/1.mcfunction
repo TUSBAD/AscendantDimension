@@ -5,3 +5,6 @@
 
 scoreboard players add @s MP 50
 scoreboard players operation @s MP < @s MPMax
+
+### 演出
+function makeup:effects/mp_regen/elixir_ether

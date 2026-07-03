@@ -25,6 +25,9 @@
 #> ライブラリストレージ
 #define storage lib:
 
+#> 演出用ストレージ
+#define storage makeup:
+
 #> モブ用ストレージ
 #define storage mob:
 
@@ -32,7 +35,7 @@
 #define storage player:
 
 #> エフェクト用ストレージ
-#define storage effect:
+#define storage effects:
 
 #> アイテム用ストレージ
 #define storage item:
@@ -42,6 +45,9 @@
 
 #> 計算用ストレージ
 #define storage math:
+
+#> 設定用ストレージ
+#define storage settings:
 
 #> 個別ストレージ
 #define storage oh_my_dat:
