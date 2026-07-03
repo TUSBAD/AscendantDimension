@@ -4,7 +4,7 @@
 # トリガー解除
 advancement revoke @s only area:entered/tocult
 # 設定反映
-function area:area/settings/tocult
+function settings:area/tocult
 function area:area/entered/
 # 演出表示
 function area:area/makeup/tocult

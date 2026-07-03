@@ -6,5 +6,5 @@ execute if data storage area: {"アドベンチャーエリア":true} run gamemo
 execute if data storage area: {"アドベンチャーエリア":false} run tellraw @s[gamemode=adventure] {"text":"ブロックの設置・破壊制限が解除された。","color":"dark_aqua"}
 execute if data storage area: {"アドベンチャーエリア":false} run gamemode survival @s[gamemode=adventure]
 
-#execute if data entity @s {Dimension:"tusb_remake:trade"} run function area:settings/in_tradeisland
-#execute unless data entity @s {Dimension:"tusb_remake:trade"} run function area:settings/out_tradeisland
+#execute if data entity @s {Dimension:"tusb_remake:trade"} run function settings:area/in_tradeisland
+#execute unless data entity @s {Dimension:"tusb_remake:trade"} run function settings:area/out_tradeisland

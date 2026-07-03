@@ -4,7 +4,7 @@
 # トリガー解除
 advancement revoke @s only area:entered/helheim
 # 設定反映
-function area:area/settings/helheim
+function settings:area/helheim
 function area:area/entered/
 # 演出表示
 function area:area/makeup/helheim

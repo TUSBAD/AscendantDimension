@@ -4,7 +4,7 @@
 # トリガー解除
 advancement revoke @s only area:entered/underworld
 # 設定反映
-function area:area/settings/underworld
+function settings:area/underworld
 function area:area/entered/
 # 演出表示
 function area:area/makeup/underworld
