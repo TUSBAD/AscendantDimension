@@ -19,7 +19,7 @@ execute store result score _ Luck run attribute @s minecraft:generic.luck get 10
 execute unless score _ Luck = @s Luck run function job:luck_update
 
 # MP回復
-function job:mp_regen/
+function job:mp/regen/
 
 
 

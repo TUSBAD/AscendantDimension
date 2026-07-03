@@ -1,5 +1,5 @@
 ![TUSBAD version](https://img.shields.io/badge/ADversion-1.0-blueviolet.svg?)
-![Minecraft version](https://img.shields.io/badge/MCversion-1.19.4-green.svg?logo=minecraft)
+![Minecraft version](https://img.shields.io/badge/MCversion-1.20.4-green.svg?logo=minecraft)
 [![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)](https://discord.gg/rTVWQm4ykR)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/TUSBAD/TUSBRemixAD?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/TUSBAD/TUSBRemixAD)
@@ -32,5 +32,11 @@ RemakeRemixを元に作成されたADです。
 # 謝辞
 このリポジトリでは以下のリポジトリ/ライブラリを使用させていただいています。<br>
 
-# ライセンス
-このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。<br>
+***
+The Unusual SkyBlock AnotherRemixEdition<br>
+Copyright &copy; 2026 [TUSB&TSB-FanCommunity](https://discord.gg/rTVWQm4ykR)<br>
+All Rights Reserved.
+
+> [!NOTE]
+> Minecraft 公式製品ではありません。Mojang から承認されておらず、Mojang とは関係ありません。  
+> Not an official Minecraft product, not endorsed by or affiliated with Mojang.

@@ -1,9 +1,7 @@
 #> item:system/shulker_box/loot_to_player
 #
-# プレイヤーに渡します。
+# アイテムを返します
 #
-# @public
-
 #Items[{Slot:0b}]をプレイヤーにloot
 #競合対策でif dataで分岐させる
 execute if data storage item: {Slot:0b} in world_manager:control run loot replace entity @s container.0 1 mine 3 1 3 debug_stick
