@@ -8,7 +8,7 @@
 data modify entity @s HandItems[1] set value {id:"minecraft:shield",Count:1b}
 
 # 攻略率を取得
-execute store result score _ TUSB run data get storage world: conquer.count.total
+execute store result score _ TUSB run data get storage area: conquer.count.total
 
 # 攻略率を元にattributeをset
 data modify entity @s HandItems[1].tag.AttributeModifiers set from storage mob: time_shield.shield_data.tag.AttributeModifiers

@@ -1,6 +1,6 @@
 #> area:area/portal/tocult_colde/sumful/open
 ### スムフルのワープ開放
 
-data modify storage world: portal_name set value "スムフル"
-data modify storage world: portal.tocult_colde.sumful set value true
+data modify storage area: portal_name set value "スムフル"
+data modify storage area: portal.tocult_colde.sumful set value true
 execute positioned 1338 96 1598 run function area:area/portal/open

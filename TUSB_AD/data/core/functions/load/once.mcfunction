@@ -251,16 +251,16 @@ scoreboard players reset * MP
 ### ワールド初期設定
 time set 14000
 weather rain 15
-data remove storage world: capture
-data modify storage world: area_name set value {skyland:"???",underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",new_skyland:"???",niflheimr:"???",library:"???",imaginary_space:"???",unusual_space:"???",another_dimension:"???",ancient_field:"???",tradeisland:"???",hellheimr:"???",end:"???",nether:"???"}
-data modify storage world: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,niflheimr:0,library:0,imaginary_space:0,unusual_space:0,another_dimension:0,ancient_field:0,new_skyland:0,tradeisland:0,hellheimr:0}
-data modify storage world: conquer.max set value {skyland:0,nether:4,end:3,underworld:2,cloudia:4,table_mountain:2,gullivers_land:2,tocult_colde:10,niflheimr:0,library:0,imaginary_space:0,unusual_space:0,another_dimension:0,ancient_field:1,new_skyland:10,tradeisland:1,hellheimr:0}
-data modify storage world: nether_boss_count set value 1
-data modify storage world: nether_boss_clear set value false
+data remove storage area: capture
+data modify storage area: area_name set value {skyland:"???",underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",new_skyland:"???",niflheimr:"???",library:"???",imaginary_space:"???",unusual_space:"???",another_dimension:"???",ancient_field:"???",tradeisland:"???",hellheimr:"???",end:"???",nether:"???"}
+data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,niflheimr:0,library:0,imaginary_space:0,unusual_space:0,another_dimension:0,ancient_field:0,new_skyland:0,tradeisland:0,hellheimr:0}
+data modify storage area: conquer.max set value {skyland:0,nether:4,end:3,underworld:2,cloudia:4,table_mountain:2,gullivers_land:2,tocult_colde:10,niflheimr:0,library:0,imaginary_space:0,unusual_space:0,another_dimension:0,ancient_field:1,new_skyland:10,tradeisland:1,hellheimr:0}
+data modify storage area: nether_boss_count set value 1
+data modify storage area: nether_boss_clear set value false
 
 ### 最初は夜固定
 gamerule doDaylightCycle false
-data modify storage world: settings set value {force_night:true}
+data modify storage area: settings set value {force_night:true}
 
 ### キープインベントリあり
 gamerule keepInventory true
@@ -270,7 +270,7 @@ data modify storage core: settings.is_keepinventory set value true
 data modify storage player: settings.saplings set value {oak:false,birch:false,spruce:false,jungle:false,acacia:false,dark_oak:false}
 
 ### ワープポータル初期化しておく
-data remove storage world: portal
+data remove storage area: portal
 
 ### ゲームが始まった時刻を記録しておく
 execute store result storage core: start_time int 1 run time query gametime

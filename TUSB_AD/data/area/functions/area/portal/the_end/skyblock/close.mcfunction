@@ -1,8 +1,8 @@
 #> area:area/portal/the_end/skyblock/close
 ### THE UNUSUAL SKYBLOCKのワープ閉じる
 
-data modify storage world: portal_name set value "THE UNUSUAL SKYBLOCK"
-data remove storage world: portal.the_end.skyblock
+data modify storage area: portal_name set value "THE UNUSUAL SKYBLOCK"
+data remove storage area: portal.the_end.skyblock
 execute positioned -1186 69 8 run function area:area/portal/close
 
 ### チャンク読み込み

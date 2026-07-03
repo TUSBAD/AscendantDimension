@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/excavation_lower/close
 ### 採掘場(下)のワープ閉じる
 
-data modify storage world: portal_name set value "採掘場(下)"
-data remove storage world: portal.tocult_colde.excavation_lower
+data modify storage area: portal_name set value "採掘場(下)"
+data remove storage area: portal.tocult_colde.excavation_lower
 execute positioned 1354 96 1538 run function area:area/portal/close
 
 ### チャンク読み込み

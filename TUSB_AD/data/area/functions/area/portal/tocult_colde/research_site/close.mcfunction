@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/research_site/close
 ### 調査拠点跡地のワープ閉じる
 
-data modify storage world: portal_name set value "調査拠点跡地"
-data remove storage world: portal.tocult_colde.research_site
+data modify storage area: portal_name set value "調査拠点跡地"
+data remove storage area: portal.tocult_colde.research_site
 execute positioned 1338 96 1522 run function area:area/portal/close
 
 ### チャンク読み込み

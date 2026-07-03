@@ -12,7 +12,7 @@ scoreboard players operation _ TUSB = @a Level
 scoreboard players operation _ TUSB /= $2 Const
 scoreboard players operation $Difficulty TUSB += _ TUSB
 ### 達成率も反映する
-execute store result score _ TUSB run data get storage world: conquer.count.total 10000
+execute store result score _ TUSB run data get storage area: conquer.count.total 10000
 execute store result storage math: in int 0.01 run scoreboard players operation _ TUSB /= $MaxPortalCount TUSB
 execute store result score _ TUSB run data get storage math: in
 scoreboard players operation $Difficulty TUSB += _ TUSB

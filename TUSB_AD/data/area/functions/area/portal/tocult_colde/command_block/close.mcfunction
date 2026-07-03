@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/command_block/close
 ### 古代遺跡　調査コードCBのワープ閉じる
 
-data modify storage world: portal_name set value "古代遺跡　調査コードCB"
-data remove storage world: portal.tocult_colde.command_block
+data modify storage area: portal_name set value "古代遺跡　調査コードCB"
+data remove storage area: portal.tocult_colde.command_block
 execute positioned 1294 96 1522 run function area:area/portal/close
 
 ### チャンク読み込み

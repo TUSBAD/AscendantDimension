@@ -28,9 +28,9 @@ execute positioned -96 14 56 align xyz if entity @s[dx=1,dy=0,dz=0] run tp @s 24
 execute positioned 47 67 -2186 align xyz as @s[dx=0] positioned -1919.5 6.5 -191.5 positioned ~ ~ ~-2 at @e[type=area_effect_cloud,distance=..0.1,sort=nearest,limit=1] facing entity @e[type=area_effect_cloud,distance=..1.1,sort=random,limit=1] feet positioned as @s positioned ~ ~ ~-4 positioned ^ ^ ^2 positioned 47.5 ~ ~ run tp @s ~ ~ ~
 
 ### チュートリアルワープ
-execute if data storage world: portal.cloudia.tutorial positioned -1885 114 -194 align xyz if entity @s[dx=0,dy=1,dz=0] run tp @s -1887 115.5 -189
+execute if data storage area: portal.cloudia.tutorial positioned -1885 114 -194 align xyz if entity @s[dx=0,dy=1,dz=0] run tp @s -1887 115.5 -189
 ### クラウディア城までのワープ
-execute if data storage world: portal.cloudia.castle positioned -2478 4 -128 align xyz if entity @s[dx=0,dy=1,dz=0] run tp @s -2374.5 80.5 -130.5
+execute if data storage area: portal.cloudia.castle positioned -2478 4 -128 align xyz if entity @s[dx=0,dy=1,dz=0] run tp @s -2374.5 80.5 -130.5
 
 ### ガリバーランドの印板取得
 execute positioned 24 72 803 align xyz if entity @s[dx=0] unless entity @e[dx=0,type=item,tag=SealBreakerItem] positioned ~0.5 ~ ~0.5 run function area:warp/overworld/gullivers_land/yellow

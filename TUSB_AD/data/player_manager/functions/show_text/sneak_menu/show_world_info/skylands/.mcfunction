@@ -9,18 +9,18 @@ tellraw @s [{"translate":"[一覧に戻る]","color":"#00ff80","clickEvent":{"ac
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"text":"0","color":"gray","font":"ender_eye"},{"text": "：未攻略"},{"translate":" / ","color": "white"},{"text":"1","font":"ender_eye"},{"text": "：攻略済"}]
 tellraw @s [{"translate":"[ 通常世界 ]","color":"#b7b7b7"},{"translate":" 1/5","color":"#FFFFFF"}]
 
-tellraw @s [{"translate":"エリア攻略数"}," : ",{"nbt":"conquer.count.skyland","storage":"world:"},"/",{"nbt":"conquer.max.skyland","storage":"world:"}]
+tellraw @s [{"translate":"エリア攻略数"}," : ",{"nbt":"conquer.count.skyland","storage":"area:"},"/",{"nbt":"conquer.max.skyland","storage":"area:"}]
 tellraw @s ""
-tellraw @s [{"translate":"ひまわり島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{001:0}.001","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{001:1}.001","font":"ender_eye"}]
-tellraw @s [{"translate":"交易島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{002:0}.002","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{002:1}.002","font":"ender_eye"}]
-tellraw @s [{"translate":"砂島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{003:0}.003","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{003:1}.003","font":"ender_eye"}]
-tellraw @s [{"translate":"ガスト島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{005:0}.005","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{005:1}.005","font":"ender_eye"}]
-tellraw @s [{"translate":"シミ島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{006:0}.006","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{006:1}.006","font":"ender_eye"}]
-tellraw @s [{"translate":"脅威島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{007:0}.007","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{007:1}.007","font":"ender_eye"}]
-tellraw @s [{"translate":"イカ島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{008:0}.008","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{008:1}.008","font":"ender_eye"}]
-tellraw @s [{"translate":"舵島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{009:0}.009","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{009:1}.009","font":"ender_eye"}]
-tellraw @s [{"translate":"灯台島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{010:0}.010","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{010:1}.010","font":"ender_eye"}]
-tellraw @s [{"translate":"月島","color":"#ffffff"}," : ",{"storage":"world:","nbt":"capture.skylands{011:0}.011","font":"ender_eye","color":"gray"},{"storage":"world:","nbt":"capture.skylands{011:1}.011","font":"ender_eye"}]
+tellraw @s [{"translate":"ひまわり島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{001:0}.001","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{001:1}.001","font":"ender_eye"}]
+tellraw @s [{"translate":"交易島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{002:0}.002","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{002:1}.002","font":"ender_eye"}]
+tellraw @s [{"translate":"砂島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{003:0}.003","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{003:1}.003","font":"ender_eye"}]
+tellraw @s [{"translate":"ガスト島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{005:0}.005","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{005:1}.005","font":"ender_eye"}]
+tellraw @s [{"translate":"シミ島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{006:0}.006","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{006:1}.006","font":"ender_eye"}]
+tellraw @s [{"translate":"脅威島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{007:0}.007","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{007:1}.007","font":"ender_eye"}]
+tellraw @s [{"translate":"イカ島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{008:0}.008","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{008:1}.008","font":"ender_eye"}]
+tellraw @s [{"translate":"舵島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{009:0}.009","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{009:1}.009","font":"ender_eye"}]
+tellraw @s [{"translate":"灯台島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{010:0}.010","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{010:1}.010","font":"ender_eye"}]
+tellraw @s [{"translate":"月島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{011:0}.011","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{011:1}.011","font":"ender_eye"}]
 
 tellraw @s ""
 tellraw @s ""

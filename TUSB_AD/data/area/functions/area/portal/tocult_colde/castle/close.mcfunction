@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/castle/close
 ### トカルト城のワープ閉じる
 
-data modify storage world: portal_name set value "トカルト城"
-data remove storage world: portal.tocult_colde.castle
+data modify storage area: portal_name set value "トカルト城"
+data remove storage area: portal.tocult_colde.castle
 execute positioned 1278 96 1582 run function area:area/portal/close
 
 ### チャンク読み込み

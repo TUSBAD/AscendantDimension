@@ -4,8 +4,8 @@
 # クリスタルのmin.min -2479 3 -129
 # コマブロ -2380 75 -131
 
-data modify storage world: portal_name set value "クラウディア城"
-data remove storage world: portal.cloudia.castle
+data modify storage area: portal_name set value "クラウディア城"
+data remove storage area: portal.cloudia.castle
 execute positioned -2479 3 -129 run function area:area/portal/close
 
 ### チャンク読み込み

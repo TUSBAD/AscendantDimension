@@ -1,8 +1,8 @@
 #> area:area/portal/cloudia/tutorial/close
 ### チュートリアルのワープ閉じる
 
-data modify storage world: portal_name set value "クラウディア チュートリアル"
-data remove storage world: portal.cloudia.tutorial
+data modify storage area: portal_name set value "クラウディア チュートリアル"
+data remove storage area: portal.cloudia.tutorial
 execute positioned -1886 113 -195 run function area:area/portal/close
 
 ### チャンク読み込み

@@ -1,8 +1,8 @@
 #> area:area/portal/the_end/garden/close
 ### エンド 植物庭園のワープ閉じる
 
-data modify storage world: portal_name set value "エンド 植物庭園"
-data remove storage world: portal.the_end.garden
+data modify storage area: portal_name set value "エンド 植物庭園"
+data remove storage area: portal.the_end.garden
 execute positioned 107 49 -1 run function area:area/portal/close
 
 ### チャンク読み込み

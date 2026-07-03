@@ -1,8 +1,8 @@
 #> area:area/portal/underworld/hill/close
 ### 地下キノコの山のワープ閉じる
 
-data modify storage world: portal_name set value "地下キノコの山"
-data remove storage world: portal.underworld.hill
+data modify storage area: portal_name set value "地下キノコの山"
+data remove storage area: portal.underworld.hill
 execute positioned 888 16 -215 run function area:area/portal/close
 
 ### チャンク読み込み

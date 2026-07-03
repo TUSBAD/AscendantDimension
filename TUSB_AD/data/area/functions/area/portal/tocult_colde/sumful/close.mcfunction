@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/sumful/close
 ### スムフルのワープ閉じる
 
-data modify storage world: portal_name set value "スムフル"
-data remove storage world: portal.tocult_colde.sumful
+data modify storage area: portal_name set value "スムフル"
+data remove storage area: portal.tocult_colde.sumful
 execute positioned 1338 96 1598 run function area:area/portal/close
 
 ### チャンク読み込み

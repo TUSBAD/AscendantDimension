@@ -4,8 +4,8 @@
 # クリスタルのmin.min 55 54 -2190
 # コマブロ 37 58 -2214
 
-data modify storage world: portal_name set value "テーブルマウンテン入口"
-data remove storage world: portal.table_mountain.happy_city
+data modify storage area: portal_name set value "テーブルマウンテン入口"
+data remove storage area: portal.table_mountain.happy_city
 execute positioned 55 54 -2190 run function area:area/portal/close
 
 ### チャンク読み込み

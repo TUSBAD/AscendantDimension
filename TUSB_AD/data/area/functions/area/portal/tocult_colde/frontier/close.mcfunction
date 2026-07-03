@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/frontier/close
 ### 辺境のワープ閉じる
 
-data modify storage world: portal_name set value "辺境"
-data remove storage world: portal.tocult_colde.frontier
+data modify storage area: portal_name set value "辺境"
+data remove storage area: portal.tocult_colde.frontier
 execute positioned 1341 215 1558 run function area:area/portal/close
 
 ### チャンク読み込み

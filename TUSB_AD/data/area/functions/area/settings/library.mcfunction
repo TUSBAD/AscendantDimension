@@ -1,3 +1,3 @@
 #> area:settings/library
 ### Sur/Adv判定
-data modify storage world: "アドベンチャーエリア" set value true
+data modify storage area: "アドベンチャーエリア" set value true

@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/redstone/close
 ### 古代遺跡　調査コードRSのワープ閉じる
 
-data modify storage world: portal_name set value "古代遺跡　調査コードRS"
-data remove storage world: portal.tocult_colde.redstone
+data modify storage area: portal_name set value "古代遺跡　調査コードRS"
+data remove storage area: portal.tocult_colde.redstone
 execute positioned 1278 96 1538 run function area:area/portal/close
 
 ### チャンク読み込み

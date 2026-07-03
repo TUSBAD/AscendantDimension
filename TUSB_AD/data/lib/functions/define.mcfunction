@@ -38,7 +38,7 @@
 #define storage item:
 
 #> ワールド用ストレージ
-#define storage world:
+#define storage area:
 
 #> 計算用ストレージ
 #define storage math:

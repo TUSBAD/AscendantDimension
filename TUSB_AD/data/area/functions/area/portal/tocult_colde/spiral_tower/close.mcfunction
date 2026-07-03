@@ -1,8 +1,8 @@
 #> area:area/portal/tocult_colde/spiral_tower/close
 ### 螺旋の塔のワープ閉じる
 
-data modify storage world: portal_name set value "螺旋の塔"
-data remove storage world: portal.tocult_colde.spiral_tower
+data modify storage area: portal_name set value "螺旋の塔"
+data remove storage area: portal.tocult_colde.spiral_tower
 execute positioned 1359 96 1560 run function area:area/portal/close
 
 ### チャンク読み込み

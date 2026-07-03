@@ -1,8 +1,8 @@
 #> area:area/portal/the_end/stairs/close
 ### エンド 大階段のワープ閉じる
 
-data modify storage world: portal_name set value "エンド 大階段"
-data remove storage world: portal.the_end.stairs
+data modify storage area: portal_name set value "エンド 大階段"
+data remove storage area: portal.the_end.stairs
 execute positioned -702 66 26 run function area:area/portal/close
 
 ### チャンク読み込み

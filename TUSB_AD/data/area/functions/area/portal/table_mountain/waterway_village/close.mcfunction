@@ -4,8 +4,8 @@
 # クリスタルのmin.min 31 2 -2152
 # コマブロ 37 58 -2214
 
-data modify storage world: portal_name set value "地下水路の村"
-data remove storage world: portal.table_mountain.waterway_village
+data modify storage area: portal_name set value "地下水路の村"
+data remove storage area: portal.table_mountain.waterway_village
 execute positioned 31 2 -2152 run function area:area/portal/close
 
 ### チャンク読み込み

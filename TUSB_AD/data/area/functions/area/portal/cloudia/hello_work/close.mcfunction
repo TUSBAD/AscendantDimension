@@ -4,8 +4,8 @@
 # クリスタルのmin.min -2383 77 -157
 # コマブロ -1744 126 -137
 
-data modify storage world: portal_name set value "職業島"
-data remove storage world: portal.cloudia.hello_work
+data modify storage area: portal_name set value "職業島"
+data remove storage area: portal.cloudia.hello_work
 execute positioned -2383 77 -157 run function area:area/portal/close
 
 ### チャンク読み込み

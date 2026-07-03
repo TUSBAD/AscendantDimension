@@ -1,2 +1,2 @@
 #> area:settings/helheim
-data modify storage world: "アドベンチャーエリア" set value false
+data modify storage area: "アドベンチャーエリア" set value false
