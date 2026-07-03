@@ -67,7 +67,7 @@
     execute as @s[type=wandering_trader] run function mob_manager:entity/limit_sapling
 
 # 自然湧きじゃないスライム系のチェック
-    tag @s[type=#lib:slimey,predicate=!player_manager:effects/has_absorptionamount] add FromSpawner
+    tag @s[type=#lib:slimey,predicate=!player:effects/has_absorptionamount] add FromSpawner
 
 # summon skeleton ~ ~ ~ {ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],HandDropChances:[0.0f,0.0f]}
 

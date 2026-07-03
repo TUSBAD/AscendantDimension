@@ -5,5 +5,5 @@
 
 playsound minecraft:entity.zombie.infect master @a[distance=..16] ~ ~ ~ 1 0.5 0
 
-execute unless predicate player_manager:is_sneaking run function job:skill/ninja/katon/apply
-execute if predicate player_manager:is_sneaking as @a[distance=..15] at @s run function job:skill/ninja/katon/apply
+execute unless predicate player:is_sneaking run function job:skill/ninja/katon/apply
+execute if predicate player:is_sneaking as @a[distance=..15] at @s run function job:skill/ninja/katon/apply

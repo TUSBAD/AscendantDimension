@@ -38,20 +38,20 @@ execute positioned 58 66 702 align xyz if entity @s[dx=0] unless entity @e[dx=0,
 execute positioned 131 63 774 align xyz if entity @s[dx=0] unless entity @e[dx=0,type=item,tag=SealBreakerItem] positioned ~0.5 ~ ~0.5 run function area:warp/overworld/gullivers_land/blue
 
 ### スキル設定場の現在の設定表示
-execute positioned -2733 88 -383 align xyz if entity @s[dz=1] if entity @s[advancements={player_manager:block_interact/press={skill_settings_show_current=false}}] run function player_manager:show_text/skill
-execute positioned -2733 88 -383 align xyz if entity @s[dz=1] run advancement grant @s only player_manager:block_interact/press skill_settings_show_current
+execute positioned -2733 88 -383 align xyz if entity @s[dz=1] if entity @s[advancements={player:block_interact/press={skill_settings_show_current=false}}] run function player:show_text/skill
+execute positioned -2733 88 -383 align xyz if entity @s[dz=1] run advancement grant @s only player:block_interact/press skill_settings_show_current
 
 ### 交易島の現在のステータス表示
-execute positioned -65 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={trading_show_status=false}}] run function player_manager:show_text/sneak_menu/data/status
-execute positioned -65 15 28 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press trading_show_status
+execute positioned -65 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={player:block_interact/press={trading_show_status=false}}] run function player:show_text/sneak_menu/data/status
+execute positioned -65 15 28 align xyz if entity @s[dx=0] run advancement grant @s only player:block_interact/press trading_show_status
 ### 交易島の現在の攻略率表示
-execute positioned -63 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={trading_show_conquer=false}}] run function player_manager:show_text/sneak_menu/show_world_info/all
-execute positioned -63 15 28 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press trading_show_conquer
+execute positioned -63 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={player:block_interact/press={trading_show_conquer=false}}] run function player:show_text/sneak_menu/show_world_info/all
+execute positioned -63 15 28 align xyz if entity @s[dx=0] run advancement grant @s only player:block_interact/press trading_show_conquer
 
 ### コオリトカス
-execute positioned 203 147 -20 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={unlock_tocult=false}}] run function area:warp/overworld/unlock_tocult/
-execute positioned 203 147 -20 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press unlock_tocult
+execute positioned 203 147 -20 align xyz if entity @s[dx=0] if entity @s[advancements={player:block_interact/press={unlock_tocult=false}}] run function area:warp/overworld/unlock_tocult/
+execute positioned 203 147 -20 align xyz if entity @s[dx=0] run advancement grant @s only player:block_interact/press unlock_tocult
 
 ### 新ディメ
-execute positioned -77 263 -84 align xyz if entity @s[dx=0] if entity @s[advancements={player_manager:block_interact/press={new_dimension=false}}] run function area:dimension/new_dimension/description
-execute positioned -77 263 -84 align xyz if entity @s[dx=0] run advancement grant @s only player_manager:block_interact/press new_dimension
+execute positioned -77 263 -84 align xyz if entity @s[dx=0] if entity @s[advancements={player:block_interact/press={new_dimension=false}}] run function area:dimension/new_dimension/description
+execute positioned -77 263 -84 align xyz if entity @s[dx=0] run advancement grant @s only player:block_interact/press new_dimension

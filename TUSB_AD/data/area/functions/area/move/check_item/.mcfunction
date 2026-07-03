@@ -10,19 +10,19 @@ tag @s[tag=IgnoreEnderChest] remove IgnoreEnderChest
 ### テーブルマウンテンに移動した時
 # 島攻略検知
 execute store result score _ TUSB run data get storage core: conquer.count.total
-execute unless score _ TUSB matches 15.. run tag @s[scores={AreaChangeFlag=11},predicate=player_manager:player] add NotCaptureIsland
-execute unless score _ TUSB matches 15.. run tellraw @s[scores={AreaChangeFlag=11},tag=NotCaptureIsland,predicate=player_manager:player] {"text": "１５島の攻略が必要です！"}
+execute unless score _ TUSB matches 15.. run tag @s[scores={AreaChangeFlag=11},predicate=player:player] add NotCaptureIsland
+execute unless score _ TUSB matches 15.. run tellraw @s[scores={AreaChangeFlag=11},tag=NotCaptureIsland,predicate=player:player] {"text": "１５島の攻略が必要です！"}
 
 # アイテム検知
-execute if data entity @s Inventory[0] run tag @s[scores={AreaChangeFlag=11},predicate=player_manager:player] add BringItemError
-execute if data entity @s EnderItems[0] run tag @s[scores={AreaChangeFlag=11},predicate=player_manager:player] add BringItemError
+execute if data entity @s Inventory[0] run tag @s[scores={AreaChangeFlag=11},predicate=player:player] add BringItemError
+execute if data entity @s EnderItems[0] run tag @s[scores={AreaChangeFlag=11},predicate=player:player] add BringItemError
 
 tellraw @s[scores={AreaChangeFlag=11},tag=BringItemError] [{"text":"エンダーチェスト内を含む","color":"red","bold":true},"\n",{"text":"アイテム持ち込み禁止エリアです！","color":"red","bold":true}]
 tp @s[scores={AreaChangeFlag=11},tag=BringItemError] -139 15 39 270 0
 tp @s[scores={AreaChangeFlag=11},tag=NotCaptureIsland] -139 15 39 270 0
 
 ### ネザーアスレチックに移動した時
-execute if data entity @s Inventory[0] run tag @s[scores={AreaChangeFlag=-90},predicate=player_manager:has_inventory,predicate=player_manager:player] add BringItemError
+execute if data entity @s Inventory[0] run tag @s[scores={AreaChangeFlag=-90},predicate=player:has_inventory,predicate=player:player] add BringItemError
 tp @s[scores={AreaChangeFlag=-90},tag=BringItemError] 1.0 22.5 27.5 180 -20
 tellraw @s[scores={AreaChangeFlag=-90},tag=BringItemError] {"text":"アイテム持ち込み禁止エリアです！","color":"red","bold":true}
 

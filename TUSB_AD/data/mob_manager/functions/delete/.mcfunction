@@ -10,7 +10,7 @@
 # 時間削除処理(CooldownRequired / PortalCooldown=0)
     tag @e[tag=CooldownRequired,predicate=lib:is_cooldown_0] add Garbage
 # 自然スライム系削除
-    execute as @e[type=#lib:slimey] if predicate player_manager:effects/has_absorptionamount run function mob_manager:delete/slimey/
+    execute as @e[type=#lib:slimey] if predicate player:effects/has_absorptionamount run function mob_manager:delete/slimey/
 
 # 不要エンティティ削除
     execute as @e[tag=Garbage] run function mob_manager:delete/kill

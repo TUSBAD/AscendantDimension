@@ -4,12 +4,12 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### スニーク
-execute if predicate player_manager:is_sneaking run function job:mp/check/sneak
+execute if predicate player:is_sneaking run function job:mp/check/sneak
 
 ### 空腹ペナルティ
 scoreboard players set _ TUSB 5
-execute if entity @s[predicate=player_manager:effects/is_hunger] run scoreboard players operation @s MPConsumption *= _ TUSB
-execute if entity @s[predicate=player_manager:effects/is_hunger] run scoreboard players set @s MPAcceleration -1200
+execute if entity @s[predicate=player:effects/is_hunger] run scoreboard players operation @s MPConsumption *= _ TUSB
+execute if entity @s[predicate=player:effects/is_hunger] run scoreboard players set @s MPAcceleration -1200
 
 ### エナジーセーブ
 execute if entity @s[tag=EnergySave] run function job:mp/check/energy_save

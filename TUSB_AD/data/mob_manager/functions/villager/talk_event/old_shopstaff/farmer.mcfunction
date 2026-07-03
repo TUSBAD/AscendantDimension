@@ -7,4 +7,4 @@
 tag @s add Farmer
 tag @s add NPC
 
-advancement grant @a[tag=TalkingToOldStaff] only player_manager:talk_event farmer
+advancement grant @a[tag=TalkingToOldStaff] only player:talk_event farmer

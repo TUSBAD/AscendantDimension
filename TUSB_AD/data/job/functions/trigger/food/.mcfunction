@@ -2,7 +2,7 @@
 #
 # 食事した時
 #
-# @within function player_manager:tick
+# @within function player:tick
 
 ### 食事トリガー前処理
 scoreboard players operation @s LastFoodLevel -= @s FoodLevel

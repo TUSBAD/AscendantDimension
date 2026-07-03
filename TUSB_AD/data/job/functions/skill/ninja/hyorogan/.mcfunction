@@ -7,4 +7,4 @@ playsound minecraft:entity.player.burp master @a[distance=..16] ~ ~ ~ 1 0.8 0
 particle minecraft:item minecraft:mushroom_stew ~ ~1.35 ~ 0.01 0.1 0.01 0.05 30 force @a[distance=..64]
 
 effect give @s minecraft:saturation 1 1 true
-function player_manager:effect/clear_bad_effect
+function player:effect/clear_bad_effect

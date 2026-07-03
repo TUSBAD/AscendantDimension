@@ -6,5 +6,5 @@
 playsound block.portal.trigger master @a[distance=..16] ~ ~100 ~ 0.1 2 0.4
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute unless predicate player_manager:is_sneaking run function job:skill/black_mage/mana_refresh/apply
-execute if predicate player_manager:is_sneaking as @a[distance=..15] at @s run function job:skill/black_mage/mana_refresh/apply
+execute unless predicate player:is_sneaking run function job:skill/black_mage/mana_refresh/apply
+execute if predicate player:is_sneaking as @a[distance=..15] at @s run function job:skill/black_mage/mana_refresh/apply

@@ -1,4 +1,4 @@
-#> player_manager:volcano/eruption
+#> player:volcano/eruption
 # ネザーでネザーラックを壊すと噴火
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

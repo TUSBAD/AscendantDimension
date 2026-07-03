@@ -6,5 +6,5 @@
 playsound minecraft:block.anvil.use master @a[distance=..16] ~ ~ ~ 1 1.4 0
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute unless predicate player_manager:is_sneaking run function job:skill/knight/phalanx/apply
-execute if predicate player_manager:is_sneaking run function job:skill/knight/phalanx/sneaking
+execute unless predicate player:is_sneaking run function job:skill/knight/phalanx/apply
+execute if predicate player:is_sneaking run function job:skill/knight/phalanx/sneaking

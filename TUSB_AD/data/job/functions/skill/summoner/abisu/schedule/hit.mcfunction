@@ -10,7 +10,7 @@ playsound item.totem.use master @a[distance=..32] ~ ~ ~ 0.1 2 0
 playsound entity.lightning_bolt.impact master @a[distance=..32] ~ ~ ~ 0.3 0 0
 effect give @a[distance=..20] haste 5 2 true
 effect give @a[distance=..20] strength 5 11 true
-execute as @a[distance=..20] run function player_manager:effect/clear_bad_effect
+execute as @a[distance=..20] run function player:effect/clear_bad_effect
 ### ダメージを与える
 function score_damage:api/attack
 

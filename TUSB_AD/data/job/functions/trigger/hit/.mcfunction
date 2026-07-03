@@ -2,7 +2,7 @@
 #
 # 近接攻撃をした時
 #
-# @within function player_manager:trigger/tick
+# @within function player:trigger/tick
 
 ## 剣士
 # 流し斬り

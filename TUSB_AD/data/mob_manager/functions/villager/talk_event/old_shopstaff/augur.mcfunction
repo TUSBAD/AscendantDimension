@@ -7,4 +7,4 @@
 tag @s add Augur
 tag @s add NPC
 
-advancement grant @a[tag=TalkingToOldStaff] only player_manager:talk_event augur
+advancement grant @a[tag=TalkingToOldStaff] only player:talk_event augur

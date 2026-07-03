@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### もし職業があれば、現在のスキル設定を表示
-execute as @a[tag=LoginMessage,scores={Job=1..}] run function player_manager:show_text/skill
+execute as @a[tag=LoginMessage,scores={Job=1..}] run function player:show_text/skill
 ### 現在の難易度を表示
 ### TODO:難易度部分をクリックしたら難易度の詳細を表示するようにしたい。
 execute if data storage core: difficult{area:"picnic"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"ピクニック","color":"#80ff00"}]

@@ -9,6 +9,6 @@ scoreboard players operation _ TUSB -= _ ReturnTimer
 
 title @s actionbar [{"text":"スニークするとルーラをキャンセルします。","color":"dark_aqua","bold":true}," =",{"score":{"name":"_","objective":"TUSB"}},"="]
 ### スニークしていたらキャンセル
-execute if predicate player_manager:is_sneaking run scoreboard players set @s ReturnTimer 0
+execute if predicate player:is_sneaking run scoreboard players set @s ReturnTimer 0
 ### 死んでいたらキャンセル
 execute if score @s HP matches ..0 run scoreboard players set @s ReturnTimer 0

@@ -19,7 +19,7 @@ function core:set_difficulty/
 
 
 ## TODO
-# setblock -2722 90 -393 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Color:"black",GlowingText:0b,Text1:'{"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"/function player_manager:mp/reset_display"},"text":"=注意="}',Text2:'{"bold":true,"color":"gold","text":"MP表示を整理します"}',Text3:'{"bold":true,"color":"gold","text":"非ﾛｸﾞｲﾝﾌﾟﾚｲﾔｰのMPは"}',Text4:'{"bold":true,"color":"gold","text":"はリセットされます"}'}
+# setblock -2722 90 -393 minecraft:oak_wall_sign[facing=south,waterlogged=false]{Color:"black",GlowingText:0b,Text1:'{"bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"/function player:mp/reset_display"},"text":"=注意="}',Text2:'{"bold":true,"color":"gold","text":"MP表示を整理します"}',Text3:'{"bold":true,"color":"gold","text":"非ﾛｸﾞｲﾝﾌﾟﾚｲﾔｰのMPは"}',Text4:'{"bold":true,"color":"gold","text":"はリセットされます"}'}
 
 # setblock -2738 89 -375 minecraft:oak_sign[rotation=12,waterlogged=false]{Color:"black",GlowingText:0b,Text1:'{"clickEvent":{"action":"run_command","value":"/function job:display/mode/a"},"text":""}',Text2:'{"bold":true,"color":"white","text":"モードチェンジ"}',Text3:'{"bold":true,"color":"light_purple","text":"-ルビー-"}',Text4:'""'}
 

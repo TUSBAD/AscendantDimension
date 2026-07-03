@@ -1,0 +1,34 @@
+#> player:custom_item/kyoumei/
+#
+#
+#
+# @within function player:death/item_drop/
+
+# 共鳴アイテムを残す
+    data modify storage item: Inventory set from storage api: Inventory
+    function player:custom_item/kyoumei/loop
+
+# セッション開ける
+    function lib:tsb/array/session/open
+
+# 下ごしらえ
+    data modify storage lib: Array set from storage item: Kyoumei
+
+# 一回目
+    function lib:tsb/array/packing_chest
+    data modify block 3500 0 3500 Items set from storage lib: Package
+    loot give @s mine 3500 0 3500 debug_stick
+# リセット
+    data remove storage lib: Package
+
+# 二回目
+    function lib:tsb/array/packing_chest
+    data modify block 3500 0 3500 Items set from storage lib: Package
+    loot give @s mine 3500 0 3500 debug_stick
+
+# リセット
+    function lib:tsb/array/session/close
+
+# 削除
+    data remove storage item: Inventory
+    data remove storage item: Kyoumei

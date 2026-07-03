@@ -7,4 +7,4 @@
 tag @s add Pastor
 tag @s add NPC
 
-advancement grant @a[tag=TalkingToOldStaff] only player_manager:talk_event pastor
+advancement grant @a[tag=TalkingToOldStaff] only player:talk_event pastor

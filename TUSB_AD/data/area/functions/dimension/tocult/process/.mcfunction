@@ -20,7 +20,7 @@ tellraw @s[tag=ISFUnreached] [{"text":"[辺境調査員] おや？ 他の島か�
 
 ### 水の中での松明消費判定
 execute as @s[tag=RemoveTorch] at @s if block ~ ~0.5 ~ minecraft:water run tag @s add RemoveTorchInWater
-tag @s[tag=RemoveTorchInWater,predicate=player_manager:on_boat] remove RemoveTorchInWater
+tag @s[tag=RemoveTorchInWater,predicate=player:on_boat] remove RemoveTorchInWater
 ### 松明消費
 execute if entity @s[tag=RemoveTorch,tag=!RemoveTorchInWater] run function area:dimension/tocult/process/out_of_water
 execute if entity @s[tag=RemoveTorch,tag=RemoveTorchInWater] run function area:dimension/tocult/process/in_water

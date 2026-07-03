@@ -5,5 +5,5 @@
 
 playsound entity.rabbit.hurt master @a[distance=..16] ~ ~ ~ 1 2 0
 
-execute unless predicate player_manager:is_sneaking run function job:skill/white_mage/tingle/apply
-execute if predicate player_manager:is_sneaking as @a[distance=..15] at @s run function job:skill/white_mage/tingle/apply
+execute unless predicate player:is_sneaking run function job:skill/white_mage/tingle/apply
+execute if predicate player:is_sneaking as @a[distance=..15] at @s run function job:skill/white_mage/tingle/apply

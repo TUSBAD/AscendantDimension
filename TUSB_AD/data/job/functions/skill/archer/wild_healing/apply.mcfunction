@@ -16,6 +16,6 @@ scoreboard players operation @s HealCount += _ TUSB
 scoreboard players operation @s HealCount += _ TUSB
 
 ### レベル２なら状態異常回復
-execute if score @s CurrentMode matches 3221..3229 run function player_manager:effect/clear_bad_effect
+execute if score @s CurrentMode matches 3221..3229 run function player:effect/clear_bad_effect
 ### リメイク：レベル２だったら追加でリジェネレーション 💗８つ
 execute if score @s CurrentMode matches 3221..3229 run effect give @s regeneration 20 1

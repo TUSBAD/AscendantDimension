@@ -11,7 +11,7 @@ particle minecraft:portal ~ ~-0.5 ~ 0 0 0 3 20 force
 
 ### 吸い込み効果 なんかめっちゃ目が回る感じになる！
 execute as @e[distance=..10,type=#lib:mob] unless predicate lib:is_invulnerable if predicate job:enemy_or_boss_team rotated as @s run tp @s ~ ~1 ~ ~6 ~
-execute as @a[distance=..10] if predicate player_manager:player rotated as @s run tp @s ~ ~1 ~ ~6 ~
+execute as @a[distance=..10] if predicate player:player rotated as @s run tp @s ~ ~1 ~ ~6 ~
 
 ### ダメージ処理
 data modify storage score_damage: Argument set value {Damage:20.00}

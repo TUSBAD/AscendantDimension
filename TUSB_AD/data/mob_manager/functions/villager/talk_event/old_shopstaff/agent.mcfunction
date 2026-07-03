@@ -7,4 +7,4 @@
 tag @s add Agent
 tag @s add NPC
 
-advancement grant @a[tag=TalkingToOldStaff] only player_manager:talk_event agent
+advancement grant @a[tag=TalkingToOldStaff] only player:talk_event agent

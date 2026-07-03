@@ -72,7 +72,7 @@
         data modify storage asset: mob.ArmorItems set value [{},{},{},{}]
     # 武器
         # メインハンド
-            data modify storage asset: mob.HandItems[0] set value {id:"bow",Count:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:6s},{id:"minecraft:flame",lvl:3s}]}} 
+            data modify storage asset: mob.HandItems[0] set value {id:"bow",Count:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:6s},{id:"minecraft:flame",lvl:3s}]}}
         # オフハンド
             data modify storage asset: mob.HandItems[1] set value {id:"tipped_arrow",Count:1b,tag:{custom_potion_effects:[{id:"minecraft:blindness",amplifier:0b,duration:20},{id:"minecraft:weakness",amplifier:10b,duration:400}]}}
     # 防具
@@ -108,7 +108,7 @@
         #{Name:resistance,id:11} 耐性 100-lv*20%
         #{Name:fire_resistance,id:12} 火炎耐性
         #{Name:water_breathing,id:13} 水中呼吸
-        #{Name:invisibility,id:14} 透明化 player_manager:invisible
+        #{Name:invisibility,id:14} 透明化 player:invisible
         #{Name:blindness,id:15} 盲目
         #{Name:night_vision,id:16} 暗視
         #{Name:hunger,id:17} 空腹

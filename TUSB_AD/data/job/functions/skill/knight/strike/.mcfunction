@@ -6,5 +6,5 @@
 playsound entity.blaze.death master @a[distance=..16] ~ ~ ~ 1 2 0
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute unless predicate player_manager:is_sneaking run function job:skill/knight/strike/apply
-execute if predicate player_manager:is_sneaking as @a[distance=..15] at @s run function job:skill/knight/strike/apply
+execute unless predicate player:is_sneaking run function job:skill/knight/strike/apply
+execute if predicate player:is_sneaking as @a[distance=..15] at @s run function job:skill/knight/strike/apply
