@@ -8,7 +8,7 @@ tellraw @a[distance=..64] ["",{"selector":"@s","color":"white","bold":true},{"tr
 
 effect give @e[tag=king,limit=1] minecraft:instant_damage 1200 10 true
 
-effect give @a[predicate=!player:invulnerable_player,distance=..30] minecraft:invisibility 1 250 true
+effect give @a[predicate=!entity:invulnerable_player,distance=..30] minecraft:invisibility 1 250 true
 
 effect clear @a[distance=..64] minecraft:resistance
 

@@ -12,7 +12,7 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "player:player"
+        "name": "entity:player"
       }
 
   ]

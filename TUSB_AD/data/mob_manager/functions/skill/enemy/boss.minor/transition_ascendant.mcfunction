@@ -6,7 +6,7 @@
 
 tellraw @a[distance=..32] ["",{"selector":"@s","bold":true},{"translate":" は","color":"white","bold":true},{"translate":" %1$s を唱えた！","color":"white","bold":true,"with":[{"translate":"§5§lトランジッション・§4§lアセンダント§r","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"周囲80mのプレイヤーを自身にTPし、耐性を削除する。","color":"red"}}}]}]
 
-tp @a[distance=..80,predicate=!player:invulnerable_player] @s
+tp @a[distance=..80,predicate=!entity:invulnerable_player] @s
 
 effect clear @a[distance=..4] minecraft:resistance
 
