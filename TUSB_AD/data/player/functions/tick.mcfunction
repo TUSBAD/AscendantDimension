@@ -65,14 +65,14 @@
     execute if entity @s[predicate=player:effects/is_invisibility] run function player:effect/invisible/
 
 #> スキルトリガー
-    execute if entity @s[scores={UseSnowball=1..}] run function job:trigger/snowball/
-    execute if entity @s[scores={Deaths=1..}] run function job:trigger/deaths/
-    execute if entity @s[scores={UseBow=1..}] run function job:trigger/bow/
-    execute if entity @s[scores={FoodLevel=1..}] run function job:trigger/food/
-    execute if entity @s[scores={UseCarrotStick=1..}] run function job:trigger/carrot_stick/
-    execute if entity @s[scores={UseFungusStick=1..}] run function job:trigger/fungus_stick/
-    execute if entity @s[advancements={mob_manager:player_hurt_entity={melee_attack=true}}] run function job:trigger/hit/
-    execute if entity @s[scores={Jump=1..}] run function job:trigger/jump/
+    execute if entity @s[scores={UseSnowball=1..}] run function skill:trigger/snowball/
+    execute if entity @s[scores={Deaths=1..}] run function skill:trigger/deaths/
+    execute if entity @s[scores={UseBow=1..}] run function skill:trigger/bow/
+    execute if entity @s[scores={FoodLevel=1..}] run function skill:trigger/food/
+    execute if entity @s[scores={UseCarrotStick=1..}] run function skill:trigger/carrot_stick/
+    execute if entity @s[scores={UseFungusStick=1..}] run function skill:trigger/fungus_stick/
+    execute if entity @s[advancements={mob_manager:player_hurt_entity={melee_attack=true}}] run function skill:trigger/hit/
+    execute if entity @s[scores={Jump=1..}] run function skill:trigger/jump/
     execute if entity @s[scores={kill=1..}] run function player:kill/pray/
     execute if entity @s[scores={SneakingTime=1..}] run function player:sneak/
     execute if entity @s[scores={SneakFrequency=1..}] run function player:sneak/frequency
@@ -84,7 +84,7 @@
     execute if entity @s[scores={ModeChangeB=0..}] run function job:change/mode/b
 
 # スキル
-    function job:tick
+    function skill:tick
 
 # tick/trigger
     function player:show_text/trigger/
