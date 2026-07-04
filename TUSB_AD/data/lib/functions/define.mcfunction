@@ -35,7 +35,7 @@
 #define storage player:
 
 #> エフェクト用ストレージ
-#define storage effects:
+#define storage effect:
 
 #> アイテム用ストレージ
 #define storage item:

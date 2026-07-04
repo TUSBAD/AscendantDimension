@@ -513,6 +513,6 @@
         ]
     ],
     "rewards": {
-        "function": "effects:invisible/trigger"
+        "function": "effect:invisible/trigger"
     }
 }

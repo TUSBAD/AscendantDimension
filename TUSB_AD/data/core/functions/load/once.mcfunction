@@ -375,5 +375,5 @@ scoreboard objectives add LogRemoveTime dummy {"text": "Logのtick"}
 function core:load/init_score
 
 #> Function実行
-function core:settings/too_bad_effects
-function core:settings/capture_reset
+function settings:effect/too_bad_effects
+function settings:area/capture_reset

@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "effects:shorten_curse"
+        "function": "effect:shorten_curse"
     }
-} 
+}

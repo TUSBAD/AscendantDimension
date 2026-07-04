@@ -1,4 +1,4 @@
-#> effects:status/hunger
+#> effect:status/hunger
 #
 # 空腹処理
 #

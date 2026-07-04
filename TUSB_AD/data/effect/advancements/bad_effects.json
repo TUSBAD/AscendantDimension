@@ -102,7 +102,24 @@
               "max": 126
             }
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "mining_fatigue": {
+                    "amplifier": 2,
+                    "duration": 6000
+                  }
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "slowness": {
@@ -137,9 +154,19 @@
     }
   },
   "requirements": [
-    ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness","darkness"]
+    [
+      "nausea",
+      "poison",
+      "weakness",
+      "wither",
+      "blindness",
+      "hunger",
+      "mining_fatigue",
+      "slowness",
+      "darkness"
+    ]
   ],
   "rewards": {
-    "function": "effects:bad_effects"
+    "function": "effect:bad_effects"
   }
 }

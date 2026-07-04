@@ -1,4 +1,4 @@
-#> effects:status/modify_max
+#> effect:status/modify_max
 #
 # 体力回復
 #
