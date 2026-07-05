@@ -15,20 +15,23 @@
     $tellraw @a [{"storage":"core:","nbt":"Prefix.SUCCESS"},{"translate":"難易度を%1$sに変更しました。","with":[{"translate": "$(text)","color": "$(color)"}]}]
 
 # 共通処理
-    # 選択用エンティティ召喚不可
-        data modify storage core: difficult.selecting set value true
+# 選択用エンティティ召喚不可
+    data modify storage core: difficult.selecting set value true
 
-    # 難易度選択済み
-    # ハードコア選択不可用フラグ
-        data modify storage core: difficult.selected set value true
+# 難易度選択済み
+# ハードコア選択不可用フラグ
+    data modify storage core: difficult.selected set value true
 
-    # 職業島の選択用エンティティを削除
-    # テキストディスプレイはちょっと演出付き
-        data merge entity @e[type=text_display,tag=DifficultSelect,distance=..20,limit=1] {transformation:{translation:[12f,-9f,0f],scale:[0.1f,0.1f,0.1f]},start_interpolation:2,}
-        schedule function core:difficulty/select/end 13t replace
+# 職業島の選択用エンティティを削除
+# テキストディスプレイはちょっと演出付き
+    data merge entity @e[type=text_display,tag=DifficultSelect,distance=..20,limit=1] {transformation:{translation:[12f,-9f,0f],scale:[0.1f,0.1f,0.1f]},start_interpolation:2,}
+    schedule function core:difficulty/select/end 13t replace
 
-    # 難易度変更演出
-        playsound minecraft:item.firecharge.use player @a ~ ~ ~ 1 0.75
+# 難易度変更演出
+    function makeup:core/difficulty/change/apply.m
+
+# 状態異常耐性の減少量更新
+    function settings:effect/resist
 
 # リセット
     data remove storage core: difficult.world.change

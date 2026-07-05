@@ -11,3 +11,5 @@
     execute as @s run function score_damage:api/attack
 # 引数を明示的にリセット
     data remove storage score_damage: Argument
+
+scoreboard players reset @s Doom

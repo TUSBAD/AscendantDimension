@@ -35,13 +35,8 @@ execute if entity @s[advancements={effect:invisible={goldwater=true}}] run funct
 ### リコール Lv30
 execute if entity @s[advancements={effect:invisible={recallpotion=true}}] run function effect:recall_potion/give
 
-### 死の宣告 Lv70
-execute if entity @s[advancements={effect:invisible={doom=true}},tag=!Doom] run function effect:doom/give
-
-### 強化死の宣告 Lv71
-
 ## Lv 72~79 特殊デバフ解除
-execute if entity @s[advancements={effect:invisible={anti_doom=true}}] if score @s DoomCount matches 0.. run function effect:doom/escape
+execute if entity @s[advancements={effect:invisible={anti_doom=true}}] if score @s Doom matches 0.. run function effect:doom/clear
 execute if entity @s[advancements={effect:invisible={anti_doom=true}}] if entity @s[tag=Curse] run function effect:curse/cure
 execute if entity @s[advancements={effect:invisible={anti_burn=true}}] if score @s BurnCount matches 0.. run function effect:burn/cure
 execute if entity @s[advancements={effect:invisible={anti_freeze=true}}] if entity @s[tag=Freeze] run function effect:freeze/cure
@@ -52,12 +47,6 @@ execute if entity @s[advancements={effect:invisible={anti_virus=true}}] if score
 execute if entity @s[advancements={effect:invisible={anti_tnt=true}}] if score @s TntCount matches 0.. run function effect:tnt/cure
 execute if entity @s[advancements={effect:invisible={anti_pale=true}}] if score @s PaleLevel matches 0.. run function effect:pale/cure
 
-### 致死の宣告 Lv110
-execute if entity @s[advancements={effect:invisible={doom_ex=true}},tag=!DoomEx] run function effect:doom_ex/give
-### 即死の宣告 Lv115
-execute if entity @s[advancements={effect:invisible={death_doom=true}},tag=!DeathDoom] run function effect:death_doom/give
-### 魔力浸食 Lv120
-execute if entity @s[advancements={effect:invisible={mana_erosion=true}},tag=!ManaErosion] run function effect:mana_erosion/give
 
 ## Lv 100 温泉入浴
 execute if entity @s[advancements={effect:invisible={hot_spring=true}}] run function effect:hot_spring/apply

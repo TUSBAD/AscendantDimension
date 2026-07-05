@@ -1,8 +1,8 @@
-#> effects:resist
+#> effect:resist
 #
 # デバフへの抵抗
 #
-# @within function effects:invisible/
+# @within function effect:invisible/
 
 execute store result score @s ResistEffects run data get entity @s AbsorptionAmount
 $scoreboard players set _ ResistEffects $(value)
