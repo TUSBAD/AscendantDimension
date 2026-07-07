@@ -8,8 +8,14 @@
 # -> 10秒処理
 execute if score #Seconds Count matches 0 run function player:ten_seconds
 
-# 死の宣告
-    execute if entity @s[tag=Doom] run function player:effect/invisible/doom/default
+###特殊デバフ処理
+execute if entity @s[scores={BurnCount=0..}] run function effect:burn/tick
+execute if entity @s[scores={ConfuseCount=1..}] run function effect:confuse/tick
+execute if entity @s[scores={Doom=1..}] run function effect:doom/process
+execute if entity @s[scores={PalsyLevel=1..}] run function effect:palsy/tick
+execute if entity @s[scores={TntCount=0..}] if block ~ ~ ~ water run function effect:tnt/cure
+execute if entity @s[scores={VirusCount=1..}] run function effect:virus/tick
+execute if entity @s[scores={RevivalSicknessTimer=1..}] run function effect:revival_sickness/second
 
 # 嫌な予感を実行する
 #    execute if entity @s[predicate=area:area/cause_area,tag=CauseEvent] if score #Seconds Count matches 0 run function area:event/rank/

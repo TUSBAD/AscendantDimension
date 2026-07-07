@@ -37,4 +37,4 @@ execute if entity @s[advancements={effect:invisible={pale=true}}] unless score @
 execute if entity @s[advancements={effect:invisible={debility=true}}] unless predicate effect:resist run function effect:debility/apply
 execute if entity @s[advancements={effect:invisible={debility=true}}] if predicate effect:resist run function effect:resist with storage effect: resist.too_bad_effect.debility
 
-execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run function skill:act/white_mage/clear/cure/level4
+execute if entity @a[distance=..32,scores={Job=4}] run function skill:act/white_mage/clear/cure/level4
