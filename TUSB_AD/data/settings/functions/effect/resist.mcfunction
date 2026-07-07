@@ -6,7 +6,7 @@
 
 data remove storage effect: resist
 
-execute if data storage core: difficult{world:"picnic"} run data modify storage effect: resist set value {\
+execute if data storage core: difficult.world{level:"picnic"} run data modify storage effect: resist set value {\
 bad_effect:{\
 nausea:{value:1},\
 poison:{value:3},\
@@ -38,7 +38,7 @@ debility:{value:32},\
 }\
 }
 
-execute if data storage core: difficult{world:"casual"} run data modify storage effect: resist set value {\
+execute if data storage core: difficult.world{level:"casual"} run data modify storage effect: resist set value {\
 bad_effect:{\
 nausea:{value:1},\
 poison:{value:3},\
@@ -70,7 +70,7 @@ mana_erosion:{value:32},\
 }\
 }
 
-execute if data storage core: difficult{world:"another"} run data modify storage effect: resist set value {\
+execute if data storage core: difficult.world{level:"another"} run data modify storage effect: resist set value {\
 bad_effect:{\
 nausea:{value:1},\
 poison:{value:3},\
@@ -102,7 +102,7 @@ mana_erosion:{value:32},\
 }\
 }
 
-execute if data storage core: difficult{world:"nightmare"} run data modify storage effect: resist set value {\
+execute if data storage core: difficult.world{level:"nightmare"} run data modify storage effect: resist set value {\
 bad_effect:{\
 nausea:{value:1},\
 poison:{value:3},\

@@ -358,6 +358,24 @@ scoreboard objectives add Difficulty dummy {"text":"難易度保存スコア"}
 scoreboard objectives add DoomEx dummy {"text":"致死の宣告カウント","color":"#cc0000"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add Luck dummy {"text":"幸運"}
+scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
+scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
+scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
+scoreboard objectives add PaleLevel dummy {"text":"ペイルレベル"}
+scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
+scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
+scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
+scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
+scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
+scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add FreezeResistance dummy {"text":"凍結耐性"}
+scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
+scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
+scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
+scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
+scoreboard objectives add RevivalSicknessTimer dummy {"text":"復活酔いタイマー"}
+
 
 #> トリガー
 scoreboard objectives add ChangeJob trigger {"text":"職業変更トリガー"}
