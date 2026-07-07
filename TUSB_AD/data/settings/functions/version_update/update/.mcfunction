@@ -1,4 +1,4 @@
-#> main:version_update/update/
+#> settings:version_update/update/
 #アップデート
 data modify storage core: Version set from storage core: UpdatingVersion
 
