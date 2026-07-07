@@ -9,9 +9,9 @@
 
 # 変更点: bat spawnをgiveに
 
-execute if entity @s[tag=SignStand] run fill ~ ~ ~ ~ ~ ~ minecraft:white_wool replace #lib:accept_sign
+execute if entity @s[tag=SignStand] run fill ~ ~ ~ ~ ~ ~ minecraft:white_wool replace #block:accept_sign
 ## cond
-execute if entity @s[tag=PermanentStand] run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace #lib:accept_sign
+execute if entity @s[tag=PermanentStand] run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace #block:accept_sign
 execute if entity @s[tag=SignStand,y_rotation=0] positioned ~ ~1 ~ run setblock ~ ~ ~ minecraft:birch_sign[rotation=0] keep
 execute if entity @s[tag=SignStand,y_rotation=45] positioned ~ ~1 ~ run setblock ~ ~ ~ minecraft:birch_sign[rotation=2] keep
 execute if entity @s[tag=SignStand,y_rotation=90] positioned ~ ~1 ~ run setblock ~ ~ ~ minecraft:birch_sign[rotation=4] keep

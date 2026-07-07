@@ -12,9 +12,9 @@ execute if data storage item: {motion_y:true} run function player:custom_item/ar
 execute if entity @s[tag=SignStand,tag=OverOnly,predicate=!area:area/overworld] run function player:custom_item/armor_stand/error/warped
 
 ### 土台かスポナーを設置する空間がなければエラー
-execute if entity @s[tag=SignStand] unless block ~ ~ ~ #lib:accept_sign run function player:custom_item/armor_stand/error/shrunk
+execute if entity @s[tag=SignStand] unless block ~ ~ ~ #block:accept_sign run function player:custom_item/armor_stand/error/shrunk
 ### 看板を設置する空間がなければエラー
-execute if entity @s[tag=SignStand,tag=!SpawnerStand] unless block ~ ~1 ~ #lib:accept_sign run function player:custom_item/armor_stand/error/shrunk
+execute if entity @s[tag=SignStand,tag=!SpawnerStand] unless block ~ ~1 ~ #block:accept_sign run function player:custom_item/armor_stand/error/shrunk
 
 ### 有効な印板なら設置
 execute if entity @s[tag=SignStand] at @s run function player:custom_item/armor_stand/sign_stand

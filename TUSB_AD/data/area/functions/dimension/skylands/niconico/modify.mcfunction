@@ -6,7 +6,7 @@
 data merge block ~00 ~ ~00 {Command:"fill 107 40 3 107 41 3 minecraft:obsidian"}
 data merge block ~-1 ~ ~00 {Command:"fill 116 42 0 116 42 6 minecraft:netherrack replace minecraft:sea_lantern"}
 data merge block ~-2 ~ ~00 {Command:"fill 109 44 0 109 44 6 minecraft:air replace #minecraft:terracotta"}
-data merge block ~-3 ~ ~00 {Command:"fill 109 40 0 116 40 6 minecraft:red_carpet replace #lib:carpet"}
+data merge block ~-3 ~ ~00 {Command:"fill 109 40 0 116 40 6 minecraft:red_carpet replace #block:carpet"}
 data merge block ~-4 ~ ~00 {Command:"fill 113 40 0 113 40 6 minecraft:tnt replace minecraft:nether_quartz_ore"}
 data merge block ~-5 ~ ~00 {Command:"fill 108 41 3 108 39 3 minecraft:lava"}
 data merge block ~-6 ~ ~00 {Command:"clone 119 38 -2 119 43 8 107 37 -2 replace move"}

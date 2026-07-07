@@ -12,7 +12,7 @@
     execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft:slime_block if entity @p[distance=..65,gamemode=!spectator] run function area:dimension/purgatory/boss/attack_check
 
 # エンダーチェスト島のワープ
-    execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17] if predicate lib:no_passengers at @s if block ~ ~-1 ~ #lib:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
+    execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17] if predicate lib:no_passengers at @s if block ~ ~-1 ~ #block:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
 
 # ホッパー島のワープ
     execute positioned 177 39 -75 if entity @a[distance=..60,gamemode=!spectator] run function area:dimension/skylands/hopper/

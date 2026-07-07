@@ -6,7 +6,7 @@
 ### スタート
 ## 前の段階の
 execute as 0-0-4-0-4 at @s if block ~ ~ ~ minecraft:glass run fill -535 ~ ~ -495 ~1 ~41 minecraft:air
-execute as 0-0-4-0-4 at @s if block ~ ~ ~ #lib:stained_glass run execute as 0-0-4-0-4 at @s positioned -523 64 1324 run fill ~ ~ ~ ~3 ~17 ~3 minecraft:air
+execute as 0-0-4-0-4 at @s if block ~ ~ ~ #block:stained_glass run execute as 0-0-4-0-4 at @s positioned -523 64 1324 run fill ~ ~ ~ ~3 ~17 ~3 minecraft:air
 execute as 0-0-4-0-4 at @s run tp 0-0-4-0-4 ~ 54.5 ~
 
 ### スケジュール有効化

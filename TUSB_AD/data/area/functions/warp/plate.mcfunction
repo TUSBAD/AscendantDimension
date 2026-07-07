@@ -6,10 +6,10 @@
 data modify storage area: press set value false
 
 ### 木製以外の感圧板を踏んでる
-execute if block ~-0.238 ~0.75 ~-0.238 #lib:pressure_plate unless block ~-0.238 ~0.75 ~-0.238 #lib:pressure_plate[power=0] run data modify storage area: press set value true
-execute if block ~0.238 ~0.75 ~-0.238 #lib:pressure_plate unless block ~0.238 ~0.75 ~-0.238 #lib:pressure_plate[power=0] run data modify storage area: press set value true
-execute if block ~-0.238 ~0.75 ~0.238 #lib:pressure_plate unless block ~-0.238 ~0.75 ~0.238 #lib:pressure_plate[power=0] run data modify storage area: press set value true
-execute if block ~0.238 ~0.75 ~0.238 #lib:pressure_plate unless block ~0.238 ~0.75 ~0.238 #lib:pressure_plate[power=0] run data modify storage area: press set value true
+execute if block ~-0.238 ~0.75 ~-0.238 #block:pressure_plate unless block ~-0.238 ~0.75 ~-0.238 #block:pressure_plate[power=0] run data modify storage area: press set value true
+execute if block ~0.238 ~0.75 ~-0.238 #block:pressure_plate unless block ~0.238 ~0.75 ~-0.238 #block:pressure_plate[power=0] run data modify storage area: press set value true
+execute if block ~-0.238 ~0.75 ~0.238 #block:pressure_plate unless block ~-0.238 ~0.75 ~0.238 #block:pressure_plate[power=0] run data modify storage area: press set value true
+execute if block ~0.238 ~0.75 ~0.238 #block:pressure_plate unless block ~0.238 ~0.75 ~0.238 #block:pressure_plate[power=0] run data modify storage area: press set value true
 
 execute if data storage area: {press:true} run tag @s add PortalCheck
 
