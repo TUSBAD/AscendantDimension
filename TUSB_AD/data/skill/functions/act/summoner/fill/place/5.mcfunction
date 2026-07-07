@@ -10,16 +10,16 @@
 #### ＹＹ␣ＹＹ
 
 ### X -> Y
-execute rotated 0 0 if block ^1 ^ ^ #lib:air if block ^ ^ ^1 #lib:air if block ^1 ^ ^1 #lib:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
-execute rotated 90 0 if block ^1 ^ ^ #lib:air if block ^ ^ ^1 #lib:air if block ^1 ^ ^1 #lib:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
-execute rotated 180 0 if block ^1 ^ ^ #lib:air if block ^ ^ ^1 #lib:air if block ^1 ^ ^1 #lib:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
-execute rotated 270 0 if block ^1 ^ ^ #lib:air if block ^ ^ ^1 #lib:air if block ^1 ^ ^1 #lib:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
+execute rotated 0 0 if block ^1 ^ ^ #block:air if block ^ ^ ^1 #block:air if block ^1 ^ ^1 #block:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
+execute rotated 90 0 if block ^1 ^ ^ #block:air if block ^ ^ ^1 #block:air if block ^1 ^ ^1 #block:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
+execute rotated 180 0 if block ^1 ^ ^ #block:air if block ^ ^ ^1 #block:air if block ^1 ^ ^1 #block:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
+execute rotated 270 0 if block ^1 ^ ^ #block:air if block ^ ^ ^1 #block:air if block ^1 ^ ^1 #block:air positioned ^1.5 ^ ^1.5 run fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:white_wool keep
 
 ### Z
-execute rotated 0 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
-execute rotated 90 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
-execute rotated 180 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
-execute rotated 270 0 if block ^ ^ ^1 #lib:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
+execute rotated 0 0 if block ^ ^ ^1 #block:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
+execute rotated 90 0 if block ^ ^ ^1 #block:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
+execute rotated 180 0 if block ^ ^ ^1 #block:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
+execute rotated 270 0 if block ^ ^ ^1 #block:air positioned ^ ^ ^2 run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:white_wool keep
 
 ### 中央3x3
 function skill:act/summoner/fill/place/3
