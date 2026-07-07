@@ -41,6 +41,3 @@ execute if score #Seconds Count matches 0 run function mob_manager:ten_seconds
 
 # 奈落防止
     execute as @e[tag=AbyssWarp] at @s positioned ~-0.5 -70 ~-0.5 run tp @s[dy=-29] @p
-
-# エンティティ数カウント
-function mob_manager:count/

@@ -1,8 +1,8 @@
-#> player:kill/unbreakable_block
+#> block:unbreakable_block
 # 不可壊ブロックにめり込んだ時のダメージ
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
-
+#
+#
+# @within function player:tick
 playsound minecraft:ambient.basalt_deltas.mood master @a ~ ~ ~ 100 2 1
 # 軽減不可ダメージ
   # 引数を設定

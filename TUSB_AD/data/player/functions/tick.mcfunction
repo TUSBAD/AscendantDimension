@@ -101,7 +101,7 @@
     scoreboard players reset @s[scores={HPChanging=0..}] HPChanging
 
 # めり込み死
-    execute if entity @s[scores={LiveTime=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function player:kill/unbreakable_block
+    execute if entity @s[scores={LiveTime=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
 
 # 死亡トリガー TODO
     scoreboard players reset @s[scores={Deaths=1..}] Deaths
