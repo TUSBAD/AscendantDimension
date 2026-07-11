@@ -7,6 +7,16 @@
 # -> 1秒処理
 execute if score #Ticks Count matches 0 run function entity:one_second
 
+### エンティティ初期化
+execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
+
+# 飛翔状態の確認とタイマー移行
+execute as @e[type=#entity:has_in_ground] run function entity:has_in_ground/transfer_check
+
+### エンティティPortalCooldownチェック
+execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown
+execute as @e[type=#entity:has_in_ground,tag=CooldownRequired,tag=!FlyingObject,nbt={life:1159s,inGround:true}] at @s run function entity:cooldown
+
 # TypeCheck 新しくでてきた敵に色々設定するやつ
     execute as @e[type=!#lib:ignore_type_check,type=!area_effect_cloud,tag=!TypeChecked] at @s run function mob_manager:entity/type_check
 

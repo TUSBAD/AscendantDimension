@@ -1,13 +1,88 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "location": {
-      "position": {
-        "y": {
-          "min": -100
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "area:under_0"
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "y": {
+                "min": -100
+              }
+            }
+          }
         }
       }
-    }
+    ]
+  },
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "y": 300
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "area:under_336"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "area:under_min656"
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "y": {
+                "min": -700
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "area:under_min336"
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "y": {
+                "min": -400
+              }
+            }
+          }
+        }
+      }
+    ]
   }
-}
+]

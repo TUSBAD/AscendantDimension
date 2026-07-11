@@ -27,13 +27,6 @@ scoreboard objectives add TUSB dummy
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
-scoreboard objectives add HP dummy {"text": "HP","color": "#ff0053","bold": true}
-scoreboard objectives add HPChanging health "HP変化フラグ"
-scoreboard objectives add FoodLevel food {"text":"満腹度"}
-scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
-scoreboard objectives add Hunger dummy "死亡時調整満腹度"
-scoreboard objectives add Armor armor "アーマーポイント"
-scoreboard objectives add HPMax dummy "最大HP"
 
 scoreboard objectives add HealCount dummy "HP回復量"
 ## なくせるかも？
@@ -43,15 +36,6 @@ scoreboard objectives add TutorialRead dummy "チュートリアル読んだフ�
 scoreboard objectives add TutorialReading dummy "チュートリアル読んでるフラグ"
 scoreboard objectives add Drop minecraft.custom:minecraft.drop
 
-### MP
-scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
-scoreboard objectives add MPMax dummy "最大MP"
-scoreboard objectives add MPMaxFlag dummy "MP回復済フラグ"
-### MP回復タイミング
-scoreboard objectives add MPConsumption dummy "MP消費量"
-scoreboard objectives add MPRecovery dummy "MP回復量"
-scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
-scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 
 ### 乱数
 scoreboard objectives add Random dummy "乱数"
@@ -76,7 +60,7 @@ scoreboard objectives add TotalXp dummy "合計経験値量"
 scoreboard players set #Global TotalXp 0
 
 ### 各ジョブのレベルと残り経験値
-scoreboard objectives add Level dummy "レベル"
+
 
 ### 即時スキル(すぐ効果がでるスキル)
 scoreboard objectives add InstantSkillA dummy "即時スキルA"
@@ -351,9 +335,33 @@ data modify storage core: Prefix.FAILED set value "§7FAILED >> §r"
 data modify storage core: Prefix.ERROR set value "§cERROR >> §r"
 data modify storage core: Prefix.CRIT set value "§4CRITICAL >> §r"
 
-#> 変数スコア
+#> 計算スコア
 scoreboard objectives add __ dummy {"text":"一時変数 その2"}
 scoreboard objectives add Calc dummy {"text":"計算変数"}
+scoreboard objectives add ArrowMotionX dummy {"text":"矢の速度 X"}
+scoreboard objectives add ArrowMotionZ dummy {"text":"矢の速度 Z"}
+scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
+
+#> ステータススコア
+scoreboard objectives add HP dummy {"text": "HP","color": "#ff0053","bold": true}
+scoreboard objectives add HPChanging health {"text":"HP変化フラグ"}
+scoreboard objectives add FoodLevel food {"text":"満腹度"}
+scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
+scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
+scoreboard objectives add Armor armor {"text":"アーマーポイント"}
+scoreboard objectives add HPMax dummy {"text":"最大HP"}
+scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
+scoreboard objectives add MPMax dummy {"text":"最大MP"}
+scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
+scoreboard objectives add MPRecovery dummy {"text":"MP回復量"}
+scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
+scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
+scoreboard objectives add Defense dummy {"text":"物理防御力"}
+scoreboard objectives add Level dummy {"text":"レベル"}
+scoreboard objectives add Damage dummy {"text":"ダメージ"}
+
+#> 変数スコア
 scoreboard objectives add Difficulty dummy {"text":"難易度保存スコア"}
 scoreboard objectives add DoomEx dummy {"text":"致死の宣告カウント","color":"#cc0000"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
@@ -375,7 +383,6 @@ scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
 scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add RevivalSicknessTimer dummy {"text":"復活酔いタイマー"}
-
 
 #> トリガー
 scoreboard objectives add ChangeJob trigger {"text":"職業変更トリガー"}

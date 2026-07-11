@@ -1,0 +1,83 @@
+[
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/skyland"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/skyland_high"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/cloudia"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/gullivers_land"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/table_mountain"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/trade_island"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/library"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/tutorial"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/airport"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/nether_trial"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/extra_domain"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/imaginary"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/test"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/control"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/rev_skyland"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/ancient"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "area:area/another"
+            },
+                                                {
+                "condition": "minecraft:reference",
+                "name": "area:area/end"
+            },
+                                                {
+                "condition": "minecraft:reference",
+                "name": "area:area/nether"
+            }
+        ]
+    }
+]
