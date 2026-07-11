@@ -25,6 +25,6 @@ execute rotated as 0-0-1-0-1 rotated ~270 ~ positioned ^ ^ ^3 run particle minec
 
 
 scoreboard players operation _ KasapLevel = @s KasapLevel
-execute as @e[distance=..3,type=#lib:mob,tag=Enemy,tag=!InKasap,sort=random,limit=3] run function skill:act/archer/kasap_trap/schedule/apply
+execute as @e[distance=..3,type=#entity:mob,tag=Enemy,tag=!InKasap,sort=random,limit=3] run function skill:act/archer/kasap_trap/schedule/apply
 
 data modify storage skill: _ set value true

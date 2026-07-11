@@ -10,4 +10,4 @@ scoreboard players operation @s MPConsumption = @s CurrentModeCost
 function skill:mp/check/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
-execute if score _ ActivatedSkill matches 1200..1209 as @e[distance=..5,type=#lib:mob,tag=Enemy,sort=nearest,limit=1] if predicate skill:is_hurttime at @s run function skill:act/knight/nagashi_giri/apply
+execute if score _ ActivatedSkill matches 1200..1209 as @e[distance=..5,type=#entity:mob,tag=Enemy,sort=nearest,limit=1] if predicate skill:is_hurttime at @s run function skill:act/knight/nagashi_giri/apply

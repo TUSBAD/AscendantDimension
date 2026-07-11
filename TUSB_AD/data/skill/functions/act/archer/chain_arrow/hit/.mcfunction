@@ -21,6 +21,6 @@ execute store result storage score_damage: Argument.Damage double 1 run data get
 ### 演出を出すのは10体まで
 data modify storage skill: chain_arrow_count set value 10
 ### チェインアローのレベルに応じて呼び出し
-execute if score Level TUSB matches 0 as @e[distance=..5,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage
-execute if score Level TUSB matches 1 as @e[distance=..15,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage
-execute if score Level TUSB matches 2..9 as @e[distance=..25,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage
+execute if score Level TUSB matches 0 as @e[distance=..5,type=#entity:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage
+execute if score Level TUSB matches 1 as @e[distance=..15,type=#entity:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage
+execute if score Level TUSB matches 2..9 as @e[distance=..25,type=#entity:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/chain_arrow/hit/damage

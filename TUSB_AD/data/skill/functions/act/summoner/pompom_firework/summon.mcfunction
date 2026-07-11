@@ -45,11 +45,11 @@ playsound entity.creeper.primed master @a[distance=..16] ~ ~ ~ 1 1.44 0
 execute as @e[distance=0,type=firework_rocket,tag=PomPom,predicate=skill:is_life_0,limit=1] run tp @s 0.0 0.0 0.0
 
 data modify storage score_damage: Argument set value {Damage:15.00,DamageType:"Blast"}
-execute rotated ~ 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=4] run function score_damage:api/attack
-execute rotated ~5 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=3] run function score_damage:api/attack
-execute rotated ~10 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=2] run function score_damage:api/attack
-execute rotated ~15 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=1] run function score_damage:api/attack
+execute rotated ~ 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=4] run function score_damage:api/attack
+execute rotated ~5 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=3] run function score_damage:api/attack
+execute rotated ~10 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=2] run function score_damage:api/attack
+execute rotated ~15 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=1] run function score_damage:api/attack
 
-execute rotated ~-5 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=3] run function score_damage:api/attack
-execute rotated ~-10 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=2] run function score_damage:api/attack
-execute rotated ~-15 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#lib:mob,tag=Enemy,sort=random,limit=1] run function score_damage:api/attack
+execute rotated ~-5 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=3] run function score_damage:api/attack
+execute rotated ~-10 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=2] run function score_damage:api/attack
+execute rotated ~-15 0 positioned ^ ^ ^2 positioned ~ ~1 ~ as @e[distance=..2,type=#entity:mob,tag=Enemy,sort=random,limit=1] run function score_damage:api/attack

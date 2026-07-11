@@ -25,7 +25,7 @@
     execute as @e[tag=PersonalLockerSign] at @s run function area:personal_locker/tick/personal_locker_sign
 
 # 盾持ちmob処理
-    execute as @e[type=#lib:mob,tag=!ShieldTried,limit=1] run function mob_manager:entity/time_shield/detect_enemy
+    execute as @e[type=#entity:mob,tag=!ShieldTried,limit=1] run function mob_manager:entity/time_shield/detect_enemy
 
 
 # CantTp

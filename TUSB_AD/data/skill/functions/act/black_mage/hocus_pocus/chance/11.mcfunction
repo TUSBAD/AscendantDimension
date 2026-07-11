@@ -6,4 +6,4 @@
 ### １１
 me 達を癒しの風が包み込む。
 effect give @a[distance=..15] minecraft:instant_health 1 6 false
-effect give @e[distance=..15,type=#lib:mob] minecraft:instant_health 1 6 false
+effect give @e[distance=..15,type=#entity:mob] minecraft:instant_health 1 6 false

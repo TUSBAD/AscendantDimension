@@ -4,7 +4,7 @@
 	"predicate": {
 		"player": {
 			"looking_at": {
-				"type": "#lib:mob",
+				"type": "#entity:mob",
 				"nbt": "{Tags:[Enemy]}"
 			}
 		}

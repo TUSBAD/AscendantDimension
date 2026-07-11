@@ -6,6 +6,6 @@
 playsound minecraft:entity.rabbit.hurt master @a[distance=..32] ~ ~ ~ 0.5 2 0.1
 particle minecraft:instant_effect ~ ~ ~ 0.1 0 0.1 0 1 force
 
-execute as @e[distance=..3,type=#lib:mob,tag=Enemy] unless predicate skill:is_saturation at @s run function skill:act/white_mage/dia/hit
+execute as @e[distance=..3,type=#entity:mob,tag=Enemy] unless predicate skill:is_saturation at @s run function skill:act/white_mage/dia/hit
 
 data modify storage skill: _ set value true

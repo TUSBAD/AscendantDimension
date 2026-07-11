@@ -5,4 +5,4 @@
 
 ### １４
 me の魔法はイオナズンになった！
-kill @e[distance=..15,type=#lib:mob,tag=Enemy,team=!Boss]
+kill @e[distance=..15,type=#entity:mob,tag=Enemy,team=!Boss]

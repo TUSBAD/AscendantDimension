@@ -6,4 +6,4 @@
 ### ４
 me 達は体が軽くなった。
 effect give @a[distance=..15] minecraft:levitation 30 0 false
-effect give @e[distance=..15,type=#lib:mob] minecraft:levitation 30 0 false
+effect give @e[distance=..15,type=#entity:mob] minecraft:levitation 30 0 false

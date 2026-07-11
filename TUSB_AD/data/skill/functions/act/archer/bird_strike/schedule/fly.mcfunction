@@ -6,6 +6,6 @@
 playsound minecraft:block.grass.fall master @a[distance=..48] ~ ~ ~ 4 1.6 0
 particle minecraft:sweep_attack ~ ~-0.3 ~ 0 0 0 0 1 force
 
-execute as @e[distance=..6,type=#lib:mob,tag=Enemy,tag=!FallDown] unless predicate skill:is_onground at @s run function skill:act/archer/bird_strike/hit/
+execute as @e[distance=..6,type=#entity:mob,tag=Enemy,tag=!FallDown] unless predicate skill:is_onground at @s run function skill:act/archer/bird_strike/hit/
 
 data modify storage skill: _ set value true

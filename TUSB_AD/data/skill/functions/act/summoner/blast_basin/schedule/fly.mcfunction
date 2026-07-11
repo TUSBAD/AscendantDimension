@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage skill: hit set value false
-execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy,limit=1] unless predicate skill:is_saturation at @s run function skill:act/summoner/blast_basin/schedule/
+execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#entity:mob,tag=Enemy,limit=1] unless predicate skill:is_saturation at @s run function skill:act/summoner/blast_basin/schedule/
 
 ### 当たっていなかった＆地面についたとき
 execute unless data storage skill: {hit:true} unless predicate lib:is_riding run function skill:act/summoner/blast_basin/schedule/hit

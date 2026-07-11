@@ -10,8 +10,8 @@ execute if score @s Choyaku matches 2..7 run data modify storage score_damage: A
 execute if score @s Choyaku matches 8..12 run data modify storage score_damage: Argument set value {Damage:35.00,DamageType:"Projectile"}
 execute if score @s Choyaku matches 13.. run data modify storage score_damage: Argument set value {Damage:65.00,DamageType:"Projectile"}
 
-execute if score @s Choyaku matches 2..7 as @e[distance=..3,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Choyaku matches 8..12 as @e[distance=..6,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Choyaku matches 13.. as @e[distance=..9,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Choyaku matches 2..7 as @e[distance=..3,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Choyaku matches 8..12 as @e[distance=..6,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Choyaku matches 13.. as @e[distance=..9,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
 
 execute if entity @e[type=#lib:living,distance=..9] run scoreboard players add @s HealCount 4

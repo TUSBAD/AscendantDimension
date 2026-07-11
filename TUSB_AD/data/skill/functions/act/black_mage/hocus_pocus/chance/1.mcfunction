@@ -6,4 +6,4 @@
 ### １
 me 達は黒い霧に包まれた。
 effect clear @a[distance=..15]
-effect clear @e[distance=..15,type=#lib:mob]
+effect clear @e[distance=..15,type=#entity:mob]

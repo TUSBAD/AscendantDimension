@@ -6,4 +6,4 @@
 ### ６
 me 達は翼を授かった。
 effect give @a[distance=..15] minecraft:jump_boost 30 14 false
-effect give @e[distance=..15,type=#lib:mob] minecraft:jump_boost 30 14 false
+effect give @e[distance=..15,type=#entity:mob] minecraft:jump_boost 30 14 false

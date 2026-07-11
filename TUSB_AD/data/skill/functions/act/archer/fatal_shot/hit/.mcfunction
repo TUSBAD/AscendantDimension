@@ -4,7 +4,7 @@
 ### 演出を出すのは10体まで
 data modify storage skill: fatal_shot_count set value 10
 ### チェインアローのレベルに応じて呼び出し
-execute as @e[distance=..10,type=#lib:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/fatal_shot/hit/damage
+execute as @e[distance=..10,type=#entity:mob,tag=Enemy,sort=random] at @s run function skill:act/archer/fatal_shot/hit/damage
 
 ### バードストライクスケジュールを追加
 execute in minecraft:overworld run schedule function skill:act/archer/bird_strike/hit/schedule/ 1t

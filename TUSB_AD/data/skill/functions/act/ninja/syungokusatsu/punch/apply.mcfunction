@@ -35,8 +35,8 @@ execute if score @s Syungoku matches 3 run data modify storage score_damage: Arg
 execute if score @s Syungoku matches 4 run data modify storage score_damage: Argument set value {Damage:250.00,DamageType:"Projectile"}
 execute if score @s Syungoku matches 5 run data modify storage score_damage: Argument set value {Damage:300.00,DamageType:"Projectile"}
 
-execute if score @s Syungoku matches 1 as @e[distance=..15,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Syungoku matches 2 as @e[distance=..15,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Syungoku matches 3 as @e[distance=..15,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Syungoku matches 4 as @e[distance=..15,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s Syungoku matches 5 as @e[distance=..15,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Syungoku matches 1 as @e[distance=..15,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Syungoku matches 2 as @e[distance=..15,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Syungoku matches 3 as @e[distance=..15,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Syungoku matches 4 as @e[distance=..15,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s Syungoku matches 5 as @e[distance=..15,type=#entity:mob,tag=Enemy] run function score_damage:api/attack

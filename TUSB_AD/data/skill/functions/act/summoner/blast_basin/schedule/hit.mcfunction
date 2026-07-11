@@ -11,6 +11,6 @@ playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 1 1 0
 effect give @s minecraft:saturation 10 127 true
 
 ### ダメージと吹き飛ばしを与える
-execute as @e[distance=..8,type=#lib:mob,tag=Enemy] run function skill:act/archer/blast_shot/hit/damage1
+execute as @e[distance=..8,type=#entity:mob,tag=Enemy] run function skill:act/archer/blast_shot/hit/damage1
 
 data modify storage skill: hit set value true

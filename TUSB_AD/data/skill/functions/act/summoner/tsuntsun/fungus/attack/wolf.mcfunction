@@ -24,7 +24,7 @@ execute if score _ ActivatedSkill matches 6240 run data modify storage score_dam
 execute if score _ ActivatedSkill matches 6241..6249 run data modify storage score_damage: Argument set value {Damage:20.00,DamageType:"None"}
 
 ### TODO あとで整理する(狩人の呼び出してるから)
-execute if score _ ActivatedSkill matches 6240 run execute positioned ^ ^ ^3 as @e[distance=..3,type=#lib:mob,tag=Enemy] positioned ^ ^ ^-3 run function skill:act/archer/blast_shot/hit/damage1
-execute if score _ ActivatedSkill matches 6241..6249 run execute positioned ^ ^ ^3 as @e[distance=..3,type=#lib:mob,tag=Enemy] positioned ^ ^ ^-3 run function skill:act/archer/blast_shot/hit/damage2
+execute if score _ ActivatedSkill matches 6240 run execute positioned ^ ^ ^3 as @e[distance=..3,type=#entity:mob,tag=Enemy] positioned ^ ^ ^-3 run function skill:act/archer/blast_shot/hit/damage1
+execute if score _ ActivatedSkill matches 6241..6249 run execute positioned ^ ^ ^3 as @e[distance=..3,type=#entity:mob,tag=Enemy] positioned ^ ^ ^-3 run function skill:act/archer/blast_shot/hit/damage2
 
 data modify storage skill: tsuntsun_attack.wolf set value true

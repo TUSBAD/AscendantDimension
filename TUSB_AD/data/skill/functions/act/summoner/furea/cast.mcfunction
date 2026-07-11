@@ -7,4 +7,4 @@ execute at @s run playsound minecraft:entity.enderman.teleport master @a[distanc
 execute at @s run particle portal ~ ~1 ~ 0 0.5 0 1 200 force
 
 
-execute if score @s ActivatedSkill matches 6310..6319 as @e[distance=..20,type=#lib:mob,tag=Enemy] run function skill:act/summoner/furea/tp
+execute if score @s ActivatedSkill matches 6310..6319 as @e[distance=..20,type=#entity:mob,tag=Enemy] run function skill:act/summoner/furea/tp

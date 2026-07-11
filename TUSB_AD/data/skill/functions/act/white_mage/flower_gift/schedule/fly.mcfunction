@@ -8,8 +8,8 @@
 playsound minecraft:entity.axolotl.idle_air master @a[distance=..32] ~ ~ ~ 2 2 0
 particle dust 255 255 255 1 ~ ~ ~ 1 1 1 1 5 force
 
-execute if entity @s[tag=FlowerGift1] as @e[distance=..5,type=#lib:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/1
-execute if entity @s[tag=FlowerGift2] as @e[distance=..5,type=#lib:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/2
-execute if entity @s[tag=FlowerGift3] as @e[distance=..5,type=#lib:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/3
+execute if entity @s[tag=FlowerGift1] as @e[distance=..5,type=#entity:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/1
+execute if entity @s[tag=FlowerGift2] as @e[distance=..5,type=#entity:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/2
+execute if entity @s[tag=FlowerGift3] as @e[distance=..5,type=#entity:mob,tag=Enemy] at @s run function skill:act/white_mage/flower_gift/schedule/hit/3
 
 data modify storage skill: _ set value true

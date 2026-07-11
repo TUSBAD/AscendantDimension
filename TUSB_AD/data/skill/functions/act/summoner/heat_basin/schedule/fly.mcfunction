@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage skill: hit set value false
-execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#lib:mob,tag=Enemy] unless predicate skill:is_saturation at @s run function skill:act/summoner/heat_basin/schedule/hit
+execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#entity:mob,tag=Enemy] unless predicate skill:is_saturation at @s run function skill:act/summoner/heat_basin/schedule/hit
 
 ### 当たっていたらタライを消す
 execute if data storage skill: {hit:true} run kill @s

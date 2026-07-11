@@ -3,10 +3,10 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-## Enemy := team=!FriendlyTeam & type=lib:mob & Invulnerable:false
+## Enemy := team=!FriendlyTeam & type=entity:mob & Invulnerable:false
 
 # 無敵じゃない生物で、味方として出現していないものは、敵のタグをつけておく
-    tag @s[team=!FriendlyTeam,type=#lib:mob,predicate=!lib:is_invulnerable] add Enemy
+    tag @s[team=!FriendlyTeam,type=#entity:mob,predicate=!lib:is_invulnerable] add Enemy
 # ニフラムの対象
     tag @s[tag=Enemy] add Poofable
 # オーラを纏ってる場合は、オーラを初期する

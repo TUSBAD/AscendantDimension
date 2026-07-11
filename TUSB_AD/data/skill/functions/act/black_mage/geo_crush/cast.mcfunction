@@ -14,4 +14,4 @@ execute if score @s ActivatedSkill matches 5230 run data modify storage score_da
 execute if score @s ActivatedSkill matches 5231 run data modify storage score_damage: Argument set value {Damage:125.00,DamageType:"Projectile"}
 execute if score @s ActivatedSkill matches 5232..5239 run data modify storage score_damage: Argument set value {Damage:200.00,DamageType:"Projectile"}
 
-execute positioned ~-15 ~-2 ~-15 as @e[dx=30,dy=4,dz=30,type=#lib:mob,tag=Enemy] at @s unless block ~ ~-1 ~ minecraft:air run function score_damage:api/attack
+execute positioned ~-15 ~-2 ~-15 as @e[dx=30,dy=4,dz=30,type=#entity:mob,tag=Enemy] at @s unless block ~ ~-1 ~ minecraft:air run function score_damage:api/attack

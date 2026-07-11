@@ -19,7 +19,7 @@ execute rotated as 0-0-1-0-1 rotated ~90 ~ positioned ^ ^ ^5 run particle minecr
 execute rotated as 0-0-1-0-1 rotated ~180 ~ positioned ^ ^ ^5 run particle minecraft:splash ~ ~ ~ 0 0 0 0 2 force
 execute rotated as 0-0-1-0-1 rotated ~270 ~ positioned ^ ^ ^5 run particle minecraft:splash ~ ~ ~ 0 0 0 0 2 force
 
-execute if entity @s[tag=Decel1] run effect give @e[distance=..5,type=#lib:mob,tag=Enemy] minecraft:slowness 1 2 false
-execute if entity @s[tag=Decel2] run effect give @e[distance=..5,type=#lib:mob,tag=Enemy] minecraft:slowness 1 5 false
+execute if entity @s[tag=Decel1] run effect give @e[distance=..5,type=#entity:mob,tag=Enemy] minecraft:slowness 1 2 false
+execute if entity @s[tag=Decel2] run effect give @e[distance=..5,type=#entity:mob,tag=Enemy] minecraft:slowness 1 5 false
 
 data modify storage skill: _ set value true

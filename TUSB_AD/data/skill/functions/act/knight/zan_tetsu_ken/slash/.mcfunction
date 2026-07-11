@@ -4,6 +4,6 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run time query gametime
-execute as @e[tag=ZantetsuPoint] if score @s TUSB = _ TUSB at @s as @e[distance=..10,type=#lib:mob,tag=Enemy] at @s run function skill:act/knight/zan_tetsu_ken/slash/target
+execute as @e[tag=ZantetsuPoint] if score @s TUSB = _ TUSB at @s as @e[distance=..10,type=#entity:mob,tag=Enemy] at @s run function skill:act/knight/zan_tetsu_ken/slash/target
 
 execute as @e[tag=ZantetsuPoint] if score @s TUSB <= _ TUSB run kill @s

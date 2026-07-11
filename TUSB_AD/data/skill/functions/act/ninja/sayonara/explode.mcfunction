@@ -26,11 +26,11 @@ data modify storage score_damage: Argument set value {Damage:0.00,DamageType:"Bl
 execute store result storage score_damage: Argument.Damage double 1.0 run scoreboard players get @s MP
 
 ### ダメージを入れる
-execute if score @s MP matches ..19 as @e[distance=..4,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s MP matches 20..39 as @e[distance=..8,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s MP matches 40..59 as @e[distance=..16,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s MP matches 60..79 as @e[distance=..28,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score @s MP matches 80.. as @e[distance=..40,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s MP matches ..19 as @e[distance=..4,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s MP matches 20..39 as @e[distance=..8,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s MP matches 40..59 as @e[distance=..16,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s MP matches 60..79 as @e[distance=..28,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score @s MP matches 80.. as @e[distance=..40,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
 
 ### レイズの効果
 execute as @s[scores={MP=100..}] at @s run function skill:act/white_mage/raise/apply

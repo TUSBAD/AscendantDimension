@@ -10,8 +10,8 @@ scoreboard players operation _ PotentialSkill = @s ProjectileSkill
 
 ### リメイク：エンチェイスの範囲を拡大
 data modify storage skill: chaser_invoked set value false
-execute if entity @s[tag=Chaser1] as @e[distance=..5,type=#lib:mob,tag=Enemy,sort=nearest,limit=1] at @s run function skill:trigger/projectile/check/chaser/apply
-execute if entity @s[tag=Chaser2] as @e[distance=..8,type=#lib:mob,tag=Enemy,sort=nearest,limit=1] at @s run function skill:trigger/projectile/check/chaser/apply
+execute if entity @s[tag=Chaser1] as @e[distance=..5,type=#entity:mob,tag=Enemy,sort=nearest,limit=1] at @s run function skill:trigger/projectile/check/chaser/apply
+execute if entity @s[tag=Chaser2] as @e[distance=..8,type=#entity:mob,tag=Enemy,sort=nearest,limit=1] at @s run function skill:trigger/projectile/check/chaser/apply
 
 ### 発動したなら消す
 execute if data storage skill: {chaser_invoked:true} run function skill:trigger/projectile/check/chaser/remove/

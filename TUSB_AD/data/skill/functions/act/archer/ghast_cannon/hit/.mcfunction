@@ -12,8 +12,8 @@ execute if score _ PotentialSkill matches 3250 run data modify storage score_dam
 execute if score _ PotentialSkill matches 3251..3259 run data modify storage score_damage: Argument set value {Damage:20.00,DamageType:"Blast"}
 
 ### ブラストショットのレベルに応じて呼び出し
-execute if score _ PotentialSkill matches 3250 as @e[distance=..3,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
-execute if score _ PotentialSkill matches 3251..3259 as @e[distance=..6,type=#lib:mob,tag=Enemy] run function score_damage:api/attack
+execute if score _ PotentialSkill matches 3250 as @e[distance=..3,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
+execute if score _ PotentialSkill matches 3251..3259 as @e[distance=..6,type=#entity:mob,tag=Enemy] run function score_damage:api/attack
 
 ### サバイバルエリアなら爆発させる
 execute if predicate area:area/survival run function skill:act/archer/ghast_cannon/hit/blast
