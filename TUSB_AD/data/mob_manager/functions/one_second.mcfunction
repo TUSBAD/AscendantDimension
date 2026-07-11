@@ -8,9 +8,7 @@
 ## 使用するときにコメントアウトを外してください。
 execute if score #Seconds Count matches 0 run function mob_manager:ten_seconds
 
-# 動き停止飛翔物判定
-    execute as @e[tag=FlyingObject] if predicate lib:is_flying_object at @s run function mob_manager:entity/check_projectile
-    execute as @e[tag=InKasap] at @s run function mob_manager:entity/check_kasap
+
 
 # Freeze/Melt 居縮とかの
     execute as @e[tag=Freeze] if predicate lib:is_cooldown_0 run function mob_manager:entity/freeze_clear
