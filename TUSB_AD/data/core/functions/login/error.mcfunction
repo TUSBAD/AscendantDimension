@@ -6,7 +6,7 @@
 ### 初期化済みなのに、スコアが消えているなら、プレイヤー名が変わっているので、お知らせする
 function makeup:error/warning
 tellraw @a ""
-tellraw @a [{"storage":"core:","nbt":"Prefix.CRIT"},{"translate":"[INFO]\n プレイヤー名の変更を検知しました。ステータスが引き継がれていません。\n以下のページを参考にワールドデータのスコアボードファイルを修正してください。"}]
+tellraw @a [{"storage":"core:","nbt":"Prefix.CRIT"},{"translate":"\n プレイヤー名の変更を検知しました。ステータスが引き継がれていません。\n以下のページを参考にワールドデータのスコアボードファイルを修正してください。"}]
 tellraw @a ""
 tellraw @a {"translate":"https://ai-akaishi.hatenablog.jp/entry/ar970627","underlined":true,"clickEvent":{"action":"open_url","value":"https://ai-akaishi.hatenablog.jp/entry/ar970627"}}
 tellraw @a ""
