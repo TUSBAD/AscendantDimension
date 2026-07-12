@@ -1,0 +1,8 @@
+#> entity:item_frame_destroy/schedule
+#
+#
+#
+# @within function entity:item_frame_destroy/item_frames
+
+execute as @a[advancements={entity:item_frames=true}] at @s unless predicate entity:item_frama_destroy/looking_item_frame run function entity:item_frame_destroy/reactivate
+execute as @a[advancements={entity:item_frames=true}] at @s if predicate entity:item_frama_destroy/looking_item_frame run schedule function entity:item_frame_destroy/schedule 2t
