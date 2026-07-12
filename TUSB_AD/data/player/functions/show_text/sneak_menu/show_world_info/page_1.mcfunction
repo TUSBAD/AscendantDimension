@@ -17,20 +17,29 @@ execute if data storage core: difficult.world{level:"debug"} run tellraw @s [{"t
 tellraw @s ""
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
 tellraw @s ""
+tellraw @s ""
 
 #> 210-219: 通常世界下層
-tellraw @s [{"nbt":"area_name.skyland","storage":"area:","color":"#b7b7b7","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 210"}}," : ",{"nbt":"conquer.count.skyland","storage":"area:"},"/",{"nbt":"conquer.max.skyland","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.skylands
+execute store result score # _ run function calc:island/get_total/skylands
+tellraw @s [{"nbt":"area_name.skylands","storage":"area:","color":"#b7b7b7","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 210"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 220-229: 通常世界上層
-tellraw @s [{"nbt":"area_name.new_skyland","storage":"area:","color":"#ff3948","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 220"}}," : ",{"nbt":"conquer.count.new_skyland","storage":"area:"},"/",{"nbt":"conquer.max.new_skyland","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.new_skylands
+execute store result score # _ run function calc:island/get_total/new_skylands
+tellraw @s [{"nbt":"area_name.new_skylands","storage":"area:","color":"#ff3948","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 220"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 230-239: 交易島
-tellraw @s [{"nbt":"area_name.tradeisland","storage":"area:","color":"#70f158","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 230"}}," : ",{"nbt":"conquer.count.tradeisland","storage":"area:"},"/",{"nbt":"conquer.max.tradeisland","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.tradeisland
+execute store result score # _ run function calc:island/get_total/tradeisland
+tellraw @s [{"nbt":"area_name.tradeisland","storage":"area:","color":"#70f158","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 230"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 240-249: クラウディア
-tellraw @s [{"nbt":"area_name.cloudia","storage":"area:","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 240"}}," : ",{"nbt":"conquer.count.cloudia","storage":"area:"},"/",{"nbt":"conquer.max.tradeisland","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.cloudia
+execute store result score # _ run function calc:island/get_total/cloudia
+tellraw @s [{"nbt":"area_name.cloudia","storage":"area:","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 240"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 tellraw @s ""
-tellraw @s ""
+tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"#Hours","objective":"Count"}},{"score":{"name":"#Minutes","objective":"Count"}},[{"score":{"name":"#TenSeconds","objective":"Count"}},{"score":{"name":"#Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="

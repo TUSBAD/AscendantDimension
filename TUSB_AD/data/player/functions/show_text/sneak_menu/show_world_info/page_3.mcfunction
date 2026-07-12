@@ -17,20 +17,29 @@ execute if data storage core: difficult.world{level:"debug"} run tellraw @s [{"t
 tellraw @s ""
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
 tellraw @s ""
+tellraw @s ""
 
 #> 290-299: トカルト
-tellraw @s [{"nbt":"area_name.tocult_colde","storage":"area:","color":"#14fffb","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 290"}}," : ",{"nbt":"conquer.count.tocult_colde","storage":"area:"},"/",{"nbt":"conquer.max.tocult_colde","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.tocult_colde
+execute store result score # _ run function calc:island/get_total/tocult_colde
+tellraw @s [{"nbt":"area_name.tocult_colde","storage":"area:","color":"#14fffb","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 290"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 300-309: 図書館
-tellraw @s [{"nbt":"area_name.library","storage":"area:","color":"#fda31c","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 300"}}," : ",{"nbt":"conquer.count.library","storage":"area:"},"/",{"nbt":"conquer.max.library","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.library
+execute store result score # _ run function calc:island/get_total/library
+tellraw @s [{"nbt":"area_name.library","storage":"area:","color":"#fda31c","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 300"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 310-319: ニヴル
-tellraw @s [{"nbt":"area_name.niflheimr","storage":"area:","color":"#2693ff","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 310"}}," : ",{"nbt":"conquer.count.niflheimr","storage":"area:"},"/",{"nbt":"conquer.max.niflheimr","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.niflheimr
+execute store result score # _ run function calc:island/get_total/niflheimr
+tellraw @s [{"nbt":"area_name.niflheimr","storage":"area:","color":"#2693ff","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 310"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 320-329: ヘルヘイム
-tellraw @s [{"nbt":"area_name.hellheimr","storage":"area:","color":"#87dada","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 320"}}," : ",{"nbt":"conquer.count.hellheimr","storage":"area:"},"/",{"nbt":"conquer.max.hellheimr","storage":"area:"}]
+execute store result score _ Calc run data get storage area: capture.hellheim
+execute store result score # _ run function calc:island/get_total/hellheim
+tellraw @s [{"nbt":"area_name.hellheimr","storage":"area:","color":"#87dada","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 320"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 tellraw @s ""
-tellraw @s ""
+tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"#Hours","objective":"Count"}},{"score":{"name":"#Minutes","objective":"Count"}},[{"score":{"name":"#TenSeconds","objective":"Count"}},{"score":{"name":"#Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="

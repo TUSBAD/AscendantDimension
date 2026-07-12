@@ -1,7 +1,7 @@
-#> calc:island/get_total/purgatory
+#> calc:island/get_total/niflheimr
 #
 #> 各ディメンション総浄化数
 #
 #
 
-return 4
+return 2

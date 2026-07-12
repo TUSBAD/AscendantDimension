@@ -18,19 +18,32 @@ tellraw @s ""
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
 tellraw @s ""
 
-#> 330-339: エンド
-tellraw @s [{"nbt":"area_name.end","storage":"area:","color":"#9900d1","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 330"}}," : ",{"nbt":"conquer.count.end","storage":"area:"},"/",{"nbt":"conquer.max.end","storage":"area:"}]
+#> 330-339: 虚数空間
+execute store result score _ Calc run data get storage area: capture.imaginary_space
+execute store result score # _ run function calc:island/get_total/imaginary_space
+tellraw @s [{"nbt":"area_name.imaginary_space","storage":"area:","color":"#758492","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 330"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
-#> 340-349: 異空間
-tellraw @s [{"nbt":"area_name.unusual_space","storage":"area:","color":"#e60005","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 340"}}," : ",{"nbt":"conquer.count.unusual_space","storage":"area:"},"/",{"nbt":"conquer.max.unusual_space","storage":"area:"}]
+#> 340-349: エンド
+execute store result score _ Calc run data get storage area: capture.end
+execute store result score # _ run function calc:island/get_total/end
+tellraw @s [{"nbt":"area_name.end","storage":"area:","color":"#9900d1","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 340"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
-#> 350-359: 異次元
-tellraw @s [{"nbt":"area_name.another_dimension","storage":"area:","color":"#02ca9d","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 350"}}," : ",{"nbt":"conquer.count.another_dimension","storage":"area:"},"/",{"nbt":"conquer.max.another_dimension","storage":"area:"}]
+#> 350-359: 異空間
+execute store result score _ Calc run data get storage area: capture.unusual_space
+execute store result score # _ run function calc:island/get_total/unusual_space
+tellraw @s [{"nbt":"area_name.unusual_space","storage":"area:","color":"#e60005","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 350"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
-#> 360-369: 朽ち果てた戦場
-tellraw @s [{"nbt":"area_name.ancient_field","storage":"area:","color":"#b9176c","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 360"}}," : ",{"nbt":"conquer.count.ancient_field","storage":"area:"},"/",{"nbt":"conquer.max.ancient_field","storage":"area:"}]
+#> 360-369: 異次元
+execute store result score _ Calc run data get storage area: capture.another_dimension
+execute store result score # _ run function calc:island/get_total/another_dimension
+tellraw @s [{"nbt":"area_name.another_dimension","storage":"area:","color":"#02ca9d","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 360"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 370-379: 朽ち果てた戦場
+execute store result score _ Calc run data get storage area: capture.ancient_field
+execute store result score # _ run function calc:island/get_total/ancient_field
+tellraw @s [{"nbt":"area_name.ancient_field","storage":"area:","color":"#b9176c","clickEvent":{"action": "run_command","value": "/trigger ShowMenu set 370"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 tellraw @s ""
-tellraw @s ""
+tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"#Hours","objective":"Count"}},{"score":{"name":"#Minutes","objective":"Count"}},[{"score":{"name":"#TenSeconds","objective":"Count"}},{"score":{"name":"#Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="

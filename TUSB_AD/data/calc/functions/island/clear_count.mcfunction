@@ -11,8 +11,8 @@ scoreboard players operation _ Ret += _ _
 #> trade_insland
 execute store result score _ _ run data get storage area: capture.tradeisland
 scoreboard players operation _ Ret += _ _
-#> rev_skylands
-execute store result score _ _ run data get storage area: capture.rev_skylands
+#> new_skylands
+execute store result score _ _ run data get storage area: capture.new_skylands
 scoreboard players operation _ Ret += _ _
 #> cloudia
 execute store result score _ _ run data get storage area: capture.cloudia
@@ -52,6 +52,9 @@ execute store result score _ _ run data get storage area: capture.unusual_space
 scoreboard players operation _ Ret += _ _
 #> another_dimension
 execute store result score _ _ run data get storage area: capture.another_dimension
+scoreboard players operation _ Ret += _ _
+#> ancient_field
+execute store result score _ _ run data get storage area: capture.ancient_field
 scoreboard players operation _ Ret += _ _
 
 return run scoreboard players get _ Ret

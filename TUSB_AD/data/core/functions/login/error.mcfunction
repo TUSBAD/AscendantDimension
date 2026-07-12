@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### 初期化済みなのに、スコアが消えているなら、プレイヤー名が変わっているので、お知らせする
-function core:error/warning
+function makeup:error/warning
 tellraw @a ""
 tellraw @a [{"storage":"core:","nbt":"Prefix.CRIT"},{"translate":"[INFO]\n プレイヤー名の変更を検知しました。ステータスが引き継がれていません。\n以下のページを参考にワールドデータのスコアボードファイルを修正してください。"}]
 tellraw @a ""
