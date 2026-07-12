@@ -4,10 +4,10 @@
 #
 # @within function mob_manager:skill/magic/yggdrasil/mjolnir/
 
-data modify storage mob: hit set value false
+data modify storage enemy: hit set value false
 execute positioned ~-0.5 ~ ~-0.5 as @a[dy=0] unless predicate skill:is_saturation at @s run function mob_manager:skill/enemy/fake_player/mjolnir/hit
 
 # 当たっていたらタライを消す
-execute if data storage mob: {hit:true} run kill @s
+execute if data storage enemy: {hit:true} run kill @s
 
-data modify storage mob: _ set value true
+data modify storage enemy: _ set value true

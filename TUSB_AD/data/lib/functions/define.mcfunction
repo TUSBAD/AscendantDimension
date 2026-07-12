@@ -29,7 +29,10 @@
 #define storage makeup:
 
 #> モブ用ストレージ
-#define storage mob:
+#define storage enemy:
+
+#> エンティティ用ストレージ
+#define storage entity:
 
 #> プレイヤー用ストレージ
 #define storage player:

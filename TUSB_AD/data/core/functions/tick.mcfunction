@@ -11,6 +11,9 @@
 #> ハード固定化
     function core:login/force_difficulty
 
+#> 1秒処理
+    execute if score #Ticks Count matches 0 run function core:one_second
+
 #> 初回ログイン時
     execute as @a[team=] at @s run function core:login/first
 
@@ -19,16 +22,15 @@
 
 #> ワールドTick
     function area:tick
-
-#> MobTick
-
-    function mob_manager:tick
-
 #> プレイヤーTick
     execute as @a at @s run function player:tick
 
-#> 1秒処理
-    execute if score #Ticks Count matches 0 run function core:one_second
+#> EntityTick
 
-# 削除対象のエンティティを削除する
-    function mob_manager:delete/
+    function entity:tick
+
+#> MobTick
+    function enemy:tick
+
+### エンティティ削除 - 最後に実行
+execute as @e[tag=Garbage] run function entity:garbage_collection

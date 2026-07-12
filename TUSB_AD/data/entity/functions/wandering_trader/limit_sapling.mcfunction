@@ -1,7 +1,8 @@
-#> mob_manager:entity/limit_sapling
+#> entity:wandering_trader/limit_sapling
 # 苗木の取引を制限する
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#
+#
+# @within function entity:initialize_entity
 
 ### まだ手に入れてない苗木は販売数が０になる
 execute unless data storage player: settings.saplings{oak:true} run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:oak_sapling"}}].maxUses set value 0
