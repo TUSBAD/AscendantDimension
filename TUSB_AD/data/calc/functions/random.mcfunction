@@ -1,7 +1,7 @@
-#> lib:random
+#> calc:random
 #
 # 乱数を獲得します
 #
-# @within function api:random/reset
+# @api
 
 return run random value 0..65535

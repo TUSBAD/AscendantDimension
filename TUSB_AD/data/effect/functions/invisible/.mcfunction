@@ -5,7 +5,7 @@
 # @within function effect:invisible/
 
 ## Lv 8~16/Lv 70~71/Lv 110~120 特殊デバフ
-execute store result score _ ResistEffects run function lib:random
+execute store result score _ ResistEffects run function calc:random
 scoreboard players set _ _ 100
 scoreboard players operation _ ResistEffects %= _ _
 execute if entity @s[predicate=effect:too_bad_effect,scores={LiveTime=1..},predicate=entity:player] run function effect:too_bad_effect

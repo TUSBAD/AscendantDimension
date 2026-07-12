@@ -14,7 +14,7 @@ execute as @e[tag=!TypeChecked] at @s run function entity:initialize_entity
 execute as @e[type=#entity:has_in_ground] run function entity:has_in_ground/transfer_check
 
 ### エンティティPortalCooldownチェック
-execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown
+execute as @e[tag=CooldownRequired,predicate=lib:is_cooldown_0] at @s run function entity:cooldown
 execute as @e[type=#entity:has_in_ground,tag=CooldownRequired,tag=!FlyingObject,nbt={life:1159s,inGround:true}] at @s run function entity:cooldown
 
 # スポナー更新

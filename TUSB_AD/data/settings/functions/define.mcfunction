@@ -25,6 +25,9 @@
 #> ライブラリストレージ
 #define storage lib:
 
+#> 計算用ストレージ
+#define storage calc:
+
 #> 演出用ストレージ
 #define storage makeup:
 

@@ -309,9 +309,9 @@ scoreboard objectives add ExpReduce dummy
 execute in overworld run forceload add 3500 3500 3500 3500
 schedule function core:load/set_shulker_box 1t
 execute in area:control run forceload add 0 0
-execute in area:control positioned 5 5 5 run function core:system_marker/tp_00000
-execute in area:control positioned 5 5 5 run function core:system_marker/tp_00001
-execute in area:control positioned 5 5 5 run function core:system_marker/tp_00002
+execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00000
+execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00001
+execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00002
 execute in area:control positioned 5 10 5 run summon bat ~ ~ ~ {Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,BatFlags:1b,UUID:[I;0,0,0,3]}
 
 # 定数設定
