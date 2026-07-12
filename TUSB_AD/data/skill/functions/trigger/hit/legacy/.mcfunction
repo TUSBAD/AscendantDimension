@@ -11,7 +11,7 @@ execute if data entity @s SelectedItem.tag{Legacy:true} run function skill:trigg
 ## レガシーアイテムのカウントを１減らす
 execute store result storage item: legacy int 0.9999999999 run data get entity @s SelectedItem.tag.Legacy
 ## プレイヤーの持っているアイテムに設定する
-execute unless data storage item: {legacy:0} run item modify entity @s weapon.mainhand lib:legacy
+execute unless data storage item: {legacy:0} run item modify entity @s weapon.mainhand item:legacy
 
 ## もしもカウントが残りわずかなら警告メッセージを出す！
 execute if data storage item: {legacy:2} run title @s actionbar {"text":"武器が壊れそうだ！","color":"gold"}

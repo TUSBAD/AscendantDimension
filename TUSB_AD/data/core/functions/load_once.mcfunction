@@ -1,4 +1,4 @@
-#> core:load/once
+#> core:load_once
 # 設定のリセット
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
@@ -320,9 +320,6 @@ function core:load/define_const
 # debug関連
 function debug:load/
 
-# ver設定
-###バージョン
-function core:version_update/check/
 
 ### ADスコア
 
@@ -401,4 +398,5 @@ function core:load/init_score
 
 #> Function実行
 function settings:effect/too_bad_effects
-function settings:area/capture_reset
+function settings:capture/capture_reset
+function settings:version_update/check/

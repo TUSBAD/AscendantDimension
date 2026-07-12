@@ -2,7 +2,7 @@
 #
 # 毎tick処理
 #
-# @within function core:load/once
+# @within function core:load_once
     #declare score_holder #Ticks Count
 
 #> 現在時刻更新

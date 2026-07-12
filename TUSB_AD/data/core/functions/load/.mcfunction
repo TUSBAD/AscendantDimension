@@ -12,7 +12,7 @@ data modify storage player: Const.ExpMul set value 5
 
 ### スコアが存在していなかったら初期化する
 scoreboard objectives add Count dummy {"text":"カウント"}
-execute unless score #Ticks Count matches 0.. run function core:load/once
+execute unless score #Ticks Count matches 0.. run function core:load_once
 execute unless score #Ticks Count matches 0.. run function core:load/gamerule
 
 ### ブロックに対する設定を予約

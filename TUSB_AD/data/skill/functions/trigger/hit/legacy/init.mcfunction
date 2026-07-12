@@ -8,4 +8,4 @@ execute store result score _ TUSB run data get storage math: out.sum
 ## +3して4~10にする
 execute store result storage item: legacy int 1 run scoreboard players add _ TUSB 3
 ## プレイヤーの持っているアイテムに設定する
-item modify entity @s weapon.mainhand lib:legacy
+item modify entity @s weapon.mainhand item:legacy
