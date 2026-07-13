@@ -235,7 +235,7 @@ scoreboard players reset * WindWall
 scoreboard players reset * Doom
 scoreboard players reset * DoomSecond
 
-scoreboard players reset * RemainTimer
+scoreboard players reset * CrossFire
 
 ### スキル同期管理
 # scoreboard players reset * TacticalHealBase

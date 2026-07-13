@@ -19,4 +19,4 @@ execute store result storage skill: Motion[2] double 0.004 run data get storage 
 data modify entity @s Motion set from storage skill: Motion
 
 ### 持続時間を設定
-scoreboard players set @s RemainTimer 80
+scoreboard players set @s CrossFire 80

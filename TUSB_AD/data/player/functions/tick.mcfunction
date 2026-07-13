@@ -36,7 +36,7 @@
     execute if entity @s[scores={TradedVillager=1..}] run function player:inventory_event/trade_event/
 
 # 生き返ったときは満腹度調整処理
-    execute if entity @s[scores={LiveTime=1..,Hunger=0..}] run function player:death/rise
+    execute if entity @s[scores={Age=1..,Hunger=0..}] run function player:death/rise
 
 # 経験値取得処理
     execute if entity @s[predicate=player:has_netherstar] run function job:pick_exp/
@@ -101,7 +101,7 @@
     scoreboard players reset @s[scores={HPChanging=0..}] HPChanging
 
 # めり込み死
-    execute if entity @s[scores={LiveTime=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
+    execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
 
 # 死亡トリガー TODO
     scoreboard players reset @s[scores={Deaths=1..}] Deaths

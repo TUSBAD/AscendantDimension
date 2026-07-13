@@ -21,7 +21,7 @@ execute positioned ~ ~ ~-7 as @e[dz=14,type=#entity:mob,tag=Enemy] unless predic
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:water replace minecraft:frosted_ice
 
 ### 持続時間を更新
-scoreboard players remove @s RemainTimer 1
-execute if score @s RemainTimer matches ..0 run kill @s
+scoreboard players remove @s CrossFire 1
+execute if score @s CrossFire matches ..0 run kill @s
 
 data modify storage skill: _ set value true

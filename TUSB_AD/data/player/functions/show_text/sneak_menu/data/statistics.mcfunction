@@ -15,7 +15,7 @@ tellraw @s [{"translate":"総死亡回数 : %1$s回","italic":false,"color":"red
 tellraw @s [{"translate":"経過時間 : %1$s","italic":false,"color":"green","with":[{"translate":"%1$s時間%2$s分%3$s秒","italic":false,"with":[{"nbt":"out.total_hour","storage":"math:"},{"nbt":"out.minute","storage":"math:"},{"nbt":"out.second","storage":"math:"}]}]},{"nbt":"_","storage":"area:","interpret":true}]
 
 # 時間計算
-execute store result storage math: in int 1 run scoreboard players get @s LiveTime
+execute store result storage math: in int 1 run scoreboard players get @s Age
 function #math:clock
 
 # 表示

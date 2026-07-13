@@ -16,7 +16,7 @@ execute unless data storage core: settings{is_keepinventory:true} run function p
 scoreboard players add AllDeathCount DeathCount 1
 
 # 時間計算
-execute store result storage math: in int 1 run scoreboard players get @s LiveTime
+execute store result storage math: in int 1 run scoreboard players get @s Age
 function #math:clock
 
 # 表示
@@ -24,7 +24,7 @@ tellraw @a [{"translate":"%1$sの死亡回数 : %2$s回","italic":false,"color":
 tellraw @a [{"translate":"%1$sの生存時間 : %2$s","italic":false,"color":"green","with":[{"selector": "@s"},{"translate":"%1$s時間%2$s分%3$s秒","italic":false,"with":[{"nbt":"out.total_hour","storage":"math:"},{"nbt":"out.minute","storage":"math:"},{"nbt":"out.second","storage":"math:"}]}]}]
 
 # 生存時間をリセット
-scoreboard players reset @s LiveTime
+scoreboard players reset @s Age
 
 ### ネザーアスレチック
 execute as @s[predicate=area:area/nether_trial] at @s run function player:death/in_nether_trial
