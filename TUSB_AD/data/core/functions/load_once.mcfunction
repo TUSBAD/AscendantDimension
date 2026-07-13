@@ -131,15 +131,6 @@ scoreboard objectives add AbyssSeduce dummy "アビスセデュース"
 ## トカルト
 scoreboard objectives add UseChorus minecraft.used:minecraft.chorus_fruit
 
-## しんだときの処理をするためのトリガー
-scoreboard objectives add Deaths minecraft.custom:minecraft.deaths
-
-### スキル発動条件
-scoreboard objectives add UseBow minecraft.used:minecraft.bow
-scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball
-scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add UseFungusStick minecraft.used:minecraft.warped_fungus_on_a_stick
-
 ### 実際のダメージ
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken
 ### 軽減したダメージ
@@ -149,9 +140,6 @@ scoreboard objectives add DamageAbsorbed minecraft.custom:minecraft.damage_absor
 
 ### 真空斬り用のスニーク時間検知
 scoreboard objectives add ShinkuGiri minecraft.custom:minecraft.sneak_time
-### 跳躍用スニーク時間検知
-scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time
-scoreboard objectives add Jump minecraft.custom:minecraft.jump
 
 scoreboard objectives add WalkOneCm minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add CrouchOneCm minecraft.custom:minecraft.crouch_one_cm
@@ -388,14 +376,13 @@ scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
-scoreboard objectives add SneakingTime minecraft.custom:sneak_time {"text":"スニーク時間"}
+scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger trigger {"text":"スニークトリガー"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたダメージ量"}
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add MineSpawner minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
 scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会話回数"}
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 scoreboard objectives add kill trigger {"text":"個人killフラグ"}

@@ -5,7 +5,7 @@ execute if score @s hcmode matches 1 run function core:hard_core_mode/no
 execute if score @s hcmode matches 1 run scoreboard players reset @s hcmode
 
 # スキル変更トリガー
-execute if score @s ChangeSkillSet matches 1 run function player:show_text/sneak_menu/skill/set
+execute if score @s ChangeSkill matches 1 run function player:show_text/sneak_menu/skill/set
 
 # スキル変更設定
 execute unless score @s SkillSetting matches 0 run function player:show_text/sneak_menu/skill/display

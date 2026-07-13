@@ -16,6 +16,6 @@ tellraw @s ["",{"text":"≪ ","color":"#ff8080","bold": true},{"translate":"サ�
 tellraw @s ""
 
 # スコアリセット
-scoreboard players reset @s ChangeSkillSet
-scoreboard players enable @s ChangeSkillSet
+scoreboard players reset @s ChangeSkill
+scoreboard players enable @s ChangeSkill
 scoreboard players enable @s SkillSetting

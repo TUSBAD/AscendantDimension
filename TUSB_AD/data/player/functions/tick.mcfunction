@@ -74,7 +74,7 @@
     execute if entity @s[advancements={mob_manager:player_hurt_entity={melee_attack=true}}] run function skill:trigger/hit/
     execute if entity @s[scores={Jump=1..}] run function skill:trigger/jump/
     execute if entity @s[scores={kill=1..}] run function player:kill/pray/
-    execute if entity @s[scores={SneakingTime=1..}] run function player:sneak/
+    execute if entity @s[scores={SneakTime=1..}] run function player:sneak/
     execute if entity @s[scores={SneakFrequency=1..}] run function player:sneak/frequency
 
 # スキル設定変更

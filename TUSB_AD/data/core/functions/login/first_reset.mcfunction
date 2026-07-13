@@ -46,8 +46,8 @@ scoreboard players set @s LeaveGame 1
 tag @s add Timer
 
 # スコアの設定
-scoreboard players set @s ChangeSkillSet 0
+scoreboard players set @s ChangeSkill 0
 scoreboard players set @s SkillSetting 0
 
 # triggerのenable
-scoreboard players enable @s ChangeSkillSet
+scoreboard players enable @s ChangeSkill
