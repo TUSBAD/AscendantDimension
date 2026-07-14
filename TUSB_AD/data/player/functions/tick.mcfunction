@@ -50,9 +50,6 @@
 # 緩衝体力付きで死んでいる場合、エフェクトクリアすることで、体力を正常にする
     effect clear @s[scores={Deaths=1..,HP=1..}]
 
-# ベッドで寝たときの効果
-    execute if entity @s[scores={SleepInBed=1..}] run function player:sleep/
-
 # 特殊な床や液体のギミック(毎tick)
     #function player:custom_floor/tick
 

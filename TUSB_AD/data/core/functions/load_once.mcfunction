@@ -70,18 +70,6 @@ scoreboard objectives add AgentFlag trigger "エージェント会話フラグ"
 scoreboard objectives add AugurFlag trigger "占い師会話フラグ"
 scoreboard objectives add AgentWarpCost dummy "エージェント利用価格"
 
-### 眠ると回復するやつに使ってる？
-scoreboard objectives add SleepInBed minecraft.custom:minecraft.sleep_in_bed
-
-### ネザーの火山大爆発
-scoreboard objectives add MineNetherrack minecraft.mined:minecraft.netherrack
-
-scoreboard objectives add ItemCount dummy "特定アイテム数"
-
-### 花火の消費
-scoreboard objectives add UseFireworkRocket minecraft.used:minecraft.firework_rocket
-
-
 ### スキル判定
 #scoreboard objectives add ProjectileSkill dummy "投擲物に付与したスキルとレベル"
 #scoreboard objectives add PotentialSkill dummy "Mobに発動する可能性のあるスキル"
@@ -187,6 +175,7 @@ scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"
 scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
 scoreboard objectives add CountDown dummy {"text": "カウントダウン"}
 scoreboard objectives add ConquerIsland dummy {"text": "攻略数カウント"}
+scoreboard objectives add ItemCount dummy {"text": "特定アイテム数"}
 #> v13からのコピペやね...
 #scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 #scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
@@ -224,6 +213,8 @@ scoreboard objectives add kill trigger {"text":"個人killフラグ"}
 scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl {"text":"エンダーパールを使った回数"}
 scoreboard objectives add DeathCount deathCount {"text": "死亡回数"}
 scoreboard objectives add hcmode trigger {"text": "ハードコアモード"}
+scoreboard objectives add MineNetherrack minecraft.mined:minecraft.netherrack {"text": "ネザーラック噴火"}
+scoreboard objectives add UseFireworkRocket minecraft.used:minecraft.firework_rocket {"text": "花火使用回数"}
 
 #> スキル
 scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
