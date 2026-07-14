@@ -1,6 +1,6 @@
 #> mob_manager:skill/enemy/game_master/3
 #
-# 
+#
 #
 # @within function mob_manager:skill/enemy/game_master/
 
@@ -18,4 +18,4 @@
 # slowness
     execute at @e[tag=GameMaster,limit=1] run effect give @a[distance=..60,tag=GameMasterBattle] minecraft:slowness 5 5
 # sound
-    execute at @e[tag=GameMaster,limit=1] run playsound minecraft:entity.player.levelup player @a[distance=..60,tag=GameMasterBattle] ~ ~ ~ 2 1
+    execute at @e[tag=GameMaster,limit=1] run playsound minecraft:xp_chime player @a[distance=..60,tag=GameMasterBattle] ~ ~ ~ 2 1

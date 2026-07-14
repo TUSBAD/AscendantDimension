@@ -6,7 +6,7 @@
 # 変更点: 3分で消える
 
 ### 演出
-playsound entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1.4 0
+playsound xp_chime master @a[distance=..16] ~ ~ ~ 1 1.4 0
 particle minecraft:instant_effect ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force
 
 ### スノーを召喚

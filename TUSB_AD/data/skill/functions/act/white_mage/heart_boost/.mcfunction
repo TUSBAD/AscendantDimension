@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 2 0
+playsound minecraft:xp_chime master @a[distance=..16] ~ ~ ~ 1 2 0
 
 execute if score @s ActivatedSkill matches 4010 run effect give @a[distance=..15] minecraft:absorption 180 1
 execute if score @s ActivatedSkill matches 4011 run effect give @a[distance=..15] minecraft:absorption 180 3

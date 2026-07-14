@@ -20,4 +20,4 @@ experience add @s -40 levels
 scoreboard players operation _ MP = @s MP
 execute if score _ MP matches 1.. run function skill:mp/bar/set_level
 
-stopsound @a player minecraft:entity.player.levelup
+stopsound @a player minecraft:xp_chime
