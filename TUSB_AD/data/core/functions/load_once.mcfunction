@@ -6,75 +6,43 @@
 ### 攻略対象最大数
 #scoreboard players set MaxPortalCount Settings 128
 
-### ライブラリ用
-scoreboard objectives add Temporary dummy
-scoreboard objectives add Const dummy
-
-### スポナー用score
-scoreboard objectives add SpawnerId dummy "スポナーId"
-scoreboard objectives add SpawnerUpdate dummy "スポナーのアップデート"
-
-### mob用score
-scoreboard objectives add MobId dummy "Mobの識別子"
-
-### 村人用score
-scoreboard objectives add VillagerId dummy "村人の識別子"
-scoreboard objectives add VillagerUpdate dummy "村人のアップデート"
-
-### Global
-scoreboard objectives add Global dummy
-scoreboard objectives add TUSB dummy
-
-
-scoreboard objectives add HealCount dummy "HP回復量"
 ## なくせるかも？
 scoreboard objectives add EventRank dummy "イベントランク"
 
 scoreboard objectives add TutorialRead dummy "チュートリアル読んだフラグ"
 scoreboard objectives add TutorialReading dummy "チュートリアル読んでるフラグ"
-scoreboard objectives add Drop minecraft.custom:minecraft.drop
-
-
 
 ### 即時スキル(すぐ効果がでるスキル)
-scoreboard objectives add InstantSkillA dummy "即時スキルA"
-scoreboard objectives add InstantCostA dummy "即時スキルAコスト"
-scoreboard objectives add InstantChangeA trigger "即時スキルA変更フラグ"
-scoreboard objectives add InstantSkillB dummy "即時スキルB"
-scoreboard objectives add InstantCostB dummy "即時スキルBコスト"
-scoreboard objectives add InstantChangeB trigger "即時スキルB変更フラグ"
+#scoreboard objectives add InstantSkillA dummy "即時スキルA"
+#scoreboard objectives add InstantCostA dummy "即時スキルAコスト"
+#scoreboard objectives add InstantChangeA trigger "即時スキルA変更フラグ"
+#scoreboard objectives add InstantSkillB dummy "即時スキルB"
+#scoreboard objectives add InstantCostB dummy "即時スキルBコスト"
+#scoreboard objectives add InstantChangeB trigger "即時スキルB変更フラグ"
 
 ### モードスキル(何かをすると効果がでるモードに変えるスキル)
-scoreboard objectives add ModeSkillA dummy "モードスキルA"
-scoreboard objectives add ModeCostA dummy "モードスキルAコスト"
-scoreboard objectives add ModeChangeA trigger "モードスキルA変更フラグ"
-scoreboard objectives add ModeSkillB dummy "モードスキルB"
-scoreboard objectives add ModeCostB dummy "モードスキルBコスト"
-scoreboard objectives add ModeChangeB trigger "モードスキルB変更フラグ"
-scoreboard objectives add CurrentMode dummy "選択中のモードスキル"
-scoreboard objectives add CurrentModeCost dummy "選択中モードスキルコスト"
-scoreboard objectives add ModeState dummy "モード状態"
+#scoreboard objectives add ModeSkillA dummy "モードスキルA"
+#scoreboard objectives add ModeCostA dummy "モードスキルAコスト"
+#scoreboard objectives add ModeChangeA trigger "モードスキルA変更フラグ"
+#scoreboard objectives add ModeSkillB dummy "モードスキルB"
+#scoreboard objectives add ModeCostB dummy "モードスキルBコスト"
+#scoreboard objectives add ModeChangeB trigger "モードスキルB変更フラグ"
+#scoreboard objectives add CurrentMode dummy "選択中のモードスキル"
+#scoreboard objectives add CurrentModeCost dummy "選択中モードスキルコスト"
+#scoreboard objectives add ModeState dummy "モード状態"
 
 ### スキル全般
-scoreboard objectives add ActivatedSkill dummy "発動スキル"
-scoreboard objectives add ChangeSkill dummy "変更先スキル"
-scoreboard objectives add ShowSkill dummy "表示スキル"
-scoreboard objectives add MPCost dummy "スキル消費MP"
-
-
-
-
-### 村人会話 => advancements
-scoreboard objectives add PastorFlag trigger "牧師会話フラグ"
-scoreboard objectives add AgentFlag trigger "エージェント会話フラグ"
-scoreboard objectives add AugurFlag trigger "占い師会話フラグ"
-scoreboard objectives add AgentWarpCost dummy "エージェント利用価格"
+#scoreboard objectives add ActivatedSkill dummy "発動スキル"
+#scoreboard objectives add ChangeSkill dummy "変更先スキル"
+#scoreboard objectives add ShowSkill dummy "表示スキル"
+#scoreboard objectives add MPCost dummy "スキル消費MP"
 
 ### スキル判定
 #scoreboard objectives add ProjectileSkill dummy "投擲物に付与したスキルとレベル"
 #scoreboard objectives add PotentialSkill dummy "Mobに発動する可能性のあるスキル"
 # 定数設定(いる？)
 #function core:load/define_const
+
 
 #> バージョン
 function settings:version_update/check/
@@ -215,6 +183,11 @@ scoreboard objectives add DeathCount deathCount {"text": "死亡回数"}
 scoreboard objectives add hcmode trigger {"text": "ハードコアモード"}
 scoreboard objectives add MineNetherrack minecraft.mined:minecraft.netherrack {"text": "ネザーラック噴火"}
 scoreboard objectives add UseFireworkRocket minecraft.used:minecraft.firework_rocket {"text": "花火使用回数"}
+# わんちゃん消せるかも
+scoreboard objectives add PastorFlag trigger {"text":"牧師会話フラグ"}
+scoreboard objectives add AgentFlag trigger {"text":"エージェント会話フラグ"}
+scoreboard objectives add AugurFlag trigger {"text": "占い師会話フラグ"}
+scoreboard objectives add AgentWarpCost dummy {"text": "エージェント利用価格"}
 
 #> スキル
 scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
@@ -276,6 +249,11 @@ scoreboard objectives add CustomHealth dummy {"text":"カスタム体力"}
 scoreboard objectives add LogRemoveTime dummy {"text": "Logのtick"}
 scoreboard objectives add MobCastTime dummy {"text": "敵キャストタイム"}
 scoreboard objectives add AbyssSeduce dummy {"text": "アビスセデュース"}
+scoreboard objectives add SpawnerId dummy {"text": "スポナーID"}
+scoreboard objectives add SpawnerUpdate dummy {"text": "スポナーアップデート"}
+scoreboard objectives add MobId dummy {"text": "Mobの識別子"}
+scoreboard objectives add VillagerId dummy {"text": "村人の識別子"}
+scoreboard objectives add VillagerUpdate dummy {"text": "村人アップデート"}
 
 
 #> ワールド諸設定
