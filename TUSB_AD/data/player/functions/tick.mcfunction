@@ -83,8 +83,11 @@
 # スキル
     function skill:tick
 
-# tick/trigger
-    function player:show_text/trigger/
+### カスタムHP回復
+execute if entity @s[scores={HealthHealing=-2147483648..}] run function player:health_healing
+
+### プレイヤーゲームメニュー
+execute unless score @s ChangeSettings matches 0 run function core:game_menu/triggered
 
 # 装備効果
     function player:custom_item/equipments/
@@ -92,10 +95,6 @@
 # プレイヤーの回復効果
     execute if entity @s[predicate=player:heal_count/healcount_small] run function player:health/heal/small
     execute if entity @s[predicate=player:heal_count/healcount_large] run function player:health/heal/large
-
-# HP記録
-    execute if entity @s[scores={HPChanging=0..}] run scoreboard players operation @s HP = @s HPChanging
-    scoreboard players reset @s[scores={HPChanging=0..}] HPChanging
 
 # めり込み死
     execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
