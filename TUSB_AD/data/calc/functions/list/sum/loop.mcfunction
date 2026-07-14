@@ -1,0 +1,10 @@
+#> calc:list/sum/loop
+#
+#リストの総和を計算
+#
+# @within function calc:list/sum/x1
+
+execute store result score __ _ run data get storage calc: List[-1] 100
+scoreboard players operation _ Ret += __ _
+data remove storage calc: List[-1]
+execute if data storage calc: List[-1] run function calc:list/sum/loop

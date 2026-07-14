@@ -12,7 +12,7 @@
         ]
       }
     },
-    "aaa": {
+    "chorus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
   "requirements": [
     [
       "requirement",
-      "aaa"
+      "chorus"
     ]
   ],
   "rewards": {
