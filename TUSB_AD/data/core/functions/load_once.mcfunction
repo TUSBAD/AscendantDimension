@@ -1,16 +1,8 @@
 #> core:load_once
-# 設定のリセット
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
-
-### 攻略対象最大数
-#scoreboard players set MaxPortalCount Settings 128
-
-## なくせるかも？
-scoreboard objectives add EventRank dummy "イベントランク"
-
-scoreboard objectives add TutorialRead dummy "チュートリアル読んだフラグ"
-scoreboard objectives add TutorialReading dummy "チュートリアル読んでるフラグ"
+#
+# 初期設定
+#
+# @within function core:load/
 
 ### 即時スキル(すぐ効果がでるスキル)
 #scoreboard objectives add InstantSkillA dummy "即時スキルA"
@@ -144,6 +136,7 @@ scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"
 scoreboard objectives add CountDown dummy {"text": "カウントダウン"}
 scoreboard objectives add ConquerIsland dummy {"text": "攻略数カウント"}
 scoreboard objectives add ItemCount dummy {"text": "特定アイテム数"}
+scoreboard objectives add EventRank dummy {"text": "イベントランク"}
 #> v13からのコピペやね...
 #scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 #scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
