@@ -1,10 +1,10 @@
-#> makeup:area/underworld
+#> makeup:area/entered/underworld
 #
 #> 地下世界演出
 #
 #@within function area:/entered/**
 
-function makeup:area/
+function makeup:area/entered/
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 0.5
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 1.0
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 0.501

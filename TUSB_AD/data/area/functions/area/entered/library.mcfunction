@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/library
 function settings:area/library
 function area:area/entered/
 # 演出表示
-function makeup:area/library
+function makeup:area/entered/library
