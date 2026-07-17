@@ -1,8 +1,8 @@
-#> mob_manager:custom_mob/log/summon/total_damage
+#> enemy:custom_mob/log/summon/total_damage
 #
 # 累計ダメージ量の表示
 #
-# @within function mob_manager:custom_mob/health/log/total
+# @within function enemy:custom_mob/health/log/total
 
 # 召喚
     summon minecraft:text_display ~ ~2.1 ~ {see_through:true,background:0,alignment:center,billboard:center,brightness:{block:15,sky:15},text:'""',Tags:["LogDisplay", "DamageLog", "LongShow","TypeChecked","SystemEntity"],transformation:{translation:[0.0f,0.0f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.8f,1.8f,1.8f],right_rotation:[0.0f,0.0f,0.0f,1.0f]}}

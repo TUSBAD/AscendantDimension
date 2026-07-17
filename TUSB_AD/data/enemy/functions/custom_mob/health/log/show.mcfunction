@@ -1,9 +1,9 @@
-#> mob_manager:custom_mob/health/log/show
+#> enemy:custom_mob/health/log/show
 #
 # text_displayの表示
 #
-# @within function mob_manager:custom_mob/health/log/summon/damage
-#         function mob_manager:custom_mob/health/log/summon/heal
+# @within function enemy:custom_mob/health/log/summon/damage
+#         function enemy:custom_mob/health/log/summon/heal
 
 # textにセット
     data modify entity @s text set from block 3500 0 3500 Items[0].tag.display.Name

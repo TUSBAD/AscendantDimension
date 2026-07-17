@@ -1,8 +1,8 @@
-#> mob_manager:custom_mob/health/absorption
+#> enemy:custom_mob/health/absorption
 #
 # 緩衝体力値の計算
 #
-# @within function mob_manager:custom_mob/health/
+# @within function enemy:custom_mob/health/
 
 # 被ダメージ量の5倍を保存
     execute store result score @s Damage run data get entity @s AbsorptionAmount -5

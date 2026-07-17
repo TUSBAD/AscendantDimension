@@ -1,8 +1,8 @@
-#> mob_manager:custom_mob/death/
+#> enemy:custom_mob/death/
 #
 # 死亡させる処理
 #
-# @within function mob_manager:custom_mob/damage
+# @within function enemy:custom_mob/damage
 
 # IDから死亡時処理を呼び出し
     data remove storage asset:context id

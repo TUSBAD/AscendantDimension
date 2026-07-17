@@ -1,4 +1,4 @@
-#> mob_manager:custom_mob/health/log/display_tick
+#> enemy:custom_mob/health/log/display_tick
 #
 # LogDisplayのtick処理
 #
