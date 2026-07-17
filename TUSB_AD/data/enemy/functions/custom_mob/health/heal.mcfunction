@@ -12,7 +12,7 @@ scoreboard players operation @s CustomHealth < @s MaxCustomHealth
 function enemy:custom_mob/health/log/summon/heal
 
 # 演出
-function enemy:custom_mob/health/makeup/heal
+function makeup:enemy/custom_mob/heal
 
 # リセット
 scoreboard players reset @s Heal

@@ -11,12 +11,12 @@
     scoreboard players operation @s Damage = @s ShowDamage
 
 # @s Damageから文字を設定
-    loot replace block 3500 0 3500 container.0 loot lib:status_makeup/total_damage
+    execute in area:control run loot replace block 3 1 3 container.0 loot lib:status_makeup/total_damage
 
 # 表示
-    execute positioned ~ ~2.1 ~ as @e[distance=..0.01,type=minecraft:text_display,tag=DamageLog,limit=1] run data modify entity @s text set from block 3500 0 3500 Items[0].tag.display.Name
+    execute positioned ~ ~2.1 ~ as @e[distance=..0.01,type=minecraft:text_display,tag=DamageLog,limit=1] in area:control run data modify entity @s text set from block 3 1 3 Items[0].tag.display.Name
 
 # リセット
-    data remove block 3500 0 3500 Items
+    execute in area:control run data remove block 3 1 3 Items
     scoreboard players reset @s Damage
     scoreboard players reset @s ShowDamage

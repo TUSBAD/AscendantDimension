@@ -6,7 +6,7 @@
 #         function enemy:custom_mob/health/log/summon/heal
 
 # textにセット
-    data modify entity @s text set from block 3500 0 3500 Items[0].tag.display.Name
+    execute in area:control run data modify entity @s text set from block 3 1 3 Items[0].tag.display.Name
 
 # 8つのうちどこかに出現
     data modify storage math: in set value [1,8]

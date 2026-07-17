@@ -30,7 +30,7 @@
     function entity:tick
 
 #> MobTick
-    function enemy:tick
+    execute as @e[tag=Enemy] at @s run function enemy:tick
 
 ### エンティティ削除 - 最後に実行
 execute as @e[tag=Garbage] run function entity:garbage_collection

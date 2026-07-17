@@ -11,7 +11,7 @@
     scoreboard players operation @s ShowDamage += @s Damage
 
 # @s Damageから文字を設定
-    loot replace block 3500 0 3500 container.0 loot lib:status_makeup/damage
+    execute in area:control run loot replace block 3 1 3 container.0 loot lib:status_makeup/damage
 
 # 表示
     execute positioned ~ ~ ~ as @e[distance=..0.01,type=minecraft:text_display,tag=DamageLog,limit=1] run function enemy:custom_mob/health/log/show
@@ -20,4 +20,4 @@
     execute unless score @s LogRemoveTime matches 1.. run scoreboard players set @s LogRemoveTime 1
 
 # リセット
-    data remove block 3500 0 3500 Items
+    execute in area:control run data remove block 3 1 3 Items

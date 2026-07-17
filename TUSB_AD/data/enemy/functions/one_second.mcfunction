@@ -7,11 +7,15 @@
 # 10秒処理呼び出し 使用するときにコメントアウトを外してください。
 # execute if score #Seconds Count matches 0 run function enemy:ten_seconds
 
+## 狩人
+# ワイルドクッキング
+execute if entity @s[scores={WildCooking=1..}] run function skill:act/hunter/wild_cooking/debuff_tick
+
 # Freeze/Melt 居縮とかの
     execute as @e[tag=Freeze] if predicate lib:is_cooldown_0 run function mob_manager:entity/freeze_clear
 
 # 敵スキル発動チェック
-    execute as @e[tag=SkillMob] at @s run function mob_manager:skill/
+    execute as @e[tag=SkillMob] at @s run function enemy:skill/
 
 # オーラ(AEC)纏ってる敵のオーラを維持する？
     execute as @e[tag=MobCloud] at @s as @e[dx=0,tag=Enemy,sort=nearest,limit=1] at @s as @e[dy=10,tag=MobCloud] run data modify entity @s Age set value 5
