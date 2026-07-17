@@ -1,8 +1,8 @@
-#> mob_manager:custom_mob/init/
+#> enemy:custom_mob/init/
 #
 # custom_mobの共通init
 #
-# @within function mob_manager:entity/type_check
+# @within function entity:initialize_entity
 
 # どのモブか検知し体力を割り当てる
     execute store result storage asset:context id int 1 run data get entity @s AbsorptionAmount 1

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "use_spawn_eggs": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "match_tool",
+            "predicate": {
+              "tag": "item:spawn_egg"
+            }
+          },
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "spawner"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_spawn_eggs"
+    ]
+  ],
+  "rewards": {
+    "function": "enemy:reboot_spawner/interact"
+  }
+}

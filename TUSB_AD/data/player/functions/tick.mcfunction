@@ -5,7 +5,7 @@
 # @within function core:tick
 
 # -> 0.5秒処理
-    execute if score #Ten_Ticks Count matches 0 run function player:half_second
+    execute if score #Ticks Count matches 10 run function player:half_second
 
 # -> 1秒処理
     execute if score #Ticks Count matches 0 run function player:one_second
