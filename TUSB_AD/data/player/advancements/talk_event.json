@@ -95,6 +95,6 @@
 		]
 	],
 	"rewards": {
-		"function": "mob_manager:villager/talk_event/"
+		"function": "entity:villager/talk_event/"
 	}
 }
