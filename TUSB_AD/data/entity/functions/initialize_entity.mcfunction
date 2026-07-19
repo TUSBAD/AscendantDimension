@@ -42,6 +42,9 @@
 # 自然湧きじゃないスライム系のチェック
     tag @s[type=#lib:slimey,predicate=!player:effects/has_absorptionamount] add FromSpawner
 
+# 自然わきスライム
+    tag @s[type=#lib:slimey,predicate=player:effects/has_absorptionamount] add Garbage
+
 # 応急措置?
     kill @s[type=item,predicate=lib:overstack_item]
     execute as @s[type=wandering_trader] run function entity:wandering_trader/limit_sapling

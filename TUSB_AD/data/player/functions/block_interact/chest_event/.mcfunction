@@ -10,6 +10,6 @@ execute unless entity @s[advancements={player:block_interact/chest_event={table_
 execute if entity @s[advancements={player:block_interact/chest_event={skill_setting_area_eggs=true}}] run function player:block_interact/chest_event/skill_setting_area_eggs
 
 # infinity_bossの準備部屋チェスト
-execute if entity @s[advancements={player:block_interact/chest_event={infinity_boss_prep_chest=true}}] run function mob_manager:boss/infinity_boss/chest/
+execute if entity @s[advancements={player:block_interact/chest_event={infinity_boss_prep_chest=true}}] run function enemy:boss/infinity_boss/chest/
 
 advancement revoke @s only player:block_interact/chest_event

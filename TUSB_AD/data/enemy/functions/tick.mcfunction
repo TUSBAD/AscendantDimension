@@ -7,6 +7,15 @@
 # -> 1秒処理
 execute if score #Ticks Count matches 0 run function enemy:one_second
 
+# 居縮
+execute if entity @s[scores={Isukumi=1..}] run function skill:act/ninja/isukumi/tick
+
+## 狩人
+# ルカナントラップ
+execute if entity @s[scores={Kasap=1..}] run function skill:act/hunter/kasap_trap/enemy_tick
+# ボミオストラップ
+execute if entity @s[scores={Decelerate=1..}] run function skill:act/hunter/decelerate_trap/enemy_tick
+
 # 魔法のブロックの共通処理
     execute if entity @s[type=item_frame,tag=MagicBlock] at @s run function skill:act/summoner/magic_block/check
 
