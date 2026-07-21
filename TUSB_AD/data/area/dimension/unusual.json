@@ -1,0 +1,11 @@
+{
+  "type": "area:unusual",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:unusual",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

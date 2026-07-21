@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "nbt": "{InstantEffect:{}}"
+            }
+          }
+        ]
+      }
+    },
+    "chorus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement",
+      "chorus"
+    ]
+  ],
+  "rewards": {
+    "function": "item:instant_item/"
+  }
+}

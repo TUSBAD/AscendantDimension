@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "picnic": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[Picnic]}"
+                }
+            }
+        },
+        "casual": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[Casual]}"
+                }
+            }
+        },
+        "another": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[Another]}"
+                }
+            }
+        },
+        "nightmare": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[Nightmare]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "another",
+            "casual",
+            "nightmare",
+            "picnic"
+        ]
+    ],
+    "rewards": {
+        "function": "core:difficulty/select/"
+    }
+}

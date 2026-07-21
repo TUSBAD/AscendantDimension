@@ -1,0 +1,19 @@
+{
+  "values": [
+    "calc:island/get_total/new_skylands",
+    "calc:island/get_total/skylands",
+    "calc:island/get_total/tradeisland",
+    "calc:island/get_total/cloudia",
+    "calc:island/get_total/underworld",
+    "calc:island/get_total/gullivers_land",
+    "calc:island/get_total/table_mountain",
+    "calc:island/get_total/tocult_colde",
+    "calc:island/get_total/library",
+    "calc:island/get_total/purgatory",
+    "calc:island/get_total/end",
+    "calc:island/get_total/niflheimr",
+    "calc:island/get_total/imaginary_space",
+    "calc:island/get_total/unusual_space",
+    "calc:island/get_total/another_dimension"
+  ]
+}

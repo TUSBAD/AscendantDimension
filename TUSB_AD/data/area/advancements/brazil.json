@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "area:cloudia",
+						"position": {
+							"x": {
+								"min": -1755,
+								"max": -1722
+							},
+							"y": {
+								"min": 98,
+								"max": 108
+							},
+							"z": {
+								"min": -153,
+								"max": -120
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "area:dimension/cloudia/brazil/"
+	}
+}

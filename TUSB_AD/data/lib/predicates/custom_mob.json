@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "#lib:mob",
+    "type": "#entity:mob",
     "nbt": "{Tags:[\"CustomMob\"]}"
   }
 }

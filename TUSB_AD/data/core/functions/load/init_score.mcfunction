@@ -2,7 +2,7 @@
 #
 # 事前に決めるスコア
 #
-# @within function core:load/once
+# @within function core:load_once
 
 # ダメージ計算用
 scoreboard players set #5120 Damage 5120
@@ -20,3 +20,4 @@ execute unless score #Minutes Count matches 0.. run scoreboard players set #Minu
 
 ###総獲得経験値量初期化
 scoreboard players add #World AllExp 0
+#scoreboard players set #Global TotalXp 0

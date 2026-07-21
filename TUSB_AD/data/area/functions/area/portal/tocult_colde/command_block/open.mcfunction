@@ -1,0 +1,6 @@
+#> area:area/portal/tocult_colde/command_block/open
+### 古代遺跡　調査コードCBのワープ開放
+
+data modify storage area: portal_name set value "古代遺跡　調査コードCB"
+data modify storage area: portal.tocult_colde.command_block set value true
+execute positioned 1294 96 1522 run function area:area/portal/open

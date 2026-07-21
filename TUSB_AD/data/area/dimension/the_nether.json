@@ -1,0 +1,11 @@
+{
+  "type": "area:the_nether",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:the_nether",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

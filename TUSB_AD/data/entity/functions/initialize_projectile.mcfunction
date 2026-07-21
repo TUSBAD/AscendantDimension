@@ -1,0 +1,22 @@
+#> entity:initialize_projectile
+#
+# 飛翔物属性付与
+#
+# @within function entity:initialize_entity
+
+### 飛翔物属性付与
+    tag @s[tag=!Cargo] add TickingRequired
+    tag @s add FlyingRequired
+    data modify entity @s[nbt={PortalCooldown:0}] PortalCooldown set value 200
+    execute if entity @s[type=#entity:has_in_ground] store result entity @s life short 1 run function entity:has_in_ground/get/cooldown_to_life
+    execute if predicate entity:has_in_ground/flying run tag @s add FlyingObject
+    tag @s[type=#lib:projectile] add Driftable
+    tag @s[type=#lib:wind_wall_alpha] add DriftableA
+
+### 矢のダメージ設定
+    execute if entity @s[type=#minecraft:arrows,nbt={pickup:0b}] unless score @s Attack matches 1.. store result entity @s damage double 1 run scoreboard players get @e[tag=Enemy,limit=1,sort=nearest,distance=..3] Attack
+    data modify entity @s[type=#minecraft:arrows,nbt={pickup:0b,damage:0d}] damage set value 2d
+
+### 雪玉系のダメージ設定
+#微小なダメージを与えて描画を直す
+    execute if entity @s[type=#entity:non_damage_projectiles,tag=DelayedData] run damage @s 0.001

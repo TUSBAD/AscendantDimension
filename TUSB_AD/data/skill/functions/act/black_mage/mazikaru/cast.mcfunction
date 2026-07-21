@@ -1,0 +1,9 @@
+#> skill:act/black_mage/mazikaru/cast
+
+data modify storage skill: drain_result set value false
+execute as @e[distance=..10,type=#entity:mob,tag=Enemy,limit=8,sort=nearest] run function skill:act/black_mage/mazikaru/apply
+
+### ドレインできなかったらMPを返す
+execute if data storage skill: {drain_result:false} run scoreboard players operation @s MP += @s MPConsumption
+### ドレインできていたら回復
+execute if data storage skill: {drain_result:true} run function skill:act/black_mage/mazikaru/player

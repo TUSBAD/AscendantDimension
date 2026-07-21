@@ -105,7 +105,7 @@
         #{Name:resistance,id:11} 耐性 100-lv*20%
         #{Name:fire_resistance,id:12} 火炎耐性
         #{Name:water_breathing,id:13} 水中呼吸
-        #{Name:invisibility,id:14} 透明化 player_manager:invisible
+        #{Name:invisibility,id:14} 透明化 player:invisible
         #{Name:blindness,id:15} 盲目
         #{Name:night_vision,id:16} 暗視
         #{Name:hunger,id:17} 空腹
@@ -144,6 +144,3 @@
 
 # スポナーから湧かせるための設定をします
     data modify storage asset: mob.custom_spawn_rules set value {sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}}
-
-
-    

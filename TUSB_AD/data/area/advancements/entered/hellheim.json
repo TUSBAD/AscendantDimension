@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "area:hellheim"
+        }
+      }
+    },
+    "rewards": {
+      "function": "area:area/entered/hellheim"
+    }
+  }

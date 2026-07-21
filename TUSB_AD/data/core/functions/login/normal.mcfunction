@@ -13,5 +13,5 @@ schedule function core:login/schedule 5s append
 forceload add -2740 -361 -2740 -361
 
 # スニークメニューをenable
-scoreboard players set @s ShowMenu 1
-scoreboard players enable @s ShowMenu
+scoreboard players set @s ChangeSettings 1
+scoreboard players enable @s ChangeSettings

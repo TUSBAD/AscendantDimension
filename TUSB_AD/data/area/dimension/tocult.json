@@ -1,0 +1,11 @@
+{
+  "type": "area:tocult",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:tocult",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

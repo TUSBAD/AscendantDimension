@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "area:cursed_island"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "area:apocalypse_island"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "area:collapse_island"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "area:demise_island"
+        }
+      }
+    ]
+  }

@@ -2,7 +2,7 @@
 #
 # 毎tick処理
 #
-# @within function core:load/once
+# @within function core:load_once
     #declare score_holder #Ticks Count
 
 #> 現在時刻更新
@@ -11,6 +11,9 @@
 #> ハード固定化
     function core:login/force_difficulty
 
+#> 1秒処理
+    execute if score #Ticks Count matches 0 run function core:one_second
+
 #> 初回ログイン時
     execute as @a[team=] at @s run function core:login/first
 
@@ -18,17 +21,16 @@
     execute as @a[scores={LeaveGame=1..}] at @s run function core:login/
 
 #> ワールドTick
-    function world_manager:tick
+    function area:tick
+#> プレイヤーTick
+    execute as @a at @s run function player:tick
+
+#> EntityTick
+
+    function entity:tick
 
 #> MobTick
+    execute as @e[tag=Enemy] at @s run function enemy:tick
 
-    function mob_manager:tick
-
-#> プレイヤーTick
-    execute as @a at @s run function player_manager:tick
-
-#> 1秒処理
-    execute if score #Ticks Count matches 0 run function core:one_second
-
-# 削除対象のエンティティを削除する
-    function mob_manager:delete/
+### エンティティ削除 - 最後に実行
+execute as @e[tag=Garbage] run function entity:garbage_collection

@@ -1,0 +1,10 @@
+#> enemy:skill/enemy/fake_player/mjolnir/hit
+#
+# hit処理
+#
+# @within function enemy:skill/enemy/fake_player/mjolnir/tick
+
+# ダメージを与える
+function score_damage:api/attack
+
+data modify storage enemy: hit set value true

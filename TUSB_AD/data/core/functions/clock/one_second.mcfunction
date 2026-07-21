@@ -7,7 +7,6 @@
 #declare score_holder #Seconds Count
 
 #> #Ticks CountとTen_Ticks Countをリセットして、#Second Countを加算。 10秒ごとにcore:clock/ten_secondsを実行。
-scoreboard players set #Ten_Ticks Count 0
 scoreboard players set #Ticks Count 0
 scoreboard players add #Seconds Count 1
 execute if score #Seconds Count matches 10.. run function core:clock/ten_seconds

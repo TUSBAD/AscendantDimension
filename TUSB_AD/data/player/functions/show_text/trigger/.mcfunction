@@ -1,0 +1,32 @@
+#> player:show_text/trigger
+
+execute if score @s hcmode matches 1 run function core:hard_core_mode/no
+
+execute if score @s hcmode matches 1 run scoreboard players reset @s hcmode
+
+# スキル変更トリガー
+execute if score @s ChangeSkill matches 1 run function player:show_text/sneak_menu/skill/set
+
+# スキル変更設定
+execute unless score @s SkillSetting matches 0 run function player:show_text/sneak_menu/skill/display
+
+# シフトメニュー
+# 情報トリガー
+execute if score @s ChangeSettings matches 1 run function player:show_text/sneak_menu/data/list
+
+# 職業変更トリガー
+execute if score @s ChangeSettings matches 2 run function player:show_text/sneak_menu/job_change/
+
+# 統計トリガー
+execute if score @s ChangeSettings matches 10 run function player:show_text/sneak_menu/data/statistics
+
+# 攻略率トリガー
+execute if score @s ChangeSettings matches 200..400 run function player:show_text/sneak_menu/show_world_info/
+
+# ステータストリガー
+execute if score @s ChangeSettings matches 12 run function player:show_text/sneak_menu/data/status
+
+execute if score @s ChangeSettings matches 1.. run function player:show_text/trigger/sneak_menu
+##トリガーリセット
+scoreboard players reset @s ChangeSettings
+scoreboard players enable @s ChangeSettings

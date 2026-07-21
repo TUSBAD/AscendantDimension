@@ -1,0 +1,11 @@
+{
+  "type": "area:tutorial",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:tutorial",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

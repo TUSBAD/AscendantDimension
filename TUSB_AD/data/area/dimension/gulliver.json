@@ -1,0 +1,11 @@
+{
+  "type": "area:gulliver",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:gulliver",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#> area:area/portal/tocult_colde/ruruie/close
+### ルルイエのワープ閉じる
+
+data modify storage area: portal_name set value "ルルイエ"
+data remove storage area: portal.tocult_colde.ruruie
+execute positioned 1294 96 1598 run function area:area/portal/close
+
+### チャンク読み込み
+setblock 1048 70 2056 minecraft:air
+setblock 1048 70 2056 minecraft:oak_sign[rotation=8]{Text1:'{"text":""}',Text2:'{"bold":true,"color":"dark_aqua","text":"ワープクリスタル"}',Text3:'{"bold":true,"color":"dark_aqua","text":"右クリックで開通"}'}

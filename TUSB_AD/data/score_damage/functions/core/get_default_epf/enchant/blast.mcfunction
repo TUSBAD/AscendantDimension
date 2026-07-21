@@ -6,18 +6,18 @@
 
 data modify storage score_damage: Protection[][{id:"blast_protection"}].id set value "minecraft:blast_protection"
 # 0
-    execute store result score $Temp ScoreDamageCore run data get storage score_damage: Protection[0][{id:"minecraft:blast_protection"}].lvl
-    scoreboard players operation $Temp ScoreDamageCore *= $2 ScoreDamageCore
-    scoreboard players operation $EPF ScoreDamageCore += $Temp ScoreDamageCore
+    execute store result score #Temp ScoreDamageCore run data get storage score_damage: Protection[0][{id:"minecraft:blast_protection"}].lvl
+    scoreboard players operation #Temp ScoreDamageCore *= #2 ScoreDamageCore
+    scoreboard players operation #EPF ScoreDamageCore += #Temp ScoreDamageCore
 # 1
-    execute store result score $Temp ScoreDamageCore run data get storage score_damage: Protection[1][{id:"minecraft:blast_protection"}].lvl
-    scoreboard players operation $Temp ScoreDamageCore *= $2 ScoreDamageCore
-    scoreboard players operation $EPF ScoreDamageCore += $Temp ScoreDamageCore
+    execute store result score #Temp ScoreDamageCore run data get storage score_damage: Protection[1][{id:"minecraft:blast_protection"}].lvl
+    scoreboard players operation #Temp ScoreDamageCore *= #2 ScoreDamageCore
+    scoreboard players operation #EPF ScoreDamageCore += #Temp ScoreDamageCore
 # 2
-    execute store result score $Temp ScoreDamageCore run data get storage score_damage: Protection[2][{id:"minecraft:blast_protection"}].lvl
-    scoreboard players operation $Temp ScoreDamageCore *= $2 ScoreDamageCore
-    scoreboard players operation $EPF ScoreDamageCore += $Temp ScoreDamageCore
+    execute store result score #Temp ScoreDamageCore run data get storage score_damage: Protection[2][{id:"minecraft:blast_protection"}].lvl
+    scoreboard players operation #Temp ScoreDamageCore *= #2 ScoreDamageCore
+    scoreboard players operation #EPF ScoreDamageCore += #Temp ScoreDamageCore
 # 3
-    execute store result score $Temp ScoreDamageCore run data get storage score_damage: Protection[3][{id:"minecraft:blast_protection"}].lvl
-    scoreboard players operation $Temp ScoreDamageCore *= $2 ScoreDamageCore
-    scoreboard players operation $EPF ScoreDamageCore += $Temp ScoreDamageCore
+    execute store result score #Temp ScoreDamageCore run data get storage score_damage: Protection[3][{id:"minecraft:blast_protection"}].lvl
+    scoreboard players operation #Temp ScoreDamageCore *= #2 ScoreDamageCore
+    scoreboard players operation #EPF ScoreDamageCore += #Temp ScoreDamageCore

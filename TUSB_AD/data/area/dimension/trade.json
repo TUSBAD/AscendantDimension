@@ -1,0 +1,11 @@
+{
+  "type": "area:tradeisland",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:tradeisland",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

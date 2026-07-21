@@ -235,7 +235,7 @@ scoreboard players reset * WindWall
 scoreboard players reset * Doom
 scoreboard players reset * DoomSecond
 
-scoreboard players reset * RemainTimer
+scoreboard players reset * CrossFire
 
 ### スキル同期管理
 # scoreboard players reset * TacticalHealBase
@@ -254,15 +254,15 @@ scoreboard players reset * PotentialSkill
 
 ### ハードコアモード
 scoreboard players reset * hcmode
-data remove storage world: settings.hardcore
+data remove storage area: settings.hardcore
 
 ### トカルトモード
 scoreboard players reset * isfmode
-data remove storage world: settings.toculting
+data remove storage area: settings.toculting
 
 ### タイムリミットモード
 scoreboard players reset * tlmode
-data remove storage world: settings.time_limit
+data remove storage area: settings.time_limit
 
 ### インフィニティボスメイクアップ
 scoreboard players reset * MakeupTickB

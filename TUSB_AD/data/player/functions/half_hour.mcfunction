@@ -1,0 +1,9 @@
+#> player:half_hour
+#
+# > 30分処理
+#
+# @within function player:one_minute
+
+# -> 1時間処理
+## 使用するときにコメントアウトを外してください。
+# execute if score #Minutes Count matches 0 run function player:one_hour

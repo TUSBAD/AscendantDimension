@@ -1,0 +1,11 @@
+{
+  "type": "area:imaginary",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:imaginary",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

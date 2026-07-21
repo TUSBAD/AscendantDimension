@@ -1,1 +1,0 @@
-execute in world_manager:test run tp @s 0 105 0

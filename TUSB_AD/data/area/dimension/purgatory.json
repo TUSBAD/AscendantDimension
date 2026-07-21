@@ -1,0 +1,11 @@
+{
+  "type": "area:purgatory",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:purgatory",
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

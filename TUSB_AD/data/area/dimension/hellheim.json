@@ -1,0 +1,11 @@
+{
+    "type": "area:hellheim",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "area:hellheim",
+        "layers": [],
+        "structure_overrides": []
+      }
+    }
+  }
