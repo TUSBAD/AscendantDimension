@@ -31,23 +31,16 @@
           "location": {
             "position": {
               "y": 300
-            }
+            },
+            "dimension": "area:tocult"
           }
         }
-      },
-      {
-        "condition": "minecraft:reference",
-        "name": "area:under_336"
       }
     ]
   },
   {
     "condition": "minecraft:all_of",
     "terms": [
-      {
-        "condition": "minecraft:reference",
-        "name": "area:under_min656"
-      },
       {
         "condition": "minecraft:entity_properties",
         "entity": "this",
@@ -57,7 +50,8 @@
               "y": {
                 "min": -700
               }
-            }
+            },
+            "dimension": "area:hellheim"
           }
         }
       }

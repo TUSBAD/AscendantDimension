@@ -12,6 +12,6 @@ function api:dice/score
 # ファンタジスタ・デスオーラ
 # ファンタジスタ・デスレイ
 
-execute if score @s Random matches 1 run function enemy:skill/enemy/boss.advanced/asgard_helheim
+execute if score @s Random matches 1 run function enemy:skill/enemy/boss.advanced/asgard_hellheim
 execute if score @s Random matches 2 run function enemy:skill/enemy/boss.advanced/fantasista_deathaura
 execute if score @s Random matches 3 run function enemy:skill/enemy/boss.advanced/fantasista_deathray

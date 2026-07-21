@@ -1,4 +1,4 @@
-#> makeup:area/entered/helheim
+#> makeup:area/entered/hellheim
 #
 #> ヘルヘイム演出
 #

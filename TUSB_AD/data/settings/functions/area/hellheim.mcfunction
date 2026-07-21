@@ -1,2 +1,2 @@
-#> settings:area/helheim
+#> settings:area/hellheim
 data modify storage area: "アドベンチャーエリア" set value false

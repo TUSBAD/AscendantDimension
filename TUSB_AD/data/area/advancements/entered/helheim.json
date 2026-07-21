@@ -3,11 +3,11 @@
       "requirement": {
         "trigger": "minecraft:changed_dimension",
         "conditions": {
-          "to": "area:helheim"
+          "to": "area:hellheim"
         }
       }
     },
     "rewards": {
-      "function": "area:area/entered/helheim"
+      "function": "area:area/entered/hellheim"
     }
   }

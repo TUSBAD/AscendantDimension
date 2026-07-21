@@ -17,7 +17,7 @@
     execute unless entity @s[type=!#entity:projectiles,tag=!DamageProjectile] run function entity:initialize_projectile
 
 ### Item to Spawn
-    execute if data entity @s[type=item] Item.tag.SpawnEntities run function enemy:spawn/item_to_spawn
+    execute if data entity @s[type=item] Item.tag.SpawnEntities run function entity:spawn/item_to_spawn
 
 # スポナーのタイプは２種類(時間で消える or 地面に付くと消える)
     tag @s[type=minecraft:spawner_minecart,predicate=!lib:is_cooldown_0] add CooldownRequired

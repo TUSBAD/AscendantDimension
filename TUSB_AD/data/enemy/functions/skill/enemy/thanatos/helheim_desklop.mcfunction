@@ -1,4 +1,4 @@
-#> enemy:skill/enemy/thanatos/helheim_desklop
+#> enemy:skill/enemy/thanatos/hellheim_desklop
 #
 # ヘルヘイム・デスクロップ
 #

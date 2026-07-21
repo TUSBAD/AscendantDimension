@@ -1,4 +1,4 @@
-#> enemy:skill/enemy/boss.advanced/asgard_helheim
+#> enemy:skill/enemy/boss.advanced/asgard_hellheim
 #
 # アスガルズ・ヘルヘイム
 #

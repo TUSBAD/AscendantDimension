@@ -1,4 +1,4 @@
-#> enemy:skill/enemy/shinen_old/nivhelheim_desklop
+#> enemy:skill/enemy/shinen_old/nivhellheim_desklop
 #
 # ニヴルヘイム・デスクロップ
 #

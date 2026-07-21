@@ -1,4 +1,4 @@
-#> enemy:skill/enemy/shinen_old/helheim_invasion
+#> enemy:skill/enemy/shinen_old/hellheim_invasion
 #
 # ヘルヘイム・インヴァイド
 #

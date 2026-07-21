@@ -12,4 +12,4 @@ function api:dice/score
 # ヘルヘイム・デスクロップ
 
 execute if score @s Random matches 1 run function enemy:skill/enemy/thanatos/death_scythe_soul_taker
-execute if score @s Random matches 2 run function enemy:skill/enemy/thanatos/helheim_desklop
+execute if score @s Random matches 2 run function enemy:skill/enemy/thanatos/hellheim_desklop
