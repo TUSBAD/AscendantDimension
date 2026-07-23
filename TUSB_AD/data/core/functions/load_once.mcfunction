@@ -4,6 +4,10 @@
 #
 # @within function core:load/
 
+###デバッグモード
+# リリースする際は必ずオフにすること
+data modify storage core: debug set value 1b
+
 ### 即時スキル(すぐ効果がでるスキル)
 #scoreboard objectives add InstantSkillA dummy "即時スキルA"
 #scoreboard objectives add InstantCostA dummy "即時スキルAコスト"
@@ -306,6 +310,10 @@ team modify Goddes prefix {"text":"🌌","color":"#00e6ff"}
 # 各スコアの初期設定
 function core:load/init_score
 function core:load/init_storage
+
+#難易度リセット カジュアル
+function core:difficulty/reset
+function core:difficulty/init
 
 #> Function実行
 # とても悪いエフェクト

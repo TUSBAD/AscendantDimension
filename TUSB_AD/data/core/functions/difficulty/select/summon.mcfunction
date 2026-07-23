@@ -4,12 +4,15 @@
 #
 # 仮作成
 
-summon minecraft:text_display -1749.5 115.0 -136.5 {Tags:[DifficultSelect],text:'["\\n",{"translate":"難易度を右クリックで選択してください","color":"black"},"\\n\\n\\n",{"translate":" %1$s   %2$s   %3$s\\n   %4$s   %5$s","with":[{"translate":"ハードコア","bold":true,"underlined":true,"color":"#a600ff"},{"translate":"ナイトメア","bold":true,"underlined":true,"color":"#2848ff"},{"translate":"アナザー","bold":true,"underlined":true,"color":"#ff00ff"},{"translate":"カジュアル","bold":true,"underlined":true,"color":"#FF2A2A","strikethrough":false},{"translate":"ピクニック","bold":true,"underlined":true,"color":"#99CC33"}]},"\\n\\n"]',alignment:"center",transformation:{right_rotation:{axis:[0f,1f,0f],angle:-1.571f},scale:[1f,1f,1f],left_rotation:{axis:[0f,0f,1f],angle:0.262f},translation:[0f,0f,0f]},brightness:{block:15,sky:15},background:-402653185,interpolation_duration:10}
+# 選択召喚フラグ
+data modify storage core: difficult.selecting set value true
 
-summon minecraft:interaction -1749.5 115.00 -139.5 {Tags:[DifficultSelect,Nightmare]}
-summon minecraft:interaction -1749.5 115.00 -138.0 {Tags:[DifficultSelect,Another]}
-summon minecraft:interaction -1749.5 115.00 -136.5 {Tags:[DifficultSelect,Casual]}
-summon minecraft:interaction -1749.5 115.00 -135.0 {Tags:[DifficultSelect,Picnic]}
+execute in area:trade run summon minecraft:text_display -7.50 86.00 -132.50 {Tags:[DifficultSelect],text:'["\\n",{"translate":"難易度を右クリックで選択してください","color":"black"},"\\n\\n\\n",{"translate":" %1$s   %2$s\\n\\n\\n   %3$s   %4$s","with":[{"translate":"ナイトメア","bold":true,"underlined":true,"color":"#2848ff"},{"translate":"アナザー","bold":true,"underlined":true,"color":"#ff00ff"},{"translate":"カジュアル","bold":true,"underlined":true,"color":"#FF2A2A","strikethrough":false},{"translate":"ピクニック","bold":true,"underlined":true,"color":"#99CC33"}]},"\\n\\n"]',alignment:"center",transformation:{right_rotation:{axis:[0f,1f,0f],angle:0.000f},scale:[1f,1f,1f],left_rotation:{axis:[0f,0f,0f],angle:0.000f},translation:[0f,0f,0f]},brightness:{block:15,sky:15},background:-402653185,interpolation_duration:10,view_range:0.65f}
+
+execute in area:trade run summon minecraft:interaction -8.0625 87.25 -132.50 {Tags:[DifficultSelect,Nightmare],width:1.2f,height:0.375f}
+execute in area:trade run summon minecraft:interaction -6.75 87.25 -132.50 {Tags:[DifficultSelect,Another],width:1.2f,height:0.375f}
+execute in area:trade run summon minecraft:interaction -8.00 86.50 -132.50 {Tags:[DifficultSelect,Casual],width:1.2f,height:0.375f}
+execute in area:trade run summon minecraft:interaction -6.625 86.50 -132.50 {Tags:[DifficultSelect,Picnic],width:1.2f,height:0.375f}
 
 schedule function core:difficulty/select/end 24000t
-forceload add -1750 -135
+#execute in area:trade run forceload add -16 -143

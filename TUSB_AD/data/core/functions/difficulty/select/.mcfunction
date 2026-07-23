@@ -20,3 +20,5 @@ data remove storage core: difficult.world.change
 execute unless data storage core: difficult.world.change run tellraw @s {"translate": "難易度に変更がありません。","color": "red"}
 
 execute if data storage core: difficult.world.change run function core:difficulty/change/stand.m with storage core: difficult.world.change
+
+advancement revoke @s only core:difficulty/select
