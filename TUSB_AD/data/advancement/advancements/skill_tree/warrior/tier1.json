@@ -1,0 +1,24 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "ナイトエンペラー",
+        "description": "より高火力な近接攻撃を使用し、味方への強固な支援も可能となった。",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "advancement:skill_tree/warrior/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}
