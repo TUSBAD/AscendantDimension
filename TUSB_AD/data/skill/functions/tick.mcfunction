@@ -30,7 +30,7 @@ function skill:mp/regen/
     execute if entity @s[scores={WindWall=0..}] run function skill:skill/black_mage/wind_wall/check
 
 # 緩衝体力用被ダメージ補正処理
-    execute if entity @s[scores={HPChanging=0..}] if predicate player:effects/has_absorptionamount run function skill:trigger/damage_resist/setup2
+    execute if entity @s[scores={HPChanging=0..}] if predicate effect:has_absorptionamount run function skill:trigger/damage_resist/setup2
 
 # 被ダメージトリガーリセット TODO
     scoreboard players reset @s[scores={DamageTaken=0..}] DamageTaken

@@ -10,5 +10,5 @@ execute if score @s ActivatedSkill matches 4260..4269 run data modify storage sc
 execute as @e[distance=..15,sort=nearest,limit=5,type=#entity:mob,tag=Enemy] at @s run function score_damage:api/attack
 execute as @s at @s run effect give @a[distance=..15] haste 30 1
 execute as @s at @s run effect give @a[distance=..15] regeneration 30 3
-execute as @a[distance=..15] at @s run function player:effect/clear_bad_effect
+execute as @a[distance=..15] at @s run function effect:clear_bad_effect
 execute as @a[distance=..15] at @s run scoreboard players add @s HealCount 15

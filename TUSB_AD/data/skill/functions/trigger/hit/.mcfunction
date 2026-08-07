@@ -30,5 +30,5 @@ execute as @s[scores={EnAspir=0..}] run function skill:act/black_mage/enaspir/hi
 execute if data entity @s SelectedItem.tag.Legacy run function skill:trigger/hit/legacy/
 
 # リセット
-advancement revoke @s only mob_manager:player_hurt_entity
+advancement revoke @s only enemy:player_hurt_entity
 scoreboard players reset _ Damage

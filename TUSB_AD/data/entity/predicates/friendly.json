@@ -4,7 +4,7 @@
     "terms": [
       {
         "condition": "minecraft:reference",
-        "name": "entity:player"
+        "name": "entity:player_invulnerable"
       },
       {
         "condition": "minecraft:entity_properties",
@@ -20,7 +20,7 @@
     "terms": [
       {
         "condition": "reference",
-        "name": "entity:player"
+        "name": "entity:player_invulnerable"
       },
       {
         "condition": "inverted",
