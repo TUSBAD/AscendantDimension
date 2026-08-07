@@ -159,7 +159,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Legacy: 1b, Enchantments: [{id: \"minecraft:knockback\", lvl: 9999s}, {id: \"minecraft:efficiency\", lvl: 9999s}, {id: \"minecraft:fire_aspect\", lvl: 9999s}, {id: \"minecraft:smite\", lvl: 9999s}, {id: \"minecraft:bane_of_arthropods\", lvl: 9999s}], display: {Name: '{\"text\":\"ファイナルベント\"}'}}"
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, Enchantments: [{id: \"minecraft:knockback\", lvl: 255s}, {id: \"minecraft:efficiency\", lvl: 255s}, {id: \"minecraft:fire_aspect\", lvl: 255s}, {id: \"minecraft:smite\", lvl: 255s}, {id: \"minecraft:bane_of_arthropods\", lvl: 255s}], display: {Name: '{\"text\":\"ファイナルベント\"}'}}"
                         }
                     ]
                 },

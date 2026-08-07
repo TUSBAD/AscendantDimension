@@ -219,7 +219,6 @@
                 },
                 {
                     "type":"alternatives",
-                    "weight":1,
                     "children":[
                 {
                     "type": "item",

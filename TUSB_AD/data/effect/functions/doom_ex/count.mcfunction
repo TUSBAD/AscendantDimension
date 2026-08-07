@@ -21,7 +21,7 @@ playsound minecraft:block.bell.use player @s[scores={DoomEx=21..60}] ~ ~ ~ 0.5 0
 playsound minecraft:block.conduit.deactivate player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 0.15 0.5
 playsound minecraft:entity.elder_guardian.curse player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 1.5 0.5
 playsound minecraft:item.shield.break player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 0 0.5
-execute if score @s DoomEx matches 0..121 run function effect:invisible/doom_ex/damage
+execute if score @s DoomEx matches 0..121 run function effect:doom_ex/damage
 
 # 明示的にリセット
 tag @s[scores={DoomEx=..0}] remove DoomEx
