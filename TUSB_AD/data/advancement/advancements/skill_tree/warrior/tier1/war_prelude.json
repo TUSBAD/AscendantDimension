@@ -50,7 +50,7 @@
         "announce_to_chat": true,
         "hidden": true
     },
-    "parent": "advancement:skill_tree/warrior/tier1",
+    "parent": "advancement:skill_tree/warrior/warrior_tier1",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:impossible"
