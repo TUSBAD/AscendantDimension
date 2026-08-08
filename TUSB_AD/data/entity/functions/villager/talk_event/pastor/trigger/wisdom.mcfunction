@@ -1,4 +1,4 @@
-#> entity:villager/talk_event/pastor/trigger/no
+#> entity:villager/talk_event/pastor/trigger/wisdom
 # 牧師との会話処理(御存知でない)
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
