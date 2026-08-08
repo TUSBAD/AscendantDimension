@@ -7,7 +7,7 @@
         },
         "title": "エンパイアソード",
         "description": "味方がいるほど強力になるスキルを会得し、攻撃面の支援も強力になった。",
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true

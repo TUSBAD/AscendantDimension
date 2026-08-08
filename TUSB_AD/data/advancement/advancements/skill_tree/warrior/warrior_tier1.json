@@ -7,7 +7,7 @@
         },
         "title": "ナイトエンペラー",
         "description": "より高火力な近接攻撃を使用し、味方への強固な支援も可能となった。",
-        "frame": "task",
+        "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true
