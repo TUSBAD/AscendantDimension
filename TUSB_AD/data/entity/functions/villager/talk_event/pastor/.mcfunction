@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### 牧師
-tellraw @s {"translate":"[牧師] ご存知ですか？ %1$s / %2$s","with":[{"text":"はい","color":"aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger PastorFlag set 2"}},{"text":"いいえ","color":"aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger PastorFlag set 1"}}]}
+tellraw @s {"translate":"[牧師] いかがなさいますか？ %1$s / %2$s","with":[{"translate":"知恵を借りる","color":"aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger PastorFlag set 1"}},{"translate":"難易度を変更する","color":"green","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger PastorFlag set 2"}}]}
 
 ### トリガー有効化
 scoreboard players set @s PastorFlag 0
