@@ -1,22 +1,22 @@
 #> job:change/
+#
 # 職業変更の処理
+#
+# @within function 
 
+# 個人ストレージ呼び出し
 function #oh_my_dat:please
 
+# データをセーブ
+execute store result storage job: _.save_job.id int 1 run scoreboard players get @s JobLevel
+function job:change/save.m with storage job: _.save_job
+
 # 職業変更
-scoreboard players operation @s Job = Change Job
+execute store result storage job: _.load_job.id int 1 run scoreboard players operation @s Job = Change Job
 
-scoreboard players operation $Type Job = @s Job 
-scoreboard players operation $Id Job = @s Job
+# 職業をロード
+function job:change/load.m with storage job: _.load_job
 
-scoreboard players set $Temp Job 100
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job.Type int 1 run scoreboard players operation $Type Job /= $Temp Job
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job.Id int 1 run scoreboard players operation $Id Job %= $Temp Job
-
-# セーブして職業をロード
-function job:change/load.m with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job
-
-# score reset
-scoreboard players reset $Temp Job
-scoreboard players reset $Type Job
-scoreboard players reset $Id Job
+# reset
+data remove storage job: _
+scoreboard players reset Cheange Job

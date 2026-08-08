@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "job:egg/instant/a/"
+		"function": "skill:egg/instant/a/"
 	}
 }

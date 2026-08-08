@@ -75,10 +75,10 @@
     execute if entity @s[scores={SneakFrequency=1..}] run function player:sneak/frequency
 
 # スキル設定変更
-    execute if entity @s[scores={InstantChangeA=0..}] run function job:change/instant/a
-    execute if entity @s[scores={InstantChangeB=0..}] run function job:change/instant/b
-    execute if entity @s[scores={ModeChangeA=0..}] run function job:change/mode/a
-    execute if entity @s[scores={ModeChangeB=0..}] run function job:change/mode/b
+    execute if entity @s[scores={InstantChangeA=0..}] run function skill:change/instant/a
+    execute if entity @s[scores={InstantChangeB=0..}] run function skill:change/instant/b
+    execute if entity @s[scores={ModeChangeA=0..}] run function skill:change/mode/a
+    execute if entity @s[scores={ModeChangeB=0..}] run function skill:change/mode/b
 
 # スキル
     function skill:tick

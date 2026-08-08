@@ -317,7 +317,7 @@ function settings:capture/capture_reset
 function settings:skill/black_mage/return/default
 
 #> スキルテーブルを初期化
-function job:init_table/
+function skill:init_table/
 
 #> TIPSデータ
 function settings:player/tips

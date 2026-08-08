@@ -16,10 +16,10 @@ execute if score #Ticks Count matches 0 run function skill:one_second
 
 # 幸運によるMP補正
 execute store result score _ Luck run attribute @s minecraft:generic.luck get 10
-execute unless score _ Luck = @s Luck run function skill:luck_update
+execute unless score _ Luck = @s Luck run function job:mp/luck_update
 
 # MP回復
-function skill:mp/regen/
+function job:mp/regen/
 
 
 
