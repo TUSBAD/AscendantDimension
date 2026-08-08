@@ -2,13 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:player",
-    "type_specific": {
-      "type": "player",
-      "gamemode": [
-        "survival",
-        "adventure"
-      ]
-    }
+    "type": "minecraft:player"
   }
 }

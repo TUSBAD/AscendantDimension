@@ -4,4 +4,4 @@
 ### This software is released under the MIT License, see LICENSE.
 
 particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 30 force
-function player:effect/clear_bad_effect
+function effect:clear_bad_effect
