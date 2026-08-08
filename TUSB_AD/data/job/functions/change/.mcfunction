@@ -1,31 +1,22 @@
 #> job:change/
 # 職業変更の処理
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
 
-scoreboard players operation @s Job = @s ChangeJob
+function #oh_my_dat:please
 
 # 職業変更
-## 剣士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:1} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 1
-## 忍者
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:2} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 2
-## 狩人
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:3} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 3
-## 白魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:4} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 4
-## 黒魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:5} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 5
-## 召喚士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:6} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 6
+scoreboard players operation @s Job = Change Job
 
-clear @s minecraft:paper{JobChange:true}
+scoreboard players operation $Type Job = @s Job 
+scoreboard players operation $Id Job = @s Job
 
-# 新しい職業をロード
-function job:load/
+scoreboard players set $Temp Job 100
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job.Type int 1 run scoreboard players operation $Type Job /= $Temp Job
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job.Id int 1 run scoreboard players operation $Id Job %= $Temp Job
+
+# セーブして職業をロード
+function job:change/load.m with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Status.Job
+
+# score reset
+scoreboard players reset $Temp Job
+scoreboard players reset $Type Job
+scoreboard players reset $Id Job

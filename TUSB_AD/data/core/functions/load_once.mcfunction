@@ -68,7 +68,7 @@ scoreboard objectives add SpawnY dummy {"text": "スポーン座標検知 Y"}
 scoreboard objectives add SpawnZ dummy {"text": "スポーン座標検知 Z"}
 
 ###ジョブ系
-scoreboard objectives add Job dummy {"text": "現在のジョブ"}
+scoreboard objectives add Job dummy {"text": "現在の職業"}
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
@@ -82,7 +82,8 @@ scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
 
 #> ステータススコア
 scoreboard objectives add Armor armor {"text":"アーマーポイント"}
-scoreboard objectives add Level dummy {"text":"レベル"}
+scoreboard objectives add TotalLevel dummy {"text":"累計レベル"}
+scoreboard objectives add JobLevel dummy {"text":"現在の職業のレベル"}
 scoreboard objectives add HP dummy {"text":"HP"}
 scoreboard objectives add HPMax dummy {"text":"HP最大値"}
 scoreboard objectives add MP dummy {"text":"MP"}
