@@ -8,8 +8,8 @@ execute if predicate player:is_sneaking run function skill:mp/check/sneak
 
 ### 空腹ペナルティ
 scoreboard players set _ TUSB 5
-execute if entity @s[predicate=player:effects/is_hunger] run scoreboard players operation @s MPConsumption *= _ TUSB
-execute if entity @s[predicate=player:effects/is_hunger] run scoreboard players set @s MPAcceleration -1200
+execute if entity @s[predicate=effect:is_hunger] run scoreboard players operation @s MPConsumption *= _ TUSB
+execute if entity @s[predicate=effect:is_hunger] run scoreboard players set @s MPAcceleration -1200
 
 ### エナジーセーブ
 execute if entity @s[tag=EnergySave] run function skill:mp/check/energy_save

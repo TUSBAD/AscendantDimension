@@ -1,4 +1,4 @@
-#> player:effect/clear_bad_effect
+#> effect:clear_bad_effect
 # 悪い効果を消す
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

@@ -8,7 +8,7 @@ execute as @e[distance=..10,type=#entity:mob,tag=Enemy] unless predicate skill:i
 execute as @e[type=player,distance=..20] at @s run effect give @s haste 10 3
 execute as @e[type=player,distance=..20] at @s run effect give @s regeneration 10 4
 execute as @e[type=player,distance=..20] at @s run effect give @s invisibility 1 6
-execute as @e[type=player,distance=..20] at @s run function player:effect/clear_bad_effect
+execute as @e[type=player,distance=..20] at @s run function effect:clear_bad_effect
 execute as @e[type=player,distance=..20] at @s run scoreboard players add @s MP 1
 
 data modify storage skill: _ set value true

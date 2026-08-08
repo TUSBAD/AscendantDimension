@@ -13,7 +13,7 @@ execute if score @s SneakTime matches 1 run scoreboard players add @s SneakFrequ
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 
 # 近くに墓がある場合、墓からものを取り出す
-    execute if entity @s[scores={Age=1..},predicate=entity:player] if score @s SneakTime matches 3 as @e[type=item_display,tag=Tomb,distance=..1] at @s run function player:death_item_drop/tomb_drop
+    execute if entity @s[scores={Age=1..},predicate=!entity:player_invulnerable] if score @s SneakTime matches 3 as @e[type=item_display,tag=Tomb,distance=..1] at @s run function player:death_item_drop/tomb_drop
 
 # スニーク状態取得
 scoreboard players set _ _ 2

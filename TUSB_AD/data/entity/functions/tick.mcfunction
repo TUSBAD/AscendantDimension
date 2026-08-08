@@ -24,7 +24,7 @@ execute as @e[type=#entity:has_in_ground,tag=CooldownRequired,tag=!FlyingObject,
     execute as @e[tag=Freeze] run data merge entity @s {Motion:[0d,0d,0d]}
 
 # leap(跳躍妨害)
-    execute at @e[tag=leap] run effect give @a[distance=..7,predicate=player:effects/is_jump_boost] levitation 10 236
+    execute at @e[tag=leap] run effect give @a[distance=..7,predicate=effect:is_jump_boost] levitation 10 236
     execute at @e[tag=leap] run effect clear @a[distance=..32] jump_boost
 
 # 個人ロッカー(印板)
