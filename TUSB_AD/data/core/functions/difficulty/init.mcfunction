@@ -14,7 +14,7 @@
 # キープインベントリ　　　　　　：true       ：true       ：false      ：false      ：is_keepinventory ：byte
 # ボスの体力補正　　　　　　　　：100        ：100        ：150        ：200        ：health_add       ：int（百分率）
 # マルチプレイ時のボス体力補正　：100        ：100        ：110        ：120        ：multi_health     ：int（百分率）
-# 死の宣告　　　　　　　　　　　：60         ：20         ：20         ：20         ：doom             ：int（tick）
+# 死の宣告　　　　　　　　　　　：30         ：10         ：10         ：05         ：doom             ：int（sec）
 # 致死の宣告　　　　　　　　　　：false      ：true       ：true       ：true       ：doom_ex          ：byte
 # 即死の宣告　　　　　　　　　　：false      ：false      ：true       ：true       ：death_doom       ：byte
 # MPの自然回復速度　　         ：150        ：100        ：75         ：50         ：mp_healing_wait  ：int（百分率）
@@ -30,7 +30,7 @@
     data modify storage core: difficult.picnic.is_keepinventory set value true
     data modify storage core: difficult.picnic.health_add set value 100
     data modify storage core: difficult.picnic.multi_health set value 100
-    data modify storage core: difficult.picnic.doom set value 60
+    data modify storage core: difficult.picnic.doom set value 31
     data modify storage core: difficult.picnic.doom_ex set value false
     data modify storage core: difficult.picnic.death_doom set value false
     data modify storage core: difficult.picnic.mp_healing_wait set value 150
@@ -46,7 +46,7 @@
     data modify storage core: difficult.casual.is_keepinventory set value true
     data modify storage core: difficult.casual.health_add set value 100
     data modify storage core: difficult.casual.multi_health set value 100
-    data modify storage core: difficult.casual.doom set value 20
+    data modify storage core: difficult.casual.doom set value 11
     data modify storage core: difficult.casual.doom_ex set value true
     data modify storage core: difficult.casual.death_doom set value false
     data modify storage core: difficult.casual.mp_healing_wait set value 100
@@ -62,7 +62,7 @@
     data modify storage core: difficult.another.is_keepinventory set value false
     data modify storage core: difficult.another.health_add set value 150
     data modify storage core: difficult.another.multi_health set value 100
-    data modify storage core: difficult.another.doom set value 20
+    data modify storage core: difficult.another.doom set value 11
     data modify storage core: difficult.another.doom_ex set value true
     data modify storage core: difficult.another.death_doom set value true
     data modify storage core: difficult.another.mp_healing_wait set value 75
@@ -78,7 +78,7 @@
     data modify storage core: difficult.nightmare.is_keepinventory set value false
     data modify storage core: difficult.nightmare.health_add set value 200
     data modify storage core: difficult.nightmare.multi_health set value 100
-    data modify storage core: difficult.nightmare.doom set value 20
+    data modify storage core: difficult.nightmare.doom set value 6
     data modify storage core: difficult.nightmare.doom_ex set value true
     data modify storage core: difficult.nightmare.death_doom set value true
     data modify storage core: difficult.nightmare.mp_healing_wait set value 50

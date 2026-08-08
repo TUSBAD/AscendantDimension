@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players reset @s PastorFlag
-
+function makeup:game_menu/reshow
 ### 解説タイム
 ### 順番(サイクル)をスコアボードなし１コマンドでするには？
 ### 1 -> 2 -> ... -> 6 -> 7 -> 1 -> 2 -> ... ->

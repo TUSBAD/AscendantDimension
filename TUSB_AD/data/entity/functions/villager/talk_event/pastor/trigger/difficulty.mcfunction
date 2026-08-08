@@ -4,6 +4,7 @@
 #
 # @within function entity:villager/talk_event/pastor/
 scoreboard players reset @s PastorFlag
+function makeup:game_menu/reshow
 
 tellraw @s "====================================================="
 tellraw @s ""
