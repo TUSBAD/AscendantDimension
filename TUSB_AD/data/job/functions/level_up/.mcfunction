@@ -4,8 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### レベルが2147483646以下の場合だけレベルアップ
-scoreboard players add @s[scores={Level=..2147483646}] TotalLevel 1
-scoreboard players add @s[scores={Level=..499}] JobLevel 1
+scoreboard players add @s[scores={Level=..2147483646}] Level 1
 
 ### レベルアップの演出
 stopsound @a[distance=..16] master minecraft:ui.toast.challenge_complete
@@ -15,7 +14,7 @@ summon minecraft:firework_rocket ~ ~0.5 ~ {LifeTime:20,FireworksItem:{id:"minecr
 
 ### レベルアップ表示
 title @s times 5 100 20
-title @s subtitle [{"translate":"Job Level : %1$s  Total Level : %2$s","italic":true,"with": [{"score": {"name": "@s","objective": "JobLevel"}},{"score": {"name": "@s","objective": "TotalLevel"}}]}]
+title @s subtitle [{"translate":"Total Level : %1$s","italic":true,"with": [{"score": {"name": "@s","objective": "Level"}}]}]
 title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 
 ### レベル500まで、新しいスキル取得メッセージを表示

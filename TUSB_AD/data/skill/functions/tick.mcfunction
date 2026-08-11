@@ -27,7 +27,7 @@ function job:mp/regen/
     execute if entity @s[tag=MagicShield] run effect give @s minecraft:resistance 1 100
 
 # ウィンドウォール
-    execute if entity @s[scores={WindWall=0..}] run function skill:skill/black_mage/wind_wall/check
+    execute if entity @s[scores={WindWall=0..}] run function skill:act/black_mage/wind_wall/check
 
 # 緩衝体力用被ダメージ補正処理
     execute if entity @s[scores={HPChanging=0..}] if predicate player:effects/has_absorptionamount run function skill:trigger/damage_resist/setup2

@@ -82,8 +82,7 @@ scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
 
 #> ステータススコア
 scoreboard objectives add Armor armor {"text":"アーマーポイント"}
-scoreboard objectives add TotalLevel dummy {"text":"累計レベル"}
-scoreboard objectives add JobLevel dummy {"text":"現在の職業のレベル"}
+scoreboard objectives add Level dummy {"text":"累計レベル"}
 scoreboard objectives add HP dummy {"text":"HP"}
 scoreboard objectives add HPMax dummy {"text":"HP最大値"}
 scoreboard objectives add MP dummy {"text":"MP"}
