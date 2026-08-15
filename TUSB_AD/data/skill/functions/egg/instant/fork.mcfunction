@@ -48,7 +48,7 @@ execute if score @s ActivatedSkill matches 5060..5069 run function skill:act/bla
 execute if score @s ActivatedSkill matches 5070..5079 run function skill:act/black_mage/return/
 execute if score @s ActivatedSkill matches 5080..5089 run function skill:act/black_mage/wind_wall/
 execute if score @s ActivatedSkill matches 5090..5099 run function skill:act/black_mage/ranaruta/
-execute if score @s ActivatedSkill matches 5100..5109 run function skill:act/black_mage/engage/
+execute if score @s ActivatedSkill matches 5100..5109 run function skill:act/black_mage/magical_engage/
 
 execute if score @s ActivatedSkill matches 6000..6009 run function skill:act/summoner/summon_snow/
 execute if score @s ActivatedSkill matches 6010..6019 run function skill:act/summoner/summon_merchant/

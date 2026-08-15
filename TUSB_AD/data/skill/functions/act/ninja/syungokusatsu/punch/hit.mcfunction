@@ -1,6 +1,4 @@
 #> skill:act/ninja/syungokusatsu/punch/hit
-# 連舞を発動(221X)
-
 ###
 scoreboard players operation @s ActivatedSkill = @s CurrentMode
 scoreboard players operation @s MPConsumption = @s CurrentModeCost

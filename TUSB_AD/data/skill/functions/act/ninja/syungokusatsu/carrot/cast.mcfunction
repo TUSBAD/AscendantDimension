@@ -1,6 +1,4 @@
 #> skill:act/ninja/syungokusatsu/carrot/cast
-# ジオクラッシュ発動
-
 
 playsound entity.ghast.hurt master @a[distance=..32] ~ ~ ~ 2 2 0.1
 

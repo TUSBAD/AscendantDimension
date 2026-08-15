@@ -18,9 +18,9 @@ execute as @s[scores={CurrentMode=2210..2219}] run function skill:act/ninja/tsur
 # 瞬獄殺
 execute as @s[scores={CurrentMode=2270..2279}] run function skill:act/ninja/syungokusatsu/punch/hit
 # 夢想
-execute as @s[scores={CurrentMode=1270..1279},predicate=lib:has_sword] run function skill:act/knight/musou/hit
+execute as @s[scores={CurrentMode=1270..1279},predicate=lib:has_sword] run function skill:act/knight/the_truth_about_dreams/hit
 # ブレードワルツ
-execute as @s[scores={CurrentMode=1280..1289},predicate=lib:has_sword] run function skill:act/knight/waltz/spell
+execute as @s[scores={CurrentMode=1280..1289},predicate=lib:has_sword] run function skill:act/knight/blade_waltz/spell
 
 ## 黒魔
 # エンアスピル
