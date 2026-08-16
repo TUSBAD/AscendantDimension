@@ -17,14 +17,17 @@ title @s times 5 100 20
 title @s subtitle [{"translate":"Total Level : %1$s","italic":true,"with": [{"score": {"name": "@s","objective": "Level"}}]}]
 title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 
-### レベル500まで、新しいスキル取得メッセージを表示
-execute if entity @s[scores={JobLevel=..500}] run function skill:set_display/learn/
+### 新しいスキル取得メッセージを表示
+# Levelとjobをストレージに取り込む
+execute store result storage skill: _.player.level int 1 run scoreboard players get @s Level
+execute store result storage skill: _.player.job int 1 run scoreboard players get @s Job
+function skill:set_display/learn/ with storage skill: _.player
 
 # ステータス設定
 function effect:status/life_to_max
 
 ### 次の経験値の設定(難易度補正付き)
-scoreboard players operation @s NextExp = @s JobLevel
+scoreboard players operation @s NextExp = @s Level
 execute store result score _ TUSB run data get storage player: Const.ExpMul
 scoreboard players operation @s NextExp *= _ TUSB
 execute as @a if score @s NextExp matches 100000000.. run scoreboard players set @s ExpToLevel 2147483646
