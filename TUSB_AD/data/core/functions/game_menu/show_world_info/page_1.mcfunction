@@ -13,7 +13,7 @@ execute if data storage core: difficult.world{level:"picnic"} run tellraw @s [{"
 execute if data storage core: difficult.world{level:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.casual.text","storage":"core:","color":"#FF2A2A"}]
 execute if data storage core: difficult.world{level:"another"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.another.text","storage":"core:","color":"#FF00FF"}]
 execute if data storage core: difficult.world{level:"hardcore"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.hardcore.text","storage":"core:","color":"#a600ff"}]
-execute if data storage core: difficult.world{level:"nightmare"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.nightmare.text","storage":"core:","color":"#2848ff"}]
+execute if data storage core: difficult.world{level:"nightmare"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.nightmare.text","storage":"core:","color":"#42c1ff"}]
 execute if data storage core: difficult.world{level:"debug"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.debug.text","storage":"core:","color":"dark_gray"}]
 execute store result score _ Calc run function calc:island/clear_count
 execute store result score # _ run function #calc:island/get_total

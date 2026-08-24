@@ -73,7 +73,7 @@
 # ナイトメア
     data modify storage core: difficult.nightmare.level set value nightmare
     data modify storage core: difficult.nightmare.text set value "ナイトメア"
-    data modify storage core: difficult.nightmare.color set value "#2848ff"
+    data modify storage core: difficult.nightmare.color set value "#42c1ff"
     data modify storage core: difficult.nightmare.name_plate set value "n"
     data modify storage core: difficult.nightmare.name_plate_font set value "icon"
     data modify storage core: difficult.nightmare.next_exp set value 20
