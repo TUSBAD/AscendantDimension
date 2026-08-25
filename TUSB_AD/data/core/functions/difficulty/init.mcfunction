@@ -5,7 +5,7 @@
 # @within function core:difficulty/reset
 
 # 　　　　　　　　　　　　　　　：ピクニック  ：カジュアル　：アナザー　　：ナイトメア  ：nbt              ：type
-# 難易度　　　　　　　　　　　　：picnic     ：casual     ：another    ：nightmare  ：level            ：string
+# 難易度　　　　　　　　　　　　：picnic     ：casual     ：another    ：ascendant  ：level            ：string
 # テキスト表示名　　　　　　　　：           ：           ：           ：           ：text             ：json_text
 # ネームプレート　　　　　　　　：           ：           ：           ：           ：name_plate       ：json_text
 # レベルアップに必要な経験値　　：50         ：100        ：150        ：200        ：next_exp         ：int（百分率/10）
@@ -70,19 +70,19 @@
     data modify storage core: difficult.another.death_doom set value true
     data modify storage core: difficult.another.mp_healing_wait set value 75
 
-# ナイトメア
-    data modify storage core: difficult.nightmare.level set value nightmare
-    data modify storage core: difficult.nightmare.text set value "ナイトメア"
-    data modify storage core: difficult.nightmare.color set value "#42c1ff"
-    data modify storage core: difficult.nightmare.name_plate set value "n"
-    data modify storage core: difficult.nightmare.name_plate_font set value "icon"
-    data modify storage core: difficult.nightmare.next_exp set value 20
-    data modify storage core: difficult.nightmare.event_rank_max set value 4
-    data modify storage core: difficult.nightmare.event_time_range set value [6000,36000]
-    data modify storage core: difficult.nightmare.is_keepinventory set value false
-    data modify storage core: difficult.nightmare.health_add set value 200
-    data modify storage core: difficult.nightmare.multi_health set value 100
-    data modify storage core: difficult.nightmare.doom set value 6
-    data modify storage core: difficult.nightmare.doom_ex set value true
-    data modify storage core: difficult.nightmare.death_doom set value true
-    data modify storage core: difficult.nightmare.mp_healing_wait set value 50
+# アセンダント
+    data modify storage core: difficult.ascendant.level set value ascendant
+    data modify storage core: difficult.ascendant.text set value "アセンダント"
+    data modify storage core: difficult.ascendant.color set value "#42c1ff"
+    data modify storage core: difficult.ascendant.name_plate set value "n"
+    data modify storage core: difficult.ascendant.name_plate_font set value "icon"
+    data modify storage core: difficult.ascendant.next_exp set value 20
+    data modify storage core: difficult.ascendant.event_rank_max set value 4
+    data modify storage core: difficult.ascendant.event_time_range set value [6000,36000]
+    data modify storage core: difficult.ascendant.is_keepinventory set value false
+    data modify storage core: difficult.ascendant.health_add set value 200
+    data modify storage core: difficult.ascendant.multi_health set value 100
+    data modify storage core: difficult.ascendant.doom set value 6
+    data modify storage core: difficult.ascendant.doom_ex set value true
+    data modify storage core: difficult.ascendant.death_doom set value true
+    data modify storage core: difficult.ascendant.mp_healing_wait set value 50

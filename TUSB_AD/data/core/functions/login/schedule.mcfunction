@@ -11,7 +11,7 @@ execute if data storage core: difficult.world{level:"picnic"} run tellraw @a[tag
 execute if data storage core: difficult.world{level:"casual"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"カジュアル","color":"#FF2A2A"}]
 execute if data storage core: difficult.world{level:"another"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"アナザー","color":"#FF00FF"}]
 execute if data storage core: difficult.world{level:"hardcore"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"ハードコア","color":"#a600ff"}]
-execute if data storage core: difficult.world{level:"nightmare"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"ナイトメア","color":"#42c1ff"}]
+execute if data storage core: difficult.world{level:"ascendant"} run tellraw @a[tag=LoginMessage] [{"storage":"core:","nbt":"Prefix.INFO","bold": true},{"translate":"現在の難易度"}," : ",{"translate":"アセンダント","color":"#42c1ff"}]
 ### 祈りが表示できれば表示
 tag @a[tag=LoginMessage] add Pray
 
