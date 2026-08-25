@@ -25,6 +25,7 @@
     data modify storage core: difficult.picnic.color set value "#80ff00"
     data modify storage core: difficult.picnic.name_plate set value "p"
     data modify storage core: difficult.picnic.name_plate_font set value "icon"
+    data modify storage core: difficult.picnic.name_plate_color set value "white"
     data modify storage core: difficult.picnic.next_exp set value 5
     data modify storage core: difficult.picnic.event_rank_max set value 0
     data modify storage core: difficult.picnic.event_time_range set value [36000,72000]
@@ -42,6 +43,7 @@
     data modify storage core: difficult.casual.color set value "#FF2A2A"
     data modify storage core: difficult.casual.name_plate set value "c"
     data modify storage core: difficult.casual.name_plate_font set value "icon"
+    data modify storage core: difficult.casual.name_plate_color set value "white"
     data modify storage core: difficult.casual.next_exp set value 10
     data modify storage core: difficult.casual.event_rank_max set value 1
     data modify storage core: difficult.casual.event_time_range set value [18000,54000]
@@ -59,6 +61,7 @@
     data modify storage core: difficult.another.color set value "#ff00ff"
     data modify storage core: difficult.another.name_plate set value "a"
     data modify storage core: difficult.another.name_plate_font set value "icon"
+    data modify storage core: difficult.another.name_plate_color set value "white"
     data modify storage core: difficult.another.next_exp set value 15
     data modify storage core: difficult.another.event_rank_max set value 3
     data modify storage core: difficult.another.event_time_range set value [18000,36000]
@@ -76,6 +79,7 @@
     data modify storage core: difficult.ascendant.color set value "#42c1ff"
     data modify storage core: difficult.ascendant.name_plate set value "n"
     data modify storage core: difficult.ascendant.name_plate_font set value "icon"
+    data modify storage core: difficult.ascendant.name_plate_color set value "white"
     data modify storage core: difficult.ascendant.next_exp set value 20
     data modify storage core: difficult.ascendant.event_rank_max set value 4
     data modify storage core: difficult.ascendant.event_time_range set value [6000,36000]

@@ -3,7 +3,7 @@
 # 牧師との会話処理(難易度変更)
 #
 # @within function core:game_menu/show_difficulty_info/
-function makeup:game_menu/reshow
+function makeup:core/game_menu/reshow
 
 tellraw @s "====================================================="
 tellraw @s ""
