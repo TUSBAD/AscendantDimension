@@ -8,8 +8,9 @@
     $data modify storage core: difficult.world set from storage core: difficult.$(level)
 
 # チーム色変更
-    $team modify FriendlyTeam suffix {"text":"$(name_plate)","font":"$(name_plate_font)","color":"$(color)"}
-    $team modify FriendlyTeam prefix {"text":"$(name_plate)","font":"$(name_plate_font)","color":"$(color)"}
+    $team modify FriendlyTeam suffix {"text":"$(name_plate)","font":"$(name_plate_font)"}
+    $team modify FriendlyTeam prefix {"text":"$(name_plate)","font":"$(name_plate_font)"}
+    $team modify FriendlyTeam color $(color)
 
 # チャット表示
     $tellraw @a [{"storage":"core:","nbt":"Prefix.SUCCESS"},{"translate":"難易度を%1$sに変更しました。","with":[{"translate": "$(text)","color": "$(color)"}]}]
