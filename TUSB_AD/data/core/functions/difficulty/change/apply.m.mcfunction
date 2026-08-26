@@ -14,13 +14,12 @@
 # チャット表示
     $tellraw @a [{"storage":"core:","nbt":"Prefix.SUCCESS"},{"translate":"難易度を%1$sに変更しました。","with":[{"translate": "$(text)","color": "$(color)"}]}]
 
-# 共通処理
-# 選択用エンティティ召喚不可
-    data modify storage core: difficult.selecting set value true
-
 # 難易度選択済み
 # ハードコア選択不可用フラグ
-    data modify storage core: difficult.selected set value true
+    execute unless data storage core: difficult.world{level:ascendant} run data modify storage core: difficult.selected set value true
+
+# 難易度変更済みフラグ
+    data modify storage core: difficult.changed set value true
 
 # 難易度変更演出
     function makeup:core/difficulty/change/apply.m

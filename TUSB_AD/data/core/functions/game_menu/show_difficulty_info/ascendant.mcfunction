@@ -3,6 +3,12 @@
 # アセンダントに変更
 #
 # @within function core:game_menu/show_difficulty_info/all
+
+#> 難易度を下げた場合、非表示
+execute if data storage core: difficult.selected run function makeup:error/warn_sound
+execute if data storage core: difficult.selected run function core:difficulty/change/check
+execute if data storage core: difficult.selected run return fail
+
 function makeup:core/game_menu/reshow
 
 tellraw @s "====================================================="
