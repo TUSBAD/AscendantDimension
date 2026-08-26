@@ -56,7 +56,8 @@ data modify storage core: Prefix.SUCCESS set value "§aSUCCESS >> §r"
 data modify storage core: Prefix.INFO set value "§9INFO >> §r"
 data modify storage core: Prefix.FAILED set value "§7FAILED >> §r"
 data modify storage core: Prefix.ERROR set value "§cERROR >> §r"
-data modify storage core: Prefix.CRIT set value "§4CRITICAL >> §r"
+data modify storage core: Prefix.CRIT set value "§4§lCRITICAL >> §r"
+data modify storage core: Prefix.WARN set value "§c§lWarning >> §r"
 
 ###計算、乱数
 scoreboard objectives add _ dummy {"text":"一時変数"}
