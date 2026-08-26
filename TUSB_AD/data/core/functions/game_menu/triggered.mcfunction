@@ -23,7 +23,7 @@ execute if score @s ChangeSettings matches 200..399 run function core:game_menu/
 execute if score @s ChangeSettings matches 400..410 run function core:game_menu/show_difficulty_info/
 
 ##設定画面再表示
-function core:game_menu/reshow
+#function core:game_menu/reshow
 
 # 3 詳細設定表示
 execute if score @s ChangeSettings matches 10..15 run function core:game_menu/show_settings
