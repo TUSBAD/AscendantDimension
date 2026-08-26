@@ -116,6 +116,7 @@ scoreboard objectives add Shield dummy {"text": "Shield"}
 
 #> 変数や定数、カウンタ
 scoreboard objectives add Difficulty dummy {"text":"難易度保存スコア"}
+scoreboard objectives add ChangeDifficultyLock dummy {"text":"難易度変更制限"}
 scoreboard objectives add DoomEx dummy {"text":"致死の宣告カウント","color":"#cc0000"}
 scoreboard objectives add DeathDoom dummy {"text":"即死の宣告カウント","color":"#f40000"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
