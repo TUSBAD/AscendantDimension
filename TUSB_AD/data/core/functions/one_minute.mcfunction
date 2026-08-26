@@ -6,5 +6,5 @@
 
 scoreboard players remove _ ChangeDifficultyLock 1
 
-execute if score _ ChangeDifficulty matches 0 run data remove storage core: difficult.changed
-execute if score _ ChangeDifficulty matches 0 run scoreboard players reset _ ChangeDifficulty
+execute if score _ ChangeDifficultyLock matches ..0 run data remove storage core: difficult.changed
+execute if score _ ChangeDifficultyLock matches ..0 run scoreboard players reset _ ChangeDifficultyLock
