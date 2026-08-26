@@ -14,6 +14,7 @@ function makeup:core/game_menu/reshow
 tellraw @s "====================================================="
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"数値はカジュアル基準からの増減です。"}]
 tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"色の目安(難易度)："},{"translate":"減少","color":"#00ffff"}," / ",{"translate":"増減無し","color":"#00e372"}," / ",{"translate":"増加","color":"#FF2A2A"}]
+tellraw @s ""
 #>難易度表示
 tellraw @s [{"translate":"難易度を"},{"nbt":"difficult.another.text","storage":"core:","color":"#FF00FF"},{"translate":"にすると、以下の変更点があります。"}]
 tellraw @s ""

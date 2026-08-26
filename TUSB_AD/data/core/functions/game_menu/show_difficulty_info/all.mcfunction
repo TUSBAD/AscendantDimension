@@ -8,6 +8,7 @@ function makeup:core/game_menu/reshow
 tellraw @s "====================================================="
 tellraw @s ""
 tellraw @s [{"storage":"core:","nbt":"Prefix.INFO"},{"translate":"難易度を変更します。変更したい難易度を%1$sしてください。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
+tellraw @s [{"storage":"core:","nbt":"Prefix.TIPS"},{"translate":"難易度を変更すると 1時間の変更制限がかかります。"}]
 tellraw @s ""
 execute if data storage core: difficult.world{level:"picnic"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.picnic.text","storage":"core:","color":"#80ff00"}]
 execute if data storage core: difficult.world{level:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"nbt":"difficult.casual.text","storage":"core:","color":"#FF2A2A"}]
