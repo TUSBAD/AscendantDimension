@@ -2,7 +2,7 @@
 #
 # 汎用性高目のカウントダウン
 #
-# @internal
+# @api
 
 
 playsound minecraft:block.conduit.deactivate player @s ~ ~ ~ 0.5 0.15 0.5

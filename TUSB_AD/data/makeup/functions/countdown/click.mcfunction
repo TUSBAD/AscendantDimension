@@ -2,6 +2,6 @@
 #
 # クリック音
 #
-# @internal
+# @api
 
 playsound minecraft:ui.button.click player @s ~ ~ ~ 1 2 0.5
