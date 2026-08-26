@@ -29,3 +29,6 @@
 
 # リセット
     data remove storage core: difficult.world.change
+
+# 職業変更制限 転職後スキル発実行フラグ
+    scoreboard players set _ ChangeDifficultyLock 60

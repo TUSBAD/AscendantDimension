@@ -17,5 +17,4 @@
 
 # 変更
     execute if score #World ChangeDifficulty matches 0 run function core:difficulty/change/apply.m with storage core: difficult.world.change
-    execute if score #World ChangeDifficulty matches 0 run data remove storage core: difficult.change_to
     execute if score #World ChangeDifficulty matches 0 run scoreboard players reset #World ChangeDifficulty
