@@ -28,21 +28,21 @@ gamerule forgiveDeadPlayers false
 gamerule snowAccumulationHeight 1
 gamerule globalSoundEvents true
 gamerule tntExplosionDropDecay false
-execute unless data storage core: difficult.world{level:"debug"} run gamerule doFireTick true
+execute unless data storage core: {debug:1b} run gamerule doFireTick true
 gamerule maxCommandChainLength 1048576
 gamerule doVinesSpread true
 gamerule fireDamage true
-execute unless data storage core: difficult.world{level:"debug"} run gamerule reducedDebugInfo true
+execute unless data storage core: {debug:1b} run gamerule reducedDebugInfo true
 gamerule waterSourceConversion true
 gamerule disableElytraMovementCheck false
 gamerule lavaSourceConversion false
 gamerule announceAdvancements true
 gamerule drowningDamage true
-execute unless data storage core: difficult.world{level:"debug"} run gamerule doMobSpawning true
+execute unless data storage core: {debug:1b} run gamerule doMobSpawning true
 gamerule maxEntityCramming 24
 gamerule doWeatherCycle true
 gamerule mobExplosionDropDecay true
-execute unless data storage core: difficult.world{level:"debug"} run gamerule doDaylightCycle false
+execute unless data storage core: {debug:1b} run gamerule doDaylightCycle false
 gamerule doInsomnia true
 gamerule blockExplosionDropDecay true
 gamerule doImmediateRespawn false
@@ -53,7 +53,7 @@ gamerule commandModificationBlockLimit 32768
 gamerule freezeDamage true
 gamerule logAdminCommands true
 gamerule spectatorsGenerateChunks true
-execute unless data storage core: difficult.world{level:"debug"} run gamerule sendCommandFeedback false
+execute unless data storage core: {debug:1b} run gamerule sendCommandFeedback false
 gamerule doPatrolSpawning true
 #gamerule enderPearlsVanishOnDeath true
 gamerule maxCommandForkCount 1048576

@@ -8,5 +8,5 @@ tellraw @s ["",{"translate":"・情報表示","bold":true,"clickEvent": {"action
 
 execute if data storage debug: Debug{Mode:-1s} run function debug:debug_menu/show
 
-function makeup:game_menu/reshow
+function makeup:core/game_menu/reshow
 tellraw @s "====================================================="

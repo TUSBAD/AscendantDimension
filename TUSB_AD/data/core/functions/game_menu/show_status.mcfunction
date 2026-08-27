@@ -29,3 +29,5 @@ execute if score @s Job matches 8 run data modify storage player: Job set value 
 
 tellraw @s "====================================================="
 tellraw @s [{"translate":"Job:%1$s LV:%2$s Exp:%3$s/%4$s   ","with":[{"storage":"player:","nbt":"Job","interpret": true},{"score":{"name":"_","objective":"Level"},"color":"green"},{"score":{"name": "@s","objective": "Exp"},"color": "green"},{"score":{"name": "@s","objective": "RequiredExp"},"color": "green"}]}]
+
+function core:game_menu/reshow

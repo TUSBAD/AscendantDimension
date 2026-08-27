@@ -16,11 +16,9 @@ title @s[scores={DoomEx=0..10}] title [{"text":"☠ ","color":"#7500df","italic"
 title @s[scores={DoomEx=0..10}] subtitle ""
 
 # 効果音
-playsound minecraft:ui.button.click player @s[scores={DoomEx=61..121}] ~ ~ ~ 0.5 2 0.5
-playsound minecraft:block.bell.use player @s[scores={DoomEx=21..60}] ~ ~ ~ 0.5 0.5 0.5
-playsound minecraft:block.conduit.deactivate player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 0.15 0.5
-playsound minecraft:entity.elder_guardian.curse player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 1.5 0.5
-playsound minecraft:item.shield.break player @s[scores={DoomEx=0..20}] ~ ~ ~ 0.25 0 0.5
+execute if score @s DoomEx matches 61..121 run function makeup:countdown/click
+execute if score @s DoomEx matches 21..60 run function makeup:countdown/bell
+execute if score @s DoomEx matches 0..20 run function makeup:countdown/countdown
 execute if score @s DoomEx matches 0..121 run function effect:doom_ex/damage
 
 # 明示的にリセット

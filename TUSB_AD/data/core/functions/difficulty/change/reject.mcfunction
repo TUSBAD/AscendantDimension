@@ -4,8 +4,10 @@
 #
 # @within function core:difficulty/change/adept
 
-# チャット表示  
+    execute if data storage core: difficult.changed run return fail
+# チャット表示
     tellraw @a ["",{"translate":"難易度変更は否決されました。","color":"red"}]
+    playsound minecraft:entity.villager.no voice @a ~ ~ ~ 1 1 1
 
 # リセット
     data remove storage core: difficult.change

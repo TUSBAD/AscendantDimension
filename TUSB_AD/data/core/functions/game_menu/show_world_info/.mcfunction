@@ -25,3 +25,5 @@
     execute if score @s ChangeSettings matches 230..239 run function core:game_menu/show_world_info/tradeisland/
     # 220-229: 通常世界上層
     # execute if score @s ChangeSettings matches 230..239 run function core:game_menu/show_world_info/new_skylands/
+
+function core:game_menu/reshow

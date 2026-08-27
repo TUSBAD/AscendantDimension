@@ -1,8 +1,8 @@
-#> effect:invisible/doom_ex/damage
+#> effect:doom_ex/damage
 #
 # ダメージを設定します
 #
-# @within function effect:invisible/doom_ex/give
+# @within function effect:doom_ex/apply
 
 ## 致死の宣告
 # 軽減不可ダメージ

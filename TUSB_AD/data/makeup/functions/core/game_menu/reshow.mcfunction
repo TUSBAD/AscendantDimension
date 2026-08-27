@@ -1,4 +1,4 @@
-#> makeup:game_menu/reshow
+#> makeup:core/game_menu/reshow
 #
 #
 #

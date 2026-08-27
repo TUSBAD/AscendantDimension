@@ -195,58 +195,6 @@
         }
       }
     },
-    "another": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:invisibility": {
-            "amplifier": 20,
-            "duration": {
-              "min": 1
-            }
-          }
-        }
-      }
-    },
-    "casual": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:invisibility": {
-            "amplifier": 21,
-            "duration": {
-              "min": 1
-            }
-          }
-        }
-      }
-    },
-    "picnic": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:invisibility": {
-            "amplifier": 22,
-            "duration": {
-              "min": 1
-            }
-          }
-        }
-      }
-    },
-    "nightmare": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:invisibility": {
-            "amplifier": 23,
-            "duration": {
-              "min": 1
-            }
-          }
-        }
-      }
-    },
     "goldwater": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
@@ -492,10 +440,6 @@
       "tnt",
       "pale",
       "debility",
-      "another",
-      "casual",
-      "picnic",
-      "nightmare",
       "anti_doom",
       "anti_burn",
       "anti_freeze",

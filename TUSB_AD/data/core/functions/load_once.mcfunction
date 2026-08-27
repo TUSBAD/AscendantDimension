@@ -4,6 +4,10 @@
 #
 # @within function core:load/
 
+###デバッグモード
+# リリースする際は必ずオフにすること
+data modify storage core: debug set value 1b
+
 ### 即時スキル(すぐ効果がでるスキル)
 #scoreboard objectives add InstantSkillA dummy "即時スキルA"
 #scoreboard objectives add InstantCostA dummy "即時スキルAコスト"
@@ -52,7 +56,8 @@ data modify storage core: Prefix.SUCCESS set value "§aSUCCESS >> §r"
 data modify storage core: Prefix.INFO set value "§9INFO >> §r"
 data modify storage core: Prefix.FAILED set value "§7FAILED >> §r"
 data modify storage core: Prefix.ERROR set value "§cERROR >> §r"
-data modify storage core: Prefix.CRIT set value "§4CRITICAL >> §r"
+data modify storage core: Prefix.CRIT set value "§4§lCRITICAL >> §r"
+data modify storage core: Prefix.WARN set value "§c§lWarning >> §r"
 
 ###計算、乱数
 scoreboard objectives add _ dummy {"text":"一時変数"}
@@ -111,6 +116,7 @@ scoreboard objectives add Shield dummy {"text": "Shield"}
 
 #> 変数や定数、カウンタ
 scoreboard objectives add Difficulty dummy {"text":"難易度保存スコア"}
+scoreboard objectives add ChangeDifficultyLock dummy {"text":"難易度変更制限"}
 scoreboard objectives add DoomEx dummy {"text":"致死の宣告カウント","color":"#cc0000"}
 scoreboard objectives add DeathDoom dummy {"text":"即死の宣告カウント","color":"#f40000"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
@@ -306,6 +312,10 @@ team modify Goddes prefix {"text":"🌌","color":"#00e6ff"}
 # 各スコアの初期設定
 function core:load/init_score
 function core:load/init_storage
+
+#難易度リセット カジュアル
+function core:difficulty/reset
+function core:difficulty/init
 
 #> Function実行
 # とても悪いエフェクト

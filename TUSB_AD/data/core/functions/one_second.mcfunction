@@ -3,11 +3,14 @@
 #> 1秒ごとに実行される処理
 #
 # @within function core:tick
-#declare score_holder #Seconds Count
-#declare score_holder #World ChangeDifficulty
+    #declare score_holder #Seconds Count
+    #declare score_holder #World ChangeDifficulty
+
+# -> 10秒処理
+    execute if score #Seconds Count matches 0 run function core:ten_seconds
 
 # 難易度変更
-execute if score #World ChangeDifficulty matches 0.. run function core:difficulty/change/adopt
+    execute if score #World ChangeDifficulty matches 0.. run function core:difficulty/change/adopt
 
 #> 予感の赤い奴を消します
-execute if score #Seconds Count matches 8 run worldborder warning distance 0
+    execute if score #Seconds Count matches 8 run worldborder warning distance 0
