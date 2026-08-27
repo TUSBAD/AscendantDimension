@@ -7,8 +7,8 @@
 # サポート
 
 # モード
-data modify storage asset:skill _.60 set value {name:["§b魔弾一閃"],level:[75],cost:30,description:[["命中すると広範囲に大ダメージを与える特殊な矢を放つ。"]],condition:"矢を放つ",range:[45]}
-data modify storage asset:skill _.61 set value {name:["§dエースインザホール"],level:[100],cost:150,description:[["矢の周囲にいる味方の体力を持続回復し、敵にダメージを与える。着弾時、広範囲の味方の体力を回復し、敵にダメージを与える"]],condition:"矢を放つ",range:[8]}
+data modify storage asset:skill _.20 append value {name:["§b魔弾一閃"],level:[75],cost:[30],description:[["命中すると広範囲に大ダメージを与える特殊な矢を放つ。"]],condition:["矢を放つ"],range:[45]}
+data modify storage asset:skill _.21 append value {name:["§dエースインザホール"],level:[100],cost:[150],description:[["矢の周囲にいる味方の体力を持続回復し、敵にダメージを与える。着弾時、広範囲の味方の体力を回復し、敵にダメージを与える"]],condition:["矢を放つ"],range:[8]}
 
 data modify storage asset:skill data.311 set from storage asset:skill _
 data remove storage asset:skill _
