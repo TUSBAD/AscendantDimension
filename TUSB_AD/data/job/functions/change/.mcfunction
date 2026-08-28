@@ -4,11 +4,14 @@
 #
 # @within function 
 
+execute store result storage _: _.id int 1 run scoreboard players get @s ChangeJob
+
 # 職業変更
-scoreboard players operation @s Job = Change Job
+scoreboard players operation @s Job = @s ChangeJob
 
 # 演出
-function job:change/vfx.m with storage job: data
+function job:change/vfx.m with storage _: _
 
 # reset
-scoreboard players reset Cheange Job
+scoreboard players reset @s ChangeJob
+data remove storage _: _

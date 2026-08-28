@@ -9,4 +9,4 @@ tellraw @s {"translate": "・ %s","with": [{"storage": "skill:","nbt": "_.player
 
 # 再帰で残りのスキルを表示
 data remove storage skill: _.player.learn_skill[0]
-execute if data storage skill: _.player.learn_skill run function skill:set_display/learn/show
+execute if data storage skill: _.player.learn_skill[0] run function skill:set_display/learn/show

@@ -8,7 +8,11 @@
 function #oh_my_dat:please
 
 # 現在の職業のスキルを取り込み
-$data modify storage skill: _.player.test_1 set from storage asset:skill data.$(job)
+$data modify storage skill: _.test_1 set from storage asset:skill data.$(job)
+say paa
+
+# スキルの最大数(40)を設定
+scoreboard players set #_ _ 40
 
 # 習得スキルのデータを取得
 function skill:set_display/learn/loop with storage skill: _.player
