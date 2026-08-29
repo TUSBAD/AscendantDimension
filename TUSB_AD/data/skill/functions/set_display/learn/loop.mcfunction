@@ -4,19 +4,20 @@
 #
 # @within function skill:set_display/learn/
 
-execute store result storage skill: _.player.count int 1 run scoreboard players get #_ _
-
 # スキルを一つずつ取り込み
-$data modify storage skill: _.test_2 set from storage skill: _.test_1.$(count)[0]
-$data remove storage skill: _.test_1.$(count)[0]
+data modify storage skill: _.test_2 set from storage skill: _.test_1[0]
 
-# 現在のJobとLevelで習得か判別
-$execute if data storage skill: _.test_2{level:[$(level)]} run data modify storage skill: _.player.learn_skill append from storage skill: _.test_2
+# skill_learn_levelのminとmax取得
+execute store result score #min _ run data get storage skill: _.test_2[0].level.min 1
+execute store result score #max _ run data get storage skill: _.test_2[0].level.max 1
+
+# skillを習得予約
+execute if score @s Level > #min _ if score @s Level <= #max _ run data modify storage skill: _.player.Learned_skill append from storage skill: _.test_2
+execute if score @s Level = #min _ run data modify storage skill: _.player.new_learn_skill append from storage skill: _.test_2
 
 # リセット
+data remove storage skill: _.test_1[0]
 data remove storage skill: _.test_2
-$say $(count)
+
 # 再帰
-$execute unless data storage skill: _.test_1.$(count)[0] run scoreboard players remove #_ _ 1
-$execute unless data storage skill: _.test_1.$(count)[0] run data remove storage skill: _.test_1.$(count)
-execute if score #_ _ matches 0.. run function skill:set_display/learn/loop with storage skill: _.player
+execute if data storage skill: _.test_1[0] run function skill:set_display/learn/loop with storage skill: _.player
