@@ -1,0 +1,23 @@
+{
+    "//": "全てのスキル表示のもととなる部分",
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": "スキルツリー -ランサー-",
+        "description": "主にトライデントをメインに使用する。",
+        "background": "minecraft:textures/block/prismarine_bricks.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}
