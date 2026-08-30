@@ -11,4 +11,5 @@ scoreboard players operation _ ItemCount = @s ItemCount
 execute as @a[scores={Job=1..}] at @s run function job:pick_exp/each_player
 
 ### 経験値を取得できた人から、経験値取得音を鳴らします
-execute as @a at @s run playsound minecraft:xp_chime master @s ~ ~ ~ 0.3 2
+# minecraft:xp_chime
+#execute as @a at @s run playsound minecraft:xp_chime master @s ~ ~ ~ 0.3 2

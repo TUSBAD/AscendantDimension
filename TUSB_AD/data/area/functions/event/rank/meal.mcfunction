@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 me 「…こんな動物いた？」
-summon villager ~ ~ ~ {Health:0f,DeathTime:19s,Passengers:[{id:"sheep",CustomName:'"村人のごはん"',CustomNameVisible:true,DeathLootTable:"usb:events/meal/sheep",Tags:[VillagerMeal]},{id:"cow",CustomName:'"村人のごはんじゃない"',CustomNameVisible:true},{id:"pig",CustomName:'"村人のごはんじゃない"',CustomNameVisible:true}]}
+# summon Villager ~ ~ ~ {Health:0f,DeathTime:19s,Passengers:[{id:"sheep",CustomName:'"村人のごはん"',CustomNameVisible:true,DeathLootTable:"usb:events/meal/sheep",Tags:[VillagerMeal]},{id:"cow",CustomName:'"村人のごはんじゃない"',CustomNameVisible:true},{id:"pig",CustomName:'"村人のごはんじゃない"',CustomNameVisible:true}]}
 
 ## 鮮度をリセット
 scoreboard players add @e[tag=VillagerMeal] Freshness 0
