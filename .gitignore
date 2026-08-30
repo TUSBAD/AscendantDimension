@@ -1,10 +1,9 @@
+/.cache
+/build
+/docs
 /AiMath
 /AiUtil
-/AnywhereFunction-1.0.0
 /AnywhereTeleport
 /CloseDetector
-/MCCMD-ScoreDamage
 /NoSleep
-/OhMyDat-1.0.2
 /PlayerItemTuner
-/ScoreToHealth-1.0.1
