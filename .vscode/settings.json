@@ -60,5 +60,5 @@
     "mcdutil.createDatapackTemplate.defaultFolder": false,
     "mcdutil.createDatapackTemplate.defaultLoadAndTick": false,
     "mcdutil.createDatapackTemplate.defaultVanillaData": false,
-    "search.useIgnoreFiles": false,
+    "search.useIgnoreFiles": true,
 }
