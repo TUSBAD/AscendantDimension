@@ -1,7 +1,7 @@
 #> asset_manager:spawner/aura
 # オーラスポナーの毎tick処理
 
-execute unless predicate lib:spawner/is_aura_spawner run function debug:set_spawner/aura
+execute unless predicate lib:spawner/is_aura_spawner run function debug:spawner/set_spawner/aura
 
 execute if block ~ ~ ~ air run tag @s remove AuraSpawner
 

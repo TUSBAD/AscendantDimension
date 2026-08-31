@@ -1,0 +1,6 @@
+#> debug:get_spawner
+
+function #oh_my_dat:please
+
+function debug:name
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].spawner set from entity @e[type=spawner_minecart,limit=1,sort=nearest] {}
