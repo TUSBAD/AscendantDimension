@@ -71,13 +71,13 @@ data modify storage asset: mob set value {Profession:0,Passengers:[{Health:1000.
 # summon armor_stand -2000.0 0.0 0.0 {Tags:["ItemHolder"]}
 # /lootでloot_tableから装備させるか、/itemで直接持たせます
 # loot replace entity @e[tag=ItemHolder,limit=1] armor.head loot asset:items/silver_unit/silver_banner
-# item replace entity @e[tag=ItemHolder,limit=1] armor.chest with diamond_chestplate{Unbreakable:true} 1
-# item replace entity @e[tag=ItemHolder,limit=1] armor.legs with diamond_leggings{Unbreakable:true} 1
-# item replace entity @e[tag=ItemHolder,limit=1] armor.feet with diamond_boots{Unbreakable:true} 1
+# item replace entity @e[tag=ItemHolder,limit=1] armor.chest with diamond_chestplate[unbreakable={}] 1
+# item replace entity @e[tag=ItemHolder,limit=1] armor.legs with diamond_leggings[unbreakable={}] 1
+# item replace entity @e[tag=ItemHolder,limit=1] armor.feet with diamond_boots[unbreakable={}] 1
 # 手にも持たせます
 # 防具と同様に/lootか/itemで
 # loot replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand loot asset:items/silver_unit/true_white_banner
-# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield{Damage:256} 1
+# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield[damage=256] 1
 # 最後に、防具立ての防具のnbtと持っているアイテムのnbtをstorageに移し、killします
 # data modify storage asset: mob.ArmorItems set from entity @e[tag=ItemHolder,limit=1] ArmorItems
 # data modify storage asset: mob.HandItems set from entity @e[tag=ItemHolder,limit=1] HandItems

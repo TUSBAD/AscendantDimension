@@ -77,7 +77,7 @@ data modify storage asset: mob set value {Passengers: [{Passengers: [{Particle: 
 # 手にも持たせます
 # 防具と同様に/lootか/itemで
 # item replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand with bow{display:{Name:'{"text":"sharpbow","color":"dark_blue","bold":true}'},Enchantments:[{id:"minecraft:power",lvl:35s}]} 1
-# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield{Damage:256} 1
+# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield[damage=256] 1
 # 最後に、防具立ての防具のnbtと持っているアイテムのnbtをstorageに移し、killします
 # data modify storage asset: mob.ArmorItems set from entity @e[tag=ItemHolder,limit=1] ArmorItems
 # data modify storage asset: mob.HandItems set from entity @e[tag=ItemHolder,limit=1] HandItems

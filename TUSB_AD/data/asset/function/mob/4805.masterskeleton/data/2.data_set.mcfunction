@@ -77,7 +77,7 @@ item replace entity @e[tag=ItemHolder,limit=1] armor.feet with golden_boots{Unbr
 # 手にも持たせます
 # 防具と同様に/lootか/itemで
 item replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand with golden_sword{Enchantments:[{lvl:10s,id:sharpness},{lvl:10s,id:knockback},{lvl:20s,id:fire_aspect}],display:{Name:'{"text":"§6指揮官の剣§r"}'}} 1
-# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield{Damage:256} 1
+# item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield[damage=256] 1
 # 最後に、防具立ての防具のnbtと持っているアイテムのnbtをstorageに移し、killします
 data modify storage asset: mob.ArmorItems set from entity @e[tag=ItemHolder,limit=1] ArmorItems
 data modify storage asset: mob.HandItems set from entity @e[tag=ItemHolder,limit=1] HandItems

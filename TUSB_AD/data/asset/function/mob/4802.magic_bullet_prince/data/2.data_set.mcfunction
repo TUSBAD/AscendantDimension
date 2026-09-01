@@ -78,9 +78,9 @@ data remove storage asset: mob
     summon armor_stand -2000.0 0.0 0.0 {Tags:["ItemHolder"]}
     # /lootでloot_tableから装備させるか、/itemで直接持たせます
     # loot replace entity @e[tag=ItemHolder,limit=1] armor.head loot asset:item/armor/head/black_mage_soul
-    # item replace entity @e[tag=ItemHolder,limit=1] armor.chest with diamond_chestplate{Unbreakable:true} 1
-    # item replace entity @e[tag=ItemHolder,limit=1] armor.legs with diamond_leggings{Unbreakable:true} 1
-    # item replace entity @e[tag=ItemHolder,limit=1] armor.feet with diamond_boots{Unbreakable:true} 1
+    # item replace entity @e[tag=ItemHolder,limit=1] armor.chest with diamond_chestplate[unbreakable={}] 1
+    # item replace entity @e[tag=ItemHolder,limit=1] armor.legs with diamond_leggings[unbreakable={}] 1
+    # item replace entity @e[tag=ItemHolder,limit=1] armor.feet with diamond_boots[unbreakable={}] 1
     # 手にも持たせます
     # 防具と同様に/lootか/itemで
     loot replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand loot asset:item/weapon/bow/magic_bullet_m82a3
