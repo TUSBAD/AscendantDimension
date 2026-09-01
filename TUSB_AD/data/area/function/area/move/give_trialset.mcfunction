@@ -4,15 +4,15 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### お試しセットを渡す
-give @s minecraft:ghast_spawn_egg{display:{Name:'"§bお試しセットの印玉"',Lore:['"§rモードスキル用お試しセットが入っている。"','"§rなくなったら交易島のアルバイトから買おう。"']},Enchantments:[{}],EntityTag:{id:"minecraft:bat",DeathTime:19s,active_effects:[{id:"minecraft:instant_damage",duration:100,amplifier:5b,show_particles:false},{id:"minecraft:invisibility",duration:100,amplifier:0b,show_particles:false}],Tags:[RewardEgg,TypeChecked],DeathLootTable:"usb:signs/skillkit"},CanPlaceOn:["#minecraft:all"],HideFlags:16}
+give @s minecraft:ghast_spawn_egg[enchantment_glint_override=1b,custom_name='"§bお試しセットの印玉"',lore=['"§rモードスキル用お試しセットが入っている。"','"§rなくなったら交易島のアルバイトから買おう。"'],can_place_on={predicates:[{blocks:"#minecraft:all"}],show_in_tooltip:0b},entity_data={id:"minecraft:bat",DeathTime:19s,active_effects:[{id:"minecraft:instant_damage",duration:100,amplifier:5b,show_particles:0b},{id:"minecraft:invisibility",duration:100,amplifier:0b,show_particles:0b}],Tags:["RewardEgg","TypeChecked"],DeathLootTable:"usb:signs/skillkit"}]
 tellraw @s {"translate":"* %1$s を受け取った。","with":[{"text":"お試しセットの印玉","color":"aqua"}]}
 tag @s remove TrialSet
 
 ### 電話ボックスのドアを復元する
 execute positioned -2719 89 -392 run function core:load_chunk
-execute positioned -2719 89 -392 as @e[type=armor_stand,name="door",tag=SystemEntity,distance=..3] run loot replace entity @s armor.head mine ~ ~ ~ minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:silk_touch",lvl:1s}]}
+execute positioned -2719 89 -392 as @e[type=armor_stand,name="door",tag=SystemEntity,distance=..3] run loot replace entity @s armor.head mine ~ ~ ~ minecraft:diamond_pickaxe[enchantments={"minecraft:silk_touch":1}]
 execute positioned -2723 89 -392 run function core:load_chunk
-execute positioned -2723 89 -392 as @e[type=armor_stand,name="door",tag=SystemEntity,distance=..3] run loot replace entity @s armor.head mine ~ ~ ~ minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:silk_touch",lvl:1s}]}
+execute positioned -2723 89 -392 as @e[type=armor_stand,name="door",tag=SystemEntity,distance=..3] run loot replace entity @s armor.head mine ~ ~ ~ minecraft:diamond_pickaxe[enchantments={"minecraft:silk_touch":1}]
 
 ### ついでに観光モードの看板も更新する
 data merge block -2718 90 -393 {Text1:'{"text":"観光ﾓｰﾄﾞを切替えます","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"/function core:settings/switch_sightseeing"}}',Text2:'{"text":"観光モード中の","color":"dark_red","bold":true}',Text3:'{"text":"死亡回数は","color":"dark_red","bold":true}',Text4:'{"text":"記録されます","color":"dark_red","bold":true}'}

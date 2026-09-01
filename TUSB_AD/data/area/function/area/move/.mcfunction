@@ -42,4 +42,4 @@ execute if entity @s[x=-2725,y=88,z=-382,distance=..2,scores={AreaChangeFlag=10}
 scoreboard players set @s AreaChangeFlag -999
 
 # 一部アイテム消去
-clear @s #all{NoTakeout:1b}
+clear @s *[custom_data~{NoTakeou:1b}]
