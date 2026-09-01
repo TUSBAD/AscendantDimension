@@ -3,29 +3,35 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
+function job:status/operation_start
+
+# 前の職業のデータをセーブ
+function job:status/save
+
+# 次の職業のデータをロード
 scoreboard players operation @s Job = @s ChangeJob
+function job:status/load
 
-# 職業変更
-## 剣士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:1} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 1
-## 忍者
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:2} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 2
-## 狩人
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:3} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 3
-## 白魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:4} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 4
-## 黒魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:5} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 5
-## 召喚士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:6} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 6
+# 各職業ごとの演出
+execute if score @s ChangeJob matches 1 run function makeup:job/change/knight
+execute if score @s ChangeJob matches 2 run function makeup:job/change/ninja
+execute if score @s ChangeJob matches 3 run function makeup:job/change/hunter
+execute if score @s ChangeJob matches 4 run function makeup:job/change/white_mage
+execute if score @s ChangeJob matches 5 run function makeup:job/change/black_mage
+execute if score @s ChangeJob matches 6 run function makeup:job/change/summoner
+execute if score @s ChangeJob matches 7 run function makeup:job/change/lancer
+execute if score @s ChangeJob matches 8 run function makeup:job/change/alchemist
 
-clear @s minecraft:paper{JobChange:true}
+#スキルレベル更新
+function job:status/get_all_job_level
 
-# 新しい職業をロード
-function job:load/
+function job:status/operation_end
+
+#レベルアップ可能ならレベルアップする
+execute if score @s Exp >= @s RequiredExp run function job:level_up/
+
+# トグルスキルリセット
+function skill:toggle_reset
+
+# 職業変更制限 転職後スキル発実行フラグ
+scoreboard players set @s ChangeJobLock -1

@@ -14,30 +14,30 @@
 
 function score_to_absorption:anti_glitch/restore
 
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-17
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-16
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-15
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-14
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-13
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-12
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-11
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-10
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0F
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0E
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0D
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0C
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0B
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-0A
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-09
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-08
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-07
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-06
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-05
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-04
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-03
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-02
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-01
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-00
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-17
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-16
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-15
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-14
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-13
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-12
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-11
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-10
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0f
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0e
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0d
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0c
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0b
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-0a
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-09
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-08
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-07
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-06
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-05
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-04
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-03
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-02
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-01
+attribute @s max_absorption modifier remove tusb:scoretoabsorption-00
 
 function score_to_absorption:anti_glitch/unprotect
 

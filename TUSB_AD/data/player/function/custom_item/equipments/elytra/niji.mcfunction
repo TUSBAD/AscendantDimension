@@ -18,16 +18,16 @@ effect give @s minecraft:night_vision 61 0 false
 
 effect give @s minecraft:resistance 61 2 false
 
-particle dust 1 0 0 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 1 0.5 0 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[1.000,0.500,0.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 1 1 0 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[1.000,1.000,0.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 0 1 0 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[0.000,1.000,0.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 0 1 1 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[0.000,1.000,1.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 0 0 1 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[0.000,0.000,1.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
 
-particle dust 5 0 1 1 ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a
+particle dust{color:[0.500,0.000,1.000],scale:1} ~ ~1 ~ 1.4 1.4 1.4 10 2 force @a

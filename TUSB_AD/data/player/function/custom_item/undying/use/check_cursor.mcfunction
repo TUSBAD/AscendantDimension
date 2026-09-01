@@ -5,7 +5,7 @@ data modify storage player_item_tuner: condition.if set value {tag:{Undying:true
 data modify storage player_item_tuner: result.merge set value {tag:{Undying:"replace"}}
 function player_item_tuner:inventory/merge/
 # そして置き換えられていないやつを持っているかを持っているかをclearで確かめる
-execute store success storage item: test byte 1 run clear @s #lib:all{Undying:true} 0
+execute store success storage item: test byte 1 run clear @s #lib:all[custom_data={Undying:1b}] 0
 # 持ってるなら非実行フラグを立てる！
 execute if data storage item: {test:true} run data modify storage item: check set value true
 # んで戻しちゃう！

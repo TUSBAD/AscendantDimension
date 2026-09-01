@@ -14,101 +14,101 @@
 
 execute if entity @s[tag=ScoreToAbsorption.AntiGlitch.Protected] run function score_to_absorption:anti_glitch/modify
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
 scoreboard players operation @s ScoreToAbsorption < #_ ScoreToAbsorption
-attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-17 "ScoreToAbsorption" -838.8607 add
+attribute @s max_absorption modifier add tusb:scoretoabsorption-17 -838.8607 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-16 "ScoreToAbsorption" -419.4304 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-16 "ScoreToAbsorption" 419.4304 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-16 -419.4304 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-16 419.4304 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-15 "ScoreToAbsorption" -209.7152 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-15 "ScoreToAbsorption" 209.7152 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-15 -209.7152 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-15 209.7152 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-14 "ScoreToAbsorption" -104.8576 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-14 "ScoreToAbsorption" 104.8576 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-14 -104.8576 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-14 104.8576 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-13 "ScoreToAbsorption" -52.4288 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-13 "ScoreToAbsorption" 52.4288 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-13 -52.4288 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-13 52.4288 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-12 "ScoreToAbsorption" -26.2144 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-12 "ScoreToAbsorption" 26.2144 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-12 -26.2144 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-12 26.2144 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-11 "ScoreToAbsorption" -13.1072 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-11 "ScoreToAbsorption" 13.1072 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-11 -13.1072 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-11 13.1072 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-10 "ScoreToAbsorption" -6.5536 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-10 "ScoreToAbsorption" 6.5536 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-10 -6.5536 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-10 6.5536 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0F "ScoreToAbsorption" -3.2768 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0F "ScoreToAbsorption" 3.2768 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0f -3.2768 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0f 3.2768 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0E "ScoreToAbsorption" -1.6384 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0E "ScoreToAbsorption" 1.6384 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0e -1.6384 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0e 1.6384 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0D "ScoreToAbsorption" -0.8192 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0D "ScoreToAbsorption" 0.8192 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0d -0.8192 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0d 0.8192 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0C "ScoreToAbsorption" -0.4096 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0C "ScoreToAbsorption" 0.4096 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0c -0.4096 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0c 0.4096 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0B "ScoreToAbsorption" -0.2048 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0B "ScoreToAbsorption" 0.2048 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0b -0.2048 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0b 0.2048 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0A "ScoreToAbsorption" -0.1024 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-0A "ScoreToAbsorption" 0.1024 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0a -0.1024 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-0a 0.1024 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-09 "ScoreToAbsorption" -0.0512 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-09 "ScoreToAbsorption" 0.0512 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-09 -0.0512 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-09 0.0512 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-08 "ScoreToAbsorption" -0.0256 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-08 "ScoreToAbsorption" 0.0256 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-08 -0.0256 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-08 0.0256 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-07 "ScoreToAbsorption" -0.0128 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-07 "ScoreToAbsorption" 0.0128 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-07 -0.0128 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-07 0.0128 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-06 "ScoreToAbsorption" -0.0064 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-06 "ScoreToAbsorption" 0.0064 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-06 -0.0064 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-06 0.0064 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-05 "ScoreToAbsorption" -0.0032 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-05 "ScoreToAbsorption" 0.0032 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-05 -0.0032 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-05 0.0032 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-04 "ScoreToAbsorption" -0.0016 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-04 "ScoreToAbsorption" 0.0016 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-04 -0.0016 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-04 0.0016 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-03 "ScoreToAbsorption" -0.0008 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-03 "ScoreToAbsorption" 0.0008 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-03 -0.0008 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-03 0.0008 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-02 "ScoreToAbsorption" -0.0004 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-02 "ScoreToAbsorption" 0.0004 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-02 -0.0004 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-02 0.0004 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-01 "ScoreToAbsorption" -0.0002 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-01 "ScoreToAbsorption" 0.0002 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-01 -0.0002 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-01 0.0002 add_value
 
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
-execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-00 "ScoreToAbsorption" -0.0001 add
-execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-00 "ScoreToAbsorption" 0.0001 add
+execute store result score #_ ScoreToAbsorption run attribute @s max_absorption get 100
+execute if score @s ScoreToAbsorption <= #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-00 -0.0001 add_value
+execute if score @s ScoreToAbsorption > #_ ScoreToAbsorption run attribute @s max_absorption modifier add tusb:scoretoabsorption-00 0.0001 add_value
 
 tag @s add ScoreToAbsorption.Modified
 scoreboard players reset @s ScoreToAbsorption

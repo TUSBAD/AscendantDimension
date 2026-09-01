@@ -12,4 +12,4 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-attribute @s minecraft:generic.max_absorption modifier remove 00000002-0000-0000-0001-1F
+attribute @s max_absorption modifier remove tusb:scoretoabsorption_-100000

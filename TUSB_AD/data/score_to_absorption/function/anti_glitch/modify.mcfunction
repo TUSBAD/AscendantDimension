@@ -12,4 +12,4 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-attribute @s minecraft:generic.max_absorption modifier add 00000002-0000-0000-0001-1F "ScoreToAbsorption" -100000 add
+attribute @s max_absorption modifier add tusb:scoretoabsorption_-100000 -100000 add_value
