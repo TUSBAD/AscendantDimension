@@ -55,7 +55,6 @@ gamerule logAdminCommands true
 gamerule spectatorsGenerateChunks true
 execute unless data storage core: {debug:1b} run gamerule sendCommandFeedback false
 gamerule doPatrolSpawning true
-#gamerule enderPearlsVanishOnDeath true
 gamerule maxCommandForkCount 1048576
 gamerule projectilesCanBreakBlocks true
 difficulty hard
