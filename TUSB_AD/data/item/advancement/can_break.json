@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "tag": "item:tools"
+                  "items": "#item:tools"
                 }
               }
             }
@@ -23,8 +23,10 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "tag": "item:tools",
-                    "nbt": "{CustomCanDestroy:1b}"
+                    "items": "#item:tools",
+                    "predicates": {
+                      "minecraft:custom_data": "{CustomCanBreak:1b}"
+                    }
                   }
                 }
               }

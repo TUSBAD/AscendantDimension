@@ -4,21 +4,17 @@
 #
 # @within advancement item:instant_item
 
-# 保存
+#> item:instant_item/
 data modify storage item: InstantInventory set from entity @s Inventory
 
 #RecoverHP
-execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverHP run function item:instant_item/recover_hp
+execute if data storage item: InstantInventory[].components."minecraft:custom_data".InstantEffect.RecoverHP run function item:instant_item/recover_hp
 #RecoverMP
-execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverMP run function item:instant_item/recover_mp
-execute if data storage item: InstantInventory[{id:"minecraft:chorus_fruit"}] run function item:instant_item/recover_mp
+execute if data storage item: InstantInventory[].components."minecraft:custom_data".InstantEffect.RecoverMP run function item:instant_item/recover_mp
 #RecoverHB
-execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverHB run function item:instant_item/recover_hb
+execute if data storage item: InstantInventory[].components."minecraft:custom_data".InstantEffect.RecoverHB run function item:instant_item/recover_hb
 
-# 削除
 data remove storage item: InstantInventory
-clear @s mushroom_stew{InstantEffect:{}}
-clear @s #item:stained_glass_pane{InstantEffect:{}}
-clear @s chorus_fruit
+clear @s *[minecraft:custom_data~{InstantEffect:{}}]
 #トリガー解除
 advancement revoke @s only item:instant_item

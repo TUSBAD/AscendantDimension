@@ -6,7 +6,7 @@
 
 
 data modify storage calc: List set value []
-data modify storage calc: List append from storage item: InstantInventory[].tag.InstantEffect.RecoverMP
+data modify storage calc: List append from storage item: InstantInventory[].components."minecraft:custom_data".InstantEffect.RecoverMP
 data modify storage calc: List append from storage item: InstantInventory[{id:"minecraft:chorus_fruit"}]
 execute store result score _ _ run function calc:list/sum/x1
 scoreboard players operation @s MP += _ _

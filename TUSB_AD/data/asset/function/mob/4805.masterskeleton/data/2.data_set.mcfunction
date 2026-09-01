@@ -71,12 +71,12 @@ data modify storage asset: mob.Attributes append value {Name:generic.knockback_r
 summon armor_stand -2000.0 0.0 0.0 {Tags:["ItemHolder"]}
 # /lootでloot_tableから装備させるか、/itemで直接持たせます
 # loot replace entity @e[tag=ItemHolder,limit=1] armor.head loot asset:items/silver_unit/silver_banner
-item replace entity @e[tag=ItemHolder,limit=1] armor.chest with golden_chestplate{Unbreakable:true,Enchantments:[{lvl:50s,id:protection},{lvl:10s,id:fire_protection},{lvl:20s,id:fire_protection},{lvl:127s,id:blast_protection},{lvl:2s,id:"thorns"},{lvl:5s,id:aqua_affinity},{lvl:50s,id:unbreaking}]} 1
-item replace entity @e[tag=ItemHolder,limit=1] armor.legs with golden_leggings{Unbreakable:true,Enchantments:[{lvl:50s,id:protection},{lvl:10s,id:fire_protection},{lvl:20s,id:fire_protection},{lvl:127s,id:blast_protection},{lvl:2s,id:"thorns"},{lvl:5s,id:aqua_affinity},{lvl:50s,id:unbreaking}]} 1
-item replace entity @e[tag=ItemHolder,limit=1] armor.feet with golden_boots{Unbreakable:true,Enchantments:[{lvl:50s,id:protection},{lvl:10s,id:fire_protection},{lvl:20s,id:fire_protection},{lvl:127s,id:blast_protection},{lvl:2s,id:"thorns"},{lvl:5s,id:aqua_affinity},{lvl:50s,id:unbreaking}]} 1
+item replace entity @e[tag=ItemHolder,limit=1] armor.chest with golden_chestplate[unbreakable={},enchantments={protection:50,fire_protection:20,blast_protection:127,thorns:2,aqua_affinity:5,unbreaking:50}] 1
+item replace entity @e[tag=ItemHolder,limit=1] armor.legs with golden_leggings[unbreakable={},enchantments={protection:50,fire_protection:20,blast_protection:127,thorns:2,aqua_affinity:5,unbreaking:50}] 1
+item replace entity @e[tag=ItemHolder,limit=1] armor.feet with golden_boots[unbreakable={},enchantments={protection:50,fire_protection:20,blast_protection:127,thorns:2,aqua_affinity:5,unbreaking:50}] 1
 # 手にも持たせます
 # 防具と同様に/lootか/itemで
-item replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand with golden_sword{Enchantments:[{lvl:10s,id:sharpness},{lvl:10s,id:knockback},{lvl:20s,id:fire_aspect}],display:{Name:'{"text":"§6指揮官の剣§r"}'}} 1
+item replace entity @e[tag=ItemHolder,limit=1] weapon.mainhand with golden_sword[enchantments={sharpness:10,knockback:10,fire_aspect:20},custom_name='{"text":"§6指揮官の剣§r"}']
 # item replace entity @e[tag=ItemHolder,limit=1] weapon.offhand with shield[damage=256] 1
 # 最後に、防具立ての防具のnbtと持っているアイテムのnbtをstorageに移し、killします
 data modify storage asset: mob.ArmorItems set from entity @e[tag=ItemHolder,limit=1] ArmorItems

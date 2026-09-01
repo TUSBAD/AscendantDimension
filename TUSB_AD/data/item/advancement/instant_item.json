@@ -6,7 +6,7 @@
         "items": [
           {
             "predicates": {
-              "nbt": "{InstantEffect:{}}"
+              "minecraft:custom_data": "{InstantEffect:{}}"
             }
           }
         ]

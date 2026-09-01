@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "item:adv_can_place"
+            "items": "#item:adv_can_place"
           }
         ]
       }
