@@ -2,11 +2,11 @@
     "//": "全てのスキル表示のもととなる部分",
     "display": {
         "icon": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:crossbow"
         },
-        "title": "スキルツリー -ウォーリアー-",
-        "description": "剣の扱いに優れ、高い防御性能を誇る、近接戦闘メインの職業。",
-        "background": "minecraft:textures/block/iron_block.png",
+        "title": "スキルツリー -スナイパー-",
+        "description": "遠距離攻撃が得意であり、敵へのデバフもお手の物。",
+        "background": "minecraft:textures/block/emerald_block.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

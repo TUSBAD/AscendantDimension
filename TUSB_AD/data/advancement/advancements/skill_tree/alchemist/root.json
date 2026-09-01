@@ -2,11 +2,11 @@
     "//": "全てのスキル表示のもととなる部分",
     "display": {
         "icon": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:brewing_stand"
         },
-        "title": "スキルツリー -ウォーリアー-",
-        "description": "剣の扱いに優れ、高い防御性能を誇る、近接戦闘メインの職業。",
-        "background": "minecraft:textures/block/iron_block.png",
+        "title": "スキルツリー -アルケミスト-",
+        "description": "生産や錬金術で味方を支える。",
+        "background": "minecraft:textures/block/diamond_block.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
