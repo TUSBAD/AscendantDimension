@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_axe",
+  "template": "minecraft:bedrock",
+  "addition": "minecraft:suspicious_sand",
+  "result": {
+    "id": "minecraft:netherite_axe"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{custom_potion_effects: [{duration: 20, Id: 1b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 2b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 3b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 4b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 5b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 6b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 7b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 8b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 9b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 10b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 11b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 12b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 13b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 14b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 15b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 16b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 17b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 18b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 19b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 20b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 21b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 22b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 23b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 24b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 25b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 26b, amplifier: 0b, show_particles: 1b}, {duration: 20, Id: 27b, amplifier: 0b, show_particles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§c治せないものは§l死§r§cのみ\"}'], Name: '{\"text\":\"§l§cニオイクロタネソウ\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

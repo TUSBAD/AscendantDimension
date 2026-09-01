@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{custom_potion_effects: [{duration: 30, Id: 6b, amplifier: 2b, show_particles: 0b}, {duration: 200, Id: 16b, amplifier: 2b, show_particles: 0b}, {duration: 600, Id: 10b, amplifier: 2b, show_particles: 0b}, {duration: 0, Id: 25b, amplifier: -128b, show_particles: 1b}, {duration: 0, Id: 23b, amplifier: 92b, show_particles: 1b}], HideFlags: 63, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"お風呂上がりに飲むもの\"}', '{\"text\":\"甘くて美味しい\"}'], Name: '{\"text\":\"§8コーヒー牛乳\"}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

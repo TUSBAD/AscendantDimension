@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "CBC",
+    "OOO"
+  ],
+  "key": {
+    "C": "minecraft:crying_obsidian",
+    "B": "minecraft:barrier",
+    "O": "minecraft:bedrock"
+  },
+  "result": {
+    "id": "minecraft:respawn_anchor"
+  }
+}

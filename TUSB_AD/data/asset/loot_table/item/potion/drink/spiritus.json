@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:potion",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "set_custom_data",
+                        "tag": "{custom_potion_effects: [{duration: 800, Id: 9b, amplifier: 0b, show_particles: 1b}, {duration: 800, Id: 15b, amplifier: 0b, show_particles: 1b}, {duration: 800, Id: 10b, amplifier: 0b, show_particles: 1b}, {duration: 800, Id: 5b, amplifier: 3b, show_particles: 1b}, {duration: 800, Id: 3b, amplifier: 1b, show_particles: 1b}], HideFlags: 32, Potion: \"minecraft:water\", display: {Lore: ['{\"text\":\"§d§o酷い吐き気に襲われるお酒。\"}', '{\"text\":\"§e§o酔拳をマスターしたい人用。\"}'], Name: '{\"text\":\"§bスピリタス\"}'}}"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
