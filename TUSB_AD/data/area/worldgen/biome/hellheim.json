@@ -11,12 +11,31 @@
     "water_fog_color": 340531,
     "grass_color": 4017228,
     "foliage_color": 3298131,
-    "music": {
-      "sound": "minecraft:music.warmth",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "adst:calm2"
+          },
+          "min_delay": 0,
+          "max_delay": 4800,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:stand_tall"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 1,
     "additions_sound": {
       "sound": "minecraft:crimson_forest_shine",
       "tick_chance": 0.005
@@ -36,6 +55,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }
