@@ -11,7 +11,9 @@
     "water_fog_color": 0,
     "grass_color": 0,
     "foliage_color": 0,
-    "ambient_sound": "minecraft:ambient.warped_forest_help",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.warped_forest_help"
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.warped_forest_here",
       "tick_delay": 1000,
@@ -22,12 +24,31 @@
       "sound": "minecraft:ambient.warped_forest_enish",
       "tick_chance": 0.01
     },
-    "music": {
-      "sound": "music:nether.nether_wastes_rare",
-      "min_delay": 0,
-      "max_delay": 1000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.concrete_halls"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:shunjii"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.25,
     "particle": {
       "options": {
         "type": "minecraft:sculk_soul"
@@ -37,6 +58,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

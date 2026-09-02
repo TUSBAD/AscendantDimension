@@ -11,7 +11,9 @@
     "water_fog_color": 9408399,
     "grass_color": 10066329,
     "foliage_color": 7566195,
-    "ambient_sound": "minecraft:ambient.warped_forest_enish",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.warped_forest_enish"
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
       "tick_delay": 6000,
@@ -22,12 +24,31 @@
       "sound": "minecraft:ambient.basalt_deltas_twist",
       "tick_chance": 0.001
     },
-    "music": {
-      "sound": "music:nether.warmth",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.warmth"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.chrysopoeia"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.5,
     "particle": {
       "options": {
         "type": "minecraft:soul"
@@ -37,6 +58,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

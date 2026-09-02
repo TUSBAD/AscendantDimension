@@ -11,7 +11,9 @@
     "water_fog_color": 2818135,
     "grass_color": 2490424,
     "foliage_color": 1114137,
-    "ambient_sound": "minecraft:ambient.soul_sand_valley_wind",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.soul_sand_valley_wind"
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
       "tick_delay": 4000,
@@ -22,12 +24,31 @@
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.005
     },
-    "music": {
-      "sound": "music:nether.soul_sand_valley_pitch1.5",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.soul_sand_valley_pitch1.5"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.nether_wastes_pitch1.5"
+          },
+          "min_delay": 0,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.5,
     "particle": {
       "options": {
         "type": "minecraft:warped_spore"
@@ -37,6 +58,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

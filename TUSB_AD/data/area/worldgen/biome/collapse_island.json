@@ -11,7 +11,9 @@
     "water_fog_color": 16711680,
     "grass_color": 8388608,
     "foliage_color": 16711680,
-    "ambient_sound": "minecraft:ambient.warped_forest_here",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.warped_forest_here"
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley_wind",
       "tick_delay": 2000,
@@ -22,12 +24,31 @@
       "sound": "minecraft:ambient.soul_sand_valley_voice",
       "tick_chance": 0.01
     },
-    "music": {
-      "sound": "music:eld_unknown_pitch0.75",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:eld_unknown_pitch0.75"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:ancestry"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.5,
     "particle": {
       "options": {
         "type": "minecraft:sculk_soul"
@@ -37,6 +58,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

@@ -11,12 +11,31 @@
     "water_fog_color": 7083045,
     "grass_color": 8725912,
     "foliage_color": 7340109,
-    "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:nether.nether_wastes_rare"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:end_boss"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": false
+        }
+      }
+    ],
+    "music_volume": 1,
     "particle": {
       "options": {
         "type": "minecraft:portal"
@@ -26,6 +45,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }
