@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "---",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "魔法の翠玉",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "---",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "古代の術によって作り出された傷一つないエメラルド。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "希少なため高値で取引される。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

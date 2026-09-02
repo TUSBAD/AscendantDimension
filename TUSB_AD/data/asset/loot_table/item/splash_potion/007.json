@@ -1,0 +1,213 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "反逆の",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "意志",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "貴方の覚悟次第",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "効果:",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": " 移動速度 -100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": " 跳躍力 -100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": " 攻撃力 -100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": " 攻撃速度-100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": " 耐性 -100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": " 幸運 -100",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": " 死の宣告 ",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "lol",
+                        "italic": false,
+                        "color": "red",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "それは貴方と貴方の仲間の明日を創る。",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "それは貴方と貴方の仲間の明日を砕く。",
+                    "italic": false,
+                    "color": "dark_red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": -100,
+                      "duration": 20000000,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": -1,
+                      "duration": 10,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": -100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": -100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": -20,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 100,
+                      "duration": 20000000,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000023932_000000000007839d",
+                      "type": "minecraft:attack_damage",
+                      "amount": 2.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000015192_000000000008b67f",
+                      "type": "minecraft:max_health",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000454e2_00000000000cae8e",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000029937_00000000000339ba",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

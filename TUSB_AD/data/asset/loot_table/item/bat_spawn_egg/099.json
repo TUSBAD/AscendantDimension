@@ -1,0 +1,184 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "守護者から",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "の贈り物 ",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ある守護者から送られてきた贈り物。",
+                    "italic": false,
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "使うことで終焉に立ち向かう者を入手できる。",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "サバイバルエリアでのみ開封可能。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "DeathTime": 19,
+                  "DeathLootTable": "usb:signs/armor/shuuen",
+                  "id": "minecraft:bat",
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 7,
+                      "Amplifier": 10
+                    },
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Tags": [
+                    "RewardEgg",
+                    "TypeChecked"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

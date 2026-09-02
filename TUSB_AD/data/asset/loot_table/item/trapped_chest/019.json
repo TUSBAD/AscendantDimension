@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trapped_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "rankFINAL",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:block_entity_data": {
+                  "LootTable": "usb:chests/rankFINAL",
+                  "id": "minecraft:chest"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

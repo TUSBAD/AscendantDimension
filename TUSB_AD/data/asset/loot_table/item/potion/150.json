@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Σジャンパー",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "短時間の間、敵から逃げるのに",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "特化された体を手に入れる。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "忍者のように身軽に動く事ができる。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 10,
+                      "duration": 10,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 0,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 3,
+                      "duration": 120,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 6,
+                      "duration": 100,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

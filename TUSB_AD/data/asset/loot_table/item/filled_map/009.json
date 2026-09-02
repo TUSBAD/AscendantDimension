@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ガリバーランド",
+                  "italic": false,
+                  "color": "gold",
+                  "underlined": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

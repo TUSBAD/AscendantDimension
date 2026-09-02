@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "バスターアックス",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "攻撃力が高いが、",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "振りが遅い斧。",
+                    "italic": false,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_speed",
+                      "amount": -3.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

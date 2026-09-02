@@ -1,0 +1,194 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "悪夢の盾",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "悪夢の化身",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "が用いる盾。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "近寄った者を",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "無間地獄",
+                        "italic": false,
+                        "color": "dark_gray",
+                        "bold": true
+                      },
+                      {
+                        "text": "へ",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "引きずり込むと言われている。",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 5,
+                    "minecraft:knockback": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:max_health",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:max_health",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:armor",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000007",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000008",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000008",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "pink"
+                  },
+                  {
+                    "pattern": "minecraft:square_bottom_right",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "minecraft:square_top_left",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "purple"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "purple"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

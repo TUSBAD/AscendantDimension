@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "丸石の盾",
+                  "italic": false,
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:armor",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:armor",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "gray",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "light_gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

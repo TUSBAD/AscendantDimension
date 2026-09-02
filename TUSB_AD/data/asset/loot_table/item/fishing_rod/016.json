@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "朽ちた蒼天の守護者の釣竿",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "守護の力 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "蒼天の世界の守護者",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "が使っていたとされる釣竿。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "だが長年放置されたせいかボロボロになってしまったようだ。",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:lure": 7,
+                    "minecraft:luck_of_the_sea": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:luck",
+                      "amount": -0.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

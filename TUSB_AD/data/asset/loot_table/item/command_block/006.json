@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "トカルト焚き火コマブロ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/summon Villager ~ ~-0.5 ~ {CustomName:篝火,CustomNameVisible:true,NoAI:true,Career:1,CareerLevel:100,Silent:true,Invulnerable:true,Offers:{Recipes:[{maxUses:2147483647,uses:0,rewardExp:false,buy:{id:minecraft:lever,Count:1b,tag:{display:{Name:\"§7消えた松明\"}}},sell:{id:minecraft:torch,Count:1b}}]},ArmorItems:[{},{},{},{id:minecraft:log2,Count:0b,Damage:1s}],Fire:32767s,ActiveEffects:[{Id:14b,Duration:2147483647,Amplifier:127b,ShowParticles:false}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

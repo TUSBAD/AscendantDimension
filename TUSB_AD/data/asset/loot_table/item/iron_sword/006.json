@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "おままごとセット",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "コンバットナイフ",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "ダメージ増加 enchantment.level.30",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "耐ク",
+                    "italic": false,
+                    "color": "blue"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 29
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

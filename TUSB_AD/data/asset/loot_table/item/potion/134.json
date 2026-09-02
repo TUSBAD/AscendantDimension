@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "アクア・ビテ",
+                  "italic": false,
+                  "color": "blue",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "ほのかに香る塩水",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "と",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "独特の酸味",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "が漂う",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "少しどろっとしたお酒。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "トカルト・コルデに生息する",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "氷木の樹液",
+                        "italic": false,
+                        "color": "blue"
+                      },
+                      {
+                        "text": "を",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "蒸留させて作っている。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 110,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 4,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 160,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

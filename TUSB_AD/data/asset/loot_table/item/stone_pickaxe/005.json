@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "クリーピーマイナードリーム",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "採掘戦隊マインクラフターの特注品。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "素材に希少なシルバーコロニーを使っているのでとても高価。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 0
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000afff0_000000000009f22d",
+                      "type": "minecraft:max_health",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000035e6e_00000000000a8a22",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:mob_spawner"
+                    },
+                    {
+                      "blocks": "minecraft:obsidian"
+                    },
+                    {
+                      "blocks": "minecraft:coal_block"
+                    },
+                    {
+                      "blocks": "minecraft:snow"
+                    },
+                    {
+                      "blocks": "minecraft:snow_layer"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

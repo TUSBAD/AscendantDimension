@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "いいつりざお",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "いい。",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:lure": 5
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewing_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ポジトロン･コライダー レプリカ",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とある幽霊退治部隊が使用した",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "対霊専用武器…のレプリカ。",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "レプリカなので射程は短い。",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 10,
+                    "minecraft:smite": 6
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": -2147483648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

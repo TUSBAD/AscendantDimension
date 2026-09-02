@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "白魔導士のクロージャ",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "森の香りが心地よい",
+                    "italic": false
+                  },
+                  {
+                    "text": "持つ者の生命力を増幅させる杖",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 12.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

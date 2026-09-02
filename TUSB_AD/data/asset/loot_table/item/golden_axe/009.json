@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "泉から出てきた斧",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とある泉の中から",
+                    "italic": false,
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "現れた女神から貰ったと言われている",
+                    "italic": false,
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "不思議な斧",
+                    "italic": false,
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "左利き用に作られている。",
+                    "italic": false,
+                    "color": "gold",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 3,
+                    "minecraft:knockback": 1,
+                    "minecraft:looting": 2,
+                    "minecraft:efficiency": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.9,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -1.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.01,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:attack_speed",
+                      "amount": -4.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

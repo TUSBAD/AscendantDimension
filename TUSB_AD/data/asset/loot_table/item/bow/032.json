@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "梓弓",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 4,
+                    "minecraft:mending": 1
+                  }
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

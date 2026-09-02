@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 15,
+                    "minecraft:feather_falling": 15,
+                    "minecraft:blast_protection": 15,
+                    "minecraft:projectile_protection": 15
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

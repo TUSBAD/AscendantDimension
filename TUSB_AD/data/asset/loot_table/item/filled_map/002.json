@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "地下世界",
+                  "italic": false,
+                  "color": "blue",
+                  "underlined": true
+                },
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 45.0,
+                      "x": 1287.0,
+                      "z": 179.0,
+                      "id": "frameU1",
+                      "type": 4
+                    },
+                    {
+                      "rot": 180.0,
+                      "x": 880.0,
+                      "z": -228.0,
+                      "id": "enterU1",
+                      "type": 5
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 1092.0,
+                      "z": 28.0,
+                      "id": "frameU2",
+                      "type": 4
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": 1287.0,
+                      "z": 170.0,
+                      "id": "exitU1",
+                      "type": 3
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "２ﾏｽ下のｺﾏﾌﾞﾛを常時実行にする",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "スポナーを置く際に便利",
+                    "italic": false,
+                    "color": "dark_aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/blockdata ~ ~-2 ~{auto:1b}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

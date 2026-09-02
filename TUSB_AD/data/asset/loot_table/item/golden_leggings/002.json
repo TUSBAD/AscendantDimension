@@ -1,0 +1,176 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "h",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 終焉ニ立チ向カウ者 ",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "g",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "m",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.-15",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "終焉",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "の力により本来の力が失われてしまった装備。",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "超作業台で他の装備と組み合わせることで",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "その力を発揮することができるようだ。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

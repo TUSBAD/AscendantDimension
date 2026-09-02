@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "コーンスープ",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "心が温まるスープ。",
+                    "italic": false,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "飲むとHPが回復する。",
+                    "italic": false,
+                    "color": "gold"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

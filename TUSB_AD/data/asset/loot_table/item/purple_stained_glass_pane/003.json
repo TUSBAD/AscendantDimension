@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ムラサキカガミ",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_aspect": 1,
+                    "minecraft:knockback": 2,
+                    "minecraft:sharpness": 3
+                  }
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

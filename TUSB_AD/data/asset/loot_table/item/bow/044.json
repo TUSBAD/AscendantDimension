@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "cake",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "スィートショット ",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": "cake",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:punch": 20,
+                    "minecraft:unbreaking": 1,
+                    "minecraft:infinity": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": -0.3,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:armor",
+                      "amount": -0.4,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000007",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000008",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

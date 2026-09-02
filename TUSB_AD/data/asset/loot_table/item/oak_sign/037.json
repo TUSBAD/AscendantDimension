@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "幸福安心委員会よりお知らせ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Text4": "{\"bold\":true,\"underlined\":true,\"color\":\"red\",\"text\":\"幸福なのは義務です\"}",
+                  "Text3": "{\"color\":\"black\",\"text\":\"市民がいるようです。\"}",
+                  "Text2": "{\"text\":\"幸福街に幸福ではない\"}",
+                  "id": "minecraft:sign",
+                  "Text1": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @p [{\\\"text\\\":\\\"幸福ではない市民\\\",\\\"color\\\":\\\"red\\\",\\\"underlined\\\":true},{\\\"text\\\":\\\"を発見した場合、\\\",\\\"color\\\":\\\"white\\\",\\\"underlined\\\":false},{\\\"text\\\":\\\"幸福安心委員会\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true,\\\"underlined\\\":true},{\\\"text\\\":\\\"にお知らせください。\\n\\\",\\\"color\\\":\\\"white\\\",\\\"underlined\\\":false},{\\\"text\\\":\\\"幸せじゃないなら...\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"underlined\\\":false,\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"value\\\":\\\"§0§l絞首、斬首、銃殺、釜ゆで、溺死、電気、火あぶり、生き埋め、薬殺、石打、鋸、はりつけ\\\"}}]\"},\"text\":\"幸福安心委員会より\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

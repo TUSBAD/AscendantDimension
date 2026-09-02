@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_boat",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ドニ",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 2,
+                    "minecraft:knockback": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

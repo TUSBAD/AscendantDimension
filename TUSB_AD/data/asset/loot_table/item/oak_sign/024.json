@@ -1,0 +1,141 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "羊集の印板",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "使用すると、印板から半径",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "11m",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "の",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "羊",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "を、",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "使用者にﾃﾚﾎﾟｰﾄさせ、",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "静止",
+                        "italic": false,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "させる印板。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "属性：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "永続型",
+                        "italic": false,
+                        "color": "dark_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000002423869d_000000002423869d",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @p ~ ~ ~ /entitydata @e[type\\u003dSheep,r\\u003d11] {Attributes:[{Name:generic.movementSpeed,Base:0.0d}],Motion:[0d,0d,0d]}\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.horse.jump master @a[r\\u003d11] ~ ~ ~ 10 2.0 1\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[r\\u003d11,type\\u003dSheep] @p\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"bold\":true,\"strikethrough\":true,\"color\":\"white\",\"text\":\"\\u003d羊\\u003d\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @e[r\\u003d11,type\\u003dSheep] ~ ~ ~ particle cloud ~ ~ ~ 0.01 1 0.01 0.01 100 normal\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "冥界の矢",
+                  "italic": false,
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "生物に対し大ﾀﾞﾒｰｼﾞを与え、",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "それ以外のものを癒す",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 3,
+                      "duration": 20,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 101,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

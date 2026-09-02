@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "滑らか石ダブルハーフ",
+                  "italic": false,
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置して右クリック",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 0
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"text\":\"\"}",
+                      "Text3": "{\"text\":\"\"}",
+                      "Text2": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:double_stone_slab 8\"},\"text\":\"右クリック！\"}",
+                      "Text1": "{\"text\":\"\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

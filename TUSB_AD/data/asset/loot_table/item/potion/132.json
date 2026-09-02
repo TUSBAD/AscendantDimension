@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "バリキドリンク",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "即効性の",
+                        "italic": true,
+                        "color": "dark_green"
+                      },
+                      {
+                        "text": "飲める劇",
+                        "italic": false,
+                        "color": "dark_red",
+                        "strikethrough": true
+                      },
+                      {
+                        "text": "薬。",
+                        "italic": true,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "5秒間無敵になり、",
+                    "italic": true,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "肉体を再生・活性化させる。",
+                    "italic": true,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "ただし、30秒間掘る事が出来ない。",
+                    "italic": true,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "宣伝：",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "バリキドリンクで！",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "宣伝：",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "今夜もパーティ！パーティー！",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ",
+                    "italic": false,
+                    "color": "black",
+                    "bold": true
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:fire_resistance",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 1,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 4,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 10,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -10,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 10,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 1,
+                      "duration": 600
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

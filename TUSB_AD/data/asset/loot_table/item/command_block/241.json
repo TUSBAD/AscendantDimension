@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "死神の薬",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/give @p minecraft:lingering_potion 1 0 {HideFlags:63,display:{Name:\"§4§k234死神の秘薬§4§k538\",Lore:[\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"ｺﾜｼﾃﾂｸｯﾃ\",\"AHAHAHAHAHAHA\"]},CustomPotionEffects:[{Id:2,Amplifier:10,Duration:4800,ShowParticles:0b},{Id:3,Amplifier:10,Duration:4800,ShowParticles:0b},{Id:10,Amplifier:15,Duration:4800,ShowParticles:0b},{Id:11,Amplifier:2,Duration:4800,ShowParticles:0b},{Id:19,Amplifier:10,Duration:4800,ShowParticles:0b},{Id:20,Amplifier:10,Duration:4800,ShowParticles:0b},{Id:21,Amplifier:29,Duration:4800,ShowParticles:0b}],Potion:\"minecraft:strong_strength\"}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

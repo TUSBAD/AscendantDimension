@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "狼スポナー",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置して使用すると、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "狼スポナー",
+                        "italic": false,
+                        "color": "gray",
+                        "bold": true
+                      },
+                      {
+                        "text": "を設置する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "SpawnerStand",
+                    "WolfSpawner",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "Invisible": 1,
+                  "Invulnerable": 1,
+                  "NoGravity": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

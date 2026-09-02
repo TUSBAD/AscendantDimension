@@ -1,0 +1,212 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "h",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 終焉ニ立チ向カウ者 ",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "g",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "m",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴enchantment.level.17",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 0
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 17,
+                    "minecraft:fire_protection": 17,
+                    "minecraft:feather_falling": 17,
+                    "minecraft:projectile_protection": 17,
+                    "minecraft:respiration": 17,
+                    "minecraft:aqua_affinity": 17,
+                    "minecraft:thorns": 17,
+                    "minecraft:depth_strider": 17,
+                    "minecraft:blast_protection": 17
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.35,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.07,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000006",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000009_0000000000000007",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "legs"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "symphony11": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

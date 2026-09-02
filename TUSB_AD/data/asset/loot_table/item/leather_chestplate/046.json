@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "skin",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "ミミック",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "skin",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とても丈夫な皮でできた自我の殻",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "そこには",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "「何もない」",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 10551296
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 5,
+                    "minecraft:blast_protection": 5,
+                    "minecraft:projectile_protection": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000068fa8_00000000000ea58f",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000008f50e_000000000001e1b0",
+                      "type": "minecraft:armor",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000074d6c_0000000000018ca3",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "聖地人の妙薬",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "飲むと30秒の間、",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "人智を超えた効率で",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "ブロックを破壊することが出来る。",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 10,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

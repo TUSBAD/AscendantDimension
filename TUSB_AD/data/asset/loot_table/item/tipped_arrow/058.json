@@ -1,0 +1,346 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "深淵守護",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "戦神の",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖矢 ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.127",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "深淵の守護戦神",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "がもつ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "聖弓に使用する矢",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "守護戦神の力",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "を纏い、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "敵を脆弱にさせる力を持つ",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "エンチャント及び修繕不可",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:awkward",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": -12,
+                      "duration": 400,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 98,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ],
+                  "custom_color": 16777212
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 127,
+                    "minecraft:flame": 127,
+                    "minecraft:infinity": 127,
+                    "minecraft:unbreaking": 127,
+                    "minecraft:mending": 127,
+                    "minecraft:sharpness": 35,
+                    "minecraft:smite": 35,
+                    "minecraft:bane_of_arthropods": 35,
+                    "minecraft:punch": 3
+                  }
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

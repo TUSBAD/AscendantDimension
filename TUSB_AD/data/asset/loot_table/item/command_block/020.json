@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "tpクリーパー",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"ﾃﾚﾎﾟｰﾄｸﾘｰﾊﾟｰ\",Silent:1b,Health:20f,Attributes:[{Name:\"generic.maxHealth\",Base:20d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:20b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],id:\"Bat\",Tags:[\"SkillMob\",\"WarpOnly\"],Passengers:[{id:\"Creeper\",CustomName:\"ﾃﾚﾎﾟｰﾄｸﾘｰﾊﾟｰ\",DeathLootTable:\"empty\",Health:60f,Attributes:[{Name:\"generic.maxHealth\",Base:60d},{Name:\"generic.movementSpeed\",Base:0.7d},{Name:\"generic.knockbackResistance\",Base:0d},{Name:\"generic.followRange\",Base:32d}],ExplosionRadius:3b,Fuse:35s},{Particle:\"happyVillager\",CustomName:\"テレポートオーラ\",Duration:60,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

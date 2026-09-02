@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "お楽しみドロッパー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:gravel",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:ender_eye",
+                      "Count": 2,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:furnace",
+                      "Count": 1,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:torch",
+                      "Count": 4,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:grass",
+                      "Count": 3,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:hay_block",
+                      "Count": 2,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:vine",
+                      "Count": 12,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:carpet",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:chest",
+                      "Count": 2,
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:dropper",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

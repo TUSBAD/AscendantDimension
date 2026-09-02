@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "神杖開放!",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/give @p minecraft:carrot_on_a_stick 1 0 {HideFlags:7,AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:30,Operation:0,UUIDLeast:137676,UUIDMost:132146,Slot:\"offhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.5,Operation:1,UUIDLeast:766643,UUIDMost:964014,Slot:\"offhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.2,Operation:0,UUIDLeast:946363,UUIDMost:389589,Slot:\"offhand\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:20,Operation:0,UUIDLeast:316587,UUIDMost:572858,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUIDLeast:876650,UUIDMost:352056,Slot:\"mainhand\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:10,Operation:0,UUIDLeast:248286,UUIDMost:145555,Slot:\"mainhand\"}],Unbreakable:1,display:{Name:\"§m§1§kyudgfiua§1破滅§bと§9星創の神杖§m§1§kyudgfiua\",Lore:[\"§4生物を根絶し大地を破壊する\",\"§9星を創り生物を蘇らせる\",\"§e神に創れた最候補の杖\"]},ench:[{id:16,lvl:20},{id:20,lvl:5},{id:51,lvl:666}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

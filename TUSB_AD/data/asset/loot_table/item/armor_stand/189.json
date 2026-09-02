@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "First-Aid Kit",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "見習いスライムを召喚する印板",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "ヒールポーションをばらまき",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "負傷者を癒す。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:can_place_on": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:redstone_block"
+                    },
+                    {
+                      "blocks": "minecraft:barrier"
+                    },
+                    {
+                      "blocks": "minecraft:bedrock"
+                    },
+                    {
+                      "blocks": "minecraft:repeating_command_block"
+                    },
+                    {
+                      "blocks": "minecraft:chain_command_block"
+                    },
+                    {
+                      "blocks": "minecraft:command_block"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "TypeChecked",
+                    "hh"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

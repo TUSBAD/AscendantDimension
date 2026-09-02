@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "富豪のツルハシ",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "富豪の魂が刻み込まれている。",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 10,
+                    "minecraft:looting": 10
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": -2147483648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

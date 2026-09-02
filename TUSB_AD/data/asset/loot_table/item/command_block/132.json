@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "タナトス(HP1万/テーブル)",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "タナトス(HP1万/てーぶる)",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:4b,Amplifier:0b,Duration:43,ShowParticles:true},{Id:19b,Amplifier:69b,Duration:25,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Passengers:[0:{CustomName:\"タナトス\",Health:950.0f,SkeletonType:0b,DeathLootTable:\"usb:entities/table/mob5\",ArmorItems:[0:{},1:{},2:{id:\"minecraft:leather_chestplate\",Count:0b,tag:{display:{color:6881280}}},3:{id:\"minecraft:skull\",Count:0b,tag:{SkullOwner:{Id:\"8fe67583-28bb-408e-a2e5-e8e43cb64de9\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjN2UzYzRjNjc0Y2Y4Mzc3M2FjOTI3ZGVkMWE1MzZiYjQ1ZTYzZmIyZTZhOTVhYWExYjYzZWQ3ODZmYzlmIn19fQ==\"}]}},ench:[{id:0s,lvl:20s},{id:4s,lvl:100s}]},Damage:3s}],Attributes:[0:{Base:950.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:1.0d,Name:\"generic.knockbackResistance\"},3:{Base:0.35d,Name:\"generic.movementSpeed\"},4:{Base:20.0d,Name:\"generic.attackDamage\"},5:{Base:20.0d,Name:\"generic.armor\"}],id:\"Skeleton\",Team:\"Bosses\",AbsorptionAmount:10000.0f,Tags:[0:\"Twins\",1:\"boss\",2:\"pearl\",3:\"SkillMob\",4:\"VeryFastCast\",5:\"AbyssWarp\",6:\"Thanatos\"],ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:127b},1:{ShowParticles:0b,Duration:1000000,Id:25b,Amplifier:-4b},2:{Id:11b,Amplifier:2b,Duration:2147483647,Ambient:false,ShowParticles:false}],HandItems:[0:{id:\"minecraft:diamond_hoe\",Count:0b,tag:{ench:[0:{lvl:10s,id:20s}],RepairCost:1000000000}},1:{id:\"minecraft:shield\",Count:0b,tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"bri\",Color:0},1:{Pattern:\"cbo\",Color:0},2:{Pattern:\"flo\",Color:0},3:{Pattern:\"sc\",Color:0},4:{Pattern:\"mc\",Color:1},5:{Pattern:\"cs\",Color:0},6:{Pattern:\"mr\",Color:6},7:{Pattern:\"flo\",Color:0},8:{Pattern:\"bts\",Color:1},9:{Pattern:\"tts\",Color:1},10:{Pattern:\"gru\",Color:8}],Base:1}}}]},1:{Particle:\"take\",Radius:1.5f,Duration:999,id:\"AreaEffectCloud\",Effects:[0:{ShowParticles:1b,Duration:100,Id:2b,Amplifier:2b},1:{ShowParticles:1b,Duration:20,Id:9b,Amplifier:2b},2:{ShowParticles:1b,Duration:20,Id:15b,Amplifier:2b}],Tags:[0:\"SystemEntity\"]},2:{Particle:\"witchMagic\",Radius:0.5f,Duration:666,id:\"AreaEffectCloud\",Effects:[0:{ShowParticles:0b,Duration:3,Id:14b,Amplifier:-16b}],Tags:[0:\"SystemEntity\"]}],CustomName:\"タナトス\",Size:0,DeathLootTable:\"usb:entities/table/mob5\",id:\"LavaSlime\",AbsorptionAmount:10000.0f,Team:\"Bosses\",Tags:[0:\"SkillMob\",1:\"WarpOnly\",2:\"AbyssWarp\",3:\"ikuu\",4:\"FastCast\"],ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:127b},1:{ShowParticles:0b,Duration:1000000,Id:25b,Amplifier:-1b}]},1:{Passengers:[0:{Particle:\"take\",Radius:1.5f,Duration:999,id:\"AreaEffectCloud\",Effects:[0:{ShowParticles:1b,Duration:100,Id:2b,Amplifier:2b}],Tags:[0:\"SystemEntity\"]}],CustomName:\"ケール\",Health:650.0f,SkeletonType:0b,AbsorptionAmount:10000.0f,Team:\"Bosses\",ArmorItems:[0:{},1:{},2:{id:\"minecraft:leather_chestplate\",Count:0b,tag:{display:{color:8624292}}},3:{id:\"minecraft:skull\",Count:0b,tag:{SkullOwner:{Id:\"33623f0c-07d4-4887-a9fd-06a4a809961f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4ODExM2E5ZWE2OGM4ZDg4N2U3ZDNlZTU0YmFjM2VhNDIxMGJmYmFiNzIwZDhlODRiZTU3MDVjZmFkYzViIn19fQ==\"}]}},ench:[{id:0s,lvl:20s},{id:4s,lvl:100s}]},Damage:3s}],Attributes:[0:{Base:650.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:1.0d,Name:\"generic.knockbackResistance\"},3:{Base:0.55d,Name:\"generic.movementSpeed\"},4:{Base:20.0d,Name:\"generic.attackDamage\"},{Base:20.0d,Name:\"generic.armor\"}],LeftHanded:1b,id:\"Skeleton\",DeathLootTable:\"usb:entities/table/mob5\",Tags:[0:\"Twins\",1:\"AbyssWarp\",2:\"ikuu\",3:\"SkillMob\",4:\"Crop\"],ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:127b},1:{ShowParticles:0b,Duration:1000000,Id:25b,Amplifier:-128b},3:{Id:11b,Amplifier:1b,Duration:2147483647,Ambient:false,ShowParticles:false}],HandItems:[0:{id:\"minecraft:iron_hoe\",Count:0b,tag:{ench:[0:{lvl:20s,id:16s}],RepairCost:1000000000}},1:{id:\"minecraft:shield\",Count:0b,tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"bri\",Color:0},1:{Pattern:\"cbo\",Color:0},2:{Pattern:\"flo\",Color:0},3:{Pattern:\"sc\",Color:0},4:{Pattern:\"cs\",Color:0},5:{Pattern:\"mr\",Color:1},6:{Pattern:\"flo\",Color:0},7:{Pattern:\"bts\",Color:6},8:{Pattern:\"tts\",Color:6},9:{Pattern:\"gru\",Color:8}],Base:6}}}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},     SpawnCount:1s,     SpawnRange:8s,     MaxNearbyEntities:3s,     RequiredPlayerRange:10s,     Delay:-1s,     MinSpawnDelay:1200s,     MaxSpawnDelay:2400s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[15:09:38] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

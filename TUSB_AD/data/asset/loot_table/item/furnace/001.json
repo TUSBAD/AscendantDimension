@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "熱い竈",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 4,
+                    "minecraft:fire_aspect": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.08,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "CookTime": 0,
+                  "BurnTime": 19890,
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:redstone_block",
+                      "Count": 1,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "ench": [
+                          {
+                            "lvl": 3,
+                            "id": 20
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Name": "§4§l熱い赤塊"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.01,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 3.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "wax"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:redstone",
+                      "Count": 3,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 20
+                          }
+                        ],
+                        "display": {
+                          "Name": "§4§l熱い赤粉"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 0.5,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.01,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "wax"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:furnace",
+                  "CookTimeTotal": 200,
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

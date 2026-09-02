@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "狩人の盾",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "狩人に馴染みやすい盾。",
+                    "italic": false,
+                    "color": "blue"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "green",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "混乱の矢",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "移動速度を急激に上げて混乱させる",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:mundane",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 127,
+                      "duration": 2
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": -50,
+                      "duration": 0
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": -50,
+                      "duration": 0
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 20
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

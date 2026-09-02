@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "血肉の魔宝珠",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魔性に囚われた者を倒した証",
+                    "italic": false
+                  },
+                  {
+                    "text": "禍々しく荒々しい....",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 999,
+                    "minecraft:sharpness": 1,
+                    "minecraft:infinity": 1020
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000005e977_00000000000b1d1a",
+                      "type": "minecraft:attack_damage",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

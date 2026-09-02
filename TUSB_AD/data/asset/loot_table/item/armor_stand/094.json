@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "砂利スポナー",
+                  "italic": false,
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置して使用すると、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "砂利スポナー",
+                        "italic": false,
+                        "color": "dark_gray",
+                        "bold": true
+                      },
+                      {
+                        "text": "を設置する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "SpawnerStand",
+                    "GravelSpawner",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

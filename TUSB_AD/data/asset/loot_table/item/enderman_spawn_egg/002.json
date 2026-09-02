@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enderman_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "石炭",
+                  "italic": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "id": "minecraft:enderman"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

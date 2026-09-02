@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||",
+                      "italic": false,
+                      "color": "dark_gray",
+                      "strikethrough": true,
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 黒羽   ",
+                      "italic": false,
+                      "color": "dark_gray",
+                      "strikethrough": true,
+                      "bold": true
+                    },
+                    {
+                      "text": "＞",
+                      "italic": false,
+                      "color": "dark_gray",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "聖浄を滅する",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "黒羽",
+                        "italic": false,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "の矢",
+                        "italic": false,
+                        "color": "dark_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 1200,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 2,
+                      "duration": 10,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 106,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

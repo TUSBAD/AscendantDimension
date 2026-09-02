@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "鈍足+マイナス跳躍",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "破壊時ポーション落下スポナー",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,Invulnerable:1b,ShowArms:0b,DisabledSlots:0,Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Marker:1b,NoBasePlate:1b,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",DisplayOffset:12,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:32767s,     MaxSpawnDelay:32767s},{CustomName:\"スポナーの最後っ屁\",Potion:{id:\"minecraft:splash_potion\",Count:0b,tag:{CustomPotionEffects:[{ShowParticles:1b,Duration:100,Id:2b,Amplifier:4b},{ShowParticles:0b,Duration:100,Id:8b,Amplifier:-127b}]}},Tags:[\"TypeChecked\"],id:\"ThrownPotion\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[16:07:57] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

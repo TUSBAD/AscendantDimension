@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "圧縮ダイヤブロック",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "紛い物ではない。特上の防具が作れそうだ。",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:fortune": 5
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

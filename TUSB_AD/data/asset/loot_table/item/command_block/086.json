@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "バンパーストーム",
+                  "italic": false,
+                  "color": "dark_green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}],Passengers:[{Lifetime:1800,CustomName:\"バンパーストーム\",Health:100f,ArmorItems:[{},{},{},{}],Attributes:[{Base:100d,Name:\"generic.maxHealth\"},{Base:48d,Name:\"generic.followRange\"},{Base:1d,Name:\"generic.knockbackResistance\"},{Base:0.45d,Name:\"generic.movementSpeed\"},{Base:0.05d,Name:\"generic.attackDamage\"}],Silent:1b,id:\"Endermite\",ActiveEffects:[{ShowParticles:0b,Duration:700,Id:14b,Amplifier:0b},{ShowParticles:1b,Duration:700,Id:25b,Amplifier:-10b}],HandItems:[{id:\"minecraft:wooden_sword\",Count:1b,tag:{ench:[{lvl:5s,id:19s}]}},{}],Passengers:[{Particle:\"largeexplode\",Radius:0.001f,CustomName:\"バンパーストームの衝撃波\",Duration:80,id:\"AreaEffectCloud\",Effects:[],Passengers:[{Particle:\"take\",Radius:1.55f,ReapplicationDelay:10,Duration:80,id:\"AreaEffectCloud\",Effects:[{ShowParticles:1b,Duration:4,Id:25b,Amplifier:60b},{ShowParticles:1b,Duration:40,Id:8b,Amplifier:20b}]}]}]}]}},{Weight:1,Entity:{Health:0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}],Passengers:[{Lifetime:1800,CustomName:\"バンパーストーム\",Health:100f,ArmorItems:[{},{},{},{}],Attributes:[{Base:100d,Name:\"generic.maxHealth\"},{Base:48d,Name:\"generic.followRange\"},{Base:1d,Name:\"generic.knockbackResistance\"},{Base:0.65d,Name:\"generic.movementSpeed\"},{Base:0.05d,Name:\"generic.attackDamage\"}],Silent:1b,id:\"Endermite\",ActiveEffects:[{ShowParticles:0b,Duration:700,Id:14b,Amplifier:0b},{ShowParticles:1b,Duration:700,Id:25b,Amplifier:-10b}],HandItems:[{id:\"minecraft:wooden_sword\",Count:1b,tag:{ench:[{lvl:5s,id:19s}]}},{}],Passengers:[{Particle:\"largeexplode\",Radius:0.001f,CustomName:\"バンパーストームの衝撃波\",Duration:80,id:\"AreaEffectCloud\",Effects:[],Passengers:[{Particle:\"take\",Radius:1.55f,ReapplicationDelay:10,Duration:80,id:\"AreaEffectCloud\",Effects:[{ShowParticles:1b,Duration:4,Id:25b,Amplifier:60b},{ShowParticles:1b,Duration:40,Id:8b,Amplifier:20b}]}]}]}]}},{Weight:1,Entity:{Health:0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}],Passengers:[{Lifetime:1800,CustomName:\"バンパーストーム\",Health:100f,ArmorItems:[{},{},{},{}],Attributes:[{Base:100d,Name:\"generic.maxHealth\"},{Base:48d,Name:\"generic.followRange\"},{Base:1d,Name:\"generic.knockbackResistance\"},{Base:0.85d,Name:\"generic.movementSpeed\"},{Base:0.05d,Name:\"generic.attackDamage\"}],Silent:1b,id:\"Endermite\",ActiveEffects:[{ShowParticles:0b,Duration:700,Id:14b,Amplifier:0b},{ShowParticles:1b,Duration:700,Id:25b,Amplifier:-10b}],HandItems:[{id:\"minecraft:wooden_sword\",Count:1b,tag:{ench:[{lvl:5s,id:19s}]}},{}],Passengers:[{Particle:\"largeexplode\",Radius:0.001f,CustomName:\"バンパーストームの衝撃波\",Duration:80,id:\"AreaEffectCloud\",Effects:[],Passengers:[{Particle:\"take\",Radius:1.55f,ReapplicationDelay:10,Duration:80,id:\"AreaEffectCloud\",Effects:[{ShowParticles:1b,Duration:4,Id:25b,Amplifier:60b},{ShowParticles:1b,Duration:40,Id:8b,Amplifier:20b}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

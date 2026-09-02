@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ハンターボウ",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "昔、狩人が使っていたとされる弓",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "威力は普通だが、これを使えば",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "矢を消費せずに弓を引くことができる",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:infinity": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

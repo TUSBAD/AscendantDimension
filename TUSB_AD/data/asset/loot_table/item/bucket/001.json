@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ドカン",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "入ればどこにでも",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "行けると言われているドカン",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "頭にかぶれば最強の力が手に入ると言われている。",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "更に液体などを汲み取る事ができる",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "万能アイテムです。",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "底が浅いので入ったり被る事は出来なさそうだ...",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3,
+                    "minecraft:knockback": 2,
+                    "minecraft:bane_of_arthropods": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 9999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 9999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 9999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 9999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 9999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

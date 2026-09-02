@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "きのこの破片",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "持つと力を与えると言われている。",
+                    "italic": false,
+                    "color": "dark_green",
+                    "bold": true
+                  },
+                  {
+                    "text": "なお食べるとお腹痛くなるので注意",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

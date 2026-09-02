@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ファンタズマの印玉",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "使うことでファンタズマを入手できる。",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "サバイバルエリアでのみ開封可能。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "DeathTime": 19,
+                  "DeathLootTable": "usb:signs/armor/fantasma",
+                  "id": "minecraft:polar_bear",
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 7,
+                      "Amplifier": 10
+                    },
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Tags": [
+                    "RewardEgg",
+                    "TypeChecked"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

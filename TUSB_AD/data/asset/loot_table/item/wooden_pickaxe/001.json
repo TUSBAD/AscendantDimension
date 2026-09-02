@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Adv.",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "ツルハシ",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:mob_spawner"
+                    },
+                    {
+                      "blocks": "minecraft:torch"
+                    },
+                    {
+                      "blocks": "minecraft:web"
+                    },
+                    {
+                      "blocks": "minecraft:vine"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

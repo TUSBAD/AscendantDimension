@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "バイオレットプリズム",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "刺さった者の防御力を下げた後、呪う。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 111,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": -2,
+                      "duration": 60,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 2,
+                      "duration": 60,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

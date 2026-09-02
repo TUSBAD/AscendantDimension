@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "TUSB",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "人間卒業の翼",
+                      "italic": false,
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "NEO!",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "虹の加護 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "TUSB NEO攻略記念",
+                    "italic": false,
+                    "underlined": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 32767,
+                    "minecraft:protection": 20,
+                    "minecraft:depth_strider": 10,
+                    "minecraft:respiration": 10,
+                    "minecraft:aqua_affinity": 10,
+                    "minecraft:blast_protection": 10,
+                    "minecraft:fire_protection": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 32767.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 80.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000003",
+                      "type": "minecraft:armor",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000004",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000005_0000000000000005",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 32767.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:damage": 0,
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "liberty": 1,
+                  "symphony0": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

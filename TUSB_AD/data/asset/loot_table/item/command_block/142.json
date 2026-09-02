@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "トランペッター(HP5万)",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{CustomName:\"§f§lトランペッター§r\",Health:950.0f,AbsorptionAmount:50000.0f,SkeletonType:0b,Team:\"AreaBoss\",Glowing:1b,Tags:[0:\"SkillMob\",1:\"Teleport\",2:\"Trumpet\",3:\"AbyssWarp\",4:\"pearl\",5:\"FastCast\"],ArmorItems:[0:{Count:1b,id:\"leather_boots\",tag:{display:{color:16777215}},Damage:0s},1:{Count:1b,id:\"leather_leggings\",tag:{display:{color:16777215}},Damage:0s},2:{Count:1b,id:\"leather_chestplate\",tag:{display:{Name:\"whitewing\",color:16777215},ench:[0:{id:0s,lvl:15s},1:{id:1s,lvl:15s},2:{id:2s,lvl:15s},3:{id:3s,lvl:15s},4:{id:4s,lvl:15s},5:{id:5s,lvl:15s},6:{id:6s,lvl:15s},7:{id:7s,lvl:15s},8:{id:8s,lvl:15s}]},Damage:0s},3:{Count:1b,id:\"leather_helmet\",tag:{display:{color:16777215}},Damage:0s}],Attributes:[0:{Base:950.0d,Name:\"generic.maxHealth\"},1:{Base:0.45d,Name:\"generic.movementSpeed\"},2:{Base:100.0d,Name:\"generic.attackDamage\"},3:{Base:1.0d,Name:\"generic.knockbackResistance\"},4:{Base:80.0d,Name:\"generic.followRange\"},5:{Name:\"generic.armor\",Base:30d},6:{Name:\"generic.armorToughness\",Base:20d}],HandDropChances:[0:0.0f,1:0.0f],ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],DeathLootTable:\"empty\",id:\"Skeleton\",NoGravity:1b,PersistenceRequired:1b,ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:11b,Amplifier:3b},1:{ShowParticles:0b,Duration:2147483647,Id:24b,Amplifier:0b},2:{ShowParticles:0b,Duration:2147483647,Id:12b,Amplifier:127b}],HandItems:[0:{Count:0b,id:\"bow\",tag:{display:{Name:\"trumpet\"},ench:[0:{id:48s,lvl:100s},1:{id:49s,lvl:10s}]},Damage:0s},1:{Count:1b,id:\"minecraft:tipped_arrow\",tag:{CustomPotionEffects:[0:{ShowParticles:0b,Duration:0,Id:10b,Amplifier:127b},1:{ShowParticles:0b,Duration:0,Id:11b,Amplifier:127b},2:{ShowParticles:1b,Duration:20,Id:7b,Amplifier:3b},3:{ShowParticles:1b,Duration:0,Id:13b,Amplifier:127b},4:{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b}]},Damage:0s}]}],DeathTime:19s,Health:0.0f,Silent:1b,id:\"Villager\"},     SpawnCount:1s,     SpawnRange:8s,     MaxNearbyEntities:16s,     RequiredPlayerRange:10s,     Delay:-1s,     MinSpawnDelay:1200s,     MaxSpawnDelay:1800s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

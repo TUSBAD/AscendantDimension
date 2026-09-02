@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sponge",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Adv.",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "スポンジ",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "アドベンチャーエリアでも設置できる。",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:can_place_on": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:lava"
+                    },
+                    {
+                      "blocks": "minecraft:flowing_lava"
+                    },
+                    {
+                      "blocks": "minecraft:water"
+                    },
+                    {
+                      "blocks": "minecraft:flowing_water"
+                    },
+                    {
+                      "blocks": "minecraft:sea_lantern"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

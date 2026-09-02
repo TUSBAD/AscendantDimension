@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ドラゴンメイル",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10,
+                    "minecraft:fire_protection": 3,
+                    "minecraft:blast_protection": 2,
+                    "minecraft:projectile_protection": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

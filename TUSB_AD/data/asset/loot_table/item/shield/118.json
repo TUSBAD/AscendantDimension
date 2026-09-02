@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "幸運の盾",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "持つと運がよくなり力がみなぎる。",
+                    "italic": false,
+                    "color": "green",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 5,
+                    "minecraft:projectile_protection": 5,
+                    "minecraft:thorns": 5,
+                    "minecraft:knockback": 5,
+                    "minecraft:unbreaking": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000049a4e_000000000006b243",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006ba5d_00000000000ee369",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e35aa_00000000000dbe27",
+                      "type": "minecraft:attack_damage",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000c2861_000000000007d289",
+                      "type": "minecraft:attack_speed",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000007f2f0_00000000000d88b9",
+                      "type": "minecraft:luck",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:small_stripes",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "blue"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

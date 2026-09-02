@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "スーパーエーテル",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "マナがぽちょっと詰まった飲み物。",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "飲むとMPが大きく回復する。",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 2,
+                      "duration": 30,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

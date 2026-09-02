@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "泡盛",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "泡立つなにかの液体",
+                        "italic": true,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "をお酒にしてしまった。",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "あまりのまずさ",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "に視界が歪み、",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "一瞬まっくら",
+                        "italic": false,
+                        "color": "blue",
+                        "underlined": true
+                      },
+                      {
+                        "text": "になる。",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 100,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 10,
+                      "duration": 100,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 400,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

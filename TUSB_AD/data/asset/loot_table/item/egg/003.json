@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "温泉卵",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ゆっくり温めて作られた温泉卵",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "投げるとたまに孵化する。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 2
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "サファイア",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "bluesafia",
+                  "id": "5514078c-8e0a-46fa-8059-dc7c17266f14",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0NDg2MzY4NTQxMzAsInByb2ZpbGVJZCI6IjU1MTQwNzhjOGUwYTQ2ZmE4MDU5ZGM3YzE3MjY2ZjE0IiwicHJvZmlsZU5hbWUiOiJibHVlc2FmaWEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2MWU4NjQxNGZmZGJmMzNkNjlkMDJiMTQyZGU5MzQwZWZkNDViNjlhMTgwYmU3Y2I0MzA5YTE5YjYzNTkifX19",
+                      "signature": "cUJwiNY0q4/UGOpJEVtLGXACoqBQS1kf+qFqIGJc+YpufBfG0YzDoOtQjOMSWVo8s5Fw4MZsldz70dWgrZV8XiaztWQ62c9YUSEER76XJYXHEpTf+OZD4Ny5ne3Dot0QxZt9UeSg/z5hf9WXTqtuw7enRn3UWasFe/H4ZOUsw5oxciQFr3RilG8mxvmxSdOnU02+eHucIFKZ5rLHEKcrXL4oZKTZ+qxe+vrzZKCxw01vqxzDE2UlvlkJszf5NgqSWYqY/p12GeSXP0/W9VZEOSdO7RxcPLdHW4LaWMZ8F/uLlKVC+WEnlakCXv/gYmvV3CWhRiFkPMo/8brohyHBAt+mKrjxOLQGm7Y3CMV2nv2qpOcT47AveOgJVuKSIJrCNKIkTvOtWiVXOsS7w8gb05KcIokFxq7xPvWfjaYeCcie2h3YkBRPN1FrMkR/R+cPqske/TKNzotq7eCNoBkJ8pmWM3PmYtonMvB1lyJg157j405xE0dhNUjL3u+clNjLUsrkCXqViigmtdhQPvPtHUnppkeciiHGGBifAjlL8CJgqurM3zznUA81qiQD7IMq2upamtEBzlfv2NamjQOgEtdUtWPsAR91kn9mNKR7yoDo0KrgGzPQk/dZKM4qq3A82cH3gpwEUfkT8IPCaMYX0vJmim09FKx3XcCpCIBd0Sg="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

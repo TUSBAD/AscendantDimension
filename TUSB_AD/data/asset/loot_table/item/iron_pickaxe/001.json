@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "クラウディア探索用ピッケル",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "クラウディア",
+                        "italic": true,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "に存在する",
+                        "italic": true,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "一部のブロックを破壊できる",
+                    "italic": true,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 0
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:gold_block"
+                    },
+                    {
+                      "blocks": "minecraft:iron_block"
+                    },
+                    {
+                      "blocks": "minecraft:diamond_block"
+                    },
+                    {
+                      "blocks": "minecraft:snow"
+                    },
+                    {
+                      "blocks": "minecraft:quartz_block"
+                    },
+                    {
+                      "blocks": "minecraft:glass"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "深淵憑依の印板",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "深淵をのぞく時、深淵もまたこちらをのぞいているのだ",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "narakuu",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

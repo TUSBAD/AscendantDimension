@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "444111",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "煉獄魔装",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "444111",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 8388608
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 33,
+                    "minecraft:fire_protection": 333,
+                    "minecraft:blast_protection": 33,
+                    "minecraft:projectile_protection": 33,
+                    "minecraft:unbreaking": 3000
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ef3de_000000000008842f",
+                      "type": "minecraft:max_health",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_base",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002ceea_000000000006af91",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000eaea9_0000000000082fc4",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000c26d_0000000000096b12",
+                      "type": "minecraft:attack_damage",
+                      "amount": 1.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006f42e_000000000001b3b0",
+                      "type": "minecraft:armor",
+                      "amount": 0.04,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000099f64_000000000000aefe",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.02,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

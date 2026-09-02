@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "特炎",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:flame": 13,
+                    "minecraft:fire_protection": 13,
+                    "minecraft:fire_aspect": 13
+                  }
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

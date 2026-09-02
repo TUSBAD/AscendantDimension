@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "チンした卵",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "取り扱い注意",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Fuse": 0,
+                  "id": "minecraft:creeper",
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Tags": [
+                    "TypeChecked"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "圧縮エメラルドブロック",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "倉庫を圧迫する大量のエメブロから救います。",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

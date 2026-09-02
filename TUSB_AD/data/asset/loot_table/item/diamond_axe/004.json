@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "泉の女神の斧",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とある泉の女神が",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "所持していると言われている",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "不思議な斧",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "左利き用に作られている。",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 4,
+                    "minecraft:efficiency": 4,
+                    "minecraft:looting": 2,
+                    "minecraft:fortune": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.8,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

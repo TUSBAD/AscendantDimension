@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "パンプキンスープ",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｺｰﾝｽｰﾌﾟにﾊﾟﾝﾌﾟｷﾝを加え",
+                    "italic": false,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "回復量が増加したもの。",
+                    "italic": false,
+                    "color": "gold"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 2,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

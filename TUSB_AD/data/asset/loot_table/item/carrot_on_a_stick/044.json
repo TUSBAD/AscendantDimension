@@ -1,0 +1,370 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "創造神",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "の",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖杖 ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "銀河の魔力 enchantment.level.∞",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.∞",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "世界の創造神",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "がもつ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "聖杖",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "のレプリカ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レプリカではあるが、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "宿す力は強大である",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "毎分",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "魔力が大幅に",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "回復する",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 100,
+                    "minecraft:smite": 100,
+                    "minecraft:bane_of_arthropods": 100,
+                    "minecraft:knockback": 50,
+                    "minecraft:fire_aspect": 50,
+                    "minecraft:infinity": 50,
+                    "minecraft:unbreaking": 50
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_0000000000000005",
+                      "type": "minecraft:max_health",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_0000000000000050",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_000000000000000a",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_0000000000000014",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_000000000000001e",
+                      "type": "minecraft:armor",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001e_0000000000000046",
+                      "type": "minecraft:attack_speed",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000007",
+                      "type": "minecraft:luck",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_0000000000000005",
+                      "type": "minecraft:max_health",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_000000000000000a",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_0000000000000014",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_000000000000001e",
+                      "type": "minecraft:armor",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_000000000000003c",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_0000000000000046",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.35,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000014_0000000000000050",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "symphony37": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

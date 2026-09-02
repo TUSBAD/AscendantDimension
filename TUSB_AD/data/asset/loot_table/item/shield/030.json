@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "剣士の盾",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "剣士に馴染みやすい盾。",
+                    "italic": false,
+                    "color": "blue"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:armor",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:armor",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "light_gray",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

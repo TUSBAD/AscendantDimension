@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "呪殺の矢",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "刺さった者を呪い、拘束する",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:awkward",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 5,
+                      "duration": 150
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 10,
+                      "duration": 150
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 3,
+                      "duration": 150
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

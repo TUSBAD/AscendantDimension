@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "封印コマブロ",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ディスペンサーまたはチェストに使用",
+                    "italic": false,
+                    "color": "gray",
+                    "bold": true
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/blockdata ~ ~-1 ~ {Lock:\"§l封印\"}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

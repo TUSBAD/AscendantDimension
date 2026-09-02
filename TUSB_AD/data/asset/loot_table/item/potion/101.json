@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エリクサー",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "マナから作られた霊薬。",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "飲むとHPとMPが半分回復する。",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "スプラッシュ化不可",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 4,
+                      "duration": 3,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ファンタズマ",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "神を",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "殺す",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "為に神によって作られた",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "白く幻想的な防具。",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 16777215
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 15,
+                    "minecraft:blast_protection": 15,
+                    "minecraft:thorns": 15
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.01,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000004",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

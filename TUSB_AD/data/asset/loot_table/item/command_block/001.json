@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "足を遅く+無敵",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 1,
+                  "CustomName": "足を遅く",
+                  "Command": "entitydata @e[type=Villager,r=5,c=1] {Invulnerable:1b,Attributes:[{Name:generic.movementSpeed,Base:0d}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

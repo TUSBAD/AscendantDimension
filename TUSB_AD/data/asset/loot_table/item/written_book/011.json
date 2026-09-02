@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "|||",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-神々の",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "聖歌",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "-",
+                      "italic": false,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "|||",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "謳い謳え",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "我らが",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "主君",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "の御帰りだ",
+                        "italic": false,
+                        "color": "dark_red"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "唱え踊れ騒げ敬え",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "今宵持って我らは終焉の神を出迎える",
+                    "italic": false,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000158c4_000000000005fbb3",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000052c32_000000000009c75b",
+                      "type": "minecraft:follow_range",
+                      "amount": -999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000517cc_0000000000088dbf",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000013495_00000000000cfa2f",
+                      "type": "minecraft:attack_damage",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000008c7bf_00000000000b8c16",
+                      "type": "minecraft:armor",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000655f2_000000000001f607",
+                      "type": "minecraft:luck",
+                      "amount": -999.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ece34_000000000001f611",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000017ec2_000000000001f285",
+                      "type": "minecraft:attack_speed",
+                      "amount": -2.5,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000028bb6_000000000008478f",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.5,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "pages": [
+                    "{\"extra\":[{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"空高く天仰ぐ今宵星揃う時\\n祈り得て時を経て\\n眠りより醒める神\\nやがて皆例外な存在を\\n識るだろう\\nそして尚真の名を\\n取り戻す容赦なく\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"痴れ者\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"が統べる地は\\n今一度\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"彼\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"の\"},{\"bold\":true,\"italic\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"領土\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"夜空から星降れば\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"終焉\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"にはあと僅か\\n戦々兢々たる凶\\n喧々囂々たる轟\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"italic\":true,\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"巨海\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"より\"},{\"bold\":true,\"italic\":true,\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"虚空\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"より\\n場所問わず忍び寄る\\nやがて皆例外な存在を識るだろう\\n空高く天仰ぐ今宵星揃う時\\n祈り得て時を経て\\n眠りより醒める\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"神\"},{\"bold\":true,\"italic\":true,\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"狂乱と\\n恐慌と\\n狂変の\"},{\"bold\":true,\"italic\":true,\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"共演を\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"痴れ者\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"が統べる地\\nは今一度\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"彼\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"の\"},{\"bold\":true,\"italic\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"領土\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"夜空から星降れば\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"終焉\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"にはあと僅か\\n戦々兢々たる凶\\n喧々囂々たる轟\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"巨海\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"より\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"虚空\"},{\"bold\":true,\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"より\\n場所問わず\"},{\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"\\n\"},{\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger Booktrigger set 1\"},\"text\":\"這い寄る\"}],\"text\":\"\"}"
+                  ],
+                  "author": "",
+                  "title": "4k|||r4l-神々のe聖歌4-4k|||r",
+                  "resolved": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

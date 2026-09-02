@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Rui-zu",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "Ruizu39",
+                  "id": "67ad3997-3245-4294-85e0-c3bdcd6cc201",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MjM0NjkwOTY0NTcsInByb2ZpbGVJZCI6IjY3YWQzOTk3MzI0NTQyOTQ4NWUwYzNiZGNkNmNjMjAxIiwicHJvZmlsZU5hbWUiOiJSdWl6dTM5IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZDczOTc2NDJhNDg5YWNhZGRjYWUwNWExNjQzMzcxNTNiNTU1ZDliY2FlZWUzMTE0ZDQ3NjcxZjVjYTEwOTIifX19",
+                      "signature": "hN3UeDz+Q1HaesGR4nGt8E3guTtlAOyzG6JOYyR4gjEHSgLgYklCxkE9Gy6sp9/ivqbwYRGx5AlVo0LM5VEit9v6QXlsPX5gsaHPpydh5kYYhqfOrasGXakOG2LobKrEsVmlyGhjBaj9DBdtQf1gJrkbm9cEML+PptF1ORu33bZCgZ53oiX9vKnAbmyG+094DLi+81ldJMBLdki9Vks1xyytnjA9C++culdpaTcj8GGgh1ikssbuzJPY4OP8ybESlmi+vjL6litRiyKVmh9UG5A5VsZC/2q5mtwkMR+teo+fR4LU27+OhO3sLWF2NikRe6g9YbgVpDpBuOgf4hNPOLZgk9hxZSiVtK5NAPYO9Jt2gA/O1IQG4S2TGcr70zkanlGRp954OjvFQXGJ5g6ey6t7pShs+ALk9rtcwX01Ux8Ym48qXh59rYBPEL+tY+AF/VgB/CUZR3FNE0x6xYK5wx43OEQTttXArEOTy+TUl/Iji9JnGTdMlFYhnDnCIkyvk1nb22OK3AGzae9foZdEQ0KE2rw2LL1G1WAnt6g8qVG2CbOoc4sGA75SgBSQc+/EC7qTfSEamU0RHvwjZp+nr9FYpXYp8/BJA5kWOw1FRDNLQ/peb1y47Mzf9rtD1GDYr70Px6p/j3xZfS2EvKFwobdhDPSDU1HxaGb6HsHRYmI="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

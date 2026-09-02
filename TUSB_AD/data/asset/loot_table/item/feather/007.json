@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "亜空間移動装置",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "文字がかすれて見えない…",
+                    "italic": true,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000037aa1189_0000000037aa1189",
+                      "type": "minecraft:max_health",
+                      "amount": -0.99,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000037aa1189_0000000037aa1189",
+                      "type": "minecraft:max_health",
+                      "amount": -0.99,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000037aa1189_0000000037aa1189",
+                      "type": "minecraft:movement_speed",
+                      "amount": 100.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000037aa1189_0000000037aa1189",
+                      "type": "minecraft:movement_speed",
+                      "amount": 100.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "Legacy": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

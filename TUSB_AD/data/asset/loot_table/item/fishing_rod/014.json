@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "泉の女神の釣り竿",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Fo",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "u",
+                        "italic": false,
+                        "color": "gray",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "nt",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "a",
+                        "italic": false,
+                        "color": "gray",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "in bl",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "es",
+                        "italic": false,
+                        "color": "gray",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "s Ⅵ",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "泉の女神",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "が可愛がっていた植物を伐採し作られている。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "この釣り竿にあるのは",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "加護",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "か、それとも……？",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 10,
+                    "minecraft:lure": 8
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000c5808_00000000000a3c15",
+                      "type": "minecraft:max_health",
+                      "amount": 50.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000008770d_000000000001a35a",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:luck",
+                      "amount": -5.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

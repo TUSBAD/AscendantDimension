@@ -1,0 +1,184 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "✡",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "妖刀",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "✞",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "YOIYAMI",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の腐敗 enchantment.level.999",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "妖刀の支配 enchantment.level.999",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "黄泉の国",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "の力を宿す妖刀",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "妖刀",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "強大な力は持ち主をも",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "蝕む。",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "その罪は",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "白い大蛇",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "--囁き------------------------",
+                    "italic": false,
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "＊「私を殺したあいつは赦さない…」",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "＊「殺せ！私の糧となれ！」",
+                    "italic": false,
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "＊「男はみんなそうだ…なんともおろかなのじゃ」",
+                    "italic": false,
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "＊「面白い。私を扱うかの？」",
+                    "italic": false,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 666
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000aed8b_000000000004066d",
+                      "type": "minecraft:max_health",
+                      "amount": 50.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003093b_000000000004892c",
+                      "type": "minecraft:attack_speed",
+                      "amount": -3.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e4e7a_000000000001d7ed",
+                      "type": "minecraft:luck",
+                      "amount": -444.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "symphony8": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

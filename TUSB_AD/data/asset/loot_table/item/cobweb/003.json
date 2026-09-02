@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "素晴らしい蜘蛛の巣",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "レアアイテム。",
+                    "italic": true,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "エンダーパールと同時使用することで",
+                    "italic": true,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "側面に張り付いて行動することが出来る。",
+                    "italic": true,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "※ただし選ばれしものに限る。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "知られていないと思うが、ついでにインテリア",
+                    "italic": true,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "として使用できるという隠れた性能を持っている(驚愕)",
+                    "italic": true,
+                    "color": "gold"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

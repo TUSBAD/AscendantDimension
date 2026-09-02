@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "  シマトラ",
+                  "italic": true,
+                  "color": "gray",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1,
+                    "minecraft:fire_protection": 2,
+                    "minecraft:blast_protection": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000005_0000000000000001",
+                      "type": "minecraft:armor",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

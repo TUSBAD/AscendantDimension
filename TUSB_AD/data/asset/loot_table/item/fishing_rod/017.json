@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "高級疑似餌付き釣り竿",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "本物と見紛うほど精巧な疑似餌の付いた釣り竿",
+                    "italic": false,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "耐久力と修繕機能の強化が施されている。",
+                    "italic": false,
+                    "color": "gold"
+                  },
+                  {
+                    "text": "超作業台で素材として使用できない。",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true,
+                    "underlined": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:lure": 8,
+                    "minecraft:mending": 1,
+                    "minecraft:unbreaking": 3
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

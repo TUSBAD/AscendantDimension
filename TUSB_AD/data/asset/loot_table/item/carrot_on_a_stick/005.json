@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "召喚士のタクト",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "美味しそうな香りを放つ",
+                    "italic": false
+                  },
+                  {
+                    "text": "どこまでも走れそうに思わせる杖",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

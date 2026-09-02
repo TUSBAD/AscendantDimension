@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ロイヤルゼリー",
+                  "italic": false
+                },
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_fire_resistance",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 10,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 127,
+                      "duration": 20000000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 3,
+                      "duration": 30,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

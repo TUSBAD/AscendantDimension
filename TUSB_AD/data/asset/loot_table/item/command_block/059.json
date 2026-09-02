@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "爆発戦隊クリーパーズ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Entity:{Passengers:[{Passengers:[{Fuse:10s,Motion:[0.0d,0.0d,0.2d],CustomName:\"レッド\",Passengers:[{CustomName:\"爆発戦隊クリーパーズ\",Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Duration:400,Id:7b,Amplifier:2b}]},Damage:0s},id:\"ThrownPotion\"}],Attributes:[{Base:0.3d,Name:\"generic.movementSpeed\"}],id:\"Creeper\",ExplosionRadius:0b},{Fuse:10s,Motion:[-0.2d,0.0d,0.1d],CustomName:\"イエロー\",Passengers:[{CustomName:\"爆発戦隊クリーパーズ\",Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Duration:400,Id:8b,Amplifier:-10b}]},Damage:0s},id:\"ThrownPotion\"}],Attributes:[{Base:0.3d,Name:\"generic.movementSpeed\"}],id:\"Creeper\",ExplosionRadius:0b},{Fuse:10s,Motion:[-0.1d,0.0d,-0.15d],CustomName:\"グリーン\",Passengers:[{CustomName:\"爆発戦隊クリーパーズ\",Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Duration:400,Id:4b,Amplifier:10b}]},Damage:0s},id:\"ThrownPotion\"}],Attributes:[{Base:0.3d,Name:\"generic.movementSpeed\"}],id:\"Creeper\",ExplosionRadius:0b},{Fuse:10s,Motion:[0.1d,0.0d,-0.15d],CustomName:\"ブルー\",Passengers:[{CustomName:\"爆発戦隊クリーパーズ\",Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Duration:400,Id:17b,Amplifier:10b}]},Damage:0s},id:\"ThrownPotion\"}],Attributes:[{Base:0.3d,Name:\"generic.movementSpeed\"}],id:\"Creeper\",ExplosionRadius:0b},{Fuse:10s,Motion:[0.2d,0.0d,0.1d],CustomName:\"ピンク\",Passengers:[{CustomName:\"爆発戦隊クリーパーズ\",Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Duration:400,Id:15b,Amplifier:0b}]},Damage:0s},id:\"ThrownPotion\"}],Attributes:[{Base:0.3d,Name:\"generic.movementSpeed\"}],id:\"Creeper\",ExplosionRadius:0b}],LifeTime:0,FireworksItem:{id:\"minecraft:fireworks\",tag:{Fireworks:{Flight:0b,Explosions:[{Type:2b,Trail:1b,Colors:[16777215,],Flicker:1b,FadeColors:[16711680,]},{Type:1b,Colors:[16711680,],Flicker:1b,FadeColors:[0,]}]}},Damage:0},Life:0,id:\"FireworksRocketEntity\"}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},Weight:1}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

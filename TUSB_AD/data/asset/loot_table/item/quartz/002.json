@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "444",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "夢幻と",
+                      "italic": false,
+                      "color": "blue"
+                    },
+                    {
+                      "text": "幻想",
+                      "italic": false,
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "の無双神珠",
+                      "italic": false,
+                      "color": "blue"
+                    },
+                    {
+                      "text": "444",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ある人は儚き野望を抱え",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "ある人は幻を彷徨い",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "ある人は護る力を求めた",
+                    "italic": false,
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:infinity": 1892
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000014d34_000000000002a019",
+                      "type": "minecraft:max_health",
+                      "amount": 39.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000007db75_000000000006e316",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000a661b_000000000005d536",
+                      "type": "minecraft:attack_damage",
+                      "amount": 50.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000019da0_00000000000bc3bd",
+                      "type": "minecraft:armor",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000001e987_00000000000dd2aa",
+                      "type": "minecraft:attack_speed",
+                      "amount": 100.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "13",
+                      "italic": false,
+                      "color": "dark_green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "十三番目の沈黙",
+                      "italic": false,
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "13",
+                      "italic": false,
+                      "color": "dark_green",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "時は人生のごとく流れ、人生もまた時のように流れる、",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "そして、",
+                        "italic": false
+                      },
+                      {
+                        "text": "私は絶対的な孤独を知っている",
+                        "italic": false,
+                        "color": "dark_green",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 13,
+                    "minecraft:smite": 13
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e9a09_000000000000b804",
+                      "type": "minecraft:max_health",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006bd8c_0000000000028a2c",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000039d34_00000000000575a3",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.13,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000004fc6e_0000000000070c7f",
+                      "type": "minecraft:attack_damage",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000add_00000000000118f6",
+                      "type": "minecraft:armor",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000eaf4_00000000000a12cc",
+                      "type": "minecraft:attack_speed",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000004591d_0000000000014aa4",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 13.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ネビュラコア",
+                  "italic": false,
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "月と太陽のエキスを調合しできたコア。宇宙の力が込められている。§ｒ",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

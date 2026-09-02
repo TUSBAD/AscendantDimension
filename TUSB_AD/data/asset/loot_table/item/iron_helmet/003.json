@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "  シマトラ",
+                  "italic": true,
+                  "color": "gray",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000072a4ca56_0000000072a4ca56",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.3,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000072a4ca56_0000000072a4ca56",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.02,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000072a4ca56_0000000072a4ca56",
+                      "type": "minecraft:armor",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

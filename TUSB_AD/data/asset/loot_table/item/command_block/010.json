@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "名前をつけるコマブロ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/entitydata @e[type=Item,r=2] {Item:{tag:{display:{Name:§4§lDamageTrap}}}}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

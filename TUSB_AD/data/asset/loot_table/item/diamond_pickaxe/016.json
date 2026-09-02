@@ -1,0 +1,375 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "創造神",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "の",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖嘴 ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "富豪の鶴嘴 enchantment.level.XX",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.XX",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "世界の創造神",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "がもつ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "聖嘴",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "のレプリカ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "宇宙の力",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "を宿しており、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "富豪の効果",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "と",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "不可壊の効果",
+                        "italic": false,
+                        "color": "green",
+                        "bold": true
+                      },
+                      {
+                        "text": "が付与されている",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "アドベンチャーエリアにある様々なブロックを破壊可能",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  },
+                  {
+                    "text": "エンチャント及び修繕不可",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 5,
+                    "minecraft:fortune": 20,
+                    "minecraft:looting": 20,
+                    "minecraft:knockback": 10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000003",
+                      "type": "minecraft:luck",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:obsidian"
+                    },
+                    {
+                      "blocks": "minecraft:diamond_block"
+                    },
+                    {
+                      "blocks": "minecraft:emerald_block"
+                    },
+                    {
+                      "blocks": "minecraft:lapis_block"
+                    },
+                    {
+                      "blocks": "minecraft:gold_block"
+                    },
+                    {
+                      "blocks": "minecraft:iron_block"
+                    },
+                    {
+                      "blocks": "minecraft:rail"
+                    },
+                    {
+                      "blocks": "minecraft:beacon"
+                    },
+                    {
+                      "blocks": "minecraft:light_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:heavy_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:torch"
+                    },
+                    {
+                      "blocks": "minecraft:web"
+                    },
+                    {
+                      "blocks": "minecraft:vine"
+                    },
+                    {
+                      "blocks": "minecraft:coal_block"
+                    },
+                    {
+                      "blocks": "minecraft:glass"
+                    },
+                    {
+                      "blocks": "minecraft:quartz_block"
+                    },
+                    {
+                      "blocks": "minecraft:snow"
+                    },
+                    {
+                      "blocks": "minecraft:snow_layer"
+                    },
+                    {
+                      "blocks": "minecraft:brewing_stand"
+                    },
+                    {
+                      "blocks": "minecraft:redstone_wire"
+                    },
+                    {
+                      "blocks": "minecraft:mob_spawner"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "symphony30": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

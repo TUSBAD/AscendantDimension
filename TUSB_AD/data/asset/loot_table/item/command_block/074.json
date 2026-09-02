@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "スレイヤー",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:900s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Passengers:[{CustomName:\"スレイヤー\",Tags:[\"SkillMob\",\"WarpOnly\",\"AbyssWarp\"],ActiveEffects:[{Id:8b,Amplifier:10b,Duration:2147483647,ShowParticles:0b}],Health:150f,Attributes:[{Name:\"generic.maxHealth\",Base:150d},{Name:\"generic.movementSpeed\",Base:0.35d}],HandItems:[{tag:{ench:[{id:20s,lvl:10s}]},id:\"minecraft:iron_sword\",Count:1b,Damage:0s},{tag:{ench:[],RepairCost:-2147483648,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"cr\",Color:3},{Pattern:\"tts\",Color:1},{Pattern:\"bts\",Color:1},{Pattern:\"mr\",Color:1},{Pattern:\"cbo\",Color:0},{Pattern:\"sku\",Color:0}],Base:0},AttributeModifiers:[{UUIDMost:2l,UUIDLeast:1l,Amount:0.1d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"ATK\"},{UUIDMost:2l,UUIDLeast:2l,Amount:0.1d,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"},{UUIDMost:1l,UUIDLeast:3l,Amount:0.1d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"ATK\"},{UUIDMost:1l,UUIDLeast:4l,Amount:0.1d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"}]},id:\"minecraft:shield\",Count:1b,Damage:0s}],HandDropChances:[0f,0f],ArmorItems:[{tag:{display:{color:12517376}},id:\"minecraft:leather_boots\",Count:1b,Damage:0s},{id:\"minecraft:chainmail_leggings\",Count:1b,Damage:0s},{tag:{display:{color:12517376}},id:\"minecraft:leather_chestplate\",Count:1b,Damage:0s},{tag:{ench:[{id:3s,lvl:50s}],RepairCost:-2147483648,SkullOwner:{Id:\"0-0-ca-0-2\",Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NTk0MzQyNTgxNjAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjQ1NDJlOWZmYzFjMDg0N2I2MDExM2UxNjFmODNhZWZlMmQ4NzJiNTFiMmU0NzQ1MWUxODZlZTlhYWVkNjkifX19\"}]}}},id:\"minecraft:skull\",Count:1b,Damage:3s}],ArmorDropChances:[0f,0f,0f,0f],id:\"Skeleton\",Passengers:[{Invulnerable:1b,CustomName:\"不滅のﾆﾝｼﾞｬｿｳﾙ\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"fire\",DisplayData:0,DisplayOffset:8,MaxNearbyEntities:3s,RequiredPlayerRange:2s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:0s,MaxSpawnDelay:0s,SpawnRange:0s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,Passengers:[{id:\"Creeper\",CustomName:\"無慈悲なカラテ\",ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],ExplosionRadius:1b,Fuse:1s,ignited:1b}]}}],id:\"MinecartSpawner\"},{Particle:\"mobSpell\",Color:7274496,CustomName:\"不浄の炎\",Duration:60,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:8b,Amplifier:-5b,Duration:100},{Id:25b,Amplifier:-4b,Duration:50}],id:\"AreaEffectCloud\"}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

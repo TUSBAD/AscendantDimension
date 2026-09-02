@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Space",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "۞",
+                      "italic": false,
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "-ネビュラ・ロッド-",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "۞",
+                      "italic": false,
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "-",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "Space",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "星雲の力が宿った杖。",
+                    "italic": false,
+                    "color": "light_purple",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 10,
+                    "minecraft:bane_of_arthropods": 10,
+                    "minecraft:knockback": 10,
+                    "minecraft:fire_aspect": 10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

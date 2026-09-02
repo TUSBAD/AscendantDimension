@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "カースドゾンビ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{Passengers:[0:{CustomName:\"カースドゾンビ\",VillagerProfession:3,Health:100.0f,ArmorItems:[0:{id:\"minecraft:chainmail_boots\",Count:0b,Damage:0s},1:{id:\"minecraft:chainmail_leggings\",Count:0b,Damage:0s},2:{id:\"minecraft:chainmail_chestplate\",Count:0b,Damage:0s},3:{id:\"minecraft:mob_spawner\",Count:0b,Damage:0s}],Attributes:[0:{Base:100.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.3d,Name:\"generic.knockbackResistance\"},3:{Base:0.2d,Name:\"generic.movementSpeed\"},4:{Base:8.0d,Name:\"generic.attackDamage\"}],DeathLootTable:\"usb:entities/ice/mob4\",id:\"Zombie\",IsVillager:1b,ActiveEffects:[],HandItems:[0:{id:\"minecraft:iron_axe\",Count:0b,Damage:0s},1:{id:\"minecraft:iron_hoe\",Count:0b,Damage:0s}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},SpawnPotentials:[{Entity:{Passengers:[0:{CustomName:\"カースドゾンビ\",VillagerProfession:3,Health:100.0f,ArmorItems:[0:{id:\"minecraft:chainmail_boots\",Count:0b,Damage:0s},1:{id:\"minecraft:chainmail_leggings\",Count:0b,Damage:0s},2:{id:\"minecraft:chainmail_chestplate\",Count:0b,Damage:0s},3:{id:\"minecraft:mob_spawner\",Count:0b,Damage:0s}],Attributes:[0:{Base:100.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.3d,Name:\"generic.knockbackResistance\"},3:{Base:0.2d,Name:\"generic.movementSpeed\"},4:{Base:8.0d,Name:\"generic.attackDamage\"}],DeathLootTable:\"usb:entities/ice/mob4\",id:\"Zombie\",IsVillager:1b,ActiveEffects:[],HandItems:[0:{id:\"minecraft:iron_axe\",Count:0b,Damage:0s},1:{id:\"minecraft:iron_hoe\",Count:0b,Damage:0s}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},Weight:1}],     SpawnCount:2s,     SpawnRange:4s,     MaxNearbyEntities:6s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:150s}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.setblock.success\"}],\"text\":\"[15:08:55] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

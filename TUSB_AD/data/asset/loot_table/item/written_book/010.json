@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ネオ&ノワCH",
+                  "italic": false
+                },
+                "minecraft:custom_data": {
+                  "pages": [
+                    "{\"extra\":[{\"text\":\"もしMAPが楽しいと思ったら\"},{\"bold\":true,\"underlined\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/c/ネオノワCH\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"click！\"}},\"text\":\"チャンネル登録\"},{\"color\":\"reset\",\"text\":\"してね！\\nマインクラフトの配布マップやコマンド関係、特にTUSBの動画を投稿するチャンネルです。\\nメインキャラクターは\"},{\"color\":\"light_purple\",\"text\":\"nemo\"},{\"color\":\"reset\",\"text\":\"と\"},{\"color\":\"blue\",\"text\":\"nowa\"},{\"color\":\"reset\",\"text\":\"で、ゆっくり実況の動画が多いです。\\nたまにボイスロイドの\"},{\"color\":\"gold\",\"text\":\"東北きりたん\"},{\"color\":\"reset\",\"text\":\"に声を借りて配信もしてます。\\n\\n \"}],\"text\":\"\"}"
+                  ],
+                  "author": "製作者",
+                  "title": "ネオ&ノワCH",
+                  "resolved": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "spica",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "原初の守護者の鍬",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "spica",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "豊穣の力 enchantment.level.66",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.66",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "原初の世界の守護者",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "が使っていたとされる鍬。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "作物が大量に収穫できるようだ。",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 6,
+                    "minecraft:smite": 6,
+                    "minecraft:bane_of_arthropods": 6,
+                    "minecraft:unbreaking": 66,
+                    "minecraft:mending": 66,
+                    "minecraft:fortune": 66
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000a_000000000000003c",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.3,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000a_0000000000000028",
+                      "type": "minecraft:luck",
+                      "amount": 614.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000a_0000000000000014",
+                      "type": "minecraft:max_health",
+                      "amount": -0.7,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "symphony25": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "悟りの杖",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "かつての聖人が使ったとされる杖。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "攻撃力はないが、コレを持つことで",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "忍耐力が上がる。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "v",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "超越する原初の魂",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "v",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "限界を超越したスピカの魂。",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "「この世界の平和は私が守る。...例え争いが避けられなくても。」§ｒ",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": "3ef79d9d-bad3-42bb-98d4-c8b567422e19",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "ewogICJ0aW1lc3RhbXAiIDogMTczNTgwMTU2MTUxOCwKICAicHJvZmlsZUlkIiA6ICIzZWY3OWQ5ZGJhZDM0MmJiOThkNGM4YjU2NzQyMmUxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcmV5Q2llbHUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxYjIzNGEzMGNmMDczMTBkNjQyOTUyNjc0YzZmZTcyODVkNmE1YjQ5MjcyZjU5OTk5Yjc0OThkZjZmNzViMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

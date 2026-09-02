@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "皺くちゃの紙切れ",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "迷ってしまった…。",
+                    "italic": false
+                  },
+                  {
+                    "text": "この広大な氷の世界で…。",
+                    "italic": false
+                  },
+                  {
+                    "text": "あの時地図を落とさなければ…。",
+                    "italic": false
+                  },
+                  {
+                    "text": "後悔しても仕方がない。",
+                    "italic": false
+                  },
+                  {
+                    "text": "人工物らしき建物の影で",
+                    "italic": false
+                  },
+                  {
+                    "text": "なんとか暖を取ることはできた。",
+                    "italic": false
+                  },
+                  {
+                    "text": "あとは食料が尽きる前に",
+                    "italic": false
+                  },
+                  {
+                    "text": "帰る方法を見つけなければ…。",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ディザストレ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Fuse:40s,powered:1b,CustomName:\"§5§k||||§r §4§lディザストレ§r §5§k||||§r\",team:\"Bosses\",Health:500.0f,Attributes:[0:{Base:500.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"},2:{Base:2.0d,Name:\"generic.movementSpeed\"},3{Base:64.0d,Name:\"generic.followRange\"}],id:\"Ghast\",ExplosionPower:100b,ignited:1b,ActiveEffects:[0:{ShowParticles:0b,Duration:2000000000,Id:8b,Amplifier:4b},{ShowParticles:0b,Duration:200,Id:11b,Amplifier:5b}]}],id:\"XPOrb\",Age:6000s},     SpawnCount:2s,     SpawnRange:4s,     MaxNearbyEntities:6s,     RequiredPlayerRange:64s,     Delay:-1s,     MinSpawnDelay:1200s,     MaxSpawnDelay:1200s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

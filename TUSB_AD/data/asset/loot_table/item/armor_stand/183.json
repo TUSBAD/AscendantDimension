@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "飾り台",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "剣",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "や",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "他のツール類",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "を飾る事ができる台",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "※撤去する場合は奈落へ落として下さい",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "NoGravity": 0,
+                  "DisabledSlots": 1973790,
+                  "Small": 0,
+                  "Pose": {
+                    "LeftLeg": [
+                      0.0,
+                      0.0,
+                      30.0
+                    ],
+                    "RightArm": [
+                      90.0,
+                      90.0,
+                      30.0
+                    ],
+                    "RightLeg": [
+                      0.0,
+                      1.0,
+                      0.0
+                    ]
+                  },
+                  "ArmorItems": [
+                    {
+                      "id": "iron_boots",
+                      "Count": 0,
+                      "Damage": 0
+                    },
+                    {},
+                    {},
+                    {}
+                  ],
+                  "NoBasePlate": 1,
+                  "ShowArms": 1,
+                  "Invisible": 1,
+                  "Marker": 0,
+                  "HandItems": [
+                    {
+                      "id": "wooden_sword",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Name": "木刀"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {}
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

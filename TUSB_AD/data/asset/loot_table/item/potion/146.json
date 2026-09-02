@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "ブラック",
+                      "italic": false,
+                      "color": "dark_gray",
+                      "bold": true
+                    },
+                    {
+                      "text": "メタル",
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "黒く輝くこの液体は触れるものを弱らせ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "力を与える。",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": -2,
+                      "duration": 1200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 4,
+                      "duration": 1200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 4,
+                      "duration": 1200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 126,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000004963403c_000000004963403c",
+                      "type": "minecraft:max_health",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ぷらなりあ",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "puranaria07",
+                  "id": "5500ab1f-8283-4c3c-b00e-eaef39eeea5f",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTYyOTYsInByb2ZpbGVJZCI6IjU1MDBhYjFmODI4MzRjM2NiMDBlZWFlZjM5ZWVlYTVmIiwicHJvZmlsZU5hbWUiOiJwdXJhbmFyaWEwNyIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YxM2M1ODdiZDY2YzY5YTNiYjlkYjJmN2ZjMzMyNTA4MjQ1ZDk1MDhkMTJhOGFkZWRjNzFiNDRkYzg2MzgyNSJ9fX0=",
+                      "signature": "HOgtj5aPAY92qFDpThjlPVzO96cFRl8K/AdB70rKaSZnQdUrSLsdMHmkHMH12zTQFaEv/rSSmvfpcFsIsayt0xhMaO/J7dNmc+fO3ME7+8kHC+Zk0x098a9iwSFmr4onKpySXI++YD94NpbgbIQVGwWBlQUrmbCBsT3Z9usz4UvPdTpwT6/oOTLdN1+IUB4ps7DbddjpCkEw7VEIp7feOA2jrKyv+zfgRJbxaAAajut603Hu8z2IbKZgxw9qjxMuDcm/Dpz51yUKwXq67sFFBLfERlhIsG0jbUU3R7yFZTB4oIOmEVvk7sMriKRDaxGYEmOUu5XSGlTs9H1WFmQTns9SfyD8N+O7WdGOaaMt3SfYAdpQxXqpSGWGKF5DcNYkqZl+3EwQZ8Z45K/2drTmNZC5gHMIPH5rsxbLtokn2/ocBMokdq7PBIOKPAM2cGRDz1neMXvYz7cMGHBmYsghrmJ0JTFtsGKwmUN8L6qR/LOfCLBaTFWb27A779TOo93EnRcG/pqQtsU798efXJh42yNfcWZI/Sqhle2EgLrg8Tf63vrW0joLYRhGR44UZQQEUMiTVj8vnZsoq02wWTY2ljMGJ/UX07WKIiSIPXILlfLHuz+jq1JCgRNCY4uTt8GQe044391Uwahz9H5GBwyjsOBJmY0MolCu+ZS3jSbatLA="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

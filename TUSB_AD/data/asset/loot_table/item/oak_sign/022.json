@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ｻﾝﾄﾞﾊﾞｯｸの印板",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "「",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "右ｸﾘｯｸ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "」で殴ればﾌｼｷﾞ!",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "看板を解体する事ができる！",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "破壊すると看板に使う材料が",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "手に入るぞ！ ",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ﾖｶｯﾀﾈ!",
+                        "italic": false,
+                        "color": "aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000763633e4_00000000763633e4",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/blockdata ~ ~ ~ {Text1:\\\"{text:\\\\\\\"ｻﾝﾄﾞﾊﾞｯｸ\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/playsound entity.zombie.attack_door_wood master @a[r\\u003d5] ~ ~ ~ 1 0.7 0\\\\\\\"}}\\\",Text2:\\\"{text:\\\\\\\"「ｸﾞﾜ――!」\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.45 60 normal\\\\\\\"}}\\\",Text3:\\\"{text:\\\\\\\" \\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/summon Item ~ ~ ~ {PickupDelay:1,Motion:[0.0d,0.6d,0d],Item:{id:minecraft:planks,Damage:0,Count:1},Riding:{id:Item,PickupDelay:10,Item:{id:minecraft:stick,Damage:0,Count:2}}}\\\\\\\"}}\\\",Text4:\\\"{text:\\\\\\\"-\\u003d痛がってます\\u003d-\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/blockdata ~ ~ ~ {Text2:\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"「ｱﾊﾞｰ!?」\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.45 60 normal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\",Text4:\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"-\\u003d致命傷\\u003d-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/blockdata ~ ~ ~ {Text2:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"「ｱﾊﾞﾊﾞﾊﾞｰ!!」\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.45 60 normal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",Text4:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"-\\u003d虫の息な\\u003d-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/setblock ~ ~ ~ minecraft:air\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\"}\\\\\\\"}}\\\"}\"},\"text\":\"-\\u003d元気です\\u003d-\"}",
+                      "Text3": "{\"text\":\"\"}",
+                      "Text2": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.45 60 normal\"},\"text\":\"「ﾔﾒﾛｰ!ﾔﾒﾛｰ!」\"}",
+                      "Text1": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.wither.break_block master @a[r\\u003d5] ~ ~ ~ 1 1.7 0\"},\"text\":\"ｻﾝﾄﾞﾊﾞｯｸ\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

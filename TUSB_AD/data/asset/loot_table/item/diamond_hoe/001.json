@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "首刈り鎌",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "鍬じゃないよ、鎌だよ。",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "お古で弱くなっててもいいならどうぞ。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 39
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": -2147483648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

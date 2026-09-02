@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "黑いるーみあ",
+                  "italic": false,
+                  "color": "dark_blue"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "えへへ...///",
+                    "italic": false,
+                    "color": "dark_red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10,
+                    "minecraft:projectile_protection": 50
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002b2a2_000000000008f0ac",
+                      "type": "minecraft:max_health",
+                      "amount": -0.99,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000009e71c_00000000000b51c8",
+                      "type": "minecraft:attack_damage",
+                      "amount": 50.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000abb14_0000000000092255",
+                      "type": "minecraft:armor",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ab4de_000000000003c2fe",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.9,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:profile": {
+                  "id": "32e352ba-1e7c-4b78-8cae-4587893ba79e",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDIxODA2OTA1OCwKICAicHJvZmlsZUlkIiA6ICIzMmUzNTJiYTFlN2M0Yjc4OGNhZTQ1ODc4OTNiYTc5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJydW1pYV82NjZfRVgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ3YThiNTM5OWM2YmU4Y2Q4NzIwZTlkMTVlODMyNGFjMzM1ZTYwODM1N2ViYTVmMWZhYzczZjQ2YTM4NzM1NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+                      "signature": "uOh3foZa3ZY6uQE1ce6EC4gr0vKFgyMZPSIToF8zt6KbmepVNonLyoJOOfqKzEvaUSo5ivHWNQ0odxQWKUnJeRXoKJVgyRjr9HExow1uhoL45pfegg1O7ch7dSHc2OOD5i9ULv21eOVQotDRg4MDFdUXfPNeZG8vR8rjtmgnP/cKkh5OK9JRCK0tcCB0lBIWhQIcJKrqZQoDNyeaTWmU5WMqTOnRwQbF4R2FoCzQSqhQ3f8hIVNlmwWZ2MhqpqhsaQ8f716sfYKZ6ID338XoGSvYZA5yfJ7E9zckQHFPNsiRdqIITCknszaiFPyv1HHaazTk7DYiAg4lgdB0XdU4L8r+bHL4PgXRYMHs7PKLknMKkjUElv/s0cN6IOMix+XizRVcRMVxXcFIDO4OKrnERgf8Ax19S5nVCc4/axu+WWiDC1uumH3CApaH948e+yqNnnf3uRinMWMszMGGcurr8NAZhsyY0ZehjKYTG+NMYoWBxYUv5RPgrvsOrhtWDiXQpf1Ka2FFHyh8AlRvbtQb4v6sYdeO8PsxK+N0PkIlWj+VUf6hKdhdzNEPyPOnqToyj8cx38QnLbcNzl3SNjF6mSTkhdT2mtthTOQF+ZmrrtE1gQW+9uHujenJANyV1fnL1PeZBOgPwcmY+JV77KH5fclpjv+dG7l4MR3bhuzmyYY="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

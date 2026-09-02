@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "1§i",
+                      "italic": false,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "エクスヒーリング",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "text": "1",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "あらゆる傷を癒す超回復術が込められた矢",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "アンデッドには猛毒でしかない",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:awkward",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 6,
+                      "duration": 20
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 50,
+                      "duration": 0
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": -100,
+                      "duration": 120
+                    }
+                  ],
+                  "custom_color": 16777212
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 100
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "かわとげ(てーぶる)",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[{Anger:32767s,CustomName:\"§c§l可愛い者にはとげがある §5§lα§r\",Health:300.0f,ArmorItems:[0:{id:\"minecraft:leather_boots\",Count:0b,tag:{ench:[0:{lvl:1s,id:0s},1:{lvl:2s,id:1s},2:{lvl:1s,id:4s},3:{lvl:10s,id:8s},4:{lvl:1s,id:7s},5:{lvl:2s,id:34s}],RepairCost:1000000000,display:{color:8126417,Name:\"§b§nプリズムソーサラー\"},AttributeModifiers:[0:{UUIDMost:6L,UUIDLeast:1L,Amount:0.03d,Slot:\"feet\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:6L,UUIDLeast:2L,Amount:0.03d,Slot:\"feet\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},2:{UUIDMost:6L,UUIDLeast:3L,Amount:0.1d,Slot:\"feet\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},3:{UUIDMost:6L,UUIDLeast:4L,Amount:0.08d,Slot:\"feet\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},4:{UUIDMost:6L,UUIDLeast:5L,Amount:0.1d,Slot:\"feet\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},1:{id:\"minecraft:leather_leggings\",Count:1b,tag:{ench:[0:{lvl:2s,id:0s},1:{lvl:4s,id:1s},2:{lvl:2s,id:4s},3:{lvl:10s,id:8s},4:{lvl:2s,id:7s},5:{lvl:4s,id:34s}],RepairCost:1000000000,display:{color:8126417,Name:\"§b§nプリズムソーサラー\"},AttributeModifiers:[0:{UUIDMost:5L,UUIDLeast:1L,Amount:0.06d,Slot:\"legs\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:5L,UUIDLeast:2L,Amount:0.06d,Slot:\"legs\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},2:{UUIDMost:5L,UUIDLeast:3L,Amount:0.1d,Slot:\"legs\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},3:{UUIDMost:5L,UUIDLeast:4L,Amount:0.08d,Slot:\"legs\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},4:{UUIDMost:5L,UUIDLeast:5L,Amount:0.1d,Slot:\"legs\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},2:{id:\"minecraft:leather_chestplate\",Count:1b,tag:{ench:[0:{lvl:3s,id:0s},1:{lvl:5s,id:1s},2:{lvl:3s,id:4s},3:{lvl:10s,id:8s},4:{lvl:3s,id:7s},5:{lvl:5s,id:34s}],RepairCost:1000000000,display:{color:8126417,Name:\"§b§nプリズムソーサラー\"},AttributeModifiers:[0:{UUIDMost:4L,UUIDLeast:1L,Amount:0.1d,Slot:\"chest\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:4L,UUIDLeast:2L,Amount:0.1d,Slot:\"chest\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},2:{UUIDMost:4L,UUIDLeast:3L,Amount:0.1d,Slot:\"chest\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},3:{UUIDMost:4L,UUIDLeast:4L,Amount:0.08d,Slot:\"chest\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},4:{UUIDMost:4L,UUIDLeast:5L,Amount:0.1d,Slot:\"chest\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},3:{id:\"minecraft:quartz_ore\",Count:0b,tag:{ench:[0:{lvl:5s,id:1s},1:{lvl:5s,id:7s}],RepairCost:1000000000},Damage:0s}],Attributes:[0:{Base:200.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"}],id:\"PigZombie\",HandItems:[0:{id:\"minecraft:cake\",Count:1b,tag:{ench:[0:{lvl:10s,id:19s},1:{lvl:20s,id:34s}],RepairCost:1000000000,HideFlags:32,display:{Name:\"§f§lふっ飛ばしケーキ\"}},Damage:0s}],CustomNameVisible:1b}],Health:0.0f,DeathTime:19s,id:\"Villager\"},     SpawnCount:2s,     SpawnRange:6s,     MaxNearbyEntities:016s,     RequiredPlayerRange:32s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:700s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

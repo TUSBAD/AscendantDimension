@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "究極拷問安眠スペシャル",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "NEO",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "歩かせません、ジャンプさせません",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "攻撃させません、死なせません",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "壊させません、その他etc",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "惨たらしい効果を施す。",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "ポーションというより呪いに近い。",
+                    "italic": true,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_harming",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 6,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 126,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 20,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 10,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 126,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 10,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 100,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 20,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -12,
+                      "duration": 2000000000
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 3,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

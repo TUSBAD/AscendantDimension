@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "かかし",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon Zombie ~ ~1 ~ {CustomName:\"体力1000かかし\",CustomNameVisible:1,Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.knockbackResistance,Base:1}],Health:1000.0f,PersistenceRequired:1,NoAI:1,Silent:1,DeathLootTable:\"empty\",ActiveEffects:[{Id:11,Amplifier:3,Duration:2000000,ShowParticles:0b},{Id:22,Amplifier:255,Duration:20000000,ShowParticles:0b}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[04:48:46] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

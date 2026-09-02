@@ -1,0 +1,281 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "✡",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "魔剣",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "✞",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "YORUNEKO",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魔剣の吸命 enchantment.level.999",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の誘惑 enchantment.level.999",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "黒猫",
+                        "italic": false,
+                        "color": "dark_blue",
+                        "bold": true
+                      },
+                      {
+                        "text": "の皮を被った",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "悪魔",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "が宿っていると言われている",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "魔剣",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "持つものに",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "悪魔の生命力",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を与える。",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "代償として",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "持ち主の寿命",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を頂く。",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "悪魔",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "はいつも",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "憎悪の激怒",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を起こしており、",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "その怒りの炎は",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "永遠に相手を焼き尽くす",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "「",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "僕を使うんだって？",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "」",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "「",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "しょうがないなぁー、",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "そんじゃ、君の寿命を頂くよ。",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "」",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 666
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000aed91_0000000000040661",
+                      "type": "minecraft:max_health",
+                      "amount": -0.8,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000030941_0000000000048933",
+                      "type": "minecraft:attack_speed",
+                      "amount": -3.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e4f42_000000000001d829",
+                      "type": "minecraft:luck",
+                      "amount": -666.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "symphony7": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

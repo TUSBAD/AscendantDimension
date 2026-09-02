@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "活力の矢",
+                  "italic": false,
+                  "color": "green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "刺さった者を強化し、回復を促す。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strength",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 4,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 1,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 127,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 127,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 1
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

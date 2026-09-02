@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "穢れたブラード氷晶貨",
+                  "italic": false,
+                  "color": "gray",
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "トカルトコルデの現宝通貨であった物。",
+                    "italic": false
+                  },
+                  {
+                    "text": "瘴気により穢れているため、浄化する必要がある。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

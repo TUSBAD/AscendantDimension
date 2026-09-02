@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "外法の盾",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2,
+                    "minecraft:thorns": 5,
+                    "minecraft:knockback": 2,
+                    "minecraft:sharpness": 20,
+                    "minecraft:smite": 10,
+                    "minecraft:bane_of_arthropods": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:max_health",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000006",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

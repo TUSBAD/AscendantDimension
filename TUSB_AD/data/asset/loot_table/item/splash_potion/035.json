@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "暗黒水",
+                  "italic": false,
+                  "color": "dark_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "投げつける薬。これを浴びた者は、",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "あらゆる能力が低下する。",
+                    "italic": true,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": -10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": -10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": -10,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": -100,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

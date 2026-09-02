@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "暴風の矢",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "上空に吹き飛ばし、叩きつける",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:swiftness",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -128,
+                      "duration": 0
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": -128,
+                      "duration": 0
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 127,
+                      "duration": 3
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

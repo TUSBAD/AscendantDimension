@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "超強炭酸水",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ひやっひやの超強炭酸水。",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "一気飲みしてむせるなよ！",
+                    "italic": false,
+                    "color": "aqua",
+                    "strikethrough": true
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 120,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 60,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 4,
+                      "duration": 60,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 0,
+                      "duration": 30,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 1,
+                      "duration": 200,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 4,
+                      "duration": 1200,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

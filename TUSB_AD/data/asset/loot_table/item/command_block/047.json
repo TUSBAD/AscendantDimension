@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "クリムゾンアイ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Health:0f,Silent:1b,id:\"Villager\",Passengers:[{ActiveEffects:[{Amplifier:127b,Duration:2147483647,Id:14b},{Amplifier:127b,Duration:2147483647,Id:20b}],Attributes:[{Base:1.0d,Name:\"generic.maxHealth\"}],Health:5.0f,id:\"Bat\",Passengers:[{AbsorptionAmount:200.0f,ActiveEffects:[{Amplifier:20b,Duration:2147483647,Id:1b,ShowParticles:0b},{Amplifier:6b,Duration:2147483647,Id:10b,ShowParticles:0b},{Amplifier:127b,Duration:2147483647,Id:14b,ShowParticles:0b},{Amplifier:-1b,Duration:2147483647,Id:25b,ShowParticles:0b}],Attributes:[{Base:80.0d,Name:\"generic.followRange\"},{Base:0.3d,Name:\"generic.knockbackResistance\"},{Base:0.32d,Name:\"generic.movementSpeed\"}],CustomName:\"クリムゾンアイ\",DeathLootTable:\"empty\",id:\"LavaSlime\",Passengers:[{CustomName:\"滴る血\",CustomNameVisible:0b,Duration:80,Effects:[{Amplifier:1b,Duration:200,Id:7b}],id:\"AreaEffectCloud\",Particle:\"dripLava\",Radius:0.550000011921f,ReapplicationDelay:10},{CustomName:\"クリムゾンオーラ\",Duration:80,Effects:[{Amplifier:3b,Duration:140,Id:17b},{Amplifier:127b,Duration:6,Id:12b},{Amplifier:5b,Duration:140,Id:4b}],id:\"AreaEffectCloud\",Particle:\"take\",Radius:1.70000004768f,RadiusOnUse:0.0f,ReapplicationDelay:0},{Color:16711680,CustomName:\"クリムゾンオーラ\",Duration:80,Effects:[],id:\"AreaEffectCloud\",Particle:\"mobSpell\",Radius:0.0500000007451f,RadiusOnUse:0.0f,ReapplicationDelay:0},{ActiveEffects:[{Amplifier:127b,Duration:2147483647,Id:14b,ShowParticles:0b},{Amplifier:127b,Duration:2147483647,Id:12b,ShowParticles:0b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{Count:1b,Damage:3s,id:\"minecraft:skull\",tag:{SkullOwner:{Id:\"17e8d7dc-e770-47ef-a471-b704861aa33e\",Name:\"anminmakura\",Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NjUzNDA5OTUwODAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMjM1MjU0ZjhmNmU2OWVkNjRmNmIxNTViN2Y2N2UwNDY3OGQ3NzU5MzI2Yjc1MThlNjZhYmI5ZDhhYmEwIn19fQ==\"}]}}}}],Attributes:[{Base:220.0d,Name:\"generic.maxHealth\"},{Base:-0.55d,Modifiers:[{Amount:-2.10000008345d,Name:\"effect.moveSlowdown 13\",Operation:2,UUIDLeast:-7778190119041365872l,UUIDMost:8144722948526719024l}],Name:\"generic.movementSpeed\"},{Base:10.0d,Name:\"generic.attackDamage\"},{Base:0.7d,Name:\"generic.knockbackResistance\"},{Base:80.0d,Name:\"generic.followRange\"}],CustomName:\"Grumm\",Health:220.0f,id:\"PigZombie\",Silent:1b}],Silent:1b,Size:0}],Silent:1b}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

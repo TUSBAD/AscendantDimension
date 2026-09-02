@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "不思議なノート",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "著者 マクス・ウェル",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "コピーのコピー",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 10,
+                    "minecraft:blast_protection": 2,
+                    "minecraft:projectile_protection": 1,
+                    "minecraft:smite": 10,
+                    "minecraft:bane_of_arthropods": 5,
+                    "minecraft:sharpness": 12,
+                    "minecraft:fire_aspect": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": 1.4,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.7,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:armor",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_speed",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:max_health",
+                      "amount": -0.05,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:max_health",
+                      "amount": 0.09,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

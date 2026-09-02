@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ロスト・オブ・デッド",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "強力な治癒力を求めたが故に開発された",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "ロスト・オブ・ライブズの効果は",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "アンデッドへの効果が薄かった。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "そこで我々は「発酵したクモの目」を",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "配合することで効果を反転させた。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "予想通り、アンデッドMOBに対して絶大な効果を",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "誇るようになったが、当然のように",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "アンデッドでないMOBへの効果は薄くなった",
+                    "italic": true,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 29,
+                      "duration": 20,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

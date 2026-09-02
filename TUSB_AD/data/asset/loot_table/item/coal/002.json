@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "choco_chip_coal",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 5,
+                    "minecraft:silk_touch": 1,
+                    "minecraft:luck_of_the_sea": 2
+                  }
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

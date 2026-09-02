@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "魚のキモチ",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "飲むと水中で呼吸する事が出来、",
+                    "italic": true,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "速度及びジャンプ力が上昇するが、",
+                    "italic": true,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "欠点として空腹になる。",
+                    "italic": true,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 1,
+                      "duration": 1200,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 1200,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 1,
+                      "duration": 1200,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 1200,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

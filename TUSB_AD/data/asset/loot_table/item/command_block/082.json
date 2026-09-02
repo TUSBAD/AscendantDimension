@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ブラック配下",
+                  "italic": false,
+                  "color": "dark_green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Zombie,CustomName:\"レギオン\",IsBaby:true,IsVillager:true,VillagerProfession:5,ActiveEffects:[{Id:25b,Amplifier:-127b,Duration:100000,ShowParticles:false},{Id:8b,Amplifier:4b,Duration:100000,ShowParticles:false}],HandItems:[{},{}],ArmorItems:[{},{},{},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"b622d670-e628-4476-a206-d0c05f76797d\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJjNThhMTQ4N2JjOTUzZmFhNjg3ODk2YWFhZWFjZTI3MWI0YTEyMGUyNzZmYTlkMmQ2ZWE4YjY2NTYxMmMifX19\"}]}}}}],Health:40f,Attributes:[{Name:\"generic.maxHealth\",Base:40d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0d},{Name:\"generic.movementSpeed\",Base:0.2d},{Name:\"generic.attackDamage\",Base:20.0d}],Passengers:[{id:AreaEffectCloud,Particle:\"portal\",Duration:1000,Radius:1.5f,CustomName:\"リョウ\",Effects:[{Id:17b,Amplifier:10b,Duration:120,ShowParticles:true},{Id:9b,Amplifier:0b,Duration:120,ShowParticles:true}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Zombie,CustomName:\"ギーガ\",IsVillager:true,VillagerProfession:3,HandItems:[{},{}],ArmorItems:[{},{},{},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"670dcff0-1f67-4c9e-a440-d9d98facbdd3\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNmYxOWMzMDVjY2RiMzZlNDdiMmRhZGNmNTllNmFkOGRkOTNjZGY0NzQ4Nzc1ZDVhNmVjNDFlZDk3ZiJ9fX0=\"}]}}}}],Health:40f,Attributes:[{Name:\"generic.maxHealth\",Base:40d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.movementSpeed\",Base:1d},{Name:\"generic.attackDamage\",Base:30.0d}],Passengers:[{id:AreaEffectCloud,Particle:\"portal\",Duration:1000,Radius:1.5f,CustomName:\"メン\",Effects:[{Id:17b,Amplifier:3b,Duration:120,ShowParticles:true},{Id:2b,Amplifier:4b,Duration:120,ShowParticles:true}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Zombie,CustomName:\"メーガ\",HandItems:[{},{}],ArmorItems:[{},{id:minecraft:leather_leggings,tag:{display:{color:4473924}}},{id:leather_chestplate,tag:{display:{color:4473924}}},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"90e51213-80fc-4183-9d5c-ec9cfa03ff16\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFlZjIzM2NkNmZkOTE4NzhkNTEzNzY2ZWRjMjNkZjMwODI3OGMwY2U4MDU5NzZlOTY5YzM5NDUxNjRkNmM4In19fQ==\"}]}}}}],Health:40f,Attributes:[{Name:\"generic.maxHealth\",Base:40d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.movementSpeed\",Base:0.3d},{Name:\"generic.attackDamage\",Base:30.0d}],Passengers:[{id:AreaEffectCloud,Particle:\"portal\",Duration:1000,Radius:1.5f,CustomName:\"スクナ\",Effects:[{Id:17b,Amplifier:3b,Duration:120,ShowParticles:true},{Id:15b,Amplifier:0b,Duration:120,ShowParticles:true}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

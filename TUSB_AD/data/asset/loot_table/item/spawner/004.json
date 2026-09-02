@@ -1,0 +1,724 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "海賊エスキモーT1～5のスポナー",
+                  "italic": false
+                },
+                "minecraft:block_entity_data": {
+                  "RequiredPlayerRange": 32,
+                  "MaxNearbyEntities": 16,
+                  "SpawnCount": 3,
+                  "id": "minecraft:mob_spawner",
+                  "MaxSpawnDelay": 700,
+                  "SpawnRange": 6,
+                  "Delay": -1,
+                  "MinSpawnDelay": 100,
+                  "SpawnPotentials": [
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "Anger": -100,
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "CustomName": "海賊エスキモー T1",
+                            "IsBaby": 1,
+                            "Health": 100.0,
+                            "ArmorItems": [
+                              {
+                                "id": "minecraft:leather_boots",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_leggings",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 15,
+                                      "id": 1
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 2
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 3
+                                    },
+                                    {
+                                      "lvl": 5,
+                                      "id": 4
+                                    }
+                                  ],
+                                  "SkullOwner": {
+                                    "Id": "e739f2f5-d2fb-4229-a81d-74fcb696bcda",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0Njg5NDQxODUyNjQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjdkZGQ2ODE2NTE3MzI3NmY4OGI1OWVhN2U2MTRkMDc5YjU5Y2RlYjA3ODI0ZGVjNTA3ODkxMWYzNGJkIn19fQ=="
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 100.0,
+                                "Name": "generic.maxHealth"
+                              },
+                              {
+                                "Base": 0.3,
+                                "Name": "generic.movementSpeed"
+                              },
+                              {
+                                "Base": 10.0,
+                                "Name": "generic.attackDamage"
+                              },
+                              {
+                                "Base": 0.5,
+                                "Name": "generic.knockbackResistance"
+                              },
+                              {
+                                "Base": 32.0,
+                                "Name": "generic.followRange"
+                              }
+                            ],
+                            "CanPickUpLoot": 1,
+                            "Silent": 1,
+                            "DeathLootTable": "usb:entities/ice/mob1",
+                            "id": "PigZombie"
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "Anger": -100,
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "CustomName": "海賊エスキモー T2",
+                            "Health": 100.0,
+                            "ArmorItems": [
+                              {
+                                "id": "minecraft:leather_boots",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_leggings",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 15,
+                                      "id": 1
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 2
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 3
+                                    },
+                                    {
+                                      "lvl": 10,
+                                      "id": 4
+                                    }
+                                  ],
+                                  "SkullOwner": {
+                                    "Id": "821285c9-13e9-4c30-aedc-5a8c67a4c073",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0Njg5NDQzMTc4ODEsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTdlNGFkMzQzZTE4ZWU4M2Q5YTY2NTY0OGM0YzY0NzhlNzcwZGZlZWZhNjU0MTNhNDc5ZDIifX19"
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 100.0,
+                                "Name": "generic.maxHealth"
+                              },
+                              {
+                                "Base": 0.3,
+                                "Name": "generic.movementSpeed"
+                              },
+                              {
+                                "Base": 10.0,
+                                "Name": "generic.attackDamage"
+                              },
+                              {
+                                "Base": 0.5,
+                                "Name": "generic.knockbackResistance"
+                              },
+                              {
+                                "Base": 32.0,
+                                "Name": "generic.followRange"
+                              }
+                            ],
+                            "HandDropChances": [
+                              0.0,
+                              0.0
+                            ],
+                            "Silent": 1,
+                            "DeathLootTable": "usb:entities/ice/mob1",
+                            "id": "PigZombie",
+                            "HandItems": [
+                              {},
+                              {}
+                            ]
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "Anger": -100,
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "CustomName": "海賊エスキモー T3",
+                            "Health": 100.0,
+                            "ArmorItems": [
+                              {
+                                "id": "minecraft:leather_boots",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_leggings",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 15,
+                                      "id": 1
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 2
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 3
+                                    },
+                                    {
+                                      "lvl": 10,
+                                      "id": 4
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 7
+                                    }
+                                  ],
+                                  "SkullOwner": {
+                                    "Id": "055e638b-c44d-421c-96cb-0949c03cca0e",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0Njg5NDQzODI1NzYsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjgzNzgxZTNiYTllYTc5YjA3YWQ1Mjg2ZDFhNDg1YmYwYWVjNDYxN2MwN2FiZGRkNDBlMDJkZjhmNzI5OCJ9fX0="
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 100.0,
+                                "Name": "generic.maxHealth"
+                              },
+                              {
+                                "Base": 0.3,
+                                "Name": "generic.movementSpeed"
+                              },
+                              {
+                                "Base": 10.0,
+                                "Name": "generic.attackDamage"
+                              },
+                              {
+                                "Base": 0.5,
+                                "Name": "generic.knockbackResistance"
+                              },
+                              {
+                                "Base": 32.0,
+                                "Name": "generic.followRange"
+                              }
+                            ],
+                            "HandDropChances": [
+                              0.0,
+                              0.0
+                            ],
+                            "Silent": 1,
+                            "DeathLootTable": "usb:entities/ice/mob1",
+                            "id": "PigZombie",
+                            "HandItems": [
+                              {
+                                "id": "minecraft:shield",
+                                "Count": 0,
+                                "tag": {
+                                  "BlockEntityTag": {
+                                    "Patterns": [
+                                      {
+                                        "Color": 0,
+                                        "Pattenrn": "gra"
+                                      },
+                                      {
+                                        "Pattern": "sku",
+                                        "Color": 8
+                                      },
+                                      {
+                                        "Pattern": "bri",
+                                        "Color": 15
+                                      },
+                                      {
+                                        "Pattern": "tts",
+                                        "Color": 15
+                                      },
+                                      {
+                                        "Pattern": "gru",
+                                        "Color": 6
+                                      },
+                                      {
+                                        "Pattern": "gra",
+                                        "Color": 15
+                                      }
+                                    ],
+                                    "Base": 6
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {}
+                            ]
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "Anger": -100,
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "CustomName": "海賊エスキモー T4",
+                            "Health": 100.0,
+                            "ArmorItems": [
+                              {
+                                "id": "minecraft:leather_boots",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_leggings",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 15,
+                                      "id": 1
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 2
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 3
+                                    },
+                                    {
+                                      "lvl": 10,
+                                      "id": 4
+                                    }
+                                  ],
+                                  "SkullOwner": {
+                                    "Id": "459287fb-cf36-4a35-aee3-06265bc02388",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0Njg5NDQ0NDYwMDIsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZDFhYWMyNDVmOGI2MGU3MzUyYzU1OTkzMTc2MGJiYjgyYjkyNzYwZjQ3ZTNiZjlhZTVlOGVhMDM1ZWEyMiJ9fX0="
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 100.0,
+                                "Name": "generic.maxHealth"
+                              },
+                              {
+                                "Base": 0.3,
+                                "Name": "generic.movementSpeed"
+                              },
+                              {
+                                "Base": 5.0,
+                                "Name": "generic.attackDamage"
+                              },
+                              {
+                                "Base": 0.5,
+                                "Name": "generic.knockbackResistance"
+                              },
+                              {
+                                "Base": 32.0,
+                                "Name": "generic.followRange"
+                              }
+                            ],
+                            "HandDropChances": [
+                              0.0,
+                              0.0
+                            ],
+                            "Silent": 1,
+                            "DeathLootTable": "usb:entities/ice/mob1",
+                            "id": "PigZombie",
+                            "HandItems": [
+                              {
+                                "id": "minecraft:iron_shovel",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 10,
+                                      "id": 19
+                                    }
+                                  ],
+                                  "display": {
+                                    "color": 5789784
+                                  }
+                                },
+                                "Damage": 3
+                              },
+                              {}
+                            ]
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "Anger": -100,
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "Passengers": [
+                              {
+                                "Potion": {
+                                  "id": "minecraft:lingering_potion",
+                                  "Count": 0,
+                                  "tag": {
+                                    "CustomPotionEffects": [
+                                      {
+                                        "ShowParticles": 1,
+                                        "Duration": 0,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      },
+                                      {
+                                        "ShowParticles": 1,
+                                        "Duration": 0,
+                                        "Id": 27,
+                                        "Amplifier": 97
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 100,
+                                        "Id": 17,
+                                        "Amplifier": 100
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 250,
+                                        "Id": 9,
+                                        "Amplifier": 0
+                                      }
+                                    ]
+                                  }
+                                },
+                                "id": "ThrownPotion"
+                              }
+                            ],
+                            "CustomName": "海賊エスキモー T5",
+                            "Health": 100.0,
+                            "ArmorItems": [
+                              {
+                                "id": "minecraft:leather_boots",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_leggings",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 15,
+                                      "id": 1
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 2
+                                    },
+                                    {
+                                      "lvl": 15,
+                                      "id": 3
+                                    },
+                                    {
+                                      "lvl": 10,
+                                      "id": 4
+                                    }
+                                  ],
+                                  "SkullOwner": {
+                                    "Id": "727e12cd-2351-4779-bfa9-e4e5bbf288dd",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0Njg5NDQ1MTgxODgsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYTZjMjZiYmE0NTAxMDE4NmVlMGFhNThiZTQ2MTI3MmFhOTZhN2Q4MjY5YzFkZWFjYWVhOGZmNGM4OWU1NyJ9fX0="
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 100.0,
+                                "Name": "generic.maxHealth"
+                              },
+                              {
+                                "Base": 0.3,
+                                "Name": "generic.movementSpeed"
+                              },
+                              {
+                                "Base": 10.0,
+                                "Name": "generic.attackDamage"
+                              },
+                              {
+                                "Base": 0.5,
+                                "Name": "generic.knockbackResistance"
+                              },
+                              {
+                                "Base": 32.0,
+                                "Name": "generic.followRange"
+                              }
+                            ],
+                            "HandDropChances": [
+                              0.0,
+                              0.0
+                            ],
+                            "Silent": 1,
+                            "DeathLootTable": "usb:entities/ice/mob1",
+                            "id": "PigZombie",
+                            "HandItems": [
+                              {
+                                "id": "minecraft:potion",
+                                "Count": 0,
+                                "tag": {
+                                  "CustomPotionEffects": [
+                                    {
+                                      "ShowParticles": 1,
+                                      "Duration": 0,
+                                      "Id": 25,
+                                      "Amplifier": -128
+                                    },
+                                    {
+                                      "ShowParticles": 1,
+                                      "Duration": 0,
+                                      "Id": 27,
+                                      "Amplifier": 97
+                                    },
+                                    {
+                                      "ShowParticles": 0,
+                                      "Duration": 100,
+                                      "Id": 17,
+                                      "Amplifier": 100
+                                    },
+                                    {
+                                      "ShowParticles": 0,
+                                      "Duration": 250,
+                                      "Id": 9,
+                                      "Amplifier": 0
+                                    }
+                                  ]
+                                },
+                                "Damage": 0
+                              },
+                              {}
+                            ]
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

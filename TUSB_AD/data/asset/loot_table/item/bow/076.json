@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "弓が使えない骨の弓",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とあるモンスターが進化した時に手に取っていた弓",
+                    "italic": false
+                  },
+                  {
+                    "text": "性能はピカイチ",
+                    "italic": false
+                  },
+                  {
+                    "text": "死にさらせしゅーてぃんぐ！",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 20,
+                    "minecraft:punch": 5,
+                    "minecraft:mending": 495
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000004461d_00000000000d2e0b",
+                      "type": "minecraft:max_health",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000ec01_00000000000af277",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000052a1a_00000000000a7e07",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ca296_000000000001a784",
+                      "type": "minecraft:luck",
+                      "amount": 100.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1376 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "るーみあのお気に入りアイテム",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o元々は治癒の効果をより強力に引き出す",
+                            "§4§oための実験で出来た失敗作だったが、",
+                            "§4§oその異常な治癒力で、生物であるならば",
+                            "§4§oアイテムすら落とさず消滅させる",
+                            "§4§o恐ろしい効果を持つ。",
+                            "§4§oこれはプレイヤーも例外ではなく、",
+                            "§4§o持っている物をロストする。",
+                            "§4§o尚、クリエイティブモードのような",
+                            "§4§o「無敵状態」でも容赦なく即死する。",
+                            "§4§oアンデッドにも少しだけ効果があるが、",
+                            "§4§o即死には至らないので注意。"
+                          ],
+                          "Name": "§8ロスト・オブ・ライブズ(絶対的即死)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 10,
+                            "id": 16
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 18
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 20
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 35,
+                        "display": {
+                          "Lore": [
+                            "§d§l星雲の力が宿った杖。"
+                          ],
+                          "Name": "§d§kSpace§5§l-§d۞§5§l-ネビュラ・ロッド-§d۞§5§l-§d§kSpace"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 5,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 6,
+                            "Amount": 2.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 4,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 5,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 6,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 3,
+                            "Id": 25,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:swiftness",
+                        "display": {
+                          "Lore": [
+                            "§7上空に吹き飛ばし、叩きつける"
+                          ],
+                          "Name": "§3§l暴風の矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 20,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          }
+                        ],
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 140,
+                            "Id": 25,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 40,
+                            "Id": 8,
+                            "Amplifier": -73
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§b§l神の如し暴風を起こす",
+                            "§b§l天高くまで吹き飛ばし叩きつける§r"
+                          ],
+                          "Name": "§r§b§k1§r§9エンドオブテンペスト§r§b§k1§r"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 3,
+                            "Id": 25,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:swiftness",
+                        "display": {
+                          "Lore": [
+                            "§7上空に吹き飛ばし、叩きつける"
+                          ],
+                          "Name": "§3§l暴風の矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:golden_apple",
+                      "Count": 64,
+                      "Damage": 1
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o元々は治癒の効果をより強力に引き出す",
+                            "§4§oための実験で出来た失敗作だったが、",
+                            "§4§oその異常な治癒力で、生物であるならば",
+                            "§4§oアイテムすら落とさず消滅させる",
+                            "§4§o恐ろしい効果を持つ。",
+                            "§4§oこれはプレイヤーも例外ではなく、",
+                            "§4§o持っている物をロストする。",
+                            "§4§o尚、クリエイティブモードのような",
+                            "§4§o「無敵状態」でも容赦なく即死する。",
+                            "§4§oアンデッドにも少しだけ効果があるが、",
+                            "§4§o即死には至らないので注意。"
+                          ],
+                          "Name": "§8ロスト・オブ・ライブズ(絶対的即死)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:bow",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 15,
+                            "id": 48
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Name": "§3§l霊弓"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": -0.5,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.3,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 3.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": -0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.3,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 3,
+                            "Amount": 3.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 5,
+                            "id": 19
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "ss",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "cbo",
+                              "Color": 13
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "bts",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "flo",
+                              "Color": 0
+                            }
+                          ],
+                          "Base": 5
+                        },
+                        "display": {
+                          "Lore": [
+                            "§5§l深淵なる者を倒した証。"
+                          ],
+                          "Name": "§5§l深淵の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 1.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 5.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "ATK"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 5.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "ATK"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 20,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          }
+                        ],
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 140,
+                            "Id": 25,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 40,
+                            "Id": 8,
+                            "Amplifier": -73
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§b§l神の如し暴風を起こす",
+                            "§b§l天高くまで吹き飛ばし叩きつける§r"
+                          ],
+                          "Name": "§r§b§k1§r§9エンドオブテンペスト§r§b§k1§r"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 10,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 50,
+                            "id": 4
+                          }
+                        ],
+                        "HideFlags": 2,
+                        "SkullOwner": {
+                          "Id": "32e352ba-1e7c-4b78-8cae-4587893ba79e",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "uOh3foZa3ZY6uQE1ce6EC4gr0vKFgyMZPSIToF8zt6KbmepVNonLyoJOOfqKzEvaUSo5ivHWNQ0odxQWKUnJeRXoKJVgyRjr9HExow1uhoL45pfegg1O7ch7dSHc2OOD5i9ULv21eOVQotDRg4MDFdUXfPNeZG8vR8rjtmgnP/cKkh5OK9JRCK0tcCB0lBIWhQIcJKrqZQoDNyeaTWmU5WMqTOnRwQbF4R2FoCzQSqhQ3f8hIVNlmwWZ2MhqpqhsaQ8f716sfYKZ6ID338XoGSvYZA5yfJ7E9zckQHFPNsiRdqIITCknszaiFPyv1HHaazTk7DYiAg4lgdB0XdU4L8r+bHL4PgXRYMHs7PKLknMKkjUElv/s0cN6IOMix+XizRVcRMVxXcFIDO4OKrnERgf8Ax19S5nVCc4/axu+WWiDC1uumH3CApaH948e+yqNnnf3uRinMWMszMGGcurr8NAZhsyY0ZehjKYTG+NMYoWBxYUv5RPgrvsOrhtWDiXQpf1Ka2FFHyh8AlRvbtQb4v6sYdeO8PsxK+N0PkIlWj+VUf6hKdhdzNEPyPOnqToyj8cx38QnLbcNzl3SNjF6mSTkhdT2mtthTOQF+ZmrrtE1gQW+9uHujenJANyV1fnL1PeZBOgPwcmY+JV77KH5fclpjv+dG7l4MR3bhuzmyYY=",
+                                "Value": "ewogICJ0aW1lc3RhbXAiIDogMTYwNDIxODA2OTA1OCwKICAicHJvZmlsZUlkIiA6ICIzMmUzNTJiYTFlN2M0Yjc4OGNhZTQ1ODc4OTNiYTc5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJydW1pYV82NjZfRVgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ3YThiNTM5OWM2YmU4Y2Q4NzIwZTlkMTVlODMyNGFjMzM1ZTYwODM1N2ViYTVmMWZhYzczZjQ2YTM4NzM1NCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Lore": [
+                            "§4§lえへへ...///"
+                          ],
+                          "Name": "§1黑いるーみあ§l"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 176802,
+                            "UUIDLeast": 585900,
+                            "Amount": -0.99,
+                            "Slot": "head",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 1,
+                            "Name": "generic.maxHealth"
+                          },
+                          {
+                            "UUIDMost": 648988,
+                            "UUIDLeast": 741832,
+                            "Amount": 50,
+                            "Slot": "head",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "generic.attackDamage"
+                          },
+                          {
+                            "UUIDMost": 703252,
+                            "UUIDLeast": 598613,
+                            "Amount": 20,
+                            "Slot": "head",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "generic.armor"
+                          },
+                          {
+                            "UUIDMost": 701662,
+                            "UUIDLeast": 246526,
+                            "Amount": 0.9,
+                            "Slot": "head",
+                            "AttributeName": "generic.armorToughness",
+                            "Operation": 1,
+                            "Name": "generic.armorToughness"
+                          }
+                        ]
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 14,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 20,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          }
+                        ],
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 140,
+                            "Id": 25,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 40,
+                            "Id": 8,
+                            "Amplifier": -73
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§b§l神の如し暴風を起こす",
+                            "§b§l天高くまで吹き飛ばし叩きつける§r"
+                          ],
+                          "Name": "§r§b§k1§r§9エンドオブテンペスト§r§b§k1§r"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 5,
+                            "id": 19
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "ss",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "cbo",
+                              "Color": 13
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "bts",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "flo",
+                              "Color": 0
+                            }
+                          ],
+                          "Base": 5
+                        },
+                        "display": {
+                          "Lore": [
+                            "§5§l深淵なる者を倒した証。"
+                          ],
+                          "Name": "§5§l深淵の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 1.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 5.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "ATK"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 5.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "ATK"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 10,
+                            "id": 16
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 18
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 20
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 35,
+                        "display": {
+                          "Lore": [
+                            "§d§l星雲の力が宿った杖。"
+                          ],
+                          "Name": "§d§kSpace§5§l-§d۞§5§l-ネビュラ・ロッド-§d۞§5§l-§d§kSpace"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 5,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 6,
+                            "Amount": 2.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 4,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 5,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 6,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 7,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o強力な治癒力を求めたが故に開発された",
+                            "§4§oロスト・オブ・ライブズの効果は",
+                            "§4§oアンデッドへの効果が薄かった。",
+                            "§4§oそこで我々は「発酵したクモの目」を",
+                            "§4§o配合することで効果を反転させた。",
+                            "§4§o予想通り、アンデッドMOBに対して絶大な効果を",
+                            "§4§o誇るようになったが、当然のように",
+                            "§4§oアンデッドでないMOBへの効果は薄くなった"
+                          ],
+                          "Name": "ロスト・オブ・デッド"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:golden_apple",
+                      "Count": 64,
+                      "Damage": 1
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 3,
+                            "Id": 25,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:swiftness",
+                        "display": {
+                          "Lore": [
+                            "§7上空に吹き飛ばし、叩きつける"
+                          ],
+                          "Name": "§3§l暴風の矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 20,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          }
+                        ],
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 140,
+                            "Id": 25,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 40,
+                            "Id": 8,
+                            "Amplifier": -73
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§b§l神の如し暴風を起こす",
+                            "§b§l天高くまで吹き飛ばし叩きつける§r"
+                          ],
+                          "Name": "§r§b§k1§r§9エンドオブテンペスト§r§b§k1§r"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": -128
+                          },
+                          {
+                            "Duration": 3,
+                            "Id": 25,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:swiftness",
+                        "display": {
+                          "Lore": [
+                            "§7上空に吹き飛ばし、叩きつける"
+                          ],
+                          "Name": "§3§l暴風の矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:tipped_arrow",
+                      "Count": 64,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 3
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -25
+                          },
+                          {
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -128
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:luck",
+                        "display": {
+                          "Lore": [
+                            "§7ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
+                            "§7それ以外のものを癒す"
+                          ],
+                          "Name": "§f§l祈りの矢"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:bow",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 15,
+                            "id": 48
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Name": "§3§l霊弓"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": -0.5,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.3,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 3.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": -0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.3,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 3,
+                            "Amount": 3.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 7,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o強力な治癒力を求めたが故に開発された",
+                            "§4§oロスト・オブ・ライブズの効果は",
+                            "§4§oアンデッドへの効果が薄かった。",
+                            "§4§oそこで我々は「発酵したクモの目」を",
+                            "§4§o配合することで効果を反転させた。",
+                            "§4§o予想通り、アンデッドMOBに対して絶大な効果を",
+                            "§4§o誇るようになったが、当然のように",
+                            "§4§oアンデッドでないMOBへの効果は薄くなった"
+                          ],
+                          "Name": "ロスト・オブ・デッド"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

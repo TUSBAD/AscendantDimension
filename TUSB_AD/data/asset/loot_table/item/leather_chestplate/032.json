@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "aオールドイブリース",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "underlined": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "underlined": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "神秘的な力を秘めている。",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 0
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 15,
+                    "minecraft:blast_protection": 15,
+                    "minecraft:projectile_protection": 15,
+                    "minecraft:thorns": 15
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000000",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.01,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000002",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.8,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000003",
+                      "type": "minecraft:max_health",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

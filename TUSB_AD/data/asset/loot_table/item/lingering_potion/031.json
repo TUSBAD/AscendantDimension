@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エリアスーパーエーテル",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "マナがすこし詰まった瓶。",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "中身に触れるとMPがかなり大きく回復する。",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 3,
+                      "duration": 3,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

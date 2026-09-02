@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エンダーパール",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "高品質の煉獄印",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

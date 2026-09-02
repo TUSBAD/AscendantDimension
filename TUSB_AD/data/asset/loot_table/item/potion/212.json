@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "リコールポーション",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "飲むと初期地点へ戻れる薬",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:invisibility",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 30,
+                      "duration": 20,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

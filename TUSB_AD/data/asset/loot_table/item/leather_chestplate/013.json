@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ハンターレジスト",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ハンター用に作られた胴用装備",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 8074022
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10,
+                    "minecraft:unbreaking": 2
+                  }
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

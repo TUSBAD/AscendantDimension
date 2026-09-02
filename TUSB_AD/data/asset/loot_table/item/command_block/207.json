@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ブーリ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "採掘速度低下+毒",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:4b,Amplifier:0b,Duration:43,ShowParticles:true},{Id:19b,Amplifier:69b,Duration:25,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{ZombieType:6,Health:960.0f,Attributes:[0:{Base:960.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.33d,Name:\"generic.movementSpeed\"},3:{Base:2.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"},5:{Base:60.0d,Name:\"generic.followRange\"},6:{Base:100.0d,Name:\"generic.attackDamage\"},7:{Base:1.0d,Name:\"zombie.spawnReinforcements\"}],Invulnerable:0b,HandItems:[0:{Count:0b,id:\"minecraft:shield\",tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"cr\",Color:12},1:{Pattern:\"sc\",Color:12},2:{Pattern:\"flo\",Color:15},3:{Pattern:\"tts\",Color:12},4:{Pattern:\"bts\",Color:12},5:{Pattern:\"bo\",Color:12},6:{Pattern:\"tts\",Color:15},7:{Pattern:\"bts\",Color:15},8:{Pattern:\"gra\",Color:15}],Base:15}},Damage:0s},1:{Count:0b,id:\"minecraft:shield\",tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"cr\",Color:12},1:{Pattern:\"sc\",Color:12},2:{Pattern:\"flo\",Color:15},3:{Pattern:\"tts\",Color:12},4:{Pattern:\"bts\",Color:12},5:{Pattern:\"bo\",Color:12},6:{Pattern:\"tts\",Color:15},7:{Pattern:\"bts\",Color:15},8:{Pattern:\"gra\",Color:15}],Base:15}},Damage:0s}],ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],CustomName:\"ブーリ\",Passengers:[0:{Particle:\"iconcrack\",ParticleParam2:0,Radius:2.0f,ReapplicationDelay:0,ParticleParam1:79,CustomName:\"ブリザードオーラー\",RadiusOnUse:0.0f,PersistenceRequired:1b,Duration:60,Effects:[0:{Duration:140,Id:19b,Amplifier:4b},1:{Duration:140,Id:17b,Amplifier:4b},2:{Duration:140,Id:15b,Amplifier:4b},3:{Duration:140,Id:4b,Amplifier:4b}],id:\"AreaEffectCloud\"}],ArmorItems:[0:{Count:0b,id:\"minecraft:leather_boots\",tag:{display:{color:8700415}},Damage:0s},1:{Count:0b,id:\"minecraft:leather_leggings\",tag:{display:{color:8700415}},Damage:0s},2:{Count:0b,id:\"minecraft:leather_chestplate\",tag:{display:{color:8700415}},Damage:0s},3:{Count:0b,id:\"minecraft:packed_ice\",tag:{ench:[0:{lvl:17s,id:0s},1:{lvl:1s,id:1s},2:{lvl:2s,id:2s},3:{lvl:3s,id:3s},4:{lvl:4s,id:4s},5:{lvl:5s,id:5s},6:{lvl:6s,id:6s},7:{lvl:7s,id:7s},8:{lvl:8s,id:8s}]},Damage:0s}],HandDropChances:[0:0.0f,1:0.0f],DeathLootTable:\"empty\",PersistenceRequired:0b,Team:\"AreaBoss\",Glowing:1b,id:\"Zombie\",ActiveEffects:[0:{Ambient:0b,ShowParticles:0b,Duration:2147483640,Id:11b,Amplifier:2b},1:{Ambient:0b,ShowParticles:0b,Duration:2147483640,Id:14b,Amplifier:0b},2:{Ambient:0b,ShowParticles:0b,Duration:2147483640,Id:24b,Amplifier:0b}],Tags:[0:\"AbyssWarp\",1:\"SkillMob\",2:\"OldShinen\",3:\"FastCast\",4:\"King\",5:\"akuu\",6:\"NextWar\",7:\"Soul\"]}],id:\"XPOrb\",Age:6000s},     SpawnCount:1s,     SpawnRange:8s,     MaxNearbyEntities:1s,     RequiredPlayerRange:50s,     Delay:-1s,     MinSpawnDelay:3600s,     MaxSpawnDelay:3600s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[07:44:44] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

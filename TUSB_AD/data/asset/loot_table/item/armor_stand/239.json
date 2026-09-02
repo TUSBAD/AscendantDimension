@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "displayTest",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "CustomName": "display_test",
+                  "Invulnerable": 1,
+                  "ShowArms": 1,
+                  "Tags": [
+                    "NotCauseEvent"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

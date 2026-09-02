@@ -1,0 +1,132 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "PIG",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "アームチェア",
+                      "italic": false,
+                      "color": "blue"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "630万回",
+                        "italic": false,
+                        "color": "light_purple",
+                        "underlined": true
+                      },
+                      {
+                        "text": "の",
+                        "italic": false,
+                        "color": "white",
+                        "underlined": true
+                      },
+                      {
+                        "text": "テスト",
+                        "italic": false,
+                        "color": "light_purple",
+                        "underlined": true
+                      },
+                      {
+                        "text": "にも耐えた",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "設置型の椅子",
+                        "italic": false,
+                        "color": "gold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "人参棒",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "を使う事で向きを変えられます",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "※使い方は正しく守ってください",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:entity_data": {
+                  "CustomName": "椅子",
+                  "Health": 0.009999999776482582,
+                  "DeathTime": 19,
+                  "Attributes": [
+                    {
+                      "Base": 0.01,
+                      "Name": "generic.maxHealth"
+                    },
+                    {
+                      "Base": 0.0,
+                      "Name": "generic.movementSpeed"
+                    }
+                  ],
+                  "Silent": 1,
+                  "DeathLootTable": "empty",
+                  "id": "minecraft:pig",
+                  "NoAI": 1,
+                  "Tags": [
+                    "SystemEntity"
+                  ],
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100000000,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Age": -100000000,
+                  "Saddle": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

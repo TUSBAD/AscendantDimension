@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "忍者の魂",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 7
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 7.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000002",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.7,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:profile": {
+                  "id": "0-0-ca-0-2",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzQyNTgxNjAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjQ1NDJlOWZmYzFjMDg0N2I2MDExM2UxNjFmODNhZWZlMmQ4NzJiNTFiMmU0NzQ1MWUxODZlZTlhYWVkNjkifX19"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

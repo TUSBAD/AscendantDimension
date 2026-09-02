@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "クライムエッジ",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 5,
+                    "minecraft:bane_of_arthropods": 5
+                  }
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

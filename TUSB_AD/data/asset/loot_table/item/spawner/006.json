@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "空っぽのモンスタースポナー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Advに置く空っぽ(に見える)スポナー",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "MaxNearbyEntities": 0,
+                  "RequiredPlayerRange": 0,
+                  "SpawnCount": 0,
+                  "SpawnData": {
+                    "Block": "minecraft:barrier",
+                    "Time": 1,
+                    "id": "FallingSand",
+                    "DropItem": 0
+                  },
+                  "MaxSpawnDelay": 60,
+                  "SpawnRange": 0,
+                  "Delay": 0,
+                  "SpawnPotentials": [
+                    {
+                      "Entity": {
+                        "Block": "minecraft:barrier",
+                        "Time": 1,
+                        "id": "FallingSand",
+                        "DropItem": 0
+                      },
+                      "Weight": 1
+                    }
+                  ],
+                  "MinSpawnDelay": 60,
+                  "id": "minecraft:mob_spawner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

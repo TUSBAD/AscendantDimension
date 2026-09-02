@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ほねゆみ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/give @p minecraft:bow 1 0 {HideFlags:3,AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-0.5,Operation:1,UUIDLeast:863755,UUIDMost:280093,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:-0.5,Operation:1,UUIDLeast:717431,UUIDMost:60417,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.2,Operation:0,UUIDLeast:687623,UUIDMost:338458,Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:100,Operation:0,UUIDLeast:108420,UUIDMost:828054,Slot:\"mainhand\"}],display:{Name:\"弓が使えない骨の弓\",Lore:[\"とあるモンスターが進化した時に手に取っていた弓\",\"性能はピカイチ\",\"死にさらせしゅーてぃんぐ！\"]},ench:[{id:48,lvl:20},{id:49,lvl:5},{id:70,lvl:495}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.give.success\",\"with\":[{\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":{\"text\":\"{id:\\\"minecraft:bow\\\",Count:1b,tag:{ench:[0:{lvl:20,id:48},1:{lvl:5,id:49},2:{lvl:495,id:70}],HideFlags:3,display:{Lore:[0:\\\"とあるモンスターが進化した時に手に取っていた弓\\\",1:\\\"性能はピカイチ\\\",2:\\\"死にさらせしゅーてぃんぐ！\\\"],Name:\\\"弓が使えない骨の弓\\\"},AttributeModifiers:[0:{UUIDMost:280093,UUIDLeast:863755,Amount:-0.5d,Slot:\\\"mainhand\\\",AttributeName:\\\"generic.maxHealth\\\",Operation:1,Name:\\\"generic.maxHealth\\\"},1:{UUIDMost:60417,UUIDLeast:717431,Amount:-0.5d,Slot:\\\"mainhand\\\",AttributeName:\\\"generic.knockbackResistance\\\",Operation:1,Name:\\\"generic.knockbackResistance\\\"},2:{UUIDMost:338458,UUIDLeast:687623,Amount:0.2d,Slot:\\\"mainhand\\\",AttributeName:\\\"generic.movementSpeed\\\",Operation:0,Name:\\\"generic.movementSpeed\\\"},3:{UUIDMost:828054,UUIDLeast:108420,Amount:100,Slot:\\\"mainhand\\\",AttributeName:\\\"generic.luck\\\",Operation:0,Name:\\\"generic.luck\\\"}]},Damage:0s}\"}},\"extra\":[{\"italic\":true,\"text\":\"弓が使えない骨の弓\"},{\"text\":\"]\"}],\"text\":\"[\"},\"1\",\"rumia_666_EX\"]}],\"text\":\"[17:34:07] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

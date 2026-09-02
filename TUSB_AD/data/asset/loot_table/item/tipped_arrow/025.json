@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ｾｶﾝﾄﾞ・ｵﾌﾞ・ﾃﾞｯﾄﾞの矢",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｱﾝﾃﾞｯﾄﾞ系ﾓﾝｽﾀｰなら",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "3秒間に2回射たれると",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "と",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "即死",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "する。",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 29,
+                      "duration": 30
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

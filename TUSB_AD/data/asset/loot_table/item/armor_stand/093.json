@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "宿の印板",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "豪華なテント",
+                        "italic": false,
+                        "color": "green",
+                        "bold": true
+                      },
+                      {
+                        "text": "が出現する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "※十分な空間がないと設置されない。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "※",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ネザー",
+                        "italic": true,
+                        "color": "red"
+                      },
+                      {
+                        "text": "や",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "エンド",
+                        "italic": true,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "では使用出来ない。",
+                        "italic": true,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "TentPlacer",
+                    "OverOnly",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

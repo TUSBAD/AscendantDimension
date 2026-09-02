@@ -1,0 +1,693 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エーテル詰め合わせ",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "バラけると大変面倒な、",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "厳重保管重点！",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 14,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:potion",
+                      "Count": 6,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 10,
+                            "Id": 14,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:strength",
+                        "display": {
+                          "Lore": [
+                            "§2マナがちょぴっと詰まった飲み物"
+                          ],
+                          "Name": "§3エーテル"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

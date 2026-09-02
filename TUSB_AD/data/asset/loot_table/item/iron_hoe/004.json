@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "草刈り鎌",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 1,
+                    "minecraft:unbreaking": -2,
+                    "minecraft:smite": 5
+                  }
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

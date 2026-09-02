@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "どうも ",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": "塩",
+                      "italic": false,
+                      "color": "gray",
+                      "strikethrough": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "Soluto3090です。",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "The Unusual SkyBlock 製作者",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "おまけ用のチェストです。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "ここまでプレイして頂き、",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "有難うございました。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "CustomName": "§9§l§nUnusualSkyBlock 製作者",
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "f80dacfb-fb53-4020-aad5-ed82d2fd5e94",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "cQc1RFx8m9gNKSAONfBmxq9YuvzGm9ghz0uUCkmxjWWr0zVrCNmaovRuIoRCOJzdD1q6QKq6BVsk18E2LJuHp+WiRjupPX1Tpi1eAAi5ZZ0Pyjv92onvQtjShtxHesbxfav8vQkedHycNy62HNM83doGhl2ZoqUXzC8C9UBpaI1uDRYOdTGTOD0rwx4wlNdbWOBYeDTymLoxxnaNd0QoZ6IJz9qekVxBIXgdQIk/UMJK4Xe5nKZyRhWdrcg+5QBbXBiezaxqeH+DdfkHCaKGFGmIRnWhCCgRBEK0V52v2vo0TQhcQWh+b0bNiJkRJK/95ONLS0QVH3NK2dQpL3EBfuDfjwW0dV4UwKuK8dMcLgsaceUDxY28XZve5MrICDLHT3tm1ys9JVR2CsyOHSDEWY2H57eLjuzjwggJpp4JyS2+aLl5MR1nt8btCxcYiJ5xfSVi7uAxWM6aOZHCFRlx2YlhrxbHmQYT5KJIxed573dz9kLewUYhSqHV+DZxKVGOSNLCuwV5nfKVzF1rwMgGdTZhywNzrfH7kvYUCOBLAXi4lVglJAOfpav+GY2FLvdXH4Anx9pHNvmlN6j+VvZjAviD18aBdsZQemY4iHMhLYd3eI5NNHPLwfCk8tTn2Y/EXMjIaLPaSDNB0aL4hE7SLyXrHvXSDtS6IFEm69Okdo4=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MDY0NjI1ODA2MTcsInByb2ZpbGVJZCI6ImY4MGRhY2ZiZmI1MzQwMjBhYWQ1ZWQ4MmQyZmQ1ZTk0IiwicHJvZmlsZU5hbWUiOiJsYnBfdGF0dWhhcnUiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4OWM4MjJhNThhNmI0NGM4OTM2ZGFhYjVjMjYyOGE2NTVhMTQwYmE1OTgzNDE0NzZiYWE2N2VhMTYzZDYzIn19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "lbp_tatuharu"
+                        },
+                        "display": {
+                          "Name": "§7§lハル"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 1,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "4b22f09b-538f-47d7-b7ea-c79ab22276fd",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "uX7uLJafJMy5nOFamJiRUWXz0CDtkVm9fU7g63Deqyf8ss282bxmZZCkiEc55SlxSpjeM7CTRX4kGlOV+jAgLnd759o/Q6dtmsxNPrr/F0fCmLBt5+IYX4QulcbynDJWfbl2a66Y90ZF4llNN7mLdzZJFCFwHk7vm9Hxt29IyBU+sRPX7OiCU3Jpr/vxD/oeX0CX79jtC+PZIXYQc8K4v6WTGbAmpoxz+zt9qrr3VwhzWBX5B+l5/DXvOY8jGrczMDfw5v4gsjnCrEBzitrDagRlcRyYMo4Ukx1C5jZyKB8xetqPdymv1ISB/CKFyu4L4g8jqLdmjov+Zavp9NCm7MNlH2a1LxXQeoDYrFsFGDcK5o895xuxzOPIivz3uUXinDS/9+rl4fOvpGU8mgIV4oXyt/T527WVaRz7WShlk8E0CUMdn7CXQShiWKkd/eb1sOqAqWSsSjdAlMN5d0p0Sl23zrYDDWHUxl8yc0qnhSGb9BH8x+VyI9xLvMqbDhqQ+m5+kZei9/tvbpn8r31Xb5pXdG+PNOiyTae+PjY2MjHB1GRupeVUYG2ekyydZOH9y7TNSVl9ckP8c4H/DMNvBDkjTsMYh5slKMuV9Nr2fiaoz1DG+9fKFkzqtyCRezjk2VrUeZ878IKT0mcjukzJ13lDDl2cEETN6PZWyBplVh8=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDY1MjQ1NTAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZjYzNlMzU2MjcyYjQ2N2FhODFiZmYxYWNhNjUxODdiYmMyYWE4ODE4Zjk4MjgyODZmODczZWRkZTQ5ZDk2OCJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "anminmakura"
+                        },
+                        "display": {
+                          "Name": "§f§l安眠まくら"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 2,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "1f6e76ab-9e26-4436-b014-a1fb09674fe6",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "h6vmutruAB97cLXDzvrVA5ZIoNCezI1G+BmBJE0u/2ONNSUy1JqS9N6tHJkwHa36KhjS5L15ZDhLEd/K2qUarSE7/Uy0gmE5ztV+Y8RlTMrVN7j/kQ8WcY2zBpt4VIYPOB3pfmMf9zLEfQom+LIZBG3cFd0tGp1xavaCNnCCYi7ZS4GVUEOntyGzFOVpW5ybF4tXOVMRrh4JXC+EIwIO44JhcdquKtNvrLpuOaWWm5EYo/MR7hc5lkT5wtChGGqv12yrGOuM54/47lOop7ElY28C+QIolSESWxjWII2Yk0Xfa3KIcpJNIveoaHOf/SMW2Cm9l/XlI6Du+gOdPuaHOhDKWIIHYymspfyIQfgWsl1rY0GoqvQ1aNgRjWKspDvHsJpAmQuWixu0S9Zw+szTw2JHH7c+QJkMeV30oxjF43pC+WdQkhCU23c/kszFJNDBD1gkjo0z5cLT957873ZDLGGaruziM/3Ck7Uprx8G6GvYCotdAMui8nuO6LbytAwewB+i9v0eyj7mIRSw/BRxoKS71YwmGYrYkwe3N+3+vxa7Sz5ZlLmOm175ZzgYH0Y+UgYPC70Gi8xi1XMOR7bYKQ6ypncaFBpUTnVacpg5YbJwtBJs+W0wh+WUSSYbRVsSn8XMWqoIm4snFdwcjaTrK25Zi/SUawmH/3ZuNeBAlcQ=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDY1MzMwOTAsInByb2ZpbGVJZCI6IjFmNmU3NmFiOWUyNjQ0MzZiMDE0YTFmYjA5Njc0ZmU2IiwicHJvZmlsZU5hbWUiOiJha2FzYW1lIiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYmE5MTI3YmZjOTI4OTJmNDU5NDFkZTU5ODU0Y2JlODdiNjAxMmQ4MzliN2JhOTZhYWMxNmI3NTMzZjQ1ZjIyIn19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "akasame"
+                        },
+                        "display": {
+                          "Name": "§c§lあかさめ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 3,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "925acbd2-d1de-4bf6-a692-cfc38bf7e6a0",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "nDnDDDY/IIl2WfJjF5qRFL1d4o78VkHuWjq7QbNQKY9JM7Tc4TvdxW5Z2Gu1xmufsLdEplUToX3P/c9+FOTC5GCVHlov1UnWT/x0vwy5WR3ZV5tVhG641z26wVkGrgyud5xKtLqtLwPU3bB0HB4uzKIjQL85qFFfQtF3J110i/8s/Fwdfzd+OyUJpVxOgXnCveJYlI6ZiTShJh/dvTWNHP6Q5OlHrhooioe243809h44eDzZvLTL5SjAP8lF9g53GRiwclirG4r45vtn/Y0/s8OHm+dXVyOEvOfmhVeeKb6DvofXATep1atNF2Cc+I0LbDaBAqfQ6dv+AyaH8sCiYosczgsXfb15SDUSDqgWROV1aJgGHM12MnSJx68oAR9ho/ASodRrHVXeXLTlh+sR8/p6fYVqXcESkGl9fv22VYk9S6zng2TcNiEm3zZQpN0CcwGpef4iMlirnDLR72CcToGaR/ivbZkVsUNAN65J9FMM2mW5JUpfpMvDofoi0+8I7ip0zzMHIY1rLJ3vMAi5+dMF7GX/0RWx3qh22yT5MMyLFfsL54CoHHdzdsZ0VRHOkX2yj+D4A50I69aru62R1UiIfhX6a33dtWtSnCCGns62DLUrA02/pw2D5Ug9TIGKHYxmnkv9bE7Vl39L1Y7uOc+G8JImGvoX5Hv2HsS65gw=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDY1NTE0ODQsInByb2ZpbGVJZCI6IjkyNWFjYmQyZDFkZTRiZjZhNjkyY2ZjMzhiZjdlNmEwIiwicHJvZmlsZU5hbWUiOiJYcGlja2VsWCIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyNDViYjc5YWFlZjExMzUzYjI1N2EyODYxMWYwZDRjNDU4NmY2ZGM0YjRiYTJlNDg3Nzg2YzlkMjYzZWUifX19"
+                              }
+                            ]
+                          },
+                          "Name": "XpickelX"
+                        },
+                        "display": {
+                          "Name": "§d§lぴっける"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 4,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "24206453-25d1-4db4-ac4a-55a55873e6fd",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "bnj4CpoYrwhNf+2hod3ZdpMmF3GyC5ymI5Wo+4QD/V3M8PtHq58q32QcUNcx8fe0tdUXUnNUir004hgVxzkN3JTEzJ3M3MQMJsbqzkXs9MxGtg3gbFraDQmDPxvOmp4p0PKOej9fHlwj8kqdj0aEDRnWrLxhyu8flzSd7llvRj3KRfxGOYYS0N8H3f+Wc92ITZEJjwGKG8OP9UyrF5xHxNyMBoGDGI3mPr8H27ZQlnfe3vCdHVbScMGmoDYeTwqyX6aWeRwV3bzZC6OLK2a6qGArdjNLokLoIX7VkWM0ipIOgH8DOWNnFxIW4cqUyxcNqQHdX5+Foo7nPQ/FvQQe7D6styKocAhtozq9s9vYSGHQK7Fi0LfHA0VK6WhCXZfuLgH7jn0IPN3e44USNudy5X5lpwmdD4GeBrow1eAY5F5tvkrhiRnECKAF6oQltfmBMF9BD4TYg2nniXbgUiEAtCaEdRHOMvYeajb10BAKaHlWCGPwwoaXxvPxFlDBNfM0LDfRHFUv9DLYJLH7kev0P2uXmkxrXYXebSQXbZNy73QIxd1YSL4vPAOWUAQUHFbQ6F5qYAn9RPd91tsLy/LHCTsinuecZ62WDFCEEPEvTZEvfF4Ilcg1cgWq6zw2xD230psQrANNDTYgHgi7RkbNxZxf7Pvv2Jkr35CjPNIjgXI=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTM1NTI5MzU1MTgsInByb2ZpbGVJZCI6IjI0MjA2NDUzMjVkMTRkYjRhYzRhNTVhNTU4NzNlNmZkIiwicHJvZmlsZU5hbWUiOiIxMDI0S2l3aV9BbWFsIiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODQ2MjY5ZDI5MTFlMWIxNzQ3NzYyYjJiY2Y2ZjVjZmMxY2QwOTdjMDM3NjhhMWU5MTg0YTVlNDNhYzkwIn19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "1024Kiwi_Amal"
+                        },
+                        "display": {
+                          "Name": "§a§lKiwi"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 5,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "bab7cdc2-f6ba-47f6-b899-f23add2e7c7f",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "l8RGNsshsNbkHxbcUx0lRSEW6Te9bphRwNTGEHIilUGSvxW6tqyAKjsiytjnXyNTGQRW0EjI+f/tnEL8qkqbq+0leJzlcyqrqBYHFiL/++mDncVNQIYFpL7IetPIbgjmkVo+DTy1OhGVMYQ104KG8jxDOhB1V5OPIBd5tVvwtmI23LxJZOLw7GxAXdB6y2wg4nZRaIqL+SxIJyfdai73T1fj2x43cYQI8vkGwAvq/y7XXY7BLzp8OyAE71xq6r8tdB1MMHRjE/T1s9KQsU3AvbgTY5uWpmObzjZny3paolpFn6hIQC00jcb8W3rAM2hQX2PUOAhc9fK6+R7+Ei7mjXFgE/klOl8PUV/WB6gzJvM61bI8JIs+a3CqFAnDOHofPoUZHhyr9Qf8O4zqSApR7un3Ppj/f5ee/PZuwBMI7NzSIedts2RCf1RDHvOBAq0TUxlyuf2jkZyGPEDuAf7UAJaYiKvn9vNogpcj40dJg3fx3VrKpI9kk2Z68nOQLd5dm+iZb46cC+zkqRX/MI4Wsr1cZ3ja7unibTu6UUleoB0zEIR3nWLIry+SMjrkRgbHHO10uDunu2QbowQeLSonpWm0KuM5QSI1ptvQs8hXZojJItjaHL44e3KFFLlfXMUWryIi/0GUMmDtBPxNTHpk1DpPvdUPurVVoq52D05Tb5U=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTE2MDcsInByb2ZpbGVJZCI6ImJhYjdjZGMyZjZiYTQ3ZjZiODk5ZjIzYWRkMmU3YzdmIiwicHJvZmlsZU5hbWUiOiJNZWRpY2tfbWMiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YwZDI0OTNlOTZmYTI0ZDJiYjY1ZTZmY2QxMTYzOWE0N2ZmNjQ0Y2Q1OTg1ZWExOWM3YTc0NDM4NjMxZjQ4In19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "Medick_mc"
+                        },
+                        "display": {
+                          "Name": "§a§l赤石愛"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 6,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "606625da-6704-42ec-ad2a-2cc9bb79dc86",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "Tj+hN8EusByXfAXV1XUmpwgvs5jMxO4cePQwHZO3OC4gw5QgE06+jU5XgAfI2GGcRTG/io/B+TxQ+U7UWcnranzVVWw+8/vdJb2GVSKWp6L52VaRthkqCHj7d+q4g3EAWHJ1CWjZFNIQPtcsqbtPXAqGQ1lElfuFwf92DQSog6l0ejJ0dOOZZJvyqJsHqWhNBhhtH/fYFRqjkFv72ODVB14/fnl4yFWX23z9d5g5672floIpfLsELGy93E7t23fAkQAowM5eNia9QE8bKYxHzg9j3w1vlSVhqwlNQPVEsmoPXDNl2jGYiUGnYuWe5ov0A3q8B7HyXCpGlWwjM908IIszRdVTkcgmq1SOdTXvExWIPjWnflYENlv0++TsWkDO2LowfMoPArkl63QDz1o9VazvPZdZDnLud97RrUtpJTsCR3BvZ+94mFRP2OUxZ9GW2dr5di9f0tCkZicLVLKq1gVXlz7eO1VeQYyKhwllbAzjBqMqUvYDmZCyXGtTVdggEkRoCycBPdtLOJt5/kvt53FkerpUCTp2aLqaaD3fR8qHsHOqUWAy77SIwUHyRstio9sVh2B9IKXbyx+uboe36kRq2PjlCzjmfHcD7Rvg0n4yulzCvHDTP1wck4HvbsQRdBJv/hKzbgCciDC7KgJX1gvmWv4O4OmS5pSyccd8Pi8=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTI4NzYsInByb2ZpbGVJZCI6IjYwNjYyNWRhNjcwNDQyZWNhZDJhMmNjOWJiNzlkYzg2IiwicHJvZmlsZU5hbWUiOiJ0YXRzdTAxMjMiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg4NjgxMmJmYmMyNDI0ZWMwMzEyZTVjNjg2ZDViYTdiMWViYzE0YmFhOGU5MzcwZGI3YjViZWQ0NDI2ZmMwIn19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "tatsu0123"
+                        },
+                        "display": {
+                          "Name": "§2§lたつ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 7,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "851567a7-f408-443a-92c9-2005b59d40a4",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "TO01+IW/G32V+dW93YyHtHWRL1xXsNNoFclVvH9t8mfxPdAcgd6spWRQ3b7XssHbREkJ4l0mUWolw7lQVjV6GzfdVCjEH9g3vVejVb19LfMURd5wsPJv0xdtEJumD5aJ7jjFwQrixYHFUc2KPFx3Ime3jpTuTGGEXoEUDY70vXBxcjqNLrvddHkLPXlbfSUJAgGOxRMKsddHrLDqoiWW9BPKBu0z0854Ilt5nxO3zYNjh1GbCXv+e0uhX1jmBhe7crF2lUthRbH6Tw6xIhMilKA7j8DfRBWbFRKkW3Gx6iQgpyncvnxC5o687mH07NVF5RFgjl7umYfHbL1I62vK9FBBBOinIxe49fMuOsLKjUQGBGoQOutGRmpFF/dVbSlyKb4vC63PyzaToUc46U8r0+TejCk7ymZJW9VzNeyoUYsEmmesM5ZgCLRSEOK92NuzFQlqPi2kPzkG4vbBrgYgO8de/xtpSDKeSR5D8QvM4QhsV5Ny+TUQ9927y2R922KUBC3XPEbcR9yTiGNGkgyC0xyfvyDbPxPA1rqz6sbt4BZfp+s1gb35Yl1+nlBhJoR40Fx5wHY7sT7ciL82CLId6hXS2eMpCeUaCmN/PMqRdPYFiopu9QZQsQ3PNo3DXAS8a/Ekrioa2fUdplfFxXKSU/GEQFNt5ZCOECDr7Ri75eE=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTMxNTMsInByb2ZpbGVJZCI6Ijg1MTU2N2E3ZjQwODQ0M2E5MmM5MjAwNWI1OWQ0MGE0IiwicHJvZmlsZU5hbWUiOiJBcmdvbjM5IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZmY0YTdjN2Q5YzczZWY3YTlmZmM1NTVjZTJlYTgxZTUzNTE2NGViMTg2NTUxZmJiOWE2MjQ2YTZiMWM2ZjYiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "Argon39"
+                        },
+                        "display": {
+                          "Name": "§6§lArgon"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 8,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "a1cc8eb3-9a59-4b7e-9970-f5482632c0bb",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "oB+HLvH9jqb69jSBEBBRgTjPmkY6Un/GzH9N9Sy8yzC2qqoMEZnZeKJCrQNf/qGLh7ePGCzKyAnMICdaFl7QTwrZxJoPYJvOS+2iBrUs1MS8ltumV5Bd1icxZ6Q4rLrM/R9r3p3GqjKFFSO/Qetkq9lfUTA8lPK2Y0vwz1/Kwuj26ey7IB9FMBp2nM8M4fApRKKneR6gxo8KU3ubsSeKfM+f+Kz6td7tIZkz9Ls9iS2oobO8o04qF/RCZgCx3oPzqqLyPGOlhhLTd39rK+sJeBLv8abdKdcVdVwLgWAVkp9luEJz/KcR/GWuL/tuCMjVZcuoKPUws+x1KO4QbvzGTzbNZJDKK/RMYPm03c4p6yukwTSskVj+FfPRIF0v+1aWOILX01SQip7NoJqCwbq0gEwn2EB5ilkCyw6RiA+ht3tPYVBjSqXky4wP+b6iyW2FBDv/E4UjUm2Uc7vjxHmoEpny8/Dapy7dvLfqpSjlISAmXKnbdz5Lg7v473bTR5dD2vNUVlCVTr7heg3LfXih1jVoFSwd8+tosZV+HazwAZFWO+Xt24PdBZSt0WIK6uvQN1yVITKEP0LXQTd7+1nsLKrU90oYqiPQzoBa7j4GA/nWOYi9H2ebmrLhwbip803NFBEsChdNBnREZvxGMm5+D3o1d3SsGqhWVxrxPuReyXU=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTM1NTI2MTAwNTAsInByb2ZpbGVJZCI6ImExY2M4ZWIzOWE1OTRiN2U5OTcwZjU0ODI2MzJjMGJiIiwicHJvZmlsZU5hbWUiOiJFaWppdHN1IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MjEzYmM0NWNjNDYxOTM3N2IxMDRmODJiNGJmZDgxMWZjYzY3MmYyOGEyNTZjNDJjYmUxZDI0MTY2ZTY1MCIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19"
+                              }
+                            ]
+                          },
+                          "Name": "Eijitsu"
+                        },
+                        "display": {
+                          "Name": "§6§lまいんみかん"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 9,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "7cd274db-c6ce-4fe9-a41c-493a1a75bc33",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "T1zMBVxc9UwKFvc9HFcsemYCuAgJPb63RNf0xfc11rNfWOUPZkJj2HIewFdC8L8mD6FY5CmmUgaCPyT+brDM9CUJD8/s+1/uv5XIVh0d6m6REZaQ6eBPQ93mRvFAzqAYKlgcC7bLlP1eZnIYEozojFEaYRGFkZHuq8UINuvNvLroq1FoGls8jOXBooVqsMGMJ9iuK15VVh0Igz4NZDPbUr2vKVZZ+BgyPvnMmpHjHY67CmlfBMw/KDxJVrvCOLSFF0zWb6A7SrTFmkP2GBHR5H3x+jY3JveU6KgF9Y+Ve912XCoE0q5B6aHsDbhAH16Oh8gc7yexYtwVS0Sv9SeE5ZVcD25emNOXoNBjSxIrILZJC0gn01sxDAESvVarCofWS6n6gf0fnDAkiAxhJaojILL/P//Kk98A2xnwB0h+RFOjmsxV2CN3TGm1PKhfL8ueKiP1L325jETabqFEXtp5fNOUoHfQAbMAJKiqJvhlPwKXro1cfkAN84WfZ1tbHhVLhRML15/16ZlPx8r1nbfHBVNpMzWcYBUsCUHJQyXd13e1/LWWjWU1842hO7MpmMxmBc/uQPhXamUJI7ge3yrL9Y1TmGQFsTq0WJZtRb0Ysd1HWX8UzmPcfvR7CVITTPp/jacvsFGo9MW2gavlX3YATQqaFaQGIcZ1/+5giKUMbck=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQwOTAsInByb2ZpbGVJZCI6IjdjZDI3NGRiYzZjZTRmZTlhNDFjNDkzYTFhNzViYzMzIiwicHJvZmlsZU5hbWUiOiJmdXJlbjI5OCIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4MTJkOGRhNWIwMDc4NDBiN2VmNDVjYTM3M2ZlNjJkMmU2MmQ0ZGE2MTgzNWE2ZDhkZjE2NzgyZDZlNDgiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "furen298"
+                        },
+                        "display": {
+                          "Name": "§1§lフレン"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 10,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "983f8a92-f0b3-448a-ae54-7f94ecf9d956",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "CqK6cs2CWy3enPL7qpRg24E9+Hax9D4dLGe3PTvQQL+KZ9uFUY26S2mnmB/8FPOXZC0jgy1pz3brCZIRZhgFFvxe+kR/WqPW9PWip61eouCiQZ/bHhy000Jr2x85V7p5i0atpXgFDB5dd5NPASpGavVmApSAQbhWA3e4LecVcnRY+kiaSDQ1NE+vMHZgyN09hWTG2eI9byyC4ZoUPWtSnZ+T2NI0i8IHiezpReEMMYEW14EVNcQwSeJpYDZBuII4lvVHeUGhdAoi6vYRJI6pSW9KpRmngOjKpjEa3yTZmYtB3Uf9uVSsj+Ymo6gN7cGZYjyGAtZ+coBp42d/hLoKc9jy1Tv+OFerFnyPDZrdsR+R5IqhVRAfnZrTYYJErbU3YEsjXBEpzTvQWaV8SZRRflXIGnHRXB2CLDu46j/9mJ9RBPBLbSLXEu6FViP5JnqXjQeqt9i/tI0JglH3cyDPzrqxLMqkVZsSJ1XEGC1JCROM/ec7AU0bDH3nfIx9WrWaoCquSzfCszds1/CE7OVIMtlmwzBdL5EDl+4pOaI/s9GEPFkq0t23Ew2k9EuA6T3PNGSPv0STDREZg6Rt6SckgbTebTT6VX4ofKQGuQZT0c7ahSEwsfVmg57fpQOM0fAdbZU+En3rUlW8VpRDZBxRDeT4AhRU+yI+Vp1Ifby7oto=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQzNjgsInByb2ZpbGVJZCI6Ijk4M2Y4YTkyZjBiMzQ0OGFhZTU0N2Y5NGVjZjlkOTU2IiwicHJvZmlsZU5hbWUiOiJGbGFuamFycyIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2MjQwM2Q5N2M5MzE4YzI5Y2M2MTc3MjFlMWMxMmI0M2VlNzJjNjgwNTFkNGQ4YjViNjI1OTBlZjQ5MyJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "Flanjars"
+                        },
+                        "display": {
+                          "Name": "§3§lふらんじゃ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 11,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "0e5640d1-59e4-4626-b305-aa49b2ed0f7d",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "CkX97j7DrmpXPvpTEuu0uE+/ZoWGRjShRQcxyQAE0oxSpn8I/gI2UwOq3Eybth0yopyGL4uzXeAt5QcEGXZKfaV5Gh7NplM0uvOMdhzrNoQ7Dv2mv/e+GS9A/sO85D/TmaktCnb0mMAjpyphwuCzPlTQiw879N13B9u1qJu1nUyA+OuGSiHTZ+uAUHJ/cbCwHofQPAcDfkdRNVcskIzmDPOZdB0IxxBbugI7DW80pvJjtParHqcntZH7kf8ij/PCeQ59jYgibR4cqwBomASmEwA6Fe433DIJr6dLWOWSIPLXBRHs6rt77mJQ3W7WqY7xmGfXMyVtXGMZTSV4kpu977okWpWV7Rm4pQ03c8hF8UAAfQyqIXWc8ljkrkz1g5ytuh7LZrCXPEVwXZfZHXLgG/SJV5bPA3IIHAUttebIO7EvHz+FTWidhQClyFGmfOIA8/YTJaJdgGryOz9jOucB5GWonPf1bPgUz2GfbGAzfshaoatMjlzDWAazBTWHJNotyIVj6xAjt+Rqa53S22WHhzS3EEM4nE1EC/u3x3BsWZjGdxG8gimuAA7Ho+XgbLy/S1B/bC86KYceKUxr+JBdDumiU/ecy811hZvJQUM7zmHbQJYrlL52zpBjLwQJiq9Z0ykCAiu7zBzdnk/7eKWUGHujESJv0ZD9JmbDijA3uLA=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQ2NzAsInByb2ZpbGVJZCI6IjBlNTY0MGQxNTllNDQ2MjZiMzA1YWE0OWIyZWQwZjdkIiwicHJvZmlsZU5hbWUiOiJDUkFGVGRzZ2FtZXIiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0YzRlNjNiOTFlZDIwODlkYjc5MTc0NGYxY2RlMDc1NDZjOWQyMzJjZjA4NTJmNDJiOTE0ZjJjNTM3NjFkYSJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "CRAFTdsgamer"
+                        },
+                        "display": {
+                          "Name": "§e§lどすがめあ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 12,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "c9b79323-d7e8-4eae-86a2-b74e0c9469d6",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "pgsKARD/UH/2ow/ClhbQVwVLXSisNIHvwKbUR7nkeLWplL2SRakaMsb6cGIh8M4yPdo4tV4a9YMkpRrshNoaEgqEMxWVyfYzw8wbwdeyHOoP0XjeFM/HjDi1pMxO7A3f1OR4BjBLcYBEZQFW+f6uN5VVGTskpkBwNobs0/slm7QDX6jfxDgkKcZI8JOlNMy/kwoy/mDTsk+ZSIjVOsUtsy77gTIlnbiHYGiHblquuyb/Br+VdGfFbBH5njCpNK5HTKI0qICVvttHXeiapflmMDqg0vtDmMcL3SiL4ttMV4eZdMM5APviWVd6tmDKBz8z1v4TViz2KjWLC9aqT3Zl4jKHRngy7wWJzCVhgSU3trGXGFg18JUYFO8JxJaonrNYGOVAP9lE+7iOvAuXYUVFOPUk6BMUIYjkKM++HddX1Zf6IdvvN2x9AINDbHqa5IQ9Zp5aUTngIi0zjxRn1MmWACzzhorSZyTan12jX2BSXQESplTGDOdgYill0KJO2XgfXopwhtJv88tYh2fAh92EQcZARzLtDpnP7EV9ncQpuv9zX0tQlFsmoc+iAJBu91fAC5iNfnOakB0fvlVeqh2biFfwW9fdfwL/ck8m2jItXe0gA8rDg3KDeDYtpqoSvYfJ1cBGgrs34bT9BCmxtzBfU1vyI0IwowswyeKM83Rx86A=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQ5NjYsInByb2ZpbGVJZCI6ImM5Yjc5MzIzZDdlODRlYWU4NmEyYjc0ZTBjOTQ2OWQ2IiwicHJvZmlsZU5hbWUiOiJzdXJhaW11bmFpdG8iLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiYTRhODIxNmRlM2ZkMjU1ZTMxYTExMzFhMjUxZTJkNGZiOGM4N2U2OGE5NzVjNGRhOTU3M2E2ODg3In19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "suraimunaito"
+                        },
+                        "display": {
+                          "Name": "§6§lオレンジ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 13,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "1a3c216f-b6ae-4c9f-9ae1-452c7e0712e1",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "OqYSbi1WjMLIY8ZSigR1Z2hi/Tm8ME2aNZkVgtGfyUQCSutUkcuRFRDBe2lQMtw6VN6BS1Ruk/76DZQO8img5guXNwz4P0+ytunAxRvH8Fij51Fk9lNaAMVXuMUEn79OsbMOppKz4mItSGIeMT272MdUBbNgJa5xooG0kN8GhfDl/ix1pHK1ObXItY5176E5ghJTYOhmKG4Z9B1sjXy8UGO5ucGTZZhsMHd61Z2wgZ1YauFuYc4SZSztx0gkvPPuR1jms3FVs27RbMS4KFhTdABKlwpD/UYR3ITMXuPqT9+rKh7I9F0VRL4HeWet6WuFHBEZ+acGqC1tENP9POLxWf3MLrIAe35wGi7PCVi/dbLIG70cl4y/H1PijnG5XiiN8r3t2Idg8vqrIsN/ioTYWYZh9UlzyQXvTbwrURrBlMQ0ITZETbDgGt46yPjVVf7BlqdPJtl4tdpctEEq/ubIr8gx5l7gvUrXD4g4Bc2mVl8TYP54y/n6vKXlFjdWr1aSOrEub4Ndteh1aw3jGE44Oi803EJ3+GmgwjzHFJV+bv98YgNCacbC+P2kXUvj4CVPuk6U65HOQBkE/3WeYbrQ/eDVLVnU/z9JtmER/vtb898LiacQs6A1MRcey+LbFuW0CeLsZ6N186fEHuDddT0X4HqXY88Ny2nw2FOpYvIWXUc=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTUyNDUsInByb2ZpbGVJZCI6IjFhM2MyMTZmYjZhZTRjOWY5YWUxNDUyYzdlMDcxMmUxIiwicHJvZmlsZU5hbWUiOiJ5dXVzeWEwNTE2IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNjhmN2RlYmE1ZWM2NzY1YTdlMmEyZjIyMWU5N2QxM2VlMjFhMDU2MTI5ZWI2M2RiMjBlNGMxZWEifX19"
+                              }
+                            ]
+                          },
+                          "Name": "yuusya0516"
+                        },
+                        "display": {
+                          "Name": "§2§l塩昆布"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 14,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "2881a231-4bc0-47fc-9984-9fd2c981c56d",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "Gr9KFE3trq1xzo2RzAln0O1/JeY4y14yFlE5xUPmT8wVQ8CDjniRjfIRgF3UhVb5mTcRx8y4zdRZtBys0v3NetBd7sS9fOwe9y7s01O/EJLd2HNEvFUyeOFC/cbGUPMAp8OcLRH/31eh05bNMG8z709l7U3eq8qHONOAIEdb1nwIoI5vW5oyrhfn1ytLHcyKIJsL330n56JvRt7nx2gtBXUfsluvRq/G1sNBatxRxnMF9/qv0ta9OD9wFSFxfyCOLrB0RMlqIpqYADPcFNqz1TX0djuLUHckoLV5D1UfGst/tYBTenaxu6o4z7AzzHUy/dNMg6VlXJDPxZFTyMU7uv7ipU0gR2OhXtJWdE/zjdO/0O6VsEFdI2o4UbrbpZJHVsXF1sO/uEiMRl9hsE+aYM65iu+HpvzOhqIe75Phnx9Q25v0mZU/yiRWhB/7IgdluFFc4/5pWOJMtrqL8BzwI1sT1AcZGtx2cVVqvHlyknM8mham3i0/siZGnckIjtMbRiB19y9znZrUirALBLNIWlHWPfSBAarEGid02vPEe+cziENBezavXg/PWHdMq34W/J7N7FpJp8a42dNvo9VEbudbrXCdaO6Znu1m7WIQDgQiXGMtROWQdz5jdLsdZ7Hgc5o0oLKV1V4l9XuDn/3aaeWUaSwlDMhJ6ffW+XtKlBQ=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTU1MzMsInByb2ZpbGVJZCI6IjI4ODFhMjMxNGJjMDQ3ZmM5OTg0OWZkMmM5ODFjNTZkIiwicHJvZmlsZU5hbWUiOiJZYVMwMDQ4NSIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmYjlkYjgwY2I3NTY0NGNmYzllZDhkNmEzZjY1YTc2MTI5NzA1MTZmYTAxODY3OTUxZTMyZTMzMWQ1NyJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "YaS00485"
+                        },
+                        "display": {
+                          "Name": "§4§lYaS"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 15,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "88f26d73-a2f2-4134-b60a-9319580c229f",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "qWiPDWr6axCi+ud+ZAw68WMtSyWAVMcDc6zgfMJxHxb8lB3BrXjYwtAY1Uzx1FXF9gn6ZZ556qhY8B7J4tKD/BWOnypvBKFuvzopr/f/rfsC9+sdcs6M+Y+I+zDNr0TENtsFQWOkR/p9W13Or9jefSRXUHvu6M9zNh4L77jgw8YWQKqToPRvFfCb4ZqtGEZPeuuw90+qqUZwQ02XPzEveM3MYHI/ERTErKBqme8ttGMIQ7g0ERdsyyZFJQYavAI6im+QwVJ65yMshGBXQKffawxgaCBzSy8i9JJqEqT9RijExchVRDEWJtp/9a7cmI0xXp6WxzT2pLVJaUnEWt3Aa7olXhayLa6UIwPI4QxzxcjMrnGWBgYzz+lWp1NyjbNf/ZbInuknF75vE//uZMKDRn0gAEOK+R8NxExHuSHFiDHPD2bf7s36o8AU/QJVuNIUpIjCahKa4Tfl7Gw6Q/mRvsLAT5ICNA0OHzANpAv/iEIyDJOjfjMXDpTkzTIs+Jv781cuKK/TUznM/UzI6i7/m5lA8Ab9/OlMwImiVV2UaoSW3tQgtZ2PDa9u6gHC5iZIGg8ivFOoYD1dmXq1urcUQJ19AWHu40jEIGaoltM50SjyC5Yk83XqR8j10O3rL2N7+fZnKzAfBuaymNnRFN9TXFbreDw9RsE4WfuFoiU1Aq4=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTU4NDYsInByb2ZpbGVJZCI6Ijg4ZjI2ZDczYTJmMjQxMzRiNjBhOTMxOTU4MGMyMjlmIiwicHJvZmlsZU5hbWUiOiJuaXRyb2JvbWIwOCIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFhODg3ZTUyYTA5NGVkNDhiMDU1M2IyMjIxOGU5MWIzOTRmMDMwYmIxYTFiZGM2ODIzOTgxN2M0ODkzIn19fQ=="
+                              }
+                            ]
+                          },
+                          "Name": "nitrobomb08"
+                        },
+                        "display": {
+                          "Name": "§b§lこゐし"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 16,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "5500ab1f-8283-4c3c-b00e-eaef39eeea5f",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "HOgtj5aPAY92qFDpThjlPVzO96cFRl8K/AdB70rKaSZnQdUrSLsdMHmkHMH12zTQFaEv/rSSmvfpcFsIsayt0xhMaO/J7dNmc+fO3ME7+8kHC+Zk0x098a9iwSFmr4onKpySXI++YD94NpbgbIQVGwWBlQUrmbCBsT3Z9usz4UvPdTpwT6/oOTLdN1+IUB4ps7DbddjpCkEw7VEIp7feOA2jrKyv+zfgRJbxaAAajut603Hu8z2IbKZgxw9qjxMuDcm/Dpz51yUKwXq67sFFBLfERlhIsG0jbUU3R7yFZTB4oIOmEVvk7sMriKRDaxGYEmOUu5XSGlTs9H1WFmQTns9SfyD8N+O7WdGOaaMt3SfYAdpQxXqpSGWGKF5DcNYkqZl+3EwQZ8Z45K/2drTmNZC5gHMIPH5rsxbLtokn2/ocBMokdq7PBIOKPAM2cGRDz1neMXvYz7cMGHBmYsghrmJ0JTFtsGKwmUN8L6qR/LOfCLBaTFWb27A779TOo93EnRcG/pqQtsU798efXJh42yNfcWZI/Sqhle2EgLrg8Tf63vrW0joLYRhGR44UZQQEUMiTVj8vnZsoq02wWTY2ljMGJ/UX07WKIiSIPXILlfLHuz+jq1JCgRNCY4uTt8GQe044391Uwahz9H5GBwyjsOBJmY0MolCu+ZS3jSbatLA=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTYyOTYsInByb2ZpbGVJZCI6IjU1MDBhYjFmODI4MzRjM2NiMDBlZWFlZjM5ZWVlYTVmIiwicHJvZmlsZU5hbWUiOiJwdXJhbmFyaWEwNyIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YxM2M1ODdiZDY2YzY5YTNiYjlkYjJmN2ZjMzMyNTA4MjQ1ZDk1MDhkMTJhOGFkZWRjNzFiNDRkYzg2MzgyNSJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "puranaria07"
+                        },
+                        "display": {
+                          "Name": "§c§lぷらなりあ"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 17,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "437cd577-c0fd-44f2-987f-130a4692b0bc",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "gelASn/rNFxUfxiQ5M7qlRrcqNkSFBCjfGilY1f1gw/UUL9USNd0+VzBPB5WIOc11Yk0BEtQPzspXOS9DJ6zybNMokfwcJhXq0qMdanzcWwEpRAQMIyXFQxq7rZ6VefvogWC5njNyMGNSc6VPeTHVG+qSdaF4qSHAHs1gaPb7ts3KwAZtSp9dpv/zm6Dfn1QprbpIkTIPs6V7U6XnBUGpZEJoO9Oip9k5eu4ux5n0C4jBAKtYtftjJvANywL8ZD/doa02IOhOl2cDS0ooaZlbyKHnmnzndPTRtB9b9306DBquu3EAuBxMoizSG17YlECwGPSPChPZUuDun5jmvSO6u1t3waHki1QXTzACnQN0z8A0u6npAmd92zcqXHxqgeN9vs5E95bInKGJ426yAeObwgl/v7o9c1P5P5FgRasbGISygluT41utSkqbDS24Vc3VPZGHY/C6okfUBY9dZCRnpc5yZsyToxQ3PFrUhwGQgyu/GIDwofpgFDKtjmOeESeQaX6NP5mYZ3AX24dDZn8P5QkRUmDiHrcKt8Asl2ryfqIdGzjo+X5CQk5onS0iTJIFB2DYifalZkGuUuAVOrvSwJ6+9kSrfwmUb86p7IOyws+modlc5G96A6Vtzs5W/hsSBAOF5hK4qsYj/0sOUu5+GnDgXU+hS4iB2mw6q6TCBw=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDc0OTkwNzgsInByb2ZpbGVJZCI6IjQzN2NkNTc3YzBmZDQ0ZjI5ODdmMTMwYTQ2OTJiMGJjIiwicHJvZmlsZU5hbWUiOiJuYW5haXJvMjQiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1NGM2MmRmNGEzZTljMWYxODE3ZDRmYzJlZTc3YWRmNzU2NTEzZGVjMGRlMmY5ZDQ3NGFhNzI5NjY0YTgxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0="
+                              }
+                            ]
+                          },
+                          "Name": "nanairo24"
+                        },
+                        "display": {
+                          "Name": "§9§l七色"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 18,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "67ad3997-3245-4294-85e0-c3bdcd6cc201",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "hN3UeDz+Q1HaesGR4nGt8E3guTtlAOyzG6JOYyR4gjEHSgLgYklCxkE9Gy6sp9/ivqbwYRGx5AlVo0LM5VEit9v6QXlsPX5gsaHPpydh5kYYhqfOrasGXakOG2LobKrEsVmlyGhjBaj9DBdtQf1gJrkbm9cEML+PptF1ORu33bZCgZ53oiX9vKnAbmyG+094DLi+81ldJMBLdki9Vks1xyytnjA9C++culdpaTcj8GGgh1ikssbuzJPY4OP8ybESlmi+vjL6litRiyKVmh9UG5A5VsZC/2q5mtwkMR+teo+fR4LU27+OhO3sLWF2NikRe6g9YbgVpDpBuOgf4hNPOLZgk9hxZSiVtK5NAPYO9Jt2gA/O1IQG4S2TGcr70zkanlGRp954OjvFQXGJ5g6ey6t7pShs+ALk9rtcwX01Ux8Ym48qXh59rYBPEL+tY+AF/VgB/CUZR3FNE0x6xYK5wx43OEQTttXArEOTy+TUl/Iji9JnGTdMlFYhnDnCIkyvk1nb22OK3AGzae9foZdEQ0KE2rw2LL1G1WAnt6g8qVG2CbOoc4sGA75SgBSQc+/EC7qTfSEamU0RHvwjZp+nr9FYpXYp8/BJA5kWOw1FRDNLQ/peb1y47Mzf9rtD1GDYr70Px6p/j3xZfS2EvKFwobdhDPSDU1HxaGb6HsHRYmI=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0MjM0NjkwOTY0NTcsInByb2ZpbGVJZCI6IjY3YWQzOTk3MzI0NTQyOTQ4NWUwYzNiZGNkNmNjMjAxIiwicHJvZmlsZU5hbWUiOiJSdWl6dTM5IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZDczOTc2NDJhNDg5YWNhZGRjYWUwNWExNjQzMzcxNTNiNTU1ZDliY2FlZWUzMTE0ZDQ3NjcxZjVjYTEwOTIifX19"
+                              }
+                            ]
+                          },
+                          "Name": "Ruizu39"
+                        },
+                        "display": {
+                          "Name": "§f§lRui-zu"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 19,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "6ee89f87-9134-41e2-a1e8-2c8810e60bd7",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "FM2IcrphEl/Fz83gJq/RmUGgIOjP7bjDxN9ibKZwVKXrtnx/DN05Jw/7O+pS/WHbmK+RHRdS43GeBvZJsdaYcG5z6dEzhN0/8M2AfU12Z/PsLVJKfIyxtPWdZosMuHhug0RLnmuj68zUnB8UCge2Emyuaf06LAZvbAgCP+XRyZbIW09yv/EwBSXx5iS4zp52oRFjBKYQeC3N/0OvImxcULiCk0WoZStutpPvD+lw9lo0bPJC8T6xugEhEFqfwhoRk+FymH86O96BQQW9GOmkRnkdVVxNOe2hjLOu7d2smRCTT8SXAL/pOs+nX1WWPVN7HR3J81rlTcn4S1oD5UkUH++ryxEzlZIgdKim4EUPP+pWRM3kR+MNZZc/RYYKVNvIUZYcQfZLkCrsmdwYAodIuGQ0ujCqPJ6+oTNPWcdZeV8BlKp+KN6PYEL/ClXKNgYYaemEA2v2G+LX/b4iOGbID8oD2sZgh83GGvX+wEURKtYFPT28E2K/tG9oZnhBHnYI3YRMm12qlu7bxkakhHv+ThkaTspHBoUBccuFVqkk9cjYmWayC7GJV0Qz7aSm0R3DgHwplKNMvR/vBdkUeCrttBimAzJxDs59VY6f3fMzikllWCwURcFPZ/FGhA41v8AFDhotIzJCP4Lv5GX+UW0Jxuxch16C4YG1QhDVnUorIWs=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NzQ2MzEzNzYzOTUsInByb2ZpbGVJZCI6IjZlZTg5Zjg3OTEzNDQxZTJhMWU4MmM4ODEwZTYwYmQ3IiwicHJvZmlsZU5hbWUiOiJzYXRvcmlfcmVudG8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifSwidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGIxZDc3OGQ2NGU2YWNhZjY0NzIyMDY1ZDU3ZjNkNzY1NjI2YWIyMzc1MmU0MzZjZGMyZTE2NDRjZDBhNCJ9fX0="
+                              }
+                            ]
+                          },
+                          "Name": "satori_rento"
+                        },
+                        "display": {
+                          "Name": "§b§lれんと"
+                        },
+                        "ID": "6ee89f87-9134-41e2-a1e8-2c8810e60bd"
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 20,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "5514078c-8e0a-46fa-8059-dc7c17266f14",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "cUJwiNY0q4/UGOpJEVtLGXACoqBQS1kf+qFqIGJc+YpufBfG0YzDoOtQjOMSWVo8s5Fw4MZsldz70dWgrZV8XiaztWQ62c9YUSEER76XJYXHEpTf+OZD4Ny5ne3Dot0QxZt9UeSg/z5hf9WXTqtuw7enRn3UWasFe/H4ZOUsw5oxciQFr3RilG8mxvmxSdOnU02+eHucIFKZ5rLHEKcrXL4oZKTZ+qxe+vrzZKCxw01vqxzDE2UlvlkJszf5NgqSWYqY/p12GeSXP0/W9VZEOSdO7RxcPLdHW4LaWMZ8F/uLlKVC+WEnlakCXv/gYmvV3CWhRiFkPMo/8brohyHBAt+mKrjxOLQGm7Y3CMV2nv2qpOcT47AveOgJVuKSIJrCNKIkTvOtWiVXOsS7w8gb05KcIokFxq7xPvWfjaYeCcie2h3YkBRPN1FrMkR/R+cPqske/TKNzotq7eCNoBkJ8pmWM3PmYtonMvB1lyJg157j405xE0dhNUjL3u+clNjLUsrkCXqViigmtdhQPvPtHUnppkeciiHGGBifAjlL8CJgqurM3zznUA81qiQD7IMq2upamtEBzlfv2NamjQOgEtdUtWPsAR91kn9mNKR7yoDo0KrgGzPQk/dZKM4qq3A82cH3gpwEUfkT8IPCaMYX0vJmim09FKx3XcCpCIBd0Sg=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NDg2MzY4NTQxMzAsInByb2ZpbGVJZCI6IjU1MTQwNzhjOGUwYTQ2ZmE4MDU5ZGM3YzE3MjY2ZjE0IiwicHJvZmlsZU5hbWUiOiJibHVlc2FmaWEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2MWU4NjQxNGZmZGJmMzNkNjlkMDJiMTQyZGU5MzQwZWZkNDViNjlhMTgwYmU3Y2I0MzA5YTE5YjYzNTkifX19"
+                              }
+                            ]
+                          },
+                          "Name": "bluesafia"
+                        },
+                        "display": {
+                          "Name": "§b§lサファイア"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 21,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "fc49a2ac-746a-4191-b444-98143a2d5469",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "cBZd6UpAc5omh1TLv0aucUlZoWF7kGQw/tSNfTOr/2vXXIQDJOMMLvB7u5tj0g+zFZo+pj2hjRIcBGqVYrQOKiaxGkXLtijWeWV+0WMeLXzfg+GOq+zLMEeqMoyQYLckEn1V92rKVXn43yj+zBMhQFIK+ySk8ZX5XxWtI8etm68AljK/45SR9UEE7P0xZ5TERK9EaEWYbkp1t3QHejp10Be/lCaZeGhnzJ3lQTC82AqkS7KZeWxuao28XbhCwkgMvJNIectQjXw2Y9XnWujYwN5x7QfRvEWFMf9pCq133uv1AK8yI+yJKOaHgmOP0orHZNropqtv6hZf20w1Z9mHhLBszdtyHW3GV1EfGI/Y1nazVqn7wwWDSF53p4sQRxS3SyR1mTbwYtJoGORHbjWRwDuIYKOk6LHv4EFUIX14M/+04+OVi76Cq/Me1qiy1X81BuLtxHz4No8uJFoUtrMJAeV6JDFuPq5MvewYn1htEzaT3vb0WRPsyWLTJBcQLQSoJuU/X48jtPZsmpxBqayEdD9SGaV46donRdH/X3hHI+zmqclWc/IKVHPfFeQwMrWjyiNv+yhdWA/VtlWzX1CJdsQGJu1WkKZZsz9Wz29Qr0zkntIw8eoDlJVfe1dkY48YIcsUjeApo4cHqrHUM/VA3UlZKzMVZN3n8c8k8XNbxyo=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTc0NjE4MzUwNTcsInByb2ZpbGVJZCI6ImZjNDlhMmFjNzQ2YTQxOTFiNDQ0OTgxNDNhMmQ1NDY5IiwicHJvZmlsZU5hbWUiOiJ3YXhzZDEwMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMxMDVkZWZiZDJlMjM5ODU3ZjE1ZGNiZjc5ZTU0YjVjNjY5YzRkZmIxYmE0YTQyNjRlMWNmOWFjMjE4OTEifX19"
+                              }
+                            ]
+                          },
+                          "Name": "waxsd100"
+                        },
+                        "display": {
+                          "Name": "§e§l誤字りんまる௵わこから"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 22,
+                      "Count": 1,
+                      "id": "minecraft:skull",
+                      "tag": {
+                        "SkullOwner": {
+                          "Id": "f3bc2368-e626-4014-9585-7b1e1aad837c",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Signature": "IJvfLAWV7c0qR6+WhGfHXgHaNFGebnMtDYpm46kIAW9QLZ/YPICZ+Dz0W8wzJguaCK13VppfeLWSAryOT0OQ86D4YYYGZQ+XYMeBHQHVaJ5BGcjeBURGJmDAvDifdEMnGwRRX81GP7VbGFFvpMq8PLCuUWkHMUbBto4H06HkYKv+TShHOAlbfGHcSiJTC4LgOkTdyRIiyb/EDJhqNliP3XUezUguIdimYfnbJYFrgtk1EhvCi7Mm2ZHbURkpoQ9FW7GAEEo+hw4w2QtffxTptrYODxhd0dlaQNzxPs7FAhmt9TDJvHi1q99dERfzx8w0/A40FkCqf1N9alENE/SAvMxOJkXvTM8RYbLUSkgqEAcueJZNYqu9it+D5f87FtocgxUCqhIjCIB5fpJFHvjN3PyVaeL8cnleStNuT8Twqxdjjk0yyprrvV6dbZqsY3I4BfR4LAJgPAJLae4BiRbRwKBXZB4L9UUyJYBXAfAUgf9P2/gNuxymKh0fh1uF78JiwOghr6nuhaJNKEvc63Vy7wcdUjYN3ZNw3zPiJssuhldK2HbJPNKITVGNe5Io9HGVg20bP697GwKoRmi6n8g/SnwM4YGqJpjdAEMVWowlr3skQ7uCoVLn0VDk/pmoviocyrfqZWgtZqIEZCL0bx/RYv0aYrc3wAXPh4lzgT8/IW8=",
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NzQ1NDIwOTczNTYsInByb2ZpbGVJZCI6ImYzYmMyMzY4ZTYyNjQwMTQ5NTg1N2IxZTFhYWQ4MzdjIiwicHJvZmlsZU5hbWUiOiJSb29rMDYxMiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk5NTZiNjRmZTdjZGYzYzUwZThhNWZkZjZmNzhhYzhlOTFmMWM1Y2E5MDM1ZmNmOWFjYjYwYmJjZDY3NjUifX19"
+                              }
+                            ]
+                          },
+                          "Name": "Rook0612"
+                        },
+                        "display": {
+                          "Name": "§5§lるーく"
+                        }
+                      },
+                      "Damage": 3
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

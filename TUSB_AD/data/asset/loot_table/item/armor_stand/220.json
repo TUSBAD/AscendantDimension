@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "テレポート印板",
+                  "italic": false,
+                  "color": "green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置して使用すると、看板から",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "火球を召喚",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "火球",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を殴ると吹っ飛んでいき",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "看板をクリックした時点の火球の場所にテレポートする。",
+                    "italic": false,
+                    "color": "light_purple",
+                    "underlined": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "※",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ネザー",
+                        "italic": true,
+                        "color": "red"
+                      },
+                      {
+                        "text": "や",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "エンド",
+                        "italic": true,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "では使用出来ない。",
+                        "italic": true,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "PermanentStand",
+                    "Ariel",
+                    "OverOnly",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

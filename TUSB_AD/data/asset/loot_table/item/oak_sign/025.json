@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "取引",
+                      "italic": false,
+                      "color": "green"
+                    },
+                    {
+                      "text": "の印板(",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "text": "羊毛 → ｴﾒﾗﾙﾄﾞ",
+                      "italic": false,
+                      "color": "green"
+                    },
+                    {
+                      "text": ")",
+                      "italic": false,
+                      "color": "white"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "そのｱｲﾃﾑと引き換えに入手する事が出来る印板。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "取引内容：羊毛が32個をｴﾒﾗﾙﾄﾞ1個と交換する。",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "※看板が照屋な性格の為、近くに２人以上いると",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "  恥ずかしがって取引ができなくなります。",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "属性：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "永続型",
+                        "italic": false,
+                        "color": "dark_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000002423869d_000000002423869d",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "CommandStats": {
+                        "AffectedItemsObjective": "SignAffItems",
+                        "AffectedItemsName": "@a[r=6]"
+                      },
+                      "Text4": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\\n\\n/execute @p[r\\u003d6,score_SignAffItems_min\\u003d32] ~ ~ ~ \\n/summon Item ~ ~ ~ {Item:{id:minecraft:emerald,Count:1b,Damage:0s,},\\nRiding:{id:Bat,HealF:0.001f,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:100,ShowParticles:false},{Id:7b,Amplifier:0b,Duration:100,ShowParticles:false}]}}\\n\\n\"},\"translate\":\"\\u003d-%1$s-\\u003d\",\"with\":[{\"bold\":true,\"color\":\"green\",\"text\":\"ｴﾒﾗﾙﾄﾞ1\"}]}",
+                      "Text3": "{\"bold\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\\n\\n/clear @p[r\\u003d6,score_SignAffItems_min\\u003d32] minecraft:wool -1 32\\n\\n\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"内容\"}]}",
+                      "Text2": "{\"bold\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\\n\\n/clear @p minecraft:wool -1 0\\n\\n\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"取引\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\\n\\n/scoreboard players set @a[r\\u003d6] SignAffItems 0\\n\\n\"},\"translate\":\"\\u003d--%1$s--\\u003d\",\"with\":[{\"bold\":true,\"color\":\"green\",\"text\":\"羊毛32\"}]}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

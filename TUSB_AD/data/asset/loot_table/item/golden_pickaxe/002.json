@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ジュエルマイニング",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 3
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:diamond_block"
+                    },
+                    {
+                      "blocks": "minecraft:gold_block"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

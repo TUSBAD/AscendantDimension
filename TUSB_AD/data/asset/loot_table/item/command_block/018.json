@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "argonaute",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon PolarBear ~ ~1 ~ {CustomName:\"argonaute\",CustomNameVisible:1,UUIDLeast:neoL,UUIDMost:nemoL,Tags:[\"AbyssWarp\"],InLove:nowa,Owner:nowa,OwnerUUID:nowa,Attributes:[{Name:generic.attackDamage,Base:20},{Name:generic.knockbackResistance,Base:1}],Invulnerable:1,Health:1000.0f,Silent:1,Team:\"argonaute\",Passengers:[{id:\"AreaEffectCloud\",CustomName:\"シロクマッ！\",UUIDLeast:neoL,UUIDMost:nemoL,Tags:[\"TypeChecked\"],Particle:instantSpell,ReapplicationDelay:10,Radius:5f,Duration:120000000,Effects:[0:{ShowParticles:0b,Duration:4,Id:25b,Amplifier:16b},1:{ShowParticles:0b,Duration:3600,Id:12b,Amplifier:20b},2:{ShowParticles:0b,Duration:600,Id:11b,Amplifier:5b},3:{ShowParticles:0b,Duration:60,Id:10b,Amplifier:5b}]}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[02:43:26] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

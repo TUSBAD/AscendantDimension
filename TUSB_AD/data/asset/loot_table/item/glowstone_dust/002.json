@@ -1,0 +1,254 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "v",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "★ ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "マ",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "ル",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "チ",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "バ",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "ー",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "ス",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "コ",
+                      "italic": false,
+                      "color": "blue",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "ア ",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "★",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "r",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "v",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "宇宙",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "、そして",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "銀河",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "、更に",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "守護者",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "の力が合わさった至高のコア",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "全宇宙の力を持ち、万物を限界まで強化する",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

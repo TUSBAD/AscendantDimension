@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "cthulhu",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "くとぅるあー",
+                      "italic": false,
+                      "color": "dark_green",
+                      "bold": true
+                    },
+                    {
+                      "text": "cthulhu",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とある邪神の彫刻が刻み込まれた釣り竿",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "どこでも良いものが釣れるようになる",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 10,
+                    "minecraft:lure": 8,
+                    "minecraft:luck_of_the_sea": 4
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.95,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.3,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.3,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:armor",
+                      "amount": -0.95,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.3,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000006",
+                      "type": "minecraft:luck",
+                      "amount": -10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "印板",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§e上空に向けて、§7砂利§eを設置する",
+                            "§bﾜｰﾅﾝｶｽｺﾞｲ-§e奴を召喚する。"
+                          ],
+                          "Name": "§7§l積み上げの印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "GravelStacker",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§a§l豪華なテント§eが出現する。",
+                            "§e※十分な空間がないと設置されない。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§2§l宿の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "TentPlacer",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§eｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、",
+                            "§eそれと引き換えにｱｲﾃﾑを入手する事が出来る印板。",
+                            "§a取引内容：羊毛32個をｴﾒﾗﾙﾄﾞ1個と交換する。"
+                          ],
+                          "Name": "§a§l取引§f§lの印板(§a§l羊毛 → ｴﾒﾗﾙﾄﾞ§f§l)"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "WoolTrader",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e使用者の真上にあるﾌﾞﾛｯｸまで",
+                            "§r§5一瞬で移動§eすることができる。",
+                            "§r§e看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。"
+                          ],
+                          "Name": "§r§5§l転移の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "VerticalTeleporter",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§e使用すると、付近に設置されている",
+                            "§f白素材§eを強化することができる。",
+                            "§f白羊毛§eは§f雪ﾌﾞﾛｯｸ§eに、",
+                            "§f雪ﾌﾞﾛｯｸ§eは§f模様入りﾈｻﾞｰｸｫｰﾂ§eに変化する。"
+                          ],
+                          "Name": "§f§l白材強化の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "WhiteUpgrader",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e使用すると、付近に設置されている",
+                            "§r§7黒素材§r§eを強化することが出来る。",
+                            "§r§7砂利§r§eは§r§7灰色羊毛§r§eに、",
+                            "§r§7灰色羊毛§r§eは§r§7安山岩§r§eに変化する。"
+                          ],
+                          "Name": "§7§l黒材強化の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "BlackUpgrader",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§c§lけっこうな§e範囲にある§6§l原木§eを",
+                            "§3粉砕§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§3§l粉砕の印板：§6§l原木"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "LogBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§aちょっとの§e範囲にある§7§l砂利§eを",
+                            "§3粉砕/回収§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§3§l粉砕の印板：§7§l砂利"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "GravelBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§aちょっとの§e範囲にある§7§l丸石§eを",
+                            "§3粉砕/回収§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§3§l粉砕の印板：§7§l丸石"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "CobblestoneBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§aちょっとの§e範囲にある§f§l雪§eを",
+                            "§3粉砕/回収§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§3§l粉砕の印板：§f§l雪"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "SnowBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§aちょっとの§e範囲にある§f§l蜘蛛の巣§eを",
+                            "§3粉砕/回収§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§3§l粉砕の印板：§f§l蜘蛛の巣"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "WebBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§c§lけっこうな§e範囲にある§2§l麦作物§eを",
+                            "§a収穫§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§a§l収穫の印板：§2§l麦"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "WheatBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§c§lけっこうな§e範囲にある§6§l芋作物§eを",
+                            "§a収穫§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§a§l収穫の印板：§6§l芋"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "PotatoBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§r§e設置して使用すると、看板から",
+                            "§c§lけっこうな§e範囲にある§c§l人参作物§eを",
+                            "§a収穫§eできる。看板が壊れない限り",
+                            "§d§n半永久的§eに使用できる。",
+                            "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"
+                          ],
+                          "Name": "§r§a§l収穫の印板：§c§l人参"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "PermanentStand",
+                            "CarrotBreaker",
+                            "OverOnly",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§4ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ§eに貼り付けて起動すると",
+                            "§6§lAdv.ｴﾘｱ§eの§c§l色ガラス§eで覆われている",
+                            "§e封印を解除する事ができる。"
+                          ],
+                          "Name": "§c§l解結晶の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "RedSealBreaker",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1,
+                        "CanPlaceOn": [
+                          "minecraft:redstone_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§4ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ§eに貼り付けて起動すると",
+                            "§6§lAdv.ｴﾘｱ§eの§9§l色ガラス§eで覆われている",
+                            "§e封印を解除する事ができる。"
+                          ],
+                          "Name": "§9§l解結晶の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "BlueSealBreaker",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1,
+                        "CanPlaceOn": [
+                          "minecraft:redstone_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:armor_stand",
+                      "Count": 1,
+                      "tag": {
+                        "NoGravity": 1,
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§4ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ§eに貼り付けて起動すると",
+                            "§6§lAdv.ｴﾘｱ§eの§e§l色ガラス§eで覆われている",
+                            "§e封印を解除する事ができる。"
+                          ],
+                          "Name": "§e§l解結晶の印板"
+                        },
+                        "EntityTag": {
+                          "Tags": [
+                            "SignStand",
+                            "YellowSealBreaker",
+                            "TypeChecked"
+                          ]
+                        },
+                        "Invulnerable": 1,
+                        "Invisible": 1,
+                        "CanPlaceOn": [
+                          "minecraft:redstone_block"
+                        ]
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

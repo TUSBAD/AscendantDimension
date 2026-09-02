@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "宵闇の魔宝珠",
+                  "italic": false,
+                  "color": "dark_blue"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "闇の宝珠",
+                    "italic": false
+                  },
+                  {
+                    "text": "とある場所を守っている者を倒した証",
+                    "italic": false
+                  },
+                  {
+                    "text": "力を感じる...",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 999,
+                    "minecraft:infinity": 1020
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ea5d8_0000000000085011",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 10.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

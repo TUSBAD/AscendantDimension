@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "狂気の斧",
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "高い攻撃力を誇るが、",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "最大体力が低下する。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 2
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000002b42c315_000000002b42c315",
+                      "type": "minecraft:max_health",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000002b42c315_000000002b42c315",
+                      "type": "minecraft:attack_damage",
+                      "amount": 15.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

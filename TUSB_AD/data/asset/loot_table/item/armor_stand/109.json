@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "足場設置の印板",
+                  "italic": false,
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "半径15mの範囲に足場を設置する。",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "黒材強化EXと併用することで、頑丈な足場を建設できる。",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "※使用する場所に注意が必要",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "Platform",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

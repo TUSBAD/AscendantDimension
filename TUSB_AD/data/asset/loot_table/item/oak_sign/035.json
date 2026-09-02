@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "サポルビー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute 0-0-1-0-1 -1915 37 -207 /clone ~ ~ ~ ~4 ~ ~3 ~ ~ ~ filtered force minecraft:command_block 0\"},\"text\":\"\"}",
+                  "Text3": "{\"bold\":true,\"color\":\"red\",\"text\":\"-ルビー-\"}",
+                  "Text2": "{\"bold\":true,\"color\":\"yellow\",\"text\":\"サポートアクション\"}",
+                  "id": "minecraft:sign",
+                  "Text1": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/scoreboard players tag @p add ShowInstantA\"},\"text\":\"\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

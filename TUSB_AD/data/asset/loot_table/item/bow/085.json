@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エンド・オブ・エンド",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 127,
+                    "minecraft:flame": 127,
+                    "minecraft:punch": 127,
+                    "minecraft:infinity": 127,
+                    "minecraft:smite": 127,
+                    "minecraft:bane_of_arthropods": 127
+                  }
+                },
+                "minecraft:repair_cost": 2147483647,
+                "minecraft:custom_data": {
+                  "Legacy": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

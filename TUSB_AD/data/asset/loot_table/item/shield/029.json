@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "禍々しい盾",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2,
+                    "minecraft:thorns": 5,
+                    "minecraft:knockback": 2,
+                    "minecraft:bane_of_arthropods": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "lime"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "green"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

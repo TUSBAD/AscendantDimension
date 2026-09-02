@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": " 青 眼 の 白 龍 の ウ ロ コ",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "高い攻撃力を誇る伝説のドラゴン",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "のウロコ",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  },
+                  {
+                    "text": "どんな相手でも粉砕する、",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "その破壊力は計り知れない。",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "なお胸に着ければ威力が発揮できるが",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "持つだけでは",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "1000分の1程度しか発揮されない。",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3,
+                    "minecraft:knockback": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3000.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000002",
+                      "type": "minecraft:armor",
+                      "amount": 2500.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:armor",
+                      "amount": 2.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

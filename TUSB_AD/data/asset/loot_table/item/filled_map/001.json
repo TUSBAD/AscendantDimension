@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "通常世界",
+                  "italic": false,
+                  "color": "gray",
+                  "underlined": true
+                },
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 0.0,
+                      "x": -21.0,
+                      "z": -69.0,
+                      "id": "exitN1",
+                      "type": 3
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": 108.0,
+                      "z": -46.0,
+                      "id": "exitN2",
+                      "type": 3
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": -16.0,
+                      "z": -88.0,
+                      "id": "exitN3",
+                      "type": 3
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": -96.0,
+                      "z": 56.0,
+                      "id": "exitN4",
+                      "type": 3
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -50.0,
+                      "z": 34.0,
+                      "id": "shopN1",
+                      "type": 6
+                    },
+                    {
+                      "rot": 180.0,
+                      "x": 36.0,
+                      "z": 8.0,
+                      "id": "enterN1",
+                      "type": 5
+                    },
+                    {
+                      "rot": 180.0,
+                      "x": 22.0,
+                      "z": -40.0,
+                      "id": "enterN2",
+                      "type": 5
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": 203.0,
+                      "z": -20.0,
+                      "id": "exitN5",
+                      "type": 2
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "消滅の印板",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "半径15m以内の村人を除く生物を",
+                    "italic": false,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "等しく",
+                        "italic": false,
+                        "color": "dark_green"
+                      },
+                      {
+                        "text": "消滅",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "させる。",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "※使用するMOBに注意が必要",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "AnihiMaker",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

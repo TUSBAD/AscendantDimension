@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "グリーンハーブ",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "回復効果がある薬草を凝縮し煮詰めたもの",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "その効果は絶大であり、",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "触れただけで体力が湧き溢れてくる。",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 97,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 6,
+                      "duration": 60,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 320,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

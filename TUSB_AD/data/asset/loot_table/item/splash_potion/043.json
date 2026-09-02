@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ロスト・オブ・ライブズ(絶対的即死)",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "元々は治癒の効果をより強力に引き出す",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "ための実験で出来た失敗作だったが、",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "その異常な治癒力で、生物であるならば",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "アイテムすら落とさず消滅させる",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "恐ろしい効果を持つ。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "これはプレイヤーも例外ではなく、",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "持っている物をロストする。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "尚、クリエイティブモードのような",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "「無敵状態」でも容赦なく即死する。",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "アンデッドにも少しだけ効果があるが、",
+                    "italic": true,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "即死には至らないので注意。",
+                    "italic": true,
+                    "color": "dark_red"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 2,
+                      "duration": 20,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

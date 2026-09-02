@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "狩人の弓",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "神木の落枝から削って作られた",
+                    "italic": false
+                  },
+                  {
+                    "text": "幸運をもたらすとされる弓",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:luck",
+                      "amount": 2.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "キャンディークラフト",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:1200s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Passengers:[{CustomName:\"不発弾\",Life:2,LifeTime:30,id:\"FireworksRocketEntity\",Passengers:[{id:\"Bat\",Health:120f,Attributes:[{Name:\"generic.maxHealth\",Base:120d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],Passengers:[{id:\"Ghast\",CustomName:\"キャンディークラフター\",Silent:1b,Health:250f,Attributes:[{Name:\"generic.maxHealth\",Base:250d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:0d}],ExplosionPower:0,Passengers:[{Invulnerable:1b,CustomName:\"ｷｬﾝﾃﾞｨｰﾒｰｶｰ\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"enchanting_table\",DisplayData:0,DisplayOffset:8,MaxNearbyEntities:3s,RequiredPlayerRange:64s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:40s,MaxSpawnDelay:120s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"ﾗﾝﾀﾞﾑﾑｰﾊﾞｰ\",Silent:1b,Health:5f,Attributes:[{Name:\"generic.maxHealth\",Base:5d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:127b,Duration:2147483647}],id:\"Bat\",Passengers:[{id:\"Creeper\",Tags:[\"SkillMob\",\"WarpOnly\"],DeathLootTable:\"empty\",CustomName:\"雲飴細工\",Silent:1b,Health:35f,Attributes:[{Name:\"generic.maxHealth\",Base:35d},{Name:\"generic.movementSpeed\",Base:0d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:3d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:1b,Duration:2147483647,ShowParticles:0b},{Id:25b,Amplifier:-1b,Duration:2147483647}],ArmorItems:[{},{},{},{tag:{ench:[{id:7s,lvl:10s}]},id:\"minecraft:iron_helmet\",Count:1b,Damage:0s}],ArmorDropChances:[0f,0f,0f,0f],ExplosionRadius:0b,Fuse:1s,Passengers:[{CustomName:\"雲飴細工\",Block:\"minecraft:web\",DropItem:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtAmount:40f,FallHurtMax:40,id:\"FallingSand\"},{Particle:\"endRod\",CustomName:\"飴細工の光\",Duration:5,Radius:0.01f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}}],id:\"MinecartSpawner\"},{Particle:\"snowballpoof\",CustomName:\"キャンディークラフターオーラ\",Duration:80,Radius:1f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "酒好きの村人",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "...ま、来ちまったもんはしょうがねぇ。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "精々命を大事にしな！",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "ここは他と比べて容赦ねぇからな！",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

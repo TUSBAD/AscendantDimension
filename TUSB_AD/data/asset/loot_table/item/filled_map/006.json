@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "トカルトコルデ",
+                  "italic": false,
+                  "color": "aqua",
+                  "underlined": true
+                },
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 45.0,
+                      "x": 0.0,
+                      "z": 0.0,
+                      "id": "frame",
+                      "type": 4
+                    },
+                    {
+                      "rot": 180.0,
+                      "x": 1317.0,
+                      "z": 1561.0,
+                      "id": "enterD1",
+                      "type": 5
+                    },
+                    {
+                      "rot": 0.0,
+                      "x": 0.0,
+                      "z": 0.0,
+                      "id": "exitG1",
+                      "type": 3
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

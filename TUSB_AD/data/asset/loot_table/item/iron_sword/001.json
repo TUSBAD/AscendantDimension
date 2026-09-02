@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ニンジャソード",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｲﾝｽﾄﾗｸｼｮﾝ・ﾜﾝ！",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "百発のｽﾘｹﾝで倒せぬ",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "相手だからといって、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "一発の力に頼ってはならぬ。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "一千発のｽﾘｹﾝを投げるのだ！",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_speed",
+                      "amount": 1024.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_damage",
+                      "amount": -7.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

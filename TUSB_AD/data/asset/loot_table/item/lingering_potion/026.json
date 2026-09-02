@@ -1,0 +1,176 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "解毒薬",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "毒を以て毒を制すというコンセプトで",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "作られたポーション。",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

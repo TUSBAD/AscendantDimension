@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "朝からずっしり ミルクポット",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 10,
+                    "minecraft:sharpness": 2
+                  }
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

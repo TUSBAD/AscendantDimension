@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "灼熱の守護者の意思",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

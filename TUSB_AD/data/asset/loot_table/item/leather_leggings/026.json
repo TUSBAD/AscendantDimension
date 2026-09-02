@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "リベラフレイム",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 16711680
+                },
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 3,
+                    "minecraft:fire_aspect": 10,
+                    "minecraft:flame": 5,
+                    "minecraft:protection": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000005_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.03,
+                      "operation": "add_multiplied_base",
+                      "slot": "legs"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

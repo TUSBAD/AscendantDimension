@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "目が見えないから容姿は分からないけど...",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

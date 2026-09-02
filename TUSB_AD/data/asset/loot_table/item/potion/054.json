@@ -1,0 +1,189 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "デス",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "∨",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": "ライフ",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "手にすると最弱の力を手に入れるが",
+                    "italic": false,
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "飲み干した瞬間に短時間だが最強の力を手に入れる。",
+                    "italic": false,
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "飲まずに",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "死ぬ",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "か",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "飲んで",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "生きる",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "か",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 20,
+                      "duration": 200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 5,
+                      "duration": 200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 25,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 100,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 1,
+                      "duration": 200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 1,
+                      "duration": 250,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": -5,
+                      "duration": 10,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 100,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 127,
+                      "duration": 2,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.99,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": -0.99,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

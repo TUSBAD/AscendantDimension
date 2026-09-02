@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "barrier_block弱化の印板",
+                  "italic": false,
+                  "color": "white",
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "※要注意！進行不能の恐れ有り",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "時計島",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "等では使わないように！不正は自己責任です。",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "設置後1回、周囲3立方mの名前に対応した",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "破壊不能ブロックを黒曜石に置き換える。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "全解体の野望に答えます！",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "bb",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

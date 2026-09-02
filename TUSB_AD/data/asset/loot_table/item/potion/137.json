@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "禁断の果実酒",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "知恵の樹",
+                        "italic": false,
+                        "color": "green"
+                      },
+                      {
+                        "text": "から採れた",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "禁断の果実",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "の酒。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "飲むと",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "数秒後に死ぬ",
+                        "italic": false,
+                        "color": "red",
+                        "underlined": true
+                      },
+                      {
+                        "text": "事から、",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "飲んではいけない",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "とされている。",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 104,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 10,
+                      "duration": 20,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": -1,
+                      "duration": 20,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 4,
+                      "duration": 400,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

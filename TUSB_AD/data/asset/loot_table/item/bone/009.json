@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "リン酸カルシウム",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 20,
+                    "minecraft:knockback": 20
+                  }
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "Legacy": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

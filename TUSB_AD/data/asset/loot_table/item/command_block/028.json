@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "メイジフェンサー",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],SpawnCount:3s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:200s,MaxSpawnDelay:300s,RequiredPlayerRange:15s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Silent:1b,NoAI:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Pos:[],Passengers:[{Tags:[\"Gesso\",\"SkillMob\",\"WarpOnly\"],DeathLootTable:\"empty\",CustomName:\"メイジフェンサー\",Health:4f,Attributes:[{Name:\"generic.maxHealth\",Base:4d}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],NoGravity:1b,AbsorptionAmount:2,Size:3,id:\"Slime\",Passengers:[{Health:50f,Attributes:[{Name:\"generic.maxHealth\",Base:50d}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],HandItems:[{tag:{ench:[{id:16s,lvl:2s},{id:16s,lvl:10s},{id:20s,lvl:10s}]},id:\"minecraft:diamond_sword\",Count:1b,Damage:0s},{}],HandDropChances:[0f,0f],DeathLootTable:\"minecraft:entities/skeleton\",id:\"Skeleton\",Passengers:[{id:\"ThrownEnderpearl\",Passengers:[{id:\"MinecartSpawner\",SpawnCount:4s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:40s,MaxSpawnDelay:100s,RequiredPlayerRange:5s,SpawnPotentials:[{Weight:1,Entity:{Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:100},{Id:5b,Amplifier:5b,Duration:100}]}},id:\"ThrownPotion\"}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:end_portal_frame\",DisplayData:0,DisplayOffset:-1}]},{Particle:\"witchMagic\",Radius:2f,Duration:1000,Effects:[{Id:1b,Amplifier:127b,Duration:1},{Id:3b,Amplifier:127b,Duration:1},{Id:5b,Amplifier:127b,Duration:1},{Id:8b,Amplifier:127b,Duration:1},{Id:10b,Amplifier:127b,Duration:1},{Id:11b,Amplifier:127b,Duration:1},{Id:13b,Amplifier:127b,Duration:1},{Id:15b,Amplifier:5b,Duration:20},{Id:18b,Amplifier:1b,Duration:200},{Id:19b,Amplifier:5b,Duration:80}],id:\"AreaEffectCloud\"}]}]}]}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:beacon\",DisplayData:0,DisplayOffset:12,id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

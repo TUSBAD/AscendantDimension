@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "テンポラリートーチ",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "探検家が捨てていった松明",
+                    "italic": false
+                  },
+                  {
+                    "text": "少し力がみなぎってくる",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_aspect": 5,
+                    "minecraft:flame": 5,
+                    "minecraft:knockback": 3,
+                    "minecraft:sharpness": 5,
+                    "minecraft:smite": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:follow_range",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:max_health",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "殺戮の盾",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "盾とは何だったのか…。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "いや、しかし攻撃は最大の防御とも…。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 5
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.8,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:armor",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.8,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:armor",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000007",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:stripe_downleft",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_downright",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_middle",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "red"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

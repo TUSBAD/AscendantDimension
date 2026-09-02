@@ -1,0 +1,313 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "破壊範囲エフェクト付与スポナー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:4b,Amplifier:0b,Duration:43,ShowParticles:true},{Id:19b,Amplifier:69b,Duration:25,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[23:12:03] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "採掘速度低下+毒"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:17b,Amplifier:0b,Duration:43,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[23:22:17] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "空腹"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:8b,Amplifier:-100b,Duration:43,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:03:39] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "マイナス跳躍"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:25b,Amplifier:-100b,Duration:43,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:05:32] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "マイナス浮遊"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:1b,Amplifier:127b,Duration:6,ShowParticles:true}],ReapplicationDelay:3,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:02:07] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "移動速度上昇(マジャ)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:15b,Amplifier:0b,Duration:43,ShowParticles:true},{Id:16b,Amplifier:0b,Duration:8,ShowParticles:true}],ReapplicationDelay:20,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:11:28] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "盲目+暗視(点滅)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:25b,Amplifier:0b,Duration:13,ShowParticles:true}],ReapplicationDelay:10,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:13:27] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "弱浮遊"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:9b,Amplifier:0b,Duration:123,ShowParticles:true}],ReapplicationDelay:65,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:18:50] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "吐き気"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:14b,Amplifier:-1b,Duration:3,ShowParticles:true}],ReapplicationDelay:1,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:21:39] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "死の宣告"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:25b,Amplifier:-1b,Duration:43,ShowParticles:true},{Id:19b,Amplifier:69b,Duration:25,ShowParticles:true},{Id:20b,Amplifier:69b,Duration:25,ShowParticles:true}],ReapplicationDelay:40,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:25:17] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "浮遊+毒+ウィザー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 1,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:17b,Amplifier:0b,Duration:23,ShowParticles:true},{Id:11b,Amplifier:-3b,Duration:23,ShowParticles:true}],ReapplicationDelay:20,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{},SpawnPotentials:[],     SpawnCount:0s,     SpawnRange:0s,     MaxNearbyEntities:0s,     RequiredPlayerRange:0s,     Delay:-1s,     MinSpawnDelay:60s,     MaxSpawnDelay:60s}]}",
+                          "id": "Control",
+                          "SuccessCount": 1,
+                          "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[00:30:52] \"}",
+                          "TrackOutput": 1
+                        },
+                        "display": {
+                          "Lore": [
+                            "採掘範囲エフェクト付与スポナー"
+                          ],
+                          "Name": "ルカナン+空腹"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

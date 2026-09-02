@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "シーグリード",
+                  "italic": false,
+                  "color": "blue",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "なにか色々代用できそうな物で",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "自作した釣竿。適当に作ったにしては",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "凄まじい性能だが、",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "3",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "回使えば壊れる",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:lure": 8
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:luck",
+                      "amount": 0.03,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:luck",
+                      "amount": 0.03,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

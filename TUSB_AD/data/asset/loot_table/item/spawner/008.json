@@ -1,0 +1,273 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "レーザー照射装置",
+                      "italic": true,
+                      "color": "red"
+                    },
+                    {
+                      "text": "(乱射型)",
+                      "italic": false,
+                      "color": "gold"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "周りへ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "光",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "を放つブロック",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "乱射型",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "：ランダムに照射されます",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "RequiredPlayerRange": 20,
+                  "MaxNearbyEntities": 0,
+                  "SpawnCount": 1,
+                  "SpawnData": {},
+                  "MaxSpawnDelay": -200,
+                  "SpawnRange": 0,
+                  "Delay": -1,
+                  "MinSpawnDelay": -200,
+                  "SpawnPotentials": [
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": -11,
+                          "Y": 20,
+                          "Z": 0
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": -11,
+                          "Y": 20,
+                          "Z": 11
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": -11,
+                          "Y": 20,
+                          "Z": 22
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 0,
+                          "Y": 20,
+                          "Z": 0
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 0,
+                          "Y": 20,
+                          "Z": 11
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 0,
+                          "Y": 20,
+                          "Z": 22
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 11,
+                          "Y": 20,
+                          "Z": 0
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 11,
+                          "Y": 20,
+                          "Z": 11
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    },
+                    {
+                      "Entity": {
+                        "Pos": [
+                          0.0,
+                          -1000.0,
+                          0.0
+                        ],
+                        "id": "EnderCrystal",
+                        "BeamTarget": {
+                          "X": 11,
+                          "Y": 20,
+                          "Z": 22
+                        },
+                        "Rotation": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "Weight": 1
+                    }
+                  ],
+                  "id": "minecraft:mob_spawner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

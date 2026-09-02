@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ガソリン",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "飲むと満腹になるが",
+                    "italic": true,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "しばらくの間弱体化する",
+                    "italic": true,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 10,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 10,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 100,
+                      "duration": 700,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": -100,
+                      "duration": 700,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": -100,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

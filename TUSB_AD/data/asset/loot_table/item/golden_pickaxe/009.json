@@ -1,0 +1,134 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "改良型",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": "Adv.",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true
+                    },
+                    {
+                      "text": "ツルハシ",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "黒曜石等が掘れるようになったピッケル。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "但しスポナーブロックは壊せない。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:obsidian"
+                    },
+                    {
+                      "blocks": "minecraft:diamond_block"
+                    },
+                    {
+                      "blocks": "minecraft:emerald_block"
+                    },
+                    {
+                      "blocks": "minecraft:lapis_block"
+                    },
+                    {
+                      "blocks": "minecraft:gold_block"
+                    },
+                    {
+                      "blocks": "minecraft:iron_block"
+                    },
+                    {
+                      "blocks": "minecraft:brewing_stand"
+                    },
+                    {
+                      "blocks": "minecraft:rail"
+                    },
+                    {
+                      "blocks": "minecraft:beacon"
+                    },
+                    {
+                      "blocks": "minecraft:light_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:heavy_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:torch"
+                    },
+                    {
+                      "blocks": "minecraft:web"
+                    },
+                    {
+                      "blocks": "minecraft:vine"
+                    },
+                    {
+                      "blocks": "minecraft:coal_block"
+                    },
+                    {
+                      "blocks": "minecraft:glass"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 10000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

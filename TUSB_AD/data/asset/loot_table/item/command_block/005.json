@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "shop村人マーカー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/summon ArmorStand ~ ~1 ~ {NoGravity:0b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079071d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"}],Invulnerable:1b,CustomName:\"shop\",ArmorItems:[0:{},1:{},2:{},3:{id:\"minecraft:leather_helmet\",Count:1b,tag:{display:{color:10040115}},Damage:0s}],CustomNameVisible:1b}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

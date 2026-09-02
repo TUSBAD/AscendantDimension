@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ふらんじゃ",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "Flanjars",
+                  "id": "983f8a92-f0b3-448a-ae54-7f94ecf9d956",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQzNjgsInByb2ZpbGVJZCI6Ijk4M2Y4YTkyZjBiMzQ0OGFhZTU0N2Y5NGVjZjlkOTU2IiwicHJvZmlsZU5hbWUiOiJGbGFuamFycyIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk2MjQwM2Q5N2M5MzE4YzI5Y2M2MTc3MjFlMWMxMmI0M2VlNzJjNjgwNTFkNGQ4YjViNjI1OTBlZjQ5MyJ9fX0=",
+                      "signature": "CqK6cs2CWy3enPL7qpRg24E9+Hax9D4dLGe3PTvQQL+KZ9uFUY26S2mnmB/8FPOXZC0jgy1pz3brCZIRZhgFFvxe+kR/WqPW9PWip61eouCiQZ/bHhy000Jr2x85V7p5i0atpXgFDB5dd5NPASpGavVmApSAQbhWA3e4LecVcnRY+kiaSDQ1NE+vMHZgyN09hWTG2eI9byyC4ZoUPWtSnZ+T2NI0i8IHiezpReEMMYEW14EVNcQwSeJpYDZBuII4lvVHeUGhdAoi6vYRJI6pSW9KpRmngOjKpjEa3yTZmYtB3Uf9uVSsj+Ymo6gN7cGZYjyGAtZ+coBp42d/hLoKc9jy1Tv+OFerFnyPDZrdsR+R5IqhVRAfnZrTYYJErbU3YEsjXBEpzTvQWaV8SZRRflXIGnHRXB2CLDu46j/9mJ9RBPBLbSLXEu6FViP5JnqXjQeqt9i/tI0JglH3cyDPzrqxLMqkVZsSJ1XEGC1JCROM/ec7AU0bDH3nfIx9WrWaoCquSzfCszds1/CE7OVIMtlmwzBdL5EDl+4pOaI/s9GEPFkq0t23Ew2k9EuA6T3PNGSPv0STDREZg6Rt6SckgbTebTT6VX4ofKQGuQZT0c7ahSEwsfVmg57fpQOM0fAdbZU+En3rUlW8VpRDZBxRDeT4AhRU+yI+Vp1Ifby7oto="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

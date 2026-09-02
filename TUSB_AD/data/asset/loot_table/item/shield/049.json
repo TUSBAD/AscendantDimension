@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "金装飾の盾",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 3,
+                    "minecraft:knockback": 3,
+                    "minecraft:fire_aspect": 3,
+                    "minecraft:sharpness": 3,
+                    "minecraft:smite": 3,
+                    "minecraft:bane_of_arthropods": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "yellow",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:square_top_right",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:mojang",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

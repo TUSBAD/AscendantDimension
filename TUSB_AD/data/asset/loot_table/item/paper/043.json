@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ジョブ変更申請書",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "就職に必要な申請書。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "無職のプレイヤーには無料で交付される。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "紛失した場合は、職業島の中央に飛び込もう。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "初回": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

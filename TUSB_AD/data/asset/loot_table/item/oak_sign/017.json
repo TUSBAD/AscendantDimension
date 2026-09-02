@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "富豪の魂",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "自身の",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "豪運のみで",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "富を築き上げた",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "富豪の魂",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "が込められた印板",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "落ちている一番近くの",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ｱｲﾃﾑ",
+                        "italic": false,
+                        "color": "light_purple"
+                      },
+                      {
+                        "text": "に魂が刻まれるが",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "その",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ｱｲﾃﾑ",
+                        "italic": false,
+                        "color": "light_purple"
+                      },
+                      {
+                        "text": "の個数や",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ｴﾝﾁｬﾝﾄ",
+                        "italic": false,
+                        "color": "blue"
+                      },
+                      {
+                        "text": "は上書きされてしまう",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★★★",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @e[type\\u003dItem,r\\u003d10,c\\u003d1] ~ ~ ~ /playsound entity.player.levelup master @p ~ ~ ~ 1 1.4 0\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @e[type\\u003dItem,r\\u003d10,c\\u003d1] ~ ~ ~ /particle iconcrack_266_0 ~ ~0.2 ~ 0 0 0 0.2 100\"},\"translate\":\"\\u003d%1$s\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"yellow\",\"text\":\"-富豪の魂-\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/entitydata @e[type\\u003dItem,r\\u003d10,c\\u003d1] {Item:{Count:1b,tag:{display:{Lore:[\\\"§e§l富豪の魂§eが刻み込まれている\\\"]},ench:[{id:35s,lvl:10s},{id:21s,lvl:10s}]}}}\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "鋼鉄のポーション",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "飲むと体が硬化して",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "防御力が上がり、炎にも強くなるが、",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "足が遅くなり、目も見えにくくなる。",
+                    "italic": true,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 4,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 4,
+                      "duration": 400,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

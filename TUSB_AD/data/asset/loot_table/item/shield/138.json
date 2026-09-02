@@ -1,0 +1,189 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||||||",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 叛逆した",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖騎士の盾 ",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "||||||||",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "カノープスの魔力 enchantment.level.15",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "カノープスの眷属であった聖騎士が使用していた盾。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "命を失うその時まで放すことはなかったという。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 15,
+                    "minecraft:feather_falling": 15,
+                    "minecraft:projectile_protection": 15,
+                    "minecraft:respiration": 15,
+                    "minecraft:aqua_affinity": 15,
+                    "minecraft:thorns": 15,
+                    "minecraft:depth_strider": 15,
+                    "minecraft:blast_protection": 15
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000032",
+                      "type": "minecraft:attack_damage",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000034",
+                      "type": "minecraft:armor",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000035",
+                      "type": "minecraft:max_health",
+                      "amount": -0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000036",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000037",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000038",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000033_0000000000000039",
+                      "type": "minecraft:luck",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:creeper",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:skull",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

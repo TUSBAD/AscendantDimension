@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "がそりん",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon Villager ~ ~1 ~ {Profession:0,Career:2,CareerLevel:200,Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,buy:{id:\"minecraft:emerald\",Count:1b},sell:{id:\"minecraft:potion\",Count:16b,tag:{HideFlags:63,display:{Name:\"§c美味しいガソリン\",Lore:[\"おいしいよ\"]},CustomPotionEffects:[{Id:11,Amplifier:1,Duration:1200},{Id:16,Amplifier:1,Duration:1200},{Id:19,Amplifier:10,Duration:200},{Id:23,Amplifier:10,Duration:200}],Potion:\"minecraft:strong_strength\",CustomPotionColor:16711680}}}]}}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

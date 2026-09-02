@@ -1,0 +1,134 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "白材強化の印版EX",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "使用すると、かなりの範囲の",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "白素材",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "を強化することができる。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "白羊毛",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "は",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "§雪ﾌﾞﾛｯｸ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "に、",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "雪ﾌﾞﾛｯｸ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "は",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "模様入りﾈｻﾞｰｸｫｰﾂ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "に変化する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "ﾚｱﾘﾃｨ:",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★★★",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 0
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:entity_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Marker": 1,
+                  "Tags": [
+                    "SignStand",
+                    "PermanentStand",
+                    "WhiteUpgraderEX"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

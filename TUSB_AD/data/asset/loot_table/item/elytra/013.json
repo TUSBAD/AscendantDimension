@@ -1,0 +1,443 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "w",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-۞- 異世界",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "を救う",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "勇者 -۞-",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "u",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.20",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "虹の加護 enchantment.level.Ⅶ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "七色",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "の個性を持つ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "TUSBer",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "達",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "彼らの",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "覚悟",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "はどんな理不尽にも折れることはなく",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "彼らの翼はどんな大空も",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "自由",
+                        "italic": false,
+                        "color": "green",
+                        "bold": true
+                      },
+                      {
+                        "text": "に舞う",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "= ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "決意 ",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "情熱 ",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "自信 ",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "経験 ",
+                        "italic": false,
+                        "color": "blue",
+                        "bold": true
+                      },
+                      {
+                        "text": "友情 ",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "高揚 ",
+                        "italic": false,
+                        "color": "dark_green",
+                        "bold": true
+                      },
+                      {
+                        "text": "矜持 ",
+                        "italic": false,
+                        "color": "dark_blue",
+                        "bold": true
+                      },
+                      {
+                        "text": "=",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "万象、纏い。",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "虹",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "を成す。",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "希望",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "と",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "勇気",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を胸に、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "終焉",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "に立ち向かえ。",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 0
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 20,
+                    "minecraft:fire_protection": 20,
+                    "minecraft:feather_falling": 20,
+                    "minecraft:projectile_protection": 20,
+                    "minecraft:respiration": 20,
+                    "minecraft:aqua_affinity": 20,
+                    "minecraft:thorns": 20,
+                    "minecraft:depth_strider": 20,
+                    "minecraft:blast_protection": 20
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.4,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000006",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000007",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000000c_0000000000000008",
+                      "type": "minecraft:luck",
+                      "amount": 0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "liberty": 1,
+                  "symphony17": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

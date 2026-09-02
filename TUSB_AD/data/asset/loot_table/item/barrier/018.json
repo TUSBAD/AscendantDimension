@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ちょっとは優しい酒好きの村人",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "要するにじゃ...このトカルト・コルデの各地に",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "特別なお酒を売っているもんがおる。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "そやつらから酒を買って、わしと取引するのじゃ。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

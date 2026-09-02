@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "イカちゃん抱き枕",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とても大切にされていると分かる抱き枕。",
+                    "italic": false
+                  },
+                  {
+                    "text": "大きくて少し歩きづらい。",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:mending": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:armor",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:max_health",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000005",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000006",
+                      "type": "minecraft:armor",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "white",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:half_horizontal_bottom",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

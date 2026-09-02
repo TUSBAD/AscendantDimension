@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "破滅と星創の神杖【封印状態】",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "生物を根絶し大地を破壊する",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "星を創り生物を蘇らせる",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "らしい",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 9999,
+                    "minecraft:knockback": 5
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000055f38_00000000000d606a",
+                      "type": "minecraft:armor",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000023893_000000000003c9de",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

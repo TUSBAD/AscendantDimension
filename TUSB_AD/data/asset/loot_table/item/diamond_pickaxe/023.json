@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "yotsuba",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 四葉のツルハシ ",
+                      "italic": false,
+                      "color": "white",
+                      "underlined": true
+                    },
+                    {
+                      "text": "master",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "かつて世界を制覇したものが作った至高のつるはし",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 10
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": -1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

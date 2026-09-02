@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "アサルトガスト",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"FireworksRocketEntity\",Life:2,LifeTime:40,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Flicker:1b,Trail:1b,Type:2b,Colors:[16777215],FadeColors:[16711680]},{Flicker:1b,Type:1b,Colors:[16711680],FadeColors:[0]}]}}},Passengers:[{id:\"Bat\",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:false},{Id:12b,Amplifier:1b,Duration:2147483647,ShowParticles:false}],Passengers:[{id:\"Ghast\",CustomName:\"アサルトガスト\",ExplosionPower:7,Health:650.0f,Attributes:[{Name:\"generic.maxHealth\",Base:650.0d},{Name:\"generic.followRange\",Base:60.0d}],Passengers:[{id:\"MinecartSpawner\",CustomDisplayTile:true,DisplayTile:46,DisplayData:0,DisplayOffset:20,SpawnCount:1s,SpawnRange:10s,MaxNearbyEntities:50s,Delay:-1s,MaxSpawnDelay:40s,MinSpawnDelay:10s,RequiredPlayerRange:50s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[1.0d,-1.0d,1.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"Falling_Block\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[0.0d,-1.0d,1.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"FallingSand\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[1.0d,-1.0d,0.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"FallingSand\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[-1.0d,-1.0d,1.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"FallingSand\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[1.0d,-1.0d,-1.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"FallingSand\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[0.0d,-1.0d,-1.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"Falling_Block\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:\"Creeper\",ignited:1b,ExplosionRadius:1b,Fuse:50s,Motion:[-1.0d,-1.0d,0.0d],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:100,ShowParticles:false},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:false},{Id:20b,Amplifier:0b,Duration:100,ShowParticles:false}],Passengers:[{id:\"FallingSand\",Block:\"minecraft:fire\",Data:0b,Time:1,FallDistance:1f,FallDistance:1f,HurtEntities:1b,FallHurtMax:10,DropItem:0b,Passengers:[{id:\"FireworksRocketEntity\",Life:3,LifeTime:2,FireworksItem:{id:\"minecraft:fireworks\",Damage:0s,tag:{Fireworks:{Flight:0b,Explosions:[{Type:0b,Colors:[16776960],FadeColors:[16711680]}]}}}}]}]}]}}]}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

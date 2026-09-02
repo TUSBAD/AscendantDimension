@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Σジャンパー",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "＋",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "従来の",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "Σジャンパー",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "に金ニンジンを入れ",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "濃縮し性能を上げたもの",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "忍者のように素早く身軽に動く事ができる。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 127,
+                      "duration": 2,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 6,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 6,
+                      "duration": 720,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 1,
+                      "duration": 720,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

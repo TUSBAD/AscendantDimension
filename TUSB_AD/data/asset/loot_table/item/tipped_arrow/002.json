@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "オレンジプリズム",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "刺さった者の火への耐性を消滅させた後、柔らかくする。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": -2,
+                      "duration": 100,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

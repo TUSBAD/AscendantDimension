@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "全滅の印板",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "半径15m以内のすべてに",
+                    "italic": false,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "等しく",
+                        "italic": false,
+                        "color": "dark_green"
+                      },
+                      {
+                        "text": "死",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "を与える。",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★★★",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000007d55705c_000000007d55705c",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/kill @e[r\\u003d15,score_SystemFlag_min\\u003d1]\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @e[r\\u003d15,score_SystemFlag_min\\u003d1] ~ ~ ~ /particle witchMagic ~ ~ ~ 0.3 0.3 0.3 0 100 normal\"},\"translate\":\"\\u003d----%1$s----\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"red\",\"text\":\"滅\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/scoreboard players set @e[r\\u003d15] SystemFlag 1 {Invulnerable:false,DeathTime:0s}\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

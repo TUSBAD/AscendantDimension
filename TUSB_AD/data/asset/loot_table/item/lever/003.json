@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lever",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "消えた松明",
+                  "italic": false,
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "火が消えてしまった松明。",
+                    "italic": false
+                  },
+                  {
+                    "text": "篝火で火を付け直せる。",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

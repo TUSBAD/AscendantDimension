@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エンダーパール.zip",
+                  "italic": false,
+                  "color": "green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "エンダーパールが64個1stになったもの",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:entity_data": {
+                  "NoGravity": 1,
+                  "Small": 1,
+                  "Health": 1.0,
+                  "Attributes": [
+                    {
+                      "Base": 1.0,
+                      "Name": "generic.maxHealth"
+                    }
+                  ],
+                  "Invulnerable": 1,
+                  "ShowArms": 0,
+                  "Marker": 0,
+                  "HandItems": [
+                    {
+                      "tag": {
+                        "HideFlags": 2,
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 7,
+                            "UUIDLeast": 1,
+                            "Amount": 1e-08,
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 1,
+                            "Name": "plus"
+                          }
+                        ]
+                      },
+                      "id": "ender_pearl",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {}
+                  ],
+                  "DisabledSlots": 2039326,
+                  "DeathTime": -20,
+                  "ArmorItems": [
+                    {
+                      "id": "stone",
+                      "Count": 0,
+                      "tag": {
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 6,
+                            "UUIDLeast": 1,
+                            "Amount": -1,
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 1,
+                            "Name": "minus"
+                          }
+                        ]
+                      }
+                    },
+                    {},
+                    {},
+                    {
+                      "id": "glass",
+                      "Count": 0,
+                      "Damage": 0
+                    }
+                  ],
+                  "Pose": {
+                    "RightArm": [
+                      80.0,
+                      -40.0,
+                      -110.0
+                    ],
+                    "Head": [
+                      45.0,
+                      180.0,
+                      35.0
+                    ]
+                  },
+                  "NoBasePlate": 1,
+                  "Invisible": 1,
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 2147483647,
+                      "Id": 6,
+                      "Amplifier": 127
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

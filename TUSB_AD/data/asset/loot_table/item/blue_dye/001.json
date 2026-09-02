@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "百戦錬磨の宝闘数珠",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "漲る力の宝珠",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 9999,
+                    "minecraft:feather_falling": 9999
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000010d5b_00000000000a685d",
+                      "type": "minecraft:max_health",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003cdef_000000000009b645",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006cbaf_0000000000055ca8",
+                      "type": "minecraft:attack_damage",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

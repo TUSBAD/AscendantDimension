@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "究極拷問安眠スペシャル",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "歩かせません、ジャンプさせません",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "攻撃させません、死なせません",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "壊させません、etc",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "惨たらしい効果を施す。",
+                    "italic": true,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "ポーションというより呪いに近い。",
+                    "italic": true,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 6,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": -6,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": -10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": -10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": -10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": -10,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 100,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": -100,
+                      "duration": 400,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": -20,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "time",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "時送りの盾",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "time",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "時と共に強くなる盾。",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 11,
+                    "minecraft:knockback": 11,
+                    "minecraft:sharpness": 11
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000007",
+                      "type": "minecraft:max_health",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000008",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000009",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000a",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000b",
+                      "type": "minecraft:armor",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000c",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.11,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "gray",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:stripe_downleft",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_downright",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

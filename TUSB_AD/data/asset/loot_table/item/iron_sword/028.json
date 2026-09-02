@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "✡",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "bold": true
+                    },
+                    {
+                      "text": "聖剣",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "✞",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "bold": true
+                    },
+                    {
+                      "text": "EXcalibur",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "聖剣の威光 enchantment.level.111",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.111",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 150
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000aed91_0000000000040661",
+                      "type": "minecraft:max_health",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000030941_0000000000048933",
+                      "type": "minecraft:attack_speed",
+                      "amount": -3.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e4f42_000000000001d829",
+                      "type": "minecraft:luck",
+                      "amount": 111.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "symphony9": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "お楽しみセット",
+                  "italic": false,
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "なにか",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "アイテム",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "が入っている",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "LootTable": "usb:chests/enjoy",
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

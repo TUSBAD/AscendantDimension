@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "血清",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "黄金の林檎の果汁とマナを配合し、",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "聖なる水に溶かした不思議な血清。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "飲むと体内の毒を解毒する。",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:healing",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 0,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 7,
+                      "duration": 30,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

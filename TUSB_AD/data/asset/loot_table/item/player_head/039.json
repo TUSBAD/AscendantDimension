@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "れんと",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "satori_rento",
+                  "id": "6ee89f87-9134-41e2-a1e8-2c8810e60bd7",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0NzQ2MzEzNzYzOTUsInByb2ZpbGVJZCI6IjZlZTg5Zjg3OTEzNDQxZTJhMWU4MmM4ODEwZTYwYmQ3IiwicHJvZmlsZU5hbWUiOiJzYXRvcmlfcmVudG8iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifSwidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGIxZDc3OGQ2NGU2YWNhZjY0NzIyMDY1ZDU3ZjNkNzY1NjI2YWIyMzc1MmU0MzZjZGMyZTE2NDRjZDBhNCJ9fX0=",
+                      "signature": "FM2IcrphEl/Fz83gJq/RmUGgIOjP7bjDxN9ibKZwVKXrtnx/DN05Jw/7O+pS/WHbmK+RHRdS43GeBvZJsdaYcG5z6dEzhN0/8M2AfU12Z/PsLVJKfIyxtPWdZosMuHhug0RLnmuj68zUnB8UCge2Emyuaf06LAZvbAgCP+XRyZbIW09yv/EwBSXx5iS4zp52oRFjBKYQeC3N/0OvImxcULiCk0WoZStutpPvD+lw9lo0bPJC8T6xugEhEFqfwhoRk+FymH86O96BQQW9GOmkRnkdVVxNOe2hjLOu7d2smRCTT8SXAL/pOs+nX1WWPVN7HR3J81rlTcn4S1oD5UkUH++ryxEzlZIgdKim4EUPP+pWRM3kR+MNZZc/RYYKVNvIUZYcQfZLkCrsmdwYAodIuGQ0ujCqPJ6+oTNPWcdZeV8BlKp+KN6PYEL/ClXKNgYYaemEA2v2G+LX/b4iOGbID8oD2sZgh83GGvX+wEURKtYFPT28E2K/tG9oZnhBHnYI3YRMm12qlu7bxkakhHv+ThkaTspHBoUBccuFVqkk9cjYmWayC7GJV0Qz7aSm0R3DgHwplKNMvR/vBdkUeCrttBimAzJxDs59VY6f3fMzikllWCwURcFPZ/FGhA41v8AFDhotIzJCP4Lv5GX+UW0Jxuxch16C4YG1QhDVnUorIWs="
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "ID": "6ee89f87-9134-41e2-a1e8-2c8810e60bd"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

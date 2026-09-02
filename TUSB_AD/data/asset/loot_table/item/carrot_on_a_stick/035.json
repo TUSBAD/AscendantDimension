@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "yudgfiua",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "破滅",
+                      "italic": false,
+                      "color": "dark_blue"
+                    },
+                    {
+                      "text": "と",
+                      "italic": false,
+                      "color": "aqua"
+                    },
+                    {
+                      "text": "星創の神杖",
+                      "italic": false,
+                      "color": "blue"
+                    },
+                    {
+                      "text": "yudgfiua",
+                      "italic": false,
+                      "color": "dark_blue",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "鈍足無効 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "盲目無効 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "弱体化無効 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "吐き気無効 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "生物を根絶し大地を破壊する",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "星を創り生物を蘇らせる",
+                    "italic": false,
+                    "color": "blue"
+                  },
+                  {
+                    "text": "神に創れた最高峰の杖",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 10,
+                    "minecraft:fire_aspect": 10,
+                    "minecraft:infinity": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000020432_00000000000219cc",
+                      "type": "minecraft:max_health",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000eb5ae_00000000000bb2b3",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000005f1d5_00000000000e70bb",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000008bdba_000000000004d4ab",
+                      "type": "minecraft:attack_damage",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000055f38_00000000000d606a",
+                      "type": "minecraft:armor",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000023893_000000000003c9de",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "m1": 1,
+                  "m2": 1,
+                  "m3": 1,
+                  "m4": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

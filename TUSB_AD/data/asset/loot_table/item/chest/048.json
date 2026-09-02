@@ -1,0 +1,2701 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "トカルトスポナー",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "CustomName": "§b§lトカルトスポナー",
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Block": "fire",
+                                        "Time": -2147483648,
+                                        "id": "FallingSand"
+                                      }
+                                    ],
+                                    "CustomName": "燃える嫉妬",
+                                    "Health": 100.0,
+                                    "Fire": 32767,
+                                    "ArmorItems": [
+                                      {},
+                                      {},
+                                      {},
+                                      {
+                                        "id": "minecraft:quartz_ore",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 100.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 1.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.4,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 5.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob3",
+                                    "id": "Skeleton",
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {},
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§l燃える嫉妬_新"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "CustomName": "アンデスアーチャー",
+                                    "Health": 50.0,
+                                    "ArmorItems": [
+                                      {
+                                        "id": "minecraft:leather_boots",
+                                        "Count": 0,
+                                        "tag": {
+                                          "display": {
+                                            "color": 3093109
+                                          }
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_leggings",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:leather_chestplate",
+                                        "Count": 0,
+                                        "tag": {
+                                          "display": {
+                                            "color": 13487103
+                                          }
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_helmet",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 50.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 1.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 5.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob2",
+                                    "id": "Skeleton",
+                                    "ActiveEffects": [],
+                                    "HandItems": [
+                                      {
+                                        "id": "bow",
+                                        "Count": 0,
+                                        "tag": {
+                                          "ench": [
+                                            {
+                                              "lvl": 3,
+                                              "id": 48
+                                            },
+                                            {
+                                              "lvl": 1,
+                                              "id": 49
+                                            }
+                                          ],
+                                          "RepairCost": 1000000000
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            },
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "CustomName": "アンデスウォーリアー",
+                                    "Health": 60.0,
+                                    "ArmorItems": [
+                                      {
+                                        "id": "minecraft:leather_boots",
+                                        "Count": 0,
+                                        "tag": {
+                                          "display": {
+                                            "color": 3093109
+                                          }
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_leggings",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:leather_chestplate",
+                                        "Count": 0,
+                                        "tag": {
+                                          "display": {
+                                            "color": 13487103
+                                          }
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_helmet",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 60.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 5.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob3",
+                                    "id": "Skeleton",
+                                    "ActiveEffects": [],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:iron_sword",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:shield",
+                                        "tag": {
+                                          "BlockEntityTag": {
+                                            "Patterns": [
+                                              {
+                                                "Pattern": "mr",
+                                                "Color": 0
+                                              },
+                                              {
+                                                "Pattern": "mc",
+                                                "Color": 14
+                                              },
+                                              {
+                                                "Pattern": "sc",
+                                                "Color": 0
+                                              },
+                                              {
+                                                "Pattern": "bts",
+                                                "Color": 0
+                                              },
+                                              {
+                                                "Pattern": "tts",
+                                                "Color": 0
+                                              },
+                                              {
+                                                "Pattern": "bo",
+                                                "Color": 0
+                                              },
+                                              {
+                                                "Pattern": "gra",
+                                                "Color": 6
+                                              }
+                                            ],
+                                            "Base": 14
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lアンデスウォーリア_新"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "CustomName": "未確認生物:狭間",
+                                    "Health": 20.0,
+                                    "SkeletonType": 1,
+                                    "ArmorItems": [
+                                      {},
+                                      {},
+                                      {},
+                                      {}
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 20.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 6.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob2",
+                                    "id": "Skeleton",
+                                    "Glowing": 1,
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {},
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§l未確認"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "instantSpell",
+                                            "Radius": 0.009999999776482582,
+                                            "CustomName": "視線",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud"
+                                          }
+                                        ],
+                                        "CustomName": "眼光",
+                                        "Health": 10.0,
+                                        "Attributes": [
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "empty",
+                                        "id": "Guardian",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 8,
+                                            "Amplifier": -120
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "シベリアの眼光",
+                                    "Health": 20.0,
+                                    "SkeletonType": 1,
+                                    "ArmorItems": [
+                                      {},
+                                      {},
+                                      {},
+                                      {
+                                        "id": "minecraft:skull",
+                                        "Count": 0,
+                                        "tag": {
+                                          "SkullOwner": {
+                                            "Id": "3f5c5aab-1080-4e56-94d3-88a6125d7b0d",
+                                            "Properties": {
+                                              "textures": [
+                                                {
+                                                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhODNlYzczYmJiNTVkOWZkZGE5ZTI0ZDc1NjMzZGI2NGZiN2IxNWM3NmIxZWEyZTUyZmMwMTM4YWJhNmQifX19"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "Damage": 3
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 20.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.1,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 4.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob2",
+                                    "id": "Skeleton",
+                                    "Glowing": 1,
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {},
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lシベリアの眼光"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "CustomName": "カースドゾンビ",
+                                    "VillagerProfession": 3,
+                                    "Health": 100.0,
+                                    "ArmorItems": [
+                                      {
+                                        "id": "minecraft:chainmail_boots",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:chainmail_leggings",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:chainmail_chestplate",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:mob_spawner",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 100.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.2,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 8.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "DeathLootTable": "usb:entities/ice/mob2",
+                                    "id": "Zombie",
+                                    "IsVillager": 1,
+                                    "ActiveEffects": [],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:iron_axe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_hoe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lカースドゾンビ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Tame": 1,
+                                    "Type": 4,
+                                    "ArmorItem": {
+                                      "id": "iron_horse_armor"
+                                    },
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "take",
+                                            "Radius": 1.0,
+                                            "CustomName": "デュラハンブレス",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud",
+                                            "Effects": [
+                                              {
+                                                "ShowParticles": 1,
+                                                "Duration": 200,
+                                                "Id": 19,
+                                                "Amplifier": 0
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "CustomName": "ジャック・オー・デュラハン",
+                                        "Health": 200.0,
+                                        "ArmorItems": [
+                                          {
+                                            "id": "minecraft:iron_boots",
+                                            "Count": 0,
+                                            "Damage": 0
+                                          },
+                                          {
+                                            "id": "minecraft:chainmail_leggings",
+                                            "Count": 0,
+                                            "Damage": 0
+                                          },
+                                          {
+                                            "id": "minecraft:leather_chestplate",
+                                            "Count": 0,
+                                            "tag": {
+                                              "display": {
+                                                "color": 4344672
+                                              }
+                                            },
+                                            "Damage": 0
+                                          },
+                                          {
+                                            "id": "minecraft:pumpkin",
+                                            "Count": 0,
+                                            "Damage": 0
+                                          }
+                                        ],
+                                        "Attributes": [
+                                          {
+                                            "Base": 200.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.5,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.25,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 20.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "usb:entities/ice/mob4",
+                                        "id": "Skeleton",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 25,
+                                            "Amplifier": -128
+                                          }
+                                        ],
+                                        "HandItems": [
+                                          {
+                                            "id": "minecraft:iron_hoe",
+                                            "Count": 0,
+                                            "tag": {
+                                              "ench": [
+                                                {
+                                                  "lvl": 10,
+                                                  "id": 20
+                                                }
+                                              ],
+                                              "RepairCost": 1000000000
+                                            }
+                                          },
+                                          {
+                                            "id": "minecraft:shield",
+                                            "Count": 0,
+                                            "tag": {
+                                              "BlockEntityTag": {
+                                                "Patterns": [
+                                                  {
+                                                    "Pattern": "mr",
+                                                    "Color": 0
+                                                  },
+                                                  {
+                                                    "Pattern": "mc",
+                                                    "Color": 14
+                                                  },
+                                                  {
+                                                    "Pattern": "sc",
+                                                    "Color": 0
+                                                  },
+                                                  {
+                                                    "Pattern": "bts",
+                                                    "Color": 0
+                                                  },
+                                                  {
+                                                    "Pattern": "tts",
+                                                    "Color": 0
+                                                  },
+                                                  {
+                                                    "Pattern": "bo",
+                                                    "Color": 0
+                                                  },
+                                                  {
+                                                    "Pattern": "gra",
+                                                    "Color": 6
+                                                  }
+                                                ],
+                                                "Base": 14
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "コシュタ・バワー",
+                                    "Health": 60.0,
+                                    "Attributes": [
+                                      {
+                                        "Base": 60.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 1.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.movementSpeed"
+                                      }
+                                    ],
+                                    "id": "EntityHorse",
+                                    "Saddle": 1
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lデュラハン_新"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 200,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "magicCrit",
+                                            "Radius": 0.009999999776482582,
+                                            "CustomName": "プロテクト",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud"
+                                          }
+                                        ],
+                                        "CustomName": "照射装置",
+                                        "Health": 10.0,
+                                        "Attributes": [
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 3.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "empty",
+                                        "id": "Guardian",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 8,
+                                            "Amplifier": -120
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "鉄を貪る者:弱",
+                                    "Health": 40.0,
+                                    "ArmorItems": [
+                                      {},
+                                      {},
+                                      {
+                                        "id": "minecraft:iron_chestplate",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:skull",
+                                        "Count": 0,
+                                        "tag": {
+                                          "SkullOwner": {
+                                            "Id": "e49a7f35-e644-476d-bd3d-ce2aca71455f",
+                                            "Properties": {
+                                              "textures": [
+                                                {
+                                                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFhMTc1MGY2ZWYzMTRiYjM2Njg2YTlmN2VjNzdkOTgzNzgzZjZhM2VjZGEyZTMyYzJmYWViMDM4M2Y3N2EzIn19fQ=="
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "Damage": 3
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 40.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.4,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 2.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob1",
+                                    "id": "Zombie",
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {},
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 5
+                            },
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "magicCrit",
+                                            "Radius": 0.009999999776482582,
+                                            "CustomName": "プロテクト",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud"
+                                          }
+                                        ],
+                                        "CustomName": "照射装置",
+                                        "Health": 10.0,
+                                        "Attributes": [
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 3.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "empty",
+                                        "id": "Guardian",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 8,
+                                            "Amplifier": -120
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "鉄を貪る者",
+                                    "Health": 60.0,
+                                    "ArmorItems": [
+                                      {},
+                                      {},
+                                      {
+                                        "id": "minecraft:diamond_chestplate",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:skull",
+                                        "Count": 0,
+                                        "tag": {
+                                          "SkullOwner": {
+                                            "Id": "5421d342-fb73-4e7c-9be5-8a523a4da8fb",
+                                            "Properties": {
+                                              "textures": [
+                                                {
+                                                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzOTQ5Mjk4OTExZGQzZjEwYjc2NmYxMTJkOWFjNzkzMmQ5ZDVhN2Q4YWNhZjU4ZjQyODVjYTdmM2FhIn19fQ=="
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "Damage": 3
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 60.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.4,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.3,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 4.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob2",
+                                    "id": "Zombie",
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:diamond_hoe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:diamond_hoe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 4
+                            },
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "magicCrit",
+                                            "Radius": 0.009999999776482582,
+                                            "CustomName": "プロテクト",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud"
+                                          }
+                                        ],
+                                        "CustomName": "照射装置",
+                                        "Health": 10.0,
+                                        "Attributes": [
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 3.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "empty",
+                                        "id": "Guardian",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 8,
+                                            "Amplifier": -120
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "鉄を貪る者:強",
+                                    "Health": 100.0,
+                                    "ArmorItems": [
+                                      {},
+                                      {
+                                        "id": "minecraft:chainmail_leggings",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:leather_chestplate",
+                                        "Count": 0,
+                                        "tag": {
+                                          "display": {
+                                            "color": 3749712
+                                          }
+                                        },
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:skull",
+                                        "Count": 0,
+                                        "tag": {
+                                          "SkullOwner": {
+                                            "Id": "058673a2-6a98-4392-a7b5-5a44f4543f91",
+                                            "Properties": {
+                                              "textures": [
+                                                {
+                                                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkwMjRkNmQ4MjYxOWYyN2YyNTk1NmRmMGJkNWI0NGE2ZDc2N2VlYjNmNmM2NGRkOTZjMWVhNzI1Y2RjZmIifX19"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "Damage": 3
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 100.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.6,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.2,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 10.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob3",
+                                    "id": "Zombie",
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:iron_axe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:iron_axe",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 2
+                            },
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "Particle": "magicCrit",
+                                            "Radius": 0.009999999776482582,
+                                            "CustomName": "プロテクト",
+                                            "Duration": 999,
+                                            "id": "AreaEffectCloud"
+                                          }
+                                        ],
+                                        "CustomName": "照射装置",
+                                        "Health": 10.0,
+                                        "Attributes": [
+                                          {
+                                            "Base": 10.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 0.0,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 3.0,
+                                            "Name": "generic.attackDamage"
+                                          }
+                                        ],
+                                        "Silent": 1,
+                                        "DeathLootTable": "empty",
+                                        "id": "Guardian",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 14,
+                                            "Amplifier": 0
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 1000000,
+                                            "Id": 8,
+                                            "Amplifier": -120
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "鉄を貪る者:凶",
+                                    "Health": 200.0,
+                                    "ArmorItems": [
+                                      {},
+                                      {
+                                        "id": "minecraft:diamond_leggings",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:diamond_chestplate",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:skull",
+                                        "Count": 0,
+                                        "tag": {
+                                          "SkullOwner": {
+                                            "Id": "e10c2555-b690-4ece-90f0-155ddf1a79f7",
+                                            "Properties": {
+                                              "textures": [
+                                                {
+                                                  "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMmM2ZWJmOGRhYzI1N2MzZTIyN2M5MWQ4ZTVlZDQwMzQ1ZWYyODQ2YzY3NWY4NmE4N2ViMjNkOGMxMiJ9fX0="
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "Damage": 3
+                                      }
+                                    ],
+                                    "Attributes": [
+                                      {
+                                        "Base": 200.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 0.8,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.35,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 20.0,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob4",
+                                    "id": "Zombie",
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 14,
+                                        "Amplifier": 0
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 1000000,
+                                        "Id": 25,
+                                        "Amplifier": -128
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:diamond_sword",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      },
+                                      {
+                                        "id": "minecraft:diamond_sword",
+                                        "Count": 0,
+                                        "Damage": 0
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§l鉄を貪るもの"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 450,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "RequiredPlayerRange": 32,
+                                        "MaxNearbyEntities": 3,
+                                        "CustomDisplayTile": 1,
+                                        "SpawnCount": 1,
+                                        "DisplayTile": "enchanting_table",
+                                        "Invulnerable": 1,
+                                        "MaxSpawnDelay": 120,
+                                        "Delay": -1,
+                                        "DisplayOffset": 8,
+                                        "CustomName": "ダメな魔女でも分かる魔法が出るスポナー",
+                                        "DeathLootTable": "empty",
+                                        "id": "MinecartSpawner",
+                                        "DisplayData": 0,
+                                        "SpawnRange": 6,
+                                        "MinSpawnDelay": 40,
+                                        "SpawnPotentials": [
+                                          {
+                                            "Entity": {
+                                              "Passengers": [
+                                                {
+                                                  "Passengers": [
+                                                    {
+                                                      "Passengers": [
+                                                        {
+                                                          "Particle": "wake",
+                                                          "Radius": 0.10000000149011612,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルトオーラ",
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": []
+                                                        },
+                                                        {
+                                                          "Particle": "bubble",
+                                                          "Radius": 1.0,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルト",
+                                                          "RadiusOnUse": 0.0,
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": [
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 7,
+                                                              "Amplifier": 2
+                                                            },
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 17,
+                                                              "Amplifier": 10
+                                                            },
+                                                            {
+                                                              "Duration": 200,
+                                                              "Id": 18,
+                                                              "Amplifier": 10
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "ThrownEnderpearl"
+                                                        }
+                                                      ],
+                                                      "Health": 160.0,
+                                                      "Attributes": [
+                                                        {
+                                                          "Base": 160.0,
+                                                          "Name": "generic.maxHealth"
+                                                        }
+                                                      ],
+                                                      "Silent": 1,
+                                                      "DeathLootTable": "empty",
+                                                      "id": "Slime",
+                                                      "AbsorptionAmount": 160.0,
+                                                      "ActiveEffects": [
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 14,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 20,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 25,
+                                                          "Amplifier": -1
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "Health": 3.0,
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 3.0,
+                                                      "Name": "generic.maxHealth"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Bat",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 14,
+                                                      "Amplifier": 127
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 20,
+                                                      "Amplifier": 5
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "Passengers": [
+                                                    {
+                                                      "Passengers": [
+                                                        {
+                                                          "Particle": "wake",
+                                                          "Radius": 0.10000000149011612,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルトオーラ",
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": []
+                                                        },
+                                                        {
+                                                          "Particle": "bubble",
+                                                          "Radius": 1.0,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルト",
+                                                          "RadiusOnUse": 0.0,
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": [
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 7,
+                                                              "Amplifier": 2
+                                                            },
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 17,
+                                                              "Amplifier": 10
+                                                            },
+                                                            {
+                                                              "Duration": 200,
+                                                              "Id": 18,
+                                                              "Amplifier": 10
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "ThrownEnderpearl"
+                                                        }
+                                                      ],
+                                                      "Health": 240.0,
+                                                      "Attributes": [
+                                                        {
+                                                          "Base": 240.0,
+                                                          "Name": "generic.maxHealth"
+                                                        }
+                                                      ],
+                                                      "Silent": 1,
+                                                      "DeathLootTable": "empty",
+                                                      "id": "Slime",
+                                                      "AbsorptionAmount": 240.0,
+                                                      "ActiveEffects": [
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 14,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 20,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 25,
+                                                          "Amplifier": -1
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "Health": 3.0,
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 3.0,
+                                                      "Name": "generic.maxHealth"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Bat",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 14,
+                                                      "Amplifier": 127
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 20,
+                                                      "Amplifier": 5
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "Passengers": [
+                                                    {
+                                                      "Passengers": [
+                                                        {
+                                                          "Particle": "wake",
+                                                          "Radius": 0.10000000149011612,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルトオーラ",
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": []
+                                                        },
+                                                        {
+                                                          "Particle": "bubble",
+                                                          "Radius": 1.0,
+                                                          "ReapplicationDelay": 0,
+                                                          "CustomName": "ウォーターボルト",
+                                                          "RadiusOnUse": 0.0,
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": [
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 7,
+                                                              "Amplifier": 2
+                                                            },
+                                                            {
+                                                              "Duration": 20,
+                                                              "Id": 17,
+                                                              "Amplifier": 10
+                                                            },
+                                                            {
+                                                              "Duration": 200,
+                                                              "Id": 18,
+                                                              "Amplifier": 10
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": "ThrownEnderpearl"
+                                                        }
+                                                      ],
+                                                      "Health": 320.0,
+                                                      "Attributes": [
+                                                        {
+                                                          "Base": 320.0,
+                                                          "Name": "generic.maxHealth"
+                                                        }
+                                                      ],
+                                                      "Silent": 1,
+                                                      "DeathLootTable": "empty",
+                                                      "id": "Slime",
+                                                      "AbsorptionAmount": 320.0,
+                                                      "ActiveEffects": [
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 14,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 20,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 25,
+                                                          "Amplifier": -1
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "Health": 3.0,
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 3.0,
+                                                      "Name": "generic.maxHealth"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Bat",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 14,
+                                                      "Amplifier": 127
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 20,
+                                                      "Amplifier": 5
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "Health": 0.0,
+                                              "DeathTime": 19,
+                                              "id": "Villager",
+                                              "ActiveEffects": [
+                                                {
+                                                  "ShowParticles": 0,
+                                                  "Duration": 20,
+                                                  "Id": 14,
+                                                  "Amplifier": 0
+                                                }
+                                              ]
+                                            },
+                                            "Weight": 1
+                                          },
+                                          {
+                                            "Entity": {
+                                              "Passengers": [
+                                                {
+                                                  "Passengers": [
+                                                    {
+                                                      "Passengers": [
+                                                        {
+                                                          "Particle": "largeexplode",
+                                                          "Radius": 0.0010000000474974513,
+                                                          "Passengers": [
+                                                            {
+                                                              "Particle": "take",
+                                                              "Radius": 1.5499999523162842,
+                                                              "ReapplicationDelay": 0,
+                                                              "CustomName": "ストーム",
+                                                              "Duration": 999,
+                                                              "id": "AreaEffectCloud",
+                                                              "Effects": [
+                                                                {
+                                                                  "Duration": 4,
+                                                                  "Id": 25,
+                                                                  "Amplifier": 70
+                                                                }
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "CustomName": "ストームオーラ",
+                                                          "Duration": 999,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": []
+                                                        },
+                                                        {
+                                                          "id": "ThrownEnderpearl"
+                                                        }
+                                                      ],
+                                                      "Health": 40.0,
+                                                      "Size": 0,
+                                                      "Attributes": [
+                                                        {
+                                                          "Base": 40.0,
+                                                          "Name": "generic.maxHealth"
+                                                        }
+                                                      ],
+                                                      "Silent": 1,
+                                                      "DeathLootTable": "empty",
+                                                      "id": "Slime",
+                                                      "AbsorptionAmount": 40.0,
+                                                      "ActiveEffects": [
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 14,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 20,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 25,
+                                                          "Amplifier": -1
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "Health": 3.0,
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 3.0,
+                                                      "Name": "generic.maxHealth"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Bat",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 14,
+                                                      "Amplifier": 127
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 2147483647,
+                                                      "Id": 20,
+                                                      "Amplifier": 5
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "Health": 0.0,
+                                              "DeathTime": 19,
+                                              "id": "Villager",
+                                              "ActiveEffects": [
+                                                {
+                                                  "ShowParticles": 0,
+                                                  "Duration": 20,
+                                                  "Id": 14,
+                                                  "Amplifier": 0
+                                                }
+                                              ]
+                                            },
+                                            "Weight": 1
+                                          },
+                                          {
+                                            "Entity": {
+                                              "Passengers": [
+                                                {
+                                                  "Lifetime": 1800,
+                                                  "Passengers": [
+                                                    {
+                                                      "Particle": "flame",
+                                                      "Radius": 0.009999999776482582,
+                                                      "CustomName": "ファイアークロウオーラ",
+                                                      "Duration": 600,
+                                                      "id": "AreaEffectCloud",
+                                                      "Effects": []
+                                                    },
+                                                    {
+                                                      "id": "ThrownEnderpearl"
+                                                    }
+                                                  ],
+                                                  "CustomName": "ファイアークロウ",
+                                                  "Health": 150.0,
+                                                  "ArmorItems": [
+                                                    {},
+                                                    {},
+                                                    {},
+                                                    {}
+                                                  ],
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 150.0,
+                                                      "Name": "generic.maxHealth"
+                                                    },
+                                                    {
+                                                      "Base": 48.0,
+                                                      "Name": "generic.followRange"
+                                                    },
+                                                    {
+                                                      "Base": 1.0,
+                                                      "Name": "generic.knockbackResistance"
+                                                    },
+                                                    {
+                                                      "Base": 0.32,
+                                                      "Name": "generic.movementSpeed"
+                                                    },
+                                                    {
+                                                      "Base": 0.05,
+                                                      "Name": "generic.attackDamage"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Endermite",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 700,
+                                                      "Id": 14,
+                                                      "Amplifier": 0
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 700,
+                                                      "Id": 25,
+                                                      "Amplifier": -10
+                                                    }
+                                                  ],
+                                                  "HandItems": [
+                                                    {
+                                                      "id": "minecraft:wooden_sword",
+                                                      "Count": 0,
+                                                      "tag": {
+                                                        "ench": [
+                                                          {
+                                                            "lvl": 6,
+                                                            "id": 20
+                                                          }
+                                                        ],
+                                                        "RepairCost": 1000000000
+                                                      }
+                                                    },
+                                                    {}
+                                                  ]
+                                                }
+                                              ],
+                                              "Health": 0.0,
+                                              "DeathTime": 19,
+                                              "id": "Villager",
+                                              "ActiveEffects": [
+                                                {
+                                                  "ShowParticles": 0,
+                                                  "Duration": 20,
+                                                  "Id": 14,
+                                                  "Amplifier": 0
+                                                }
+                                              ]
+                                            },
+                                            "Weight": 1
+                                          },
+                                          {
+                                            "Entity": {
+                                              "Passengers": [
+                                                {
+                                                  "Lifetime": 1900,
+                                                  "Passengers": [
+                                                    {
+                                                      "Particle": "endRod",
+                                                      "Radius": 0.0010000000474974513,
+                                                      "Passengers": [
+                                                        {
+                                                          "Particle": "take",
+                                                          "Radius": 1.5499999523162842,
+                                                          "ReapplicationDelay": 0,
+                                                          "Duration": 600,
+                                                          "id": "AreaEffectCloud",
+                                                          "Effects": [
+                                                            {
+                                                              "Duration": 80,
+                                                              "Id": 25,
+                                                              "Amplifier": -20
+                                                            },
+                                                            {
+                                                              "Duration": 80,
+                                                              "Id": 4,
+                                                              "Amplifier": 5
+                                                            },
+                                                            {
+                                                              "Duration": 10,
+                                                              "Id": 15,
+                                                              "Amplifier": 0
+                                                            },
+                                                            {
+                                                              "Duration": 80,
+                                                              "Id": 2,
+                                                              "Amplifier": 5
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "CustomName": "フラッシュバインドオーラ",
+                                                      "Duration": 600,
+                                                      "id": "AreaEffectCloud",
+                                                      "Effects": []
+                                                    },
+                                                    {
+                                                      "id": "ThrownEnderpearl"
+                                                    }
+                                                  ],
+                                                  "CustomName": "フラッシュバインド",
+                                                  "Health": 100.0,
+                                                  "Attributes": [
+                                                    {
+                                                      "Base": 100.0,
+                                                      "Name": "generic.maxHealth"
+                                                    },
+                                                    {
+                                                      "Base": 48.0,
+                                                      "Name": "generic.followRange"
+                                                    },
+                                                    {
+                                                      "Base": 1.0,
+                                                      "Name": "generic.knockbackResistance"
+                                                    },
+                                                    {
+                                                      "Base": 0.46,
+                                                      "Name": "generic.movementSpeed"
+                                                    },
+                                                    {
+                                                      "Base": 0.0,
+                                                      "Name": "generic.attackDamage"
+                                                    }
+                                                  ],
+                                                  "Silent": 1,
+                                                  "id": "Endermite",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 700,
+                                                      "Id": 14,
+                                                      "Amplifier": 0
+                                                    },
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 700,
+                                                      "Id": 25,
+                                                      "Amplifier": -10
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "Health": 0.0,
+                                              "DeathTime": 19,
+                                              "id": "Villager",
+                                              "ActiveEffects": [
+                                                {
+                                                  "ShowParticles": 0,
+                                                  "Duration": 20,
+                                                  "Id": 14,
+                                                  "Amplifier": 0
+                                                }
+                                              ]
+                                            },
+                                            "Weight": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "トカルトコルデの魔術師",
+                                    "Health": 250.0,
+                                    "Attributes": [
+                                      {
+                                        "Base": 300.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 0.65,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 0.7,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      }
+                                    ],
+                                    "DeathLootTable": "usb:entities/ice/mob5",
+                                    "id": "Witch"
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lトカルトの魔術士_新"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 1,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 450,
+                          "SpawnRange": 4,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "Passengers": [
+                                      {
+                                        "Passengers": [
+                                          {
+                                            "RequiredPlayerRange": 16,
+                                            "MaxNearbyEntities": 3,
+                                            "CustomDisplayTile": 1,
+                                            "SpawnCount": 1,
+                                            "DisplayTile": "minecraft:fire",
+                                            "Invulnerable": 1,
+                                            "MaxSpawnDelay": 5,
+                                            "Delay": -1,
+                                            "DisplayOffset": 8,
+                                            "CustomName": "火炎放射器",
+                                            "DeathLootTable": "empty",
+                                            "id": "MinecartSpawner",
+                                            "DisplayData": 0,
+                                            "SpawnRange": 1,
+                                            "MinSpawnDelay": 5,
+                                            "SpawnPotentials": [
+                                              {
+                                                "Entity": {
+                                                  "Passengers": [
+                                                    {
+                                                      "Passengers": [
+                                                        {
+                                                          "Passengers": [
+                                                            {
+                                                              "Particle": "flame",
+                                                              "Radius": 0.009999999776482582,
+                                                              "CustomName": "火炎",
+                                                              "Duration": 600,
+                                                              "id": "AreaEffectCloud",
+                                                              "Effects": []
+                                                            }
+                                                          ],
+                                                          "CustomName": "火炎放射",
+                                                          "Health": 10.0,
+                                                          "Size": 3,
+                                                          "Fire": 32767,
+                                                          "Attributes": [
+                                                            {
+                                                              "Base": 10.0,
+                                                              "Name": "generic.maxHealth"
+                                                            },
+                                                            {
+                                                              "Base": 48.0,
+                                                              "Name": "generic.followRange"
+                                                            },
+                                                            {
+                                                              "Base": 1.0,
+                                                              "Name": "generic.knockbackResistance"
+                                                            },
+                                                            {
+                                                              "Base": 0.32,
+                                                              "Name": "generic.movementSpeed"
+                                                            },
+                                                            {
+                                                              "Base": 0.05,
+                                                              "Name": "generic.attackDamage"
+                                                            }
+                                                          ],
+                                                          "Silent": 1,
+                                                          "DeathLootTable": "empty",
+                                                          "id": "Slime",
+                                                          "AbsorptionAmount": 10.0,
+                                                          "ActiveEffects": [
+                                                            {
+                                                              "ShowParticles": 0,
+                                                              "Duration": 2147483647,
+                                                              "Id": 14,
+                                                              "Amplifier": 127
+                                                            },
+                                                            {
+                                                              "ShowParticles": 0,
+                                                              "Duration": 2147483647,
+                                                              "Id": 20,
+                                                              "Amplifier": 127
+                                                            },
+                                                            {
+                                                              "ShowParticles": 0,
+                                                              "Duration": 2147483647,
+                                                              "Id": 25,
+                                                              "Amplifier": -1
+                                                            }
+                                                          ],
+                                                          "HandItems": [
+                                                            {
+                                                              "id": "minecraft:wooden_sword",
+                                                              "Count": 0,
+                                                              "tag": {
+                                                                "ench": [
+                                                                  {
+                                                                    "lvl": 6,
+                                                                    "id": 20
+                                                                  }
+                                                                ],
+                                                                "RepairCost": 1000000000
+                                                              }
+                                                            },
+                                                            {}
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "Health": 3.0,
+                                                      "Attributes": [
+                                                        {
+                                                          "Base": 3.0,
+                                                          "Name": "generic.maxHealth"
+                                                        }
+                                                      ],
+                                                      "Silent": 1,
+                                                      "id": "Bat",
+                                                      "ActiveEffects": [
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 14,
+                                                          "Amplifier": 127
+                                                        },
+                                                        {
+                                                          "ShowParticles": 0,
+                                                          "Duration": 2147483647,
+                                                          "Id": 20,
+                                                          "Amplifier": 5
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "Health": 0.0,
+                                                  "DeathTime": 19,
+                                                  "id": "Villager",
+                                                  "ActiveEffects": [
+                                                    {
+                                                      "ShowParticles": 0,
+                                                      "Duration": 20,
+                                                      "Id": 14,
+                                                      "Amplifier": 0
+                                                    }
+                                                  ]
+                                                },
+                                                "Weight": 1
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "CustomName": "Grumm",
+                                        "Health": 150.0,
+                                        "Fire": 32767,
+                                        "ArmorItems": [
+                                          {},
+                                          {},
+                                          {},
+                                          {
+                                            "id": "minecraft:quartz_ore",
+                                            "Count": 0,
+                                            "Damage": 0
+                                          }
+                                        ],
+                                        "Attributes": [
+                                          {
+                                            "Base": 150.0,
+                                            "Name": "generic.maxHealth"
+                                          },
+                                          {
+                                            "Base": 0.1,
+                                            "Name": "generic.movementSpeed"
+                                          },
+                                          {
+                                            "Base": 0.7,
+                                            "Name": "generic.knockbackResistance"
+                                          },
+                                          {
+                                            "Base": 48.0,
+                                            "Name": "generic.followRange"
+                                          }
+                                        ],
+                                        "DeathLootTable": "usb:entities/ice/mob4",
+                                        "id": "Skeleton",
+                                        "ActiveEffects": [
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 2147483647,
+                                            "Id": 14,
+                                            "Amplifier": 127
+                                          },
+                                          {
+                                            "ShowParticles": 0,
+                                            "Duration": 2147483647,
+                                            "Id": 12,
+                                            "Amplifier": 127
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "CustomName": "バーニングゴースト",
+                                    "Health": 150.0,
+                                    "Size": 1,
+                                    "Fire": 32767,
+                                    "Attributes": [
+                                      {
+                                        "Base": 150.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      },
+                                      {
+                                        "Base": 1.0,
+                                        "Name": "generic.knockbackResistance"
+                                      },
+                                      {
+                                        "Base": 0.32,
+                                        "Name": "generic.movementSpeed"
+                                      },
+                                      {
+                                        "Base": 0.05,
+                                        "Name": "generic.attackDamage"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "empty",
+                                    "id": "Slime",
+                                    "AbsorptionAmount": 150.0,
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 2147483647,
+                                        "Id": 14,
+                                        "Amplifier": 127
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 2147483647,
+                                        "Id": 25,
+                                        "Amplifier": -1
+                                      }
+                                    ],
+                                    "HandItems": [
+                                      {
+                                        "id": "minecraft:wooden_sword",
+                                        "Count": 0,
+                                        "tag": {
+                                          "ench": [
+                                            {
+                                              "lvl": 6,
+                                              "id": 20
+                                            }
+                                          ],
+                                          "RepairCost": 1000000000
+                                        }
+                                      },
+                                      {}
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lファイアーゴースト"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:mob_spawner",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "RequiredPlayerRange": 16,
+                          "MaxNearbyEntities": 6,
+                          "SpawnCount": 5,
+                          "SpawnData": {},
+                          "MaxSpawnDelay": 350,
+                          "SpawnRange": 16,
+                          "Delay": -1,
+                          "MinSpawnDelay": 150,
+                          "SpawnPotentials": [
+                            {
+                              "Entity": {
+                                "Passengers": [
+                                  {
+                                    "CustomName": "UFO",
+                                    "Health": 50.0,
+                                    "Attributes": [
+                                      {
+                                        "Base": 50.0,
+                                        "Name": "generic.maxHealth"
+                                      },
+                                      {
+                                        "Base": 48.0,
+                                        "Name": "generic.followRange"
+                                      }
+                                    ],
+                                    "Silent": 1,
+                                    "DeathLootTable": "usb:entities/ice/mob1",
+                                    "id": "Ghast",
+                                    "ExplosionPower": 0,
+                                    "ActiveEffects": [
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 2147483647,
+                                        "Id": 24,
+                                        "Amplifier": 127
+                                      },
+                                      {
+                                        "ShowParticles": 0,
+                                        "Duration": 2147483647,
+                                        "Id": 14,
+                                        "Amplifier": 127
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "Health": 0.0,
+                                "DeathTime": 19,
+                                "id": "Villager",
+                                "ActiveEffects": [
+                                  {
+                                    "ShowParticles": 0,
+                                    "Duration": 20,
+                                    "Id": 14,
+                                    "Amplifier": 0
+                                  }
+                                ]
+                              },
+                              "Weight": 1
+                            }
+                          ]
+                        },
+                        "display": {
+                          "Name": "§b§lUFO(ﾄｶﾙﾄｶﾞｽﾄ)"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "クラウディア",
+                  "italic": false,
+                  "color": "white",
+                  "underlined": true
+                },
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 180.0,
+                      "x": -2483.0,
+                      "z": -138.0,
+                      "id": "enterC1",
+                      "type": 5
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -1935.0,
+                      "z": -136.0,
+                      "id": "shopC1",
+                      "type": 6
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -1739.0,
+                      "z": -137.0,
+                      "id": "shopC2",
+                      "type": 6
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -2322.0,
+                      "z": -131.0,
+                      "id": "frameC1",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -2228.0,
+                      "z": -164.0,
+                      "id": "frameC2",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": -1904.0,
+                      "z": -71.0,
+                      "id": "frameC3",
+                      "type": 4
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

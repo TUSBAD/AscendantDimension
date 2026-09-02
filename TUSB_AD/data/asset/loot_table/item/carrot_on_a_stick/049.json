@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "忘却",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "の杖",
+                      "italic": false,
+                      "color": "gray"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "忘れ去られた",
+                        "italic": false,
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "者の杖",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "過去の力",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      },
+                      {
+                        "text": "が宿っている",
+                        "italic": false,
+                        "color": "gray"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ba611_00000000000d9f1c",
+                      "type": "minecraft:max_health",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ba611_00000000000d9f1c",
+                      "type": "minecraft:max_health",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e9db7_00000000000178e7",
+                      "type": "minecraft:follow_range",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e9db7_00000000000178e7",
+                      "type": "minecraft:follow_range",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000eaff9_0000000000086873",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.15,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000eaff9_0000000000086873",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.15,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006f702_00000000000e633a",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006f702_00000000000e633a",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000d982_0000000000062c37",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000d982_0000000000062c37",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

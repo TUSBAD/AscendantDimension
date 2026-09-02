@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": " 魔眼 ",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "盲目無効 Ⅰ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "インベントリーの",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "右上",
+                        "italic": false,
+                        "color": "white",
+                        "underlined": true
+                      },
+                      {
+                        "text": "にあるときに効果が発動する",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 1
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_data": {
+                  "m2": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

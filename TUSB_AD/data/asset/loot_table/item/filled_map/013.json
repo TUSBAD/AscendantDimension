@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "酒売の地図",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ヒヒヒ...そういえばこんな地図があるんじゃが？",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "どーしてもわからんかったら、譲ってもいいぞ？",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 180.0,
+                      "x": 1317.0,
+                      "z": 1561.0,
+                      "id": "enterD1",
+                      "type": 5
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 1272.0,
+                      "z": 1646.0,
+                      "id": "Villager01",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 1901.0,
+                      "z": 2437.0,
+                      "id": "Villager02",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 966.0,
+                      "z": 2335.0,
+                      "id": "Villager03",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 2009.0,
+                      "z": 2495.0,
+                      "id": "Villager04",
+                      "type": 4
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 2065.0,
+                      "z": 2529.0,
+                      "id": "Villager05",
+                      "type": 4
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

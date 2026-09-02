@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "123",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "強化スケルトンの頭",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "text": "123",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "下手な狙撃兵の頭",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:projectile_protection": 30
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000d3507_000000000006e9d2",
+                      "type": "minecraft:armor",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000267e1_00000000000e57d6",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.8,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

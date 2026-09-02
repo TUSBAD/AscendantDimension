@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10,
+                    "minecraft:fire_protection": 10,
+                    "minecraft:feather_falling": 10,
+                    "minecraft:blast_protection": 10,
+                    "minecraft:projectile_protection": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000000_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "torso"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

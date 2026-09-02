@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ホウジュ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/give @p minecraft:quartz 1 0 {HideFlags:62,AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:39d,Operation:0,UUIDLeast:172057,UUIDMost:85300,Slot:\"offhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.1d,Operation:1,UUIDLeast:451350,UUIDMost:514933,Slot:\"offhand\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:50,Operation:1,UUIDLeast:382262,UUIDMost:681499d,Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:30d,Operation:0,UUIDLeast:771005,UUIDMost:105888,Slot:\"offhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:100d,Operation:0,UUIDLeast:905898,UUIDMost:125319,Slot:\"offhand\"}],Unbreakable:1b,display:{Name:\"§4§k444§r§r§9夢幻と§d幻想§9の無双神珠§4§k444§r\",Lore:[\"§l§bある人は儚き野望を抱え\",\"§l§dある人は幻を彷徨い\",\"§lある人は護る力を求めた\"]},ench:[{id:51s,lvl:1892s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

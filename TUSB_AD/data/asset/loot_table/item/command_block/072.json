@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "デイドラ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Health:0f,id:\"Villager\",Passengers:[{ActiveEffects:[{Amplifier:1b,Duration:2000000000,Id:14b,ShowParticles:0b},{Amplifier:1b,Duration:2000000000,Id:12b,ShowParticles:0b},{Amplifier:4b,Duration:2000000000,Id:1b,ShowParticles:0b},{Amplifier:10b,Duration:2000000000,Id:8b,ShowParticles:0b}],ArmorItems:[{Count:1b,Damage:0s,id:\"minecraft:leather_boots\",tag:{display:{color:16711935,Name:\"デイドラのブーツ\"}}},{Count:1b,Damage:0s,id:\"minecraft:leather_leggings\",tag:{display:{color:16711935,Name:\"デイドラのグリーヴ\"}}},{Count:1b,Damage:0s,id:\"minecraft:leather_chestplate\",tag:{display:{color:16711935,Name:\"デイドラのキュイラス\"}}},{Count:1b,Damage:2s,id:\"minecraft:anvil\",tag:{display:{Name:\"デイドラの兜\"}}}],Attributes:[{Base:200d,Name:\"generic.maxHealth\"},{Base:1d,Name:\"generic.knockbackResistance\"},{Base:10d,Name:\"generic.attackDamage\"}],CanBreakDoors:1b,CustomName:\"デイドラ\",CustomNameVisible:1b,HandItems:[{Count:1b,Damage:0s,id:\"minecraft:stone_sword\",tag:{display:{Name:\"アカヴィリ刀\"},ench:[{id:20s,lvl:20s},{id:19s,lvl:20s}]}}],Health:200f,id:\"Zombie\"}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "原初と",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "叛逆の",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "創造神",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖楯 ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "創造神の聖楯 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "創造神の加護 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "世界の",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "創造神",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "がもつ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "聖楯",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "創造神の力",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "を宿しており、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "限界を突破",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "した",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "魔力",
+                        "italic": false,
+                        "color": "green",
+                        "bold": true
+                      },
+                      {
+                        "text": "が込められている。",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "利き手に持つと神速の力を持ち、非利き手に持つと頑丈な楯となる",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  },
+                  {
+                    "text": "エンチャント及び修繕不可",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 127,
+                    "minecraft:fire_protection": 127,
+                    "minecraft:feather_falling": 127,
+                    "minecraft:projectile_protection": 127,
+                    "minecraft:respiration": 127,
+                    "minecraft:aqua_affinity": 127,
+                    "minecraft:thorns": 127,
+                    "minecraft:depth_strider": 127,
+                    "minecraft:blast_protection": 127,
+                    "minecraft:sharpness": 127,
+                    "minecraft:smite": 127,
+                    "minecraft:bane_of_arthropods": 127,
+                    "minecraft:knockback": 127,
+                    "minecraft:fire_aspect": 127
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 50.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000003",
+                      "type": "minecraft:luck",
+                      "amount": 614.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000005",
+                      "type": "minecraft:max_health",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000007",
+                      "type": "minecraft:armor",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000008",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000003",
+                      "type": "minecraft:luck",
+                      "amount": 614.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000005",
+                      "type": "minecraft:max_health",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000007",
+                      "type": "minecraft:armor",
+                      "amount": 30.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000004e_0000000000000008",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 20.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "white",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:small_stripes",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "symphony29": 1,
+                  "awakening29": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

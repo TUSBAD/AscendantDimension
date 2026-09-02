@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "聖弓のエッセンス",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:custom_data": {
+                  "Explosion": {
+                    "Type": 2,
+                    "Colors": [
+                      6628863
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

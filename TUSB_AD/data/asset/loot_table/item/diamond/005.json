@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "Soul of Cosmos",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "神",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "々",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "の",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "意",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "思",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "が一つになりし時、",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "それは",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "神羅万象",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "を凌駕する。§ｒ",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

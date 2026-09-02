@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "鉄凶",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{Passengers:[0:{Passengers:[0:{Passengers:[0:{Particle:\"magicCrit\",Radius:0.01f,CustomName:\"プロテクト\",Duration:999,id:\"AreaEffectCloud\"}],CustomName:\"照射装置\",Health:10.0f,Attributes:[0:{Base:10.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.0d,Name:\"generic.knockbackResistance\"},3:{Base:0.0d,Name:\"generic.movementSpeed\"},4:{Base:3.0d,Name:\"generic.attackDamage\"}],Silent:1b,DeathLootTable:\"empty\",id:\"Guardian\",ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b},1:{ShowParticles:0b,Duration:1000000,Id:8b,Amplifier:-120b}]}],CustomName:\"鉄を貪る者:凶\",Health:200.0f,ArmorItems:[0:{},1:{id:\"minecraft:diamond_leggings\",Count:0b,Damage:0s},2:{id:\"minecraft:diamond_chestplate\",Count:0b,Damage:0s},3:{id:\"minecraft:skull\",Count:0b,tag:{SkullOwner:{Id:\"e10c2555-b690-4ece-90f0-155ddf1a79f7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMmM2ZWJmOGRhYzI1N2MzZTIyN2M5MWQ4ZTVlZDQwMzQ1ZWYyODQ2YzY3NWY4NmE4N2ViMjNkOGMxMiJ9fX0=\"}]}}},Damage:3s}],Attributes:[0:{Base:200.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.8d,Name:\"generic.knockbackResistance\"},3:{Base:0.35d,Name:\"generic.movementSpeed\"},4:{Base:20.0d,Name:\"generic.attackDamage\"}],Silent:1b,DeathLootTable:\"usb:entities/ice/mob4\",id:\"Zombie\",ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b},1:{ShowParticles:0b,Duration:1000000,Id:25b,Amplifier:-128b}],HandItems:[0:{id:\"minecraft:diamond_sword\",Count:0b,Damage:0s},1:{id:\"minecraft:diamond_sword\",Count:0b,Damage:0s}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},SpawnPotentials:[{Entity:{Passengers:[0:{Passengers:[0:{Passengers:[0:{Particle:\"magicCrit\",Radius:0.01f,CustomName:\"プロテクト\",Duration:999,id:\"AreaEffectCloud\"}],CustomName:\"照射装置\",Health:10.0f,Attributes:[0:{Base:10.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.0d,Name:\"generic.knockbackResistance\"},3:{Base:0.0d,Name:\"generic.movementSpeed\"},4:{Base:3.0d,Name:\"generic.attackDamage\"}],Silent:1b,DeathLootTable:\"empty\",id:\"Guardian\",ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b},1:{ShowParticles:0b,Duration:1000000,Id:8b,Amplifier:-120b}]}],CustomName:\"鉄を貪る者:凶\",Health:200.0f,ArmorItems:[0:{},1:{id:\"minecraft:diamond_leggings\",Count:0b,Damage:0s},2:{id:\"minecraft:diamond_chestplate\",Count:0b,Damage:0s},3:{id:\"minecraft:skull\",Count:0b,tag:{SkullOwner:{Id:\"e10c2555-b690-4ece-90f0-155ddf1a79f7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMmM2ZWJmOGRhYzI1N2MzZTIyN2M5MWQ4ZTVlZDQwMzQ1ZWYyODQ2YzY3NWY4NmE4N2ViMjNkOGMxMiJ9fX0=\"}]}}},Damage:3s}],Attributes:[0:{Base:200.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.8d,Name:\"generic.knockbackResistance\"},3:{Base:0.35d,Name:\"generic.movementSpeed\"},4:{Base:20.0d,Name:\"generic.attackDamage\"}],Silent:1b,DeathLootTable:\"usb:entities/ice/mob4\",id:\"Zombie\",ActiveEffects:[0:{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b},1:{ShowParticles:0b,Duration:1000000,Id:25b,Amplifier:-128b}],HandItems:[0:{id:\"minecraft:diamond_sword\",Count:0b,Damage:0s},1:{id:\"minecraft:diamond_sword\",Count:0b,Damage:0s}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},Weight:1}],     SpawnCount:1s,     SpawnRange:4s,     MaxNearbyEntities:6s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:150s,     MaxSpawnDelay:200s}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.setblock.success\"}],\"text\":\"[20:27:58] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

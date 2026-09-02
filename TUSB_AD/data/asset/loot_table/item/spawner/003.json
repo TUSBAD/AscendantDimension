@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "何もはいっていない(ようにみえる)スポナー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "装飾に使うってみかんさんが",
+                    "italic": false
+                  },
+                  {
+                    "text": "言ってたから作ったやつ。",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "RequiredPlayerRange": 16,
+                  "MaxNearbyEntities": 0,
+                  "SpawnCount": 0,
+                  "SpawnData": {},
+                  "id": "minecraft:mob_spawner",
+                  "MaxSpawnDelay": 60,
+                  "SpawnRange": 0,
+                  "Delay": -1,
+                  "MinSpawnDelay": 60,
+                  "SpawnPotentials": [
+                    {
+                      "Entity": {
+                        "Block": "minecraft:barrier",
+                        "Time": 1,
+                        "id": "FallingSand",
+                        "DropItem": 0
+                      },
+                      "Weight": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

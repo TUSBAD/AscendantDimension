@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "中枢の結界",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "ｺﾏﾝﾄﾞﾌﾞﾛｯｸ",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "に貼り付けて起動すると",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Adv.ｴﾘｱ",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "の黒色ガラス",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "で覆われている",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "封印を解除する事ができる。",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "CommandBreaker",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "Invisible": "true",
+                  "Invulnerable": "true",
+                  "NoGravity": "true",
+                  "CanPlaeOn": [
+                    "minecraft:redstone_block"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

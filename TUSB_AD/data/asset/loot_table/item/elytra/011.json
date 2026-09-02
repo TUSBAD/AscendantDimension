@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "T",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "U",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": true,
+                      "color": "yellow"
+                    },
+                    {
+                      "text": "不滅の翼",
+                      "italic": true,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": " ",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "S",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "B",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.1",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "TUSBerがエリトラを外していいのは",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "王を倒すその時か、負けを認めて諦める時だけ。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "戦い続ける意思がある限り、奈落すら超克する魂の翼",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "symphony2": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

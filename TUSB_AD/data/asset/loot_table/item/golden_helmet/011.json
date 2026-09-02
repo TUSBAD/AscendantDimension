@@ -1,0 +1,315 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "原初と",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "叛逆の",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "創造神 ",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "創造神の加護 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "この世界の",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "未来",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "は",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "空を",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "自在",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "に駆ける",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "英雄",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "に託された",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 127,
+                    "minecraft:fire_protection": 127,
+                    "minecraft:feather_falling": 127,
+                    "minecraft:projectile_protection": 127,
+                    "minecraft:respiration": 127,
+                    "minecraft:aqua_affinity": 127,
+                    "minecraft:thorns": 127,
+                    "minecraft:depth_strider": 127,
+                    "minecraft:blast_protection": 127
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000006",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000007",
+                      "type": "minecraft:attack_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000000001f_0000000000000008",
+                      "type": "minecraft:luck",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "symphony31": 1,
+                  "awakening31": 1,
+                  "awaked20": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

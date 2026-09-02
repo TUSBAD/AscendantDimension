@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "レーザー照射装置",
+                      "italic": true,
+                      "color": "red"
+                    },
+                    {
+                      "text": "(巡回型)",
+                      "italic": false,
+                      "color": "aqua"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "周りへ",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "光",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "を放つブロック",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "巡回型",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "：時計回りに回転し続けます",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "RequiredPlayerRange": 70,
+                  "MaxNearbyEntities": 0,
+                  "SpawnCount": 0,
+                  "SpawnData": {
+                    "Pos": [
+                      0.0,
+                      -1000.0,
+                      0.0
+                    ],
+                    "id": "EnderCrystal",
+                    "BeamTarget": {
+                      "X": -100,
+                      "Y": 0,
+                      "Z": 0
+                    },
+                    "Rotation": [
+                      0.0,
+                      0.0
+                    ],
+                    "ShowBottom": 0
+                  },
+                  "MaxSpawnDelay": -1,
+                  "SpawnRange": 0,
+                  "Delay": -5000,
+                  "MinSpawnDelay": -1,
+                  "id": "minecraft:mob_spawner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

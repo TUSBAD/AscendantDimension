@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "エリアエフェクトコマンド",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/summon AreaEffectCloud ~ ~ ~ {ReapplicantDelay:20,Radius:1f,RadiusOnUse:0f,DurationOnUse:0f,Duration:2147483647,RadiusPerTick:0f,WaitTime:0,Age:0,CustomNameVisible:true,Particle:mobSpell,Effects:[{Id:1b,Duration:400,Amplifier:1b,ShowParticles:true},{Id:8b,Duration:400,Amplifier:19b,ShowParticles:true},{Id:11b,Duration:400,Amplifier:4b,ShowParticles:true}],CustomName:\" §a§l❣\"}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

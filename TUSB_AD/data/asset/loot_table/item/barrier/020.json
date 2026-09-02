@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "優しい酒好きの村人",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "わしは優しいからな！",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "見せるには見せるが...タダではあげんぞ？",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "ひゃひゃ！ 何、わしの出す条件は簡単じゃよ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "...酒じゃ！",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

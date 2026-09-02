@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "泉に落ちた斧",
+                  "italic": false,
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "とある若者が泉に落とした",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  },
+                  {
+                    "text": "不思議な斧",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  },
+                  {
+                    "text": "ボロボロで使い物にならなさそうだ。",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 5,
+                    "minecraft:smite": 2,
+                    "minecraft:knockback": 1,
+                    "minecraft:fire_aspect": 1,
+                    "minecraft:efficiency": 5
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 8.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.08,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:attack_speed",
+                      "amount": -4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:attack_damage",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

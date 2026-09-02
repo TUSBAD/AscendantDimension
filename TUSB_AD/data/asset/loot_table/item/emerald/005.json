@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "quaser",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "ク",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "エ",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "ー",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true
+                    },
+                    {
+                      "text": "サ",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "ー",
+                      "italic": false,
+                      "color": "green"
+                    },
+                    {
+                      "text": "イ",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ン",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "ゴ",
+                      "italic": false,
+                      "color": "blue",
+                      "bold": true
+                    },
+                    {
+                      "text": "ッ",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "ト",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "quaser",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "クエーサーの如く光り輝くインゴット",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  },
+                  {
+                    "text": "原初の力を纏い、究極的な力を持つようになった",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "素材に使用することで更なる力を得ることが出来るかもしれない",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

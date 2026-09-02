@@ -1,0 +1,231 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "realno",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "ほんもののナイフ",
+                      "italic": false,
+                      "color": "dark_red"
+                    },
+                    {
+                      "text": "knives",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "ケツイ enchantment.level.",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "inf",
+                        "italic": false,
+                        "color": "gray",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "k",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "ご機嫌よう。",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "a",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "i",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "私の名前は",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "chara",
+                        "italic": false,
+                        "color": "red",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": ".",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "g",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "l",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "礼を言おう。",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true,
+                        "underlined": true
+                      },
+                      {
+                        "text": "a",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "l",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "お前の力で 私は死の淵からよみがえった。",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "i",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "u",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "さぁ共に敵を殲滅しよう。",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "n",
+                        "italic": false,
+                        "color": "black",
+                        "obfuscated": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "残念ながらこの件に関しては随分と前に選択済みだ。",
+                    "italic": false,
+                    "color": "black",
+                    "strikethrough": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:binding_curse": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000009bae6_0000000000062090",
+                      "type": "minecraft:max_health",
+                      "amount": -0.8,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000004608d_0000000000060218",
+                      "type": "minecraft:attack_damage",
+                      "amount": 99.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

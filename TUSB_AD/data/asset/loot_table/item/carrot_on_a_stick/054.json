@@ -1,0 +1,255 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "T",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "m",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "★",
+                      "italic": false,
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "-時間と空間の杖-【魔力開放】",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "★",
+                      "italic": false,
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "-",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "p",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "c",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "文明の魔力 enchantment.level.35",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "氷結の加護 enchantment.level.35",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "失われた文明で作られた最後の杖",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "失われた力を取り戻し、強力な力を宿す",
+                    "italic": false,
+                    "color": "dark_aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 35,
+                    "minecraft:smite": 35,
+                    "minecraft:bane_of_arthropods": 35,
+                    "minecraft:knockback": 35,
+                    "minecraft:fire_aspect": 35,
+                    "minecraft:infinity": 35,
+                    "minecraft:unbreaking": 35
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002b2a2_000000000008f0ac",
+                      "type": "minecraft:max_health",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003187c_000000000003b2d9",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000bfb79_0000000000099da4",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000009e71c_00000000000b51c8",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000abb14_0000000000092255",
+                      "type": "minecraft:armor",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ab4de_000000000003c2fe",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002b2a2_000000000008f0ac",
+                      "type": "minecraft:max_health",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003187c_000000000003b2d9",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000bfb79_0000000000099da4",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.15,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000009e71c_00000000000b51c8",
+                      "type": "minecraft:attack_damage",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000abb14_0000000000092255",
+                      "type": "minecraft:armor",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ab4de_000000000003c2fe",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 15.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "symphony40": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

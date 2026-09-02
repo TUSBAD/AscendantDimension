@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "デュラハンコマンドブロック",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "powered": 0,
+                  "CustomName": "@",
+                  "Command": "/summon EntityHorse ~ ~1 ~ {Type:4b,Tame:1b,Saddle:1b,ArmorItem:{id:iron_horse_armor},Passengers:[{id:Zombie,ArmorItems:[{id:leather_boots},{id:leather_leggings},{id:leather_chestplate},{id:pumpkin}],HandItems:[{id:\"minecraft:shield\",Count:1b,tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"mr\",Color:0},1:{Pattern:\"mc\",Color:14},2:{Pattern:\"sc\",Color:0},3:{Pattern:\"tts\",Color:0},4:{Pattern:\"bts\",Color:0},5:{Pattern:\"bo\",Color:0}],Base:14}},Damage:0s},{id:iron_sword}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:100000000,ShowParticles:0b}]}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

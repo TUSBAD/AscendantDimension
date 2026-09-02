@@ -1,0 +1,1014 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "投げるポーション",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 1,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 2,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 3,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 4,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 9,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 10,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 11,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 13,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 15,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 16,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 17,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 18,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 19,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 20,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 22,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 24,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 27,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§6毒を以て毒を制すというコンセプトで",
+                            "§6作られたポーション。解毒薬の上位互換で",
+                            "§6マイナス効果のみを除去する。"
+                          ],
+                          "Name": "§e§lノンデメリット"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 1,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 2,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 3,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 4,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 8,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 9,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 10,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 11,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 13,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 15,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 16,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 17,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 18,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 19,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 20,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 22,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 24,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": 127
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 0,
+                            "Id": 27,
+                            "Amplifier": 127
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3毒を以て毒を制すというコンセプトで",
+                            "§3作られたポーション。"
+                          ],
+                          "Name": "§f解毒薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 10,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 22,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 9,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§e§o黄金に輝く果実を、若葉から滴る",
+                            "§e§oエキスとブレンドしたポーション",
+                            "§e§o中毒性が強いとの報告があるので注意"
+                          ],
+                          "Name": "§b黄金水"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 5,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 11,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 2400,
+                            "Id": 17,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 2400,
+                            "Id": 19,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§2§o投げつける薬。",
+                            "§2§oこれを浴びた者は、攻撃力と防御力が上昇するが、",
+                            "§2§o代償として飢餓と毒状態になる。"
+                          ],
+                          "Name": "§cバーサーク"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 17,
+                            "Amplifier": 100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§e§o空腹になることができる。"
+                          ],
+                          "Name": "空腹ポーション"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 8,
+                            "Amplifier": 49
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§6§oコレを使えば緊急時の上り下りが",
+                            "§6§o非常に楽になります！",
+                            "§4§o※ついでに落下死も増えます！",
+                            "§0§o梯子なんていらなかったんや！"
+                          ],
+                          "Name": "§dエレベータポーション"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 17760,
+                            "Id": 16,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 40,
+                        "display": {
+                          "Lore": [
+                            "この世界でしか手に入らない特殊な暗視薬",
+                            "製法もとうの昔に忘れ去られてしまったもの"
+                          ],
+                          "Name": "旧文明の遠目薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 1200,
+                            "Id": 7,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 17,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 20,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 10
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o投げつける薬。これを浴びた者は、",
+                            "§4§oほぼ間違いなく即死。"
+                          ],
+                          "Name": "§8禁忌・冥界落とし"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 18,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 18,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 17,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 17,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 2,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 2,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 16,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o投げつける薬。これを浴びた者は、",
+                            "§4§oあらゆる能力が低下する。"
+                          ],
+                          "Name": "§5暗黒水"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 8,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 2,
+                            "Amplifier": 6
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 2,
+                            "Amplifier": -6
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 18,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 18,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 20,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 20,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 9,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 4,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 4,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 15,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 15,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 17,
+                            "Amplifier": 100
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 17,
+                            "Amplifier": -100
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": -20
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§8§o歩かせません、ジャンプさせません",
+                            "§8§o攻撃させません、死なせません",
+                            "§8§o壊させません、etc",
+                            "§8§o惨たらしい効果を施す。",
+                            "§8§oポーションというより呪いに近い。"
+                          ],
+                          "Name": "§4§l究極拷問安眠スペシャル"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 15,
+                            "Amplifier": 9
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 15,
+                            "Amplifier": -9
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": 9
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 19,
+                            "Amplifier": -9
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o投げつける薬。",
+                            "§4§oこれを浴びた者は、",
+                            "§4§o強力な酸で視力と体力を奪われる。"
+                          ],
+                          "Name": "§6王水"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 2,
+                            "Amplifier": 7
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§5§o当たると相手の移動を一時的に封じる。"
+                          ],
+                          "Name": "§d移動封じの聖水"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o元々は治癒の効果をより強力に引き出す",
+                            "§4§oための実験で出来た失敗作だったが、",
+                            "§4§oその異常な治癒力で、生物であるならば",
+                            "§4§oアイテムすら落とさず消滅させる",
+                            "§4§o恐ろしい効果を持つ。",
+                            "§4§oこれはプレイヤーも例外ではなく、",
+                            "§4§o持っている物をロストする。",
+                            "§4§o尚、クリエイティブモードのような",
+                            "§4§o「無敵状態」でも容赦なく即死する。",
+                            "§4§oアンデッドにも少しだけ効果があるが、",
+                            "§4§o即死には至らないので注意。"
+                          ],
+                          "Name": "§8ロスト・オブ・ライブズ(絶対的即死)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 7,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o強力な治癒力を求めたが故に開発された",
+                            "§4§oロスト・オブ・ライブズの効果は",
+                            "§4§oアンデッドへの効果が薄かった。",
+                            "§4§oそこで我々は「発酵したクモの目」を",
+                            "§4§o配合することで効果を反転させた。",
+                            "§4§o予想通り、アンデッドMOBに対して絶大な効果を",
+                            "§4§o誇るようになったが、当然のように",
+                            "§4§oアンデッドでないMOBへの効果は薄くなった"
+                          ],
+                          "Name": "ロスト・オブ・デッド"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

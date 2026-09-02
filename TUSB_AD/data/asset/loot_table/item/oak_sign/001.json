@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "鍵解除",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "デバッグ用、y-1にある",
+                    "italic": false
+                  },
+                  {
+                    "text": "チェストの鍵を解除する",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ air\"},\"text\":\"\"}",
+                      "Text3": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle iconcrack_373 ~ ~-1 ~ 0.1 0.5 0.1 0.2 200\"},\"text\":\"\"}",
+                      "Text2": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound block.glass.break master @a ~ ~ ~ 1 2 0\"},\"text\":\"\"}",
+                      "Text1": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/blockdata ~ ~-1 ~ {Lock:\\\"\\\"}\"},\"text\":\"\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

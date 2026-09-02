@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "リベラフレイム",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 16711680
+                },
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 3,
+                    "minecraft:fire_aspect": 10,
+                    "minecraft:flame": 5,
+                    "minecraft:protection": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.02,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.02,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000003",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

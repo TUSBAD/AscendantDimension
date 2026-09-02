@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||",
+                      "italic": false,
+                      "color": "black",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " nameless USB ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|",
+                      "italic": false,
+                      "color": "dark_red",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "||",
+                      "italic": false,
+                      "color": "black",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "解析 Ⅹ",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:silk_touch": 10,
+                    "minecraft:mending": 10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000009cb13_0000000000042177",
+                      "type": "minecraft:follow_range",
+                      "amount": 99.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e6b0f_000000000009f5a7",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.01,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000af6af_0000000000078e6b",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "Legacy": 1,
+                  "USB1": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

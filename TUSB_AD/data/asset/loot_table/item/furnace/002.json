@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "熱を帯びた竈",
+                  "italic": true,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "溶岩一杯分",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "の",
+                        "italic": false
+                      },
+                      {
+                        "text": "熱",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を持った",
+                        "italic": false
+                      },
+                      {
+                        "text": "竈",
+                        "italic": false,
+                        "color": "gray",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "ｱｲﾃﾑ状態",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "ならば",
+                        "italic": false
+                      },
+                      {
+                        "text": "熱",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "は保存され続けるが",
+                        "italic": false
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "設置した瞬間から、",
+                        "italic": false
+                      },
+                      {
+                        "text": "熱",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "は逃げていく",
+                        "italic": false
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:block_entity_data": {
+                  "CustomName": "熱を帯びた竈",
+                  "BurnTime": 10000,
+                  "Items": [
+                    {
+                      "Slot": 1,
+                      "id": "stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 2,
+                            "id": 20
+                          }
+                        ],
+                        "RepairCost": -2147483648,
+                        "display": {
+                          "Name": "§r§4§r§4灼熱の赤板"
+                        }
+                      },
+                      "Damage": 14
+                    }
+                  ],
+                  "id": "minecraft:furnace"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

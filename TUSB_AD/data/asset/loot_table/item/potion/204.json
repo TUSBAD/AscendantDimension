@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "苦汁",
+                  "italic": false,
+                  "color": "dark_green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "その辺の草から成分を採取し、",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "薬として配合したもの。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "まずい、にがい、効能低し！",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "最低ラインの回復効果を",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "持っている以外は薬として怪しい。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:poison",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 5,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 140
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 50
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

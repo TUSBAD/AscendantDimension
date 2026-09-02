@@ -1,0 +1,178 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ランクチェスト総合1~10Rank",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank1"
+                        },
+                        "display": {
+                          "Name": "rank1"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank2"
+                        },
+                        "display": {
+                          "Name": "rank2"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank3"
+                        },
+                        "display": {
+                          "Name": "rank3"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank4"
+                        },
+                        "display": {
+                          "Name": "rank4"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank5"
+                        },
+                        "display": {
+                          "Name": "rank5"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank6"
+                        },
+                        "display": {
+                          "Name": "rank6"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank7"
+                        },
+                        "display": {
+                          "Name": "rank7"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank8"
+                        },
+                        "display": {
+                          "Name": "rank8"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank9"
+                        },
+                        "display": {
+                          "Name": "rank9"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:trapped_chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "LootTable": "usb:chests/rank10"
+                        },
+                        "display": {
+                          "Name": "rank10"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

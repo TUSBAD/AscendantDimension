@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "旧文明の遠目薬",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "この世界でしか手に入らない特殊な暗視薬",
+                    "italic": false
+                  },
+                  {
+                    "text": "製法もとうの昔に忘れ去られてしまったもの",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 17760
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

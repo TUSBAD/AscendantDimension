@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "神速の深淵盾",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "持ち手に応じ効果が変わる特殊な盾",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 5,
+                    "minecraft:unbreaking": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000049a4e_000000000006b243",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006ba5d_00000000000ee369",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000d95bf_000000000001d6f2",
+                      "type": "minecraft:movement_speed",
+                      "amount": 3.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e35aa_00000000000dbe27",
+                      "type": "minecraft:attack_damage",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000e36d6_00000000000dc07f",
+                      "type": "minecraft:attack_damage",
+                      "amount": 5.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006e16d_00000000008b3f59",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "purple",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:small_stripes",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

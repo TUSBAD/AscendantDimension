@@ -1,0 +1,141 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "は",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "て",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "な",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "ポーション",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ランダムで様々な効果を与えます.",
+                    "italic": false,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "どんな効果は飲むまでのお楽しみ",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 1,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 5,
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 1,
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 5,
+                      "duration": 3600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 1,
+                      "duration": 6400,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 2,
+                      "duration": 20,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 1,
+                      "duration": 12000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 4,
+                      "duration": 2400,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000003_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "プリズムソーサラーの印玉",
+                  "italic": false,
+                  "color": "aqua",
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "使うことでプリズムソーサラーを入手できる。",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "DeathTime": 19,
+                  "DeathLootTable": "usb:signs/armor/prism_sorcerer",
+                  "id": "minecraft:skeleton",
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 6,
+                      "Amplifier": 10
+                    },
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Tags": [
+                    "RewardEgg",
+                    "TypeChecked"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "開かずのドア",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:block_entity_data": {
+                  "Patterns": [
+                    {
+                      "Pattern": "bri",
+                      "Color": 15
+                    },
+                    {
+                      "Pattern": "hhb",
+                      "Color": 3
+                    },
+                    {
+                      "Pattern": "sc",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "sc",
+                      "Color": 3
+                    },
+                    {
+                      "Pattern": "bo",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "bo",
+                      "Color": 3
+                    }
+                  ],
+                  "Base": 7,
+                  "id": "minecraft:banner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

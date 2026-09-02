@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "三角様Ψ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Passengers:[0:{CustomName:\"§d§l三角様 §4§lΨ§r\",Health:1000.0f,ArmorItems:[0:{id:\"minecraft:leather_boots\",Count:0b,tag:{display:{Name:\"§5終焉ヲ告ゲル者\",color:8339378},ench:[0:{lvl:30s,id:0s},1:{lvl:30s,id:1s},2:{lvl:30s,id:2s},3:{lvl:30s,id:4s},4:{lvl:30s,id:5s},5:{lvl:30s,id:6s},6:{lvl:30s,id:7s},7:{lvl:30s,id:8s},8:{lvl:30s,id:3s}]}},{id:\"minecraft:leather_leggings\",Count:0b,tag:{display:{Name:\"§5終焉ヲ告ゲル者\",color:8339378},ench:[0:{lvl:30s,id:0s},1:{lvl:30s,id:1s},2:{lvl:30s,id:2s},3:{lvl:30s,id:4s},4:{lvl:30s,id:5s},5:{lvl:30s,id:6s},6:{lvl:30s,id:7s},7:{lvl:30s,id:8s},8:{lvl:30s,id:3s}]}},{id:\"minecraft:leather_chestplate\",Count:0b,tag:{display:{Name:\"§5終焉ヲ告ゲル者\",color:8339378},ench:[0:{lvl:30s,id:0s},1:{lvl:30s,id:1s},2:{lvl:30s,id:2s},3:{lvl:30s,id:4s},4:{lvl:30s,id:5s},5:{lvl:30s,id:6s},6:{lvl:30s,id:7s},7:{lvl:30s,id:8s},8:{lvl:30s,id:3s}]}},3:{id:\"minecraft:dragon_egg\",Count:0b,tag:{ench:[0:{lvl:10s,id:3s}],RepairCost:1000000000},Damage:0s}],Attributes:[0:{Base:1000.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"},2:{Base:300.0d,Name:\"generic.attackDamage\"},3:{Name:\"generic.movementSpeed\",Base:0.10d}],id:\"Skeleton\",AbsorptionAmount:10000.0f,ActiveEffects:[0:{ShowParticles:0b,Duration:2000000000,Id:14b,Amplifier:1b},1:{ShowParticles:0b,Duration:2000000000,Id:12b,Amplifier:127b}],CustomNameVisible:1b,NoGravity:1b,HandItems:[0:{id:\"minecraft:bow\",Count:0b,tag:{ench:[0:{lvl:350s,id:48s},1:{lvl:350s,id:50s},2:{lvl:350s,id:51s},3:{lvl:127s,id:34s},4:{lvl:127s,id:70s},5:{lvl:350s,id:16s},6:{lvl:350s,id:17s},7:{lvl:350s,id:18s},8:{lvl:350s,id:49s}],RepairCost:-1000000000,Unbreakable:1b,HideFlags:4,symphony36:1b,display:{Lore:[0:\"§7太古の魔力 enchantment.level.127\",1:\"§7魂の共鳴 enchantment.level.127\",2:\"\",3:\"§5§l深淵の守護戦神§f§lがもつ§d§l聖弓§r\",4:\"§5§l守護戦神の力§f§lを纏い、§d§l復活時§f§lに矢が付与されるようになる§r\",5:\"§c§lエンチャント及び修繕不可§r\"],Name:\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§b§l§n-★- §5§l§n深淵守護§6§l§n戦神の§d§l§n聖弓 §3§l§n-★-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"},AttributeModifiers:[0:{UUIDMost:20L,UUIDLeast:60L,Amount:1.0d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"frey\"},1:{UUIDMost:20L,UUIDLeast:40L,Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:1,Name:\"frey\"},2:{UUIDMost:20L,UUIDLeast:70L,Amount:15.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"frey\"},3:{UUIDMost:20L,UUIDLeast:10L,Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:1,Name:\"frey\"}],symp:1b},Damage:0s}]}],LifeTime:20,Life:1,id:\"FireworksRocketEntity\"}],Health:0.0f,DeathTime:19s,id:\"Villager\"},     SpawnCount:1s,     SpawnRange:6s,     MaxNearbyEntities:16s,     RequiredPlayerRange:32s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:1800s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "レーションの印板",
+                  "italic": false,
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "クリックして食べるレーション(ｳｪﾊｰｽ製)",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "３つの味が",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "楽",
+                        "italic": false,
+                        "color": "light_purple"
+                      },
+                      {
+                        "text": "し",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "め",
+                        "italic": false,
+                        "color": "green"
+                      },
+                      {
+                        "text": "る",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "属性：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "連続型",
+                        "italic": false,
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000005d3a639f_000000005d3a639f",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/blockdata ~ ~ ~ {Text1:\\\"{text:\\\\\\\"レーション\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/playsound entity.generic.eat master @a[r\\u003d5] ~ ~ ~ 1 0.7 0\\\\\\\"}}\\\",Text2:\\\"{text:\\\\\\\"\\u003dホワイト餡パン味\\u003d\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/execute @p ~ ~ ~ /particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.01 100 normal\\\\\\\"}}\\\",Text3:\\\"{text:\\\\\\\"\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/effect @p minecraft:saturation 1 2 true\\\\\\\"}}\\\",Text4:\\\"{text:\\\\\\\"内容量：残り３個\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\"/blockdata ~ ~ ~ {Text2:\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\u003dレッド鰤味\\u003d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/execute @p ~ ~ ~ /particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.01 100 normal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\",Text4:\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"内容量：残り２個\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/blockdata ~ ~ ~ {Text2:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\u003dブラック酢味噌味\\u003d\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/execute @p ~ ~ ~ /particle iconcrack_323_0 ~ ~1.2 ~ 0.1 0.2 0.1 0.01 100 normal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",Text4:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"{text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"内容量：残り１個\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"/setblock ~ ~ ~ minecraft:air\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}}\\\\\\\\\\\\\\\"}\\\\\\\"}}\\\"}\"},\"text\":\"内容量：３個\"}",
+                      "Text3": "{\"text\":\"\"}",
+                      "Text2": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle iconcrack_323_0 ~ ~ ~ 0.3 0.3 0.3 0.1 100 normal\"},\"text\":\"＝開封する＝\"}",
+                      "Text1": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.irongolem.attack master @a[r\\u003d5] ~ ~ ~ 1 1.7 0\"},\"text\":\"レーション\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

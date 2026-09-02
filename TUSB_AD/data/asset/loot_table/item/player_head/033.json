@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "どすがめあ",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "CRAFTdsgamer",
+                  "id": "0e5640d1-59e4-4626-b305-aa49b2ed0f7d",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTQ2NzAsInByb2ZpbGVJZCI6IjBlNTY0MGQxNTllNDQ2MjZiMzA1YWE0OWIyZWQwZjdkIiwicHJvZmlsZU5hbWUiOiJDUkFGVGRzZ2FtZXIiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0YzRlNjNiOTFlZDIwODlkYjc5MTc0NGYxY2RlMDc1NDZjOWQyMzJjZjA4NTJmNDJiOTE0ZjJjNTM3NjFkYSJ9fX0=",
+                      "signature": "CkX97j7DrmpXPvpTEuu0uE+/ZoWGRjShRQcxyQAE0oxSpn8I/gI2UwOq3Eybth0yopyGL4uzXeAt5QcEGXZKfaV5Gh7NplM0uvOMdhzrNoQ7Dv2mv/e+GS9A/sO85D/TmaktCnb0mMAjpyphwuCzPlTQiw879N13B9u1qJu1nUyA+OuGSiHTZ+uAUHJ/cbCwHofQPAcDfkdRNVcskIzmDPOZdB0IxxBbugI7DW80pvJjtParHqcntZH7kf8ij/PCeQ59jYgibR4cqwBomASmEwA6Fe433DIJr6dLWOWSIPLXBRHs6rt77mJQ3W7WqY7xmGfXMyVtXGMZTSV4kpu977okWpWV7Rm4pQ03c8hF8UAAfQyqIXWc8ljkrkz1g5ytuh7LZrCXPEVwXZfZHXLgG/SJV5bPA3IIHAUttebIO7EvHz+FTWidhQClyFGmfOIA8/YTJaJdgGryOz9jOucB5GWonPf1bPgUz2GfbGAzfshaoatMjlzDWAazBTWHJNotyIVj6xAjt+Rqa53S22WHhzS3EEM4nE1EC/u3x3BsWZjGdxG8gimuAA7Ho+XgbLy/S1B/bC86KYceKUxr+JBdDumiU/ecy811hZvJQUM7zmHbQJYrlL52zpBjLwQJiq9Z0ykCAiu7zBzdnk/7eKWUGHujESJv0ZD9JmbDijA3uLA="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

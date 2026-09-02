@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "SATキャリアー",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:1200s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"不発弾\",Life:2,LifeTime:30,id:\"FireworksRocketEntity\",Passengers:[{CustomName:\"ﾗﾝﾀﾞﾑﾑｰﾊﾞｰ\",Silent:1b,Health:5f,Attributes:[{Name:\"generic.maxHealth\",Base:5d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:127b,Duration:2147483647}],id:\"Bat\",Passengers:[{CustomName:\"ﾅﾋﾞｹﾞｰﾄ\",Size:5,Silent:1b,DeathLootTable:\"empty\",AbsorptionAmount:300f,Attributes:[{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:25b,Amplifier:-1b,Duration:2147483647},{Id:20b,Amplifier:0b,Duration:2147483647}],id:\"LavaSlime\",Passengers:[{id:\"Ghast\",CustomName:\"ガストキャリアー\",Silent:1b,Health:300f,Attributes:[{Name:\"generic.maxHealth\",Base:100d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:0d}],ExplosionPower:0,Passengers:[{Invulnerable:1b,CustomName:\"SATキャリアー\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"enchanting_table\",DisplayData:0,DisplayOffset:8,MaxNearbyEntities:3s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:500s,SpawnRange:8s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,Passengers:[{id:\"CaveSpider\",DeathLootTable:\"usb:events/sat\",Tags:[\"CanSpin\"],Motion:[0d,-3d,0d],FallDistance:-32768f,CustomName:\"SAT\",CustomNameVisible:1b,Health:300f,Attributes:[{Name:\"generic.maxHealth\",Base:300d},{Name:\"generic.followRange\",Base:32d},{Name:\"generic.attackDamage\",Base:15d},{Name:\"generic.movementSpeed\",Base:0.4d},{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.armor\",Base:12d}],ActiveEffects:[{Id:8b,Amplifier:20b,Duration:60}],Passengers:[{id:\"Guardian\",Silent:1b,CustomName:\"10式0.3m小銃\",Health:100f,Attributes:[{Name:\"generic.maxHealth\",Base:100d},{Name:\"generic.followRange\",Base:32d},{Name:\"generic.attackDamage\",Base:30d}],ActiveEffects:[{Id:8b,Amplifier:20b,Duration:60},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}]}]}]}}],id:\"MinecartSpawner\"},{Particle:\"endRod\",CustomName:\"キャリアーオーラ\",Duration:80,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "あぶないキノコーﾅｰﾅｰﾅｰﾅﾅﾅﾅﾅﾅｰｗｗｗｗ",
+                  "italic": false,
+                  "color": "dark_green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,DeathTime:19s,ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}],id:\"Villager\",Passengers:[{Anger:32767s,CustomName:\"アブナイダケ\",IsBaby:1b,Health:100f,ArmorItems:[{},{id:\"minecraft:iron_leggings\",Count:1b},{},{id:\"minecraft:red_mushroom_block\",Count:1b,Damage:0s}],Attributes:[{Base:10d,Name:\"generic.maxHealth\"},{Base:48d,Name:\"generic.followRange\"},{Base:0.1d,Name:\"generic.knockbackResistance\"},{Base:0.4d,Name:\"generic.movementSpeed\"},{Base:5d,Name:\"generic.attackDamage\"}],Silent:1b,id:\"Zombie_Pigman\",ActiveEffects:[{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b}],HandItems:[],Passengers:[{Particle:\"mobSpellAmbient\",Radius:1f,CustomName:\"アブナイダケの臭気\",Duration:80,id:\"AreaEffectCloud\",Effects:[{ShowParticles:1b,Duration:100,Id:2b,Amplifier:3b},{ShowParticles:1b,Duration:100,Id:7b,Amplifier:0b}]}]}]}},{Weight:1,Entity:{Health:0f,DeathTime:19s,ActiveEffects:[{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}],id:\"Villager\",Passengers:[{Anger:32767s,CustomName:\"ジョウヤダケ\",IsBaby:1b,Health:100f,ArmorItems:[{},{id:\"minecraft:iron_leggings\",Count:1b},{},{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:48d,Name:\"generic.followRange\"},{Base:0.1d,Name:\"generic.knockbackResistance\"},{Base:0.2d,Name:\"generic.movementSpeed\"},{Base:4d,Name:\"generic.attackDamage\"}],Silent:1b,id:\"Zombie_Pigman\",ActiveEffects:[{ShowParticles:0b,Duration:1000000,Id:14b,Amplifier:0b}],HandItems:[],Passengers:[{Particle:\"mobSpellAmbient\",Radius:1f,CustomName:\"ジョウヤダケの臭気\",Duration:80,id:\"AreaEffectCloud\",Effects:[{ShowParticles:1b,Duration:100,Id:4b,Amplifier:0b},{ShowParticles:1b,Duration:100,Id:15b,Amplifier:0b}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

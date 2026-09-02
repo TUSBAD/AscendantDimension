@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ステーキ",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "食材が腐っているかを判別する訓練",
+                    "italic": false
+                  },
+                  {
+                    "text": "冷蔵庫が壊れて腐ったのでついでに詰めておいたよ！",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "strikethrough": true
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

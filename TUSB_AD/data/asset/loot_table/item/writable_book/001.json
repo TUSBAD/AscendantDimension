@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ガイドの書きかけの日記",
+                  "italic": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "pages": [
+                    "○月✖日\n\nここ最近ベランダから\n人の気配を感じる...。\n\nはじめは気のせいだと\n思ったが、今朝ベランダを見てみると見覚えのない\n植木鉢が飾られていた。\n\n今のところは謎の現象は\nコレ以降起こってはいない\nが、装備は準備しておこう...",
+                    "余談だが、スキル設定所に新しく釣り堀が出来たらしい。\n\n何やらチケットを買うことで変わったものが釣れるみたいだ。\n\n今度私も自前の釣り竿で\n釣りにいこう。"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

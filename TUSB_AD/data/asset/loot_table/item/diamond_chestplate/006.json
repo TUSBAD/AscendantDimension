@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 5,
+                    "minecraft:fire_protection": 5,
+                    "minecraft:feather_falling": 5,
+                    "minecraft:blast_protection": 5,
+                    "minecraft:projectile_protection": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.07,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.12,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000003",
+                      "type": "minecraft:armor",
+                      "amount": 0.12,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": -2147483648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

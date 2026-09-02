@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "イゴーナグル",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"redstone_torch\",DisplayData:0,DisplayOffset:15,MaxNearbyEntities:16s,RequiredPlayerRange:8s,SpawnCount:1s,Delay:1s,MinSpawnDelay:32767s,MaxSpawnDelay:32767s,SpawnRange:6s,SpawnData:{Passengers:[0:{Motion:[0:0.0d,1:0.0d,2:0.0d],Health:850.0f,Attributes:[0:{Base:850.0d,Name:\"generic.maxHealth\"},1:{Base:-0.23d,Modifiers:[0:{UUIDMost:8144722948526719024L,UUIDLeast:-7778190119041365872L,Amount:-2.1000000834465d,Operation:2,Name:\"effect.moveSlowdown 13\"}],Name:\"generic.movementSpeed\"},2:{Base:9999.0d,Name:\"generic.attackDamage\"},3:{Base:1.0d,Name:\"generic.knockbackResistance\"},4:{Base:64.0d,Name:\"generic.followRange\"}],Silent:1b,Rotation:[0:0.0f,1:0.0f],HandItems:[0:{tag:{SkullOwner:{Id:\"1390efa5-45e1-4caa-96b8-e4230c31fcf8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE4MzZkOGI1MTlkODdlNzViYTRlZDllZDEzZGU0MjMwNzNlNDViZWZiZTk0OTQzNTA3NGFkZDNkMjhlIn19fQ==\"}]}}},id:\"skull\",Count:1b,Damage:3s},1:{tag:{SkullOwner:{Id:\"a48963e4-e6ae-4f4c-8a96-b904e1aba1d5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyOGNjZDQzODU0OGRjNjYxMGY0YzZiZGNkOTg0NzM5NDg2ZDg4MzA1MjVmY2Y5Y2M5MTFkM2MyMTE4NTgifX19\"}]}}},id:\"skull\",Count:1b,Damage:3s}],ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],CustomName:\"r9kdaraku4l邪神 イゴールナク9kdarakur\",PersistenceRequired:1b,Passengers:[0:{Particle:\"mobSpell\",Radius:0.7f,ReapplicationDelay:0,Color:16711680,Duration:60,id:\"AreaEffectCloud\"},1:{Particle:\"take\",Radius:5.55f,ReapplicationDelay:0,CustomName:\"r9kdaraku4lSANチェック9kdarakur\",Duration:60,id:\"AreaEffectCloud\",Effects:[0:{Duration:650,Id:2b,Amplifier:4b},1:{Duration:200,Id:4b,Amplifier:20b},2:{Duration:100,Id:7b,Amplifier:0b},3:{Duration:100,Id:9b,Amplifier:0b},4:{Duration:100,Id:15b,Amplifier:0b},5:{Duration:650,Id:17b,Amplifier:5b}]}],SkeletonType:1b,ArmorItems:[0:{id:\"minecraft:iron_boots\",Count:1b,Damage:0s},1:{id:\"minecraft:iron_leggings\",Count:1b,Damage:0s},2:{id:\"minecraft:iron_chestplate\",Count:1b,Damage:0s},3:{id:\"minecraft:heavy_weighted_pressure_plate\",Count:1b,Damage:0s}],HandDropChances:[0:0.0f,1:0.0f],DeathLootTable:\"empty\",id:\"Skeleton\",ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:2b,Amplifier:13b},1:{ShowParticles:1b,Duration:2147483647,Id:7b,Amplifier:0b},2:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b}]}],DeathTime:19s,Health:0.0f,Attributes:[0:{Base:0.0d,Name:\"generic.maxHealth\"}],Silent:1b,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b}]},SpawnPotentials:[{Weight:1,Entity:{}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

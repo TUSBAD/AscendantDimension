@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "このレシピがすごい！ 簡単作業台ガイド ①",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "誰でも簡単に作れる、",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "中級者",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true,
+                        "underlined": true
+                      },
+                      {
+                        "text": "向けの",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "クラフトガイド記念すべき第一弾!!",
+                    "italic": false,
+                    "color": "dark_aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "更にどのような場所でも読めるように特別加工済み！",
+                    "italic": false,
+                    "color": "dark_aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "generation": 3,
+                  "pages": [
+                    "{\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"⬢ Σジャンパー\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ガラス瓶・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"羽・・・・・・・・3\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"⬢ Σジャンパー\"},{\"bold\":true,\"color\":\"red\",\"text\":\"+\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"∑ジャンパー ・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"羽・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"金の人参・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"red\",\"text\":\"⬢ 炎剣センサウ\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"溶岩入りバケツ・・ 1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ﾌｧｲｱｰﾁｬｰｼﾞ・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ﾌﾞﾚｲｽﾞﾛｯﾄﾞ・・・・・ 1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"金ｲﾝｺﾞｯﾄ・・・・・・2\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"dark_red\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"text\":\"⬢ 鬼弓ｹﾞﾎﾞﾙｸﾞﾝ\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"█弓・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n█\"},{\"color\":\"dark_gray\",\"text\":\"火打石・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"リード・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"糸・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ダイヤの斧・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"dark_gray\",\"text\":\"█\"},{\"color\":\"black\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"black\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"black\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"black\",\"text\":\"█\"},{\"color\":\"aqua\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"text\":\"⬢ \"},{\"bold\":true,\"color\":\"dark_blue\",\"text\":\"竜眠\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"gold\",\"text\":\"abcde\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"金のクワ・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ﾄﾞﾗｺﾞﾝﾌﾞﾚｽ・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"金ｲﾝｺﾞｯﾄ・・・・・16\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"text\":\"⬢ \"},{\"bold\":true,\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"装飾用\"}},\"text\":\"ドラゴンの頭\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"█ｳｨｻﾞｰｽｹﾙﾄﾝの頭蓋骨・ 1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ﾄﾞﾗｺﾞﾝﾌﾞﾚｽ・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"gray\",\"text\":\"⬢ ウールピッケル\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"薄灰色の羊毛・・・5\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"棒・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gray\",\"text\":\"███\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"text\":\"⬢ \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"dark_aqua\",\"text\":\"bb\"},{\"bold\":true,\"color\":\"reset\",\"text\":\"？？？\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"red\",\"text\":\"aa\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"頭  脚\\n  \\n胴  足\"}},\"text\":\"革の解凍防具一式\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"█\"},{\"obfuscated\":true,\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"サ■\"}},\"text\":\"aaa\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"obfuscated\":true,\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"■ーン\"}},\"text\":\"bbb\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"※上位の金リンゴ\"}},\"text\":\"金のリンゴ\"},{\"color\":\"dark_gray\",\"text\":\"・・ 6\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"obfuscated\":true,\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"エス■■■ヤ\"}},\"text\":\"1qaz2w\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"color\":\"yellow\",\"text\":\"█\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n          \"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"light_purple\",\"text\":\"█\"},{\"color\":\"gold\",\"text\":\"█\"}],\"text\":\"\"}"
+                  ],
+                  "author": "クラフター・モート",
+                  "title": "このレシピがすごい！簡単作業台ガイド ①",
+                  "resolved": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

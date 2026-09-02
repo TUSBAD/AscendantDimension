@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "イシュタル",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon VillagerGolem ~ ~1 ~ {CustomName:\"宝物庫の守り神\",CustomNameVisible:1,Tags:[\"ironman\"],PlayerCreated:0,ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:1,UUIDLeast:975142,UUIDMost:457641,Slot:\"feet\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:-0.1,Operation:1,UUIDLeast:650974,UUIDMost:818865,Slot:\"feet\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.2,Operation:1,UUIDLeast:870610,UUIDMost:240498,Slot:\"feet\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:40,Operation:0,UUIDLeast:730178,UUIDMost:339010,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUIDLeast:590230,UUIDMost:986325,Slot:\"feet\"}],ench:[{id:0,lvl:30},{id:1,lvl:30},{id:2,lvl:30},{id:3,lvl:30},{id:51,lvl:99}],display:{Name:\"§k12§1常闇の棺§b§k12\",color:3224115}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:1,UUIDLeast:168975,UUIDMost:931435,Slot:\"legs\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:-0.1,Operation:1,UUIDLeast:262191,UUIDMost:812841,Slot:\"legs\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.2,Operation:1,UUIDLeast:696121,UUIDMost:676441,Slot:\"legs\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:40,Operation:0,UUIDLeast:53020,UUIDMost:13143,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUIDLeast:969083,UUIDMost:469826,Slot:\"legs\"}],ench:[{id:0,lvl:30},{id:1,lvl:30},{id:2,lvl:30},{id:3,lvl:30},{id:51,lvl:99}],display:{Name:\"§b§k12§1常闇の棺§b§k12\",color:3224115}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:1,UUIDLeast:47411,UUIDMost:219113,Slot:\"chest\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:-0.1,Operation:1,UUIDLeast:867707,UUIDMost:82039,Slot:\"chest\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.2,Operation:1,UUIDLeast:614059,UUIDMost:5136,Slot:\"chest\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:40,Operation:0,UUIDLeast:211738,UUIDMost:121552,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUIDLeast:664561,UUIDMost:670584,Slot:\"chest\"}],ench:[{id:0,lvl:30},{id:1,lvl:30},{id:2,lvl:30},{id:3,lvl:30},{id:51,lvl:99}],display:{Name:\"§b§k12§1常闇の棺§b§k12\",color:3224115}}},{id:\"minecraft:leather_helmet\",Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:1,UUIDLeast:295409,UUIDMost:729158,Slot:\"head\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:-0.1,Operation:1,UUIDLeast:136373,UUIDMost:831576,Slot:\"head\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.2,Operation:1,UUIDLeast:776714,UUIDMost:537545,Slot:\"head\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:40,Operation:0,UUIDLeast:297751,UUIDMost:523204,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUIDLeast:433102,UUIDMost:836749,Slot:\"head\"}],ench:[{id:0,lvl:30},{id:1,lvl:30},{id:2,lvl:30},{id:3,lvl:30},{id:51,lvl:99}],display:{Name:\"§b§k12§1常闇の棺§b§k12\",color:3224115}}}],HandItems:[{id:\"minecraft:obsidian\",Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:10,Operation:1,UUIDLeast:544785,UUIDMost:959960,Slot:\"offhand\"}],display:{Name:\"§1宵闇の魔宝珠\",Lore:[\"闇の宝珠\",\"とある場所を守っている者を倒した証\",\"力を感じる...\"]},ench:[{id:0,lvl:999},{id:51,lvl:1020}]}},{id:\"minecraft:dye\",Damage:1,Count:1b,tag:{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:40,Operation:0,UUIDLeast:728346,UUIDMost:387447,Slot:\"offhand\"}],display:{Name:\"§4血肉の魔宝珠\",Lore:[\"魔性に囚われた者を倒した証\",\"禍々しく荒々しい....\"]},ench:[{id:1,lvl:999},{id:16,lvl:1},{id:51,lvl:1020}]}}],ArmorDropChances:[1.0F,1.0F,1.0F,1.0F],HandDropChances:[2.0F,1.0F],Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.movementSpeed,Base:0.2},{Name:generic.attackDamage,Base:120},{Name:generic.knockbackResistance,Base:1},{Name:generic.armor,Base:30}],Health:1000.0f}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

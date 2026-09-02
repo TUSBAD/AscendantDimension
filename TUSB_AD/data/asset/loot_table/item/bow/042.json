@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "回避の弓",
+                  "italic": false,
+                  "color": "green",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "近づく敵を強打することで距離を取れる。",
+                    "italic": false,
+                    "color": "dark_green"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:punch": 5
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000002b42c315_000000002b42c315",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

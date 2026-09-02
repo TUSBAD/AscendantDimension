@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "SP",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/give @p minecraft:leather_boots 1 0 {Unbreakable:1,ench:[{id:2,lvl:100},{id:7,lvl:100},{id:8,lvl:100}],display:{Name:\"んふ\",Lore:[\"んふふ\"],color:13233151}}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.give.success\",\"with\":[{\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":{\"text\":\"{id:\\\"minecraft:leather_boots\\\",Count:1b,tag:{ench:[0:{lvl:100,id:2},1:{lvl:100,id:7},2:{lvl:100,id:8}],Unbreakable:1,display:{Lore:[0:\\\"んふふ\\\"],color:13233151,Name:\\\"んふ\\\"}},Damage:0s}\"}},\"extra\":[{\"italic\":true,\"text\":\"んふ\"},{\"text\":\"]\"}],\"text\":\"[\"},\"1\",\"rumia_666_EX\"]}],\"text\":\"[02:09:30] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

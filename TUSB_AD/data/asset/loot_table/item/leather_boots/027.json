@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "潜水服",
+                  "italic": true,
+                  "color": "blue"
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 32960
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:respiration": 2,
+                    "minecraft:aqua_affinity": 2,
+                    "minecraft:depth_strider": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000006_0000000000000001",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.1,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

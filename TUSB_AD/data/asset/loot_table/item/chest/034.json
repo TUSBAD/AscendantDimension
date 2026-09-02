@@ -1,0 +1,2059 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "銭湯_追加チェスト_左",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 3,
+                            "Id": 6,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 3,
+                            "Id": 14,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 25,
+                            "Amplifier": -127
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -55
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§5神秘の液体が詰まっている。",
+                            "§5中身に触れるとMPとHPが",
+                            "§5異常な速度で回復する。"
+                          ],
+                          "Name": "§c§lエ§6§lク§e§lス§a§lエ§3§lリ§9§lク§d§lサ§5§lー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 9
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:prismarine_crystals",
+                      "Count": 20,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§rトカルトコルデの通貨"
+                          ],
+                          "Name": "§bコロナ海晶貨"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 10,
+                            "id": 16
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 18
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 19
+                          },
+                          {
+                            "lvl": 10,
+                            "id": 20
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 35,
+                        "display": {
+                          "Lore": [
+                            "§d§l星雲の力が宿った杖。"
+                          ],
+                          "Name": "§d§kSpace§5§l-§d۞§5§l-ネビュラ・ロッド-§d۞§5§l-§d§kSpace"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 5,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 6,
+                            "Amount": 2.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 3,
+                            "Amount": 1.0,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 4,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 5,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 6,
+                            "Amount": 0.5,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "anmin"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          },
+                          {
+                            "lvl": 5,
+                            "id": 16
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "gra",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "sku",
+                              "Color": 8
+                            },
+                            {
+                              "Pattern": "bri",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "gru",
+                              "Color": 6
+                            },
+                            {
+                              "Pattern": "gra",
+                              "Color": 15
+                            }
+                          ],
+                          "Base": 6
+                        },
+                        "display": {
+                          "Lore": [
+                            "§r簡単に復元できる素材でできた盾。",
+                            "§r足元が濡れやすく注意が必要。"
+                          ],
+                          "Name": "§b§l氷の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": -0.2,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": -0.2,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "KB"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:prismarine_shard",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§rトカルトコルデの補助通貨"
+                          ],
+                          "Name": "§3オレウス海晶貨"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§c使うことでスキル経験値を得られる。",
+                            "§c一体どのような§d経験§cなのだろうか…。"
+                          ],
+                          "Name": "§d秘密経験の印玉"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/exp",
+                          "id": "Bat",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 9
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:bed",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 9999,
+                            "id": 19
+                          },
+                          {
+                            "lvl": 9999,
+                            "id": 32
+                          },
+                          {
+                            "lvl": 9999,
+                            "id": 20
+                          },
+                          {
+                            "lvl": 9999,
+                            "id": 17
+                          },
+                          {
+                            "lvl": 9999,
+                            "id": 18
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "Legacy": 1,
+                        "display": {
+                          "Name": "ファイナルベント"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:leather_leggings",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 13,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 1
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 3
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 4
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "Unbreakable": 1,
+                        "HideFlags": 32,
+                        "display": {
+                          "color": 65535,
+                          "Name": "§3§lホワイトアルバム"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 5,
+                            "UUIDLeast": 1,
+                            "Amount": -0.25,
+                            "Slot": "legs",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 5,
+                            "UUIDLeast": 2,
+                            "Amount": 0.03,
+                            "Slot": "legs",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 5,
+                            "UUIDLeast": 3,
+                            "Amount": 0.7,
+                            "Slot": "legs",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "wax"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:torch",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 3,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§8種類:据え置き型",
+                            "",
+                            "§c§l注意:",
+                            "§c設置すると回収することができない"
+                          ],
+                          "Name": "§7篝火のスポーンエッグ"
+                        },
+                        "EntityTag": {
+                          "Health": 1.5,
+                          "Attributes": [
+                            {
+                              "Base": 1.5,
+                              "Name": "generic.maxHealth"
+                            },
+                            {
+                              "Base": 0.0,
+                              "Name": "generic.movementSpeed"
+                            },
+                            {
+                              "Base": 1.0,
+                              "Name": "generic.knockbackResistance"
+                            }
+                          ],
+                          "Silent": 1,
+                          "Invulnerable": 1,
+                          "Offers": {
+                            "Recipes": [
+                              {
+                                "maxUses": 2147483647,
+                                "buy": {
+                                  "id": "minecraft:lever",
+                                  "Count": 1,
+                                  "tag": {
+                                    "display": {
+                                      "Name": "§7消えた松明"
+                                    }
+                                  }
+                                },
+                                "sell": {
+                                  "id": "minecraft:torch",
+                                  "Count": 1
+                                },
+                                "uses": 0,
+                                "rewardExp": 0
+                              }
+                            ]
+                          },
+                          "NoAI": 1,
+                          "ArmorDropChances": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "CustomName": "篝火",
+                          "Fire": 32767,
+                          "ArmorItems": [
+                            {},
+                            {},
+                            {},
+                            {
+                              "id": "log2",
+                              "Damage": 1
+                            }
+                          ],
+                          "DeathLootTable": "empty",
+                          "Team": "KFriend",
+                          "id": "Villager",
+                          "CareerLevel": 100,
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 2147483647,
+                              "Id": 14,
+                              "Amplifier": 0
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 2147483647,
+                              "Id": 12,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "TypeChecked",
+                            "ISFOnTorch",
+                            "ISFNtZmbk"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§c使うことでスキル経験値を得られる。",
+                            "§c一体どのような§d経験§cなのだろうか…。"
+                          ],
+                          "Name": "§d秘密経験の印玉"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/exp",
+                          "id": "Bat",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:prismarine_shard",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "display": {
+                          "Lore": [
+                            "§rトカルトコルデの補助通貨"
+                          ],
+                          "Name": "§3オレウス海晶貨"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 14,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 900,
+                            "Id": 10,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 4200,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 4200,
+                            "Id": 24,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 40,
+                        "Potion": "healing",
+                        "display": {
+                          "Lore": [
+                            "見た目がグロテスクなトカルトでは一般的なスープ",
+                            "体がぽかぽかと温かくなる"
+                          ],
+                          "Name": "魚介スープ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§8種類:持ち運び型",
+                            "",
+                            "§f§l出す",
+                            "§f§l火をつける",
+                            "§f§l殴る",
+                            "§f§l回収する"
+                          ],
+                          "Name": "§7篝火のスポーンエッグ"
+                        },
+                        "EntityTag": {
+                          "Health": 0.009999999776482582,
+                          "Attributes": [
+                            {
+                              "Base": 0.01,
+                              "Name": "generic.maxHealth"
+                            },
+                            {
+                              "Base": 0.0,
+                              "Name": "generic.movementSpeed"
+                            },
+                            {
+                              "Base": 1.0,
+                              "Name": "generic.knockbackResistance"
+                            }
+                          ],
+                          "Silent": 1,
+                          "Offers": {
+                            "Recipes": [
+                              {
+                                "maxUses": 2147483647,
+                                "buy": {
+                                  "id": "minecraft:lever",
+                                  "Count": 1,
+                                  "tag": {
+                                    "display": {
+                                      "Name": "§7消えた松明"
+                                    }
+                                  }
+                                },
+                                "sell": {
+                                  "id": "minecraft:torch",
+                                  "Count": 1
+                                },
+                                "uses": 0,
+                                "rewardExp": 0
+                              }
+                            ]
+                          },
+                          "NoAI": 1,
+                          "ArmorDropChances": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "CustomName": "篝火",
+                          "Fire": 32767,
+                          "ArmorItems": [
+                            {},
+                            {},
+                            {},
+                            {
+                              "id": "log2",
+                              "Damage": 1
+                            }
+                          ],
+                          "DeathLootTable": "usb:entities/icefirevillegar",
+                          "Team": "KFriend",
+                          "id": "Villager",
+                          "CareerLevel": 100,
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 2147483647,
+                              "Id": 14,
+                              "Amplifier": 0
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 2147483647,
+                              "Id": 12,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "TypeChecked",
+                            "ISFOnTorch"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 7,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o強力な治癒力を求めたが故に開発された",
+                            "§4§oロスト・オブ・ライブズの効果は",
+                            "§4§oアンデッドへの効果が薄かった。",
+                            "§4§oそこで我々は「発酵したクモの目」を",
+                            "§4§o配合することで効果を反転させた。",
+                            "§4§o予想通り、アンデッドMOBに対して絶大な効果を",
+                            "§4§o誇るようになったが、当然のように",
+                            "§4§oアンデッドでないMOBへの効果は薄くなった"
+                          ],
+                          "Name": "ロスト・オブ・デッド"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:leather_boots",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 13,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 1
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 3
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 4
+                          },
+                          {
+                            "lvl": 13,
+                            "id": 8
+                          },
+                          {
+                            "lvl": 1,
+                            "id": 9
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "Unbreakable": 1,
+                        "HideFlags": 32,
+                        "display": {
+                          "color": 65535,
+                          "Name": "§3§lホワイトアルバム"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 6,
+                            "UUIDLeast": 1,
+                            "Amount": -0.25,
+                            "Slot": "feet",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 6,
+                            "UUIDLeast": 2,
+                            "Amount": 0.03,
+                            "Slot": "feet",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 0,
+                            "Name": "wax"
+                          },
+                          {
+                            "UUIDMost": 6,
+                            "UUIDLeast": 3,
+                            "Amount": 0.7,
+                            "Slot": "feet",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "wax"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 11
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 16
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 9,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 16,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 22,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3氷土にて多大な功績を残した探検家が",
+                            "§3先住民により教わった特殊なレシピを",
+                            "§3使用して作った薬。",
+                            "§3ハイになれる。"
+                          ],
+                          "Name": "§r§6ヴァイキングの秘薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:splash_potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 20,
+                            "Id": 6,
+                            "Amplifier": 29
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4§o元々は治癒の効果をより強力に引き出す",
+                            "§4§oための実験で出来た失敗作だったが、",
+                            "§4§oその異常な治癒力で、生物であるならば",
+                            "§4§oアイテムすら落とさず消滅させる",
+                            "§4§o恐ろしい効果を持つ。",
+                            "§4§oこれはプレイヤーも例外ではなく、",
+                            "§4§o持っている物をロストする。",
+                            "§4§o尚、クリエイティブモードのような",
+                            "§4§o「無敵状態」でも容赦なく即死する。",
+                            "§4§oアンデッドにも少しだけ効果があるが、",
+                            "§4§o即死には至らないので注意。"
+                          ],
+                          "Name": "§8ロスト・オブ・ライブズ(絶対的即死)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 9
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 9
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 9
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:torch",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 16
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 9,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 16,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 22,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3氷土にて多大な功績を残した探検家が",
+                            "§3先住民により教わった特殊なレシピを",
+                            "§3使用して作った薬。",
+                            "§3ハイになれる。"
+                          ],
+                          "Name": "§r§6ヴァイキングの秘薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:stained_glass_pane",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 70
+                          }
+                        ],
+                        "RepairCost": 1000000000
+                      },
+                      "Damage": 11
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

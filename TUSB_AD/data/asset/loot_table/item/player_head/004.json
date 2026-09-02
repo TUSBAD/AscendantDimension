@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "生首",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "店主の頭を”模した”置物",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "ダメージ軽減 Ⅴ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "水中歩行 Ⅲ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "消滅の呪い",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "束縛の呪い",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "Curse of AlgaeDare Ⅳ",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 5,
+                    "minecraft:depth_strider": 3
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000062579_00000000000d2d87",
+                      "type": "minecraft:max_health",
+                      "amount": -0.3,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000bc05e_0000000000002000",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.3,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ade11_0000000000043335",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.3,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000054516_00000000000c7cbb",
+                      "type": "minecraft:armor",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000006e7ab_00000000000568c8",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:profile": {
+                  "id": "0627ca7b-a685-4d93-9da5-6719d9b86241",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjM1NjkyNTMyNSwKICAicHJvZmlsZUlkIiA6ICIwNjI3Y2E3YmE2ODU0ZDkzOWRhNTY3MTlkOWI4NjI0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfQWxnYWVEYXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmZTQxYzRmODBlYmVkZDVhNzVmMjdhZDZhOTBjNTU4YmRjZTE2MWI5OTIyZjFhNTdjMzMyZDhhNTZlZGVkY2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+                      "signature": "GD04yjH7BhFY7sXGCGDN+g2FY2HPtECqE88GWNiRDZPfaWljwGGzS/7HXqHa3XSPm4LS4NeYZev1rJ4GdsBsiHj4+oOatGKOknr1it0DbGj9fOG4Zk+Ytf7wus9ecQL96wYoTwvqtFkuK1jS2kYCT84MQ63rfZOiEGqRBcCidYSfZRdby5zWIcenXBP7ZURrBFEfkWuvubpB2ce6WjogCX4HNLW0Yt83SG5uBXgUUBcUpwI9wHM0TYMh/j+qmRKPcB58isqO3nww9qPVAvJVbQNaviYyHJ6aAIArb8awctHr7g9+kbpw2IYoTMJdj+F08FDOLSwE2Gr0TSL0vQRRr6OepR/5nXKLC5ltWUKWirZMHWXeyDEgiOD8BIYQ+E/u2MYta4rwPT1jgWiSQKDn5HCPnqqiAqKmlZ04W6+NsH4XQcURfu9dvkZ59cUWVQrXLosXh7Fn3rkSe7nUbYszEW5R4nVcqGJV8Lw5XU4i/yRsSpIl3YOouX6sHCojw61WuXzhwnB/NqOPcveFvAxuPgAKpkCHDUbOq4Q2rIxUVoiG+4wIrvtnbea+RUMvd+RM2OW11uJ0JBAXZYGTbmRV2tjkjHNR3v6A8brFEG71bwMhlyyQ2pLLyA747BztY+Rei7RAvBXGjgrDBQFTKFJRxKCRtjPR3xpRYcXV5pj/wKg="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

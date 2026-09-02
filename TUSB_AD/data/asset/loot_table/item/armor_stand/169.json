@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "取引",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "の印板(",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true
+                    },
+                    {
+                      "text": "改経験印玉",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "→",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "究極経験印玉",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": ")",
+                      "italic": false
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "それと引き換えにｱｲﾃﾑを入手することが出来る印板。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "取引内容：改経験印玉9個を究極経験印玉1個と交換する。",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "PermanentStand",
+                    "Ultra"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

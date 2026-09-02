@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "Soul of Alone",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "||||",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "「",
+                        "italic": false
+                      },
+                      {
+                        "text": "ポラリス…どこにいるの…？",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "」",
+                        "italic": false
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "「",
+                        "italic": false
+                      },
+                      {
+                        "text": "レグルスは…唯一の友達さ…。",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "」",
+                        "italic": false
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

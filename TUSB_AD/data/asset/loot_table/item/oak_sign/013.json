@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "氷塊積み上げ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Text4": "{\"bold\":true,\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~ ~ ~ ~ ~ ~ minecraft:air\"},\"translate\":\"■   ■      ■   ■\"}",
+                  "Text3": "{\"bold\":true,\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.minecart.inside @a[r\\u003d10] ~ ~ ~ 0.3 1.682 0\"},\"translate\":\"∎   ∎こおり∎   ∎\"}",
+                  "Text2": "{\"bold\":true,\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon FireworksRocketEntity ~ ~ ~ {Life:1,LifeTime:1,FireworksItem:{id:fireworks,Damage:0s,Count:1b,tag:{Fireworks:{Flight:0b,Explosions:[{Type:4b,Trail:true,Colors:[16777215],FadeColors:[0]},{Type:4b,Trail:true,Colors:[0],FadeColors:[16777215]}]}}}}\"},\"translate\":\"▮   ▮しろい▮   ▮\"}",
+                  "id": "minecraft:sign",
+                  "Text1": "{\"bold\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon FireworksRocketEntity ~ ~2 ~ {Life:1,LifeTime:100,Passengers:[{id:MinecartSpawner,CustomDisplayTile:true,DisplayTile:minecraft:beacon,DisplayData:0,DisplayOffset:4,MaxNearbyEntities:99s,RequiredPlayerRange:99s,Delay:0s,MaxSpawnDelay:1s,MinSpawnDelay:1s,SpawnCount:1s,SpawnRange:0s,SpawnData:{id:FallingSand,Block:minecraft:packed_ice,Data:0b,Time:1b,HurtEntities:true,FallHurtMax:20f,DropItem:false},Tags:[CooldownRequired],PortalCooldown:100}]}\"},\"translate\":\"↑   ↑      ↑   ↑\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

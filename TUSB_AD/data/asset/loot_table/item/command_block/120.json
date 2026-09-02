@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "アンデスウォーリア",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{id:\"Pig\"},SpawnPotentials:[{Entity:{Passengers:[0:{CustomName:\"アンデスウォーリアー\",Health:60.0f,ArmorItems:[0:{id:\"minecraft:leather_boots\",Count:0b,tag:{display:{color:3093109}},Damage:0s},1:{id:\"minecraft:iron_leggings\",Count:0b,Damage:0s},2:{id:\"minecraft:leather_chestplate\",Count:0b,tag:{display:{color:13487103}},Damage:0s},3:{id:\"minecraft:iron_helmet\",Count:0b,Damage:0s}],Attributes:[0:{Base:60.0d,Name:\"generic.maxHealth\"},1:{Base:48.0d,Name:\"generic.followRange\"},2:{Base:0.3d,Name:\"generic.knockbackResistance\"},3:{Base:0.3d,Name:\"generic.movementSpeed\"},4:{Base:5.0d,Name:\"generic.attackDamage\"}],Silent:1b,DeathLootTable:\"usb:entities/ice/mob3\",id:\"Skeleton\",ActiveEffects:[],HandItems:[0:{id:\"minecraft:iron_sword\",Count:0b,Damage:0s},1:{id:\"minecraft:shield\",tag:{BlockEntityTag:{Patterns:[0:{Pattern:\"mr\",Color:0},1:{Pattern:\"mc\",Color:14},2:{Pattern:\"sc\",Color:0},3:{Pattern:\"bts\",Color:0},4:{Pattern:\"tts\",Color:0},5:{Pattern:\"bo\",Color:0},6:{Pattern:\"gra\",Color:6}],Base:14}}}]}],Health:0.0f,DeathTime:19s,id:\"Villager\",ActiveEffects:[0:{ShowParticles:0b,Duration:20,Id:14b,Amplifier:0b}]},Weight:1}],     SpawnCount:1s,     SpawnRange:4s,     MaxNearbyEntities:6s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:150s,     MaxSpawnDelay:200s}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.setblock.success\"}],\"text\":\"[21:01:54] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

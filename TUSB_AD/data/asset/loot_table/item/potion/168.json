@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "マインソウル",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "鉱夫が",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "精魂",
+                        "italic": false,
+                        "color": "blue",
+                        "bold": true
+                      },
+                      {
+                        "text": "を込めて作ったドリンク。",
+                        "italic": false,
+                        "color": "gold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "早い採掘",
+                        "italic": false,
+                        "color": "yellow",
+                        "underlined": true
+                      },
+                      {
+                        "text": "が可能になるが、",
+                        "italic": false,
+                        "color": "gold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "力が入らなく",
+                        "italic": false,
+                        "color": "light_purple"
+                      },
+                      {
+                        "text": "なってしまう。",
+                        "italic": false,
+                        "color": "gold"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 93,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 20,
+                      "duration": 1200,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 4,
+                      "duration": 1200,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Argon",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "Argon39",
+                  "id": "851567a7-f408-443a-92c9-2005b59d40a4",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTMxNTMsInByb2ZpbGVJZCI6Ijg1MTU2N2E3ZjQwODQ0M2E5MmM5MjAwNWI1OWQ0MGE0IiwicHJvZmlsZU5hbWUiOiJBcmdvbjM5IiwiaXNQdWJsaWMiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZmY0YTdjN2Q5YzczZWY3YTlmZmM1NTVjZTJlYTgxZTUzNTE2NGViMTg2NTUxZmJiOWE2MjQ2YTZiMWM2ZjYiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==",
+                      "signature": "TO01+IW/G32V+dW93YyHtHWRL1xXsNNoFclVvH9t8mfxPdAcgd6spWRQ3b7XssHbREkJ4l0mUWolw7lQVjV6GzfdVCjEH9g3vVejVb19LfMURd5wsPJv0xdtEJumD5aJ7jjFwQrixYHFUc2KPFx3Ime3jpTuTGGEXoEUDY70vXBxcjqNLrvddHkLPXlbfSUJAgGOxRMKsddHrLDqoiWW9BPKBu0z0854Ilt5nxO3zYNjh1GbCXv+e0uhX1jmBhe7crF2lUthRbH6Tw6xIhMilKA7j8DfRBWbFRKkW3Gx6iQgpyncvnxC5o687mH07NVF5RFgjl7umYfHbL1I62vK9FBBBOinIxe49fMuOsLKjUQGBGoQOutGRmpFF/dVbSlyKb4vC63PyzaToUc46U8r0+TejCk7ymZJW9VzNeyoUYsEmmesM5ZgCLRSEOK92NuzFQlqPi2kPzkG4vbBrgYgO8de/xtpSDKeSR5D8QvM4QhsV5Ny+TUQ9927y2R922KUBC3XPEbcR9yTiGNGkgyC0xyfvyDbPxPA1rqz6sbt4BZfp+s1gb35Yl1+nlBhJoR40Fx5wHY7sT7ciL82CLId6hXS2eMpCeUaCmN/PMqRdPYFiopu9QZQsQ3PNo3DXAS8a/Ekrioa2fUdplfFxXKSU/GEQFNt5ZCOECDr7Ri75eE="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

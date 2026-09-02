@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "||||||||",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 試練の翼 ",
+                      "italic": false,
+                      "color": "white",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "||||||||",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "デネブの魔力 enchantment.level.15",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "テーブルマウンテンを登頂した者のみが得られる翼。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "制覇した者に相応しい性能をしているが修繕できない呪いが付与されている。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "エンチャント及び修繕不可",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 15,
+                    "minecraft:fire_protection": 15,
+                    "minecraft:feather_falling": 15,
+                    "minecraft:projectile_protection": 15,
+                    "minecraft:respiration": 15,
+                    "minecraft:aqua_affinity": 15,
+                    "minecraft:thorns": 15,
+                    "minecraft:depth_strider": 15,
+                    "minecraft:blast_protection": 15,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000004_0000000000000006",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.15,
+                      "operation": "add_multiplied_total",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

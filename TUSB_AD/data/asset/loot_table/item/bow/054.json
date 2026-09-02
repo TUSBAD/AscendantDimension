@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:power": 5
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

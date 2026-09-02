@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "御酒",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "大隅ノ國ニハ、一家ニ水ト米トヲマウケテ、",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "村ニツゲメグラセバ、男女一所ニアツマリテ、",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "チリヂリニカヘリヌ 酒ノ香ノイデクルトキ、",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "又アツマリテ、カミテハキイレシモノドモ、コレヲノム。",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "名ヅケテクチカミノ酒ト云フト云云、風土記ニ見エタリ。",
+                    "italic": true,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 127,
+                      "duration": 20,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": -1,
+                      "duration": 20,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 10,
+                      "duration": 1,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 10,
+                      "duration": 200,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

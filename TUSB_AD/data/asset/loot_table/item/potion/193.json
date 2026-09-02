@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "スピリタス",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "酷い吐き気に襲われるお酒。",
+                    "italic": true,
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "酔拳をマスターしたい人用。",
+                    "italic": true,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 800,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 800,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 800,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 3,
+                      "duration": 800,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 1,
+                      "duration": 800,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

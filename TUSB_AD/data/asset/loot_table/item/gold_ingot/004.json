@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "黄金の夢",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 100,
+                    "minecraft:knockback": 100,
+                    "minecraft:fire_aspect": 100
+                  }
+                },
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:custom_data": {
+                  "Legacy": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

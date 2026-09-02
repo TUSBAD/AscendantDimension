@@ -1,0 +1,158 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ベントラー",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:thorns": 10,
+                    "minecraft:knockback": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000003",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000004",
+                      "type": "minecraft:attack_damage",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000005",
+                      "type": "minecraft:armor",
+                      "amount": -10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000007",
+                      "type": "minecraft:max_health",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000008",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000009",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000a",
+                      "type": "minecraft:attack_damage",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000b",
+                      "type": "minecraft:armor",
+                      "amount": -10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_000000000000000c",
+                      "type": "minecraft:attack_speed",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "yellow",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:stripe_top",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_bottom",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_top",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "white"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

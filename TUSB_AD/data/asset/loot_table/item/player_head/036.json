@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "こゐし",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "nitrobomb08",
+                  "id": "88f26d73-a2f2-4134-b60a-9319580c229f",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0MTI1MDcxMTU4NDYsInByb2ZpbGVJZCI6Ijg4ZjI2ZDczYTJmMjQxMzRiNjBhOTMxOTU4MGMyMjlmIiwicHJvZmlsZU5hbWUiOiJuaXRyb2JvbWIwOCIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFhODg3ZTUyYTA5NGVkNDhiMDU1M2IyMjIxOGU5MWIzOTRmMDMwYmIxYTFiZGM2ODIzOTgxN2M0ODkzIn19fQ==",
+                      "signature": "qWiPDWr6axCi+ud+ZAw68WMtSyWAVMcDc6zgfMJxHxb8lB3BrXjYwtAY1Uzx1FXF9gn6ZZ556qhY8B7J4tKD/BWOnypvBKFuvzopr/f/rfsC9+sdcs6M+Y+I+zDNr0TENtsFQWOkR/p9W13Or9jefSRXUHvu6M9zNh4L77jgw8YWQKqToPRvFfCb4ZqtGEZPeuuw90+qqUZwQ02XPzEveM3MYHI/ERTErKBqme8ttGMIQ7g0ERdsyyZFJQYavAI6im+QwVJ65yMshGBXQKffawxgaCBzSy8i9JJqEqT9RijExchVRDEWJtp/9a7cmI0xXp6WxzT2pLVJaUnEWt3Aa7olXhayLa6UIwPI4QxzxcjMrnGWBgYzz+lWp1NyjbNf/ZbInuknF75vE//uZMKDRn0gAEOK+R8NxExHuSHFiDHPD2bf7s36o8AU/QJVuNIUpIjCahKa4Tfl7Gw6Q/mRvsLAT5ICNA0OHzANpAv/iEIyDJOjfjMXDpTkzTIs+Jv781cuKK/TUznM/UzI6i7/m5lA8Ab9/OlMwImiVV2UaoSW3tQgtZ2PDa9u6gHC5iZIGg8ivFOoYD1dmXq1urcUQJ19AWHu40jEIGaoltM50SjyC5Yk83XqR8j10O3rL2N7+fZnKzAfBuaymNnRFN9TXFbreDw9RsE4WfuFoiU1Aq4="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

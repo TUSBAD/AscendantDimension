@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "圧縮ダイヤモンド",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "フラーレンではない。上質の防具が作れそうだ。",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1,
+                    "minecraft:fortune": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

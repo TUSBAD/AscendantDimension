@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "1",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "エンドオブテンペスト",
+                      "italic": false,
+                      "color": "blue"
+                    },
+                    {
+                      "text": "1",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "神の如し暴風を起こす",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "天高くまで吹き飛ばし叩きつける",
+                    "italic": false,
+                    "color": "aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 127,
+                      "duration": 140,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": -73,
+                      "duration": 40,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:feather_falling": 20,
+                    "minecraft:knockback": 10
+                  }
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

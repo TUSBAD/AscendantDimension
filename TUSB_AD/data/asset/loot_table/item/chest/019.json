@@ -1,0 +1,192 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "雪筒",
+                  "italic": false
+                },
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 14,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:snowball",
+                      "Count": 64,
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

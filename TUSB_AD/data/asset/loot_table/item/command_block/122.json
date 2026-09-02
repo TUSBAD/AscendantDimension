@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "オトシゴキャリアー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Passengers:[0:{Passengers:[0:{Passengers:[0:{RequiredPlayerRange:99s,MaxNearbyEntities:3s,CustomDisplayTile:1b,SpawnCount:4s,DisplayTile:\"enchanting_table\",Invulnerable:1b,MaxSpawnDelay:400s,Delay:-1s,DisplayOffset:8,CustomName:\"排気口\",DeathLootTable:\"empty\",id:\"MinecartSpawner\",DisplayData:0,SpawnRange:6s,MinSpawnDelay:20s,SpawnPotentials:[0:{Entity:{Passengers:[0:{CustomName:\"ススガミノオトシゴ\",Passengers:[0:{ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],CustomName:\"Grumm\",Passengers:[0:{Particle:\"mobSpell\",Radius:0.05f,ReapplicationDelay:0,CustomName:\"ススガミノカゴ\",Color:0,RadiusOnUse:0.0f,Duration:80,Effects:[],id:\"AreaEffectCloud\"},1:{Particle:\"take\",Radius:1.7f,ReapplicationDelay:0,CustomName:\"ススガミノカゴ\",RadiusOnUse:0.0f,Duration:80,Effects:[0:{Duration:140,Id:4b,Amplifier:5b},1:{Duration:6,Id:12b,Amplifier:126b},2:{Duration:200,Id:15b,Amplifier:0b},3:{Duration:140,Id:17b,Amplifier:3b},4:{Duration:140,Id:18b,Amplifier:2b}],id:\"AreaEffectCloud\"},2:{Particle:\"fallingdust\",ParticleParam1:173,Radius:0.85f,ReapplicationDelay:10,CustomName:\"ススガミノカゴ\",Duration:80,Effects:[],id:\"AreaEffectCloud\",CustomNameVisible:0b}],Health:100.0f,IsBaby:1b,ArmorItems:[0:{},1:{},2:{},3:{Count:0b,id:\"minecraft:skull\",tag:{SkullOwner:{Id:\"23b5956e-183b-411a-8d3a-61714ecd6e49\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE0Njg3Mjk5MDg1ODgsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yN2ZkYmZjZGFiZjRhMTI0YmVhYTNmYjk3MDY0NDgyMTE1MTI1ZDlhMmE1MTJjZGJmZGU0Nzk3MTMxMmIwMWUifX19\"}]},Name:\"anminmakura\"}},Damage:3s}],Attributes:[0:{Base:100.0d,Name:\"generic.maxHealth\"},1:{Base:-0.35d,Modifiers:[0:{UUIDMost:8144722948526719024L,UUIDLeast:-7778190119041365872L,Amount:-2.10000008345d,Operation:2,Name:\"effect.moveSlowdown 13\"}],Name:\"generic.movementSpeed\"},2:{Base:10.0d,Name:\"generic.attackDamage\"},3:{Base:0.7d,Name:\"generic.knockbackResistance\"},4:{Base:80.0d,Name:\"generic.followRange\"}],Silent:1b,id:\"PigZombie\",ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b},1:{ShowParticles:0b,Duration:2147483647,Id:12b,Amplifier:127b}]}],Size:1,Attributes:[0:{Base:0.0d,Name:\"generic.knockbackResistance\"},1:{Base:32.0d,Name:\"generic.followRange\"}],Silent:1b,DeathLootTable:\"empty\",id:\"LavaSlime\",AbsorptionAmount:100.0f,ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:1b,Amplifier:3b},1:{ShowParticles:0b,Duration:100,Id:11b,Amplifier:5b},2:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b}]}],Health:0.0f,DeathTime:19s,Silent:1b,id:\"Villager\"},Weight:1}]},1:{Particle:\"smoke\",Radius:1.0f,ReapplicationDelay:0,CustomName:\"ススーオーラ\",RadiusOnUse:0.0f,Duration:80,id:\"AreaEffectCloud\",Effects:[]}],CustomName:\"二酸化炭素\",Health:250.0f,Attributes:[0:{Base:250.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.0d,Name:\"generic.followRange\"}],Silent:1b,id:\"Ghast\",ExplosionPower:0}],Health:120.0f,Attributes:[0:{Base:120.0d,Name:\"generic.maxHealth\"}],id:\"Bat\",ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b}]}],CustomName:\"不発弾\",LifeTime:30,Life:2,id:\"FireworksRocketEntity\"}],Health:0.0f,Attributes:[0:{Base:0.0d,Name:\"generic.maxHealth\"}],Silent:1b,id:\"Villager\",},     SpawnCount:1s,     SpawnRange:6s,     MaxNearbyEntities:16s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:1200s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

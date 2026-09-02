@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "親指",
+                      "italic": false,
+                      "color": "red"
+                    },
+                    {
+                      "text": "特注の弓",
+                      "italic": false,
+                      "color": "gold"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "弾丸の経費節約のために開発された弓、",
+                    "italic": false
+                  },
+                  {
+                    "text": "銃剣の技術が使われており頑丈で近接戦もこなせる",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 10,
+                    "minecraft:power": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000c20ab_000000000006b0b6",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002d786_00000000000ecf12",
+                      "type": "minecraft:attack_damage",
+                      "amount": 10.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000b7040_00000000000570d4",
+                      "type": "minecraft:attack_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

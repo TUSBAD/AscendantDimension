@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "TUSB WoolEditionという二次創作を作ってます。",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

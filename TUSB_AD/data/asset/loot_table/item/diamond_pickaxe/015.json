@@ -1,0 +1,466 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "s",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "i",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "n",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "-★- ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "原初と",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "叛逆の",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "創造神",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "聖嘴 ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "-★-",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "light_purple",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "y",
+                      "italic": false,
+                      "color": "red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "o",
+                      "italic": false,
+                      "color": "gold",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "yellow",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "k",
+                      "italic": false,
+                      "color": "green",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "e",
+                      "italic": false,
+                      "color": "aqua",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "d",
+                      "italic": false,
+                      "color": "blue",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "a",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "富豪の鶴嘴 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "創造神の聖嘴 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "創造神の加護 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "魂の共鳴 enchantment.level.CXXVII",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "創造神スピカ",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "がもつ",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "聖嘴",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "創造神の力",
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "を宿しており、",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "限界を突破",
+                        "italic": false,
+                        "color": "light_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "した",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      },
+                      {
+                        "text": "魔力",
+                        "italic": false,
+                        "color": "green",
+                        "bold": true
+                      },
+                      {
+                        "text": "が込められている。",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "アドベンチャーエリアにある様々なブロックを超高速で破壊可能",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  },
+                  {
+                    "text": "エンチャント及び修繕不可",
+                    "italic": false,
+                    "color": "red",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 127,
+                    "minecraft:looting": 127,
+                    "minecraft:knockback": 127,
+                    "minecraft:efficiency": 127,
+                    "minecraft:sharpness": 127,
+                    "minecraft:smite": 127
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000001",
+                      "type": "minecraft:attack_damage",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000002",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000003",
+                      "type": "minecraft:luck",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000004",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000005",
+                      "type": "minecraft:max_health",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000006",
+                      "type": "minecraft:attack_speed",
+                      "amount": 1.0,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000007",
+                      "type": "minecraft:armor",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000046_0000000000000008",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:can_break": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:obsidian"
+                    },
+                    {
+                      "blocks": "minecraft:diamond_block"
+                    },
+                    {
+                      "blocks": "minecraft:emerald_block"
+                    },
+                    {
+                      "blocks": "minecraft:lapis_block"
+                    },
+                    {
+                      "blocks": "minecraft:gold_block"
+                    },
+                    {
+                      "blocks": "minecraft:iron_block"
+                    },
+                    {
+                      "blocks": "minecraft:rail"
+                    },
+                    {
+                      "blocks": "minecraft:beacon"
+                    },
+                    {
+                      "blocks": "minecraft:light_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:heavy_weighted_pressure_plate"
+                    },
+                    {
+                      "blocks": "minecraft:torch"
+                    },
+                    {
+                      "blocks": "minecraft:web"
+                    },
+                    {
+                      "blocks": "minecraft:vine"
+                    },
+                    {
+                      "blocks": "minecraft:coal_block"
+                    },
+                    {
+                      "blocks": "minecraft:glass"
+                    },
+                    {
+                      "blocks": "minecraft:quartz_block"
+                    },
+                    {
+                      "blocks": "minecraft:snow"
+                    },
+                    {
+                      "blocks": "minecraft:snow_layer"
+                    },
+                    {
+                      "blocks": "minecraft:brewing_stand"
+                    },
+                    {
+                      "blocks": "minecraft:structure_void"
+                    },
+                    {
+                      "blocks": "minecraft:mob_spawner"
+                    },
+                    {
+                      "blocks": "minecraft:end_stone"
+                    },
+                    {
+                      "blocks": "minecraft:monster_egg"
+                    },
+                    {
+                      "blocks": "minecraft:glowstone"
+                    },
+                    {
+                      "blocks": "minecraft:sea_lantern"
+                    },
+                    {
+                      "blocks": "minecraft:sponge"
+                    },
+                    {
+                      "blocks": "minecraft:stained_glass"
+                    },
+                    {
+                      "blocks": "minecraft:bedrock"
+                    },
+                    {
+                      "blocks": "minecraft:barrier"
+                    },
+                    {
+                      "blocks": "minecraft:structure_block"
+                    },
+                    {
+                      "blocks": "minecraft:log"
+                    },
+                    {
+                      "blocks": "minecraft:crafting_table"
+                    },
+                    {
+                      "blocks": "minecraft:stone_slab"
+                    },
+                    {
+                      "blocks": "minecraft:stonebrick"
+                    },
+                    {
+                      "blocks": "minecraft:bookshelf"
+                    },
+                    {
+                      "blocks": "minecraft:chest"
+                    },
+                    {
+                      "blocks": "minecraft:trapped_chest"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:custom_data": {
+                  "symphony30": 1,
+                  "awakening30": 1,
+                  "symp": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

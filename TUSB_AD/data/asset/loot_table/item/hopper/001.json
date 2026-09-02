@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "報酬ドロッパー",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "150個のネザースターが入っている",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:hopper",
+                  "Items": [
+                    {
+                      "id": "minecraft:nether_star",
+                      "Damage": 0,
+                      "Count": 30,
+                      "Slot": 0
+                    },
+                    {
+                      "id": "minecraft:nether_star",
+                      "Damage": 0,
+                      "Count": 30,
+                      "Slot": 1
+                    },
+                    {
+                      "id": "minecraft:nether_star",
+                      "Damage": 0,
+                      "Count": 30,
+                      "Slot": 2
+                    },
+                    {
+                      "id": "minecraft:nether_star",
+                      "Damage": 0,
+                      "Count": 30,
+                      "Slot": 3
+                    },
+                    {
+                      "id": "minecraft:nether_star",
+                      "Damage": 0,
+                      "Count": 30,
+                      "Slot": 4
+                    }
+                  ],
+                  "TransferCooldown": 0,
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

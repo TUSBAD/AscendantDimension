@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "首刈り鎌",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "鍬じゃないよ、鎌だよ。",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "お古で弱くなっててもいいならどうぞ。",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "※攻撃力変動効果無効",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "bold": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": -32768,
+                    "minecraft:fortune": -32768,
+                    "minecraft:sharpness": 24
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000165140a2_00000000165140a2",
+                      "type": "minecraft:max_health",
+                      "amount": 4.0,
+                      "operation": "add_value"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000165140a2_00000000165140a2",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_value"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000165140a2_00000000165140a2",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_multiplied_total"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

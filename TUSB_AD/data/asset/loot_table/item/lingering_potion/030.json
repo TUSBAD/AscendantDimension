@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "234死神の秘薬",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "538",
+                      "italic": false,
+                      "color": "dark_red",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "ｺﾜｼﾃﾂｸｯﾃ",
+                    "italic": false
+                  },
+                  {
+                    "text": "AHAHAHAHAHAHA",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_strength",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 10,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 10,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 15,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 10,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 10,
+                      "duration": 4800,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:health_boost",
+                      "amplifier": 29,
+                      "duration": 4800,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

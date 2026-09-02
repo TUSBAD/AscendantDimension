@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": " ",
+                      "italic": false
+                    },
+                    {
+                      "text": "額縁無敵解除の印判",
+                      "italic": false,
+                      "color": "gold",
+                      "underlined": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " 設置後1回、周囲16立方mの額縁の",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "無敵化を解除して取り外せるようにする",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "解除後の爆発にはお気をつけて",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "Ifinvcl",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

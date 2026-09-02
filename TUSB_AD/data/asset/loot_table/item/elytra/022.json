@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "蒼天の翼",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "新世界の加護 enchantment.level.7",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "蒼天の守護者が愛用していたエリトラ",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "これを纏い大空を駆けると",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "蒼天の守護者の加護を得られる",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "※持ち出し不可",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000081c99_0000000000088435",
+                      "type": "minecraft:max_health",
+                      "amount": 40.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:custom_data": {
+                  "symphony21": 1,
+                  "liberty": 1,
+                  "TrialItem": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

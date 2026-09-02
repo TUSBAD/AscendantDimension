@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ガリバーランド",
+                  "italic": false,
+                  "color": "gold",
+                  "underlined": true
+                },
+                "minecraft:custom_data": {
+                  "Decorations": [
+                    {
+                      "rot": 0.0,
+                      "x": 79.0,
+                      "z": 747.0,
+                      "id": "exitG1",
+                      "type": 3
+                    },
+                    {
+                      "rot": 45.0,
+                      "x": 71.0,
+                      "z": 738.0,
+                      "id": "frameG1",
+                      "type": 4
+                    },
+                    {
+                      "rot": 180.0,
+                      "x": -32.0,
+                      "z": 745.0,
+                      "id": "enterG1",
+                      "type": 5
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

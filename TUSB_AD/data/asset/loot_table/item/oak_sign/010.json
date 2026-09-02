@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "氷、氷塊消滅の印板EX",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "デバック用。使用すると、",
+                    "italic": false
+                  },
+                  {
+                    "text": "「半径」15ブロック付近",
+                    "italic": false
+                  },
+                  {
+                    "text": "に設置されている",
+                    "italic": false
+                  },
+                  {
+                    "text": "氷と氷塊ブロックのみを消す。",
+                    "italic": false
+                  },
+                  {
+                    "text": "取り扱い注意な",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000474acd5_000000000474acd5",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air 0 replace packed_ice 0\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air 0 replace ice 0\"},\"translate\":\"\\u003d--%1$s--\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"black\",\"text\":\"氷消EX\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle fireworksSpark ~ ~ ~ 15 15 15 0.5 10000 normal\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "チェンソー",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "-神はバラバラになった",
+                        "italic": true,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "...",
+                        "italic": false,
+                        "color": "gold"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 9999,
+                    "minecraft:unbreaking": 10,
+                    "minecraft:sharpness": 3
+                  }
+                },
+                "minecraft:repair_cost": -1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

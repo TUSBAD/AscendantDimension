@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "収穫の印板：",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "人参",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置して使用すると、看板から",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "けっこうな",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "範囲にある",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "人参作物",
+                        "italic": false,
+                        "color": "red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "収穫",
+                        "italic": false,
+                        "color": "green"
+                      },
+                      {
+                        "text": "できる。看板が壊れない限り",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "半永久的",
+                        "italic": false,
+                        "color": "light_purple",
+                        "underlined": true
+                      },
+                      {
+                        "text": "に使用できる。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "※",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ネザー",
+                        "italic": true,
+                        "color": "red"
+                      },
+                      {
+                        "text": "や",
+                        "italic": true,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "エンド",
+                        "italic": true,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "では使用出来ない。",
+                        "italic": true,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "PermanentStand",
+                    "CarrotBreaker",
+                    "OverOnly",
+                    "TypeChecked"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

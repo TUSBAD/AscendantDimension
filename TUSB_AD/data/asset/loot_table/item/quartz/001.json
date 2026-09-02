@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "イ",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ザ",
+                      "italic": false,
+                      "color": "dark_green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ナ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "ギ",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "オ",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ブ",
+                      "italic": false,
+                      "color": "dark_green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ジ",
+                      "italic": false,
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "ェ",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "ク",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "ト",
+                      "italic": false,
+                      "color": "dark_green",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 20,
+                    "minecraft:thorns": 5
+                  }
+                },
+                "minecraft:custom_data": {
+                  "Legacy": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

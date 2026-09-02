@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "TikTak O Beer：チクタク・オー・酒",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true,
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "蒸気機関",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "の発達した世界で作られた蒸留酒。",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "何からのはずみで",
+                        "italic": false,
+                        "color": "white"
+                      },
+                      {
+                        "text": "迷い込んだ。",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "アルコール度数が高い",
+                        "italic": false,
+                        "color": "gold"
+                      },
+                      {
+                        "text": "ので吐き気に注意。",
+                        "italic": false,
+                        "color": "white"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": -128,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 5,
+                      "duration": 20,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

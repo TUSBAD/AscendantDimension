@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:witch_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "超・作業台パーフェクトガイド",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:entity_data": {
+                  "DeathTime": 19,
+                  "DeathLootTable": "usb:signs/perfect",
+                  "id": "minecraft:witch",
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 7,
+                      "Amplifier": 5
+                    },
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 14,
+                      "Amplifier": 0
+                    }
+                  ],
+                  "Tags": [
+                    "TypeChecked",
+                    "RewardEgg"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

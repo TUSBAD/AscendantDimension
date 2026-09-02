@@ -1,0 +1,2264 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "職業ｱｲﾃﾑ詰め合わせﾁｪｽﾄ",
+                  "italic": false,
+                  "color": "red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "いろいろなｱｲﾃﾑが詰まっている。",
+                    "italic": false,
+                    "color": "light_purple",
+                    "bold": true
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "cs",
+                              "Color": 8
+                            },
+                            {
+                              "Pattern": "mr",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "cr",
+                              "Color": 7
+                            },
+                            {
+                              "Pattern": "gra",
+                              "Color": 7
+                            },
+                            {
+                              "Pattern": "mc",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "flo",
+                              "Color": 8
+                            }
+                          ],
+                          "Base": 7
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9剣士に馴染みやすい盾。"
+                          ],
+                          "Name": "§7§l剣士の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "AMR"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "AMR"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "cr",
+                              "Color": 3
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 1
+                            },
+                            {
+                              "Pattern": "bts",
+                              "Color": 1
+                            },
+                            {
+                              "Pattern": "mr",
+                              "Color": 1
+                            },
+                            {
+                              "Pattern": "cbo",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "sku",
+                              "Color": 0
+                            }
+                          ],
+                          "Base": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9忍者に馴染みやすい盾。"
+                          ],
+                          "Name": "§4§l忍者の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "ATK"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "ATS"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "ATK"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "ATS"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "flo",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "sc",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "flo",
+                              "Color": 2
+                            },
+                            {
+                              "Pattern": "cr",
+                              "Color": 2
+                            },
+                            {
+                              "Pattern": "sku",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 2
+                            },
+                            {
+                              "Pattern": "gru",
+                              "Color": 8
+                            }
+                          ],
+                          "Base": 2
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9狩人に馴染みやすい盾。"
+                          ],
+                          "Name": "§2§l狩人の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "SPD"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "KB"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "SPD"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 2,
+                            "Name": "KB"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 3,
+                            "Id": 14,
+                            "Amplifier": 5
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§dマナから作られた霊薬。",
+                            "§d飲むとHPとMPが全回復する。",
+                            "",
+                            "§7スプラッシュ化不可"
+                          ],
+                          "Name": "§5§lラストエリクサー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 4,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§r§bダイヤ§f防具一式§eが圧縮された印玉。",
+                            "§e使用すると§l§f防具一式§eが§b解凍§eされる。"
+                          ],
+                          "Name": "§r§f圧縮防具の印玉§b§l-剛-"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/diamondarmor",
+                          "id": "Bat",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 3,
+                            "Id": 14,
+                            "Amplifier": 5
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§dマナから作られた霊薬。",
+                            "§d飲むとHPとMPが全回復する。",
+                            "",
+                            "§7スプラッシュ化不可"
+                          ],
+                          "Name": "§5§lラストエリクサー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "cr",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "tts",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "bts",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "cbo",
+                              "Color": 15
+                            }
+                          ],
+                          "Base": 4
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9白魔導士に馴染みやすい盾。"
+                          ],
+                          "Name": "§f§l白魔導士の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "HP"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "AMR"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "HP"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "AMR"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "gra",
+                              "Color": 8
+                            },
+                            {
+                              "Pattern": "gru",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "dls",
+                              "Color": 7
+                            },
+                            {
+                              "Pattern": "drs",
+                              "Color": 7
+                            },
+                            {
+                              "Pattern": "cr",
+                              "Color": 5
+                            },
+                            {
+                              "Pattern": "mr",
+                              "Color": 5
+                            },
+                            {
+                              "Pattern": "mc",
+                              "Color": 13
+                            },
+                            {
+                              "Pattern": "flo",
+                              "Color": 7
+                            }
+                          ],
+                          "Base": 8
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9黒魔導士に馴染みやすい盾。"
+                          ],
+                          "Name": "§8§l黒魔導士の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "HP"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "ATK"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "HP"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 2,
+                            "Name": "ATK"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:shield",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 32,
+                        "BlockEntityTag": {
+                          "Patterns": [
+                            {
+                              "Pattern": "cs",
+                              "Color": 15
+                            },
+                            {
+                              "Pattern": "cr",
+                              "Color": 12
+                            },
+                            {
+                              "Pattern": "gra",
+                              "Color": 2
+                            },
+                            {
+                              "Pattern": "bts",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "cre",
+                              "Color": 0
+                            },
+                            {
+                              "Pattern": "cbo",
+                              "Color": 0
+                            }
+                          ],
+                          "Base": 4
+                        },
+                        "display": {
+                          "Lore": [
+                            "§9召喚士に馴染みやすい盾。"
+                          ],
+                          "Name": "§6§l召喚士の盾"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 1,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "SPD"
+                          },
+                          {
+                            "UUIDMost": 2,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "ATS"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 2,
+                            "Name": "SPD"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 4,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "ATS"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:iron_sword",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§r幅広い剣身で攻撃を受け止める大剣"
+                          ],
+                          "Name": "§r§l剣士の大剣"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 15.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "AttackPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": -3.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "AtkSpeedPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 3,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "ArmorPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:iron_axe",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§r素早い動きを阻害しないよう",
+                            "§r軽さに拘って作られた小太刀"
+                          ],
+                          "Name": "§r§l忍者の小太刀"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 5.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "AttackPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 4.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "AtkSpeedPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:bow",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§r神木の落枝から削って作られた",
+                            "§r幸運をもたらすとされる弓"
+                          ],
+                          "Name": "§r§l狩人の弓"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 2.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.luck",
+                            "Operation": 0,
+                            "Name": "LuckPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.2,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.knockbackResistance",
+                            "Operation": 0,
+                            "Name": "LuckPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§rハイエーテルが入っている。"
+                          ],
+                          "Name": "§2§lハイエーテルカプセル"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/ether2",
+                          "id": "Witch",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:elytra",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 1,
+                            "id": 0
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 1
+                      },
+                      "Damage": 400
+                    },
+                    {
+                      "Slot": 14,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 32,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§rハイエーテルが入っている。"
+                          ],
+                          "Name": "§2§lハイエーテルカプセル"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/ether2",
+                          "id": "Witch",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 15,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§r森の香りが心地よい",
+                            "§r持つ者の生命力を増幅させる杖"
+                          ],
+                          "Name": "§r§l白魔導士のクロージャ"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 12.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "HealthPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.25,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 2,
+                            "Name": "HealthPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 16,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§rマナがなければ殴ればいいじゃない",
+                            "§rというコンセプトで作られた鈍器"
+                          ],
+                          "Name": "§r§l黒魔導士のメイス"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 10.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "AttackPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": -1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "AtkSpeedPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 17,
+                      "id": "minecraft:carrot_on_a_stick",
+                      "Count": 1,
+                      "tag": {
+                        "display": {
+                          "Lore": [
+                            "§r美味しそうな香りを放つ",
+                            "§rどこまでも走れそうに思わせる杖"
+                          ],
+                          "Name": "§r§l召喚士のタクト"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 1,
+                            "Amount": 1.0,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.movementSpeed",
+                            "Operation": 1,
+                            "Name": "SpeedPlus"
+                          },
+                          {
+                            "UUIDMost": 1,
+                            "UUIDLeast": 2,
+                            "Amount": 0.1,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 1,
+                            "Name": "HealthPlus"
+                          }
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 18,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-1",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzQxMjI1MTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVjMjU2ZWJjM2JhZDI5ZTNiYWYwYTBhZmI5M2I5MTE2N2U3NjZiZGMyODU1YTljZDcxZjg3ZTg2NTg3ZGM5In19fQ=="
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§7§l剣士の魂"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 3,
+                            "UUIDLeast": 1,
+                            "Amount": 7.0,
+                            "Slot": "head",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "DEF+"
+                          },
+                          {
+                            "UUIDMost": 3,
+                            "UUIDLeast": 2,
+                            "Amount": 0.7,
+                            "Slot": "head",
+                            "AttributeName": "generic.armor",
+                            "Operation": 2,
+                            "Name": "DEF+"
+                          }
+                        ]
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 19,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-2",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzQyNTgxNjAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjQ1NDJlOWZmYzFjMDg0N2I2MDExM2UxNjFmODNhZWZlMmQ4NzJiNTFiMmU0NzQ1MWUxODZlZTlhYWVkNjkifX19"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§4§l忍者の魂"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 3,
+                            "UUIDLeast": 1,
+                            "Amount": 7.0,
+                            "Slot": "head",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "ATK+"
+                          },
+                          {
+                            "UUIDMost": 3,
+                            "UUIDLeast": 2,
+                            "Amount": 0.7,
+                            "Slot": "head",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 2,
+                            "Name": "ATS+"
+                          }
+                        ]
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 20,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 4
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 8
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-3",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzQzOTU2MjQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTQxOTE3OGQyNTM3MzNkY2EzMjRjZmQ5NTc0MzNmNzRiOTkwOTAzZDRkMjZmYmIyNmFiNDNkZjM5ZjNjY2QifX19"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§2§l狩人の魂"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 21,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 3,
+                            "Id": 14,
+                            "Amplifier": 5
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§dマナから作られた霊薬。",
+                            "§d飲むとHPとMPが全回復する。",
+                            "",
+                            "§7スプラッシュ化不可"
+                          ],
+                          "Name": "§5§lラストエリクサー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 22,
+                      "id": "minecraft:spawn_egg",
+                      "Count": 4,
+                      "tag": {
+                        "ench": [],
+                        "RepairCost": 1000000000,
+                        "HideFlags": 16,
+                        "display": {
+                          "Lore": [
+                            "§r§bダイヤ§f防具一式§eが圧縮された印玉。",
+                            "§e使用すると§l§f防具一式§eが§b解凍§eされる。"
+                          ],
+                          "Name": "§r§f圧縮防具の印玉§b§l-剛-"
+                        },
+                        "EntityTag": {
+                          "DeathTime": 19,
+                          "DeathLootTable": "usb:signs/diamondarmor",
+                          "id": "Bat",
+                          "ActiveEffects": [
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 7,
+                              "Amplifier": 5
+                            },
+                            {
+                              "ShowParticles": 0,
+                              "Duration": 100,
+                              "Id": 14,
+                              "Amplifier": 0
+                            }
+                          ],
+                          "Tags": [
+                            "RewardEgg",
+                            "TypeChecked"
+                          ]
+                        },
+                        "CanPlaceOn": [
+                          "stone",
+                          "grass",
+                          "dirt",
+                          "cobblestone",
+                          "planks",
+                          "sapling",
+                          "bedrock",
+                          "flowing_water",
+                          "water",
+                          "flowing_lava",
+                          "lava",
+                          "sand",
+                          "gravel",
+                          "gold_ore",
+                          "iron_ore",
+                          "coal_ore",
+                          "log",
+                          "leaves",
+                          "sponge",
+                          "glass",
+                          "lapis_ore",
+                          "lapis_block",
+                          "dispenser",
+                          "sandstone",
+                          "noteblock",
+                          "bed",
+                          "golden_rail",
+                          "detector_rail",
+                          "sticky_piston",
+                          "web",
+                          "tallgrass",
+                          "deadbush",
+                          "piston",
+                          "piston_head",
+                          "wool",
+                          "piston_extension",
+                          "yellow_flower",
+                          "red_flower",
+                          "brown_mushroom",
+                          "red_mushroom",
+                          "gold_block",
+                          "iron_block",
+                          "double_stone_slab",
+                          "stone_slab",
+                          "brick_block",
+                          "tnt",
+                          "bookshelf",
+                          "mossy_cobblestone",
+                          "obsidian",
+                          "torch",
+                          "fire",
+                          "oak_stairs",
+                          "chest",
+                          "redstone_wire",
+                          "diamond_ore",
+                          "diamond_block",
+                          "crafting_table",
+                          "wheat",
+                          "farmland",
+                          "furnace",
+                          "lit_furnace",
+                          "standing_sign",
+                          "wooden_door",
+                          "ladder",
+                          "rail",
+                          "stone_stairs",
+                          "wall_sign",
+                          "lever",
+                          "stone_pressure_plate",
+                          "iron_door",
+                          "wooden_pressure_plate",
+                          "redstone_ore",
+                          "lit_redstone_ore",
+                          "unlit_redstone_torch",
+                          "redstone_torch",
+                          "stone_button",
+                          "snow_layer",
+                          "ice",
+                          "snow",
+                          "cactus",
+                          "clay",
+                          "reeds",
+                          "jukebox",
+                          "fence",
+                          "pumpkin",
+                          "netherrack",
+                          "soul_sand",
+                          "glowstone",
+                          "portal",
+                          "lit_pumpkin",
+                          "cake",
+                          "unpowered_repeater",
+                          "powered_repeater",
+                          "stained_glass",
+                          "trapdoor",
+                          "monster_egg",
+                          "stonebrick",
+                          "brown_mushroom_block",
+                          "red_mushroom_block",
+                          "iron_bars",
+                          "glass_pane",
+                          "melon_block",
+                          "pumpkin_stem",
+                          "melon_stem",
+                          "vine",
+                          "fence_gate",
+                          "brick_stairs",
+                          "stone_brick_stairs",
+                          "mycelium",
+                          "waterlily",
+                          "nether_brick",
+                          "nether_brick_fence",
+                          "nether_brick_stairs",
+                          "nether_wart",
+                          "enchanting_table",
+                          "brewing_stand",
+                          "cauldron",
+                          "end_portal",
+                          "end_portal_frame",
+                          "end_stone",
+                          "dragon_egg",
+                          "redstone_lamp",
+                          "lit_redstone_lamp",
+                          "double_wooden_slab",
+                          "wooden_slab",
+                          "cocoa",
+                          "sandstone_stairs",
+                          "emerald_ore",
+                          "ender_chest",
+                          "tripwire_hook",
+                          "tripwire",
+                          "emerald_block",
+                          "spruce_stairs",
+                          "birch_stairs",
+                          "jungle_stairs",
+                          "command_block",
+                          "beacon",
+                          "cobblestone_wall",
+                          "flower_pot",
+                          "carrots",
+                          "potatoes",
+                          "wooden_button",
+                          "skull",
+                          "anvil",
+                          "trapped_chest",
+                          "light_weighted_pressure_plate",
+                          "heavy_weighted_pressure_plate",
+                          "unpowered_comparator",
+                          "powered_comparator",
+                          "daylight_detector",
+                          "redstone_block",
+                          "quartz_ore",
+                          "hopper",
+                          "quartz_block",
+                          "quartz_stairs",
+                          "activator_rail",
+                          "dropper",
+                          "stained_hardened_clay",
+                          "stained_glass_pane",
+                          "leaves2",
+                          "log2",
+                          "acacia_stairs",
+                          "dark_oak_stairs",
+                          "slime",
+                          "barrier",
+                          "iron_trapdoor",
+                          "prismarine",
+                          "sea_lantern",
+                          "hay_block",
+                          "carpet",
+                          "hardened_clay",
+                          "coal_block",
+                          "packed_ice",
+                          "double_plant",
+                          "standing_banner",
+                          "wall_banner",
+                          "daylight_detector_inverted",
+                          "red_sandstone",
+                          "red_sandstone_stairs",
+                          "double_stone_slab2",
+                          "stone_slab2",
+                          "spruce_fence_gate",
+                          "birch_fence_gate",
+                          "jungle_fence_gate",
+                          "dark_oak_fence_gate",
+                          "acacia_fence_gate",
+                          "spruce_fence",
+                          "birch_fence",
+                          "jungle_fence",
+                          "dark_oak_fence",
+                          "acacia_fence",
+                          "spruce_door",
+                          "birch_door",
+                          "jungle_door",
+                          "acacia_door",
+                          "dark_oak_door",
+                          "end_rod",
+                          "chorus_plant",
+                          "chorus_flower",
+                          "purpur_block",
+                          "purpur_pillar",
+                          "purpur_stairs",
+                          "purpur_double_slab",
+                          "purpur_slab",
+                          "end_bricks",
+                          "beetroots",
+                          "grass_path",
+                          "end_gateway",
+                          "repeating_command_block",
+                          "chain_command_block",
+                          "frosted_ice",
+                          "magma",
+                          "nether_wart_block",
+                          "red_nether_brick",
+                          "bone_block",
+                          "structure_void",
+                          "observer",
+                          "white_shulker_box",
+                          "orange_shulker_box",
+                          "magenta_shulker_box",
+                          "light_blue_shulker_box",
+                          "yellow_shulker_box",
+                          "lime_shulker_box",
+                          "pink_shulker_box",
+                          "gray_shulker_box",
+                          "light_gray_shulker_box",
+                          "cyan_shulker_box",
+                          "purple_shulker_box",
+                          "blue_shulker_box",
+                          "brown_shulker_box",
+                          "green_shulker_box",
+                          "red_shulker_box",
+                          "black_shulker_box",
+                          "structure_block"
+                        ]
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 23,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 3,
+                            "Id": 14,
+                            "Amplifier": 5
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§dマナから作られた霊薬。",
+                            "§d飲むとHPとMPが全回復する。",
+                            "",
+                            "§7スプラッシュ化不可"
+                          ],
+                          "Name": "§5§lラストエリクサー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 3
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-4",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzQ0OTAxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmFmZGRmODZkNTVkY2Y4ZWQ5MTY3MWI3MTlkMzkwZWU2YzZjNTY4NWNlNWIyM2NhZjJjYjlkOWUyN2NmOGYifX19"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§f§l白魔導士の魂"
+                        },
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 3,
+                            "UUIDLeast": 1,
+                            "Amount": 7.0,
+                            "Slot": "head",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "HP+"
+                          }
+                        ]
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 1
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 5
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-5",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzUxMjc5OTQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTVkMTNlNGI5ODhjNzVjNGFhMTVhYjc1N2M0ZjJhY2FmMzBkNGE2ZjRlZDdkNGVlM2ZhY2VmNWM0OTIifX19"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§9§l黒魔導士の魂"
+                        }
+                      },
+                      "Damage": 3
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:skull",
+                      "Count": 1,
+                      "tag": {
+                        "ench": [
+                          {
+                            "lvl": 7,
+                            "id": 0
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 2
+                          },
+                          {
+                            "lvl": 7,
+                            "id": 6
+                          }
+                        ],
+                        "RepairCost": 1000000000,
+                        "SkullOwner": {
+                          "Id": "0-0-ca-0-6",
+                          "Properties": {
+                            "textures": [
+                              {
+                                "Value": "eyJ0aW1lc3RhbXAiOjE0NTk0MzUzMzU1NTIsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYWY1NTA1OWI3NzkzMzc4YTdkM2E1YWVmNzllZjBlZGY0YzE0OGMzODBhMTk3MjYwMjNhNTQ1MjQxZjc2OTIifX19"
+                              }
+                            ]
+                          }
+                        },
+                        "display": {
+                          "Name": "§e§l召喚士の魂"
+                        }
+                      },
+                      "Damage": 3
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

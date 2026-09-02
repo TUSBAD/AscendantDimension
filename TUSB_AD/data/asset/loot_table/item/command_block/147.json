@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "NUKE",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"自己防衛のオーラ\",Duration:2147483647,Color:12998518,Radius:4.9f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Effects:[{Id:14b,Amplifier:-1b,Duration:3,ShowParticles:true},{Id:17b,Amplifier:0b,Duration:23,ShowParticles:true},{Id:11b,Amplifier:-3b,Duration:23,ShowParticles:true},{Id:1b,Amplifier:127b,Duration:6,ShowParticles:true},{Id:4b,Amplifier:3b,Duration:43,ShowParticles:true},{Id:19b,Amplifier:69b,Duration:25,ShowParticles:true}],ReapplicationDelay:1,Particle:\"take\"},{id:\"AreaEffectCloud\",CustomName:\"汚染されたスポナーオーラ\",Duration:2147483647,Color:10092799,Radius:2.5f,Tags:[\"TypeChecked\",\"Spawner\",\"SystemEntity\"],Particle:\"portal\"},{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{CustomName:\"ランダム移動\",Passengers:[0:{NoGravity:1b,CustomName:\"§4§lNUKE MAKER§r\",Passengers:[0:{MaxNearbyEntities:3s,RequiredPlayerRange:20s,CustomDisplayTile:1b,SpawnCount:1s,DisplayTile:\"hopper\",Invulnerable:1b,MaxSpawnDelay:40s,Glowing:1b,Delay:-1s,DisplayOffset:-14,CustomName:\"魔のワゴン\",DeathLootTable:\"empty\",id:\"MinecartSpawner\",DisplayData:0,SpawnRange:0s,MinSpawnDelay:10s,SpawnPotentials:[0:{Entity:{Particle:\"iconcrack\",ParticleParam2:2,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ01\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:1b,Amplifier:1b},1:{Duration:10,Id:25b,Amplifier:15b}],id:\"AreaEffectCloud\"},Weight:1},1:{Entity:{Particle:\"iconcrack\",ParticleParam2:14,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ02\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:1b,Amplifier:5b},1:{Duration:10,Id:25b,Amplifier:7b}],id:\"AreaEffectCloud\"},Weight:3},2:{Entity:{Particle:\"iconcrack\",ParticleParam2:1,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ03\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:1b,Amplifier:10b},1:{Duration:10,Id:25b,Amplifier:4b}],id:\"AreaEffectCloud\"},Weight:5},3:{Entity:{Particle:\"iconcrack\",ParticleParam2:4,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ04\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:1b,Amplifier:20b},1:{Duration:10,Id:25b,Amplifier:2b}],id:\"AreaEffectCloud\"},Weight:7}]},1:{MaxNearbyEntities:3s,RequiredPlayerRange:32s,CustomDisplayTile:1b,SpawnCount:1s,DisplayTile:\"end_rod\",Invulnerable:1b,MaxSpawnDelay:10s,Glowing:1b,Delay:-1s,DisplayOffset:-23,CustomName:\"魔のワゴン\",DeathLootTable:\"empty\",id:\"MinecartSpawner\",DisplayData:0,SpawnRange:0s,MinSpawnDelay:5s,SpawnPotentials:[0:{Entity:{Particle:\"iconcrack\",ParticleParam2:5,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ05\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:2b,Amplifier:5b},1:{Duration:50,Id:25b,Amplifier:-3b}],id:\"AreaEffectCloud\"},Weight:1},1:{Entity:{Particle:\"iconcrack\",ParticleParam2:3,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ06\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:2b,Amplifier:7b},1:{Duration:10,Id:25b,Amplifier:-4b}],id:\"AreaEffectCloud\"},Weight:3},2:{Entity:{Particle:\"iconcrack\",ParticleParam2:11,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ07\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:2b,Amplifier:10b},1:{Duration:10,Id:25b,Amplifier:-8b}],id:\"AreaEffectCloud\"},Weight:5},3:{Entity:{Particle:\"iconcrack\",ParticleParam2:10,ParticleParam1:160,Radius:1.5f,ReapplicationDelay:0,CustomName:\"ムーブオーラ08\",RadiusOnUse:0.0f,Duration:20,Effects:[0:{Duration:10,Id:2b,Amplifier:20b},1:{Duration:10,Id:25b,Amplifier:-16b}],id:\"AreaEffectCloud\"},Weight:7}]},2:{Particle:\"endRod\",ParticleParam1:7,Radius:0.001f,ReapplicationDelay:0,CustomName:\"ラインオーラ\",Duration:80,Effects:[],id:\"AreaEffectCloud\",CustomNameVisible:0b},3:{Passengers:[0:{NoGravity:1b,Health:400.0f,Attributes:[0:{Base:400.0d,Name:\"generic.maxHealth\"},1:{Base:0.5d,Name:\"generic.movementSpeed\"},2:{Base:5.0d,Name:\"generic.attackDamage\"},3:{Base:0.3d,Name:\"generic.knockbackResistance\"},4:{Base:32.0d,Name:\"generic.followRange\"}],Silent:1b,FallFlying:1b,HandItems:[0:{Count:0b,id:\"minecraft:tnt\",tag:{ench:[0:{lvl:3s,id:50s},1:{lvl:5s,id:49s},2:{lvl:3s,id:48s}]},Damage:0s},1:{Count:0b,id:\"minecraft:tnt\",tag:{ench:[]},Damage:0s}],ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],CustomName:\"§4§lNUKE MAKER§r\",Passengers:[0:{Potion:{Count:1b,id:\"minecraft:splash_potion\",tag:{CustomPotionEffects:[0:{Duration:1200,Id:25b,Amplifier:-120b},1:{Duration:60,Id:14b,Amplifier:-1b},2:{Duration:120,id:2b,Amplifier:10b},3:{Duration:120,id:17b,Amplifier:10b},4:{Duration:120,id:18b,Amplifier:10b}]}},id:\"ThrownPotion\"},1:{Particle:\"fallingdust\",ParticleParam1:7,Radius:0.45f,ReapplicationDelay:0,CustomName:\"ミステリアスオーラ\",Duration:80,Effects:[],id:\"AreaEffectCloud\",CustomNameVisible:0b}],SkeletonType:0,ArmorItems:[0:{},1:{},2:{},3:{Count:0b,id:\"minecraft:skull\",tag:{SkullOwner:{Id:\"206a8059-f5fb-41e7-8b33-233b5c72f932\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZhZjNlZmJmZjZkN2VmNDY1ZWNhY2JjNTE3ZjRkYWQ1Y2MxYTIyNjFlYTdhNjA5ZjIxNmFhZTQ4Nzg0In19fQ==\"}]}}},Damage:3s}],CanPickUpLoot:1b,HandDropChances:[0:0.0f,1:0.0f],DeathLootTable:\"usb:entities/ice/mob6\",id:\"Skeleton\",Tags:[0:\"SkillMob\",1:\"bomber\",2:\"wizard\"],ActiveEffects:[0:{ShowParticles:0b,Duration:2147483647,Id:1b,Amplifier:20b},1:{ShowParticles:0b,Duration:2147483647,Id:14b,Amplifier:127b}]}],Potion:{Count:1b,id:\"minecraft:splash_potion\",tag:{CustomPotionEffects:[0:{Duration:80,Id:25b,Amplifier:0b}]}},id:\"ThrownPotion\"}],Size:2,Attributes:[0:{Base:0.0d,Name:\"generic.knockbackResistance\"},1:{Base:32.0d,Name:\"generic.followRange\"}],Silent:1b,DeathLootTable:\"usb:entities/ice/mob5\",id:\"LavaSlime\",AbsorptionAmount:400.0f,ActiveEffects:[0:{Duration:2147483647,Id:14b,Amplifier:127b},1:{Duration:2147483647,Id:20b,Amplifier:0b}],Tags:[0:\"SkillMob\",1:\"Teleport\"]}],Health:4.0f,Attributes:[0:{Base:4.0d,Name:\"generic.maxHealth\"}],Silent:1b,id:\"Bat\",ActiveEffects:[0:{Duration:2147483647,Id:14b,Amplifier:127b},1:{Duration:2147483647,Id:20b,Amplifier:127b}]}],DeathTime:19s,Health:0.0f,Silent:1b,id:\"Villager\"},     SpawnCount:2s,     SpawnRange:8s,     MaxNearbyEntities:4s,     RequiredPlayerRange:32s,     Delay:-1s,     MinSpawnDelay:200s,     MaxSpawnDelay:1200s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[16:13:48] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

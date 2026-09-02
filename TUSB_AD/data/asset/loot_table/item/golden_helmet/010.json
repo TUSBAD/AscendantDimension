@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "作業員のヘルメット",
+                  "italic": false,
+                  "color": "yellow"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "安全確認ﾖｼ！",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 5,
+                    "minecraft:projectile_protection": 3,
+                    "minecraft:feather_falling": 10,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

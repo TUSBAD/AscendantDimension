@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "テレポートカカシ",
+                  "italic": false,
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "テレポートするアーマースタンド",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "アップデート記念アイテム。",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "ただのかかしですな",
+                    "italic": false,
+                    "color": "white",
+                    "strikethrough": true
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -1000000000,
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SkillMob",
+                    "WarpOnly"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

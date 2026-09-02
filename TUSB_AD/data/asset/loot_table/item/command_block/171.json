@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "三角様Ω",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Passengers:[0:{CustomName:\"§d§l三角様 §3§lΩ§r\",Health:1000.0f,Team:\"Another\",Tags:[0:\"AbyssWarp\",1:\"SkillMob\",2:\"ikuu\",3:\"Teleport\"],ArmorItems:[0:{Count:0b,id:\"minecraft:golden_boots\",tag:{ench:[0:{lvl:10s,id:0s},1:{lvl:10s,id:1s},2:{lvl:10s,id:2s},3:{lvl:10s,id:4s},4:{lvl:10s,id:5s},5:{lvl:10s,id:6s},6:{lvl:10s,id:7s},7:{lvl:10s,id:8s},8:{lvl:10s,id:3s}],RepairCost:1000000000,Unbreakable:1b,symphony34:1b,display:{color:\"1.6777215E7f\",Name:\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§b§l§n-★- §b§l§n原初と§3§l§n叛逆の§6§l§n創造神 §3§l§n-★-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"},AttributeModifiers:[0:{UUIDMost:34L,UUIDLeast:1L,Amount:0.05d,Slot:\"feet\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:34L,UUIDLeast:2L,Amount:1.0d,Slot:\"feet\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"anmin\"},2:{UUIDMost:34L,UUIDLeast:3L,Amount:0.05d,Slot:\"feet\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"},3:{UUIDMost:34L,UUIDLeast:5L,Amount:0.5d,Slot:\"feet\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},4:{UUIDMost:34L,UUIDLeast:6L,Amount:0.5d,Slot:\"feet\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},5:{UUIDMost:34L,UUIDLeast:7L,Amount:0.5d,Slot:\"feet\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},6:{UUIDMost:34L,UUIDLeast:8L,Amount:0.5d,Slot:\"feet\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},1:{Count:0b,id:\"minecraft:golden_leggings\",tag:{ench:[0:{lvl:10s,id:0s},1:{lvl:10s,id:1s},2:{lvl:10s,id:2s},3:{lvl:10s,id:4s},4:{lvl:10s,id:5s},5:{lvl:10s,id:6s},6:{lvl:10s,id:7s},7:{lvl:10s,id:8s},8:{lvl:10s,id:3s}],RepairCost:1000000000,Unbreakable:1b,symphony33:1b,display:{color:\"1.6777215E7f\",Name:\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§b§l§n-★- §b§l§n原初と§3§l§n叛逆の§6§l§n創造神 §3§l§n-★-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"},AttributeModifiers:[0:{UUIDMost:33L,UUIDLeast:1L,Amount:0.05d,Slot:\"legs\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:33L,UUIDLeast:2L,Amount:1.0d,Slot:\"legs\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"anmin\"},2:{UUIDMost:33L,UUIDLeast:3L,Amount:0.05d,Slot:\"legs\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"},3:{UUIDMost:33L,UUIDLeast:5L,Amount:0.5d,Slot:\"legs\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},4:{UUIDMost:33L,UUIDLeast:6L,Amount:0.5d,Slot:\"legs\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},5:{UUIDMost:33L,UUIDLeast:7L,Amount:0.5d,Slot:\"legs\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},6:{UUIDMost:33L,UUIDLeast:8L,Amount:0.5d,Slot:\"legs\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},2:{Count:0b,id:\"minecraft:golden_chestplate\",tag:{ench:[0:{lvl:10s,id:0s},1:{lvl:10s,id:1s},2:{lvl:10s,id:2s},3:{lvl:10s,id:4s},4:{lvl:10s,id:5s},5:{lvl:10s,id:6s},6:{lvl:10s,id:7s},7:{lvl:10s,id:8s},8:{lvl:10s,id:3s}],RepairCost:1000000000,Unbreakable:1b,display:{color:\"1.6777215E7f\",Name:\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§b§l§n-★- §b§l§n原初と§3§l§n叛逆の§6§l§n創造神 §3§l§n-★-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"},AttributeModifiers:[0:{UUIDMost:32L,UUIDLeast:1L,Amount:0.05d,Slot:\"chest\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"anmin\"},1:{UUIDMost:32L,UUIDLeast:2L,Amount:1.0d,Slot:\"chest\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"anmin\"},2:{UUIDMost:32L,UUIDLeast:3L,Amount:0.15d,Slot:\"chest\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"},3:{UUIDMost:32L,UUIDLeast:4L,Amount:0.05d,Slot:\"chest\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"anmin\"},4:{UUIDMost:32L,UUIDLeast:5L,Amount:0.5d,Slot:\"chest\",AttributeName:\"generic.armor\",Operation:2,Name:\"anmin\"},5:{UUIDMost:32L,UUIDLeast:6L,Amount:0.5d,Slot:\"chest\",AttributeName:\"generic.armorToughness\",Operation:2,Name:\"anmin\"},6:{UUIDMost:32L,UUIDLeast:7L,Amount:0.5d,Slot:\"chest\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"anmin\"},7:{UUIDMost:32L,UUIDLeast:8L,Amount:0.5d,Slot:\"chest\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]},Damage:0s},3:{id:\"minecraft:dragon_egg\",Count:0b,tag:{ench:[0:{lvl:10s,id:3s}],RepairCost:1000000000},Damage:0s}],Attributes:[0:{Base:1000.0d,Name:\"generic.maxHealth\"},1:{Base:1.0d,Name:\"generic.knockbackResistance\"},2:{Base:500.0d,Name:\"generic.attackDamage\"},3:{Name:\"generic.movementSpeed\",Base:0.10d}],id:\"Skeleton\",AbsorptionAmount:50000.0f,ActiveEffects:[0:{ShowParticles:0b,Duration:2000000000,Id:14b,Amplifier:1b},1:{ShowParticles:0b,Duration:2000000000,Id:12b,Amplifier:127b}],CustomNameVisible:1b,NoGravity:1b,HandItems:[0:{id:\"minecraft:bow\",Count:0b,tag:{ench:[0:{lvl:1000s,id:48s},1:{lvl:1000s,id:50s},2:{lvl:1000s,id:51s},3:{lvl:127s,id:34s},4:{lvl:127s,id:70s},5:{lvl:1000s,id:16s},6:{lvl:1000s,id:17s},7:{lvl:1000s,id:18s},8:{lvl:1000s,id:49s}],RepairCost:-1000000000,Unbreakable:1b,HideFlags:4,symphony36:1b,display:{Lore:[0:\"§7創造神の加護 enchantment.level.127\",1:\"§7魂の共鳴 enchantment.level.127\",2:\"\",3:\"§b§l世界の§3§l創造神§f§lがもつ§d§l聖弓\",4:\"§b§l創造神の力§f§lを宿しており、§d§l限界を突破§f§lした§a§l魔力§f§lが込められている。§r\",5:\"§d§l復活時§f§lに矢が付与されるようになる§r\",6:\"§c§lエンチャント及び修繕不可§r\"],Name:\"§5§ks§9§kn§b§ks§a§ke§e§kk§6§ka§c§ki§d§kn§b§l§n-★- §b§l§n原初と§3§l§n叛逆の§6§l§n創造神§d§l§n聖弓 §3§l§n-★-§d§ko§c§ky§6§ko§e§ka§a§kk§b§ke§9§kd§5§ka§r\"},AttributeModifiers:[0:{UUIDMost:20L,UUIDLeast:60L,Amount:1.0d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"frey\"},1:{UUIDMost:20L,UUIDLeast:40L,Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:1,Name:\"frey\"},2:{UUIDMost:20L,UUIDLeast:70L,Amount:50.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"frey\"},3:{UUIDMost:20L,UUIDLeast:10L,Amount:0.15d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:1,Name:\"frey\"}],symp:1b},Damage:0s}]}],LifeTime:20,Life:1,id:\"FireworksRocketEntity\"}],Health:0.0f,DeathTime:19s,id:\"Villager\"},     SpawnCount:1s,     SpawnRange:6s,     MaxNearbyEntities:16s,     RequiredPlayerRange:32s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:2400s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

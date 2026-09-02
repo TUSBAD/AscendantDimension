@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "エ",
+                      "italic": false,
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "ク",
+                      "italic": false,
+                      "color": "gold",
+                      "bold": true
+                    },
+                    {
+                      "text": "ス",
+                      "italic": false,
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "エ",
+                      "italic": false,
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "リ",
+                      "italic": false,
+                      "color": "dark_aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "ク",
+                      "italic": false,
+                      "color": "blue",
+                      "bold": true
+                    },
+                    {
+                      "text": "サ",
+                      "italic": false,
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "ー",
+                      "italic": false,
+                      "color": "dark_purple",
+                      "bold": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "神秘の液体が詰まっている。",
+                    "italic": false,
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "中身に触れるとMPとHPが",
+                    "italic": false,
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "異常な速度で回復する。",
+                    "italic": false,
+                    "color": "dark_purple"
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 10,
+                      "duration": 3,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 3,
+                      "duration": 3,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": -127,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": -55,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

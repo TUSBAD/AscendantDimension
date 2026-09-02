@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "すぱいだつむり",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{Passengers:[0:{FallDistance:1.0f,Block:\"minecraft:chorus_flower\",Time:1,id:\"FallingSand\",DropItem:0b}],CustomName:\"スパイダつむり\",Health:40.0f,Attributes:[0:{Base:6.0d,Name:\"generic.attackDamage\"},1:{Base:40.0d,Name:\"generic.maxHealth\"},2:{Base:0.4d,Modifiers:[0:{UUIDMost:8144722948526719024L,UUIDLeast:-7778190119041365872L,Amount:-0.6000000238418579d,Operation:2,Name:\"effect.moveSlowdown 3\"}],Name:\"generic.movementSpeed\"}],DeathLootTable:\"usb:entities/table/mob3\",id:\"CaveSpider\",ActiveEffects:[0:{ShowParticles:1b,Duration:620,Id:2b,Amplifier:3b},1:{ShowParticles:1b,Duration:620,Id:11b,Amplifier:4b}],CustomNameVisible:1b}],Health:0.0f,DeathTime:19s,id:\"Villager\"},SpawnPotentials:[{Entity:{Passengers:[0:{Passengers:[0:{FallDistance:1.0f,Block:\"minecraft:chorus_flower\",Time:1,id:\"FallingSand\",DropItem:0b}],CustomName:\"スパイダつむり\",Health:40.0f,Attributes:[0:{Base:6.0d,Name:\"generic.attackDamage\"},1:{Base:40.0d,Name:\"generic.maxHealth\"},2:{Base:0.4d,Modifiers:[0:{UUIDMost:8144722948526719024L,UUIDLeast:-7778190119041365872L,Amount:-0.6000000238418579d,Operation:2,Name:\"effect.moveSlowdown 3\"}],Name:\"generic.movementSpeed\"}],DeathLootTable:\"usb:entities/table/mob3\",id:\"CaveSpider\",ActiveEffects:[0:{ShowParticles:1b,Duration:620,Id:2b,Amplifier:3b},1:{ShowParticles:1b,Duration:620,Id:11b,Amplifier:4b}],CustomNameVisible:1b}],Health:0.0f,DeathTime:19s,id:\"Villager\"},Weight:1}],     SpawnCount:1s,     SpawnRange:4s,     MaxNearbyEntities:6s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:200s,     MaxSpawnDelay:300s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "LastOutput": "{\"extra\":[{\"translate\":\"commands.summon.success\"}],\"text\":\"[21:32:36] \"}",
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

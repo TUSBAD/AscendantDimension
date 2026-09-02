@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ﾁｪｽﾄﾘｮｰｼｶ",
+                  "italic": false,
+                  "color": "gold",
+                  "underlined": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 13,
+                      "id": "chest",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "Items": [
+                            {
+                              "Slot": 11,
+                              "id": "chest",
+                              "Count": 1,
+                              "tag": {
+                                "BlockEntityTag": {
+                                  "Items": [],
+                                  "id": "Chest",
+                                  "Lock": ""
+                                },
+                                "display": {
+                                  "Lore": [
+                                    "(+NBT)"
+                                  ]
+                                }
+                              },
+                              "Damage": 0
+                            },
+                            {
+                              "Slot": 15,
+                              "id": "chest",
+                              "Count": 1,
+                              "tag": {
+                                "BlockEntityTag": {
+                                  "Items": [
+                                    {
+                                      "Slot": 11,
+                                      "id": "chest",
+                                      "Count": 1,
+                                      "tag": {
+                                        "BlockEntityTag": {
+                                          "Items": [],
+                                          "id": "Chest",
+                                          "Lock": ""
+                                        },
+                                        "display": {
+                                          "Lore": [
+                                            "(+NBT)"
+                                          ]
+                                        }
+                                      },
+                                      "Damage": 0
+                                    },
+                                    {
+                                      "Slot": 13,
+                                      "id": "chest",
+                                      "Count": 1,
+                                      "tag": {
+                                        "BlockEntityTag": {
+                                          "Items": [],
+                                          "id": "Chest",
+                                          "Lock": ""
+                                        },
+                                        "display": {
+                                          "Lore": [
+                                            "(+NBT)"
+                                          ]
+                                        }
+                                      },
+                                      "Damage": 0
+                                    },
+                                    {
+                                      "Slot": 15,
+                                      "id": "chest",
+                                      "Count": 1,
+                                      "tag": {
+                                        "BlockEntityTag": {
+                                          "Items": [
+                                            {
+                                              "Slot": 13,
+                                              "id": "skull",
+                                              "Count": 1,
+                                              "tag": {
+                                                "SkullOwner": {
+                                                  "Id": "73d4e068-3a6d-4c8b-8f85-3323546955c4",
+                                                  "Properties": {
+                                                    "textures": [
+                                                      {
+                                                        "Signature": "O3ioBL5NLmrpe/jDkT+A+FvJddEvArqt2uTf5xXtzRuorxYZNwtutooZ1eeQ9YaiNWGeMSxoJWEf4D+c50LyuSSC0Oi2qflJKQgx1/lbNCalvprMyJxnXr+JUzEfiELKhMiVmv2by14Jy0caz30tMEA+ms7FkkXBSRMPNWRqUetfCf5FsRZe7o4vy290hGx3vrDQD/8+OxKBEIZiyafjlGeywgPebCgJlecf3DxbTb+btqxWRCQmGTfXHy3Z55xfGdAHlIAPJ5kmkQK5oJmu+QgiCV1laOgZaI1S0Dppvynmr8HujjFj7FI+/U8FL1GmCQ6MKXllO1LxwuRfwunWAxxPJYH5Cdq+28EpjfYUcsEGjX6dduUd8MUIuy4KWBbWF7DI/9dX0aKzMGKJ/KlazXsLOsgeQ9LpvG1b/fjGvnL9Q8YDXyGqt+tb/0Fw8rpGTD2UXx7NfP2gQHZWjvnlwEZRpNw7x04FguAPKv08QST8GlB4fc6YeeeR1NHn7kd4bNpf41idjqdGosF/NmIkZiW4Ct4SN0C6aKM+1Mt5ne6EUFYa/b4U+Yd1irW1DAigQOopMVxE2UqwIgERL362jHvWSSnUs2jn9CcFsDXu/LOLaHuIlrIcgM51e+CqN1L1Ki8YdBGy7OkzH36ndbO0V7EmIKJEN+qUP9PzsbcGNjQ=",
+                                                        "Value": "eyJ0aW1lc3RhbXAiOjE0MTMwMjY1NjMxNTYsInByb2ZpbGVJZCI6IjczZDRlMDY4M2E2ZDRjOGI4Zjg1MzMyMzU0Njk1NWM0IiwicHJvZmlsZU5hbWUiOiJNSEZfQ2hlc3QiLCJpc1B1YmxpYyI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNjhkNTA5YjVkMTY2OWI5NzFkZDFkNGRmMmU0N2UxOWJjYjFiMzNiZjFhN2ZmMWRkYTI5YmZjNmY5ZWJmIn19fQ=="
+                                                      }
+                                                    ]
+                                                  },
+                                                  "Name": "MHF_Chest"
+                                                },
+                                                "display": {
+                                                  "Name": "ﾐﾆﾁｪｽﾄ"
+                                                }
+                                              },
+                                              "Damage": 3
+                                            }
+                                          ],
+                                          "id": "Chest",
+                                          "Lock": ""
+                                        },
+                                        "display": {
+                                          "Lore": [
+                                            "(+NBT)"
+                                          ]
+                                        }
+                                      },
+                                      "Damage": 0
+                                    }
+                                  ],
+                                  "id": "Chest",
+                                  "Lock": ""
+                                },
+                                "display": {
+                                  "Lore": [
+                                    "(+NBT)"
+                                  ]
+                                }
+                              },
+                              "Damage": 0
+                            }
+                          ],
+                          "id": "Chest",
+                          "Lock": ""
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ]
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

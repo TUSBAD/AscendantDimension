@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "積み上げの印板",
+                  "italic": false,
+                  "color": "gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "上空に向けて",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "砂利",
+                        "italic": false,
+                        "color": "gray"
+                      },
+                      {
+                        "text": "を設置する",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ﾜｰﾅﾝｶｽｺﾞｲ-",
+                        "italic": false,
+                        "color": "aqua"
+                      },
+                      {
+                        "text": "奴を召喚する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "ただし、代償として付近の者はハートを",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "３個減らされる。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000005d3a639f_000000005d3a639f",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect @a[r\\u003d10] 7 1 0 true\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.minecart.inside master @p[r\\u003d10] ~ ~ ~ 0.3 1.7 0\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"black\",\"text\":\"ﾂﾐｱｹﾞ\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon MinecartSpawner ~ ~2 ~ {CustomName:Garbage,CustomDisplayTile:true,DisplayTile:minecrft:beacon,DisplayData:0,DisplayOffset:14,MaxNearbyEntities:99s,RequiredPlayerRange:99s,Delay:0s,MaxSpawnDelay:1s,MinSpawnDelay:1s,SpawnCount:1s,SpawnRange:0s,EntityId:FallingSand,SpawnData:{Block:minecraft:gravel,Data:0b,Time:1b,HurtEntities:1b,FallHurtMax:20f,DropItem:false},Riding:{id:MinecartSpawner,CustomName:Garbage,CustomDisplayTile:true,DisplayTile:minecraft:enchanting_table,DisplayData:0,DisplayOffset:10,MaxNearbyEntities:99s,RequiredPlayerRange:99s,Delay:100s,MaxSpawnDelay:1s,MinSpawnDelay:1s,SpawnCount:1s,SpawnRange:0s,EntityId:FireworksRocketEntity,SpawnData:{CustomName:Collector,Life:1,LifeTime:2},Riding:{id:FireworksRocketEntity,Life:1,LifeTime:100,FireworksItem:{id:fireworks,Damage:0s,Count:1b,tag:{Fireworks:{Flight:0b,Explosions:[{Type:4b,Trail:true,Colors:[16777215],FadeColors:[0]},{Type:4b,Trail:true,Colors:[0],FadeColors:[16777215]}]}}},Riding:{id:FireworksRocketEntity,Life:1,LifeTime:1,FireworksItem:{id:fireworks,Damage:0s,Count:1b,tag:{Fireworks:{Flight:0b,Explosions:[{Type:4b,Trail:true,Colors:[16777215],FadeColors:[0]},{Type:4b,Trail:true,Colors:[0],FadeColors:[16777215]}]}}}}}}}\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

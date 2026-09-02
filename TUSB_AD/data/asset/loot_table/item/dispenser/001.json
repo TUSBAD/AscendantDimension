@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dispenser",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "DamageTrap",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "アドベンチャー用のトラップに使うもの。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "CustomName": "§4§lDamageTrap",
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:lingering_potion",
+                      "Count": 127,
+                      "tag": {
+                        "Potion": "minecraft:strong_harming"
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": "§r§4§lDamageTrap"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

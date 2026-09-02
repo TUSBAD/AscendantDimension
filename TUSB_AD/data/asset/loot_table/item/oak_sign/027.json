@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "アイテムまとめ",
+                      "italic": false,
+                      "color": "aqua"
+                    },
+                    {
+                      "text": "印板\"",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "text": "ﾊｲｴｰﾃﾙ",
+                      "italic": false,
+                      "color": "dark_aqua"
+                    },
+                    {
+                      "text": "\"",
+                      "italic": false,
+                      "color": "white"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたﾎﾟｰｼｮﾝがあった場合",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "そのｱｲﾃﾑをまとめる事が出来る印板。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "まとめ内容：ﾊｲｴｰﾃﾙ17個を16個にまとめる。",
+                    "italic": false,
+                    "color": "green"
+                  },
+                  {
+                    "text": "※看板が照屋な性格の為、近くに２人以上いると",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "恥ずかしがってまとめる事ができなくなります。",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "属性：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "永続型",
+                        "italic": false,
+                        "color": "dark_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @p[r\\u003d6,score_SignAffItems_min\\u003d17] ~ ~ ~ /summon ArmorStand ~ ~ ~ {Small:1b,NoBasePlate:1b,NoGravity:1b,Invisible:0b,DisabledSlots:2039326,Invulnerable:0b,Marker:0b,DeathTime:19s,Fire:2000s,Equipment:[{id:potion,Count:16b,Damage:8201s,tag:{CustomPotionEffects:[{ShowParticles:0b,Duration:10,Id:14b,Amplifier:2b}],HideFlags:32,display:{Lore:[§2マナがぽちょっと詰まった飲み物],Name:§3ハイエーテル}}},{},{},{},{}],Pose:{Head:[180f,0f,0f],LeftLeg:[176f,0f,0f],RightLeg:[176f,0f,0f],RightArm:[225f,5f,155f]},Attributes:[{Name:generic.maxHealth,Base:40d}],HealF:40f,DropChances:[1f,0f,0f,0f,0f],CustomNameVisible:1b,CustomName:§b§l§n右クリック.....で受け取り}\"},\"translate\":\"\\u003d-%1$s-\\u003d\",\"with\":[{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"16個まとめ\"}]}",
+                      "CommandStats": {
+                        "AffectedItemsObjective": "SignAffItems",
+                        "AffectedItemsName": "@a[r=6]"
+                      },
+                      "Text3": "{\"bold\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/clear @p[r\\u003d6,score_SignAffItems_min\\u003d17] minecraft:potion 8201 17 {CustomPotionEffects:[{ShowParticles:0b,Duration:10,Id:14b,Amplifier:2b}]}\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"bold\":true,\"color\":\"aqua\",\"text\":\"内容\"}]}",
+                      "Text2": "{\"bold\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/clear @p minecraft:potion 8201 0 {CustomPotionEffects:[{ShowParticles:0b,Duration:10,Id:14b,Amplifier:2b}]}\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"bold\":true,\"color\":\"aqua\",\"text\":\"まとめ\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/scoreboard players set @a[r\\u003d6] SignAffItems 0\"},\"translate\":\"\\u003d--%1$s--\\u003d\",\"with\":[{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"ﾊｲｴｰﾃﾙ17個\"}]}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

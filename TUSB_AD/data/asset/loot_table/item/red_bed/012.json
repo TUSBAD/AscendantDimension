@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_bed",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ファイナル弁当",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 9,
+                    "minecraft:sharpness": 9,
+                    "minecraft:efficiency": 9,
+                    "minecraft:fire_aspect": 9,
+                    "minecraft:smite": 9,
+                    "minecraft:bane_of_arthropods": 9
+                  }
+                },
+                "minecraft:repair_cost": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

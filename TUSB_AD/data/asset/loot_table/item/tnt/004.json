@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "反逆者撃退機能付き認証キー",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "R&D特製の完全完璧なドアの鍵。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "とてもスリリングな外見をしているが",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "市民もまた完全完璧であるため、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "取り扱いを誤るはずがない。",
+                    "italic": false,
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

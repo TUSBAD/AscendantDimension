@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "永久の盾",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "触れたものは永久に燃え続ける…。",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_aspect": 10000
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": []
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:base_color": "red",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "red"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "金剛の盾",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 3,
+                    "minecraft:knockback": 2,
+                    "minecraft:sharpness": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.08,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000002",
+                      "type": "minecraft:armor",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000003",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.08,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000004",
+                      "type": "minecraft:armor",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_middle",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_bottom",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:straight_cross",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "cyan"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:border",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "white"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

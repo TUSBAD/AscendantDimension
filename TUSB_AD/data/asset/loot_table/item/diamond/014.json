@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ダイヤモンドは砕けない",
+                  "italic": false,
+                  "color": "aqua",
+                  "underlined": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 100,
+                    "minecraft:knockback": 100,
+                    "minecraft:fire_aspect": 100
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:repair_cost": 256,
+                "minecraft:custom_data": {
+                  "Legacy": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

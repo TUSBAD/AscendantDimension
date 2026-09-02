@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ゾンビプリーストβ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[0:{ArmorDropChances:[0:0.0f,1:0.0f,2:0.0f,3:0.0f],Passengers:[0:{Particle:\"witchMagic\",Radius:3.0f,Duration:32767,id:\"AreaEffectCloud\",Effects:[0:{Duration:20,Id:7,Amplifier:5}]}],CustomName:\"ゾンビプリーストβ\",Health:1000.0f,ArmorItems:[0:{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:16777215}},Damage:0s},1:{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:16777215}},Damage:0s},2:{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:16777215}},Damage:0s},3:{id:\"minecraft:skull\",Count:1b,tag:{RepairCost:1000000000,SkullOwner:{Id:\"0-0-ca-0-4\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE0NTk0MzQ0OTAxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmFmZGRmODZkNTVkY2Y4ZWQ5MTY3MWI3MTlkMzkwZWU2YzZjNTY4NWNlNWIyM2NhZjJjYjlkOWUyN2NmOGYifX19\"}]}}},Damage:3s}],Attributes:[0:{Base:1000.0d,Name:\"generic.maxHealth\"}],HandDropChances:[0:0.0f,1:0.0f],id:\"Zombie\",HandItems:[0:{id:\"minecraft:carrot_on_a_stick\",Count:1b,tag:{ench:[0:{lvl:1s,id:200s}]},Damage:0s},1:{id:\"minecraft:book\",Count:1b,Damage:0s}]}],Health:0.0f,DeathTime:19s,Attributes:[0:{Base:0.0d,Name:\"generic.maxHealth\"}],Silent:1b,id:\"Villager\"},     SpawnCount:2s,     SpawnRange:6s,     MaxNearbyEntities:16s,     RequiredPlayerRange:16s,     Delay:-1s,     MinSpawnDelay:100s,     MaxSpawnDelay:800s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

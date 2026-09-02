@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "魚介スープ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "見た目がグロテスクなトカルトでは一般的なスープ",
+                    "italic": false
+                  },
+                  {
+                    "text": "体力が僅かに回復する",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:swiftness",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 0
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

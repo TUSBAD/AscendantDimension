@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ベーコン",
+                  "italic": false,
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "不思議な力で敵を寄せ付けないと",
+                    "italic": false,
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "言われている",
+                        "italic": false,
+                        "color": "dark_purple",
+                        "bold": true
+                      },
+                      {
+                        "text": "らしい",
+                        "italic": false,
+                        "color": "black"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "置くだけで体力回復、移動速度上昇、等の",
+                    "italic": false,
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "様々な効果を与える。",
+                    "italic": false,
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "置いたあとはそれなりの対価も貰います。",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000002_0000000000000001",
+                      "type": "minecraft:max_health",
+                      "amount": 6.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000002",
+                      "type": "minecraft:attack_damage",
+                      "amount": 4.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

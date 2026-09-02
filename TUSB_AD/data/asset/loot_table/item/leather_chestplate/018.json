@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "防寒具",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "極寒の地方を生き抜くために必要な防寒具",
+                    "italic": false
+                  },
+                  {
+                    "text": "他には大して意味はない",
+                    "italic": false
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 11053224
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "無理やりチェスト４方向",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "powered": 0,
+                          "CustomName": "@",
+                          "Command": "/clone -215 6 -16 -215 8 -16 ~ ~ ~",
+                          "id": "CommandBlock",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "チェストを無理やり置くコマブロ1"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "powered": 0,
+                          "CustomName": "@",
+                          "Command": "/clone -215 6 -13 -215 8 -13 ~ ~ ~",
+                          "id": "CommandBlock",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "チェストを無理やり置くコマブロ2"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "powered": 0,
+                          "CustomName": "@",
+                          "Command": "/clone -211 6 -13 -211 8 -13 ~ ~ ~",
+                          "id": "CommandBlock",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "チェストを無理やり置くコマブロ3"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "RepairCost": 1000000000,
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "powered": 0,
+                          "CustomName": "@",
+                          "Command": "/clone -211 6 -16 -211 8 -16 ~ ~ ~",
+                          "id": "CommandBlock",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "チェストを無理やり置くコマブロ4"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

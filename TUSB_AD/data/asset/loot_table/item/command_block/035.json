@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ダイエンジョウ",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.7d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Health:0.0f,id:\"Villager\",Passengers:[{CustomName:\"不発弾\",id:\"FireworksRocketEntity\",Life:2,LifeTime:30,Passengers:[{ActiveEffects:[{Amplifier:127b,Duration:2147483647,Id:14b},{Amplifier:127b,Duration:2147483647,Id:20b}],Attributes:[{Base:5.0d,Name:\"generic.maxHealth\"}],CustomName:\"ﾗﾝﾀﾞﾑﾑｰﾊﾞｰ\",Health:5.0f,id:\"Bat\",Passengers:[{AbsorptionAmount:80.0f,ActiveEffects:[{Amplifier:127b,Duration:2147483647,Id:14b},{Amplifier:-1b,Duration:2147483647,Id:25b},{Amplifier:0b,Duration:2147483647,Id:20b}],Attributes:[{Base:0.5d,Name:\"generic.knockbackResistance\"},{Base:80.0d,Name:\"generic.followRange\"}],CustomName:\"ﾅﾋﾞｹﾞｰﾄ\",DeathLootTable:\"empty\",id:\"LavaSlime\",Passengers:[{Attributes:[{Base:100.0d,Name:\"generic.maxHealth\"},{Base:1.0d,Name:\"generic.knockbackResistance\"},{Base:0.0d,Name:\"generic.followRange\"}],CustomName:\"ガストキャリアー\",ExplosionPower:0,Health:100.0f,id:\"Ghast\",Passengers:[{CustomDisplayTile:1b,CustomName:\"ダイエンジョウ\",DeathLootTable:\"empty\",Delay:-1s,DisplayData:0,DisplayOffset:8,DisplayTile:\"enchanting_table\",id:\"MinecartSpawner\",Invulnerable:1b,MaxNearbyEntities:99s,MaxSpawnDelay:1s,MinSpawnDelay:1s,RequiredPlayerRange:48s,SpawnCount:2s,SpawnPotentials:[{Weight:1,Entity:{Block:\"minecraft:fire\",Data:3b,DropItem:0b,FallDistance:0.0f,FallHurtAmount:40.0f,FallHurtMax:40,HurtEntities:1b,id:\"FallingSand\",Motion:[0.0d,-2.0d],Passengers:[{CustomName:\"フレイムフォールオーラ\",Duration:40,Effects:[],id:\"AreaEffectCloud\",Particle:\"flame\",Radius:0.3f,ReapplicationDelay:0},{CustomName:\"フレイムフォール\",Duration:30,Effects:[{Amplifier:127b,Duration:6,Id:12b},{Amplifier:0b,Duration:60,Id:15b},{Amplifier:2b,Duration:140,Id:19b}],id:\"AreaEffectCloud\",Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:14,Radius:1.0f,RadiusOnUse:0.0f,ReapplicationDelay:0},{id:\"ThrownEnderpearl\"}],Time:1}}],SpawnRange:5s},{CustomName:\"キャリアーオーラ\",Duration:80,Effects:[],id:\"AreaEffectCloud\",Particle:\"dripLava\",Radius:0.06f,RadiusOnUse:0.0f,ReapplicationDelay:0}],Silent:1b}],Silent:1b,Size:5}],Silent:1b}]}],Silent:1b}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

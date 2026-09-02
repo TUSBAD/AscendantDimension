@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "風車スケスケ",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],SpawnCount:2s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:200s,MaxSpawnDelay:200s,RequiredPlayerRange:15s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Silent:1b,NoAI:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Passengers:[{DeathLootTable:\"minecraft:entities/skeleton\",Health:40f,Attributes:[{Name:\"generic.maxHealth\",Base:40d}],HandItems:[{tag:{ench:[{id:19s,lvl:3s}]},id:\"minecraft:bow\",Count:1b,Damage:0s},{tag:{ench:[{id:19s,lvl:3s}]},id:\"minecraft:bow\",Count:1b,Damage:0s}],HandDropChances:[0f,0f],id:\"Skeleton\",Passengers:[{id:\"Skeleton\",DeathLootTable:\"minecraft:entities/wither_skeleton\",Health:40f,Attributes:[{Name:\"generic.maxHealth\",Base:40d}],HandItems:[{tag:{ench:[{id:19s,lvl:3s}]},id:\"minecraft:bow\",Count:1b,Damage:0s},{tag:{ench:[{id:19s,lvl:3s}]},id:\"minecraft:bow\",Count:1b,Damage:0s}],HandDropChances:[0f,0f],SkeletonType:1b,Passengers:[{Potion:{id:\"minecraft:lingering_potion\",Count:1,tag:{CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:100}]}},id:\"ThrownPotion\"}]},{Potion:{id:\"minecraft:lingering_potion\",Count:1b,tag:{CustomPotionEffects:[{Id:19b,Amplifier:0b,Duration:100}]}},id:\"ThrownPotion\"}]}]}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:beacon\",DisplayData:0,DisplayOffset:9,id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

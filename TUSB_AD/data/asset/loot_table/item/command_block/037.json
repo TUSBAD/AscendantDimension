@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "TNTカート",
+                  "italic": false,
+                  "color": "dark_red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],SpawnCount:3s,SpawnRange:5s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:100s,RequiredPlayerRange:10s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Silent:1b,NoAI:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Passengers:[{ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],id:\"Bat\",Passengers:[{id:\"MinecartSpawner\",SpawnCount:1s,SpawnRange:1s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:1s,MaxSpawnDelay:1s,RequiredPlayerRange:5s,SpawnPotentials:[{Weight:1,Entity:{Fuse:1,id:\"PrimedTnt\"}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:tnt\",DisplayData:0,DisplayOffset:-1}]}]}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:beacon\",DisplayData:0,DisplayOffset:9,id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

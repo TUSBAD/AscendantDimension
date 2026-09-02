@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "スイミングキャップ",
+                  "italic": false,
+                  "color": "blue",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "コレをかぶればスペランカーも",
+                    "italic": false,
+                    "color": "white",
+                    "bold": true
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "水",
+                        "italic": false,
+                        "color": "blue",
+                        "bold": true
+                      },
+                      {
+                        "text": "に入れる！",
+                        "italic": false,
+                        "color": "white",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "注意:有効化時にしか効果が付きません。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 120,
+                    "minecraft:protection": 4
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:custom_data": {
+                  "SpfiNK": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

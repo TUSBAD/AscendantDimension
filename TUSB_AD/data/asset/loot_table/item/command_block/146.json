@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "LOTO",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "loto up",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{Passengers:[{id:\"Bat\",CustomName:\"§a§lLOTO§a§l⇞⇞UPGRADED⇞⇞§r\",Tags:[\"SkillMob\",\"WarpOnly\",\"FloatingRequired\"],ArmorItems:[{},{},{id:iron_chestplate,Count:1},{}],ArmorDropChances:[0.085F,0.085F,0.0F,0.085F],Attributes:[{Name:generic.knockbackResistance,Base:1},{Name:generic.maxHealth,Base:900}],Health:900.0f,Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:20480,ShowParticles:0b}],Passengers:[{id:\"Zombie\",CustomName:\"Grumm\",IsVillager:1,VillagerProfession:5,ZombieType:6,IsBaby:1,ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1,tag:{SkullOwner:wat007}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.0F],Attributes:[{Name:generic.movementSpeed,Base:0.005},{Name:generic.attackDamage,Base:70},{Name:generic.knockbackResistance,Base:0.5},{Name:generic.maxHealth,Base:600}],Health:600.0f,Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:20480,ShowParticles:0b}],Passengers:[{id:\"MinecartSpawner\",CustomName:\"§a§lLOTO§a§l⇞⇞UPGRADED⇞⇞§r\",Tags:[\"FloatingRequired\"],Invulnerable:1,Glowing:1b,CustomDisplayTile:1,DisplayTile:redstone_ore,SpawnCount:1,SpawnRange:0,RequiredPlayerRange:40,Delay:5,MinSpawnDelay:1,MaxSpawnDelay:20,SpawnData:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:leather_chestplate,Count:1,tag:{ench:[{id:35,lvl:1}],display:{color:21806}}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§4§l道で倒れ込んでいる兵§r\",Particle:dripLava,Radius:0.5f,ReapplicantDelay:0,Radius:0.5f,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.006f,WaitTime:0,Effects:[{Id:11,Amplifier:127,Duration:0,ShowParticles:0b},{Id:3,Amplifier:127,Duration:0,ShowParticles:0b},{Id:22,Amplifier:127,Duration:0,ShowParticles:0b},{Id:7,Amplifier:2,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]},SpawnPotentials:[{Weight:1,Entity:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:leather_chestplate,Count:1,tag:{ench:[{id:35,lvl:1}],display:{color:21806}}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§7§lそれでも生の眼を明けている。§r\",Particle:dripLava,Radius:0.5f,ReapplicantDelay:20,Radius:0.5f,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.006f,WaitTime:0,Age:0,Age:5,Effects:[{Id:9,Amplifier:100,Duration:100,ShowParticles:0b},{Id:15,Amplifier:1,Duration:30,ShowParticles:0b},{Id:17,Amplifier:100,Duration:60,ShowParticles:0b},{Id:18,Amplifier:1,Duration:180,ShowParticles:0b},{Id:7,Amplifier:2,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]}},{Weight:1,Entity:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:stained_glass,Damage:7,Count:1,tag:{ench:[{id:35,lvl:1}]}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§4§l此の今、せめての義旗血汐に浸し。§r\",Particle:barrier,Radius:0.5f,ReapplicantDelay:20,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.0001f,WaitTime:0,Age:0,Age:5,Effects:[{Id:20,Amplifier:3,Duration:80,ShowParticles:0b},{Id:7,Amplifier:3,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]}},{Weight:1,Entity:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:potion,Count:1,tag:{Potion:\"minecraft:leaping\"}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§5§l『連れて行ってくれ』§r\",Particle:sweepAttack,Radius:0.5f,ReapplicantDelay:20,Radius:0.5f,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.006f,WaitTime:0,Age:0,Age:5,Effects:[{Id:19,Amplifier:3,Duration:160,ShowParticles:0b},{Id:4,Amplifier:10,Duration:140,ShowParticles:0b},{Id:7,Amplifier:1,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]}},{Weight:1,Entity:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:comparator,Count:1,tag:{ench:[{id:35,lvl:1}]}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§0§l自らが半死半生で足を運んでいるのだ。§r\",Particle:footstep,Radius:0.5f,ReapplicantDelay:20,Radius:0.5f,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.006f,WaitTime:0,Age:0,Age:5,Effects:[{Id:1,Amplifier:50,Duration:140,ShowParticles:0b},{Id:2,Amplifier:15,Duration:80,ShowParticles:0b},{Id:8,Amplifier:-9,Duration:140,ShowParticles:0b},{Id:7,Amplifier:2,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]}},{Weight:1,Entity:{id:\"XPOrb\",NoGravity:1b,Value:0,Passengers:[{id:\"Item\",Tags:[\"FloatingRequired\"],Item:{id:glowstone_dust,Count:1,tag:{ench:[{id:35,lvl:1}]}},Glowing:1b,PickupDelay:9999,Passengers:[{id:\"AreaEffectCloud\",CustomName:\"§f§l関係なき意識の下に生き、そして死んでいった。§r\",Particle:damageIndicator,Radius:0.5f,ReapplicantDelay:0,Radius:0.5f,RadiusOnUse:0f,DurationOnUse:0f,Duration:200,RadiusPerTick:0.006f,WaitTime:0,Age:0,Age:5,Effects:[{Id:12,Amplifier:127,Duration:0},{Id:16,Amplifier:127,Duration:0},{Id:7,Amplifier:1,Duration:1,ShowParticles:0b},{Id:24,Amplifier:99,Duration:1000,ShowParticles:0b}]}]}]}}],Passengers:[{id:\"ThrownPotion\",CustomName:\"§l§4§kロト-永遠の祝福を・孤独を・勇気を・死を§r\",Potion:{id:\"minecraft:splash_potion\",Count:1,tag:{CustomPotionEffects:[{Id:1,Amplifier:100,Duration:140,ShowParticles:0b},{Id:2,Amplifier:150,Duration:100,ShowParticles:0b},{Id:3,Amplifier:200,Duration:1,ShowParticles:0b},{Id:4,Amplifier:150,Duration:300,ShowParticles:0b},{Id:7,Amplifier:4,Duration:1,ShowParticles:0b},{Id:8,Amplifier:150,Duration:200,ShowParticles:0b},{Id:9,Amplifier:130,Duration:300,ShowParticles:0b},{Id:21,Amplifier:4,Duration:1,ShowParticles:0b},{Id:12,Amplifier:200,Duration:1,ShowParticles:0b},{Id:15,Amplifier:150,Duration:200,ShowParticles:0b},{Id:17,Amplifier:150,Duration:200,ShowParticles:0b},{Id:18,Amplifier:150,Duration:140,ShowParticles:0b},{Id:20,Amplifier:3,Duration:200,ShowParticles:0b},{Id:24,Amplifier:1,Duration:7200,ShowParticles:0b},{Id:25,Amplifier:-50,Duration:200,ShowParticles:0b}]}}}]}]}]}],id:\"XPOrb\",Age:6000s},     SpawnCount:1s,     SpawnRange:8s,     MaxNearbyEntities:16s,     RequiredPlayerRange:32s,     Delay:-1s,     MinSpawnDelay:1200s,     MaxSpawnDelay:1800s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

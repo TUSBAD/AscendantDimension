@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "環",
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:knockback": 5,
+                    "minecraft:looting": 2,
+                    "minecraft:sharpness": 5
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000000001_0000000000000001",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.04,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Patterns": [
+                    {
+                      "Pattern": "cbo",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "bts",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "tts",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "mr",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "mc",
+                      "Color": 4
+                    },
+                    {
+                      "Pattern": "flo",
+                      "Color": 15
+                    },
+                    {
+                      "Pattern": "mc",
+                      "Color": 0
+                    }
+                  ],
+                  "Base": 8,
+                  "id": "minecraft:banner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

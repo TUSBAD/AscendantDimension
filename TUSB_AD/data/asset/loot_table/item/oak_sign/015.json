@@ -1,0 +1,134 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "ﾋｰﾙ",
+                      "italic": false,
+                      "color": "red"
+                    },
+                    {
+                      "text": "ｽﾗｲﾑの印板",
+                      "italic": false,
+                      "color": "green"
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "使用すると、",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "回復ﾎﾟｰｼｮﾝ",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "を",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "周囲にばらまきながら追尾する",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "無害なｽﾗｲﾑを召喚する。",
+                    "italic": false,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "気まぐれな性格",
+                        "italic": false,
+                        "color": "light_purple"
+                      },
+                      {
+                        "text": "で",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "回復ﾎﾟｰｼｮﾝ",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "を",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "落とす時間にはばらつきがある。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★★★",
+                        "italic": false,
+                        "color": "light_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.endermen.stare master @p ~ ~ ~ 1 2 0\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon FireworksRocketEntity ~ ~ ~ {Life:2,LifeTime:3,FireworksItem:{id:minecraft:fireworks,Damage:0,tag:{Fireworks:{Flight:0,Explosions:[{Flicker:1,Trail:1,Type:2,Colors:[16777215],FadeColors:[65280]},{Flicker:1,Type:4,Colors:[16384],FadeColors:[32768]}]}}},Riding:{id:MinecartSpawner,CustomName:\\\"Garbage\\\",CustomDisplayTile:1,DisplayTile:minecraft:double_plant,DisplayData:5,DisplayOffset:12,SpawnCount:1,SpawnRange:0,MaxNearbyEntities:2,Delay:-1,MaxSpawnDelay:30,MinSpawnDelay:1,RequiredPlayerRange:16,SpawnPotentials:[{Type:ThrownPotion,Weight:35,Properties:{id:ThrownPotion,Potion:{id:minecraft:potion,Damage:16388,tag:{CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:60}]}}}},{Type:ThrownPotion,Weight:1,Properties:{id:ThrownPotion,Potion:{id:minecraft:potion,Damage:16388s,Count:1b,tag:{CustomPotionEffects:[{Id:11b,Amplifier:10b,Duration:80},{Id:20b,Amplifier:5b,Duration:100},{Id:11b,Amplifier:6b,Duration:10}]}},Riding:{id:FireworksRocketEntity,CustomName:\\\"Collector\\\",Life:2,LifeTime:8,FireworksItem:{id:minecraft:fireworks,Damage:0,tag:{Fireworks:{Flight:0,Explosions:[{Flicker:1,Type:0,Colors:[65280],FadeColors:[32768]},{Flicker:1,Trail:1,Type:2,Colors:[13303754],FadeColors:[32768]}]}}}}}}],Riding:{id:Slime,CustomName:\\\"Friendly\\\",Size:0,HealF:1.0f,Attributes:[{Name:generic.maxHealth,Base:1.0},{Name:generic.followRange,Base:32}],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:9999,Ambient:false,ShowParticles:false}]}}}\"},\"translate\":\"\\u003d--%1$s--\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"black\",\"text\":\"医療用\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle fireworksSpark ~ ~ ~ 7 7 7 0.5 3000 normal\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

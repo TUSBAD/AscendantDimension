@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "亜空間移動装置",
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "R&D社が開発した直進距離なら",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "「奈落があろうがなんだろうが」使用者は安全第一で",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "壁がまで一瞬で目的地に向かう事ができる",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "羽のような形をした空間操作を行える装置です。",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "事故の事例は一件も報告されていません！",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "速い！ 安い！ 飯がうまい！",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "実に幸福なアイテムです。",
+                    "italic": true,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "※尚、当社は、当製品を扱った時点で",
+                    "italic": true,
+                    "color": "black"
+                  },
+                  {
+                    "text": "使用者の同意とみなし生死有無に関する",
+                    "italic": true,
+                    "color": "black"
+                  },
+                  {
+                    "text": "一切責任を負わないものとします。",
+                    "italic": true,
+                    "color": "black"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10,
+                    "minecraft:thorns": 100,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_37905dba96c2e130_a2d2dfcd2c752e41",
+                      "type": "minecraft:max_health",
+                      "amount": -100.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_7eb3d428ca3db930_ff93d95746e503b3",
+                      "type": "minecraft:movement_speed",
+                      "amount": 50.0,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

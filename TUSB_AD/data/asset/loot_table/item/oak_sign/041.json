@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Table Old",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.enderdragon.hurt master @a ~ ~ ~ 10 1.9 1\"},\"text\":\"\"}",
+                  "Text3": "{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @p[r\\u003d5] ~ ~ ~ particle spell ~ ~ ~ 0.01 1 0.01 0.05 700 force\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                  "Text2": "{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle spell -90 15 54 0.01 1 0.01 0.05 700 force\"},\"translate\":\"\\u003d----%1$s----\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"dark_purple\",\"text\":\"帰還\"}]}",
+                  "id": "minecraft:sign",
+                  "Text1": "{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p[r\\u003d5] -92 131 108\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

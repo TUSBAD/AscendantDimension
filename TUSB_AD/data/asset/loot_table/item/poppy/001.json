@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "高嶺の花",
+                  "italic": false,
+                  "color": "gray",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false
+                  },
+                  {
+                    "text": "全ての生き物が羨むほど美しく",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "これを巡って幾度となく戦いが起き",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "数えるのが億劫な程の人が血の海に沈んでいった。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "しかし一度手に入れてしまえば",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "その花がただの美しい花であることがわからない者は居ない。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "それ故、手に持った者は例外なく無気力になるという。",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "今では争いが起きぬ様、AlgaeDareが管理している。",
+                    "italic": false,
+                    "color": "gray",
+                    "bold": true
+                  }
+                ],
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000ccbc1_000000000001995b",
+                      "type": "minecraft:max_health",
+                      "amount": -10.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000dee6d_00000000000063ad",
+                      "type": "minecraft:follow_range",
+                      "amount": 500.0,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000002d0ae_00000000000c454b",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": 0.3,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003d5fc_0000000000072d0e",
+                      "type": "minecraft:movement_speed",
+                      "amount": -0.25,
+                      "operation": "add_multiplied_total",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_000000000003b5b3_0000000000006ddc",
+                      "type": "minecraft:attack_damage",
+                      "amount": 3.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000363f5_0000000000065216",
+                      "type": "minecraft:attack_speed",
+                      "amount": -0.75,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    }
+                  ]
+                },
+                "minecraft:repair_cost": 1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

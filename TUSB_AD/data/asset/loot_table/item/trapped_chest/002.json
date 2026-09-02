@@ -1,0 +1,808 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trapped_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "のむポーション",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 800,
+                            "Id": 9,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 800,
+                            "Id": 15,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 800,
+                            "Id": 10,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 800,
+                            "Id": 5,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 800,
+                            "Id": 3,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§d§o酷い吐き気に襲われるお酒。",
+                            "§e§o酔拳をマスターしたい人用。"
+                          ],
+                          "Name": "§bスピリタス"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 10,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 11,
+                            "Amplifier": 4
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 2,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 8,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 4,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 5,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§2§o即効性の§4§m飲める劇§2§o薬。",
+                            "§2§o10秒間肉体を再生・活性化させ、",
+                            "§2§o痛みを感じなくさせる。",
+                            "§2§oただし、15秒間行動出来ない。",
+                            "§6§l宣伝：§e§lバリキドリンクで！",
+                            "§6§l宣伝：§e§l今夜もパーティ！パーティー！",
+                            "§0§lﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ"
+                          ],
+                          "Name": "§e§lバリキドリンク"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 0,
+                            "Duration": 1,
+                            "Id": 6,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§6心が温まるスープ。",
+                            "§6飲むとHPが回復する。"
+                          ],
+                          "Name": "§e§lコーンスープ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1,
+                            "Id": 6,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§r§7一日65mlを目安にお召し上がりになる",
+                            "§r§7と効果的です。"
+                          ],
+                          "Name": "§r§6ピルクル(500ml)"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 16,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 9,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3§oコレを飲んだものは目がさえ",
+                            "§3§o何となく足が早くなる感覚に陥る。"
+                          ],
+                          "Name": "§b深夜のテンション"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 13,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 8,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 17,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3§o飲むと水中で呼吸する事が出来、",
+                            "§3§o速度及びジャンプ力が上昇するが、",
+                            "§3§o欠点として空腹になる。"
+                          ],
+                          "Name": "§b魚のキモチ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 8,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 10,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "HideFlag": 0,
+                        "display": {
+                          "Lore": [
+                            "§6§o飲み薬。これを飲んだ者は、",
+                            "§6§o跳躍力と速度が上がり、",
+                            "§6§o傷の直りが早くなる体に生まれ変わる。"
+                          ],
+                          "Name": "§e黄金蜂蜜酒"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 23,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 9,
+                            "Amplifier": 10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 700,
+                            "Id": 18,
+                            "Amplifier": 100
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 700,
+                            "Id": 18,
+                            "Amplifier": -100
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§e§o飲むと満腹になるが",
+                            "§e§oしばらくの間弱体化する"
+                          ],
+                          "Name": "ガソリン"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 9,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 5,
+                            "Amplifier": 14
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 5,
+                            "Amplifier": -14
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 10,
+                            "Id": 7,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 10,
+                            "Id": 7,
+                            "Amplifier": -3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 17,
+                            "Amplifier": 49
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 17,
+                            "Amplifier": -49
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 9,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 15,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 16,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 5,
+                            "Amplifier": -100
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§4曰くつきの紅い増強剤。",
+                            "§4服用すると、常人の体力では即倒してしまう程の",
+                            "§4痛みと渇きが襲い、死に至るとされている。",
+                            "§4もしこの名状しがたい劇物に飲み込まれなければ",
+                            "§4数秒ではあるが§e§l怪力§4を得るだろうと推測されている。"
+                          ],
+                          "Name": "§4§l- ﾚｯﾄﾞﾄﾞﾗｺﾞﾝ -"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 10,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 3,
+                            "Amplifier": 14
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 300,
+                            "Id": 3,
+                            "Amplifier": -14
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 10,
+                            "Id": 7,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 17,
+                            "Amplifier": 49
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 17,
+                            "Amplifier": -49
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 9,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 15,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 16,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 12,
+                            "Amplifier": -100
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§e曰くつきの黄色い増強剤。",
+                            "§e服用すると、常人の体力では即倒してしまう程の",
+                            "§e痛みと渇きが襲い、死に至るとされている。",
+                            "§eもしこの名状しがたい薬に飲み込まれなければ",
+                            "§e数秒ではあるが§e§l壊力§eを得るだろうと推測されている。"
+                          ],
+                          "Name": "§e§l- ｲｴﾛｰﾃﾞﾋﾞﾙ -"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 11,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1800,
+                            "Id": 16,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1800,
+                            "Id": 4,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1800,
+                            "Id": 18,
+                            "Amplifier": 3
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 600,
+                            "Id": 8,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 600,
+                            "Id": 19,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§1§o容量用法を守って正しくお使いください。"
+                          ],
+                          "Name": "§3眠くならない薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 12,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 11,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 12,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 15,
+                            "Amplifier": 4
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 400,
+                            "Id": 2,
+                            "Amplifier": 4
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§8§o飲むと体が硬化して",
+                            "§8§o防御力が上がり、炎にも強くなるが、",
+                            "§8§o足が遅くなり、目も見えにくくなる。"
+                          ],
+                          "Name": "§f鋼鉄のポーション"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 13,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 18,
+                            "Amplifier": 5
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 4,
+                            "Amplifier": 5
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 140,
+                            "Id": 9,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 50,
+                            "Id": 10,
+                            "Amplifier": 2
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§7その辺の草から成分を採取し、",
+                            "§7薬として配合したもの。",
+                            "§7まずい、にがい、効能低し！",
+                            "§7最低ラインの回復効果を",
+                            "§7持っている以外は薬として怪しい。"
+                          ],
+                          "Name": "§2§l苦汁"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 24,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 1,
+                            "Amplifier": 16
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 200,
+                            "Id": 9,
+                            "Amplifier": 0
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 16,
+                            "Amplifier": 1
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1200,
+                            "Id": 22,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "display": {
+                          "Lore": [
+                            "§3氷土にて多大な功績を残した探検家が",
+                            "§3先住民により教わった特殊なレシピを",
+                            "§3使用して作った薬。",
+                            "§3ハイになれる。"
+                          ],
+                          "Name": "§r§6ヴァイキングの秘薬"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 25,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 100,
+                            "Id": 2,
+                            "Amplifier": 6
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1,
+                            "Id": 23,
+                            "Amplifier": 1
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:empty",
+                        "display": {
+                          "Name": "§8§lイカスミ§r"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 26,
+                      "id": "minecraft:potion",
+                      "Count": 1,
+                      "tag": {
+                        "CustomPotionEffects": [
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 5,
+                            "Id": 19,
+                            "Amplifier": 99
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 120,
+                            "Id": 9,
+                            "Amplifier": 99
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 120,
+                            "Id": 9,
+                            "Amplifier": -99
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 1,
+                            "Id": 23,
+                            "Amplifier": 2
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 120,
+                            "Id": 8,
+                            "Amplifier": -10
+                          },
+                          {
+                            "ShowParticles": 1,
+                            "Duration": 0,
+                            "Id": 26,
+                            "Amplifier": 0
+                          }
+                        ],
+                        "HideFlags": 32,
+                        "Potion": "minecraft:empty",
+                        "display": {
+                          "Lore": [
+                            "§e飲むと§2毒状態等§eになるが、",
+                            "§a体内の毒§eを中和し、",
+                            "§eわずかに§c腹が満たされる",
+                            "§eケンコー飲料である。",
+                            "§7尚、味は薄い。"
+                          ],
+                          "Name": "§2§lドクダヨ茶"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

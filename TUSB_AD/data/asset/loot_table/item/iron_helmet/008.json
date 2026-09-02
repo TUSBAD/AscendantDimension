@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 10,
+                    "minecraft:fire_protection": 10,
+                    "minecraft:feather_falling": 10,
+                    "minecraft:blast_protection": 10,
+                    "minecraft:projectile_protection": 10
+                  }
+                },
+                "minecraft:repair_cost": -1000000000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

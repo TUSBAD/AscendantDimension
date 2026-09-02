@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_bed",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "弁当",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3,
+                    "minecraft:knockback": 3,
+                    "minecraft:looting": 3,
+                    "minecraft:flame": 3,
+                    "minecraft:fire_protection": 3
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

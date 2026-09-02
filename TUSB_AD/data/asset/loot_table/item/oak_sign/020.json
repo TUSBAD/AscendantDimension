@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "照明弾の印板",
+                  "italic": false,
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "設置後クリックすると、半径60ﾌﾞﾛｯｸに",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "照明弾を撃ち上げ、その後落下地点に",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "松明",
+                        "italic": false,
+                        "color": "gold",
+                        "bold": true
+                      },
+                      {
+                        "text": "を設置する。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "弾に当たらないよう",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "注意",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000b27b658_000000000b27b658",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~ ~ minecraft:air\"},\"text\":\"\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @a[r\\u003d60] ~ ~ ~ /playsound entity.player.levelup master @a[c\\u003d1] ~ ~ ~ 10 0.8 10\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle flame ~ ~ ~ 0.5 0.5 0.5 0.2 1000 normal\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"gold\",\"text\":\"照\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon MinecartSpawner ~ ~1 ~ {CustomName:Garbage,CustomDisplayTile:true,DisplayTile:minecraft:beacon,DisplayData:0,DisplayOffset:14,MaxNearbyEntities:99s,RequiredPlayerRange:99s,MaxSpawnDelay:32000s,MinSpawnDelay:32000s,Delay:0s,SpawnCount:1s,SpawnRange:0s,EntityId:FireworksRocketEntity,SpawnData:{CustomName:\\\"Collector\\\",Life:1,LifeTime:2},Riding:{CustomName:Garbage,id:MinecartSpawner,CustomDisplayTile:true,DisplayTile:minecraft:beacon,DisplayData:0,DisplayOffset:16,MaxNearbyEntities:99s,RequiredPlayerRange:99s,MaxSpawnDelay:32000s,MinSpawnDelay:32000s,Delay:0s,SpawnCount:45s,SpawnRange:60s,EntityId:FallingSand,SpawnData:{Block:minecraft:torch,Data:0b,Time:1b,HurtEntities:true,FallHurtMax:300f,FallDistance:300f,DropItem:false,Riding:{id:FireworksRocketEntity,Life:0,LifeTime:30,FireworksItem:{id:fireworks,Damage:0s,Count:1b,tag:{Fireworks:{Flight:0b,Explosions:[{Type:2b,Flicker:true,Colors:[16777215],FadeColors:[16776960]}]}}}}}},SpawnPotentials:[{Weight:1}]}\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

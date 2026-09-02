@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "アイテム全滅の印板",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "半径15m以内のアイテムを",
+                    "italic": false,
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "全て",
+                        "italic": false,
+                        "color": "dark_green"
+                      },
+                      {
+                        "text": "削除",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "する。",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:can_place_on": {
+                  "predicates": [
+                    {
+                      "blocks": "minecraft:redstone_block"
+                    }
+                  ]
+                },
+                "minecraft:entity_data": {
+                  "Tags": [
+                    "SignStand",
+                    "ItemClean",
+                    "TypeChecked",
+                    "PermanentStand"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "Invisible": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

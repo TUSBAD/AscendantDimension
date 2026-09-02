@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "このレシピがすごい！ 簡単作業台ガイド ②",
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "誰でも簡単に作れる、",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      },
+                      {
+                        "text": "中級者",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true,
+                        "underlined": true
+                      },
+                      {
+                        "text": "向けの",
+                        "italic": false,
+                        "color": "dark_aqua",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  {
+                    "text": "クラフトガイド本第二弾!!",
+                    "italic": false,
+                    "color": "dark_aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "今話題の防水防塵仕様になっておりどこでも読めます！",
+                    "italic": false,
+                    "color": "dark_aqua",
+                    "bold": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "generation": 3,
+                  "pages": [
+                    "{\"extra\":[{\"bold\":true,\"color\":\"dark_green\",\"text\":\"⬢ ドカン\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"エストレーヤ・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ファイナル弁当・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"blue\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"水入りバケツ・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"blue\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"aqua\",\"text\":\"⬢ ｼｰｹﾝｽｸﾘｴｲﾀｰ\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"木のツルハシ・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_purple\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"ムラサキカガミ・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n⬧ 作り方\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"dark_purple\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"dark_purple\",\"text\":\"█\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"dark_purple\",\"text\":\"█\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"dark_purple\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"gray\",\"text\":\"⬢ 不思議なノート\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"本と羽根ペン\"},{\"color\":\"dark_gray\",\"text\":\"・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"ドニ\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"black\",\"text\":\"█無\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"死んだライオン・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"冷凍銃・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"white\",\"text\":\"         █\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"black\",\"text\":\"         █\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"white\",\"text\":\"         █\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"blue\",\"text\":\"⬢ シーグリード\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"骨\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"棒\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"レバー\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"糸\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"生の羊肉・・・・・・1\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"white\",\"text\":\"██\"},{\"color\":\"gold\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"dark_gray\",\"text\":\"█\"},{\"color\":\"white\",\"text\":\"█\"},{\"color\":\"red\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"⬢ イザナギオブジェクト\"},{\"bold\":true,\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"text\":\"                     \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"ネザー水晶\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・16\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"モノホシザオ・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"aqua\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"ガストの涙\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"dark_gray\",\"text\":\"マグマクリーム・・・1\\n\\n\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"aqua\",\"text\":\"██\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"aqua\",\"text\":\"██\"},{\"color\":\"dark_green\",\"text\":\"█\"}],\"text\":\"\"}",
+                    "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"text\":\"⬢ ﾄﾜｲﾗｲﾄﾌｫﾚｽﾄ\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"bold\":true,\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_blue\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"棘松\"},{\"color\":\"dark_gray\",\"text\":\"・・・・・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"オークの苗木\"},{\"color\":\"dark_gray\",\"text\":\"・・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"シラカバの苗木\"},{\"color\":\"dark_gray\",\"text\":\"・・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"ジャングルの苗木\"},{\"color\":\"dark_gray\",\"text\":\"・・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"ダークオークの苗木\"},{\"color\":\"dark_gray\",\"text\":\"・1\"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"green\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"サトウキビ・・・・・1\\n\"},{\"bold\":true,\"strikethrough\":true,\"text\":\"                      \"},{\"color\":\"reset\",\"text\":\"\\n\"},{\"color\":\"dark_gray\",\"text\":\"⬧ 作り方\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"green\",\"text\":\"█\"},{\"color\":\"dark_aqua\",\"text\":\"█\"},{\"color\":\"green\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"dark_green\",\"text\":\"█\"},{\"color\":\"dark_blue\",\"text\":\"█\"},{\"color\":\"dark_red\",\"text\":\"█\"},{\"color\":\"reset\",\"text\":\"\\n         \"},{\"color\":\"green\",\"text\":\"█\"},{\"color\":\"gray\",\"text\":\"█\"},{\"color\":\"green\",\"text\":\"█\"}],\"text\":\"\"}"
+                  ],
+                  "author": "クラフター・モート",
+                  "title": "このレシピがすごい！簡単作業台ガイド その2",
+                  "resolved": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

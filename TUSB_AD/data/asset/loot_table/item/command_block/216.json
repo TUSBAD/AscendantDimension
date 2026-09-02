@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "戦略爆撃機",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {NoGravity:1b,HurtByTimestamp:0,Attributes:[0:{Base:20.0d,Name:\"generic.maxHealth\"},1:{Base:0.0d,Name:\"generic.knockbackResistance\"},2:{Base:0.699999988079d,Name:\"generic.movementSpeed\"},3:{Base:0.0d,Name:\"generic.armor\"},4:{Base:0.0d,Name:\"generic.armorToughness\"}],Invulnerable:1b,FallFlying:0b,ShowArms:0b,PortalCooldown:0,AbsorptionAmount:0.0f,FallDistance:0.0f,DisabledSlots:0,DeathTime:0s,Pose:{},Invisible:1b,Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"Spawner\"],Small:1b,Health:20.0f,Air:300s,OnGround:0b,Marker:1b,Rotation:[0:0.0f,1:0.0f],NoBasePlate:1b,HurtTime:0s,Fire:0s,Passengers:[0:{CustomDisplayTile:1b,Invulnerable:1b,PortalCooldown:0,FallDistance:0.0f,id:\"MinecartSpawner\",Tags:[0:\"TypeChecked\",1:\"SystemEntity\",2:\"SpawnerCore\",3:\"Spawner\"],DisplayTile:\"minecraft:chorus_plant\",Air:0s,OnGround:1b,Dimension:0,Rotation:[0:0.0f,1:0.0f],DisplayOffset:12,Fire:-1s,DisplayData:0,SpawnData:{id:\"Villager\",Profession:0,DeathTime:19s,Health:0.0f,Passengers:[{id:\"LavaSlime\",Size:2,Tags:[TypeChecked,CooldownRequiredLong],PortalCooldown:160,Attributes:[{Name:generic.maxHealth,Base:10d},{Name:generic.movementSpeed,Base:2d},{Name:generic.followRange,Base:99d}],Health:10.0f,Silent:1,ActiveEffects:[{Id:14b,Amplifier:255b,Duration:1200000,ShowParticles:0b},{Id:25b,Amplifier:12b,Duration:100,ShowParticles:0b}],Passengers:[{id:\"Ghast\",CustomName:\"B-2 スピリット\",CustomNameVisible:1b,Tags:[CooldownRequiredLong],PortalCooldown:1800,ExplosionPower:5,Team:\"boss\",ArmorItems:[{},{},{},{id:iron_helmet,Count:0b,tag:{display:{Name:\"星条旗\"},ench:[{id:0s,lvl:20s},{id:7s,lvl:20s}]}}],Attributes:[{Name:generic.maxHealth,Base:700d},{Name:generic.followRange,Base:99d}],Health:700.0f,PersistenceRequired:1b,Glowing:1b,Passengers:[{id:\"MinecartSpawner\",CustomName:\"戦略爆撃機\",CustomNameVisible:1b,Tags:[\"A\"],Invulnerable:1b,SpawnData:{id:\"MinecartTNT\",CustomName:\"正義の雨\",CustomNameVisible:1b,TNTFuse:-1},SpawnCount:5s,SpawnRange:20s,RequiredPlayerRange:99s,MinSpawnDelay:60s,MaxSpawnDelay:60s,MaxNearbyEntities:999s}]}]}]},SpawnCount:1s,SpawnRange:20s,RequiredPlayerRange:50s,Delay:100s,MinSpawnDelay:6000s,MaxSpawnDelay:6000s,MaxNearbyEntities:999s}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

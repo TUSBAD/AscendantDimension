@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "初期upper",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:repair_cost": 0,
+                "minecraft:block_entity_data": {
+                  "conditionMet": 1,
+                  "auto": 0,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],SpawnCount:4s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:200s,MaxSpawnDelay:800s,RequiredPlayerRange:40s,SpawnPotentials:[{Weight:1,Entity:{id:\"XPOrb\",Age:6000s,Pos:[0:0d,1:6d,2:2d],Passengers:[{id:\"Creeper\",CustomName:\"upper creeper\",CustomNameVisible:1b,ExplosionRadius:5,PersistenceRequired:1b,ArmorItems:[{},{},{},{id:iron_helmet,Count:0b}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],Attributes:[{Name:generic.maxHealth,Base:40d},{Name:generic.movementSpeed,Base:0.4d},{Name:generic.knockbackResistance,Base:1.0d}],Health:40.0f,Passengers:[{id:\"FallingSand\",CustomName:\"upper creeper\",CustomNameVisible:1b,Time:1,Tags:[\"TypeChecked\"],Block:command_block,Data:0,TileEntityData:{Command:summon FallingSand ~ ~1 ~ {Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:fill ~ ~ ~ ~ ~12 ~ air,auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:summon FallingSand ~ ~1 ~ {Block:command_block,Data:1,Time:1,DropItem:0,TileEntityData:{Command:summon FallingSand ~ ~-1 ~ {Block:chain_command_block,Time:1,DropItem:0,TileEntityData:{Command:setblock ~ ~1 ~ air,auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:setblock ~ ~-2 ~ command_block 0 replace {Command:nyall},auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:/tellraw @a[r=16] [{\"text\":\"* コマンドクリーパー は爆発した！\"}],auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:/tp @a[r=16] ~ ~20 ~,auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:/title @a[r=16] title {\"text\":\"どこかにワープした！\"},auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:/title @a[r=16] subtitle {\"text\":\"/tp @a[r=16] ~ ~20 ~\"},auto:1},Passengers:[{id:FallingSand,Block:command_block,Time:1,DropItem:0,TileEntityData:{Command:fill ~ ~ ~ ~ ~-2 ~ air,auto:1}}]}]}]}]}]}]}},Passengers:[{id:FallingSand,Block:chain_command_block,Data:9,Time:1,DropItem:0,TileEntityData:{Command:fill ~ ~2 ~ ~ ~-2 ~ air,auto:1},Passengers:[{id:FallingSand,Block:chain_command_block,Data:1,Time:1,DropItem:0,TileEntityData:{Command:fill ~ ~1 ~ ~ ~-4 ~ air,auto:1},Passengers:[{id:FallingSand,Block:command_block,Data:1,Time:1,DropItem:0,TileEntityData:{Command:blockdata ~ ~-3 ~ {auto:1},auto:1}}]}]}]},auto:1}}]},auto:1},Time:-2147483376,DropItem:0}]}]}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:beacon\",DisplayData:0,DisplayOffset:9,id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 1,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

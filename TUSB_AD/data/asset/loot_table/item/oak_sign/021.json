@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sign",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "宿の印板",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "豪華なテントが出現する。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "内装はベットやかまど、作業台に、",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "Lチェストも２セット付いてくる。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "テントの中の看板をクリックすると",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "季節に合わせた色変更が出来る。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "※平らで十分な空間がないと設置されない。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "※",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "ネザー",
+                        "italic": false,
+                        "color": "red"
+                      },
+                      {
+                        "text": "や",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "エンド",
+                        "italic": false,
+                        "color": "dark_purple"
+                      },
+                      {
+                        "text": "では設置されない。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "レアリティ：",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "★☆☆",
+                        "italic": false,
+                        "color": "dark_green"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": -10
+                  },
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_000000000b27b658_000000000b27b658",
+                      "type": "minecraft:attack_damage",
+                      "amount": -1.0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "_migration_unconverted": {
+                    "BlockEntityTag": {
+                      "Text4": "{\"text\":\"{text:,clickEvent:{action:run_command,value:\\\"/blockdata ~ ~ ~ {Text1:\\\\\\\"{text:\\\\\\\\\\\\\\\"十分な空間がなく\\\\\\\\\\\\\\\",color:dark_green,bold:true}\\\\\\\",Text2:\\\\\\\"{text:\\\\\\\\\\\\\\\"テントは\\\\\\\\\\\\\\\",color:dark_green,bold:true,clickEvent:{action:run_command,value:\\\\\\\\\\\\\\\"/setblock ~ ~ ~ minecraft:air\\\\\\\\\\\\\\\"}}\\\\\\\",Text3:\\\\\\\"{text:\\\\\\\\\\\\\\\"広げられなかった\\\\\\\\\\\\\\\",color:dark_green,bold:true}\\\\\\\",Text4:\\\\\\\"\\\\\\\"}\\\"}}\"}",
+                      "Text3": "{\"bold\":true,\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @e[type\\u003dFallingSand,name\\u003dTentCenter,c\\u003d1] ~ ~ ~ detect ~-3 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~ ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~1 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-3 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~3 ~2 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-2 ~3 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~3 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~3 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~3 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~2 ~3 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~-1 ~4 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~ ~4 ~3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~-3 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~-2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~-1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~ air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~1 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~2 air 0 /execute @e[c\\u003d1] ~ ~ ~ detect ~1 ~4 ~3 air 0 /clone -1913 11 -192 -1907 15 -186 ~-3 ~ ~-3 masked\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}",
+                      "Text2": "{\"bold\":true,\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon FallingSand ~ ~ ~ {CustomName:TentCenter,Block:minecraft:piston_extension,Time:0b}\"},\"translate\":\"\\u003d---%1$s---\\u003d\",\"with\":[{\"strikethrough\":true,\"color\":\"dark_green\",\"text\":\"宿\"}]}",
+                      "Text1": "{\"bold\":true,\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute @a[r\\u003d16] ~ ~ ~ /playsound entity.zombie.attack_door_wood master @a[c\\u003d1] ~ ~ ~ 1 0.5 1\"},\"text\":\"\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\\u003d\"}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

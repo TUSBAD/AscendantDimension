@@ -1,0 +1,254 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "tp持ち",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "Items": [
+                    {
+                      "Slot": 0,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"ﾃﾚﾎﾟｰﾄｸﾘｰﾊﾟｰ\",Silent:1b,Health:20f,Attributes:[{Name:\"generic.maxHealth\",Base:20d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:20b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],id:\"Bat\",Tags:[\"SkillMob\",\"WarpOnly\"],Passengers:[{id:\"Creeper\",CustomName:\"ﾃﾚﾎﾟｰﾄｸﾘｰﾊﾟｰ\",DeathLootTable:\"empty\",Health:60f,Attributes:[{Name:\"generic.maxHealth\",Base:60d},{Name:\"generic.movementSpeed\",Base:0.7d},{Name:\"generic.knockbackResistance\",Base:0d},{Name:\"generic.followRange\",Base:32d}],ExplosionRadius:3b,Fuse:35s},{Particle:\"happyVillager\",CustomName:\"テレポートオーラ\",Duration:60,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§atpクリーパー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 1,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Skeleton,SkeletonType:0b,CustomName:\"カトン・ニンジャ\",Tags:[SkillMob,WarpOnly],ActiveEffects:[{Id:8b,Amplifier:2b,Duration:1000000,ShowParticles:false}],HandItems:[{id:minecraft:iron_sword,Damage:0s,Count:1b,tag:{ench:[{id:20s,lvl:7s},{id:19s,lvl:1s}]}},{}],ArmorItems:[{id:minecraft:leather_boots,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_leggings,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_chestplate,Count:1b,tag:{display:{color:0}}},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"ea52b04a-c631-400e-aeea-23c3820e85c9\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiZmNkZjNjYjcxNzQyNTNkMzdlOGQzNDVhODU4MmY1Zjc0ZDdmNTljN2M3OTU3YjcwYzJhYmM3NzQ1Y2E3In19fQ==\"}]}}}}],Health:80f,Attributes:[{Name:\"generic.maxHealth\",Base:80d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0.1d},{Name:\"generic.movementSpeed\",Base:0.5d},{Name:\"generic.attackDamage\",Base:5.0d}],Passengers:[{id:\"ThrownPotion\",Potion:{id:\"minecraft:splash_potion\",Damage:0s,Count:1b,tag:{Potion:\"minecraft:strong_healing\",CustomPotionEffects:[{Id:5b,Amplifier:-127b,Duration:10},{Id:7b,Amplifier:1b,Duration:10},{Id:15b,Amplifier:1b,Duration:350}]}}}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Skeleton,SkeletonType:1b,CustomName:\"ノロイ・ニンジャ\",Tags:[SkillMob,WarpOnly],ActiveEffects:[{Id:8b,Amplifier:2b,Duration:1000000,ShowParticles:false}],HandItems:[{id:minecraft:iron_sword,Damage:0s,Count:1b,tag:{ench:[{id:16s,lvl:2s},{id:19s,lvl:1s}]}},{}],ArmorItems:[{id:minecraft:leather_boots,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_leggings,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_chestplate,Count:1b,tag:{display:{color:0}}},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"ea52b04a-c631-400e-aeea-23c3820e85c9\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiZmNkZjNjYjcxNzQyNTNkMzdlOGQzNDVhODU4MmY1Zjc0ZDdmNTljN2M3OTU3YjcwYzJhYmM3NzQ1Y2E3In19fQ==\"}]}}}}],Health:80f,Attributes:[{Name:\"generic.maxHealth\",Base:80d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0.1d},{Name:\"generic.movementSpeed\",Base:0.5d},{Name:\"generic.attackDamage\",Base:5.0d}],Passengers:[{id:\"ThrownPotion\",Potion:{id:\"minecraft:splash_potion\",Damage:0s,Count:1b,tag:{Potion:\"minecraft:strong_healing\",CustomPotionEffects:[{Id:5b,Amplifier:-127b,Duration:10},{Id:7b,Amplifier:1b,Duration:10},{Id:15b,Amplifier:1b,Duration:350}]}}}]}]}},{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:Skeleton,SkeletonType:0b,CustomName:\"ユミ・ニンジャ\",Tags:[SkillMob,WarpOnly],ActiveEffects:[{Id:8b,Amplifier:2b,Duration:1000000,ShowParticles:false}],HandItems:[{id:minecraft:bow,Damage:0s,Count:1b,tag:{ench:[{id:48s,lvl:3s},{id:49s,lvl:1s}]}},,{}],ArmorItems:[{id:minecraft:leather_boots,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_leggings,Count:1b,tag:{display:{color:0}}},{id:minecraft:leather_chestplate,Count:1b,tag:{display:{color:0}}},{id:minecraft:skull,Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"ea52b04a-c631-400e-aeea-23c3820e85c9\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiZmNkZjNjYjcxNzQyNTNkMzdlOGQzNDVhODU4MmY1Zjc0ZDdmNTljN2M3OTU3YjcwYzJhYmM3NzQ1Y2E3In19fQ==\"}]}}}}],Health:80f,Attributes:[{Name:\"generic.maxHealth\",Base:80d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0.1d},{Name:\"generic.movementSpeed\",Base:0.5d},{Name:\"generic.attackDamage\",Base:5.0d}],Passengers:[{id:\"ThrownPotion\",Potion:{id:\"minecraft:splash_potion\",Damage:0s,Count:1b,tag:{Potion:\"minecraft:strong_healing\",CustomPotionEffects:[{Id:5b,Amplifier:-127b,Duration:10},{Id:7b,Amplifier:1b,Duration:10},{Id:15b,Amplifier:1b,Duration:350}]}}}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§aカトンニンジャ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 2,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:900s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,Age:-32768s,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:0b}],id:\"Villager\",Passengers:[{id:\"Bat\",CustomName:\"ルナティックアイ\",Silent:1b,Tags:[\"SkillMob\",\"WarpOnly\"],Health:180f,Attributes:[{Name:\"generic.maxHealth\",Base:180d},{Name:\"generic.followRange\",Base:80d},{Name:\"generic.knockbackResistance\",Base:0.3d},{Name:\"generic.movementSpeed\",Base:0.32d},{Name:\"generic.attackDamage\",Base:7d}],DeathLootTable:\"empty\",ActiveEffects:[{Id:10b,Amplifier:5b,Duration:2147483647,ShowParticles:0b},{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:25b,Amplifier:-1b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:-1b,Duration:2147483647,ShowParticles:0b}],Passengers:[{id:\"AreaEffectCloud\",CustomNameVisible:0b,CustomName:\"紫の粉\",Particle:\"witchMagic\",Duration:80,Radius:0.55f,ReapplicationDelay:10,Effects:[{Id:7b,Amplifier:2b,Duration:200}]},{Particle:\"take\",CustomName:\"ルナティックオーラ\",Duration:80,Radius:1.7f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:17b,Amplifier:3b,Duration:120},{Id:12b,Amplifier:127b,Duration:6},{Id:16b,Amplifier:127b,Duration:6},{Id:4b,Amplifier:1b,Duration:120},{Id:18b,Amplifier:5b,Duration:120},{Id:19b,Amplifier:5b,Duration:120}],id:\"AreaEffectCloud\"},{Particle:\"mobSpell\",Color:12755967,CustomName:\"ルナティックオーラ\",Duration:80,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"},{id:\"PigZombie\",CustomName:\"Grumm\",Silent:1b,Health:200f,Attributes:[{Name:\"generic.maxHealth\",Base:200d},{Name:\"generic.movementSpeed\",Base:0.15d},{Name:\"generic.attackDamage\",Base:7d},{Name:\"generic.knockbackResistance\",Base:0.7d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],ArmorItems:[{},{},{},{tag:{SkullOwner:{Id:\"b8beb4f6-a950-4a07-9f9d-a169a3414fd0\",Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NjUzNDExMzQ3MjksInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNWVlNWM3M2VhOTY4ODFlMmY3YTM5ZDc5YjViYTllMTg1ZmJmZGZmZTExMDI1NGM1NmU2NDM1OThiNjE1ZjYifX19\"}]},Name:\"anminmakura\"}},id:\"minecraft:skull\",Count:1b,Damage:3s,ench:[{id:7b,lvl:3b}]}],ArmorDropChances:[0f,0f,0f,0f],IsBaby:1b}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§2ﾙﾅﾃｨｯｸｱｲ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 3,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:16s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:900s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,Age:-32768s,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:0b}],id:\"Villager\",Passengers:[{id:\"Bat\",CustomName:\"シャーベットアイ\",Silent:1b,Tags:[\"SkillMob\",\"WarpOnly\"],Health:250f,Attributes:[{Name:\"generic.maxHealth\",Base:250d},{Name:\"generic.followRange\",Base:80d},{Name:\"generic.knockbackResistance\",Base:0.3d},{Name:\"generic.movementSpeed\",Base:0.32d},{Name:\"generic.attackDamage\",Base:7d}],DeathLootTable:\"empty\",ActiveEffects:[{Id:10b,Amplifier:5b,Duration:2147483647,ShowParticles:0b},{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:25b,Amplifier:-1b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:-1b,Duration:2147483647,ShowParticles:0b}],ArmorItems:[{},{},{tag:{ench:[{id:7s,lvl:5s}]},id:\"minecraft:iron_chestplate\",Count:1b,Damage:0s},{}],Passengers:[{id:\"AreaEffectCloud\",CustomNameVisible:0b,CustomName:\"青の粉\",Particle:\"snowshovel\",Duration:80,Radius:0.55f,ReapplicationDelay:10,Effects:[{Id:7b,Amplifier:2b,Duration:200}]},{Particle:\"take\",CustomName:\"シャーベットオーラ\",Duration:80,Radius:1.7f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:17b,Amplifier:20b,Duration:100},{Id:4b,Amplifier:0b,Duration:260},{Id:2b,Amplifier:5b,Duration:180},{Id:8b,Amplifier:-10b,Duration:180},{Id:18b,Amplifier:5b,Duration:260},{Id:19b,Amplifier:2b,Duration:100}],id:\"AreaEffectCloud\"},{Particle:\"mobSpell\",Color:12577023,CustomName:\"シャーベットオーラ\",Duration:80,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"},{id:\"PigZombie\",CustomName:\"Grumm\",Silent:1b,Health:270f,Attributes:[{Name:\"generic.maxHealth\",Base:270d},{Name:\"generic.movementSpeed\",Base:0.15d},{Name:\"generic.attackDamage\",Base:7d},{Name:\"generic.knockbackResistance\",Base:0.7d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],ArmorItems:[{},{},{},{tag:{SkullOwner:{Id:\"5c0296c3-54bf-4b15-867b-54c705f98b87\",Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NjUzODQ1OTg0MzcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMWZmODg4M2U2MzVmM2E5N2NhODcxMjk0ODgwMWU2ODk1YjI2OTZjMDY1ZWM3YmRkNGY0YmFlZGRmYmEyNDYifX19\"}]},Name:\"anminmakura\"}},id:\"minecraft:skull\",Count:1b,Damage:3s,ench:[{id:7b,lvl:3b}]}],ArmorDropChances:[0f,0f,0f,0f],IsBaby:1b}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§2シャーベットアイ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 4,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:1200s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"不発弾\",Life:2,LifeTime:30,id:\"FireworksRocketEntity\",Passengers:[{CustomName:\"ﾗﾝﾀﾞﾑﾑｰﾊﾞｰ\",Silent:1b,Health:5f,Attributes:[{Name:\"generic.maxHealth\",Base:5d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:127b,Duration:2147483647}],id:\"Bat\",Passengers:[{CustomName:\"ﾅﾋﾞｹﾞｰﾄ\",Size:5,Silent:1b,DeathLootTable:\"empty\",AbsorptionAmount:300f,Attributes:[{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:25b,Amplifier:-1b,Duration:2147483647},{Id:20b,Amplifier:0b,Duration:2147483647}],id:\"LavaSlime\",Passengers:[{id:\"Ghast\",CustomName:\"ガストキャリアー\",Silent:1b,Health:300f,Attributes:[{Name:\"generic.maxHealth\",Base:100d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:0d}],ExplosionPower:0,Passengers:[{Invulnerable:1b,CustomName:\"SATキャリアー\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"enchanting_table\",DisplayData:0,DisplayOffset:8,MaxNearbyEntities:3s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:500s,SpawnRange:8s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,Passengers:[{id:\"CaveSpider\",DeathLootTable:\"usb:events/sat\",Tags:[\"CanSpin\"],Motion:[0d,-3d,0d],FallDistance:-32768f,CustomName:\"SAT\",CustomNameVisible:1b,Health:300f,Attributes:[{Name:\"generic.maxHealth\",Base:300d},{Name:\"generic.followRange\",Base:32d},{Name:\"generic.attackDamage\",Base:15d},{Name:\"generic.movementSpeed\",Base:0.4d},{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.armor\",Base:12d}],ActiveEffects:[{Id:8b,Amplifier:20b,Duration:60}],Passengers:[{id:\"Guardian\",Silent:1b,CustomName:\"10式0.3m小銃\",Health:100f,Attributes:[{Name:\"generic.maxHealth\",Base:100d},{Name:\"generic.followRange\",Base:32d},{Name:\"generic.attackDamage\",Base:30d}],ActiveEffects:[{Id:8b,Amplifier:20b,Duration:60},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}]}]}]}}],id:\"MinecartSpawner\"},{Particle:\"endRod\",CustomName:\"キャリアーオーラ\",Duration:80,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§cSATキャリアー"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 5,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:300s,MaxSpawnDelay:1200s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Passengers:[{CustomName:\"不発弾\",Life:2,LifeTime:30,id:\"FireworksRocketEntity\",Passengers:[{id:\"Bat\",Health:120f,Attributes:[{Name:\"generic.maxHealth\",Base:120d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],Passengers:[{id:\"Ghast\",CustomName:\"キャンディークラフター\",Silent:1b,Health:250f,Attributes:[{Name:\"generic.maxHealth\",Base:250d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:0d}],ExplosionPower:0,Passengers:[{Invulnerable:1b,CustomName:\"ｷｬﾝﾃﾞｨｰﾒｰｶｰ\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"enchanting_table\",DisplayData:0,DisplayOffset:8,MaxNearbyEntities:3s,RequiredPlayerRange:64s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:40s,MaxSpawnDelay:120s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"ﾗﾝﾀﾞﾑﾑｰﾊﾞｰ\",Silent:1b,Health:5f,Attributes:[{Name:\"generic.maxHealth\",Base:5d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:127b,Duration:2147483647}],id:\"Bat\",Passengers:[{id:\"Creeper\",Tags:[\"SkillMob\",\"WarpOnly\"],DeathLootTable:\"empty\",CustomName:\"雲飴細工\",Silent:1b,Health:35f,Attributes:[{Name:\"generic.maxHealth\",Base:35d},{Name:\"generic.movementSpeed\",Base:0d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:3d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:1b,Duration:2147483647,ShowParticles:0b},{Id:25b,Amplifier:-1b,Duration:2147483647}],ArmorItems:[{},{},{},{tag:{ench:[{id:7s,lvl:10s}]},id:\"minecraft:iron_helmet\",Count:1b,Damage:0s}],ArmorDropChances:[0f,0f,0f,0f],ExplosionRadius:0b,Fuse:1s,Passengers:[{CustomName:\"雲飴細工\",Block:\"minecraft:web\",DropItem:0b,Time:1,FallDistance:1f,HurtEntities:1b,FallHurtAmount:40f,FallHurtMax:40,id:\"FallingSand\"},{Particle:\"endRod\",CustomName:\"飴細工の光\",Duration:5,Radius:0.01f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}}],id:\"MinecartSpawner\"},{Particle:\"snowballpoof\",CustomName:\"キャンディークラフターオーラ\",Duration:80,Radius:1f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§cキャンディークラフト"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 6,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 0,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:64s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:3600s,MaxSpawnDelay:14400s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:0b}],id:\"Villager\",Passengers:[{id:\"magma_cube\",Size:0,AbsorptionAmount:300f,CustomName:\"タナトス\",Tags:[\"SkillMob\",\"WarpOnly\",\"AbyssWarp\"],DeathLootTable:\"empty\",ActiveEffects:[{Id:14b,Amplifier:127b,Duration:1000000,ShowParticles:0b},{Id:25b,Amplifier:-1b,Duration:1000000,ShowParticles:0b}],Passengers:[{id:\"Skeleton\",CustomName:\"タナトス\",Tags:[\"Twins\"],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:1000000,ShowParticles:0b},{Id:25b,Amplifier:-4b,Duration:1000000,ShowParticles:0b}],HandItems:[{id:\"minecraft:diamond_hoe\",Count:1b,tag:{ench:[{id:20s,lvl:10s}]}},{id:\"minecraft:shield\",Count:1b,tag:{BlockEntityTag:{Base:1,Patterns:[{Pattern:\"bri\",Color:0},{Pattern:\"cbo\",Color:0},{Pattern:\"flo\",Color:0},{Pattern:\"sc\",Color:0},{Pattern:\"mc\",Color:1},{Pattern:\"cs\",Color:0},{Pattern:\"mr\",Color:6},{Pattern:\"flo\",Color:0},{Pattern:\"bts\",Color:1},{Pattern:\"tts\",Color:1},{Pattern:\"gru\",Color:8}]}}}],ArmorItems:[{},{},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:6881280}}},{id:\"minecraft:skull\",Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"8fe67583-28bb-408e-a2e5-e8e43cb64de9\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjN2UzYzRjNjc0Y2Y4Mzc3M2FjOTI3ZGVkMWE1MzZiYjQ1ZTYzZmIyZTZhOTVhYWExYjYzZWQ3ODZmYzlmIn19fQ==\"}]}}}}],Health:650f,Attributes:[{Name:\"generic.maxHealth\",Base:450d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.movementSpeed\",Base:0.35d},{Name:\"generic.attackDamage\",Base:25d}]},{id:\"AreaEffectCloud\",Particle:\"take\",Duration:80,Radius:1.5f,Tags:[\"SystemEntity\"],Effects:[{Id:2b,Amplifier:2b,Duration:100,ShowParticles:1b},{Id:9b,Amplifier:2b,Duration:20,ShowParticles:1b},{Id:15b,Amplifier:2b,Duration:20,ShowParticles:1b}]},{id:\"AreaEffectCloud\",Particle:\"witchMagic\",Duration:666,Radius:0.5f,Tags:[\"SystemEntity\"],Effects:[{Id:14b,Amplifier:-1b,Duration:3,ShowParticles:0b}]}]},{id:\"Skeleton\",CustomName:\"ケール\",Tags:[\"Twins\",\"AbyssWarp\"],LeftHanded:1b,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:1000000,ShowParticles:0b},{Id:25b,Amplifier:-128b,Duration:1000000,ShowParticles:0b}],HandItems:[{id:\"minecraft:iron_hoe\",Count:1b,tag:{ench:[{id:20s,lvl:10s}]}},{id:\"minecraft:shield\",Count:1b,tag:{BlockEntityTag:{Base:6,Patterns:[{Pattern:\"bri\",Color:0},{Pattern:\"cbo\",Color:0},{Pattern:\"flo\",Color:0},{Pattern:\"sc\",Color:0},{Pattern:\"cs\",Color:0},{Pattern:\"mr\",Color:1},{Pattern:\"flo\",Color:0},{Pattern:\"bts\",Color:6},{Pattern:\"tts\",Color:6},{Pattern:\"gru\",Color:8}]}}}],ArmorItems:[{},{},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:8624292}}},{id:\"minecraft:skull\",Damage:3s,Count:1b,tag:{SkullOwner:{Id:\"33623f0c-07d4-4887-a9fd-06a4a809961f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4ODExM2E5ZWE2OGM4ZDg4N2U3ZDNlZTU0YmFjM2VhNDIxMGJmYmFiNzIwZDhlODRiZTU3MDVjZmFkYzViIn19fQ==\"}]}}}}],Health:650f,Attributes:[{Name:\"generic.maxHealth\",Base:450d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:0.5d},{Name:\"generic.movementSpeed\",Base:0.55d},{Name:\"generic.attackDamage\",Base:20d}],Passengers:[{id:\"AreaEffectCloud\",Particle:\"take\",Duration:80,Radius:1.5f,Tags:[\"SystemEntity\"],Effects:[{Id:2b,Amplifier:2b,Duration:100,ShowParticles:1b}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§eﾀﾅﾄｽ"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 7,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:3600s,MaxSpawnDelay:14400s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Silent:1b,Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"ランダム移動\",Silent:1b,Health:4f,Attributes:[{Name:\"generic.maxHealth\",Base:4d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:127b,Duration:2147483647}],id:\"Bat\",Passengers:[{CustomName:\"魔弾の射手\",DeathLootTable:\"usb:entities/ice/mob5\",NoGravity:1b,Size:2,Silent:1b,AbsorptionAmount:650f,Attributes:[{Name:\"generic.knockbackResistance\",Base:0d},{Name:\"generic.followRange\",Base:32d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647},{Id:20b,Amplifier:0b,Duration:2147483647}],id:\"LavaSlime\",Tags:[\"SkillMob\",\"WarpOnly\"],Passengers:[{Invulnerable:1b,Glowing:1b,CustomName:\"魔のワゴン\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"hopper\",DisplayData:0,DisplayOffset:-14,MaxNearbyEntities:3s,RequiredPlayerRange:20s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:10s,MaxSpawnDelay:40s,SpawnRange:0s,SpawnPotentials:[{Weight:1,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:2,CustomName:\"ムーブオーラ01\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:1b,Amplifier:1b,Duration:10},{Id:25b,Amplifier:15b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:3,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:14,CustomName:\"ムーブオーラ02\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:1b,Amplifier:5b,Duration:10},{Id:25b,Amplifier:7b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:5,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:1,CustomName:\"ムーブオーラ03\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:1b,Amplifier:10b,Duration:10},{Id:25b,Amplifier:4b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:7,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:4,CustomName:\"ムーブオーラ04\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:1b,Amplifier:20b,Duration:10},{Id:25b,Amplifier:2b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:1,Entity:{Motion:[0d,0.1d,0d],Invulnerable:1b,Tags:[\"CooldownRequired\"],PortalCooldown:10,NoGravity:1b,CustomName:\"LWS01\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"fire\",DisplayData:0,DisplayOffset:14,MaxNearbyEntities:99s,RequiredPlayerRange:80s,SpawnCount:16s,Delay:-1s,MinSpawnDelay:6s,MaxSpawnDelay:6s,SpawnRange:16s,SpawnPotentials:[{Weight:1,Entity:{Particle:\"largeexplode\",WaitTime:200,CustomName:\"ファンタズムゲート\",Duration:40,Radius:0.01f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:7b,Amplifier:10b,Duration:80}],id:\"AreaEffectCloud\",Passengers:[{id:\"ThrownEnderpearl\",Glowing:1b},{CustomName:\"DeathRay\",Silent:1b,DeathLootTable:\"empty\",Health:200f,Attributes:[{Name:\"generic.maxHealth\",Base:200d},{Name:\"generic.attackDamage\",Base:10d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],NoGravity:1b,id:\"Guardian\"}]}}],id:\"MinecartSpawner\"}},{Weight:1,Entity:{Motion:[0d,0.1d,0d],Invulnerable:1b,Tags:[\"CooldownRequired\"],PortalCooldown:10,NoGravity:1b,CustomName:\"LWS02\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"fire\",DisplayData:0,DisplayOffset:14,MaxNearbyEntities:99s,RequiredPlayerRange:80s,SpawnCount:16s,Delay:-1s,MinSpawnDelay:6s,MaxSpawnDelay:6s,SpawnRange:16s,SpawnPotentials:[{Weight:1,Entity:{Particle:\"largeexplode\",WaitTime:180,CustomName:\"ファンタズムゲート\",Duration:40,Radius:0.01f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:7b,Amplifier:10b,Duration:80}],id:\"AreaEffectCloud\",Passengers:[{id:\"ThrownEnderpearl\",Glowing:1b},{CustomName:\"QuatreShot\",Silent:1b,DeathLootTable:\"empty\",Health:200f,Attributes:[{Name:\"generic.maxHealth\",Base:200d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.followRange\",Base:80d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],NoGravity:1b,id:\"Shulker\"}]}}],id:\"MinecartSpawner\"}}],id:\"MinecartSpawner\"},{Invulnerable:1b,Glowing:1b,CustomName:\"魔のワゴン\",DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"end_rod\",DisplayData:0,DisplayOffset:-23,MaxNearbyEntities:3s,RequiredPlayerRange:32s,SpawnCount:1s,Delay:-1s,MinSpawnDelay:5s,MaxSpawnDelay:10s,SpawnRange:0s,SpawnPotentials:[{Weight:1,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:5,CustomName:\"ムーブオーラ05\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:2b,Amplifier:5b,Duration:10},{Id:25b,Amplifier:-3b,Duration:50}],id:\"AreaEffectCloud\"}},{Weight:3,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:3,CustomName:\"ムーブオーラ06\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:2b,Amplifier:7b,Duration:10},{Id:25b,Amplifier:-4b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:5,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:11,CustomName:\"ムーブオーラ07\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:2b,Amplifier:10b,Duration:10},{Id:25b,Amplifier:-8b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:7,Entity:{Particle:\"iconcrack\",ParticleParam1:160,ParticleParam2:10,CustomName:\"ムーブオーラ08\",Duration:20,Radius:1.5f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:2b,Amplifier:20b,Duration:10},{Id:25b,Amplifier:-16b,Duration:10}],id:\"AreaEffectCloud\"}},{Weight:1,Entity:{Motion:[0d,-3d,0d],Age:5900s,Value:0s,id:\"XPOrb\",Passengers:[{Particle:\"witchMagic\",CustomName:\"HEALTH_DOWNER\",Duration:10,WaitTime:120,Radius:10f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[{Id:17b,Amplifier:70b,Duration:100},{Id:9b,Amplifier:0b,Duration:160},{Id:21b,Amplifier:0b,Duration:100},{Id:25b,Duration:100,Amplifier:5b}],id:\"AreaEffectCloud\"},{Particle:\"dragonbreath\",CustomName:\"HEALTH_DOWNER\",Duration:100,Radius:0.3f,RadiusOnUse:0f,ReapplicationDelay:0,Effects:[],id:\"AreaEffectCloud\"}]}}],id:\"MinecartSpawner\"},{CustomName:\"ラインオーラ\",CustomNameVisible:0b,Duration:80,Effects:[],Particle:\"endRod\",ParticleParam1:7,Radius:0.001f,ReapplicationDelay:0,id:\"AreaEffectCloud\"},{Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Id:25b,Duration:80,Amplifier:0b}]}},id:\"ThrownPotion\",Passengers:[{CustomName:\"魔弾の射手\",DeathLootTable:\"usb:entities/ice/mob5\",CanPickUpLoot:1b,NoGravity:1b,FallFlying:1b,Silent:1b,Health:650f,Attributes:[{Name:\"generic.maxHealth\",Base:650d},{Name:\"generic.movementSpeed\",Base:0.5d},{Name:\"generic.attackDamage\",Base:5d},{Name:\"generic.knockbackResistance\",Base:0.3d},{Name:\"generic.followRange\",Base:32d}],ActiveEffects:[{Id:1b,Amplifier:20b,Duration:2147483647,ShowParticles:0b},{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],HandItems:[{tag:{ench:[{id:50s,lvl:3s},{id:49s,lvl:5s},{id:48s,lvl:3s}]},id:\"minecraft:bow\",Count:1b,Damage:0s},{tag:{CustomPotionEffects:[{Id:25b,Amplifier:127b,Duration:2,ShowParticles:0b},{Id:23b,Amplifier:127b,Duration:0,ShowParticles:1b},{Id:7b,Amplifier:1b,Duration:6,ShowParticles:0b},{Id:20b,Amplifier:3b,Duration:50,ShowParticles:0b},{Id:15b,Amplifier:0b,Duration:22,ShowParticles:0b},{Id:2b,Amplifier:20b,Duration:50,ShowParticles:0b}],HideFlags:32,Potion:\"minecraft:swiftness\"},id:\"minecraft:tipped_arrow\",Count:1b,Damage:0s}],HandDropChances:[0f,0f],ArmorItems:[{},{},{},{tag:{SkullOwner:{Id:\"56a3aa3b-9b29-4ca8-9208-bfb306560f05\",Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0Njg4NDQxMjg2OTcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZGVkNTE5YjY0ZjgxNDc0N2U2OTA4NTdjNDJiMjk3MjAzOWVlZDYxNWJiNmVkMDY3ZGNmOWU0MjYwZTYifX19\"}]},Name:\"anminmakura\"}},id:\"minecraft:skull\",Count:1b,Damage:3s}],ArmorDropChances:[0f,0f,0f,0f],SkeletonType:2,id:\"Skeleton\",Passengers:[{Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Id:25b,Duration:1200,Amplifier:-120b},{Id:14b,Duration:60,Amplifier:-1b}]}},id:\"ThrownPotion\"},{CustomName:\"ミステリアスオーラ\",CustomNameVisible:0b,Duration:80,Effects:[],Particle:\"fallingdust\",ParticleParam1:7,Radius:0.45f,ReapplicationDelay:0,id:\"AreaEffectCloud\"}]}]}]}]}]}}],id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§e魔弾の射手"
+                        }
+                      },
+                      "Damage": 0
+                    },
+                    {
+                      "Slot": 8,
+                      "id": "minecraft:command_block",
+                      "Count": 1,
+                      "tag": {
+                        "BlockEntityTag": {
+                          "conditionMet": 0,
+                          "auto": 1,
+                          "CustomName": "@",
+                          "powered": 0,
+                          "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],SpawnCount:3s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:200s,MaxSpawnDelay:300s,RequiredPlayerRange:15s,SpawnPotentials:[{Weight:1,Entity:{DeathTime:19s,Silent:1b,NoAI:1b,Health:0f,Attributes:[{Name:\"generic.maxHealth\",Base:0d}],id:\"Villager\",Pos:[],Passengers:[{Tags:[\"Gesso\",\"SkillMob\",\"WarpOnly\"],DeathLootTable:\"empty\",CustomName:\"メイジフェンサー\",Health:4f,Attributes:[{Name:\"generic.maxHealth\",Base:4d}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],NoGravity:1b,AbsorptionAmount:2,Size:3,id:\"Slime\",Passengers:[{Health:50f,Attributes:[{Name:\"generic.maxHealth\",Base:50d}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:12b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],HandItems:[{tag:{ench:[{id:16s,lvl:2s},{id:16s,lvl:10s},{id:20s,lvl:10s}]},id:\"minecraft:diamond_sword\",Count:1b,Damage:0s},{}],HandDropChances:[0f,0f],DeathLootTable:\"minecraft:entities/skeleton\",id:\"Skeleton\",Passengers:[{id:\"ThrownEnderpearl\",Passengers:[{id:\"MinecartSpawner\",SpawnCount:4s,SpawnRange:10s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:40s,MaxSpawnDelay:100s,RequiredPlayerRange:5s,SpawnPotentials:[{Weight:1,Entity:{Potion:{id:\"minecraft:splash_potion\",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:100},{Id:5b,Amplifier:5b,Duration:100}]}},id:\"ThrownPotion\"}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:end_portal_frame\",DisplayData:0,DisplayOffset:-1}]},{Particle:\"witchMagic\",Radius:2f,Duration:1000,Effects:[{Id:1b,Amplifier:127b,Duration:1},{Id:3b,Amplifier:127b,Duration:1},{Id:5b,Amplifier:127b,Duration:1},{Id:8b,Amplifier:127b,Duration:1},{Id:10b,Amplifier:127b,Duration:1},{Id:11b,Amplifier:127b,Duration:1},{Id:13b,Amplifier:127b,Duration:1},{Id:15b,Amplifier:5b,Duration:20},{Id:18b,Amplifier:1b,Duration:200},{Id:19b,Amplifier:5b,Duration:80}],id:\"AreaEffectCloud\"}]}]}]}}],CustomDisplayTile:1b,DisplayTile:\"minecraft:beacon\",DisplayData:0,DisplayOffset:12,id:\"MinecartSpawner\"}]}",
+                          "id": "Control",
+                          "SuccessCount": 0,
+                          "TrackOutput": 0
+                        },
+                        "display": {
+                          "Lore": [
+                            "(+NBT)"
+                          ],
+                          "Name": "§bメイジフェンサー"
+                        }
+                      },
+                      "Damage": 0
+                    }
+                  ],
+                  "id": "minecraft:chest",
+                  "Lock": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

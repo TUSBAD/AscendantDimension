@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "マインみかん印",
+                  "italic": false
+                },
+                "minecraft:repair_cost": 1000000000,
+                "minecraft:block_entity_data": {
+                  "Patterns": [
+                    {
+                      "Pattern": "mr",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "mc",
+                      "Color": 14
+                    },
+                    {
+                      "Pattern": "sc",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "tts",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "bts",
+                      "Color": 0
+                    },
+                    {
+                      "Pattern": "bo",
+                      "Color": 0
+                    }
+                  ],
+                  "Base": 14,
+                  "id": "minecraft:banner"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

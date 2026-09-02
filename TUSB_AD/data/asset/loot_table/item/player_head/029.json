@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "目玉",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:profile": {
+                  "name": "anminmakura",
+                  "id": "9f7150d5-768b-438e-96b5-f00b10c1d838",
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE0NjUzNDEzMzQxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMjNmMjBkMWI4MTliM2ZjNTNhNGM2ZWJmNTM2OWRhNmE0OWVkZmNmNzRjN2Y1ZWE3YzNmZjkxNzNlNmIxNzQifX19"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

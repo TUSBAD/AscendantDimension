@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "123",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "魔骨の防具",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "text": "123",
+                      "italic": false,
+                      "color": "white",
+                      "obfuscated": true
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "骨でできているせいか軽い",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:projectile_protection": 10
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "tusb_ad_items:legacy_0000000000060e41_0000000000052fb7",
+                      "type": "minecraft:knockback_resistance",
+                      "amount": -0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000c0e63_00000000000acb18",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.02,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000d3507_000000000006e9d2",
+                      "type": "minecraft:armor",
+                      "amount": -2.0,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "tusb_ad_items:legacy_00000000000267e1_00000000000e57d6",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 0.8,
+                      "operation": "add_multiplied_base",
+                      "slot": "legs"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "- ﾚｯﾄﾞﾄﾞﾗｺﾞﾝ -",
+                  "italic": false,
+                  "color": "dark_red",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "曰くつきの紅い増強剤。",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "服用すると、常人の体力では即倒してしまう程の",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "痛みと渇きが襲い、死に至るとされている。",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "もしこの名状しがたい劇物に飲み込まれなければ",
+                    "italic": false,
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "数秒ではあるが",
+                        "italic": false,
+                        "color": "dark_red"
+                      },
+                      {
+                        "text": "怪力",
+                        "italic": false,
+                        "color": "yellow",
+                        "bold": true
+                      },
+                      {
+                        "text": "を得るだろうと推測されている。",
+                        "italic": false,
+                        "color": "dark_red"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 14,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": -14,
+                      "duration": 300,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 3,
+                      "duration": 10,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": -3,
+                      "duration": 10,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 49,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": -49,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 1,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 1,
+                      "duration": 100,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": -100,
+                      "duration": 0,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": -100,
+                      "duration": 0,
+                      "show_particles": true
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

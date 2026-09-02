@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "- ｲｴﾛｰﾃﾞﾋﾞﾙ -",
+                  "italic": false,
+                  "color": "yellow",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "曰くつきの黄色い増強剤。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "服用すると、常人の体力では即倒してしまう程の",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "痛みと渇きが襲い、死に至るとされている。",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "もしこの名状しがたい薬に飲み込まれなければ",
+                    "italic": false,
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "数秒ではあるが",
+                        "italic": false,
+                        "color": "yellow"
+                      },
+                      {
+                        "text": "壊力",
+                        "italic": false,
+                        "color": "dark_red",
+                        "bold": true
+                      },
+                      {
+                        "text": "を得るだろうと推測されている。",
+                        "italic": false,
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:fire_resistance",
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 14,
+                      "duration": 500
+                    },
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 3,
+                      "duration": 10
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 15,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 1,
+                      "duration": 100
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 1,
+                      "duration": 100
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

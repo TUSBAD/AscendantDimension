@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "凧風船",
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "使用すると上空へ飛び出し",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "少しの間滞空して目印となる",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:repair_cost": -2147483648,
+                "minecraft:entity_data": {
+                  "NoGravity": 0,
+                  "Motion": [
+                    0.0,
+                    2.0,
+                    0.0
+                  ],
+                  "Small": 0,
+                  "Health": 1.0,
+                  "Attributes": [
+                    {
+                      "Base": 1.0,
+                      "Name": "generic.maxHealth"
+                    }
+                  ],
+                  "Invulnerable": 1,
+                  "ShowArms": 0,
+                  "Marker": 1,
+                  "Glowing": 1,
+                  "DisabledSlots": 31,
+                  "DeathTime": 0,
+                  "Pose": {
+                    "Head": [
+                      0.0,
+                      0.0,
+                      180.0
+                    ]
+                  },
+                  "ArmorItems": [
+                    {},
+                    {},
+                    {},
+                    {
+                      "id": "beacon",
+                      "Count": 1,
+                      "tag": {
+                        "AttributeModifiers": [
+                          {
+                            "UUIDMost": 6,
+                            "UUIDLeast": 2,
+                            "Amount": -1,
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "minus"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "NoBasePlate": 1,
+                  "Team": "Yellow",
+                  "Invisible": 1,
+                  "ActiveEffects": [
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 110,
+                      "Id": 21,
+                      "Amplifier": 0
+                    },
+                    {
+                      "ShowParticles": 0,
+                      "Duration": 100,
+                      "Id": 25,
+                      "Amplifier": "128b"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

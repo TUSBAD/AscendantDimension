@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ｻﾝｶｸｻﾏ",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,DeathTime:19s,id:\"Villager\",Passengers:[{CustomName:\"三角様\",Health:100f,ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{ench:[{lvl:10s,id:1s},{lvl:10s,id:2s},{lvl:10s,id:3s}],RepairCost:-2147483648,display:{color:8388736,Name:\"チェイサーの靴\"}},Damage:0s},{id:\"minecraft:leather_leggings\",Count:1b,tag:{ench:[{lvl:10s,id:1s},{lvl:10s,id:2s},{lvl:10s,id:3s}],RepairCost:-2147483648,display:{color:8388736,Name:\"チェイサーのズボン\"}},Damage:0s},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{ench:[{lvl:10s,id:1s},{lvl:10s,id:2s},{lvl:10s,id:3s}],RepairCost:-2147483648,display:{color:8388736,Name:\"チェイサーの服\"}},Damage:0s},{id:\"minecraft:dragon_egg\",Count:1b,tag:{ench:[{lvl:10s,id:3s}],RepairCost:-2147483648},Damage:0s}],Attributes:[{Base:100d,Name:\"generic.maxHealth\"},{Base:1d,Name:\"generic.knockbackResistance\"}],id:\"Skeleton\",ActiveEffects:[{ShowParticles:0b,Duration:2000000000,Id:14b,Amplifier:1b}],HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{ench:[{lvl:10s,id:48s},{lvl:15s,id:49s}],RepairCost:-2147483648,display:{Name:\"チェイサーの弓\"}},Damage:0s}],CustomNameVisible:1b}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

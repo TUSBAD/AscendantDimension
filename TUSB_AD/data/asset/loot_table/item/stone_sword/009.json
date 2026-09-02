@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 3,
+                    "minecraft:fire_aspect": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

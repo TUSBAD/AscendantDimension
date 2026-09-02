@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "冷凍銃のスポナー",
+                  "italic": false
+                },
+                "minecraft:block_entity_data": {
+                  "RequiredPlayerRange": 32,
+                  "MaxNearbyEntities": 16,
+                  "SpawnCount": 2,
+                  "id": "minecraft:mob_spawner",
+                  "MaxSpawnDelay": 700,
+                  "SpawnRange": 4,
+                  "Delay": -1,
+                  "MinSpawnDelay": 100,
+                  "SpawnPotentials": [
+                    {
+                      "Entity": {
+                        "Passengers": [
+                          {
+                            "ArmorDropChances": [
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0
+                            ],
+                            "Passengers": [
+                              {
+                                "ParticleParam2": 0,
+                                "Particle": "iconcrack",
+                                "Radius": 1.0,
+                                "ParticleParam1": 174,
+                                "CustomName": "冷凍オーラー",
+                                "Duration": 60,
+                                "id": "AreaEffectCloud"
+                              }
+                            ],
+                            "CustomName": "冷凍銃",
+                            "Health": 180.0,
+                            "ArmorItems": [
+                              {},
+                              {},
+                              {
+                                "id": "minecraft:leather_chestplate",
+                                "Count": 0,
+                                "tag": {
+                                  "display": {
+                                    "color": 8454143
+                                  }
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:skull",
+                                "Count": 0,
+                                "tag": {
+                                  "SkullOwner": {
+                                    "Id": "5c0296c3-54bf-4b15-867b-54c705f98b87",
+                                    "Properties": {
+                                      "textures": [
+                                        {
+                                          "Value": "eyJ0aW1lc3RhbXAiOjE0NjUzODQ1OTg0MzcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMWZmODg4M2U2MzVmM2E5N2NhODcxMjk0ODgwMWU2ODk1YjI2OTZjMDY1ZWM3YmRkNGY0YmFlZGRmYmEyNDYifX19"
+                                        }
+                                      ]
+                                    },
+                                    "Name": "anminmakura"
+                                  }
+                                },
+                                "Damage": 3
+                              }
+                            ],
+                            "Attributes": [
+                              {
+                                "Base": 180.0,
+                                "Name": "generic.maxHealth"
+                              }
+                            ],
+                            "HandDropChances": [
+                              0.0,
+                              0.0
+                            ],
+                            "DeathLootTable": "usb:entities/ice/mob3",
+                            "id": "Skeleton",
+                            "ActiveEffects": [
+                              {
+                                "ShowParticles": 0,
+                                "Duration": 2147483647,
+                                "Id": 14,
+                                "Amplifier": 0
+                              }
+                            ],
+                            "HandItems": [
+                              {
+                                "id": "minecraft:bow",
+                                "Count": 0,
+                                "tag": {
+                                  "ench": [
+                                    {
+                                      "lvl": 3,
+                                      "id": 48
+                                    }
+                                  ]
+                                },
+                                "Damage": 0
+                              },
+                              {
+                                "id": "minecraft:tipped_arrow",
+                                "Count": 0,
+                                "tag": {
+                                  "CustomPotionEffects": [
+                                    {
+                                      "ShowParticles": 1,
+                                      "Duration": 0,
+                                      "Id": 25,
+                                      "Amplifier": -128
+                                    },
+                                    {
+                                      "ShowParticles": 1,
+                                      "Duration": 0,
+                                      "Id": 16,
+                                      "Amplifier": -20
+                                    },
+                                    {
+                                      "ShowParticles": 0,
+                                      "Duration": 60,
+                                      "Id": 20,
+                                      "Amplifier": 3
+                                    },
+                                    {
+                                      "ShowParticles": 0,
+                                      "Duration": 60,
+                                      "Id": 2,
+                                      "Amplifier": 5
+                                    }
+                                  ]
+                                },
+                                "Damage": 0
+                              }
+                            ]
+                          }
+                        ],
+                        "Health": 0.0,
+                        "DeathTime": 19,
+                        "Silent": 1,
+                        "id": "Villager"
+                      },
+                      "Weight": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

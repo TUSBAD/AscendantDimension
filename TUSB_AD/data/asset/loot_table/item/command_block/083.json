@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "ペイル配下シミver",
+                  "italic": false,
+                  "color": "dark_green"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "(+NBT)",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "conditionMet": 0,
+                  "auto": 1,
+                  "CustomName": "@",
+                  "powered": 0,
+                  "Command": "/summon ArmorStand ~ ~-1.4999 ~ {AbsorptionAmount:0f,ArmorItems:[{},{},{},{}],Attributes:[{Base:20d,Name:\"generic.maxHealth\"},{Base:0d,Name:\"generic.knockbackResistance\"},{Base:0.699999988079d,Name:\"generic.movementSpeed\"},{Base:0d,Name:\"generic.armor\"}],DeathTime:0s,Dimension:0,DisabledSlots:0,FallDistance:0f,HandItems:[{},{}],Health:20f,HurtByTimestamp:0,HurtTime:0s,Invisible:1b,Invulnerable:1b,Marker:1b,Motion:[0d,0d,0d],NoBasePlate:1b,NoGravity:1b,OnGround:0b,PortalCooldown:0,Pose:{},Rotation:[0f,0f],ShowArms:0b,Small:1b,Tags:[\"TypeChecked\",\"SystemEntity\",\"Spawner\"],Passengers:[{Tags:[\"TypeChecked\",\"SystemEntity\",\"SpawnerCore\",\"Spawner\"],Invulnerable:1b,DeathLootTable:\"empty\",CustomDisplayTile:1b,DisplayTile:\"chorus_plant\",DisplayData:0,DisplayOffset:12,MaxNearbyEntities:16s,RequiredPlayerRange:32s,SpawnCount:3s,Delay:-1s,MinSpawnDelay:100s,MaxSpawnDelay:700s,SpawnRange:6s,SpawnPotentials:[{Weight:1,Entity:{id:\"Villager\",Health:0f,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:20,ShowParticles:false}],Passengers:[{id:CaveSpider,CustomName:\"ﾍﾟｲﾙｽﾊﾟｲﾀﾞｰ\",Health:70f,Attributes:[{Name:\"generic.maxHealth\",Base:70d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.movementSpeed\",Base:0.4d},{Name:\"generic.attackDamage\",Base:1.0d}],Passengers:[{id:ThrownPotion,Potion:{id:\"minecraft:lingering_potion\",tag:{CustomPotionEffects:[{Id:19b,Amplifier:4b,Duration:200,ShowParticles:true}]}}}]},{id:\"Silverfish\",CustomName:\"ｳﾞｪﾉﾑ\",Silent:true,Health:250.0f,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:false},{Id:8b,Amplifier:17b,Duration:2147483647,ShowParticles:false},{Id:25b,Amplifier:-2b,Duration:2147483647,ShowParticles:false}],Attributes:[{Name:\"generic.maxHealth\",Base:250d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:1.0d},{Name:\"generic.movementSpeed\",Base:0.29d},{Name:\"generic.attackDamage\",Base:0.00d}],Passengers:[{id:\"ThrownEnderpearl\"},{id:AreaEffectCloud,CustomName:\"ｳﾞｪﾉﾑﾐｽﾄ\",Particle:\"mobSpell\",Color:52312,Duration:80,Radius:1.55f,ReapplicationDelay:10,Effects:[{Id:19b,Amplifier:60b,Duration:200,ShowParticles:true},{Id:4b,Amplifier:10b,Duration:200,ShowParticles:true}]}]},{id:Creeper,ExplosionRadius:0b,Fuse:5s,CustomName:\"ﾍﾟｲﾙｸﾘｰﾊﾟｰ\",Silent:true,Health:100.0f,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:true},{Id:10b,Amplifier:2b,Duration:1200,ShowParticles:true}],Attributes:[{Name:\"generic.maxHealth\",Base:100d},{Name:\"generic.followRange\",Base:48d},{Name:\"generic.knockbackResistance\",Base:1d},{Name:\"generic.movementSpeed\",Base:0.3d},{Name:\"generic.attackDamage\",Base:1.0d}],Passengers:[{id:AreaEffectCloud,CustomName:\"飾\",Particle:\"happyVillager\",Duration:80,Radius:0.001f,Effects:[]},{id:ThrownPotion,Potion:{id:\"minecraft:lingering_potion\",tag:{CustomPotionEffects:[{Id:19b,Amplifier:4b,Duration:200,ShowParticles:true}]}}}]}]}}],id:\"MinecartSpawner\"}]}",
+                  "id": "minecraft:command_block",
+                  "SuccessCount": 0,
+                  "TrackOutput": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
