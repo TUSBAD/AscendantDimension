@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:explosion",
-    "minecraft:player_explosion"
+    "minecraft:player_explosion",
+    "#entity:magic"
   ]
 }

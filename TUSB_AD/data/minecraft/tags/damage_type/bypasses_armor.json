@@ -17,6 +17,7 @@
     "sonic_boom",
     "falling_anvil",
     "falling_block",
-    "falling_stalactite"
+    "falling_stalactite",
+    "#entity:magic"
   ]
 }
