@@ -12,9 +12,6 @@ execute if entity @s[advancements={player:inventory_event/item_replace={carve_ha
 # くてぅるあー
 execute if entity @s[advancements={player:inventory_event/item_replace={cthulhu_lure=true}}] run function player:inventory_event/item_replace/cthulhu_lure
 
-# エクエリ
-execute if entity @s[advancements={player:inventory_event/item_replace={ex_elixir=true}}] run function player:inventory_event/item_replace/ekueri
-
 # エンド剣
 execute if entity @s[advancements={player:inventory_event/item_replace={end_of_end=true}}] run function player:inventory_event/item_replace/end_of_end
 
@@ -23,9 +20,6 @@ execute if entity @s[advancements={player:inventory_event/item_replace={high_lur
 
 # ネザライト全能
 execute if entity @s[advancements={player:inventory_event/item_replace={no_got_return=true}}] run function player:inventory_event/item_replace/no_god
-
-# レッキャロ
-execute if entity @s[advancements={player:inventory_event/item_replace={red_carrot=true}}] run function player:inventory_event/item_replace/red_carrot
 
 # TLE印判
 execute if entity @s[advancements={player:inventory_event/item_replace={tl_sign_stand=true}}] run function player:inventory_event/item_replace/tl_sign_stand
