@@ -25,13 +25,27 @@
       {
         "weight": 1,
         "data": {
-          "sound": "minecraft:music.nether.soul_sand_valley",
-          "min_delay": 0,
-          "max_delay": 2000,
-          "replace_current_music": true
+          "sound": {
+            "sound_id": "music:rubedo"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": false
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "adst:nether_music"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": false
         }
       }
     ],
+    "music_volume": 1.0,
     "particle": {
       "options": {
         "type": "minecraft:flame"

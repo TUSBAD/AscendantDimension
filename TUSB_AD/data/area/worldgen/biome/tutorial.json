@@ -15,13 +15,38 @@
       {
         "weight": 1,
         "data": {
-          "sound": "minecraft:music.overworld.forest",
-          "min_delay": 0,
-          "max_delay": 2000,
+          "sound": {
+            "sound_id": "adst:menu_music"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "adst:overworld_music"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:all_music"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       }
     ],
+    "music_volume": 0.25,
     "particle": {
       "options": {
         "type": "minecraft:enchant"

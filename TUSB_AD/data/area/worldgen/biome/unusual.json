@@ -11,17 +11,7 @@
     "water_fog_color": 3670016,
     "grass_color": 3684408,
     "foliage_color": 6357058,
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": "minecraft:music.nether.soul_sand_valley",
-          "min_delay": 0,
-          "max_delay": 2000,
-          "replace_current_music": true
-        }
-      }
-    ],
+    "music_volume": 0,
     "particle": {
       "options": {
         "type": "minecraft:sculk_soul"

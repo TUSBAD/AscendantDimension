@@ -16,21 +16,21 @@
         "weight": 1,
         "data": {
           "sound": {
-            "sound_id": "music:nether.nether_wastes_rare"
+            "sound_id": "adst:bullet_acceleration"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
-          "replace_current_music": true
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": false
         }
       },
       {
         "weight": 1,
         "data": {
           "sound": {
-            "sound_id": "music:end_boss"
+            "sound_id": "adst:victor_blade"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": false
         }
       }
