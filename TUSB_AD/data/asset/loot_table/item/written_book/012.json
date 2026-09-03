@@ -11,65 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "幸福のレシピ",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"幸福のレシピ\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "貴方をきっと",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "幸福",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "にさせる",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "超作業台",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "レシピブック！",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レシピを実践して貴方も",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "幸福",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "になりましょう！",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"貴方をきっと\",\"italic\":false,\"color\":\"white\"},{\"text\":\"幸福\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"にさせる\",\"italic\":false,\"color\":\"white\"},{\"text\":\"超作業台\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"レシピブック！\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レシピを実践して貴方も\",\"italic\":false,\"color\":\"white\"},{\"text\":\"幸福\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"になりましょう！\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:custom_data": {
                   "generation": 2,

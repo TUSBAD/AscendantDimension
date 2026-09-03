@@ -22,12 +22,12 @@ title @s title {"text":""}
 ###   +2   +4   +6                    +30
 ### +30% +60% +90%                  +450%
 
-attribute @s minecraft:attack_damage modifier remove 6765f63f-00a6-47e7-81ec-5647ceecf0f1
-attribute @s[scores={Syungoku=1}] minecraft:attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 50.0 add
-attribute @s[scores={Syungoku=2}] minecraft:attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 80.0 add
-attribute @s[scores={Syungoku=3}] minecraft:attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 100.0 add
-attribute @s[scores={Syungoku=4}] minecraft:attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 150.0 add
-attribute @s[scores={Syungoku=5}] minecraft:attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 200.0 add
+attribute @s minecraft:attack_damage modifier remove tusb:syungoku
+attribute @s[scores={Syungoku=1}] minecraft:attack_damage modifier add tusb:syungoku 50.0 add_value
+attribute @s[scores={Syungoku=2}] minecraft:attack_damage modifier add tusb:syungoku 80.0 add_value
+attribute @s[scores={Syungoku=3}] minecraft:attack_damage modifier add tusb:syungoku 100.0 add_value
+attribute @s[scores={Syungoku=4}] minecraft:attack_damage modifier add tusb:syungoku 150.0 add_value
+attribute @s[scores={Syungoku=5}] minecraft:attack_damage modifier add tusb:syungoku 200.0 add_value
 
 execute if score @s Syungoku matches 1 run data modify storage score_damage: Argument set value {Damage:100.00,DamageType:"Projectile"}
 execute if score @s Syungoku matches 2 run data modify storage score_damage: Argument set value {Damage:150.00,DamageType:"Projectile"}

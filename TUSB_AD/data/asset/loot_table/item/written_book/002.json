@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "超・作業台チュートリアルガイド",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"超・作業台チュートリアルガイド\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "初見でも分かる簡単なレシピのみを抜粋！",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "ラフト・スパーク氏が手掛ける",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "超・作業台チュートリアルガイド！",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"初見でも分かる簡単なレシピのみを抜粋！\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"ラフト・スパーク氏が手掛ける\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"超・作業台チュートリアルガイド！\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:custom_data": {
                   "generation": 2,

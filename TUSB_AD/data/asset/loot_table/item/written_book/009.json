@@ -11,60 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "もっと！？ 超・作業台上級者ガイド",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"もっと！？ 超・作業台上級者ガイド\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "あまりにレシピが難しいので一般受せず",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "結果、",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "絶版",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "になってしまった幻のレシピ本。",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "今では",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "極レア物",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "の超・作業台ハードガイド！！",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"あまりにレシピが難しいので一般受せず\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"結果、\",\"italic\":false,\"color\":\"red\"},{\"text\":\"絶版\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"になってしまった幻のレシピ本。\",\"italic\":false,\"color\":\"red\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"今では\",\"italic\":false,\"color\":\"red\"},{\"text\":\"極レア物\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"の超・作業台ハードガイド！！\",\"italic\":false,\"color\":\"red\"}]}"
                 ],
                 "minecraft:custom_data": {
                   "generation": 2,

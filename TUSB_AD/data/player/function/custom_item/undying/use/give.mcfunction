@@ -11,12 +11,12 @@
 # 手に持っているアイテムを他のスロットの移す(埋まってたらドロップして保護)
 data remove block 3500 0 3500 Items
 execute unless data storage item: {SelectedItem:{tag:{Undying:true}}} run data modify block 3500 0 3500 Items append from entity @s SelectedItem
-item replace entity @s weapon.mainhand with debug_stick{Clear:true}
+item replace entity @s weapon.mainhand with minecraft:debug_stick[minecraft:custom_data={Clear:true}]
 function player:custom_item/undying/use/get_slot
 execute if score $Slot TUSB matches 1..35 run loot give @s mine 3500 0 3500 debug_stick
 execute if score $Slot TUSB matches 36.. run loot spawn ~ ~ ~ mine 3500 0 3500 debug_stick
 execute if score $Slot TUSB matches 36.. run data modify entity @e[limit=1,sort=nearest,tag=!TypeChecked,type=item] {} merge value {NoGravity:true,Motion:[0.0,0.0,0.0],Fire:2s}
-clear @s debug_stick{Clear:true}
+clear @s minecraft:debug_stick[minecraft:custom_data~{Clear:true}]
 
 # 上書き
 data remove block 3500 0 3500 Items

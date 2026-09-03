@@ -11,50 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "このレシピがすごい！ 簡単作業台ガイド ①",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"このレシピがすごい！ 簡単作業台ガイド ①\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "誰でも簡単に作れる、",
-                        "italic": false,
-                        "color": "dark_aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "中級者",
-                        "italic": false,
-                        "color": "dark_aqua",
-                        "bold": true,
-                        "underlined": true
-                      },
-                      {
-                        "text": "向けの",
-                        "italic": false,
-                        "color": "dark_aqua",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "クラフトガイド記念すべき第一弾!!",
-                    "italic": false,
-                    "color": "dark_aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "更にどのような場所でも読めるように特別加工済み！",
-                    "italic": false,
-                    "color": "dark_aqua",
-                    "bold": true
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"誰でも簡単に作れる、\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"中級者\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true,\"underlined\":true},{\"text\":\"向けの\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}]}",
+                  "{\"text\":\"クラフトガイド記念すべき第一弾!!\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
+                  "{\"text\":\"更にどのような場所でも読めるように特別加工済み！\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}"
                 ],
                 "minecraft:custom_data": {
                   "generation": 3,
