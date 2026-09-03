@@ -1,0 +1,4 @@
+# TUSB_AD 1.21.4 パスエラー（USB名前空間は除外）
+# 未解決predicateリソースパス <- 参照元
+effects:fire_resistance <- skill:act/black_mage/cross_fire/schedule/hit (line 17)
+open:ender_chest <- area:personal_locker/open/ (line 6)

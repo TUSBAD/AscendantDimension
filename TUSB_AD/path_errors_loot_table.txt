@@ -1,0 +1,10 @@
+# TUSB_AD 1.21.4 パスエラー（USB名前空間は除外）
+# 未解決loot_tableリソースパス <- 参照元
+asset:item/armor/boots/outer_perfect <- enemy:skill/enemy/infinity_boss/neo/under_half/replace_item (line 11)
+asset:item/armor/chestplate/outer_perfect <- enemy:skill/enemy/infinity_boss/neo/under_half/replace_item (line 9)
+asset:item/armor/head/black_mage_soul <- asset:mob/0000.example/data/2.data_set (line 66)
+asset:item/armor/head/mamoru <- player:custom_item/armor_stand/sign (line 24)
+asset:item/armor/head/outer_perfect <- enemy:skill/enemy/infinity_boss/neo/under_half/replace_item (line 8)
+asset:item/armor/leggings/outer_perfect <- enemy:skill/enemy/infinity_boss/neo/under_half/replace_item (line 10)
+asset:item/helditem/offhand/calamity_for_forgotted_void <- enemy:skill/enemy/infinity_boss/neo/under_half/replace_item (line 12)
+asset:item/tool/bow/gale_bow <- asset:mob/0000.example/data/2.data_set (line 72)

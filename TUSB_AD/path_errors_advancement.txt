@@ -1,0 +1,26 @@
+# TUSB_AD 1.21.4 パスエラー（USB名前空間は除外）
+# advancementリソースパス -> 欠落参照
+advancement:area/skylands/boss/bosses -> advancement:skylands/elitemobs
+advancement:area/skylands/conquer -> advancement:skylands/root
+advancement:area/skylands/dimensionboss/dimensionboss -> advancement:skylands/elitemobs
+advancement:area/skylands/dimensionboss/sol -> advancement:skylands/dimensionboss/dimensionboss
+advancement:area/skylands/elitemobs -> advancement:skylands/root
+advancement:area/skylands/mechanic -> advancement:skylands/root
+advancement:skill_tree/warrior/root -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/nagi_harai_lv1 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/phalanx_lv1 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/phalanx_lv2 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/phalanx_lv3 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/phalanx_lv4 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier0/reactive_heal_lv1 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier1/war_prelude -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/tier2/blade_waltz -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/warrior_tier0 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/warrior_tier1 -> function template:set_if_job_data_determined
+advancement:skill_tree/warrior/warrior_tier2 -> function template:set_if_job_data_determined
+area:system/island_purified -> function area:system/island_purified
+core:difficulty/select -> function core:difficulty/select/
+enemy:spawn_eggs_to_spawner -> function enemy:reboot_spawner/interact
+entity:projectile_damage -> function entity:projectile_hit/hurt
+job:init_change_job -> function job:change/instant/trigger
+player:trigger/sleep_in_bed -> function player:trigger/slept_in_bed/
