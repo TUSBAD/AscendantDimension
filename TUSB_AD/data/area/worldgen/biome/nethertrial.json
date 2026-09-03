@@ -10,7 +10,48 @@
     "water_color": 16639,
     "water_fog_color": 3801282,
     "foliage_color": 16738816,
-    "grass_color": 16750848
+    "grass_color": 16750848,
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "adst:nether2"
+          },
+          "min_delay": 0,
+          "max_delay": 4800,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "adst:neon"
+          },
+          "min_delay": 0,
+          "max_delay": 4800,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.25,
+    "additions_sound": {
+      "sound": "minecraft:crimson_forest_shine",
+      "tick_chance": 0.005
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.0001
+    }
   },
   "spawners": {},
   "spawn_costs": {},

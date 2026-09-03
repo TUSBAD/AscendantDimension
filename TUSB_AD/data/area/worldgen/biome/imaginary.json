@@ -11,6 +11,7 @@
     "water_fog_color": 5076121,
     "grass_color": 7701650,
     "foliage_color": 7701650,
+    "ambient_sound": "minecraft:entity.warden.heartbeat",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
       "tick_delay": 4000,

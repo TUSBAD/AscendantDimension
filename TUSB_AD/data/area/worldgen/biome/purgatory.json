@@ -24,7 +24,7 @@
     ],
     "particle": {
       "options": {
-        "type": "minecraft:smoke"
+        "type": "minecraft:trial_spawner_detection"
       },
       "probability": 0.0001
     }
