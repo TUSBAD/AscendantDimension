@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "このレシピがすごい！ 簡単作業台ガイド ①",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"このレシピがすごい！ 簡単作業台ガイド ①\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },

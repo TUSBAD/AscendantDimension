@@ -1,34 +1,34 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:debug_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:debug_stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "name": [
-                                {
-                                    "font": "damage_pop:",
-                                    "score": {
-                                        "objective": "Damage",
-                                        "name": "@s"
-                                    },
-                                    "color": "#ff1a8c"
-                                },
-                                {
-                                    "font": "damage_pop:",
-                                    "text": " !",
-                                    "color": "#ff1a8c"
-                                }
-                            ]
-                        }
-                    ]
+                  "font": "damage_pop:",
+                  "score": {
+                    "objective": "Damage",
+                    "name": "@s"
+                  },
+                  "color": "#ff1a8c"
+                },
+                {
+                  "font": "damage_pop:",
+                  "text": " !",
+                  "color": "#ff1a8c"
                 }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

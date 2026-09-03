@@ -11,29 +11,20 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "全能ノ一",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"全能ノ一\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "終焉を倒した証。",
-                    "italic": true,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"終焉を倒した証。\",\"italic\":true,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:knockback": 10000,
-                    "minecraft:smite": 10000,
-                    "minecraft:flame": 10000,
+                    "minecraft:knockback": 255,
+                    "minecraft:smite": 255,
+                    "minecraft:flame": 255,
                     "minecraft:looting": 10,
-                    "minecraft:fire_aspect": 10000,
-                    "minecraft:sharpness": 10000,
-                    "minecraft:efficiency": 10000,
-                    "minecraft:unbreaking": 10000,
+                    "minecraft:fire_aspect": 255,
+                    "minecraft:sharpness": 255,
+                    "minecraft:efficiency": 255,
+                    "minecraft:unbreaking": 255,
                     "minecraft:fortune": 10
                   }
                 },

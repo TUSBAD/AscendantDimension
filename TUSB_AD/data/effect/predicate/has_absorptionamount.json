@@ -1,12 +1,10 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{AbsorptionAmount:0f}"
-      }
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{AbsorptionAmount:0f}"
     }
   }
-]
+}

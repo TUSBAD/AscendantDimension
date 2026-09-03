@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "殺戮の盾",
-                  "italic": false,
-                  "color": "white"
-                },
+                "minecraft:custom_name": "{\"text\":\"殺戮の盾\",\"italic\":false,\"color\":\"white\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "盾とは何だったのか…。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "いや、しかし攻撃は最大の防御とも…。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"盾とは何だったのか…。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"いや、しかし攻撃は最大の防御とも…。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -11,35 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "経験地.zip",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"経験地.zip\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾈｻﾞｰｽﾀｰ",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "64個",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      },
-                      {
-                        "text": "が圧縮されたもの。",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾈｻﾞｰｽﾀｰ\",\"italic\":false,\"color\":\"red\"},{\"text\":\"64個\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"が圧縮されたもの。\",\"italic\":false,\"color\":\"red\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -140,7 +114,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -470,7 +444,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"
@@ -773,7 +747,7 @@
                           {
                             "UUIDMost": 7,
                             "UUIDLeast": 1,
-                            "Amount": 1e-08,
+                            "Amount": 1E-08,
                             "AttributeName": "generic.maxHealth",
                             "Operation": 1,
                             "Name": "plus"
@@ -834,7 +808,8 @@
                       "Id": 6,
                       "Amplifier": 127
                     }
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

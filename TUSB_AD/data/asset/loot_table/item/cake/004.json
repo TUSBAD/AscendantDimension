@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "固形化ケーキ",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"固形化ケーキ\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "凄まじい悪臭が漂っている...。",
-                    "italic": false,
-                    "color": "dark_red"
-                  }
+                  "{\"text\":\"凄まじい悪臭が漂っている...。\",\"italic\":false,\"color\":\"dark_red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

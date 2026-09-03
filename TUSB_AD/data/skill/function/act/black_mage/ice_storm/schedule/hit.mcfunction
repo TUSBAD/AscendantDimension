@@ -6,7 +6,7 @@
 # 変更点: 対象の鈍足デバフのレベルを+1
 
 playsound minecraft:entity.item.break master @a[distance=..32] ~ ~ ~ 2 1.6 0.1
-particle minecraft:block minecraft:packed_ice ~ ~1 ~ 0.1 0.5 0.1 0.1 30 force
+particle block{block_state:{Name:"minecraft:packed_ice"}} ~ ~1 ~ 0.1 0.5 0.1 0.1 30 force
 
 ### マルチヒット防止のエフェクト
 effect give @s minecraft:saturation 10 127 true

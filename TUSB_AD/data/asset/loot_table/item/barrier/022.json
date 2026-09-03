@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "酒好きの村人",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"酒好きの村人\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "これはちょっとした警告じゃがな？ あの大橋を渡る時は",
-                    "italic": false,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "...盾を持って行ったほうがいいぞい。",
-                    "italic": false,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "死ぬ気がないのならな？ ここは命が軽すぎるわい...。",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"これはちょっとした警告じゃがな？ あの大橋を渡る時は\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"...盾を持って行ったほうがいいぞい。\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"死ぬ気がないのならな？ ここは命が軽すぎるわい...。\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ]
               }
             }

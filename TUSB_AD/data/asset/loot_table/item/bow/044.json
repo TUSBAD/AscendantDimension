@@ -11,34 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "cake",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "スィートショット ",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    },
-                    {
-                      "text": "cake",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"cake\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"スィートショット \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"cake\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true}]}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:punch": 20,

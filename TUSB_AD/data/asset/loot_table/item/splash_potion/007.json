@@ -11,104 +11,21 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "反逆の",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "意志",
-                      "italic": false,
-                      "color": "dark_red",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"反逆の\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"意志\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "貴方の覚悟次第",
-                    "italic": false,
-                    "color": "red",
-                    "bold": true,
-                    "underlined": true
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "効果:",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": " 移動速度 -100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " 跳躍力 -100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " 攻撃力 -100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " 攻撃速度-100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " 耐性 -100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " 幸運 -100",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": " 死の宣告 ",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "lol",
-                        "italic": false,
-                        "color": "red",
-                        "obfuscated": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "それは貴方と貴方の仲間の明日を創る。",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "それは貴方と貴方の仲間の明日を砕く。",
-                    "italic": false,
-                    "color": "dark_red",
-                    "bold": true
-                  }
+                  "{\"text\":\"貴方の覚悟次第\",\"italic\":false,\"color\":\"red\",\"bold\":true,\"underlined\":true}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"効果:\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\" 移動速度 -100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" 跳躍力 -100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" 攻撃力 -100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" 攻撃速度-100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" 耐性 -100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" 幸運 -100\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\" 死の宣告 \",\"italic\":false,\"color\":\"red\"},{\"text\":\"lol\",\"italic\":false,\"color\":\"red\",\"obfuscated\":true}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"それは貴方と貴方の仲間の明日を創る。\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"それは貴方と貴方の仲間の明日を砕く。\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

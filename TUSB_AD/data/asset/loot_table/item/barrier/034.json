@@ -11,11 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "仲良くしてくれたら…嬉しいです…えへへ…",
-                  "italic": false,
-                  "color": "blue"
-                }
+                "minecraft:custom_name": "{\"text\":\"仲良くしてくれたら…嬉しいです…えへへ…\",\"italic\":false,\"color\":\"blue\"}"
               }
             }
           ]

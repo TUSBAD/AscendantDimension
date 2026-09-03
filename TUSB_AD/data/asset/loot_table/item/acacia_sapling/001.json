@@ -11,13 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "トワイライトフォレスト",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "underlined": true,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"トワイライトフォレスト\",\"italic\":false,\"color\":\"dark_purple\",\"underlined\":true,\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:sharpness": 2,

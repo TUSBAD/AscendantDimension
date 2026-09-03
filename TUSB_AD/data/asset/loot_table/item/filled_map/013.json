@@ -11,24 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "酒売の地図",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"酒売の地図\",\"italic\":false,\"color\":\"yellow\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ヒヒヒ...そういえばこんな地図があるんじゃが？",
-                    "italic": false,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "どーしてもわからんかったら、譲ってもいいぞ？",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"ヒヒヒ...そういえばこんな地図があるんじゃが？\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"どーしてもわからんかったら、譲ってもいいぞ？\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:custom_data": {
                   "Decorations": [

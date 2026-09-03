@@ -11,16 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "超圧縮？",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"超圧縮？\",\"italic\":false}",
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
                       "id": "tusb_ad_items:legacy_0000000000000007_0000000000000001",
                       "type": "minecraft:max_health",
-                      "amount": 1e-08,
+                      "amount": 1E-08,
                       "operation": "add_multiplied_base"
                     }
                   ],

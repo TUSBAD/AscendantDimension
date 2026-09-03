@@ -11,59 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "444",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "夢幻と",
-                      "italic": false,
-                      "color": "blue"
-                    },
-                    {
-                      "text": "幻想",
-                      "italic": false,
-                      "color": "light_purple"
-                    },
-                    {
-                      "text": "の無双神珠",
-                      "italic": false,
-                      "color": "blue"
-                    },
-                    {
-                      "text": "444",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"444\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\"夢幻と\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"幻想\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の無双神珠\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"444\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "ある人は儚き野望を抱え",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "ある人は幻を彷徨い",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "ある人は護る力を求めた",
-                    "italic": false,
-                    "bold": true
-                  }
+                  "{\"text\":\"ある人は儚き野望を抱え\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"ある人は幻を彷徨い\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"ある人は護る力を求めた\",\"italic\":false,\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:infinity": 1892
+                    "minecraft:infinity": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

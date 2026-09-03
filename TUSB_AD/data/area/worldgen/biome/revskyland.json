@@ -10,19 +10,25 @@
     "water_fog_color": 2402304,
     "grass_color": 7667712,
     "foliage_color": 11409783,
-    "music": {
-      "sound": "minecraft:music.overworld.deep_dark",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.overworld.deep_dark",
+          "min_delay": 0,
+          "max_delay": 2000,
+          "replace_current_music": true
+        }
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:falling_dust",
         "block_state": {
           "Name": "minecraft:red_concrete_powder",
           "Properties": {}
-        }},
+        }
+      },
       "probability": 0.0001
     }
   },

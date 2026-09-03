@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "オレウス海晶貨",
-                  "italic": false,
-                  "color": "dark_aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"オレウス海晶貨\",\"italic\":false,\"color\":\"dark_aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "トカルトコルデの補助通貨",
-                    "italic": false
-                  }
+                  "{\"text\":\"トカルトコルデの補助通貨\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

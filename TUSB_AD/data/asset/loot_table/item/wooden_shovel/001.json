@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ハエたたき",
-                  "italic": false,
-                  "color": "dark_green"
-                },
+                "minecraft:custom_name": "{\"text\":\"ハエたたき\",\"italic\":false,\"color\":\"dark_green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "棕櫚の葉を編み込んで作られた",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "害虫駆除専用の道具。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"棕櫚の葉を編み込んで作られた\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"害虫駆除専用の道具。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
@@ -47,7 +35,7 @@
                   ],
                   "show_in_tooltip": false
                 },
-                "minecraft:repair_cost": -2147483648
+                "minecraft:repair_cost": 0
               }
             }
           ]

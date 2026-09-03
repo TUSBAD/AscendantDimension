@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "祈りの矢",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"祈りの矢\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "それ以外のものを癒す",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"ｱﾝﾃﾞｯﾄﾞに対し大ﾀﾞﾒｰｼﾞを与え、\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"それ以外のものを癒す\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:luck",

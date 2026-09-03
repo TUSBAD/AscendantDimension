@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "深淵の盾",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"深淵の盾\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "深淵なる者を倒した証。",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"深淵なる者を倒した証。\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

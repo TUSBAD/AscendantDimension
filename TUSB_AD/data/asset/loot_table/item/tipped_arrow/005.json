@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "シアンプリズム",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"シアンプリズム\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "刺さった者の移動力を並にした後、鈍足にする。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"刺さった者の移動力を並にした後、鈍足にする。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

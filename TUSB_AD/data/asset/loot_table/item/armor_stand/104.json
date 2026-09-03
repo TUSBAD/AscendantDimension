@@ -11,56 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "転移の印板",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"転移の印板\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用者の真上にあるﾌﾞﾛｯｸまで",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "一瞬で移動",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "することができる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "看板が壊れない限り",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "半永久的",
-                        "italic": false,
-                        "color": "light_purple",
-                        "underlined": true
-                      },
-                      {
-                        "text": "に使用できる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用者の真上にあるﾌﾞﾛｯｸまで\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"一瞬で移動\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"することができる。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"看板が壊れない限り\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"半永久的\",\"italic\":false,\"color\":\"light_purple\",\"underlined\":true},{\"text\":\"に使用できる。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -71,7 +27,8 @@
                     "PermanentStand",
                     "VerticalTeleporter",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

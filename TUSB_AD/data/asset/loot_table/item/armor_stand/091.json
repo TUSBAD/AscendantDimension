@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "額縁無敵の印判",
-                  "italic": false,
-                  "color": "gold",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"額縁無敵の印判\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "設置後1回、周囲16立方mの額縁を",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "無敵化して爆発から守る",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "倉庫爆破の悲劇から救います！",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"設置後1回、周囲16立方mの額縁を\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"無敵化して爆発から守る\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"倉庫爆破の悲劇から救います！\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -42,7 +25,8 @@
                     "SignStand",
                     "Ifinv",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

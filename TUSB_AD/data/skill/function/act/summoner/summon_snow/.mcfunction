@@ -6,12 +6,12 @@
 # 変更点: 3分で消える
 
 ### 演出
-playsound xp_chime master @a[distance=..16] ~ ~ ~ 1 1.4 0
+playsound minecraft:xp_chime master @a[distance=..16] ~ ~ ~ 1 1.4 0
 particle minecraft:instant_effect ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force
 
 ### スノーを召喚
 ### リメイク：HP少しアップ
-summon minecraft:snow_golem ~ ~ ~ {PortalCooldown:3600,Tags:["CooldownRequired"],CustomName:'"(ペット)スノー"',CustomNameVisible:true,ArmorItems:[{id:"minecraft:snowball",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:255s},{id:"minecraft:blast_protection",lvl:10s}]}},{},{},{id:"minecraft:snowball",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],Attributes:[{Name:"minecraft:generic.follow_range",Base:32d},{Name:"minecraft:generic.movement_speed",Base:0.32d},{Name:"minecraft:generic.armor",Base:10d},{Name:"generic.max_health",Base:50d}],Health:50f,Team:FriendlyTeam,DeathLootTable:"minecraft:empty"}
+summon minecraft:snow_golem ~ ~ ~ {PortalCooldown:3600,Tags:["CooldownRequired"],CustomName:'"(ペット)スノー"',CustomNameVisible:true,ArmorItems:[{id:"minecraft:snowball",Count:1b,tag:{Enchantments:[{id:"minecraft:feather_falling",lvl:255s},{id:"minecraft:blast_protection",lvl:10s}]}},{},{},{id:"minecraft:snowball",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],Attributes:[{Name:"minecraft:follow_range",Base:32d},{Name:"minecraft:movement_speed",Base:0.32d},{Name:"minecraft:armor",Base:10d},{Name:"minecraft:max_health",Base:50d}],Health:50f,Team:FriendlyTeam,DeathLootTable:"minecraft:empty"}
 
 # ### スノーの判定を有効化
 # function skill:act/archer/decel_trap/schedule/

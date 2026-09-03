@@ -11,49 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "TUSB",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "人間卒業の翼",
-                      "italic": false,
-                      "color": "dark_purple"
-                    },
-                    {
-                      "text": "NEO!",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"TUSB\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\"人間卒業の翼\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"NEO!\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "魂の共鳴 Ⅹ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "虹の加護 Ⅹ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "TUSB NEO攻略記念",
-                    "italic": false,
-                    "underlined": true
-                  }
+                  "{\"text\":\"魂の共鳴 Ⅹ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"虹の加護 Ⅹ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"TUSB NEO攻略記念\",\"italic\":false,\"underlined\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:thorns": 32767,
+                    "minecraft:thorns": 255,
                     "minecraft:protection": 20,
                     "minecraft:depth_strider": 10,
                     "minecraft:respiration": 10,

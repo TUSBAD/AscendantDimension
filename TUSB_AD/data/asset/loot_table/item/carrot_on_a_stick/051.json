@@ -11,61 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "yudgfiua",
-                      "italic": false,
-                      "color": "dark_blue",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "破滅",
-                      "italic": false,
-                      "color": "dark_blue"
-                    },
-                    {
-                      "text": "と",
-                      "italic": false,
-                      "color": "aqua"
-                    },
-                    {
-                      "text": "星創の神杖",
-                      "italic": false,
-                      "color": "blue"
-                    },
-                    {
-                      "text": "yudgfiua",
-                      "italic": false,
-                      "color": "dark_blue",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"yudgfiua\",\"italic\":false,\"color\":\"dark_blue\",\"obfuscated\":true},{\"text\":\"破滅\",\"italic\":false,\"color\":\"dark_blue\"},{\"text\":\"と\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"星創の神杖\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"yudgfiua\",\"italic\":false,\"color\":\"dark_blue\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "生物を根絶し大地を破壊する",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "星を創り生物を蘇らせる",
-                    "italic": false,
-                    "color": "blue"
-                  },
-                  {
-                    "text": "神に創られた最高峰の杖",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"生物を根絶し大地を破壊する\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"星を創り生物を蘇らせる\",\"italic\":false,\"color\":\"blue\"}",
+                  "{\"text\":\"神に創られた最高峰の杖\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:sharpness": 20,
                     "minecraft:fire_aspect": 5,
-                    "minecraft:infinity": 666
+                    "minecraft:infinity": 255
                   },
                   "show_in_tooltip": false
                 },

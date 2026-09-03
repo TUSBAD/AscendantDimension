@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "数の・・・圧倒的ごりおし！！",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"数の・・・圧倒的ごりおし！！\",\"italic\":false}",
                 "minecraft:repair_cost": 1000000000
               }
             }

@@ -11,21 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "イカちゃん抱き枕",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"イカちゃん抱き枕\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "とても大切にされていると分かる抱き枕。",
-                    "italic": false
-                  },
-                  {
-                    "text": "大きくて少し歩きづらい。",
-                    "italic": false
-                  }
+                  "{\"text\":\"とても大切にされていると分かる抱き枕。\",\"italic\":false}",
+                  "{\"text\":\"大きくて少し歩きづらい。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -5,9 +5,9 @@
 
 # 変更点: ダメージの増加
 
-playsound entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 0.5 0.1
+playsound minecraft:entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 0.5 0.1
 ### 4097?
-particle minecraft:block minecraft:magenta_stained_glass ~ ~0.5 ~ 6 0.2 6 0.1 300 force @a[distance=..64]
+particle block{block_state:{Name:"minecraft:magenta_stained_glass"}} ~ ~0.5 ~ 6 0.2 6 0.1 300 force @a[distance=..64]
 
 ### 75 -> 125 -> 200
 execute if score @s ActivatedSkill matches 5230 run data modify storage score_damage: Argument set value {Damage:75.00,DamageType:"Projectile"}

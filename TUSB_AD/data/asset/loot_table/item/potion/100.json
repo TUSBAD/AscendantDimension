@@ -11,79 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ドクダヨ茶",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ドクダヨ茶\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "飲むと",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "毒状態等",
-                        "italic": false,
-                        "color": "dark_green"
-                      },
-                      {
-                        "text": "になるが、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "体内の毒",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "を中和し、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "わずかに",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "腹が満たされる",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "ケンコー飲料である。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "尚、味は薄い。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"飲むと\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"毒状態等\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"になるが、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"体内の毒\",\"italic\":false,\"color\":\"green\"},{\"text\":\"を中和し、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"わずかに\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"腹が満たされる\",\"italic\":false,\"color\":\"red\"}]}",
+                  "{\"text\":\"ケンコー飲料である。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"尚、味は薄い。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
-                  "potion": "minecraft:empty",
+                  "potion": "minecraft:water",
                   "custom_effects": [
                     {
                       "id": "minecraft:poison",

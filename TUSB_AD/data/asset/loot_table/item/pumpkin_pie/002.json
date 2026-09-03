@@ -11,11 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "待ち合わせの木",
-                  "italic": false,
-                  "color": "dark_green"
-                }
+                "minecraft:custom_name": "{\"text\":\"待ち合わせの木\",\"italic\":false,\"color\":\"dark_green\"}"
               }
             }
           ]

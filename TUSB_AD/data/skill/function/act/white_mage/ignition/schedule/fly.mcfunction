@@ -1,6 +1,6 @@
 #> skill:act/white_mage/ignition/schedule/fly
 
-playsound entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.3 2 0.05
+playsound minecraft:entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.3 2 0.05
 particle end_rod ~ ~ ~ 3 3 3 0.1 3 force
 particle flame ~ ~ ~ 3 3 3 0.1 3 force
 

@@ -11,23 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "鬼弓ゲボルングン",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"鬼弓ゲボルングン\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "巨人を滅ぼす事を目的として作られた弓",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"巨人を滅ぼす事を目的として作られた弓\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:unbreaking": -1,
                     "minecraft:power": 8,
                     "minecraft:punch": 2
                   }

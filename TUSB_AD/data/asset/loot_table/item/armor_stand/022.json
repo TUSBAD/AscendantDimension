@@ -11,121 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "粉砕の印板：",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "蜘蛛の巣",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"粉砕の印板：\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"蜘蛛の巣\",\"italic\":false,\"color\":\"white\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "設置して使用すると、看板から",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ちょっとの",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "範囲にある",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "蜘蛛の巣",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      },
-                      {
-                        "text": "を",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "粉砕/回収",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "できる。看板が壊れない限り",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "半永久的",
-                        "italic": false,
-                        "color": "light_purple",
-                        "underlined": true
-                      },
-                      {
-                        "text": "に使用できる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "※",
-                        "italic": true,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ネザー",
-                        "italic": true,
-                        "color": "red"
-                      },
-                      {
-                        "text": "や",
-                        "italic": true,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "エンド",
-                        "italic": true,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "では使用出来ない。",
-                        "italic": true,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"設置して使用すると、看板から\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ちょっとの\",\"italic\":false,\"color\":\"green\"},{\"text\":\"範囲にある\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"蜘蛛の巣\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"を\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"粉砕/回収\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"できる。看板が壊れない限り\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"半永久的\",\"italic\":false,\"color\":\"light_purple\",\"underlined\":true},{\"text\":\"に使用できる。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"※\",\"italic\":true,\"color\":\"yellow\"},{\"text\":\"ネザー\",\"italic\":true,\"color\":\"red\"},{\"text\":\"や\",\"italic\":true,\"color\":\"yellow\"},{\"text\":\"エンド\",\"italic\":true,\"color\":\"dark_purple\"},{\"text\":\"では使用出来ない。\",\"italic\":true,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -138,7 +30,8 @@
                     "WebBreaker",
                     "OverOnly",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

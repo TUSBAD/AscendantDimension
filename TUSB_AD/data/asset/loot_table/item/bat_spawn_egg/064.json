@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "微レ苗の印玉",
-                  "italic": false,
-                  "color": "dark_green"
-                },
+                "minecraft:custom_name": "{\"text\":\"微レ苗の印玉\",\"italic\":false,\"color\":\"dark_green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "何かが入っている。",
-                    "italic": false
-                  },
-                  {
-                    "text": "苗木が出ることも…？",
-                    "italic": false
-                  }
+                  "{\"text\":\"何かが入っている。\",\"italic\":false}",
+                  "{\"text\":\"苗木が出ることも…？\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -125,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -455,7 +445,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

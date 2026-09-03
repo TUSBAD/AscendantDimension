@@ -11,47 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "放火魔の",
-                      "italic": false,
-                      "color": "dark_red",
-                      "bold": true
-                    },
-                    {
-                      "text": "薦め",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"放火魔の\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\"薦め\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "これから毎日",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "島",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      },
-                      {
-                        "text": "を焼こうぜ？",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"これから毎日\",\"italic\":false,\"color\":\"red\"},{\"text\":\"島\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"を焼こうぜ？\",\"italic\":false,\"color\":\"red\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

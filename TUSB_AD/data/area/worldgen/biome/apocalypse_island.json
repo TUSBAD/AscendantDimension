@@ -12,7 +12,7 @@
     "grass_color": 2490424,
     "foliage_color": 1114137,
     "ambient_sound": {
-      "sound_id": "minecraft:ambient.soul_sand_valley_wind"
+      "sound_id": "minecraft:ambient.soul_sand_valley.loop"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",

@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "剣士の魂",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"剣士の魂\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 7
@@ -42,7 +37,6 @@
                 },
                 "minecraft:repair_cost": 1000000000,
                 "minecraft:profile": {
-                  "id": "0-0-ca-0-1",
                   "properties": [
                     {
                       "name": "textures",

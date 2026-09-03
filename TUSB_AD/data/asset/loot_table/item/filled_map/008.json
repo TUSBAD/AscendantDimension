@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "地下世界",
-                  "italic": false,
-                  "color": "blue",
-                  "underlined": true
-                }
+                "minecraft:custom_name": "{\"text\":\"地下世界\",\"italic\":false,\"color\":\"blue\",\"underlined\":true}"
               }
             }
           ]

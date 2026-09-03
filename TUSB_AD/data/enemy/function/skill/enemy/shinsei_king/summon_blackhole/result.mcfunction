@@ -6,7 +6,7 @@
 
 # playsound
 # 効果発動してるのがわかりやすいからね
-playsound entity.enderman.teleport hostile @a[distance=..100] ~ ~ ~ 1 1
+playsound minecraft:entity.enderman.teleport hostile @a[distance=..100] ~ ~ ~ 1 1
 playsound minecraft:entity.wither.shoot hostile @a[distance=..100] ~ ~ ~ 0.25 2
 # 引き寄せます
 execute as @e[type=marker,tag=Blackhole] run tp @a[distance=..7,tag=Boss_Fighting] @s

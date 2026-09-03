@@ -11,147 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "苦労人の魂",
-                  "italic": false,
-                  "color": "blue"
-                },
+                "minecraft:custom_name": "{\"text\":\"苦労人の魂\",\"italic\":false,\"color\":\"blue\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "仕事",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "育児",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "学業",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "恋愛",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "様々な",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "苦労人の魂",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "が込められた印板",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "落ちている一番近くの",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｱｲﾃﾑ",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "に魂が刻まれるが",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "その",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｱｲﾃﾑ",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "の個数や",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｴﾝﾁｬﾝﾄ",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "は上書きされてしまう",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾚｱﾘﾃｨ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★☆",
-                        "italic": false,
-                        "color": "aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"仕事\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"育児\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"学業\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"恋愛\",\"italic\":false,\"color\":\"light_purple\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"様々な\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"苦労人の魂\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"が込められた印板\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"落ちている一番近くの\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"に魂が刻まれるが\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の個数や\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｴﾝﾁｬﾝﾄ\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"は上書きされてしまう\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾚｱﾘﾃｨ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★☆\",\"italic\":false,\"color\":\"aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:entity_data": {
@@ -162,7 +31,8 @@
                     "SignStand",
                     "PermanentStand",
                     "KurouStand"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

@@ -7,7 +7,7 @@ scoreboard players operation @s ActivatedSkill = @s InstantSkillA
 scoreboard players operation @s MPConsumption = @s InstantCostA
 
 tellraw @s[scores={ActivatedSkill=..0}] {"text":"スキルを設定していなかった！","bold":true,"color":"yellow"}
-execute if entity @s[scores={ActivatedSkill=..0}] run playsound block.fire.extinguish master @s ~ ~ ~ 0.5 2
+execute if entity @s[scores={ActivatedSkill=..0}] run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 0.5 2
 scoreboard players reset @s[scores={ActivatedSkill=..0}] ActivatedSkill
 
 ### MPチェック

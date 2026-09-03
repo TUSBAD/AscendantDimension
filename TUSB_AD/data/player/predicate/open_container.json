@@ -1,13 +1,12 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type_specific": {
-        "type": "player",
-        "advancements": {
-          "close_detector:open": true
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "player",
+      "advancements": {
+        "close_detector:open": true
       }
     }
   }
-  
+}

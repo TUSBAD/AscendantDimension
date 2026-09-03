@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:end_crystal",
-      "nbt": "{}"
+      "id": "minecraft:end_crystal"
     },
     "title": [
       {

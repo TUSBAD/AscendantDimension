@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "美味しいガソリン",
-                  "italic": false,
-                  "color": "red"
-                },
+                "minecraft:custom_name": "{\"text\":\"美味しいガソリン\",\"italic\":false,\"color\":\"red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "おいしいよ",
-                    "italic": false
-                  }
+                  "{\"text\":\"おいしいよ\",\"italic\":false}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:strong_strength",

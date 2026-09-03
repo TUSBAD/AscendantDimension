@@ -1,57 +1,57 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:magma_block"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "%1$s = %2$s %3$s = %4$s",
-                "color": "aqua",
-                "bold": true,
-                "with": [
-                    {
-                        "translate": "Sol",
-                        "color": "yellow",
-                        "obfuscated": true,
-                        "bold": true
-                    },
-                    {
-                        "translate": "守護者",
-                        "color": "gold",
-                        "obfuscated": false,
-                        "bold": true
-                    },
-                    {
-                        "translate": "ソル",
-                        "color": "gold",
-                        "obfuscated": false,
-                        "bold": true
-                    },
-                    {
-                        "translate": "Sol",
-                        "color": "yellow",
-                        "obfuscated": true,
-                        "bold": true
-                    }
-                ]
-            }
-        ],
-        "description": {
-            "translate": "かつて通常世界を守護していた者",
-            "color": "gray"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": true
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
     },
-    "parent": "advancement:skylands/dimensionboss/dimensionboss",
-    "criteria": {
-        "enter": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "%1$s = %2$s %3$s = %4$s",
+        "color": "aqua",
+        "bold": true,
+        "with": [
+          {
+            "translate": "Sol",
+            "color": "yellow",
+            "obfuscated": true,
+            "bold": true
+          },
+          {
+            "translate": "守護者",
+            "color": "gold",
+            "obfuscated": false,
+            "bold": true
+          },
+          {
+            "translate": "ソル",
+            "color": "gold",
+            "obfuscated": false,
+            "bold": true
+          },
+          {
+            "translate": "Sol",
+            "color": "yellow",
+            "obfuscated": true,
+            "bold": true
+          }
+        ]
+      }
+    ],
+    "description": {
+      "translate": "かつて通常世界を守護していた者",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:skylands/dimensionboss/dimensionboss",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

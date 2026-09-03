@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "眠くならない薬",
-                  "italic": false,
-                  "color": "dark_aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"眠くならない薬\",\"italic\":false,\"color\":\"dark_aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "容量用法を守って正しくお使いください。",
-                    "italic": true,
-                    "color": "dark_blue"
-                  }
+                  "{\"text\":\"容量用法を守って正しくお使いください。\",\"italic\":true,\"color\":\"dark_blue\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

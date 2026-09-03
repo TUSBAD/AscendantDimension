@@ -10,4 +10,4 @@ tp @a[distance=..128] @s
 
 effect give @a[distance=..32] minecraft:instant_damage 60 7
 
-playsound block.portal.trigger hostile @a[distance=..64] ~ ~ ~ 0.75 2 1
+playsound minecraft:block.portal.trigger hostile @a[distance=..64] ~ ~ ~ 0.75 2 1

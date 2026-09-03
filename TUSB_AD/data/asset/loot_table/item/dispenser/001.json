@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "DamageTrap",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"DamageTrap\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "アドベンチャー用のトラップに使うもの。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"アドベンチャー用のトラップに使うもの。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:block_entity_data": {
                   "CustomName": "§4§lDamageTrap",

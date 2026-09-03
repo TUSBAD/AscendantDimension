@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "バイオレットプリズム",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"バイオレットプリズム\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "刺さった者の防御力を下げた後、呪う。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"刺さった者の防御力を下げた後、呪う。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

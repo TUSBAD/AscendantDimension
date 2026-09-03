@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "採掘速度低下+吐き気+ウィザー",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"採掘速度低下+吐き気+ウィザー\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "破壊時ポーション落下スポナー",
-                    "italic": false
-                  }
+                  "{\"text\":\"破壊時ポーション落下スポナー\",\"italic\":false}"
                 ],
                 "minecraft:block_entity_data": {
                   "conditionMet": 1,

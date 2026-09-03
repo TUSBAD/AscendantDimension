@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "穢れたブラード氷晶貨",
-                  "italic": false,
-                  "color": "gray",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"穢れたブラード氷晶貨\",\"italic\":false,\"color\":\"gray\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "トカルトコルデの現宝通貨であった物。",
-                    "italic": false
-                  },
-                  {
-                    "text": "瘴気により穢れているため、浄化する必要がある。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"トカルトコルデの現宝通貨であった物。\",\"italic\":false}",
+                  "{\"text\":\"瘴気により穢れているため、浄化する必要がある。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

@@ -11,52 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "取引",
-                      "italic": false,
-                      "color": "green",
-                      "bold": true
-                    },
-                    {
-                      "text": "の印板(",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    },
-                    {
-                      "text": "羊毛 → ｴﾒﾗﾙﾄﾞ",
-                      "italic": false,
-                      "color": "green",
-                      "bold": true
-                    },
-                    {
-                      "text": ")",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"取引\",\"italic\":false,\"color\":\"green\",\"bold\":true},{\"text\":\"の印板(\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"羊毛 → ｴﾒﾗﾙﾄﾞ\",\"italic\":false,\"color\":\"green\",\"bold\":true},{\"text\":\")\",\"italic\":false,\"color\":\"white\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "それと引き換えにｱｲﾃﾑを入手する事が出来る印板。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "取引内容：羊毛32個をｴﾒﾗﾙﾄﾞ1個と交換する。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたｱｲﾃﾑがあった場合、\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"それと引き換えにｱｲﾃﾑを入手する事が出来る印板。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"取引内容：羊毛32個をｴﾒﾗﾙﾄﾞ1個と交換する。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -68,7 +27,8 @@
                     "PermanentStand",
                     "WoolTrader",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

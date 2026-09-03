@@ -11,33 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "浄化の杖",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"浄化の杖\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "アンデッドに高いダメージを与える。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "アンデッド以外にはダメージを与えられない。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "※攻撃力変動効果無効",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"アンデッドに高いダメージを与える。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"アンデッド以外にはダメージを与えられない。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"※攻撃力変動効果無効\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

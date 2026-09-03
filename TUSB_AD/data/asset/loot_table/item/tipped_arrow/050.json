@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "12.7x99mm NATO弾",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"12.7x99mm NATO弾\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "対人性能に特化した大口径弾薬",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "30-06ライフル弾のマズルエナジーは2,000～3000Feet･Pound",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"対人性能に特化した大口径弾薬\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"30-06ライフル弾のマズルエナジーは2,000～3000Feet･Pound\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

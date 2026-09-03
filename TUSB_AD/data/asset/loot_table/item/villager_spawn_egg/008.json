@@ -11,71 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "ゆっくりの",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    },
-                    {
-                      "text": "卵",
-                      "italic": false,
-                      "color": "red"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ゆっくりの\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"卵\",\"italic\":false,\"color\":\"red\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "村人",
-                        "italic": false,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "の品種改良により完成した",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "卵",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "繁殖力を犠牲に",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "鬼の耐久力",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "を持つ",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "大きくなるまで責任持って育ててね！",
-                    "italic": true,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"村人\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"の品種改良により完成した\",\"italic\":false,\"color\":\"white\"},{\"text\":\"卵\",\"italic\":false,\"color\":\"red\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"繁殖力を犠牲に\",\"italic\":false,\"color\":\"white\"},{\"text\":\"鬼の耐久力\",\"italic\":false,\"color\":\"red\"},{\"text\":\"を持つ\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"大きくなるまで責任持って育ててね！\",\"italic\":true,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

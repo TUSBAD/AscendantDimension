@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ミラーアーマー",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ミラーアーマー\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 5,

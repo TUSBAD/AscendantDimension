@@ -1,51 +1,51 @@
 {
-    "criteria": {
-        "picnic": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "interaction",
-                    "nbt": "{Tags:[Picnic]}"
-                }
-            }
-        },
-        "casual": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "interaction",
-                    "nbt": "{Tags:[Casual]}"
-                }
-            }
-        },
-        "another": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "interaction",
-                    "nbt": "{Tags:[Another]}"
-                }
-            }
-        },
-        "ascendant": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "interaction",
-                    "nbt": "{Tags:[ascendant]}"
-                }
-            }
+  "criteria": {
+    "picnic": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Picnic]}"
         }
+      }
     },
-    "requirements": [
-        [
-            "another",
-            "casual",
-            "ascendant",
-            "picnic"
-        ]
-    ],
-    "rewards": {
-        "function": "core:difficulty/select/"
+    "casual": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Casual]}"
+        }
+      }
+    },
+    "another": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Another]}"
+        }
+      }
+    },
+    "ascendant": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[ascendant]}"
+        }
+      }
     }
+  },
+  "requirements": [
+    [
+      "another",
+      "casual",
+      "ascendant",
+      "picnic"
+    ]
+  ],
+  "rewards": {
+    "function": "core:difficulty/select/"
+  }
 }

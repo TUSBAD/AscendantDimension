@@ -11,65 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "Space",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "-",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "۞",
-                      "italic": false,
-                      "color": "light_purple"
-                    },
-                    {
-                      "text": "-ネビュラ・パン-",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "۞",
-                      "italic": false,
-                      "color": "light_purple"
-                    },
-                    {
-                      "text": "-",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "Space",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"Space\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\"-\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"۞\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"-ネビュラ・パン-\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"۞\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"-\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"Space\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "星雲の力が宿ったパン。",
-                    "italic": false,
-                    "color": "light_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "特殊効果は無いが、とても美味しい。",
-                    "italic": false,
-                    "color": "light_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"星雲の力が宿ったパン。\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
+                  "{\"text\":\"特殊効果は無いが、とても美味しい。\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

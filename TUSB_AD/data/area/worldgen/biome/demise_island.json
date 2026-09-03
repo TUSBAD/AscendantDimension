@@ -15,13 +15,13 @@
       "sound_id": "minecraft:ambient.warped_forest_help"
     },
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest_here",
+      "sound": "minecraft:ambient.warped_forest.loop",
       "tick_delay": 1000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest_enish",
+      "sound": "minecraft:ambient.warped_forest.loop",
       "tick_chance": 0.01
     },
     "music": [

@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "庭師のハサミ",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"庭師のハサミ\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "主に邪魔な葉や",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "蜘蛛の巣等を取り除く際に",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "重宝する殺傷能力無きハサミ。",
-                    "italic": false,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"主に邪魔な葉や\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"蜘蛛の巣等を取り除く際に\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"重宝する殺傷能力無きハサミ。\",\"italic\":false,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

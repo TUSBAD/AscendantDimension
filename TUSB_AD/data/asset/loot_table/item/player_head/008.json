@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "七色",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"七色\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "nanairo24",
-                  "id": "437cd577-c0fd-44f2-987f-130a4692b0bc",
                   "properties": [
                     {
                       "name": "textures",

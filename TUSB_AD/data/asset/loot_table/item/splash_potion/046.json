@@ -11,50 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "究極拷問安眠スペシャル",
-                      "italic": false,
-                      "color": "dark_red",
-                      "bold": true
-                    },
-                    {
-                      "text": "NEO",
-                      "italic": false,
-                      "color": "green",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"究極拷問安眠スペシャル\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\"NEO\",\"italic\":false,\"color\":\"green\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "歩かせません、ジャンプさせません",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "攻撃させません、死なせません",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "壊させません、その他etc",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "惨たらしい効果を施す。",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "ポーションというより呪いに近い。",
-                    "italic": true,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"歩かせません、ジャンプさせません\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"攻撃させません、死なせません\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"壊させません、その他etc\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"惨たらしい効果を施す。\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"ポーションというより呪いに近い。\",\"italic\":true,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:strong_harming",

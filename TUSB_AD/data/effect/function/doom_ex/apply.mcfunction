@@ -3,7 +3,7 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-playsound item.trident.thunder player @s ~ ~ ~ 5 1 1
+playsound minecraft:item.trident.thunder player @s ~ ~ ~ 5 1 1
 title @s times 0t 20t 0t
 tellraw @s [{"translate":"%1$sは%2$sを受けた！","color":"red","with":[{"selector":"@s"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.DoomEX"}]}]
 function #oh_my_dat:please

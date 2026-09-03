@@ -11,63 +11,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "異空間転送",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "カカシ",
-                      "italic": false,
-                      "color": "white"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"異空間転送\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true},{\"text\":\"カカシ\",\"italic\":false,\"color\":\"white\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "異空間転送",
-                        "italic": false,
-                        "color": "dark_purple",
-                        "underlined": true
-                      },
-                      {
-                        "text": "するアーマースタンド",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "アップデート記念アイテム。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "ただのかかしですな",
-                    "italic": false,
-                    "color": "white",
-                    "strikethrough": true
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"異空間転送\",\"italic\":false,\"color\":\"dark_purple\",\"underlined\":true},{\"text\":\"するアーマースタンド\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"アップデート記念アイテム。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"ただのかかしですな\",\"italic\":false,\"color\":\"white\",\"strikethrough\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
                 },
-                "minecraft:repair_cost": -1000000000,
+                "minecraft:repair_cost": 0,
                 "minecraft:entity_data": {
                   "Tags": [
                     "SkillMob",
                     "ikuu"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

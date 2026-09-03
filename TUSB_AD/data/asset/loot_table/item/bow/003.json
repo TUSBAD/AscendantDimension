@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "梓弓",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"梓弓\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:power": 4,

@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ダイヤモンドは砕けない",
-                  "italic": false,
-                  "color": "aqua",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ダイヤモンドは砕けない\",\"italic\":false,\"color\":\"aqua\",\"underlined\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:sharpness": 100,

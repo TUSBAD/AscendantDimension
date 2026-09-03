@@ -12,4 +12,4 @@ title @s title {"text":""}
 
 scoreboard players operation @s MP < @s MPMax
 execute at @s run particle enchant ~ ~ ~ 0.5 0.5 0.5 0 200
-execute at @s run playsound entity.item.pickup master @a[distance=..16] ~ ~ ~ 1 0.7 0
+execute at @s run playsound minecraft:entity.item.pickup master @a[distance=..16] ~ ~ ~ 1 0.7 0

@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-execute at @s run playsound item.flintandsteel.use master @a[distance=..16] ~ ~ ~ 1 1.2 0
+execute at @s run playsound minecraft:item.flintandsteel.use master @a[distance=..16] ~ ~ ~ 1 1.2 0
 # タグ判別追加
 execute as @e[distance=0,tag=!GhastCannon,type=#lib:arrow,limit=1] run function skill:act/archer/ghast_cannon/apply/arrow
 

@@ -11,90 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "レーションの印板",
-                  "italic": false,
-                  "color": "light_purple"
-                },
+                "minecraft:custom_name": "{\"text\":\"レーションの印板\",\"italic\":false,\"color\":\"light_purple\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "クリックして食べるレーション(ｳｪﾊｰｽ製)",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "３つの味が",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "楽",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "し",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "め",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "る",
-                        "italic": false,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "属性：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "連続型",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"クリックして食べるレーション(ｳｪﾊｰｽ製)\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"３つの味が\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"楽\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"し\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"め\",\"italic\":false,\"color\":\"green\"},{\"text\":\"る\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"属性：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"連続型\",\"italic\":false,\"color\":\"dark_aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

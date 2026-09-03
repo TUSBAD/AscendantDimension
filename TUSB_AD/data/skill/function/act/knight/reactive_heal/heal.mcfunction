@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound xp_chime master @a[distance=..16] ~ ~ ~ 1 1.88 0
+playsound minecraft:xp_chime master @a[distance=..16] ~ ~ ~ 1 1.88 0
 particle heart ~ ~1 ~ 0.5 0.5 0.5 0 30 force
 
 execute if score @s ActivatedSkill matches 1230 run scoreboard players add @s HealCount 4

@@ -25,7 +25,7 @@
     execute if data storage item: Item[0] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from storage item: Item[]
     tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory","storage": "oh_my_dat:","color": "white"}
     #data remove storage item: Items[{id:"minecraft:stone_sword",tag:{Tomb:1b}}]
-    clear @s stone_sword{Tomb:1b}
+    clear @s stone_sword[minecraft:custom_data~{Tomb:1b}]
 
 # 墓情報をディスプレイに刻む
     data modify storage item: Items set from entity @s Inventory

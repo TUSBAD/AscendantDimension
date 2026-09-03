@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound entity.blaze.shoot master @a[distance=..32] ~ ~100 ~ 0.1 1.2 0.1
+playsound minecraft:entity.blaze.shoot master @a[distance=..32] ~ ~100 ~ 0.1 1.2 0.1
 particle flame ~ ~ ~ 2.0 0.0 0.0 0.0 10 force
 particle flame ~ ~ ~ 0.0 2.0 0.0 0.0 10 force
 particle flame ~ ~ ~ 0.0 0.0 2.0 0.0 10 force

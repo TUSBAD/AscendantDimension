@@ -11,62 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "解結晶の印板",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"解結晶の印板\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "に貼り付けて起動すると",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "Adv.ｴﾘｱ",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      },
-                      {
-                        "text": "の",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "色ガラス",
-                        "italic": false,
-                        "color": "red",
-                        "bold": true
-                      },
-                      {
-                        "text": "で覆われている",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "封印を解除する事ができる。",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾚｯﾄﾞｽﾄｰﾝﾌﾞﾛｯｸ\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"に貼り付けて起動すると\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"Adv.ｴﾘｱ\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"の\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"色ガラス\",\"italic\":false,\"color\":\"red\",\"bold\":true},{\"text\":\"で覆われている\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"封印を解除する事ができる。\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -84,7 +33,8 @@
                     "SignStand",
                     "RedSealBreaker",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

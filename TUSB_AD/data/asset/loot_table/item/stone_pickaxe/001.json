@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ウールピッケル",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ウールピッケル\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "耐久性はお察し下さい。",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"耐久性はお察し下さい。\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

@@ -45,7 +45,7 @@
                     }
                   ]
                 },
-                "minecraft:repair_cost": -2147483648
+                "minecraft:repair_cost": 0
               }
             }
           ]

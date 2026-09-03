@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "テーブルマウンテン",
-                  "italic": false,
-                  "color": "dark_green",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"テーブルマウンテン\",\"italic\":false,\"color\":\"dark_green\",\"underlined\":true}",
                 "minecraft:custom_data": {
                   "Decorations": [
                     {

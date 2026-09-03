@@ -44,17 +44,17 @@ data modify storage asset: mob.DeathLootTable set value "empty"
 
 ### Attributes
 # 最大体力
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:650}
+data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:650}
 # (近接)攻撃力
-data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:50}
+data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:50}
 # 移動速度
-data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.25}
+data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.25}
 # 防具値
 # data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:20}
 # 防具強度
 # data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:12}
 # ノックバック耐性(0~1)
-data modify storage asset: mob.Attributes append value {Name:generic.knockback_resistance, Base:1}
+data modify storage asset: mob.Attributes append value {Name:minecraft:knockback_resistance, Base:1}
 # 索敵範囲
 # data modify storage asset: mob.Attributes append value {Name:generic.follow_range, Base:64}
 # 攻撃のノックバック(0~5)

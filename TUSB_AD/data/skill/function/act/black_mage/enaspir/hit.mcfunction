@@ -17,6 +17,6 @@ scoreboard players operation @s MP += _ TUSB
 scoreboard players operation @s MP < @s MPMax
 
 scoreboard players remove @s EnAspir 4
-title @s actionbar [{"text":"⇧","color":"purple"},{"score":{"name":"_","objective": "TUSB"},"bold":true,"color":"dark_aqua"},{"text":"⇧","color":"purple"}]
+title @s actionbar [{"text":"⇧","color":"dark_purple"},{"score":{"name":"_","objective": "TUSB"},"bold":true,"color":"dark_aqua"},{"text":"⇧","color":"dark_purple"}]
 execute if score @s EnAspir matches ..0 run tellraw @s {"text":"エンアスピルの効果が切れた。","color":"gold"}
 execute if score @s EnAspir matches ..0 run scoreboard players reset @s EnAspir

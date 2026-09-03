@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "霊弓",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"霊弓\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:power": 15

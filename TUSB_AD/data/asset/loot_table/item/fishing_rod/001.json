@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "高級疑似餌付き釣り竿",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"高級疑似餌付き釣り竿\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "本物と見紛うほど精巧な疑似餌の付いた釣り竿",
-                    "italic": false,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"本物と見紛うほど精巧な疑似餌の付いた釣り竿\",\"italic\":false,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -11,80 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "PIG",
-                      "italic": false,
-                      "color": "yellow",
-                      "bold": true
-                    },
-                    {
-                      "text": "アームチェア",
-                      "italic": false,
-                      "color": "blue"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"PIG\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"アームチェア\",\"italic\":false,\"color\":\"blue\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "630万回",
-                        "italic": false,
-                        "color": "light_purple",
-                        "underlined": true
-                      },
-                      {
-                        "text": "の",
-                        "italic": false,
-                        "color": "white",
-                        "underlined": true
-                      },
-                      {
-                        "text": "テスト",
-                        "italic": false,
-                        "color": "light_purple",
-                        "underlined": true
-                      },
-                      {
-                        "text": "にも耐えた",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "設置型の椅子",
-                        "italic": false,
-                        "color": "gold"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "人参棒",
-                        "italic": false,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "を使う事で向きを変えられます",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "※使い方は正しく守ってください",
-                    "italic": false,
-                    "color": "red",
-                    "bold": true
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"630万回\",\"italic\":false,\"color\":\"light_purple\",\"underlined\":true},{\"text\":\"の\",\"italic\":false,\"color\":\"white\",\"underlined\":true},{\"text\":\"テスト\",\"italic\":false,\"color\":\"light_purple\",\"underlined\":true},{\"text\":\"にも耐えた\",\"italic\":false,\"color\":\"white\"},{\"text\":\"設置型の椅子\",\"italic\":false,\"color\":\"gold\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"人参棒\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"を使う事で向きを変えられます\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"※使い方は正しく守ってください\",\"italic\":false,\"color\":\"red\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

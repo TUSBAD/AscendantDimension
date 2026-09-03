@@ -12,7 +12,7 @@
     "grass_color": 10066329,
     "foliage_color": 7566195,
     "ambient_sound": {
-      "sound_id": "minecraft:ambient.warped_forest_enish"
+      "sound_id": "minecraft:ambient.warped_forest.loop"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
@@ -21,7 +21,7 @@
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.basalt_deltas_twist",
+      "sound": "minecraft:ambient.basalt_deltas.loop",
       "tick_chance": 0.001
     },
     "music": [

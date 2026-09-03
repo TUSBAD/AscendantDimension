@@ -35,8 +35,7 @@
     []
   ],
   "starts": [],
-  "spawners": {
-  },
+  "spawners": {},
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "has_precipitation": false,

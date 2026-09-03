@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ぴっける",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ぴっける\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "XpickelX",
-                  "id": "925acbd2-d1de-4bf6-a692-cfc38bf7e6a0",
                   "properties": [
                     {
                       "name": "textures",

@@ -4,5 +4,5 @@
 #
 # @within function effect:doom/clear
 
-playsound block.beacon.power_select player @s ~ ~ ~ 5 1.1 1
+playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 5 1.1 1
 tellraw @s [{"translate":"%1$sは%2$sから逃れた！","color":"green","with":[{"selector":"@s"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Doom"}]}]

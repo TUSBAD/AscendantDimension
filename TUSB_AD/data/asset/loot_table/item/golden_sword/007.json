@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "血塗られた金装飾の剣",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"血塗られた金装飾の剣\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:looting": 20

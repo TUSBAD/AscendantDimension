@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ぷらなりあ",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ぷらなりあ\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "puranaria07",
-                  "id": "5500ab1f-8283-4c3c-b00e-eaef39eeea5f",
                   "properties": [
                     {
                       "name": "textures",

@@ -1,10 +1,9 @@
 {
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-      "effects": {
-        "minecraft:fire_resistance": {}
-      }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:fire_resistance": {}
     }
   }
-  
+}

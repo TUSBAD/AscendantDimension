@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "すごいつりざお",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"すごいつりざお\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "すごい。",
-                    "italic": false
-                  }
+                  "{\"text\":\"すごい。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

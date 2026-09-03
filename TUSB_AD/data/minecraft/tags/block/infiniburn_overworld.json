@@ -1,4 +1,6 @@
 {
-    "replace":false,
-    "values": ["#block:unbreakable"]
+  "replace": false,
+  "values": [
+    "#block:unbreakable"
+  ]
 }

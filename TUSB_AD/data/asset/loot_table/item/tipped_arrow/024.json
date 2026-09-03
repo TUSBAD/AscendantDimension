@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "氷塊の矢",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"氷塊の矢\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "凍気で追加ﾀﾞﾒｰｼﾞを与え、束縛する。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"凍気で追加ﾀﾞﾒｰｼﾞを与え、束縛する。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

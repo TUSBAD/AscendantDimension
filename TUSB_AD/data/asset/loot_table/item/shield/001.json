@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ミステリアスな盾",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ミステリアスな盾\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "弱い者ほど強くなれる不思議な盾。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"弱い者ほど強くなれる不思議な盾。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

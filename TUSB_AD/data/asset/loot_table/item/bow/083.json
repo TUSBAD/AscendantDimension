@@ -11,264 +11,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "m",
-                      "italic": false,
-                      "color": "black",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "a",
-                      "italic": false,
-                      "color": "dark_blue",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "d",
-                      "italic": false,
-                      "color": "dark_green",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "o",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "k",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "a ",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "m",
-                      "italic": false,
-                      "color": "gold",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "a",
-                      "italic": false,
-                      "color": "gray",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "g",
-                      "italic": false,
-                      "color": "dark_gray",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "i",
-                      "italic": false,
-                      "color": "dark_gray",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "k",
-                      "italic": false,
-                      "color": "blue",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "a",
-                      "italic": false,
-                      "color": "green",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "s",
-                      "italic": false,
-                      "color": "aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "a",
-                      "italic": false,
-                      "color": "red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "i",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "k",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "o",
-                      "italic": false,
-                      "color": "white",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "u",
-                      "italic": false,
-                      "color": "black",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"m\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true},{\"text\":\"a\",\"italic\":false,\"color\":\"dark_blue\",\"obfuscated\":true},{\"text\":\"d\",\"italic\":false,\"color\":\"dark_green\",\"obfuscated\":true},{\"text\":\"o\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\"k\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\"a \",\"italic\":false,\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\"m\",\"italic\":false,\"color\":\"gold\",\"obfuscated\":true},{\"text\":\"a\",\"italic\":false,\"color\":\"gray\",\"obfuscated\":true},{\"text\":\"g\",\"italic\":false,\"color\":\"dark_gray\",\"obfuscated\":true},{\"text\":\"i\",\"italic\":false,\"color\":\"dark_gray\",\"obfuscated\":true},{\"text\":\"k\",\"italic\":false,\"color\":\"blue\",\"obfuscated\":true},{\"text\":\"a\",\"italic\":false,\"color\":\"green\",\"obfuscated\":true},{\"text\":\"s\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true},{\"text\":\"a\",\"italic\":false,\"color\":\"red\",\"obfuscated\":true},{\"text\":\"i\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\"k\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\"o\",\"italic\":false,\"color\":\"white\",\"obfuscated\":true},{\"text\":\"u\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "1",
-                        "italic": false,
-                        "color": "black",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "全ての宇宙、過去と未来の全ての",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "majo",
-                        "italic": false,
-                        "color": "blue",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "をこの手で。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "2",
-                        "italic": false,
-                        "color": "black",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "さぁ！叶えてよ ",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "Incubator",
-                        "italic": false,
-                        "color": "dark_red",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "！",
-                        "italic": false,
-                        "color": "dark_red"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "3",
-                        "italic": false,
-                        "color": "black",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "あなたたちの祈りを絶望で終わらせたりしない。",
-                        "italic": false,
-                        "color": "gold"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "4",
-                        "italic": false,
-                        "color": "black",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "因果は全て、私が受け止める。",
-                        "italic": false,
-                        "color": "gold"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "madoka",
-                        "italic": false,
-                        "color": "aqua",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "もう絶望する必要なんて・・・無い！",
-                        "italic": false,
-                        "color": "dark_purple",
-                        "underlined": true,
-                        "bold": true
-                      },
-                      {
-                        "text": "magika",
-                        "italic": false,
-                        "color": "aqua",
-                        "obfuscated": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  }
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"1\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true},{\"text\":\"全ての宇宙、過去と未来の全ての\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"majo\",\"italic\":false,\"color\":\"blue\",\"obfuscated\":true},{\"text\":\"をこの手で。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"2\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true},{\"text\":\"さぁ！叶えてよ \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"Incubator\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\"！\",\"italic\":false,\"color\":\"dark_red\"}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"3\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true},{\"text\":\"あなたたちの祈りを絶望で終わらせたりしない。\",\"italic\":false,\"color\":\"gold\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"4\",\"italic\":false,\"color\":\"black\",\"obfuscated\":true},{\"text\":\"因果は全て、私が受け止める。\",\"italic\":false,\"color\":\"gold\"}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"madoka\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true},{\"text\":\"もう絶望する必要なんて・・・無い！\",\"italic\":false,\"color\":\"dark_purple\",\"underlined\":true,\"bold\":true},{\"text\":\"magika\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true}]}",
+                  "{\"text\":\"\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:sharpness": 999,
-                    "minecraft:smite": 999,
-                    "minecraft:bane_of_arthropods": 999,
-                    "minecraft:knockback": 999,
-                    "minecraft:fire_aspect": 999,
-                    "minecraft:fortune": 999,
-                    "minecraft:power": 999,
-                    "minecraft:flame": 999,
-                    "minecraft:infinity": 999
+                    "minecraft:sharpness": 255,
+                    "minecraft:smite": 255,
+                    "minecraft:bane_of_arthropods": 255,
+                    "minecraft:knockback": 255,
+                    "minecraft:fire_aspect": 255,
+                    "minecraft:fortune": 255,
+                    "minecraft:power": 255,
+                    "minecraft:flame": 255,
+                    "minecraft:infinity": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

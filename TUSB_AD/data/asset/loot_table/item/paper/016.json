@@ -11,14 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "あかしけ やなげ 緋色の鳥よ くさはみ ねはみ けをのばせ ",
-                  "italic": true,
-                  "color": "red",
-                  "bold": true,
-                  "underlined": true,
-                  "strikethrough": true
-                }
+                "minecraft:custom_name": "{\"text\":\"あかしけ やなげ 緋色の鳥よ くさはみ ねはみ けをのばせ \",\"italic\":true,\"color\":\"red\",\"bold\":true,\"underlined\":true,\"strikethrough\":true}"
               }
             }
           ]

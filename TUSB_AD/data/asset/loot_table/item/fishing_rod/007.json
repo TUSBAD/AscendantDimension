@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "いいつりざお",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"いいつりざお\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "いい。",
-                    "italic": false
-                  }
+                  "{\"text\":\"いい。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -11,60 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "レーザー照射装置",
-                      "italic": true,
-                      "color": "red"
-                    },
-                    {
-                      "text": "(巡回型)",
-                      "italic": false,
-                      "color": "aqua"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レーザー照射装置\",\"italic\":true,\"color\":\"red\"},{\"text\":\"(巡回型)\",\"italic\":false,\"color\":\"aqua\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "周りへ",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "光",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "を放つブロック",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "巡回型",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "：時計回りに回転し続けます",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"周りへ\",\"italic\":false,\"color\":\"white\"},{\"text\":\"光\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"を放つブロック\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"巡回型\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"：時計回りに回転し続けます\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

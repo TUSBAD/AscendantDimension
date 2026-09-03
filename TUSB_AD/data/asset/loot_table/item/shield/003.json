@@ -11,21 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "氷の盾",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"氷の盾\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "簡単に復元できる素材でできた盾。",
-                    "italic": false
-                  },
-                  {
-                    "text": "足元が濡れやすく注意が必要。",
-                    "italic": false
-                  }
+                  "{\"text\":\"簡単に復元できる素材でできた盾。\",\"italic\":false}",
+                  "{\"text\":\"足元が濡れやすく注意が必要。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

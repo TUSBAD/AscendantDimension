@@ -11,74 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "積み上げの印板",
-                  "italic": false,
-                  "color": "gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"積み上げの印板\",\"italic\":false,\"color\":\"gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "上空に向けて",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "砂利",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "を設置する",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ﾜｰﾅﾝｶｽｺﾞｲ-",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "奴を召喚する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "ただし、代償として付近の者はハートを",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "３個減らされる。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"上空に向けて\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"砂利\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を設置する\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ﾜｰﾅﾝｶｽｺﾞｲ-\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"奴を召喚する。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"ただし、代償として付近の者はハートを\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"３個減らされる。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

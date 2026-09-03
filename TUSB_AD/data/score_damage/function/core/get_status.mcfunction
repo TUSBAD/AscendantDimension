@@ -13,10 +13,10 @@
     execute if data storage score_damage: Argument{BypassAbsorption:0b} store result score #AbsorptionAmount ScoreDamageCore run data get entity @s AbsorptionAmount 10000
     execute if data storage score_damage: Argument{BypassAbsorption:1b} run scoreboard players set #AbsorptionAmount ScoreDamageCore 0
 # 防御力
-    execute if data storage score_damage: Argument{BypassArmor:0b} store result score #DefensePoints ScoreDamageCore run attribute @s generic.armor get 100
+    execute if data storage score_damage: Argument{BypassArmor:0b} store result score #DefensePoints ScoreDamageCore run attribute @s minecraft:armor get 100
     execute if data storage score_damage: Argument{BypassArmor:1b} run scoreboard players set #DefensePoints ScoreDamageCore 0
 # 防具強度
-    execute if data storage score_damage: Argument{BypassArmor:0b} store result score #Toughness ScoreDamageCore run attribute @s generic.armor_toughness get 100
+    execute if data storage score_damage: Argument{BypassArmor:0b} store result score #Toughness ScoreDamageCore run attribute @s minecraft:armor_toughness get 100
     execute if data storage score_damage: Argument{BypassArmor:1b} run scoreboard players set #Toughness ScoreDamageCore 0
 # EPFが未設定または-1以下の時Protectionを参照
     execute store result score #EPF ScoreDamageCore run data get storage score_damage: Argument.EPF

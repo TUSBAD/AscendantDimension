@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_wool",
-      "nbt": "{Enchantments:[{}]}"
+      "id": "minecraft:white_wool"
     },
     "title": [
       {

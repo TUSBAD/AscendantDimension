@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "無",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"無\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:sharpness": 4,

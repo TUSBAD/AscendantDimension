@@ -11,68 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "レ",
-                      "italic": false,
-                      "color": "red",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "ジ",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "ェ",
-                      "italic": false,
-                      "color": "yellow",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "ン",
-                      "italic": false,
-                      "color": "green",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "ダ",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "リ",
-                      "italic": false,
-                      "color": "blue",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "ー",
-                      "italic": false,
-                      "color": "light_purple",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "コンポーネント",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true,
-                      "underlined": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レ\",\"italic\":false,\"color\":\"red\",\"bold\":true,\"underlined\":true},{\"text\":\"ジ\",\"italic\":false,\"color\":\"gold\",\"bold\":true,\"underlined\":true},{\"text\":\"ェ\",\"italic\":false,\"color\":\"yellow\",\"bold\":true,\"underlined\":true},{\"text\":\"ン\",\"italic\":false,\"color\":\"green\",\"bold\":true,\"underlined\":true},{\"text\":\"ダ\",\"italic\":false,\"color\":\"aqua\",\"bold\":true,\"underlined\":true},{\"text\":\"リ\",\"italic\":false,\"color\":\"blue\",\"bold\":true,\"underlined\":true},{\"text\":\"ー\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true,\"underlined\":true},{\"text\":\"コンポーネント\",\"italic\":false,\"color\":\"white\",\"bold\":true,\"underlined\":true}]}",
                 "minecraft:enchantments": {
                   "levels": {}
                 }

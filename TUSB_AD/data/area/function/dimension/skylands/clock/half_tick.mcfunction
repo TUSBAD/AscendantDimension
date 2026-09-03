@@ -4,7 +4,7 @@
 #
 # なんかいいの思いついたら書き足してください。
 
-execute as @a at @s run playsound block.comparator.click block @s ~ ~100 ~ 0.5 1 0.5
+execute as @a at @s run playsound minecraft:block.comparator.click block @s ~ ~100 ~ 0.5 1 0.5
 execute as @a[limit=1,sort=nearest] at @e[tag=Enemy,limit=1,sort=random] run execute summon minecraft:lightning_bolt run teleport @s ~ 3000 ~
 worldborder warning distance 20000
 

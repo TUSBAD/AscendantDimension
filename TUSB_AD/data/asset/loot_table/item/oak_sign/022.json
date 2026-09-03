@@ -11,80 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ｻﾝﾄﾞﾊﾞｯｸの印板",
-                  "italic": false,
-                  "color": "white"
-                },
+                "minecraft:custom_name": "{\"text\":\"ｻﾝﾄﾞﾊﾞｯｸの印板\",\"italic\":false,\"color\":\"white\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "「",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "右ｸﾘｯｸ",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "」で殴ればﾌｼｷﾞ!",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "看板を解体する事ができる！",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "破壊すると看板に使う材料が",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "手に入るぞ！ ",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ﾖｶｯﾀﾈ!",
-                        "italic": false,
-                        "color": "aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"「\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"右ｸﾘｯｸ\",\"italic\":false,\"color\":\"white\"},{\"text\":\"」で殴ればﾌｼｷﾞ!\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"看板を解体する事ができる！\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"破壊すると看板に使う材料が\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"手に入るぞ！ \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ﾖｶｯﾀﾈ!\",\"italic\":false,\"color\":\"aqua\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

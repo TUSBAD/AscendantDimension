@@ -11,43 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ファンタズマ",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ファンタズマ\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "神を",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      },
-                      {
-                        "text": "殺す",
-                        "italic": false,
-                        "color": "red",
-                        "bold": true
-                      },
-                      {
-                        "text": "為に神によって作られた",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "白く幻想的な防具。",
-                    "italic": false,
-                    "color": "white",
-                    "bold": true
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"神を\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"殺す\",\"italic\":false,\"color\":\"red\",\"bold\":true},{\"text\":\"為に神によって作られた\",\"italic\":false,\"color\":\"white\",\"bold\":true}]}",
+                  "{\"text\":\"白く幻想的な防具。\",\"italic\":false,\"color\":\"white\",\"bold\":true}"
                 ],
                 "minecraft:dyed_color": {
                   "rgb": 16777215

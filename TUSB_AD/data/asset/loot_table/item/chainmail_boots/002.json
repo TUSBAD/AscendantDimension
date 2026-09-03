@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "たぁびん",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"たぁびん\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "一、水中で速い",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "一、陸上でもちょっと速い",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "一、金曜日はカレーのひ",
-                    "italic": false,
-                    "color": "aqua"
-                  }
+                  "{\"text\":\"一、水中で速い\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"一、陸上でもちょっと速い\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"一、金曜日はカレーのひ\",\"italic\":false,\"color\":\"aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

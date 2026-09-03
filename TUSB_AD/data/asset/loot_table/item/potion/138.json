@@ -11,62 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "TikTak O Beer：チクタク・オー・酒",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"TikTak O Beer：チクタク・オー・酒\",\"italic\":false,\"color\":\"gray\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "蒸気機関",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "の発達した世界で作られた蒸留酒。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "何からのはずみで",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "迷い込んだ。",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "アルコール度数が高い",
-                        "italic": false,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "ので吐き気に注意。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"蒸気機関\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"の発達した世界で作られた蒸留酒。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"何からのはずみで\",\"italic\":false,\"color\":\"white\"},{\"text\":\"迷い込んだ。\",\"italic\":false,\"color\":\"light_purple\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"アルコール度数が高い\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"ので吐き気に注意。\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

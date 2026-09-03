@@ -11,39 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "クラウディア探索用ピッケル",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"クラウディア探索用ピッケル\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "クラウディア",
-                        "italic": true,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "に存在する",
-                        "italic": true,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "一部のブロックを破壊できる",
-                    "italic": true,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"クラウディア\",\"italic\":true,\"color\":\"aqua\"},{\"text\":\"に存在する\",\"italic\":true,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"一部のブロックを破壊できる\",\"italic\":true,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:sharpness": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:can_break": {

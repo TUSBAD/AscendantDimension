@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "狂気の斧",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"狂気の斧\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "高い攻撃力を誇るが、",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "最大体力が低下する。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"高い攻撃力を誇るが、\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"最大体力が低下する。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

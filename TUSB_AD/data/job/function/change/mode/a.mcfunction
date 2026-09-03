@@ -20,7 +20,7 @@ execute if score _ ChangeSkill matches 0..39 if score @s Job matches 6 run funct
 
 ### もしスキル設定が変更されたなら、メッセージを出す
 execute if score _ ChangeSkill matches 1000.. run tellraw @s [{"text":"スキルを","color":"green"},{"nbt":"skill_slot_title","storage":"skill:","interpret":true},"に設定しました。"]
-execute if score _ ChangeSkill matches 1000.. run playsound item.flintandsteel.use master @s ~ ~ ~ 1 0.65 0
+execute if score _ ChangeSkill matches 1000.. run playsound minecraft:item.flintandsteel.use master @s ~ ~ ~ 1 0.65 0
 execute if score _ ChangeSkill matches 1000.. run scoreboard players operation @s ShowSkill = _ ChangeSkill
 execute if score _ ChangeSkill matches 1000.. run function job:set_display/show/
 

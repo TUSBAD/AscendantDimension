@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "君が無事、冒険を終えることが出来ることを祈ってるよ。",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                }
+                "minecraft:custom_name": "{\"text\":\"君が無事、冒険を終えることが出来ることを祈ってるよ。\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}"
               }
             }
           ]

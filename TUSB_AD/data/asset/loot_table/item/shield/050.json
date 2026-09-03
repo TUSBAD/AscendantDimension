@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ミラーシールド",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ミラーシールド\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:unbreaking": 1,
@@ -56,7 +51,7 @@
                   ]
                 },
                 "minecraft:hide_additional_tooltip": {},
-                "minecraft:repair_cost": -2147483648,
+                "minecraft:repair_cost": 0,
                 "minecraft:base_color": "light_gray",
                 "minecraft:banner_patterns": [
                   {

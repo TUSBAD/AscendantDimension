@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "王水",
-                  "italic": false,
-                  "color": "gold"
-                },
+                "minecraft:custom_name": "{\"text\":\"王水\",\"italic\":false,\"color\":\"gold\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "投げつける薬。",
-                    "italic": true,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "これを浴びた者は、",
-                    "italic": true,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "強力な酸で視力と体力を奪われる。",
-                    "italic": true,
-                    "color": "dark_red"
-                  }
+                  "{\"text\":\"投げつける薬。\",\"italic\":true,\"color\":\"dark_red\"}",
+                  "{\"text\":\"これを浴びた者は、\",\"italic\":true,\"color\":\"dark_red\"}",
+                  "{\"text\":\"強力な酸で視力と体力を奪われる。\",\"italic\":true,\"color\":\"dark_red\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

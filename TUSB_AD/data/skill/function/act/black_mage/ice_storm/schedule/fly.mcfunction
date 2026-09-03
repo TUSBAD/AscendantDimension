@@ -5,8 +5,8 @@
 
 # 変更点: ダメージを微増
 
-playsound block.anvil.land master @a[distance=..32] ~ ~100 ~ 0.05 2 0.05
-particle minecraft:block minecraft:packed_ice ~ ~ ~ 0.5 0.5 0.5 0.1 10 force @a[distance=..64]
+playsound minecraft:block.anvil.land master @a[distance=..32] ~ ~100 ~ 0.05 2 0.05
+particle block{block_state:{Name:"minecraft:packed_ice"}} ~ ~ ~ 0.5 0.5 0.5 0.1 10 force @a[distance=..64]
 
 ### アイスストームは水を凍らせる
 fill ~-2 ~-2 ~-2 ~2 ~2 ~2 minecraft:frosted_ice replace minecraft:water[level=0]

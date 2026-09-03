@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "デイドラ憑依の印板",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"デイドラ憑依の印板\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "なんと！デイドラに！なれるのである！",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"なんと！デイドラに！なれるのである！\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -33,7 +24,8 @@
                     "SignStand",
                     "deidora",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

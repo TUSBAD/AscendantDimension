@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "白玉",
-                  "italic": false,
-                  "color": "white"
-                },
+                "minecraft:custom_name": "{\"text\":\"白玉\",\"italic\":false,\"color\":\"white\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "残念！",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"残念！\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:can_place_on": {
                   "predicates": [
@@ -119,7 +111,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -452,7 +444,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

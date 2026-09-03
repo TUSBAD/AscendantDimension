@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "サファイア",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"サファイア\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "bluesafia",
-                  "id": "5514078c-8e0a-46fa-8059-dc7c17266f14",
                   "properties": [
                     {
                       "name": "textures",

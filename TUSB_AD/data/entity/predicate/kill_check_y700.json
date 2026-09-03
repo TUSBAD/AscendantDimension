@@ -1,20 +1,18 @@
-[
-  {
-    "condition": "minecraft:all_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "location": {
-            "position": {
-              "y": {
-                "min": -700
-              }
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "y": {
+              "min": -700
             }
           }
         }
       }
-    ]
-  }
-]
+    }
+  ]
+}

@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:barrier",
-      "nbt": "{}"
+      "id": "minecraft:barrier"
     },
     "title": [
       {

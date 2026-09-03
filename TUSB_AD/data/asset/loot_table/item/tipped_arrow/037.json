@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "脆弱の矢",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"脆弱の矢\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "刺さった者を脆弱にし、接地時に傷つく",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"刺さった者を脆弱にし、接地時に傷つく\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

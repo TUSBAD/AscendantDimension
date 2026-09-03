@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "丸石の盾",
-                  "italic": false,
-                  "color": "dark_gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"丸石の盾\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:unbreaking": 1

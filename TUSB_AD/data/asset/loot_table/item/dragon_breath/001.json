@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ハルの息吹",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ハルの息吹\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ドラゴンブレスの代わりとしても使える...はず",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"ドラゴンブレスの代わりとしても使える...はず\",\"italic\":false,\"color\":\"gray\"}"
                 ]
               }
             }

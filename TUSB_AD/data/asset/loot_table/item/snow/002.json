@@ -11,51 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "天  使  の",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    },
-                    {
-                      "text": "悪",
-                      "italic": false,
-                      "color": "black",
-                      "bold": true
-                    },
-                    {
-                      "text": "夢  枕",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"天  使  の\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"悪\",\"italic\":false,\"color\":\"black\",\"bold\":true},{\"text\":\"夢  枕\",\"italic\":false,\"color\":\"white\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "希少なパールをふんだんに使用した",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "超柔軟ビーズ枕。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "どんな姿勢でもぴったりフィットし",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "究極の安眠をお届けします。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"希少なパールをふんだんに使用した\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"超柔軟ビーズ枕。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"どんな姿勢でもぴったりフィットし\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"究極の安眠をお届けします。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

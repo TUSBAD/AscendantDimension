@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "暴風の矢",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"暴風の矢\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "上空に吹き飛ばし、叩きつける",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"上空に吹き飛ばし、叩きつける\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:swiftness",

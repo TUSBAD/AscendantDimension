@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 8 0.8 0
+playsound minecraft:entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 8 0.8 0
 particle explosion ~ ~ ~ 2.0 0 2.0 0 30 force
 
 execute if score @s Choyaku matches 2..7 run data modify storage score_damage: Argument set value {Damage:15.00,DamageType:"Projectile"}

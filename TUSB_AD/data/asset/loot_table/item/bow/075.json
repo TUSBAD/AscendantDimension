@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エンド・オブ・エンド",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"エンド・オブ・エンド\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "復活を始めたエンド弓。エンチャント&修繕可能！",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "道場外への持ち出し不可",
-                    "italic": false,
-                    "color": "red",
-                    "bold": true
-                  }
+                  "{\"text\":\"復活を始めたエンド弓。エンチャント&修繕可能！\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"道場外への持ち出し不可\",\"italic\":false,\"color\":\"red\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

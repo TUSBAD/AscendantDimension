@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ドラゴンメイル",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ドラゴンメイル\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 10,

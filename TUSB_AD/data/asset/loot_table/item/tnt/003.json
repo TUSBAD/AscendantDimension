@@ -11,21 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "特攻用",
-                  "italic": false,
-                  "color": "dark_red"
-                },
+                "minecraft:custom_name": "{\"text\":\"特攻用\",\"italic\":false,\"color\":\"dark_red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "私は大砲よ",
-                    "italic": false,
-                    "color": "light_purple"
-                  }
+                  "{\"text\":\"私は大砲よ\",\"italic\":false,\"color\":\"light_purple\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:blast_protection": 444
+                    "minecraft:blast_protection": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

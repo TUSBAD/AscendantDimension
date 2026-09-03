@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "雪球.zip",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"雪球.zip\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "雪球が64こ1sで圧縮されたもの。",
-                    "italic": true,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"雪球が64こ1sで圧縮されたもの。\",\"italic\":true,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -123,7 +114,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -453,7 +444,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"
@@ -690,7 +681,7 @@
                           {
                             "Name": "plus",
                             "UUIDLeast": 1,
-                            "Amount": 1e-08,
+                            "Amount": 1E-08,
                             "Operation": 1,
                             "UUIDMost": 7,
                             "AttributeName": "generic.maxHealth"
@@ -739,7 +730,8 @@
                   "Invulnerable": 1,
                   "DeathTime": -20,
                   "Marker": 0,
-                  "Small": 1
+                  "Small": 1,
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

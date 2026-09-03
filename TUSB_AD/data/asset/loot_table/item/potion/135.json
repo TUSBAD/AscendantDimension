@@ -11,68 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "カチコッチ",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"カチコッチ\",\"italic\":false,\"color\":\"aqua\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "飲むと体内が",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "氷河期",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "に突入する。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "あまりの寒さに",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "飛び跳ねる",
-                        "italic": false,
-                        "color": "green",
-                        "underlined": true
-                      },
-                      {
-                        "text": "、",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "冷たい",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "お酒。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"飲むと体内が\",\"italic\":false,\"color\":\"white\"},{\"text\":\"氷河期\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"に突入する。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"あまりの寒さに\",\"italic\":false,\"color\":\"white\"},{\"text\":\"飛び跳ねる\",\"italic\":false,\"color\":\"green\",\"underlined\":true},{\"text\":\"、\",\"italic\":false,\"color\":\"white\"},{\"text\":\"冷たい\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"お酒。\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

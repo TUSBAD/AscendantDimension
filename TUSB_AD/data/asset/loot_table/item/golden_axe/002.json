@@ -11,37 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "泉から出てきた斧",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"泉から出てきた斧\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "とある泉の中から",
-                    "italic": false,
-                    "color": "gold",
-                    "bold": true
-                  },
-                  {
-                    "text": "現れた女神から貰ったと言われている",
-                    "italic": false,
-                    "color": "gold",
-                    "bold": true
-                  },
-                  {
-                    "text": "不思議な斧",
-                    "italic": false,
-                    "color": "gold",
-                    "bold": true
-                  },
-                  {
-                    "text": "左利き用に作られている。",
-                    "italic": false,
-                    "color": "gold",
-                    "bold": true
-                  }
+                  "{\"text\":\"とある泉の中から\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
+                  "{\"text\":\"現れた女神から貰ったと言われている\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
+                  "{\"text\":\"不思議な斧\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
+                  "{\"text\":\"左利き用に作られている。\",\"italic\":false,\"color\":\"gold\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

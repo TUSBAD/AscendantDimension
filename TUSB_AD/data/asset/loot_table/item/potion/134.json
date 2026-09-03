@@ -11,71 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "アクア・ビテ",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"アクア・ビテ\",\"italic\":false,\"color\":\"blue\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ほのかに香る塩水",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "と",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "独特の酸味",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "が漂う",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "少しどろっとしたお酒。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "トカルト・コルデに生息する",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "氷木の樹液",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "を",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "蒸留させて作っている。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ほのかに香る塩水\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"と\",\"italic\":false,\"color\":\"white\"},{\"text\":\"独特の酸味\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"が漂う\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"少しどろっとしたお酒。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"トカルト・コルデに生息する\",\"italic\":false,\"color\":\"white\"},{\"text\":\"氷木の樹液\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"を\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"蒸留させて作っている。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

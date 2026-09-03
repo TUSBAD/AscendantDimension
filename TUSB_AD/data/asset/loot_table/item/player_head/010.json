@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "たつ",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"たつ\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "tatsu0123",
-                  "id": "606625da-6704-42ec-ad2a-2cc9bb79dc86",
                   "properties": [
                     {
                       "name": "textures",

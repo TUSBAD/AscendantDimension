@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エーテル",
-                  "italic": false,
-                  "color": "dark_aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"エーテル\",\"italic\":false,\"color\":\"dark_aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナがちょぴっと詰まった飲み物",
-                    "italic": false,
-                    "color": "dark_green"
-                  }
+                  "{\"text\":\"マナがちょぴっと詰まった飲み物\",\"italic\":false,\"color\":\"dark_green\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:strength",

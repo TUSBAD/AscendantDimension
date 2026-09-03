@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 tellraw @s {"text":"～このチェストの鍵のヒント～","color":"white","bold":true,"underlined":true}
-playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 0.5 0
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 0.5 0
 particle enchant ~ ~1 ~ 0.1 0.1 0.1 1 90
 
 execute positioned -2703 18 52 if entity @s[distance=..6] run tellraw @s {"text":"薄暗い空間に線路が見えます。","color":"gray","bold":true}

@@ -11,90 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "|||",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "-覚醒せし",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "神々の災歌",
-                      "italic": false,
-                      "color": "yellow",
-                      "bold": true
-                    },
-                    {
-                      "text": "-",
-                      "italic": false,
-                      "color": "dark_red"
-                    },
-                    {
-                      "text": "【共鳴状態】",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "|||",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"|||\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\"-覚醒せし\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"神々の災歌\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"-\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"【共鳴状態】\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"|||\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "謳い謳え",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "我らが",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "主君",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      },
-                      {
-                        "text": "の御帰りだ",
-                        "italic": false,
-                        "color": "dark_red"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "唱え踊れ騒げ敬え",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "今宵持って我らは終焉の神を出迎える",
-                    "italic": false,
-                    "color": "dark_red"
-                  }
+                  "{\"text\":\"謳い謳え\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"我らが\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"主君\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"の御帰りだ\",\"italic\":false,\"color\":\"dark_red\"}]}",
+                  "{\"text\":\"唱え踊れ騒げ敬え\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"今宵持って我らは終焉の神を出迎える\",\"italic\":false,\"color\":\"dark_red\"}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -999
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

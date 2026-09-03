@@ -29,7 +29,7 @@ execute if score _ Random matches 21..22 run function skill:act/black_mage/hocus
 execute if score _ Random matches 23..24 run function skill:act/black_mage/hocus_pocus/chance/14
 
 ### 発動者
-playsound ambient.cave master @a[distance=..32] ~ ~ ~ 0.8 2 0.2
+playsound minecraft:ambient.cave master @a[distance=..32] ~ ~ ~ 0.8 2 0.2
 ### 0-4
 execute if score _ Random matches 0..4 run particle minecraft:witch ~ ~ ~ 5 2 5 0.1 300 force
 ### 5-14

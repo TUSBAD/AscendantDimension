@@ -11,55 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "- ｲｴﾛｰﾃﾞﾋﾞﾙ -",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"- ｲｴﾛｰﾃﾞﾋﾞﾙ -\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "曰くつきの黄色い増強剤。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "服用すると、常人の体力では即倒してしまう程の",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "痛みと渇きが襲い、死に至るとされている。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "もしこの名状しがたい薬に飲み込まれなければ",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "数秒ではあるが",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "壊力",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      },
-                      {
-                        "text": "を得るだろうと推測されている。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"曰くつきの黄色い増強剤。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"服用すると、常人の体力では即倒してしまう程の\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"痛みと渇きが襲い、死に至るとされている。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"もしこの名状しがたい薬に飲み込まれなければ\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"数秒ではあるが\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"壊力\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"を得るだろうと推測されている。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

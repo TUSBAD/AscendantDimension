@@ -11,56 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "忘却",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "の杖",
-                      "italic": false,
-                      "color": "gray"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"忘却\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"の杖\",\"italic\":false,\"color\":\"gray\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "忘れ去られた",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "者の杖",
-                        "italic": false,
-                        "color": "gray"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "過去の力",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "が宿っている",
-                        "italic": false,
-                        "color": "gray"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"忘れ去られた\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"者の杖\",\"italic\":false,\"color\":\"gray\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"過去の力\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"が宿っている\",\"italic\":false,\"color\":\"gray\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "こゐし",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"こゐし\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "nitrobomb08",
-                  "id": "88f26d73-a2f2-4134-b60a-9319580c229f",
                   "properties": [
                     {
                       "name": "textures",

@@ -2,7 +2,7 @@
 # レガシーアイテムを１つ壊す
 
 ### 壊れたときの演出
-particle minecraft:item minecraft:potion ~ ~1.52 ~ 0 0 0 0.1 30 force @a[distance=..64]
+particle item{item:"minecraft:potion"} ~ ~1.52 ~ 0 0 0 0.1 30 force @a[distance=..64]
 playsound minecraft:entity.item.break master @a[distance=..16] ~ ~ ~ 1 0.5 0
 title @s actionbar {"text":"武器が壊れた！！！！！","color":"dark_gray"}
 

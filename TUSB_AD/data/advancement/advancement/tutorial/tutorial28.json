@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pufferfish",
-      "nbt": "{}"
+      "id": "minecraft:pufferfish"
     },
     "title": [
       {

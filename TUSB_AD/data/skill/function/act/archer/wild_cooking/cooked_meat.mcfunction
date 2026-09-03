@@ -4,5 +4,5 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run clear @s #lib:cooked_meat 1
-execute if score _ TUSB matches 1.. run give @s minecraft:rotten_flesh{display:{Name:'"§r焼き過ぎた肉"'}} 1
+execute if score _ TUSB matches 1.. run give @s minecraft:rotten_flesh[minecraft:custom_name='{"text":"§r焼き過ぎた肉"}'] 1
 execute if score _ TUSB matches 1.. run data modify storage skill: cooked_state set value "bad"

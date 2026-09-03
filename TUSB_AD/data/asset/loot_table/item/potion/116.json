@@ -11,62 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "スイカジュース",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"スイカジュース\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "スイカ",
-                        "italic": false,
-                        "color": "red",
-                        "bold": true
-                      },
-                      {
-                        "text": "の成分を凝縮したジュース。",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "腹を満たす",
-                        "italic": false,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "他、",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "空腹を治す",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "効能がある。",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"スイカ\",\"italic\":false,\"color\":\"red\",\"bold\":true},{\"text\":\"の成分を凝縮したジュース。\",\"italic\":false,\"color\":\"light_purple\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"腹を満たす\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"他、\",\"italic\":false,\"color\":\"light_purple\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"空腹を治す\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"効能がある。\",\"italic\":false,\"color\":\"light_purple\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

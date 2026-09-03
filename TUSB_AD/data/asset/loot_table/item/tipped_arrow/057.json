@@ -11,38 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "1§i",
-                      "italic": false,
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "エクスヒーリング",
-                      "italic": false,
-                      "color": "white"
-                    },
-                    {
-                      "text": "1",
-                      "italic": false,
-                      "color": "aqua",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"1§i\",\"italic\":false,\"obfuscated\":true},{\"text\":\"エクスヒーリング\",\"italic\":false,\"color\":\"white\"},{\"text\":\"1\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "あらゆる傷を癒す超回復術が込められた矢",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "アンデッドには猛毒でしかない",
-                    "italic": false
-                  }
+                  "{\"text\":\"あらゆる傷を癒す超回復術が込められた矢\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"アンデッドには猛毒でしかない\",\"italic\":false}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:awkward",

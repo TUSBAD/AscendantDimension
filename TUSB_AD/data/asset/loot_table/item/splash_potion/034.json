@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "空腹ポーション",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"空腹ポーション\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "空腹になることができる。",
-                    "italic": true,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"空腹になることができる。\",\"italic\":true,\"color\":\"yellow\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

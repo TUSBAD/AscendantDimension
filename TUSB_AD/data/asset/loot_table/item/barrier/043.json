@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "まぁ、この世界でくたばられても困るからね。",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                }
+                "minecraft:custom_name": "{\"text\":\"まぁ、この世界でくたばられても困るからね。\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}"
               }
             }
           ]

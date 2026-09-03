@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "は ず れ",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                }
+                "minecraft:custom_name": "{\"text\":\"は ず れ\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}"
               }
             }
           ]

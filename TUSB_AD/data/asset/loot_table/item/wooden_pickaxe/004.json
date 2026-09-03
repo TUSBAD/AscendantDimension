@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "不壊のピッケル",
-                  "italic": false,
-                  "color": "dark_red"
-                },
+                "minecraft:custom_name": "{\"text\":\"不壊のピッケル\",\"italic\":false,\"color\":\"dark_red\"}",
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:unbreaking": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:unbreakable": {

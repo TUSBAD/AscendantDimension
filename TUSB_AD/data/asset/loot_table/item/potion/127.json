@@ -11,55 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "- ﾚｯﾄﾞﾄﾞﾗｺﾞﾝ -",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"- ﾚｯﾄﾞﾄﾞﾗｺﾞﾝ -\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "曰くつきの紅い増強剤。",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "服用すると、常人の体力では即倒してしまう程の",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "痛みと渇きが襲い、死に至るとされている。",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "もしこの名状しがたい劇物に飲み込まれなければ",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "数秒ではあるが",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "怪力",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      },
-                      {
-                        "text": "を得るだろうと推測されている。",
-                        "italic": false,
-                        "color": "dark_red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"曰くつきの紅い増強剤。\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"服用すると、常人の体力では即倒してしまう程の\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"痛みと渇きが襲い、死に至るとされている。\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"もしこの名状しがたい劇物に飲み込まれなければ\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"数秒ではあるが\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"怪力\",\"italic\":false,\"color\":\"yellow\",\"bold\":true},{\"text\":\"を得るだろうと推測されている。\",\"italic\":false,\"color\":\"dark_red\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:healing",

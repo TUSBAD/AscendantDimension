@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "超重力の矢",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"超重力の矢\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "超重力で地に落とす。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"超重力で地に落とす。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:slowness",

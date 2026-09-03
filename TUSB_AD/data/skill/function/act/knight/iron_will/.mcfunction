@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound block.anvil.land master @a[distance=..16] ~ ~ ~ 1 1.4 0
+playsound minecraft:block.anvil.land master @a[distance=..16] ~ ~ ~ 1 1.4 0
 particle crit ~ ~1 ~ 0.5 0.5 0.5 0.5 30 force
 
 tellraw @s {"text":"アイアンウィルの効果がかかった。","color":"green","hoverEvent":{"action":"show_text","value":"次のノックバックを軽減する。一定確率で効果が継続する。\n装備：継続確率にボーナス。"}}

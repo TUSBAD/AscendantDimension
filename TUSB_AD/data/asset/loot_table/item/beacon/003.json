@@ -11,45 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||||",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true,
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "流転の守護者の意思",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": "||||",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true,
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||||\",\"italic\":false,\"color\":\"white\",\"bold\":true,\"obfuscated\":true},{\"text\":\"流転の守護者の意思\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"||||\",\"italic\":false,\"color\":\"white\",\"bold\":true,\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "流転の世界の守護者が宿す意思。",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "その意思は元気と純粋に満ちている。§ｒ",
-                    "italic": false,
-                    "color": "yellow",
-                    "bold": true
-                  }
+                  "{\"text\":\"流転の世界の守護者が宿す意思。\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"その意思は元気と純粋に満ちている。§ｒ\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

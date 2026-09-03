@@ -11,22 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "滑らか石ダブルハーフ",
-                  "italic": false,
-                  "color": "gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"滑らか石ダブルハーフ\",\"italic\":false,\"color\":\"gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "設置して右クリック",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"設置して右クリック\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:repair_cost": 1000000000,

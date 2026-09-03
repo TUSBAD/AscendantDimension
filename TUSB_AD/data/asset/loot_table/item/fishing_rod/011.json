@@ -11,41 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "cthulhu",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "くとぅるあー",
-                      "italic": false,
-                      "color": "dark_green",
-                      "bold": true
-                    },
-                    {
-                      "text": "cthulhu",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\"くとぅるあー\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true},{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "とある邪神の彫刻が刻み込まれた釣り竿",
-                    "italic": false,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "どこでも良いものが釣れるようになる",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"とある邪神の彫刻が刻み込まれた釣り竿\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"どこでも良いものが釣れるようになる\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

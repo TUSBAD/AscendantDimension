@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:experience_bottle",
-      "nbt": "{}"
+      "id": "minecraft:experience_bottle"
     },
     "title": [
       {

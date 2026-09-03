@@ -37,13 +37,13 @@ data modify storage asset: mob.DeathLootTable set value "usb:entities/silver/tie
 
 
 ### Attributes
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:40}
-data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:10}
-data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.3}
-data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:10}
-data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:2}
+data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:40}
+data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:10}
+data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.3}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:10}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor_toughness, Base:2}
 # data modify storage asset: mob.Attributes append value {Name:generic.knockback_resistance, Base:1}
-data modify storage asset: mob.Attributes append value {Name:generic.follow_range, Base:32}
+data modify storage asset: mob.Attributes append value {Name:minecraft:follow_range, Base:32}
 # data modify storage asset: mob.Attributes append value {Name:generic.attack_knockback, Base:1}
 # それぞれの意味はwikiとかで調べてください
 # 可読性や編集の手間を考慮しなければこれらを全て一つに纏めることも可能です

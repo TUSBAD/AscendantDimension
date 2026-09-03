@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "結晶の印玉",
-                  "italic": false,
-                  "color": "dark_purple"
-                },
+                "minecraft:custom_name": "{\"text\":\"結晶の印玉\",\"italic\":false,\"color\":\"dark_purple\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "不思議な結晶が入っている印玉。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "稀に強い力を秘めた結晶が出てくるようだ。",
-                    "italic": false,
-                    "color": "light_purple"
-                  }
+                  "{\"text\":\"不思議な結晶が入っている印玉。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"稀に強い力を秘めた結晶が出てくるようだ。\",\"italic\":false,\"color\":\"light_purple\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -127,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -460,7 +448,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

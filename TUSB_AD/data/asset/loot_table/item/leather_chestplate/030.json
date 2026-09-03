@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ユグドラシル",
-                  "italic": false,
-                  "color": "green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ユグドラシル\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
                 "minecraft:dyed_color": {
                   "rgb": 65280
                 },

@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "狩人の盾",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"狩人の盾\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "狩人に馴染みやすい盾。",
-                    "italic": false,
-                    "color": "blue"
-                  }
+                  "{\"text\":\"狩人に馴染みやすい盾。\",\"italic\":false,\"color\":\"blue\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

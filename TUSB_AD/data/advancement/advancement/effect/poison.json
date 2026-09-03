@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spider_eye",
-      "nbt": "{Enchantments:[{}]}"
+      "id": "minecraft:spider_eye"
     },
     "title": [
       {

@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "おままごとセット",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"おままごとセット\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "お皿",
-                    "italic": false
-                  }
+                  "{\"text\":\"お皿\",\"italic\":false}"
                 ]
               }
             }

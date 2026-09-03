@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "優しい？酒好きの村人",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"優しい？酒好きの村人\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "何じゃその嫌そうな顔は！？",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "嫌ならやめても良いんじゃよ？",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "ちなみに...その板はまな板にする以外使い道はないぞ？",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"何じゃその嫌そうな顔は！？\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"嫌ならやめても良いんじゃよ？\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"ちなみに...その板はまな板にする以外使い道はないぞ？\",\"italic\":false,\"color\":\"gray\"}"
                 ]
               }
             }

@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "剣士変更許可証",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"剣士変更許可証\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "黄金の鉄の塊",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "USB職業安定所発行",
-                    "italic": false,
-                    "underlined": true
-                  }
+                  "{\"text\":\"黄金の鉄の塊\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"USB職業安定所発行\",\"italic\":false,\"underlined\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

@@ -11,35 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "カーテナ",
-                  "italic": false,
-                  "color": "gold"
-                },
+                "minecraft:custom_name": "{\"text\":\"カーテナ\",\"italic\":false,\"color\":\"gold\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "慈悲の剣とも呼ばれており,",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "相手を平等に殺すとされている",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "限りなく脆い為すぐに壊れてしまう慈悲はない",
-                    "italic": false,
-                    "color": "blue",
-                    "bold": true
-                  }
+                  "{\"text\":\"慈悲の剣とも呼ばれており,\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
+                  "{\"text\":\"相手を平等に殺すとされている\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
+                  "{\"text\":\"限りなく脆い為すぐに壊れてしまう慈悲はない\",\"italic\":false,\"color\":\"blue\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:sharpness": 999,
-                    "minecraft:knockback": 999
+                    "minecraft:sharpness": 255,
+                    "minecraft:knockback": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

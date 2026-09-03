@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "職業ｱｲﾃﾑ詰め合わせﾁｪｽﾄ",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"職業ｱｲﾃﾑ詰め合わせﾁｪｽﾄ\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "いろいろなｱｲﾃﾑが詰まっている。",
-                    "italic": false,
-                    "color": "light_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"いろいろなｱｲﾃﾑが詰まっている。\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}"
                 ],
                 "minecraft:block_entity_data": {
                   "Items": [
@@ -385,7 +375,7 @@
                           "minecraft:sticky_piston",
                           "minecraft:web",
                           "minecraft:tallgrass",
-                          "minecraft:deadbush",
+                          "minecraft:dead_bush",
                           "minecraft:piston",
                           "minecraft:piston_head",
                           "minecraft:wool",
@@ -495,7 +485,7 @@
                           "minecraft:flower_pot",
                           "minecraft:carrots",
                           "minecraft:potatoes",
-                          "minecraft:wooden_button",
+                          "minecraft:oak_button",
                           "minecraft:skull",
                           "minecraft:anvil",
                           "minecraft:trapped_chest",
@@ -1032,7 +1022,7 @@
                           "minecraft:sticky_piston",
                           "minecraft:web",
                           "minecraft:tallgrass",
-                          "minecraft:deadbush",
+                          "minecraft:dead_bush",
                           "minecraft:piston",
                           "minecraft:piston_head",
                           "minecraft:wool",
@@ -1142,7 +1132,7 @@
                           "minecraft:flower_pot",
                           "minecraft:carrots",
                           "minecraft:potatoes",
-                          "minecraft:wooden_button",
+                          "minecraft:oak_button",
                           "minecraft:skull",
                           "minecraft:anvil",
                           "minecraft:trapped_chest",
@@ -1298,7 +1288,7 @@
                           "minecraft:sticky_piston",
                           "minecraft:web",
                           "minecraft:tallgrass",
-                          "minecraft:deadbush",
+                          "minecraft:dead_bush",
                           "minecraft:piston",
                           "minecraft:piston_head",
                           "minecraft:wool",
@@ -1408,7 +1398,7 @@
                           "minecraft:flower_pot",
                           "minecraft:carrots",
                           "minecraft:potatoes",
-                          "minecraft:wooden_button",
+                          "minecraft:oak_button",
                           "minecraft:skull",
                           "minecraft:anvil",
                           "minecraft:trapped_chest",
@@ -1818,7 +1808,7 @@
                           "minecraft:sticky_piston",
                           "minecraft:web",
                           "minecraft:tallgrass",
-                          "minecraft:deadbush",
+                          "minecraft:dead_bush",
                           "minecraft:piston",
                           "minecraft:piston_head",
                           "minecraft:wool",
@@ -1928,7 +1918,7 @@
                           "minecraft:flower_pot",
                           "minecraft:carrots",
                           "minecraft:potatoes",
-                          "minecraft:wooden_button",
+                          "minecraft:oak_button",
                           "minecraft:skull",
                           "minecraft:anvil",
                           "minecraft:trapped_chest",

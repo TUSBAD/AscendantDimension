@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.zombie.break_wooden_door master @a[distance=..16] ~ ~ ~ 0.4 0.8 0
-particle item minecraft:popped_chorus_fruit ~ ~1.5 ~ 0 0 0 0.2 30 force @a[distance=..64]
+particle item{item:"minecraft:popped_chorus_fruit"} ~ ~1.5 ~ 0 0 0 0.2 30 force @a[distance=..64]
 
 ### スキルのレベルに応じた確率で、ヒットした敵の武器を消す
 execute if entity @s[tag=!GM,tag=!GMend] if score _ ActivatedSkill matches 1240 if predicate lib:random/1/3 run item replace entity @s weapon.mainhand with minecraft:air

@@ -4,7 +4,7 @@
 #
 # @within function enemy:skill/enemy/shinsei/acceleration
 
-execute as @a at @s run playsound block.sculk_shrieker.shriek block @s ~ ~ ~ 1 1 1
+execute as @a at @s run playsound minecraft:block.sculk_shrieker.shriek block @s ~ ~ ~ 1 1 1
 me は§4§lタイムアクセラレーション§rを唱えた！
 
 # タイマーセット

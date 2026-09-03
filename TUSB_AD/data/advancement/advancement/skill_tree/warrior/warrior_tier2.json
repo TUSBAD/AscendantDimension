@@ -1,24 +1,23 @@
 {
-    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "エンパイアソード",
-        "description": "味方がいるほど強力になるスキルを会得し、攻撃面の支援も強力になった。",
-        "frame": "challenge",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
+  "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
     },
-    "parent": "advancement:skill_tree/warrior/root",
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "rewards": {
-        "function": "template:set_if_job_data_determined"
+    "title": "エンパイアソード",
+    "description": "味方がいるほど強力になるスキルを会得し、攻撃面の支援も強力になった。",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:skill_tree/warrior/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "template:set_if_job_data_determined"
+  }
 }

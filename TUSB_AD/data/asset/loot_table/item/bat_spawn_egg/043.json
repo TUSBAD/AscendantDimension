@@ -11,56 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true,
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "リベリオン・コア",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true,
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||||||||\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"リベリオン・コア\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"||||||||\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true,\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "キンガミ系統の敵が落としたコア。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "使うことでその予感ボスが落とすアイテムを獲得できる。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "ボスにより報酬が異なる為同一アイテムでもスタックできない場合がある。",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"キンガミ系統の敵が落としたコア。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"使うことでその予感ボスが落とすアイテムを獲得できる。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"ボスにより報酬が異なる為同一アイテムでもスタックできない場合がある。\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -161,7 +116,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -494,7 +449,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

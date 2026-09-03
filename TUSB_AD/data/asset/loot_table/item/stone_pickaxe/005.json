@@ -11,28 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "クリーピーマイナードリーム",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"クリーピーマイナードリーム\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "採掘戦隊マインクラフターの特注品。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "素材に希少なシルバーコロニーを使っているのでとても高価。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"採掘戦隊マインクラフターの特注品。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"素材に希少なシルバーコロニーを使っているのでとても高価。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:unbreaking": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

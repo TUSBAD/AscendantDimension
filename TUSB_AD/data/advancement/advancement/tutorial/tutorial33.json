@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:spawner",
-      "nbt": "{}"
+      "id": "minecraft:spawner"
     },
     "title": [
       {

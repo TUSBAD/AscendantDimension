@@ -1,7 +1,7 @@
 #> player:custom_item/armor_stand/personal_locker
 
 summon minecraft:firework_rocket ~ ~2 ~ {Life:1,LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Flight:0b,Explosions:[{Type:2b,Colors:[I;5271807]}]}}}}
-playsound block.beacon.activate block @a[distance=..16] ~ ~ ~
+playsound minecraft:block.beacon.activate block @a[distance=..16] ~ ~ ~
 
 execute if entity @s[tag=SignStand,y_rotation=0..45] run setblock ~ ~ ~ ender_chest[facing=south]
 execute if entity @s[tag=SignStand,y_rotation=90..135] run setblock ~ ~ ~ ender_chest[facing=west]

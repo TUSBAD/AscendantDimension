@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "天使の入浴剤",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"天使の入浴剤\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "お湯に入れるだけで癒される入浴剤",
-                    "italic": false,
-                    "color": "white",
-                    "bold": true
-                  }
+                  "{\"text\":\"お湯に入れるだけで癒される入浴剤\",\"italic\":false,\"color\":\"white\",\"bold\":true}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

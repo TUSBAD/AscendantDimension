@@ -11,32 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ハイエーテル",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ハイエーテル\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナがぽちょっと詰まった飲み物。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "飲むとMPが大きく回復する。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "スプラッシュ化不可",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"マナがぽちょっと詰まった飲み物。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"飲むとMPが大きく回復する。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"スプラッシュ化不可\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

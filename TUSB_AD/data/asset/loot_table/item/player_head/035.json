@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "YaS",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"YaS\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "YaS00485",
-                  "id": "2881a231-4bc0-47fc-9984-9fd2c981c56d",
                   "properties": [
                     {
                       "name": "textures",

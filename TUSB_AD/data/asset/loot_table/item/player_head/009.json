@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "まいんみかん",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"まいんみかん\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "Eijitsu",
-                  "id": "a1cc8eb3-9a59-4b7e-9970-f5482632c0bb",
                   "properties": [
                     {
                       "name": "textures",

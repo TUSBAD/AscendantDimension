@@ -11,32 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ジョブ変更申請書",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ジョブ変更申請書\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "転職したいのですか？",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "いずれまた何らかの形で",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "ここを訪れれば",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "申請書を差し上げましょう。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"転職したいのですか？\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"いずれまた何らかの形で\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"ここを訪れれば\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"申請書を差し上げましょう。\",\"italic\":false,\"color\":\"gray\"}"
                 ]
               }
             }

@@ -12,6 +12,6 @@ effect give @s minecraft:resistance 4 3 true
 
 effect give @s minecraft:levitation 3 1 true
 
-playsound block.portal.travel hostile @a[distance=..64] ~ ~ ~ 0.75 2 1
+playsound minecraft:block.portal.travel hostile @a[distance=..64] ~ ~ ~ 0.75 2 1
 
 particle minecraft:witch ~ ~ ~ 1 1 1 1 50 force @p

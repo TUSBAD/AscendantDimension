@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "テンポラリートーチ",
-                  "italic": false,
-                  "color": "red"
-                },
+                "minecraft:custom_name": "{\"text\":\"テンポラリートーチ\",\"italic\":false,\"color\":\"red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "探検家が捨てていった松明",
-                    "italic": false
-                  },
-                  {
-                    "text": "少し力がみなぎってくる",
-                    "italic": false
-                  }
+                  "{\"text\":\"探検家が捨てていった松明\",\"italic\":false}",
+                  "{\"text\":\"少し力がみなぎってくる\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

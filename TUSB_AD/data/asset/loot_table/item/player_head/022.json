@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "誤字りんまる௵わこから",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"誤字りんまる௵わこから\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "waxsd100",
-                  "id": "fc49a2ac-746a-4191-b444-98143a2d5469",
                   "properties": [
                     {
                       "name": "textures",

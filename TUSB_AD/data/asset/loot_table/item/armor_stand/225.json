@@ -11,84 +11,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "積み上げの印板",
-                      "italic": false,
-                      "color": "gray",
-                      "bold": true
-                    },
-                    {
-                      "text": "(",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true
-                    },
-                    {
-                      "text": "砂",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": ")",
-                      "italic": false,
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"積み上げの印板\",\"italic\":false,\"color\":\"gray\",\"bold\":true},{\"text\":\"(\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"砂\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\")\",\"italic\":false,\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "上空に向けて、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "砂",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "を設置する",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾜｰﾅﾝｶｽｺﾞｲ",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "奴を召喚する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"上空に向けて、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"砂\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"を設置する\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾜｰﾅﾝｶｽｺﾞｲ\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"奴を召喚する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
                 },
-                "minecraft:repair_cost": -1000000000,
+                "minecraft:repair_cost": 0,
                 "minecraft:entity_data": {
                   "Tags": [
                     "SignStand",
                     "PermanentStand",
                     "SandStacker"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

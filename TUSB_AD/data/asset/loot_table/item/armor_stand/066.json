@@ -11,35 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "羊スポナー",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"羊スポナー\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "設置して使用すると、",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "羊スポナー",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      },
-                      {
-                        "text": "を設置する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"設置して使用すると、\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"羊スポナー\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"を設置する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -51,7 +26,8 @@
                     "SpawnerStand",
                     "SheepSpawner",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

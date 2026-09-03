@@ -11,53 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ベーコン",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ベーコン\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "不思議な力で敵を寄せ付けないと",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "言われている",
-                        "italic": false,
-                        "color": "dark_purple",
-                        "bold": true
-                      },
-                      {
-                        "text": "らしい",
-                        "italic": false,
-                        "color": "black"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "置くだけで体力回復、移動速度上昇、等の",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "様々な効果を与える。",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "置いたあとはそれなりの対価も貰います。",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"不思議な力で敵を寄せ付けないと\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"言われている\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"らしい\",\"italic\":false,\"color\":\"black\"}]}",
+                  "{\"text\":\"置くだけで体力回復、移動速度上昇、等の\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
+                  "{\"text\":\"様々な効果を与える。\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
+                  "{\"text\":\"置いたあとはそれなりの対価も貰います。\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

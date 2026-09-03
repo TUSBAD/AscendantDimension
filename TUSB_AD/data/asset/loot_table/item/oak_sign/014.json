@@ -11,75 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "気まぐれなﾃﾚﾎﾟｰﾄ印板",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"気まぐれなﾃﾚﾎﾟｰﾄ印板\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、最も近い落ちているｱｲﾃﾑに、",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "周囲の",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "5m",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "のﾌﾟﾚｲﾔｰ全員をﾃﾚﾎﾟｰﾄする事が",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "出来る印板。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "欠点としてｱｲﾃﾑが散乱していると",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "うまく行きたい場所にﾃﾚﾎﾟｰﾄできない。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★★",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、最も近い落ちているｱｲﾃﾑに、\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"周囲の\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"5m\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"のﾌﾟﾚｲﾔｰ全員をﾃﾚﾎﾟｰﾄする事が\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"出来る印板。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"欠点としてｱｲﾃﾑが散乱していると\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"うまく行きたい場所にﾃﾚﾎﾟｰﾄできない。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★★\",\"italic\":false,\"color\":\"light_purple\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

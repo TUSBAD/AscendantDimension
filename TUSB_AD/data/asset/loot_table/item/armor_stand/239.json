@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "displayTest",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"displayTest\",\"italic\":false}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },
@@ -24,7 +21,8 @@
                   "ShowArms": 1,
                   "Tags": [
                     "NotCauseEvent"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

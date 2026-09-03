@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "フレン",
-                  "italic": false,
-                  "color": "dark_blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"フレン\",\"italic\":false,\"color\":\"dark_blue\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "furen298",
-                  "id": "7cd274db-c6ce-4fe9-a41c-493a1a75bc33",
                   "properties": [
                     {
                       "name": "textures",

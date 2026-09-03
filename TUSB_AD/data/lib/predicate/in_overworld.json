@@ -1,7 +1,7 @@
 {
-	"condition": "minecraft:location_check",
-	"entity": "this",
-	"predicate": {
-		"dimension": "minecraft:overworld"
-	}
+  "condition": "minecraft:location_check",
+  "entity": "this",
+  "predicate": {
+    "dimension": "minecraft:overworld"
+  }
 }

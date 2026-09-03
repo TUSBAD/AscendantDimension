@@ -11,44 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "朽ちた蒼天の守護者の釣竿",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"朽ちた蒼天の守護者の釣竿\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "守護の力 Ⅹ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "蒼天の世界の守護者",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "が使っていたとされる釣竿。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "だが長年放置されたせいかボロボロになってしまったようだ。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"守護の力 Ⅹ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"蒼天の世界の守護者\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"が使っていたとされる釣竿。\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"だが長年放置されたせいかボロボロになってしまったようだ。\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

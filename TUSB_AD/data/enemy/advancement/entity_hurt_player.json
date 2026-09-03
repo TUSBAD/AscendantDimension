@@ -1,41 +1,40 @@
 {
-    "criteria": {
-        "melee_attack": {
-            "trigger": "entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "type": {
-                        "tags": [
-                            {
-                                "id": "minecraft:is_melee",
-                                "expected": false
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "arrow_attack": {
-            "trigger": "entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "type": {
-                        "tags": [
-                            {
-                                "id": "lib:is_arrow",
-                                "expected": false
-                            }
-                        ]
-                    }
-                }
-            }
+  "criteria": {
+    "melee_attack": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_melee",
+                "expected": false
+              }
+            ]
+          }
         }
+      }
     },
-    "requirements": 
+    "arrow_attack": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "lib:is_arrow",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
     [
-        [
-            "melee_attack",
-            "arrow_attack"
-        ]
+      "melee_attack",
+      "arrow_attack"
     ]
+  ]
 }

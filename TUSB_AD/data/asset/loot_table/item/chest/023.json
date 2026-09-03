@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "職業ｱｲﾃﾑ詰め合わせﾁｪｽﾄ",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"職業ｱｲﾃﾑ詰め合わせﾁｪｽﾄ\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "いろいろなｱｲﾃﾑが詰まっている。",
-                    "italic": false,
-                    "color": "light_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"いろいろなｱｲﾃﾑが詰まっている。\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}"
                 ],
                 "minecraft:block_entity_data": {
                   "Items": [

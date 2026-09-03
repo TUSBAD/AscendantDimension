@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "SCP-444-JP",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"SCP-444-JP\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -666
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:entity_data": {

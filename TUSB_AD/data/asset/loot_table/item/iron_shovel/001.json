@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "生きてるスコップ",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"生きてるスコップ\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "修繕機能を持ったスコップ！",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"修繕機能を持ったスコップ！\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

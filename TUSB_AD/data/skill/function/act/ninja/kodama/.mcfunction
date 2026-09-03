@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound entity.wolf.shake master @a[distance=..32] ~ ~ ~ 2 0.6 0
+playsound minecraft:entity.wolf.shake master @a[distance=..32] ~ ~ ~ 2 0.6 0
 particle minecraft:enchant ~ ~2 ~ 0 0 0 5 100 force
 
 ### リメイク：引き寄せる数を倍に

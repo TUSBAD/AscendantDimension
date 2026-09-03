@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "カワトゲ憑依の印板",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"カワトゲ憑依の印板\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "なんと！カワトゲに！なれるのである！",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"なんと！カワトゲに！なれるのである！\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -33,7 +24,8 @@
                     "SignStand",
                     "kawaii",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

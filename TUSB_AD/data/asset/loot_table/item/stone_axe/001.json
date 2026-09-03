@@ -11,31 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "泉に落ちた斧",
-                  "italic": false,
-                  "color": "dark_gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"泉に落ちた斧\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "とある若者が泉に落とした",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  },
-                  {
-                    "text": "不思議な斧",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  },
-                  {
-                    "text": "ボロボロで使い物にならなさそうだ。",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"とある若者が泉に落とした\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}",
+                  "{\"text\":\"不思議な斧\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}",
+                  "{\"text\":\"ボロボロで使い物にならなさそうだ。\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エンダーパール",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"エンダーパール\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "高品質の煉獄印",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"高品質の煉獄印\",\"italic\":false,\"color\":\"red\"}"
                 ]
               }
             }

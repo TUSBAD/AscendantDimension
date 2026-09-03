@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "雷上動",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"雷上動\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:punch": 10,

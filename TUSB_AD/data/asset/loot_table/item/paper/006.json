@@ -11,11 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ジョブ変更申請書",
-                  "italic": false,
-                  "bold": true
-                }
+                "minecraft:custom_name": "{\"text\":\"ジョブ変更申請書\",\"italic\":false,\"bold\":true}"
               }
             }
           ]

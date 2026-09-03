@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "何でも殺し（デバッグ用）",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"何でも殺し（デバッグ用）\",\"italic\":false}",
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",
                   "custom_effects": [

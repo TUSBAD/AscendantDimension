@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "れんと",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"れんと\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "satori_rento",
-                  "id": "6ee89f87-9134-41e2-a1e8-2c8810e60bd7",
                   "properties": [
                     {
                       "name": "textures",

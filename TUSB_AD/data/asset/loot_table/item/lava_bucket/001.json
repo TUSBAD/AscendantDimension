@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "コオリトカース",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"コオリトカース\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "頑固な氷も簡単に融ける！",
-                    "italic": false,
-                    "color": "gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"頑固な氷も簡単に融ける！\",\"italic\":false,\"color\":\"gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

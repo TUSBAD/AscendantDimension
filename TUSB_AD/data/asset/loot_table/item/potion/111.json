@@ -11,38 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "苦汁",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"苦汁\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "その辺の草から成分を採取し、",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "薬として配合したもの。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "まずい、にがい、効能低し！",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "最低ラインの回復効果を",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "持っている以外は薬として怪しい。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"その辺の草から成分を採取し、\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"薬として配合したもの。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"まずい、にがい、効能低し！\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"最低ラインの回復効果を\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"持っている以外は薬として怪しい。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

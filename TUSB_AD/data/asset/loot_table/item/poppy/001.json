@@ -11,53 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "高嶺の花",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"高嶺の花\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "全ての生き物が羨むほど美しく",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "これを巡って幾度となく戦いが起き",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "数えるのが億劫な程の人が血の海に沈んでいった。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "しかし一度手に入れてしまえば",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "その花がただの美しい花であることがわからない者は居ない。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "それ故、手に持った者は例外なく無気力になるという。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "今では争いが起きぬ様、AlgaeDareが管理している。",
-                    "italic": false,
-                    "color": "gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"全ての生き物が羨むほど美しく\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"これを巡って幾度となく戦いが起き\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"数えるのが億劫な程の人が血の海に沈んでいった。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"しかし一度手に入れてしまえば\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"その花がただの美しい花であることがわからない者は居ない。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"それ故、手に持った者は例外なく無気力になるという。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"今では争いが起きぬ様、AlgaeDareが管理している。\",\"italic\":false,\"color\":\"gray\",\"bold\":true}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

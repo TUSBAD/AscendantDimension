@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "安眠まくら",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"安眠まくら\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "anminmakura",
-                  "id": "4b22f09b-538f-47d7-b7ea-c79ab22276fd",
                   "properties": [
                     {
                       "name": "textures",

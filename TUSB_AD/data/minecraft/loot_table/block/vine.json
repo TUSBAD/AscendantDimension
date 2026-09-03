@@ -16,7 +16,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:item/vine/adv_vine"
+          "value": "item:item/vine/adv_vine"
         }
       ],
       "rolls": 1.0

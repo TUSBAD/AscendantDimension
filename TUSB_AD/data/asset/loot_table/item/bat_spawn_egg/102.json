@@ -11,76 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "圧縮防具の印玉",
-                      "italic": false,
-                      "color": "white"
-                    },
-                    {
-                      "text": "-鉄-",
-                      "italic": false,
-                      "color": "gray",
-                      "bold": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"圧縮防具の印玉\",\"italic\":false,\"color\":\"white\"},{\"text\":\"-鉄-\",\"italic\":false,\"color\":\"gray\",\"bold\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "鉄",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "防具一式",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "が圧縮された印玉。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "使用すると",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "防具一式",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "が",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "解凍",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "される。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"鉄\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"防具一式\",\"italic\":false,\"color\":\"white\"},{\"text\":\"が圧縮された印玉。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"使用すると\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"防具一式\",\"italic\":false,\"color\":\"white\"},{\"text\":\"が\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"解凍\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"される。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -181,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -514,7 +448,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

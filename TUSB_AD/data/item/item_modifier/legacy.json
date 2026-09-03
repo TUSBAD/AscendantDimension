@@ -1,14 +1,14 @@
 {
-    "function": "copy_custom_data",
-    "source": {
-        "type": "storage",
-        "source": "item:"
-    },
-    "ops": [
-        {
-            "source": "legacy",
-            "target": "Legacy",
-            "op": "replace"
-        }
-    ]
+  "function": "copy_custom_data",
+  "source": {
+    "type": "storage",
+    "source": "item:"
+  },
+  "ops": [
+    {
+      "source": "legacy",
+      "target": "Legacy",
+      "op": "replace"
+    }
+  ]
 }

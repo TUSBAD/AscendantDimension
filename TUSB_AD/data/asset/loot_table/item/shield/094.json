@@ -11,22 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "永久の盾",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"永久の盾\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "触れたものは永久に燃え続ける…。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"触れたものは永久に燃え続ける…。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:fire_aspect": 10000
+                    "minecraft:fire_aspect": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

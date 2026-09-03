@@ -11,19 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "鍵解除",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"鍵解除\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "デバッグ用、y-1にある",
-                    "italic": false
-                  },
-                  {
-                    "text": "チェストの鍵を解除する",
-                    "italic": false
-                  }
+                  "{\"text\":\"デバッグ用、y-1にある\",\"italic\":false}",
+                  "{\"text\":\"チェストの鍵を解除する\",\"italic\":false}"
                 ],
                 "minecraft:custom_data": {
                   "_migration_unconverted": {

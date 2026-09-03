@@ -9,7 +9,7 @@
 # title
     execute at @e[limit=1,tag=GameMaster] run title @a[distance=..60,tag=GameMasterBattle] title ["",{"text":"k","bold":true,"obfuscated":true,"color":"black"},{"text":"Good bye","bold":true,"color":"dark_red"},{"text":"k","bold":true,"obfuscated":true,"color":"black"}]
 # sound
-    execute at @e[limit=1,tag=GameMaster] run playsound entity.ender_dragon.death master @a[distance=..60]
+    execute at @e[limit=1,tag=GameMaster] run playsound minecraft:entity.ender_dragon.death master @a[distance=..60]
 # solo
     execute if score _ game_master.reward matches 1 run function enemy:skill/enemy/game_master/6/6.solo
 # multi

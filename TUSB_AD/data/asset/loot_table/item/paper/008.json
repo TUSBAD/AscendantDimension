@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "忍者変更許可証",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"忍者変更許可証\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ｱｲｴｴｴ!",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "USB職業安定所発行",
-                    "italic": false,
-                    "underlined": true
-                  }
+                  "{\"text\":\"ｱｲｴｴｴ!\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"USB職業安定所発行\",\"italic\":false,\"underlined\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

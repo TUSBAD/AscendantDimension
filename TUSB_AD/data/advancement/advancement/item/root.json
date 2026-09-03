@@ -1,35 +1,34 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_pickaxe",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": [
-            {
-                "translate": "空島の旅 %1$s",
-                "color": "white",
-                "bold": true,
-                "with": [
-                    {
-                        "translate": "-特殊アイテム-",
-                        "color": "#ff8040"
-                    }
-                ]
-            }
-        ],
-        "description": {
-            "translate": "冒険に役立つヒント",
-            "color": "green"
-        },
-        "frame": "challenge",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/block/blackstone.png"
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
     },
-    "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
-        }
+    "title": [
+      {
+        "translate": "空島の旅 %1$s",
+        "color": "white",
+        "bold": true,
+        "with": [
+          {
+            "translate": "-特殊アイテム-",
+            "color": "#ff8040"
+          }
+        ]
+      }
+    ],
+    "description": {
+      "translate": "冒険に役立つヒント",
+      "color": "green"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/blackstone.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
+  }
 }

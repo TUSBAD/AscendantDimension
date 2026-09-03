@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ブループリズム",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ブループリズム\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "刺さった者の浮遊を解いた後、足を脆くする。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"刺さった者の浮遊を解いた後、足を脆くする。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

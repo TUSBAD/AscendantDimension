@@ -1,6 +1,6 @@
 #> skill:act/white_mage/ora/cast
 
-playsound entity.illusioner.prepare_blindness master @a[distance=..32] ~ ~ ~ 2 1.2 0.1
+playsound minecraft:entity.illusioner.prepare_blindness master @a[distance=..32] ~ ~ ~ 2 1.2 0.1
 ### 4097?
 particle end_rod ~ ~0.5 ~ 15 15 15 1 700 force @a[distance=..64]
 

@@ -11,39 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "御酒",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"御酒\",\"italic\":false,\"color\":\"yellow\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "大隅ノ國ニハ、一家ニ水ト米トヲマウケテ、",
-                    "italic": true,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "村ニツゲメグラセバ、男女一所ニアツマリテ、",
-                    "italic": true,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "チリヂリニカヘリヌ 酒ノ香ノイデクルトキ、",
-                    "italic": true,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "又アツマリテ、カミテハキイレシモノドモ、コレヲノム。",
-                    "italic": true,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "名ヅケテクチカミノ酒ト云フト云云、風土記ニ見エタリ。",
-                    "italic": true,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"大隅ノ國ニハ、一家ニ水ト米トヲマウケテ、\",\"italic\":true,\"color\":\"gray\"}",
+                  "{\"text\":\"村ニツゲメグラセバ、男女一所ニアツマリテ、\",\"italic\":true,\"color\":\"gray\"}",
+                  "{\"text\":\"チリヂリニカヘリヌ 酒ノ香ノイデクルトキ、\",\"italic\":true,\"color\":\"gray\"}",
+                  "{\"text\":\"又アツマリテ、カミテハキイレシモノドモ、コレヲノム。\",\"italic\":true,\"color\":\"gray\"}",
+                  "{\"text\":\"名ヅケテクチカミノ酒ト云フト云云、風土記ニ見エタリ。\",\"italic\":true,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

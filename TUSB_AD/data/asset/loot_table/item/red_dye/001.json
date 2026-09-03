@@ -11,26 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "血肉の魔宝珠",
-                  "italic": false,
-                  "color": "dark_red"
-                },
+                "minecraft:custom_name": "{\"text\":\"血肉の魔宝珠\",\"italic\":false,\"color\":\"dark_red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "魔性に囚われた者を倒した証",
-                    "italic": false
-                  },
-                  {
-                    "text": "禍々しく荒々しい....",
-                    "italic": false
-                  }
+                  "{\"text\":\"魔性に囚われた者を倒した証\",\"italic\":false}",
+                  "{\"text\":\"禍々しく荒々しい....\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:fire_protection": 999,
+                    "minecraft:fire_protection": 255,
                     "minecraft:sharpness": 1,
-                    "minecraft:infinity": 1020
+                    "minecraft:infinity": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

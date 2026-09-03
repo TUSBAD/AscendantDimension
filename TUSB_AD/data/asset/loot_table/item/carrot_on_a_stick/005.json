@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "召喚士のタクト",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"召喚士のタクト\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "美味しそうな香りを放つ",
-                    "italic": false
-                  },
-                  {
-                    "text": "どこまでも走れそうに思わせる杖",
-                    "italic": false
-                  }
+                  "{\"text\":\"美味しそうな香りを放つ\",\"italic\":false}",
+                  "{\"text\":\"どこまでも走れそうに思わせる杖\",\"italic\":false}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

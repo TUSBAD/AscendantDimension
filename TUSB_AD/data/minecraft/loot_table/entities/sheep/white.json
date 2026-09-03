@@ -19,7 +19,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
-          "weight":30,
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -30,7 +30,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
-          "weight":15,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
-          "weight":6,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -57,7 +57,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/sheep"
+          "value": "minecraft:entities/sheep"
         }
       ]
     },

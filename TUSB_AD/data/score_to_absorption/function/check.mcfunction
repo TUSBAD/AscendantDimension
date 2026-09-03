@@ -14,6 +14,6 @@
 
 effect clear @s minecraft:absorption
 effect give @s minecraft:absorption infinite 255 true
-execute store result score #_ ScoreToAbsorption run attribute @s minecraft:generic.max_absorption get 100
+execute store result score #_ ScoreToAbsorption run attribute @s minecraft:max_absorption get 100
 
 function score_to_absorption:modify

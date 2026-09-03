@@ -44,19 +44,19 @@
         data modify storage asset: mob.IsBaby set value true
 ### Attributes
     # 最大体力
-        data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:80}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:80}
     # (近接)攻撃力
-        data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:5}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:5}
     # 移動速度
-        data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.2}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.2}
     # 防具値
-        data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:-6}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:-6}
     # 防具強度
-        data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:0}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:armor_toughness, Base:0}
     # ノックバック耐性(0~1)
        # data modify storage asset: mob.Attributes append value {Name:generic.knockback_resistance, Base:0}
     # 索敵範囲
-        data modify storage asset: mob.Attributes append value {Name:generic.follow_range, Base:64}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:follow_range, Base:64}
     # それぞれの詳しい仕様はwikiなどで調べてください
     # 可読性や編集の手間を考慮しなければこれらを全て一つに纏めることも可能です
     # Attribute Modifierというものも使用可能。ただし、UUIDを指定する必要がある(めんどい)

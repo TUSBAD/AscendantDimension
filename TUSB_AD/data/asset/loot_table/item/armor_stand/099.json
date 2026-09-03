@@ -11,86 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "白材強化の印板EX",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"白材強化の印板EX\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、付近に設置されている",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "白素材",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "を強化することができる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "模様入りﾈｻﾞｰｸｫｰﾂ",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "白焼き粘土",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "に、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "白焼き粘土",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "エンドストーン",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "に変化する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、付近に設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"白素材\",\"italic\":false,\"color\":\"white\"},{\"text\":\"を強化することができる。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"模様入りﾈｻﾞｰｸｫｰﾂ\",\"italic\":false,\"color\":\"white\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"白焼き粘土\",\"italic\":false,\"color\":\"white\"},{\"text\":\"に、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"白焼き粘土\",\"italic\":false,\"color\":\"white\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"エンドストーン\",\"italic\":false,\"color\":\"white\"},{\"text\":\"に変化する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -100,7 +26,8 @@
                     "SignStand",
                     "WhiteUpgraderEX",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

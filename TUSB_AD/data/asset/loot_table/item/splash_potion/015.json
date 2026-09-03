@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黄金水",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"黄金水\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "黄金に輝く果実を、若葉から滴る",
-                    "italic": true,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "エキスとブレンドしたポーション",
-                    "italic": true,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "中毒性が強いとの報告があるので注意",
-                    "italic": true,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"黄金に輝く果実を、若葉から滴る\",\"italic\":true,\"color\":\"yellow\"}",
+                  "{\"text\":\"エキスとブレンドしたポーション\",\"italic\":true,\"color\":\"yellow\"}",
+                  "{\"text\":\"中毒性が強いとの報告があるので注意\",\"italic\":true,\"color\":\"yellow\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

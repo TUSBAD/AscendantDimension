@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "火剣センサウ",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"火剣センサウ\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:potion_contents": {
                   "custom_effects": [
                     {

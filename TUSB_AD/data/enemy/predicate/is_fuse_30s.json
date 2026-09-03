@@ -1,9 +1,7 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Fuse:30s}"
-    }
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Fuse:30s}"
   }
-]
+}

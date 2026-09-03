@@ -11,102 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "羊集の印板",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"羊集の印板\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "使用すると、印板から半径",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "11m",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "の",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "羊",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      },
-                      {
-                        "text": "を、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "使用者にﾃﾚﾎﾟｰﾄさせ、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "静止",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "させる印板。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "属性：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "永続型",
-                        "italic": false,
-                        "color": "dark_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"使用すると、印板から半径\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"11m\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"の\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"羊\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"を、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"使用者にﾃﾚﾎﾟｰﾄさせ、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"静止\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"させる印板。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"属性：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"永続型\",\"italic\":false,\"color\":\"dark_purple\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

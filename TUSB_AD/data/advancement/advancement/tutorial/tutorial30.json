@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:sculk_catalyst",
-      "nbt": "{}"
+      "id": "minecraft:sculk_catalyst"
     },
     "title": [
       {
@@ -39,7 +38,7 @@
           "translate": "水色発光：戦神/創造神",
           "color": "#46edff"
         },
-                {
+        {
           "translate": "消滅の印判",
           "color": "#ff0000"
         }

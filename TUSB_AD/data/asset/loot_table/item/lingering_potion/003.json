@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エリアハイエーテル",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"エリアハイエーテル\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナがぽちょっと詰まった瓶。",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "中身に触れるとMPが大きく回復する。",
-                    "italic": false,
-                    "color": "aqua"
-                  }
+                  "{\"text\":\"マナがぽちょっと詰まった瓶。\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"中身に触れるとMPが大きく回復する。\",\"italic\":false,\"color\":\"aqua\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

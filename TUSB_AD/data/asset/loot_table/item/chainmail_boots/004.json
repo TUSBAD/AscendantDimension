@@ -11,13 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "  シマトラ",
-                  "italic": true,
-                  "color": "gray",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"  シマトラ\",\"italic\":true,\"color\":\"gray\",\"bold\":true,\"underlined\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 1,

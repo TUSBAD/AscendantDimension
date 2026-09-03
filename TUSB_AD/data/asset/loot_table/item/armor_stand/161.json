@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "深淵憑依の印板",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"深淵憑依の印板\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "深淵をのぞく時、深淵もまたこちらをのぞいているのだ",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"深淵をのぞく時、深淵もまたこちらをのぞいているのだ\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -33,7 +24,8 @@
                     "SignStand",
                     "narakuu",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

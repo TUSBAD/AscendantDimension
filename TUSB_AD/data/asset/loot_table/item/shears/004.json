@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "庭師のハサミ",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"庭師のハサミ\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "繊維質に対しては抜群の切れ味を誇るが",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "誤って肌を傷つけることは決してない",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "特殊形状の刃を用いたハサミ。",
-                    "italic": false,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"繊維質に対しては抜群の切れ味を誇るが\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"誤って肌を傷つけることは決してない\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"特殊形状の刃を用いたハサミ。\",\"italic\":false,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

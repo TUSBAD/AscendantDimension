@@ -11,89 +11,22 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "マモル君なりきりセット",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"マモル君なりきりセット\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ダメージ軽減 enchantment.level.20",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "爆発耐性 enchantment.level.20",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "火炎耐性 enchantment.level.20",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "飛び道具耐性 enchantment.level.20",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "Curse of kun mamoru ",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "enchantment.level.∞",
-                        "italic": false,
-                        "color": "gray"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "マモル君を最強たらしめた伝説の装備。",
-                    "italic": false
-                  },
-                  {
-                    "text": "……しかし呪いを受けた今となっては,まるで通常の革防具のように脆くなり",
-                    "italic": false
-                  },
-                  {
-                    "text": "更には効果まで殆ど消えてしまった。",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "胴に装備したとき:",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": " 移動速度-0.1",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": " ノックバック耐性0.25",
-                    "italic": false,
-                    "color": "blue"
-                  },
-                  {
-                    "text": "耐ス",
-                    "italic": false,
-                    "color": "blue"
-                  }
+                  "{\"text\":\"ダメージ軽減 enchantment.level.20\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"爆発耐性 enchantment.level.20\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"火炎耐性 enchantment.level.20\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"飛び道具耐性 enchantment.level.20\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"Curse of kun mamoru \",\"italic\":false,\"color\":\"red\"},{\"text\":\"enchantment.level.∞\",\"italic\":false,\"color\":\"gray\"}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"マモル君を最強たらしめた伝説の装備。\",\"italic\":false}",
+                  "{\"text\":\"……しかし呪いを受けた今となっては,まるで通常の革防具のように脆くなり\",\"italic\":false}",
+                  "{\"text\":\"更には効果まで殆ど消えてしまった。\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"胴に装備したとき:\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\" 移動速度-0.1\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\" ノックバック耐性0.25\",\"italic\":false,\"color\":\"blue\"}",
+                  "{\"text\":\"耐ス\",\"italic\":false,\"color\":\"blue\"}"
                 ],
                 "minecraft:dyed_color": {
                   "rgb": 4322180

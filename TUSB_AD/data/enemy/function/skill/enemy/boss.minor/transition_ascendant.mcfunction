@@ -10,6 +10,6 @@ tp @a[distance=..80,predicate=!entity:player_invulnerable] @s
 
 effect clear @a[distance=..4] minecraft:resistance
 
-playsound block.portal.trigger hostile @a[distance=..64] ~ ~ ~ 0.75 2 1
+playsound minecraft:block.portal.trigger hostile @a[distance=..64] ~ ~ ~ 0.75 2 1
 
 particle minecraft:witch ~ ~ ~ 1 1 1 1 50 force @a[distance=..30]

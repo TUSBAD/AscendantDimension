@@ -11,46 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "生首",
-                  "italic": false,
-                  "color": "dark_red"
-                },
+                "minecraft:custom_name": "{\"text\":\"生首\",\"italic\":false,\"color\":\"dark_red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "店主の頭を”模した”置物",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "ダメージ軽減 Ⅴ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "水中歩行 Ⅲ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "消滅の呪い",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "束縛の呪い",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "Curse of AlgaeDare Ⅳ",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"店主の頭を”模した”置物\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"ダメージ軽減 Ⅴ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"水中歩行 Ⅲ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"消滅の呪い\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"束縛の呪い\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"Curse of AlgaeDare Ⅳ\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
@@ -100,7 +69,6 @@
                 },
                 "minecraft:repair_cost": 1000000000,
                 "minecraft:profile": {
-                  "id": "0627ca7b-a685-4d93-9da5-6719d9b86241",
                   "properties": [
                     {
                       "name": "textures",

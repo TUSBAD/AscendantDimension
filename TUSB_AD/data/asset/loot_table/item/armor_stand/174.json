@@ -11,36 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "回収の印板",
-                  "italic": false,
-                  "color": "aqua",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"回収の印板\",\"italic\":false,\"color\":\"aqua\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "この看板から半径10m以内のアイテムを",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "1回だけ",
-                        "italic": false,
-                        "color": "yellow",
-                        "underlined": true,
-                        "bold": true
-                      },
-                      {
-                        "text": "回収できる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"この看板から半径10m以内のアイテムを\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"1回だけ\",\"italic\":false,\"color\":\"yellow\",\"underlined\":true,\"bold\":true},{\"text\":\"回収できる。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -141,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -471,7 +445,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"
@@ -683,7 +657,8 @@
                     "PermanentStand",
                     "SignStand",
                     "KaisyuStand"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

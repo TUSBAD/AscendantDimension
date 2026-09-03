@@ -11,92 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "バリキドリンク",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"バリキドリンク\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "即効性の",
-                        "italic": true,
-                        "color": "dark_green"
-                      },
-                      {
-                        "text": "飲める劇",
-                        "italic": false,
-                        "color": "dark_red",
-                        "strikethrough": true
-                      },
-                      {
-                        "text": "薬。",
-                        "italic": true,
-                        "color": "dark_green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "10秒間肉体を再生・活性化させ、",
-                    "italic": true,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "痛みを感じなくさせる。",
-                    "italic": true,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "ただし、15秒間行動出来ない。",
-                    "italic": true,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "宣伝：",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      },
-                      {
-                        "text": "バリキドリンクで！",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "宣伝：",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      },
-                      {
-                        "text": "今夜もパーティ！パーティー！",
-                        "italic": false,
-                        "color": "yellow",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ",
-                    "italic": false,
-                    "color": "black",
-                    "bold": true
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"即効性の\",\"italic\":true,\"color\":\"dark_green\"},{\"text\":\"飲める劇\",\"italic\":false,\"color\":\"dark_red\",\"strikethrough\":true},{\"text\":\"薬。\",\"italic\":true,\"color\":\"dark_green\"}]}",
+                  "{\"text\":\"10秒間肉体を再生・活性化させ、\",\"italic\":true,\"color\":\"dark_green\"}",
+                  "{\"text\":\"痛みを感じなくさせる。\",\"italic\":true,\"color\":\"dark_green\"}",
+                  "{\"text\":\"ただし、15秒間行動出来ない。\",\"italic\":true,\"color\":\"dark_green\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"宣伝：\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"バリキドリンクで！\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"宣伝：\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"今夜もパーティ！パーティー！\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}]}",
+                  "{\"text\":\"ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ\",\"italic\":false,\"color\":\"black\",\"bold\":true}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

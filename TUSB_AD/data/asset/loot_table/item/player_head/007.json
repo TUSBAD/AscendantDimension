@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "オレンジ",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"オレンジ\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "suraimunaito",
-                  "id": "c9b79323-d7e8-4eae-86a2-b74e0c9469d6",
                   "properties": [
                     {
                       "name": "textures",

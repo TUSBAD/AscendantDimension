@@ -11,33 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "夏虫の杖",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"夏虫の杖\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "虫に高いダメージを与え、燃え上がらせる。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "虫以外にはダメージを与えられない。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "※攻撃力変動効果無効",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"虫に高いダメージを与え、燃え上がらせる。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"虫以外にはダメージを与えられない。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"※攻撃力変動効果無効\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

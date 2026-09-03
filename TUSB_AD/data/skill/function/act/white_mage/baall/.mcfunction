@@ -8,4 +8,4 @@ playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~
 effect give @a[distance=..15] minecraft:fire_resistance 60 0
 effect give @a[distance=..15] minecraft:water_breathing 60 0
 
-execute as @a[distance=..15] at @s run particle minecraft:dust 255 255 255 1 ~ ~1 ~ 0.5 0.5 0.5 10 30 force
+execute as @a[distance=..15] at @s run particle dust{color:[1,1,1],scale:1} ~ ~1 ~ 0.5 0.5 0.5 10 30 force

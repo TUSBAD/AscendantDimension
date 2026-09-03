@@ -1,7 +1,7 @@
 #> skill:act/archer/madan/hit/damage
 
 ### 演出する表示するカウントが残っているときだけ表示
-execute unless data storage skill: {chain_arrow_count:0} run playsound entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 1 0 0
+execute unless data storage skill: {chain_arrow_count:0} run playsound minecraft:entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 1 0 0
 execute unless data storage skill: {chain_arrow_count:0} run particle enchanted_hit ~ ~1 ~ 1 1 1 0.1 120 force
 execute unless data storage skill: {chain_arrow_count:0} run particle sweep_attack ~ ~1 ~ 1 0.5 1 0 30 force
 

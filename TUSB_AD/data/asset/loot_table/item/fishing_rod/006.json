@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ぼろのつりざお",
-                  "italic": false,
-                  "color": "gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"ぼろのつりざお\",\"italic\":false,\"color\":\"gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "ぼろい。",
-                    "italic": false
-                  }
+                  "{\"text\":\"ぼろい。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

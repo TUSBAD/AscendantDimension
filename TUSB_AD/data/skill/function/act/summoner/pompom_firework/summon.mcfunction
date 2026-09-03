@@ -40,7 +40,7 @@ execute if entity @s[y_rotation=145.0..155.0] rotated ~ 0 positioned ^ ^ ^ run s
 execute if entity @s[y_rotation=155.0..165.0] rotated ~ 0 positioned ^ ^ ^ run summon minecraft:firework_rocket ~ ~ ~ {Life:0,LifeTime:0,Silent:true,ShotAtAngle:true,Tags:[PomPom,SystemEntity,TypeChecked],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:4b,Flicker:true,Trail:false,Colors:[I;3487029,14973650,3386173,3228837],FadeColors:[I;16752934]}]}}},Motion:[-0.3420201433256689d,0.3d,-0.9396926207859083d]}
 execute if entity @s[y_rotation=165.0..175.0] rotated ~ 0 positioned ^ ^ ^ run summon minecraft:firework_rocket ~ ~ ~ {Life:0,LifeTime:0,Silent:true,ShotAtAngle:true,Tags:[PomPom,SystemEntity,TypeChecked],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:4b,Flicker:true,Trail:false,Colors:[I;3487029,14973650,3386173,3228837],FadeColors:[I;16752934]}]}}},Motion:[-0.17364817766693028d,0.3d,-0.984807753012208d]}
 
-playsound entity.creeper.primed master @a[distance=..16] ~ ~ ~ 1 1.44 0
+playsound minecraft:entity.creeper.primed master @a[distance=..16] ~ ~ ~ 1 1.44 0
 
 execute as @e[distance=0,type=firework_rocket,tag=PomPom,predicate=skill:is_life_0,limit=1] run tp @s 0.0 0.0 0.0
 

@@ -11,42 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "1",
-                      "italic": false,
-                      "color": "aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "エンドオブテンペスト",
-                      "italic": false,
-                      "color": "blue"
-                    },
-                    {
-                      "text": "1",
-                      "italic": false,
-                      "color": "aqua",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"1\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true},{\"text\":\"エンドオブテンペスト\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"1\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "神の如し暴風を起こす",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "天高くまで吹き飛ばし叩きつける",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  }
+                  "{\"text\":\"神の如し暴風を起こす\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"天高くまで吹き飛ばし叩きつける\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

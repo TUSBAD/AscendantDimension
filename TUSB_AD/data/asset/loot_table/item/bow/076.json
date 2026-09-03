@@ -11,29 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "弓が使えない骨の弓",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"弓が使えない骨の弓\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "とあるモンスターが進化した時に手に取っていた弓",
-                    "italic": false
-                  },
-                  {
-                    "text": "性能はピカイチ",
-                    "italic": false
-                  },
-                  {
-                    "text": "死にさらせしゅーてぃんぐ！",
-                    "italic": false
-                  }
+                  "{\"text\":\"とあるモンスターが進化した時に手に取っていた弓\",\"italic\":false}",
+                  "{\"text\":\"性能はピカイチ\",\"italic\":false}",
+                  "{\"text\":\"死にさらせしゅーてぃんぐ！\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:power": 20,
                     "minecraft:punch": 5,
-                    "minecraft:mending": 495
+                    "minecraft:mending": 255
                   },
                   "show_in_tooltip": false
                 },

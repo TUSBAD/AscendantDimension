@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "圧縮エメラルドブロック",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"圧縮エメラルドブロック\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "倉庫を圧迫する大量のエメブロから救います。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"倉庫を圧迫する大量のエメブロから救います。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

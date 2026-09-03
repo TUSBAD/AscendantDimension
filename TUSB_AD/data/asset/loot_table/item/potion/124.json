@@ -11,32 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ヴァイキングの秘薬",
-                  "italic": false,
-                  "color": "gold"
-                },
+                "minecraft:custom_name": "{\"text\":\"ヴァイキングの秘薬\",\"italic\":false,\"color\":\"gold\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "氷土にて多大な功績を残した探検家が",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "先住民により教わった特殊なレシピを",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "使用して作った薬。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "ハイになれる。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"氷土にて多大な功績を残した探検家が\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"先住民により教わった特殊なレシピを\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"使用して作った薬。\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"ハイになれる。\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

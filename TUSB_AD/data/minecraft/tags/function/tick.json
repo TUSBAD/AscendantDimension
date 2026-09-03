@@ -1,6 +1,6 @@
 {
-	"values": [
-		"core:tick",
-		"debug:tick/"
-	]
+  "values": [
+    "core:tick",
+    "debug:tick/"
+  ]
 }

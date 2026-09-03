@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "熱湯",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"熱湯\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:dyed_color": {
                   "rgb": 16711808
                 },

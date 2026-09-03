@@ -11,30 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "Indra ",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "ハラダヌ",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": " Indra",
-                      "italic": false,
-                      "color": "dark_red",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"Indra \",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true},{\"text\":\"ハラダヌ\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\" Indra\",\"italic\":false,\"color\":\"dark_red\",\"obfuscated\":true}]}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:power": 100,

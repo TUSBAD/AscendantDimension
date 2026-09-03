@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Argon",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"Argon\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "Argon39",
-                  "id": "851567a7-f408-443a-92c9-2005b59d40a4",
                   "properties": [
                     {
                       "name": "textures",

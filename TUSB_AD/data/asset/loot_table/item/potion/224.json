@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黄金蜂蜜酒(特上品)",
-                  "italic": false,
-                  "color": "yellow"
-                },
+                "minecraft:custom_name": "{\"text\":\"黄金蜂蜜酒(特上品)\",\"italic\":false,\"color\":\"yellow\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "飲み薬。これを飲んだ者は、",
-                    "italic": true,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "跳躍力と速度が上がり、",
-                    "italic": true,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "傷の直りが早くなる体に生まれ変わる。",
-                    "italic": true,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"飲み薬。これを飲んだ者は、\",\"italic\":true,\"color\":\"gold\"}",
+                  "{\"text\":\"跳躍力と速度が上がり、\",\"italic\":true,\"color\":\"gold\"}",
+                  "{\"text\":\"傷の直りが早くなる体に生まれ変わる。\",\"italic\":true,\"color\":\"gold\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

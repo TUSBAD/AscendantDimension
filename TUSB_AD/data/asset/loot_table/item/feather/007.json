@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "亜空間移動装置",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"亜空間移動装置\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "文字がかすれて見えない…",
-                    "italic": true,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"文字がかすれて見えない…\",\"italic\":true,\"color\":\"gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

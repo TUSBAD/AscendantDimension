@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "rank5",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"rank5\",\"italic\":false}",
                 "minecraft:block_entity_data": {
                   "LootTable": "usb:chests/rank5",
                   "id": "minecraft:chest"

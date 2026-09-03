@@ -6,4 +6,4 @@
 
 me は §4§lペストクロップ§r を唱えた！
 execute as @a[distance=..32] if predicate effect:is_poison at @s run function effect:deadly_poison/
-playsound entity.ravager.celebrate master @a[distance=..32] ~ ~ ~ 1 1.8 1
+playsound minecraft:entity.ravager.celebrate master @a[distance=..32] ~ ~ ~ 1 1.8 1

@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "氷塊積み上げ",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"氷塊積み上げ\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "(+NBT)",
-                    "italic": false
-                  }
+                  "{\"text\":\"(+NBT)\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

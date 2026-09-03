@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tipped_arrow",
-      "nbt": "{}"
+      "id": "minecraft:tipped_arrow"
     },
     "title": [
       {

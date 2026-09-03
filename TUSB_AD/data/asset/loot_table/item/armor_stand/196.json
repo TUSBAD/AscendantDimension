@@ -11,74 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "嫌な予感制御印板",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"嫌な予感制御印板\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "この世界に蔓延する瘴気。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "その瘴気の一部である「",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "嫌な予感",
-                        "italic": false,
-                        "color": "dark_purple",
-                        "bold": true
-                      },
-                      {
-                        "text": "」を",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "一時的に制御出来る",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "秘宝。",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "原初の創造神の力",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "を借り、一時的な安寧をもたらす。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "使用すると結界を召喚し、結界は10分ほど持続する。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"この世界に蔓延する瘴気。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その瘴気の一部である「\",\"italic\":false,\"color\":\"white\"},{\"text\":\"嫌な予感\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"」を\",\"italic\":false,\"color\":\"white\"},{\"text\":\"一時的に制御出来る\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"秘宝。\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"原初の創造神の力\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"を借り、一時的な安寧をもたらす。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"使用すると結界を召喚し、結界は10分ほど持続する。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -90,12 +28,13 @@
                     }
                   ]
                 },
-                "minecraft:repair_cost": -1000000000,
+                "minecraft:repair_cost": 0,
                 "minecraft:entity_data": {
                   "Tags": [
                     "SignStand",
                     "CauseDelay"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

@@ -11,99 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ボーンスカッシュ",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ボーンスカッシュ\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "独特の香り",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "と",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "さわやかな塩の風味",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "が",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ガツンと効く",
-                        "italic": false,
-                        "color": "red",
-                        "underlined": true
-                      },
-                      {
-                        "text": "アルコールが強いお酒。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "大昔ある探検隊の変わり者が",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "長年の月日をかけて",
-                        "italic": false,
-                        "color": "blue",
-                        "underlined": true
-                      },
-                      {
-                        "text": "完成させた。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "飲むと",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "３分間変わったものが釣れる",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ようになる。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"独特の香り\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"と\",\"italic\":false,\"color\":\"white\"},{\"text\":\"さわやかな塩の風味\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"が\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ガツンと効く\",\"italic\":false,\"color\":\"red\",\"underlined\":true},{\"text\":\"アルコールが強いお酒。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"大昔ある探検隊の変わり者が\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"長年の月日をかけて\",\"italic\":false,\"color\":\"blue\",\"underlined\":true},{\"text\":\"完成させた。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"飲むと\",\"italic\":false,\"color\":\"white\"},{\"text\":\"３分間変わったものが釣れる\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ようになる。\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

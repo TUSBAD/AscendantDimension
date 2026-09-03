@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "回収の印板・改二",
-                  "italic": false,
-                  "color": "gold",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"回収の印板・改二\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "この看板から80m以内のアイテムを",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "回収できる。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "使用しても看板が消滅しない上位版",
-                    "italic": false,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"この看板から80m以内のアイテムを\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"回収できる。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"使用しても看板が消滅しない上位版\",\"italic\":false,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -43,7 +26,8 @@
                     "PermanentStand",
                     "KaisyuStandEX",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

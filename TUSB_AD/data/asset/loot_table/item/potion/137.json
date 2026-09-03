@@ -11,77 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "禁断の果実酒",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"禁断の果実酒\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "知恵の樹",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "から採れた",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "禁断の果実",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "の酒。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "飲むと",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "数秒後に死ぬ",
-                        "italic": false,
-                        "color": "red",
-                        "underlined": true
-                      },
-                      {
-                        "text": "事から、",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "飲んではいけない",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "とされている。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"知恵の樹\",\"italic\":false,\"color\":\"green\"},{\"text\":\"から採れた\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"禁断の果実\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"の酒。\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"飲むと\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"数秒後に死ぬ\",\"italic\":false,\"color\":\"red\",\"underlined\":true},{\"text\":\"事から、\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"飲んではいけない\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"とされている。\",\"italic\":false,\"color\":\"dark_aqua\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

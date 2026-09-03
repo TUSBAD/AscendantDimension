@@ -11,26 +11,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "おままごとセット",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"おままごとセット\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "机",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "耐久力 enchantment.level.10000",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"机\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"耐久力 enchantment.level.10000\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:unbreaking": 10000
+                    "minecraft:unbreaking": 255
                   },
                   "show_in_tooltip": false
                 },

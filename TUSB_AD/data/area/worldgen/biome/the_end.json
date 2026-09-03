@@ -11,14 +11,19 @@
     "water_fog_color": 16777215,
     "grass_color": 3670093,
     "foliage_color": 2097198,
-    "music": {
-      "sound": "minecraft:music.end",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.end",
+          "min_delay": 0,
+          "max_delay": 2000,
+          "replace_current_music": true
+        }
+      }
+    ],
     "additions_sound": {
-      "sound": "minecraft:basalt_deltas_active",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "tick_chance": 0.005
     },
     "mood_sound": {

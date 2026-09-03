@@ -39,19 +39,19 @@ data modify storage asset: mob.Tags set value ["akuu","AbyssWarp"]
 
 ### Attributes
 # 最大体力
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:1020}
+data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:1020}
 # (近接)攻撃力
-data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:300}
+data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:300}
 # 移動速度
-data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.15}
+data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.15}
 # 防具値
-data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:2}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:2}
 # 防具強度
-data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:0}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor_toughness, Base:0}
 # ノックバック耐性(0~1)
-data modify storage asset: mob.Attributes append value {Name:generic.knockback_resistance, Base:1}
+data modify storage asset: mob.Attributes append value {Name:minecraft:knockback_resistance, Base:1}
 # 索敵範囲
-data modify storage asset: mob.Attributes append value {Name:generic.follow_range, Base:60}
+data modify storage asset: mob.Attributes append value {Name:minecraft:follow_range, Base:60}
 # 攻撃のノックバック(0~5)
 # data modify storage asset: mob.Attributes append value {Name:generic.attack_knockback, Base:1}
 # それぞれの詳しい仕様はwikiなどで調べてください

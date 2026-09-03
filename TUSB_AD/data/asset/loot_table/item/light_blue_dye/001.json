@@ -11,45 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||||",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true,
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "叛逆の創造神の意思",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "||||",
-                      "italic": false,
-                      "color": "white",
-                      "bold": true,
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||||\",\"italic\":false,\"color\":\"white\",\"bold\":true,\"obfuscated\":true},{\"text\":\"叛逆の創造神の意思\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"||||\",\"italic\":false,\"color\":\"white\",\"bold\":true,\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "叛逆の創造神「シリウス」の意思。",
-                    "italic": false,
-                    "color": "dark_aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "「リゲル！アルタイル！僕はもう神に成った！！」§ｒ",
-                    "italic": false,
-                    "color": "dark_aqua",
-                    "bold": true
-                  }
+                  "{\"text\":\"叛逆の創造神「シリウス」の意思。\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
+                  "{\"text\":\"「リゲル！アルタイル！僕はもう神に成った！！」§ｒ\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "悟りの杖",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"悟りの杖\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "かつての聖人が使ったとされる杖。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "攻撃力はないが、コレを持つことで",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "忍耐力が上がる。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"かつての聖人が使ったとされる杖。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"攻撃力はないが、コレを持つことで\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"忍耐力が上がる。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

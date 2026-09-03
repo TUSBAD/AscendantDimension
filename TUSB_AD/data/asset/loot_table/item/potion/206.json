@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "使者の夢",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"使者の夢\",\"italic\":false}",
                 "minecraft:potion_contents": {
                   "potion": "minecraft:swiftness",
                   "custom_effects": [

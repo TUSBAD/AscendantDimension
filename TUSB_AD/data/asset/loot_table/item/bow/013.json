@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "狩人の弓",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"狩人の弓\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "神木の落枝から削って作られた",
-                    "italic": false
-                  },
-                  {
-                    "text": "幸運をもたらすとされる弓",
-                    "italic": false
-                  }
+                  "{\"text\":\"神木の落枝から削って作られた\",\"italic\":false}",
+                  "{\"text\":\"幸運をもたらすとされる弓\",\"italic\":false}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

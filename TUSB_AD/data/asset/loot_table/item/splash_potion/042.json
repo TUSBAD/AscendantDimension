@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "バーサーク",
-                  "italic": false,
-                  "color": "red"
-                },
+                "minecraft:custom_name": "{\"text\":\"バーサーク\",\"italic\":false,\"color\":\"red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "投げつける薬。",
-                    "italic": true,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "これを浴びた者は、攻撃力と防御力が上昇するが、",
-                    "italic": true,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "代償として飢餓と毒状態になる。",
-                    "italic": true,
-                    "color": "dark_green"
-                  }
+                  "{\"text\":\"投げつける薬。\",\"italic\":true,\"color\":\"dark_green\"}",
+                  "{\"text\":\"これを浴びた者は、攻撃力と防御力が上昇するが、\",\"italic\":true,\"color\":\"dark_green\"}",
+                  "{\"text\":\"代償として飢餓と毒状態になる。\",\"italic\":true,\"color\":\"dark_green\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

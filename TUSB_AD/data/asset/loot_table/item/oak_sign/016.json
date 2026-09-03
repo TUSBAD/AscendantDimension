@@ -11,59 +11,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "全滅の印板",
-                  "italic": false,
-                  "color": "red"
-                },
+                "minecraft:custom_name": "{\"text\":\"全滅の印板\",\"italic\":false,\"color\":\"red\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "半径15m以内のすべてに",
-                    "italic": false,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "等しく",
-                        "italic": false,
-                        "color": "dark_green"
-                      },
-                      {
-                        "text": "死",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "を与える。",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★★",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"半径15m以内のすべてに\",\"italic\":false,\"color\":\"dark_green\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"等しく\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"死\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を与える。\",\"italic\":false,\"color\":\"dark_green\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★★\",\"italic\":false,\"color\":\"light_purple\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

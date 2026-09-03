@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ファンタズマの印玉",
-                  "italic": false,
-                  "color": "white"
-                },
+                "minecraft:custom_name": "{\"text\":\"ファンタズマの印玉\",\"italic\":false,\"color\":\"white\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "使うことでファンタズマを入手できる。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "サバイバルエリアでのみ開封可能。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"使うことでファンタズマを入手できる。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"サバイバルエリアでのみ開封可能。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

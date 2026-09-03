@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "空っぽのモンスタースポナー",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"空っぽのモンスタースポナー\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "Advに置く空っぽ(に見える)スポナー",
-                    "italic": false
-                  }
+                  "{\"text\":\"Advに置く空っぽ(に見える)スポナー\",\"italic\":false}"
                 ],
                 "minecraft:block_entity_data": {
                   "MaxNearbyEntities": 0,

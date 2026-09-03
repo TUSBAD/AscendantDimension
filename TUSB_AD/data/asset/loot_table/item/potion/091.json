@@ -11,32 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エリクサー",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"エリクサー\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナから作られた霊薬。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "飲むとHPとMPが半分回復する。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "スプラッシュ化不可",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"マナから作られた霊薬。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"飲むとHPとMPが半分回復する。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"スプラッシュ化不可\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

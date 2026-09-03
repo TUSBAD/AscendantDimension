@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "焼かれる前に逃げた力強き魚",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"焼かれる前に逃げた力強き魚\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:dyed_color": {
                   "rgb": 16711808
                 },

@@ -11,41 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "不屈",
-                      "italic": false,
-                      "color": "dark_gray",
-                      "bold": true
-                    },
-                    {
-                      "text": "の槍",
-                      "italic": false,
-                      "color": "gray"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"不屈\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"の槍\",\"italic\":false,\"color\":\"gray\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "閃光",
-                        "italic": false,
-                        "color": "white",
-                        "bold": true
-                      },
-                      {
-                        "text": "の如く貫き通す力を秘めた槍",
-                        "italic": false,
-                        "color": "gray"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"閃光\",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"の如く貫き通す力を秘めた槍\",\"italic\":false,\"color\":\"gray\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

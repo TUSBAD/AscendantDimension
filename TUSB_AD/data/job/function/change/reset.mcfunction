@@ -14,4 +14,4 @@ execute if score @s ModeChangeB matches 99 run scoreboard players set @s ModeSki
 execute if score @s ModeChangeB matches 99 run scoreboard players set @s ModeCostB 0
 
 tellraw @s [{"text":"スキルを","color":"green"},{"nbt":"skill_slot_title","storage":"skill:","interpret":true},"から外しました。"]
-playsound item.flintandsteel.use master @s ~ ~ ~ 1 0.65 0
+playsound minecraft:item.flintandsteel.use master @s ~ ~ ~ 1 0.65 0

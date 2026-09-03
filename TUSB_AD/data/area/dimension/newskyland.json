@@ -1,11 +1,11 @@
 {
-    "type": "area:newskyland",
-    "generator": {
-      "type": "minecraft:flat",
-      "settings": {
-        "biome": "area:newskyland",
-        "layers": [],
-        "structure_overrides": []
-      }
+  "type": "area:newskyland",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "area:newskyland",
+      "layers": [],
+      "structure_overrides": []
     }
   }
+}

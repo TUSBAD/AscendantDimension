@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "エーテル",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"エーテル\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナがちょぴっと詰まった飲み物。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "飲むとMPが回復する。",
-                    "italic": false,
-                    "color": "green"
-                  }
+                  "{\"text\":\"マナがちょぴっと詰まった飲み物。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"飲むとMPが回復する。\",\"italic\":false,\"color\":\"green\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

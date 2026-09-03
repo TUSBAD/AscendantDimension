@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "天之麻古弓",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"天之麻古弓\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:power": 7

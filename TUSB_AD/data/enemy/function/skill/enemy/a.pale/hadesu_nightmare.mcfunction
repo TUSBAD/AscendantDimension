@@ -8,4 +8,4 @@ tellraw @a[distance=..32] ["",{"selector":"@s","bold":true},{"translate":" は",
 
 execute as @a[distance=..32] if predicate effect:is_poison run scoreboard players set @s MP 0
 
-playsound entity.ravager.celebrate master @a[distance=..32] ~ ~ ~ 1 1.8 1
+playsound minecraft:entity.ravager.celebrate master @a[distance=..32] ~ ~ ~ 1 1.8 1

@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:golden_apple",
-      "nbt": "{}"
+      "id": "minecraft:golden_apple"
     },
     "title": [
       {

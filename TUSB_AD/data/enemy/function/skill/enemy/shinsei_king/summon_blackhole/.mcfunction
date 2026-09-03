@@ -16,6 +16,6 @@ me はサモン・ブラックホールを唱えた！
 # で、markerの周囲にいるプレイヤーに対してダメージとかエフェクトとかね
 # エフェクトは暗闇盲目鈍足かな
 summon marker ~ ~ ~ {Tags:["Blackhole","BossEnemy"]}
-playsound block.end_portal.spawn block @a[distance=..100] ~ ~ ~ 1 1
+playsound minecraft:block.end_portal.spawn block @a[distance=..100] ~ ~ ~ 1 1
 # loop join
 function enemy:skill/enemy/shinsei_king/summon_blackhole/loop

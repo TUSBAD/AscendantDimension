@@ -11,19 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "何もはいっていない(ようにみえる)スポナー",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"何もはいっていない(ようにみえる)スポナー\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "装飾に使うってみかんさんが",
-                    "italic": false
-                  },
-                  {
-                    "text": "言ってたから作ったやつ。",
-                    "italic": false
-                  }
+                  "{\"text\":\"装飾に使うってみかんさんが\",\"italic\":false}",
+                  "{\"text\":\"言ってたから作ったやつ。\",\"italic\":false}"
                 ],
                 "minecraft:block_entity_data": {
                   "RequiredPlayerRange": 16,

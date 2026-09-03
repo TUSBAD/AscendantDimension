@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 
-playsound entity.experience_orb.pickup master @a[distance=..16] ~ ~ ~ 1 1.08 0
+playsound minecraft:entity.experience_orb.pickup master @a[distance=..16] ~ ~ ~ 1 1.08 0
 particle firework ~ ~1 ~ 1 1 1 0.1 200 force
 
 title @s times 10 50 20

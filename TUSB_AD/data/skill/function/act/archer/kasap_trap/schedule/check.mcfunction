@@ -7,7 +7,7 @@
 
 # デフォ1-1-1-1-3-3-3-3-5-5-5-5
 
-playsound entity.creeper.hurt master @a[distance=..16] ~ ~ ~ 0.15 2 0
+playsound minecraft:entity.creeper.hurt master @a[distance=..16] ~ ~ ~ 0.15 2 0
 
 ### パーティクル表示
 execute rotated as 0-0-1-0-1 rotated ~ ~ positioned ^ ^ ^1 run particle minecraft:smoke ~ ~ ~ 0 0 0 0 1 force

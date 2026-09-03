@@ -12,6 +12,6 @@ effect clear @a[distance=..32] minecraft:resistance
 
 effect give @a[distance=..32] minecraft:blindness 3 100 false
 
-playsound block.portal.trigger hostile @a[distance=..32] ~ ~ ~ 0.75 2 1
+playsound minecraft:block.portal.trigger hostile @a[distance=..32] ~ ~ ~ 0.75 2 1
 
 particle minecraft:witch ~ ~ ~ 1 1 1 1 50 force @a[distance=..32]

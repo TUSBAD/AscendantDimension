@@ -11,58 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "苗木設置の印板",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"苗木設置の印板\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "半径10mの範囲に松の苗木を設置する。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "使用するには、インベントリに1stの松の苗木があり、",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "利き手に",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "共鳴済み",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "の",
-                        "italic": false,
-                        "color": "green"
-                      },
-                      {
-                        "text": "新世界の豊穣の鎌",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "が必要。",
-                        "italic": false,
-                        "color": "green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "※土以外のところに設置された松の苗木は削除される。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"半径10mの範囲に松の苗木を設置する。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"使用するには、インベントリに1stの松の苗木があり、\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"利き手に\",\"italic\":false,\"color\":\"green\"},{\"text\":\"共鳴済み\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の\",\"italic\":false,\"color\":\"green\"},{\"text\":\"新世界の豊穣の鎌\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"が必要。\",\"italic\":false,\"color\":\"green\"}]}",
+                  "{\"text\":\"※土以外のところに設置された松の苗木は削除される。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -73,7 +27,8 @@
                     "PlantPlace",
                     "TypeChecked",
                     "PermanentStand"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

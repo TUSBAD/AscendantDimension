@@ -3,8 +3,8 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 1.21 0.1
-particle minecraft:block minecraft:magenta_stained_glass ~ ~0.5 ~ 1 0.2 1 0.1 30 force @a[distance=..32]
+playsound minecraft:entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 1.21 0.1
+particle block{block_state:{Name:"minecraft:magenta_stained_glass"}} ~ ~0.5 ~ 1 0.2 1 0.1 30 force @a[distance=..32]
 
 ### 15 -> 30
 execute if score _ ActivatedSkill matches 6240 run data modify storage score_damage: Argument set value {Damage:15.00,DamageType:"Projectile"}

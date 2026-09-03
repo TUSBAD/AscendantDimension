@@ -11,52 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Da Capo",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"Da Capo\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "オーケストラの指揮棒",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "そして、",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "Da capo",
-                        "italic": true,
-                        "color": "white",
-                        "bold": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "また、",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "Da capo al Fine",
-                        "italic": true,
-                        "color": "white",
-                        "bold": true
-                      }
-                    ]
-                  }
+                  "{\"text\":\"オーケストラの指揮棒\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"そして、\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"Da capo\",\"italic\":true,\"color\":\"white\",\"bold\":true}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"また、\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"Da capo al Fine\",\"italic\":true,\"color\":\"white\",\"bold\":true}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

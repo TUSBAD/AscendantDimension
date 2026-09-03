@@ -11,54 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": " 破魔矢 ",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": "ya",
-                      "italic": false,
-                      "color": "white",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "-",
-                      "italic": false,
-                      "color": "white"
-                    },
-                    {
-                      "text": "—→",
-                      "italic": false
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\" 破魔矢 \",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"ya\",\"italic\":false,\"color\":\"white\",\"obfuscated\":true},{\"text\":\"-\",\"italic\":false,\"color\":\"white\"},{\"text\":\"—→\",\"italic\":false}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "127lvまでの全てのeffectを上書き、解除し",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "バニラ程度mobならアンデット非アンデット問わず",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "倒すことができす祈りがこもった神聖な矢 ",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "お手軽アイ族対策！！",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"127lvまでの全てのeffectを上書き、解除し\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"バニラ程度mobならアンデット非アンデット問わず\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"倒すことができす祈りがこもった神聖な矢 \",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"お手軽アイ族対策！！\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

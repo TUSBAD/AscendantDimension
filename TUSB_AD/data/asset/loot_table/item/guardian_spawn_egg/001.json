@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "スキルエッグセット",
-                  "italic": false,
-                  "color": "light_purple"
-                },
+                "minecraft:custom_name": "{\"text\":\"スキルエッグセット\",\"italic\":false,\"color\":\"light_purple\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "スキルエッグ一式が入っている。",
-                    "italic": false
-                  }
+                  "{\"text\":\"スキルエッグ一式が入っている。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -121,7 +114,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -451,7 +444,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

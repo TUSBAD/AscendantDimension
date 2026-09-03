@@ -11,34 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "大草原の印板",
-                  "italic": false,
-                  "color": "green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"大草原の印板\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、付近に設置されている",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "土素材",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "を草にすることができる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、付近に設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"土素材\",\"italic\":false,\"color\":\"white\"},{\"text\":\"を草にすることができる。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -48,7 +24,8 @@
                     "SignStand",
                     "Daisougen",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

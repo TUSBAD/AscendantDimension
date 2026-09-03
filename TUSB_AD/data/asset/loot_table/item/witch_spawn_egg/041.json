@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "幸福のレシピ",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"幸福のレシピ\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },

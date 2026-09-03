@@ -11,25 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "古の杖",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"古の杖\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "Cane of ko handed down",
-                    "italic": true,
-                    "color": "dark_red",
-                    "obfuscated": true
-                  },
-                  {
-                    "text": "from generation to generation...",
-                    "italic": true,
-                    "color": "dark_red",
-                    "obfuscated": true
-                  }
+                  "{\"text\":\"Cane of ko handed down\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}",
+                  "{\"text\":\"from generation to generation...\",\"italic\":true,\"color\":\"dark_red\",\"obfuscated\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

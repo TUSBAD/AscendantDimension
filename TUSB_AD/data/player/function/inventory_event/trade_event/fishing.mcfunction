@@ -8,4 +8,4 @@ effect give @s minecraft:unluck 180 20
 ### 何か釣れるよメッセージ
 tellraw @s {"text":"今なら変わったものが釣れそうだ！","color":"green"}
 
-clear @s minecraft:paper{FishingGame:true}
+clear @s minecraft:paper[minecraft:custom_data~{FishingGame:true}]

@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "忍者の盾",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"忍者の盾\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "忍者に馴染みやすい盾。",
-                    "italic": false,
-                    "color": "blue"
-                  }
+                  "{\"text\":\"忍者に馴染みやすい盾。\",\"italic\":false,\"color\":\"blue\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

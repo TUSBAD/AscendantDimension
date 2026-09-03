@@ -1,4 +1,6 @@
 {
-    "replace":true,
-    "values": ["#minecraft:all"]
+  "replace": true,
+  "values": [
+    "#minecraft:all"
+  ]
 }

@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ﾁｪｽﾄﾘｮｰｼｶ",
-                  "italic": false,
-                  "color": "gold",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ﾁｪｽﾄﾘｮｰｼｶ\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "(+NBT)",
-                    "italic": false
-                  }
+                  "{\"text\":\"(+NBT)\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {},

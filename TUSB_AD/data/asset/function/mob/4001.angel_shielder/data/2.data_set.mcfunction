@@ -44,13 +44,13 @@
 
 ### Attributes
     # 最大体力
-        data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:800}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:800}
     # (近接)攻撃力
-        data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:20}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:20}
     # 移動速度
-        data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.3}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.3}
     # 防具値
-        data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:-6}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:-6}
     # 防具強度
         # data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:12}
     # ノックバック耐性(0~1)

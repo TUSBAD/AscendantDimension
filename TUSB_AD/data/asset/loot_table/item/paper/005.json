@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "釣りチケ3分",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"釣りチケ3分\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "３分間変わったアイテムが釣れるようになります",
-                    "italic": false,
-                    "color": "gold"
-                  },
-                  {
-                    "text": "釣り堀-海幸彦-",
-                    "italic": false,
-                    "underlined": true
-                  }
+                  "{\"text\":\"３分間変わったアイテムが釣れるようになります\",\"italic\":false,\"color\":\"gold\"}",
+                  "{\"text\":\"釣り堀-海幸彦-\",\"italic\":false,\"underlined\":true}"
                 ]
               }
             }

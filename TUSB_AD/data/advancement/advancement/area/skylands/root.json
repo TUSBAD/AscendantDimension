@@ -1,74 +1,74 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:grass_block"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "- %1$s %2$s - = %3$s =",
-                "color": "gray",
-                "bold": true,
-                "with": [
-                    {
-                        "translate": "新",
-                        "color": "light_purple",
-                        "bold": true
-                    },
-                    {
-                        "translate": "通常世界",
-                        "color": "white",
-                        "bold": true
-                    },
-                    {
-                        "translate": "下層",
-                        "color": "gray",
-                        "bold": true
-                    }
-                ]
-            }
-        ],
-        "description": {
-            "translate": "%1$s",
-            "with": [
-                {
-                    "translate": "世界を救うための冒険が始まる...",
-                    "color": "gray"
-                }
-            ],
-            "color": "green",
-            "bold": true
-        },
-        "background": "minecraft:textures/block/cyan_stained_glass.png",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
     },
-    "criteria": {
-        "enter": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "y": {
-                                        "min": 0,
-                                        "max": 256
-                                    }
-                                },
-                                "dimension": "area:newskyland"
-                            }
-                        }
-                    }
-                ]
-            }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "- %1$s %2$s - = %3$s =",
+        "color": "gray",
+        "bold": true,
+        "with": [
+          {
+            "translate": "新",
+            "color": "light_purple",
+            "bold": true
+          },
+          {
+            "translate": "通常世界",
+            "color": "white",
+            "bold": true
+          },
+          {
+            "translate": "下層",
+            "color": "gray",
+            "bold": true
+          }
+        ]
+      }
+    ],
+    "description": {
+      "translate": "%1$s",
+      "with": [
+        {
+          "translate": "世界を救うための冒険が始まる...",
+          "color": "gray"
         }
+      ],
+      "color": "green",
+      "bold": true
+    },
+    "background": "minecraft:textures/block/cyan_stained_glass.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 0,
+                    "max": 256
+                  }
+                },
+                "dimension": "area:newskyland"
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "火炎耐性削除+超スピード",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"火炎耐性削除+超スピード\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "破壊時ポーション落下スポナー",
-                    "italic": false
-                  }
+                  "{\"text\":\"破壊時ポーション落下スポナー\",\"italic\":false}"
                 ],
                 "minecraft:block_entity_data": {
                   "conditionMet": 1,

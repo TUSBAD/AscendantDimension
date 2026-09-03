@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "First-Aid Kit",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"First-Aid Kit\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "見習いスライムを召喚する印板",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "ヒールポーションをばらまき",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "負傷者を癒す。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"見習いスライムを召喚する印板\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"ヒールポーションをばらまき\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"負傷者を癒す。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -59,13 +42,14 @@
                     }
                   ]
                 },
-                "minecraft:repair_cost": -1000000000,
+                "minecraft:repair_cost": 0,
                 "minecraft:entity_data": {
                   "Tags": [
                     "SignStand",
                     "TypeChecked",
                     "hh"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

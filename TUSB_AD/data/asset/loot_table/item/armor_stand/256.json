@@ -11,63 +11,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ｴﾘｱﾙﾃﾚﾎﾟｰﾄの印版",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ｴﾘｱﾙﾃﾚﾎﾟｰﾄの印版\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると光弾が召喚され、",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "壁等に当て、再度看板を",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｸﾘｯｸする",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "事で",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "その場所にTPできる。",
-                    "italic": false,
-                    "color": "blue",
-                    "bold": true
-                  },
-                  {
-                    "text": "光弾を飛ばしている間にも",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "テレポートが可能。",
-                    "italic": false,
-                    "color": "blue",
-                    "bold": true
-                  },
-                  {
-                    "text": "※光弾は時間経過で自然消滅します。",
-                    "italic": false,
-                    "color": "red",
-                    "bold": true,
-                    "underlined": true
-                  }
+                  "{\"text\":\"使用すると光弾が召喚され、\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"壁等に当て、再度看板を\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｸﾘｯｸする\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"事で\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"その場所にTPできる。\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
+                  "{\"text\":\"光弾を飛ばしている間にも\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"テレポートが可能。\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
+                  "{\"text\":\"※光弾は時間経過で自然消滅します。\",\"italic\":false,\"color\":\"red\",\"bold\":true,\"underlined\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -168,7 +119,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -498,7 +449,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"
@@ -709,7 +660,8 @@
                     "SignStand",
                     "PermanentStand",
                     "Ariel"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

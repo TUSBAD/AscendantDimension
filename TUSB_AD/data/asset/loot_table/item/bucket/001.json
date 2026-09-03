@@ -11,52 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ドカン",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ドカン\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "入ればどこにでも",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "行けると言われているドカン",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "頭にかぶれば最強の力が手に入ると言われている。",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "更に液体などを汲み取る事ができる",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "万能アイテムです。",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "底が浅いので入ったり被る事は出来なさそうだ...",
-                    "italic": false,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"入ればどこにでも\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"行けると言われているドカン\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"頭にかぶれば最強の力が手に入ると言われている。\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"更に液体などを汲み取る事ができる\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"万能アイテムです。\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"底が浅いので入ったり被る事は出来なさそうだ...\",\"italic\":false,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

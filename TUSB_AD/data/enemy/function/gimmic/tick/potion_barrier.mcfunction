@@ -9,5 +9,5 @@ execute if data storage _: {_:[{id:"minecraft:instant_damage",amplifier:29b}]} r
 execute if data storage _: {_:[{Id:6b,amplifier:29b}]} run data modify storage _: _ set value true
 
 execute if data storage _: {_:true} as @e[limit=1,sort=nearest,team=Boss] run me はポーションを無効化した！
-execute if data storage _: {_:true} at @s run playsound entity.splash_potion.break player @a[distance=..32] ~ ~ ~
+execute if data storage _: {_:true} at @s run playsound minecraft:entity.splash_potion.break player @a[distance=..32] ~ ~ ~
 execute if data storage _: {_:true} run kill @s

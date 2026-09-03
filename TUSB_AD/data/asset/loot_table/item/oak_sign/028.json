@@ -11,101 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "伝承の印板",
-                  "italic": false,
-                  "color": "green"
-                },
+                "minecraft:custom_name": "{\"text\":\"伝承の印板\",\"italic\":false,\"color\":\"green\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ソテイハ キ",
-                        "italic": false,
-                        "color": "blue",
-                        "bold": true
-                      },
-                      {
-                        "text": "ンドウ マーキャ。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ローキリ ド",
-                        "italic": false,
-                        "color": "blue",
-                        "bold": true
-                      },
-                      {
-                        "text": "サント ベシテ。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ソブタツ ウ",
-                        "italic": false,
-                        "color": "blue",
-                        "bold": true
-                      },
-                      {
-                        "text": "ニウニ ソブタツ。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ロルイケ",
-                        "italic": false,
-                        "color": "blue",
-                        "bold": true
-                      },
-                      {
-                        "text": " チャモロ シラナイ……。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★☆",
-                        "italic": false,
-                        "color": "aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ソテイハ キ\",\"italic\":false,\"color\":\"blue\",\"bold\":true},{\"text\":\"ンドウ マーキャ。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ローキリ ド\",\"italic\":false,\"color\":\"blue\",\"bold\":true},{\"text\":\"サント ベシテ。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ソブタツ ウ\",\"italic\":false,\"color\":\"blue\",\"bold\":true},{\"text\":\"ニウニ ソブタツ。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ロルイケ\",\"italic\":false,\"color\":\"blue\",\"bold\":true},{\"text\":\" チャモロ シラナイ……。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★☆\",\"italic\":false,\"color\":\"aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:repair_cost": 1000000000,

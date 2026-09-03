@@ -9,7 +9,7 @@
 # title
     execute as @e[limit=1,tag=GameMaster] at @s run title @a[distance=..60,tag=GameMasterBattle] title ["",{"text":"k","bold":true,"obfuscated":true,"color":"black"},{"text":"DIE","bold":true,"color":"dark_red"},{"text":"k","bold":true,"obfuscated":true,"color":"black"}]
 # sound
-    execute at @e[limit=1,tag=GameMaster] run playsound entity.wither.death master @a[distance=..60]
+    execute at @e[limit=1,tag=GameMaster] run playsound minecraft:entity.wither.death master @a[distance=..60]
 # effect
     execute at @e[limit=1,tag=GameMaster] run effect give @a[distance=..60] blindness 1 0 true
 # damage

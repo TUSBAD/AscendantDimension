@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "温泉卵",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"温泉卵\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ゆっくり温めて作られた温泉卵",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "投げるとたまに孵化する。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"ゆっくり温めて作られた温泉卵\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"投げるとたまに孵化する。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

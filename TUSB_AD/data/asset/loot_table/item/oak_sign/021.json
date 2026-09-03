@@ -11,94 +11,19 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "宿の印板",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"宿の印板\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "豪華なテントが出現する。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "内装はベットやかまど、作業台に、",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "Lチェストも２セット付いてくる。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "テントの中の看板をクリックすると",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "季節に合わせた色変更が出来る。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "※平らで十分な空間がないと設置されない。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "※",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ネザー",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "や",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "エンド",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "では設置されない。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"豪華なテントが出現する。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"内装はベットやかまど、作業台に、\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"Lチェストも２セット付いてくる。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"テントの中の看板をクリックすると\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"季節に合わせた色変更が出来る。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"※平らで十分な空間がないと設置されない。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"※\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ネザー\",\"italic\":false,\"color\":\"red\"},{\"text\":\"や\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"エンド\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"では設置されない。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

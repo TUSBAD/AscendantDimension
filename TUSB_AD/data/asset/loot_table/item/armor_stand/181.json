@@ -11,127 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黒魔導士の魂",
-                  "italic": false,
-                  "color": "dark_gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"黒魔導士の魂\",\"italic\":false,\"color\":\"dark_gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "攻撃魔法",
-                        "italic": false,
-                        "color": "dark_red"
-                      },
-                      {
-                        "text": "を得意とし、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "生命",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "を奪うことに長けた",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "黒魔導士の魂",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "が込められた印板",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "落ちている一番近くの",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｱｲﾃﾑ",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "に魂が刻まれるが",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "その",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｱｲﾃﾑ",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "の個数や",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ｴﾝﾁｬﾝﾄ",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "は上書きされてしまう",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾚｱﾘﾃｨ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★☆",
-                        "italic": false,
-                        "color": "aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"攻撃魔法\",\"italic\":false,\"color\":\"dark_red\"},{\"text\":\"を得意とし、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"生命\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"を奪うことに長けた\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"黒魔導士の魂\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"が込められた印板\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"落ちている一番近くの\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"に魂が刻まれるが\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の個数や\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｴﾝﾁｬﾝﾄ\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"は上書きされてしまう\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾚｱﾘﾃｨ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★☆\",\"italic\":false,\"color\":\"aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 0
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:entity_data": {
@@ -142,7 +31,8 @@
                     "SignStand",
                     "PermanentStand",
                     "BlackMageStand"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

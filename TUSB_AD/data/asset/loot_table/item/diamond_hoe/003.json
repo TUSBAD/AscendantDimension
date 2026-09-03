@@ -11,38 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "首刈り鎌",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"首刈り鎌\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "鍬じゃないよ、鎌だよ。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "お古で弱くなっててもいいならどうぞ。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "※攻撃力変動効果無効",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"鍬じゃないよ、鎌だよ。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"お古で弱くなっててもいいならどうぞ。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"※攻撃力変動効果無効\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:looting": -32768,
-                    "minecraft:fortune": -32768,
                     "minecraft:sharpness": 24
                   },
                   "show_in_tooltip": false

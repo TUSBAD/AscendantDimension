@@ -11,24 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "図書券",
-                  "italic": false,
-                  "color": "green",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"図書券\",\"italic\":false,\"color\":\"green\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "本と交換できるチケット。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "防水加工が施されている。",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"本と交換できるチケット。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"防水加工が施されている。\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {},

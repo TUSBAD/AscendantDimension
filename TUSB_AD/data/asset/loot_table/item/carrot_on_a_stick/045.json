@@ -11,29 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "破滅と星創の神杖【封印状態】",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"破滅と星創の神杖【封印状態】\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "生物を根絶し大地を破壊する",
-                    "italic": false,
-                    "color": "dark_red"
-                  },
-                  {
-                    "text": "星を創り生物を蘇らせる",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "text": "らしい",
-                    "italic": false
-                  }
+                  "{\"text\":\"生物を根絶し大地を破壊する\",\"italic\":false,\"color\":\"dark_red\"}",
+                  "{\"text\":\"星を創り生物を蘇らせる\",\"italic\":false,\"color\":\"aqua\"}",
+                  "{\"text\":\"らしい\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 9999,
+                    "minecraft:protection": 255,
                     "minecraft:knockback": 5
                   },
                   "show_in_tooltip": false

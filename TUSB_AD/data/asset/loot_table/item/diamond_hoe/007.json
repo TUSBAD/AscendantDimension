@@ -11,51 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "13",
-                      "italic": false,
-                      "color": "dark_green",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "十三番目の沈黙",
-                      "italic": false,
-                      "color": "dark_green"
-                    },
-                    {
-                      "text": "13",
-                      "italic": false,
-                      "color": "dark_green",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"13\",\"italic\":false,\"color\":\"dark_green\",\"obfuscated\":true},{\"text\":\"十三番目の沈黙\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"13\",\"italic\":false,\"color\":\"dark_green\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "時は人生のごとく流れ、人生もまた時のように流れる、",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "そして、",
-                        "italic": false
-                      },
-                      {
-                        "text": "私は絶対的な孤独を知っている",
-                        "italic": false,
-                        "color": "dark_green",
-                        "bold": true
-                      }
-                    ]
-                  }
+                  "{\"text\":\"時は人生のごとく流れ、人生もまた時のように流れる、\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"そして、\",\"italic\":false},{\"text\":\"私は絶対的な孤独を知っている\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

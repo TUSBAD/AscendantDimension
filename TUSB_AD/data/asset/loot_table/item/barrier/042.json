@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "まったく、スピカの考える事は理解できないな。",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                }
+                "minecraft:custom_name": "{\"text\":\"まったく、スピカの考える事は理解できないな。\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}"
               }
             }
           ]

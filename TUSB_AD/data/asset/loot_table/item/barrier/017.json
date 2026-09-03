@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "酒好きの村人",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"酒好きの村人\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "...お前さんの役に立つかわからんが、",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "良いもんを最近拾ってな。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "ヒッヒッヒッ、どうだ？ 気になるだろう！？",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"...お前さんの役に立つかわからんが、\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"良いもんを最近拾ってな。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"ヒッヒッヒッ、どうだ？ 気になるだろう！？\",\"italic\":false,\"color\":\"gray\"}"
                 ]
               }
             }

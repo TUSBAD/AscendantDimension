@@ -11,72 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "rep",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "願望の",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "複製",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": "印板 ",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true
-                    },
-                    {
-                      "text": "rep",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"rep\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"願望の\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"複製\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"印板 \",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"rep\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "この印板を置いて、アイテムを投げ",
-                    "italic": false,
-                    "color": "light_purple",
-                    "bold": true
-                  },
-                  {
-                    "text": "看板を右クリックすると1個だったものが",
-                    "italic": false,
-                    "color": "green",
-                    "bold": true
-                  },
-                  {
-                    "text": "2個になる。",
-                    "italic": false,
-                    "color": "yellow",
-                    "bold": true,
-                    "underlined": true
-                  },
-                  {
-                    "text": "ただし、2個以上の物も、2個になるので注意",
-                    "italic": false,
-                    "color": "dark_purple",
-                    "bold": true
-                  }
+                  "{\"text\":\"この印板を置いて、アイテムを投げ\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
+                  "{\"text\":\"看板を右クリックすると1個だったものが\",\"italic\":false,\"color\":\"green\",\"bold\":true}",
+                  "{\"text\":\"2個になる。\",\"italic\":false,\"color\":\"yellow\",\"bold\":true,\"underlined\":true}",
+                  "{\"text\":\"ただし、2個以上の物も、2個になるので注意\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -177,7 +117,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -507,7 +447,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"
@@ -719,7 +659,8 @@
                     "GanbouStand",
                     "SignStand",
                     "PermanentStand"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

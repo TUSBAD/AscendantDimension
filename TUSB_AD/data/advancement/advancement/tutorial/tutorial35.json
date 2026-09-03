@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wither_skeleton_skull",
-      "nbt": "{}"
+      "id": "minecraft:wither_skeleton_skull"
     },
     "title": [
       {

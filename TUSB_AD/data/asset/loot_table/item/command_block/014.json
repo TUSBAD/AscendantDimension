@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "２ﾏｽ下のｺﾏﾌﾞﾛを常時実行にする",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"２ﾏｽ下のｺﾏﾌﾞﾛを常時実行にする\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "スポナーを置く際に便利",
-                    "italic": false,
-                    "color": "dark_aqua",
-                    "bold": true
-                  }
+                  "{\"text\":\"スポナーを置く際に便利\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}"
                 ],
                 "minecraft:block_entity_data": {
                   "conditionMet": 0,

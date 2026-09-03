@@ -11,55 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "青 眼 の 白 龍 の 鱗",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"青 眼 の 白 龍 の 鱗\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "高い攻撃力を誇る伝説のドラゴン",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "のウロコ",
-                    "italic": false,
-                    "color": "dark_gray",
-                    "bold": true
-                  },
-                  {
-                    "text": "どんな相手でも粉砕する、",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "その破壊力は計り知れない。",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "なお胸に着ければ威力が発揮できるが",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "持つだけでは",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  },
-                  {
-                    "text": "1000分の1程度しか発揮されない。",
-                    "italic": false,
-                    "color": "aqua",
-                    "bold": true
-                  }
+                  "{\"text\":\"高い攻撃力を誇る伝説のドラゴン\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"のウロコ\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true}",
+                  "{\"text\":\"どんな相手でも粉砕する、\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"その破壊力は計り知れない。\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"なお胸に着ければ威力が発揮できるが\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"持つだけでは\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
+                  "{\"text\":\"1000分の1程度しか発揮されない。\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

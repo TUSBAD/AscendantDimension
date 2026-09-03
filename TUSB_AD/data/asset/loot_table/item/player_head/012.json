@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ハル",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ハル\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "lbp_tatuharu",
-                  "id": "f80dacfb-fb53-4020-aad5-ed82d2fd5e94",
                   "properties": [
                     {
                       "name": "textures",

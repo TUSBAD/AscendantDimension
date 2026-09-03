@@ -1,21 +1,19 @@
-[
-  {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "team": "Enemy"
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "team": "Boss"
-        }
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "team": "Enemy"
       }
-    ]
-  }
-]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "team": "Boss"
+      }
+    }
+  ]
+}

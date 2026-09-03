@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ハンターキャップ",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ハンターキャップ\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ハンター用に作られた頭用装備",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"ハンター用に作られた頭用装備\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:dyed_color": {
                   "rgb": 14409701

@@ -11,39 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "神話秘密経験の印玉",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"神話秘密経験の印玉\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使うことでスキル経験値をえげつない程大量に得られる。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "一体どのような",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "経験",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "なのだろうか…。",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使うことでスキル経験値をえげつない程大量に得られる。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"一体どのような\",\"italic\":false,\"color\":\"red\"},{\"text\":\"経験\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"なのだろうか…。\",\"italic\":false,\"color\":\"red\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -144,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -477,7 +448,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

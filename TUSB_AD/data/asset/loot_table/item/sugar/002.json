@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "怪しい塩",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"怪しい塩\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "とんでもなくしょっぱい",
-                    "italic": false,
-                    "color": "white",
-                    "bold": true
-                  }
+                  "{\"text\":\"とんでもなくしょっぱい\",\"italic\":false,\"color\":\"white\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

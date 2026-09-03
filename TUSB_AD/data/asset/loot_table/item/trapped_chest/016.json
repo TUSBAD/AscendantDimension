@@ -11,77 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "お楽しみセットEX",
-                  "italic": false,
-                  "color": "light_purple"
-                },
+                "minecraft:custom_name": "{\"text\":\"お楽しみセットEX\",\"italic\":false,\"color\":\"light_purple\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "なにか",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "アイテム",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "が入っている",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "開ける人の",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "運",
-                        "italic": false,
-                        "color": "green",
-                        "bold": true
-                      },
-                      {
-                        "text": "によって",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "質",
-                        "italic": false,
-                        "color": "green",
-                        "bold": true
-                      },
-                      {
-                        "text": "が変わる不思議なチェスト",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "よりお得な物が出やすくなっている",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"なにか\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"アイテム\",\"italic\":false,\"color\":\"red\"},{\"text\":\"が入っている\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"開ける人の\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"運\",\"italic\":false,\"color\":\"green\",\"bold\":true},{\"text\":\"によって\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"質\",\"italic\":false,\"color\":\"green\",\"bold\":true},{\"text\":\"が変わる不思議なチェスト\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"よりお得な物が出やすくなっている\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:repair_cost": 1000000000,
                 "minecraft:block_entity_data": {

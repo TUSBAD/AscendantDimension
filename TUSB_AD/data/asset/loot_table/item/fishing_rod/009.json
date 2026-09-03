@@ -11,44 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "シーグリード",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"シーグリード\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "なにか色々代用できそうな物で",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "自作した釣竿。適当に作ったにしては",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "凄まじい性能だが、",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "3",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "回使えば壊れる",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"なにか色々代用できそうな物で\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"自作した釣竿。適当に作ったにしては\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"凄まじい性能だが、\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"3\",\"italic\":false,\"color\":\"red\"},{\"text\":\"回使えば壊れる\",\"italic\":false,\"color\":\"dark_aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

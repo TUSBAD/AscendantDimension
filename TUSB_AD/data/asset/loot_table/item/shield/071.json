@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "呪縛の盾",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"呪縛の盾\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "自らの移動を縛ることで",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "潜在能力を引き出す盾。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"自らの移動を縛ることで\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"潜在能力を引き出す盾。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

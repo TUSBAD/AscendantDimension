@@ -14,8 +14,7 @@
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:efficiency": 3,
-                    "minecraft:sharpness": 3,
-                    "minecraft:unbreaking": -5
+                    "minecraft:sharpness": 3
                   }
                 },
                 "minecraft:repair_cost": 1000000000

@@ -1,6 +1,6 @@
 {
-	"condition": "minecraft:location_check",
-	"predicate": {
-		"dimension": "area:another"
-	}
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "dimension": "area:another"
+  }
 }

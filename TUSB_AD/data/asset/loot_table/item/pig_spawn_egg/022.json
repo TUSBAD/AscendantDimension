@@ -11,22 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "ﾄｶﾙﾄｺﾙﾃﾞ",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "の鍵卵",
-                      "italic": false
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾄｶﾙﾄｺﾙﾃﾞ\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"の鍵卵\",\"italic\":false}]}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },

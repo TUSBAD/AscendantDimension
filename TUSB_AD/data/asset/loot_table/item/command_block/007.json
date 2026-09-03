@@ -11,19 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "封印コマブロ",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"封印コマブロ\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ディスペンサーまたはチェストに使用",
-                    "italic": false,
-                    "color": "gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"ディスペンサーまたはチェストに使用\",\"italic\":false,\"color\":\"gray\",\"bold\":true}"
                 ],
                 "minecraft:block_entity_data": {
                   "conditionMet": 1,

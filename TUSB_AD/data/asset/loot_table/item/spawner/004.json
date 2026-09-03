@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "海賊エスキモーT1～5のスポナー",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"海賊エスキモーT1～5のスポナー\",\"italic\":false}",
                 "minecraft:block_entity_data": {
                   "RequiredPlayerRange": 32,
                   "MaxNearbyEntities": 16,

@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "白魔導士のクロージャ",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"白魔導士のクロージャ\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "森の香りが心地よい",
-                    "italic": false
-                  },
-                  {
-                    "text": "持つ者の生命力を増幅させる杖",
-                    "italic": false
-                  }
+                  "{\"text\":\"森の香りが心地よい\",\"italic\":false}",
+                  "{\"text\":\"持つ者の生命力を増幅させる杖\",\"italic\":false}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

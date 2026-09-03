@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "るーく",
-                  "italic": false,
-                  "color": "dark_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"るーく\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "Rook0612",
-                  "id": "f3bc2368-e626-4014-9585-7b1e1aad837c",
                   "properties": [
                     {
                       "name": "textures",

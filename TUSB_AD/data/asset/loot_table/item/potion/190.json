@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "コーヒー牛乳",
-                  "italic": false,
-                  "color": "dark_gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"コーヒー牛乳\",\"italic\":false,\"color\":\"dark_gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "お風呂上がりに飲むもの",
-                    "italic": false
-                  },
-                  {
-                    "text": "甘くて美味しい",
-                    "italic": false
-                  }
+                  "{\"text\":\"お風呂上がりに飲むもの\",\"italic\":false}",
+                  "{\"text\":\"甘くて美味しい\",\"italic\":false}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

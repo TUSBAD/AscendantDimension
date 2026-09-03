@@ -11,22 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ピルクル(500ml)",
-                  "italic": false,
-                  "color": "gold"
-                },
+                "minecraft:custom_name": "{\"text\":\"ピルクル(500ml)\",\"italic\":false,\"color\":\"gold\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "一日65mlを目安にお召し上がりになる",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "と効果的です。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"一日65mlを目安にお召し上がりになる\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"と効果的です。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

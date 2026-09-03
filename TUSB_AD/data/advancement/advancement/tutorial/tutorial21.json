@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:knowledge_book",
-      "nbt": "{}"
+      "id": "minecraft:knowledge_book"
     },
     "title": [
       {
@@ -19,7 +18,7 @@
           "translate": "リコールポーション",
           "color": "#51cbff"
         },
-                {
+        {
           "translate": "あらゆるデバフ",
           "color": "#88ff4f"
         }

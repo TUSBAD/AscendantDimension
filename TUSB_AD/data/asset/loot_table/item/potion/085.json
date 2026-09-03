@@ -11,11 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ラムネ",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"ラムネ\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:potion_contents": {
                   "potion": "minecraft:strong_swiftness"
                 }

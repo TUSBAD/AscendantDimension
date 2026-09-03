@@ -38,7 +38,7 @@ data modify storage asset: mob.CustomName set value '{"text":"バンパー河豚
 
 ### Attributes
 # 最大体力
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:60}
+data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:60}
 # (近接)攻撃力
 # data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:10}
 # 移動速度

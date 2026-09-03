@@ -11,40 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "444111",
-                      "italic": false,
-                      "color": "red",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "煉獄魔装",
-                      "italic": false,
-                      "color": "dark_red",
-                      "bold": true
-                    },
-                    {
-                      "text": "444111",
-                      "italic": false,
-                      "color": "red",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"444111\",\"italic\":false,\"color\":\"red\",\"obfuscated\":true},{\"text\":\"煉獄魔装\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\"444111\",\"italic\":false,\"color\":\"red\",\"obfuscated\":true}]}",
                 "minecraft:dyed_color": {
                   "rgb": 8388608
                 },
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 33,
-                    "minecraft:fire_protection": 333,
+                    "minecraft:fire_protection": 255,
                     "minecraft:blast_protection": 33,
                     "minecraft:projectile_protection": 33,
-                    "minecraft:unbreaking": 3000
+                    "minecraft:unbreaking": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

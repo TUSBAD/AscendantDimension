@@ -11,83 +11,23 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "嫌な予感襲来印板",
-                  "italic": false,
-                  "color": "light_purple",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"嫌な予感襲来印板\",\"italic\":false,\"color\":\"light_purple\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "この世界に蔓延する瘴気。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "その瘴気の一部である「",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "嫌な予感",
-                        "italic": false,
-                        "color": "dark_purple",
-                        "bold": true
-                      },
-                      {
-                        "text": "」を",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "意図的に発生させる",
-                        "italic": false,
-                        "color": "dark_red",
-                        "bold": true
-                      },
-                      {
-                        "text": "秘宝。",
-                        "italic": false,
-                        "color": "gold"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "叛逆の創造神の力",
-                        "italic": false,
-                        "color": "dark_aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "を借り、一時的な混沌をもたらす。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "使用後、次の予感発生までの間隔が極端に短くなる。",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"この世界に蔓延する瘴気。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その瘴気の一部である「\",\"italic\":false,\"color\":\"white\"},{\"text\":\"嫌な予感\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"」を\",\"italic\":false,\"color\":\"white\"},{\"text\":\"意図的に発生させる\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\"秘宝。\",\"italic\":false,\"color\":\"gold\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"叛逆の創造神の力\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"を借り、一時的な混沌をもたらす。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"使用後、次の予感発生までの間隔が極端に短くなる。\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
                 },
-                "minecraft:repair_cost": -1000000000,
+                "minecraft:repair_cost": 0,
                 "minecraft:entity_data": {
                   "Tags": [
                     "SignStand",
                     "Cause"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 }
               }
             }

@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "アルクトゥルス",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"アルクトゥルス\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:knockback": 3

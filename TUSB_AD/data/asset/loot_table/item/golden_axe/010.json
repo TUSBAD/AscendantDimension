@@ -11,38 +11,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "チェンソー",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"チェンソー\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "-神はバラバラになった",
-                        "italic": true,
-                        "color": "gold"
-                      },
-                      {
-                        "text": "...",
-                        "italic": false,
-                        "color": "gold"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"-神はバラバラになった\",\"italic\":true,\"color\":\"gold\"},{\"text\":\"...\",\"italic\":false,\"color\":\"gold\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:efficiency": 9999,
+                    "minecraft:efficiency": 255,
                     "minecraft:unbreaking": 10,
                     "minecraft:sharpness": 3
                   }
                 },
-                "minecraft:repair_cost": -1000000000
+                "minecraft:repair_cost": 0
               }
             }
           ]

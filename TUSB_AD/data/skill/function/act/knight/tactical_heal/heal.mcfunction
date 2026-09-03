@@ -10,7 +10,7 @@ execute store result score _ TUSB run data get storage skill: _
 scoreboard players operation @s HealCount += _ TUSB
 
 tellraw @s {"text":"タクティカルヒールの効果が切れた。","color":"gold"}
-playsound xp_chime master @a[distance=..16] ~ ~ ~ 1 1.78 0
+playsound minecraft:xp_chime master @a[distance=..16] ~ ~ ~ 1 1.78 0
 particle minecraft:heart ~ ~1 ~ 0.5 0.5 0.5 0 30 force
 tag @s remove TacticalHeal
 

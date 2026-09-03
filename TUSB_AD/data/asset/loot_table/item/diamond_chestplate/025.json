@@ -11,30 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "spica",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "防具のエッセンス(胴)",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "spica",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"spica\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\"防具のエッセンス(胴)\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"spica\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true}]}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:protection": 15

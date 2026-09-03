@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "超・作業台パーフェクトガイド",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"超・作業台パーフェクトガイド\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },

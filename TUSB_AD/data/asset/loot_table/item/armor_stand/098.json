@@ -11,86 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黒材強化の印板EX",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"黒材強化の印板EX\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、付近に設置されている",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "黒素材",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "を強化することができる。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "安山岩は",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "ネザーレンガ",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "に、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ネザーレンガ",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "黒曜石",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "に変化する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、付近に設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"黒素材\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を強化することができる。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"安山岩は\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ネザーレンガ\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"に、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ネザーレンガ\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"黒曜石\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"に変化する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -100,7 +26,8 @@
                     "SignStand",
                     "BlackUpgraderEX",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

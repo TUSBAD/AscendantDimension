@@ -11,51 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "空音の雫",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"空音の雫\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "脳に働きかけ、",
-                    "italic": false,
-                    "color": "blue"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "自分の体力",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "を",
-                        "italic": false,
-                        "color": "blue"
-                      },
-                      {
-                        "text": "錯覚",
-                        "italic": false,
-                        "color": "dark_aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "させる雫。",
-                        "italic": false,
-                        "color": "blue"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "うそつきは耐久型のはじまり",
-                    "italic": false,
-                    "color": "dark_blue",
-                    "strikethrough": true
-                  }
+                  "{\"text\":\"脳に働きかけ、\",\"italic\":false,\"color\":\"blue\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"自分の体力\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"を\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"錯覚\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true},{\"text\":\"させる雫。\",\"italic\":false,\"color\":\"blue\"}]}",
+                  "{\"text\":\"うそつきは耐久型のはじまり\",\"italic\":false,\"color\":\"dark_blue\",\"strikethrough\":true}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

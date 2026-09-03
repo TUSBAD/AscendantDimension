@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "んふ",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"んふ\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "んふふ",
-                    "italic": false
-                  }
+                  "{\"text\":\"んふふ\",\"italic\":false}"
                 ],
                 "minecraft:dyed_color": {
                   "rgb": 13233151

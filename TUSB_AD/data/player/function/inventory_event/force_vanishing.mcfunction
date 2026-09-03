@@ -4,6 +4,6 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### ここに消すアイテムを追加していく
-clear @s minecraft:saddle{ForceVanishing:true}
+clear @s minecraft:saddle[minecraft:custom_data~{ForceVanishing:true}]
 
 advancement revoke @s only player:inventory_event/force_vanishing

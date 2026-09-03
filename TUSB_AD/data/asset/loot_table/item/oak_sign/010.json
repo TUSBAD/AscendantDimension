@@ -11,36 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "氷、氷塊消滅の印板EX",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"氷、氷塊消滅の印板EX\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "デバック用。使用すると、",
-                    "italic": false
-                  },
-                  {
-                    "text": "「半径」15ブロック付近",
-                    "italic": false
-                  },
-                  {
-                    "text": "に設置されている",
-                    "italic": false
-                  },
-                  {
-                    "text": "氷と氷塊ブロックのみを消す。",
-                    "italic": false
-                  },
-                  {
-                    "text": "取り扱い注意な",
-                    "italic": false
-                  }
+                  "{\"text\":\"デバック用。使用すると、\",\"italic\":false}",
+                  "{\"text\":\"「半径」15ブロック付近\",\"italic\":false}",
+                  "{\"text\":\"に設置されている\",\"italic\":false}",
+                  "{\"text\":\"氷と氷塊ブロックのみを消す。\",\"italic\":false}",
+                  "{\"text\":\"取り扱い注意な\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

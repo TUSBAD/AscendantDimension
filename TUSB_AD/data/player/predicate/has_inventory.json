@@ -1,9 +1,7 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Inventory:[{}]}"
-    }
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Inventory:[{}]}"
   }
-]
+}

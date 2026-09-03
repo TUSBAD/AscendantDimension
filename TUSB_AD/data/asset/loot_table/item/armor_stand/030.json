@@ -11,50 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "積み上げの印板",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"積み上げの印板\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "上空に向けて、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "砂利",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "を設置する",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "ﾜｰﾅﾝｶｽｺﾞｲ-",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "奴を召喚する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"上空に向けて、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"砂利\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を設置する\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾜｰﾅﾝｶｽｺﾞｲ-\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"奴を召喚する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -65,7 +25,8 @@
                     "SignStand",
                     "GravelStacker",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "Invisible": 1,

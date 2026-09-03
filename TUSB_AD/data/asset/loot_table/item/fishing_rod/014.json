@@ -11,99 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "泉の女神の釣り竿",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"泉の女神の釣り竿\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "Fo",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "u",
-                        "italic": false,
-                        "color": "gray",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "nt",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "a",
-                        "italic": false,
-                        "color": "gray",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "in bl",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "es",
-                        "italic": false,
-                        "color": "gray",
-                        "obfuscated": true
-                      },
-                      {
-                        "text": "s Ⅵ",
-                        "italic": false,
-                        "color": "gray"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "泉の女神",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "が可愛がっていた植物を伐採し作られている。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "この釣り竿にあるのは",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "加護",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": "か、それとも……？",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"Fo\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"u\",\"italic\":false,\"color\":\"gray\",\"obfuscated\":true},{\"text\":\"nt\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"a\",\"italic\":false,\"color\":\"gray\",\"obfuscated\":true},{\"text\":\"in bl\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"es\",\"italic\":false,\"color\":\"gray\",\"obfuscated\":true},{\"text\":\"s Ⅵ\",\"italic\":false,\"color\":\"gray\"}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"泉の女神\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"が可愛がっていた植物を伐採し作られている。\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"この釣り竿にあるのは\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"加護\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"か、それとも……？\",\"italic\":false,\"color\":\"dark_aqua\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

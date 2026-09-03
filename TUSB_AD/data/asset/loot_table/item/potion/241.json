@@ -11,27 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "鋼鉄のポーション",
-                  "italic": false,
-                  "color": "white"
-                },
+                "minecraft:custom_name": "{\"text\":\"鋼鉄のポーション\",\"italic\":false,\"color\":\"white\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "飲むと体が硬化して",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "防御力が上がり、炎にも強くなるが、",
-                    "italic": true,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "足が遅くなり、目も見えにくくなる。",
-                    "italic": true,
-                    "color": "dark_gray"
-                  }
+                  "{\"text\":\"飲むと体が硬化して\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"防御力が上がり、炎にも強くなるが、\",\"italic\":true,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"足が遅くなり、目も見えにくくなる。\",\"italic\":true,\"color\":\"dark_gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

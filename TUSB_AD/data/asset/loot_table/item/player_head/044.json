@@ -11,85 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "dark_blue",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " 叛逆した",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "聖騎士の魂 ",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "dark_blue",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||||||||\",\"italic\":false,\"color\":\"dark_blue\",\"obfuscated\":true},{\"text\":\" 叛逆した\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true,\"underlined\":true},{\"text\":\"聖騎士の魂 \",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true},{\"text\":\"||||||||\",\"italic\":false,\"color\":\"dark_blue\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "カノープスの魔力 enchantment.level.15",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "カノープスの眷属であった聖騎士が",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "叛逆化",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "された魂。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "強大な力を得られるが、",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "代償として体力が大幅に失われる。",
-                        "italic": false,
-                        "color": "red"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"カノープスの魔力 enchantment.level.15\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"カノープスの眷属であった聖騎士が\",\"italic\":false,\"color\":\"white\"},{\"text\":\"叛逆化\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"された魂。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"強大な力を得られるが、\",\"italic\":false,\"color\":\"white\"},{\"text\":\"代償として体力が大幅に失われる。\",\"italic\":false,\"color\":\"red\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
@@ -165,7 +92,6 @@
                   ]
                 },
                 "minecraft:profile": {
-                  "id": "9eee34ea-2c9f-47a1-98f8-34105af45215",
                   "properties": [
                     {
                       "name": "textures",

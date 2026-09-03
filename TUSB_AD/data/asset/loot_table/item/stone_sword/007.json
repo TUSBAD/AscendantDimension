@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "イミテーション",
-                  "italic": false,
-                  "color": "dark_purple"
-                },
+                "minecraft:custom_name": "{\"text\":\"イミテーション\",\"italic\":false,\"color\":\"dark_purple\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "効果は必ずしも叶うものではない",
-                    "italic": false
-                  }
+                  "{\"text\":\"効果は必ずしも叶うものではない\",\"italic\":false}"
                 ],
                 "minecraft:potion_contents": {
                   "custom_effects": [

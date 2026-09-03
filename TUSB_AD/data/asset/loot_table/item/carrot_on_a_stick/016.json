@@ -11,20 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黒魔導士のメイス",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"黒魔導士のメイス\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "マナがなければ殴ればいいじゃない",
-                    "italic": false
-                  },
-                  {
-                    "text": "というコンセプトで作られた鈍器",
-                    "italic": false
-                  }
+                  "{\"text\":\"マナがなければ殴ればいいじゃない\",\"italic\":false}",
+                  "{\"text\":\"というコンセプトで作られた鈍器\",\"italic\":false}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

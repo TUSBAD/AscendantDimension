@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run clear @s minecraft:pufferfish 1
-execute if score _ TUSB matches 1.. run give @s minecraft:spider_eye{display:{Name:'"§r毒素"'}} 1
+execute if score _ TUSB matches 1.. run give @s minecraft:spider_eye[minecraft:custom_name='{"text":"§r毒素"}'] 1
 execute if score _ TUSB matches 1.. run data modify storage skill: cooked_state set value "strange"
 
 execute if score _ TUSB matches ..0 run function skill:act/archer/wild_cooking/carrot

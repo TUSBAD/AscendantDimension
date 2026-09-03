@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "優しくないな、酒好きの村人",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"優しくないな、酒好きの村人\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "ひゃひゃひゃ！ あーそうじゃ！",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "もし鍵をなくしたとしても大丈夫じゃよ？",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "その時はまた、同じ条件で取引しようじゃないか。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"ひゃひゃひゃ！ あーそうじゃ！\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"もし鍵をなくしたとしても大丈夫じゃよ？\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"その時はまた、同じ条件で取引しようじゃないか。\",\"italic\":false,\"color\":\"gray\"}"
                 ]
               }
             }

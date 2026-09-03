@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "剣士の盾",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"剣士の盾\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "剣士に馴染みやすい盾。",
-                    "italic": false,
-                    "color": "blue"
-                  }
+                  "{\"text\":\"剣士に馴染みやすい盾。\",\"italic\":false,\"color\":\"blue\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

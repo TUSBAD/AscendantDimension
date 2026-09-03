@@ -12,16 +12,16 @@
     "grass_color": 8388608,
     "foliage_color": 16711680,
     "ambient_sound": {
-      "sound_id": "minecraft:ambient.warped_forest_here"
+      "sound_id": "minecraft:ambient.warped_forest.loop"
     },
     "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley_wind",
+      "sound": "minecraft:ambient.soul_sand_valley.loop",
       "tick_delay": 2000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley_voice",
+      "sound": "minecraft:ambient.soul_sand_valley.loop",
       "tick_chance": 0.01
     },
     "music": [

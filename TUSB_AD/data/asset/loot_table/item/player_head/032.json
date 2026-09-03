@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ふらんじゃ",
-                  "italic": false,
-                  "color": "dark_aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ふらんじゃ\",\"italic\":false,\"color\":\"dark_aqua\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "Flanjars",
-                  "id": "983f8a92-f0b3-448a-ae54-7f94ecf9d956",
                   "properties": [
                     {
                       "name": "textures",

@@ -11,42 +11,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "蒼天の翼",
-                  "italic": false,
-                  "color": "aqua",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"蒼天の翼\",\"italic\":false,\"color\":\"aqua\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "新世界の加護 enchantment.level.7",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "蒼天の守護者が愛用していたエリトラ",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "これを纏い大空を駆けると",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "蒼天の守護者の加護を得られる",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "※持ち出し不可",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"新世界の加護 enchantment.level.7\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"蒼天の守護者が愛用していたエリトラ\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"これを纏い大空を駆けると\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"蒼天の守護者の加護を得られる\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"※持ち出し不可\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

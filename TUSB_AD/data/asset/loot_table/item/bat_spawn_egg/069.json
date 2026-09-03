@@ -11,33 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "石道具の印玉",
-                  "italic": false,
-                  "color": "dark_gray"
-                },
+                "minecraft:custom_name": "{\"text\":\"石道具の印玉\",\"italic\":false,\"color\":\"dark_gray\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、ﾗﾝﾀﾞﾑで",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "石製(?)",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "の道具が出現する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、ﾗﾝﾀﾞﾑで\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"石製(?)\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"の道具が出現する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -138,7 +115,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -468,7 +445,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

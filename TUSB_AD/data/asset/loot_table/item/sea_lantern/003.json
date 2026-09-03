@@ -11,17 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ブラード氷晶貨",
-                  "italic": false,
-                  "color": "aqua",
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\"ブラード氷晶貨\",\"italic\":false,\"color\":\"aqua\",\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "トカルトコルデの現宝通貨",
-                    "italic": false
-                  }
+                  "{\"text\":\"トカルトコルデの現宝通貨\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "もっと！？ 超・作業台上級者向けガイド",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"もっと！？ 超・作業台上級者向けガイド\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {}
                 },

@@ -11,41 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": " 魔心 ",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true,
-                  "underlined": true
-                },
+                "minecraft:custom_name": "{\"text\":\" 魔心 \",\"italic\":false,\"color\":\"yellow\",\"bold\":true,\"underlined\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "吐き気無効 Ⅰ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "インベントリーの",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "右上",
-                        "italic": false,
-                        "color": "white",
-                        "underlined": true
-                      },
-                      {
-                        "text": "にあるときに効果が発動する",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"吐き気無効 Ⅰ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"インベントリーの\",\"italic\":false,\"color\":\"white\"},{\"text\":\"右上\",\"italic\":false,\"color\":\"white\",\"underlined\":true},{\"text\":\"にあるときに効果が発動する\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

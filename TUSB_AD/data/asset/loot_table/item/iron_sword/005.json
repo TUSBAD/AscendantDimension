@@ -11,16 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "剣士の大剣",
-                  "italic": false,
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"剣士の大剣\",\"italic\":false,\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "幅広い剣身で攻撃を受け止める大剣",
-                    "italic": false
-                  }
+                  "{\"text\":\"幅広い剣身で攻撃を受け止める大剣\",\"italic\":false}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

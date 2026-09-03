@@ -1,21 +1,21 @@
 {
-	"criteria": {
-		"something": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"tag": "tusb_remake:spawn_egg",
-							"nbt": "{EntityTag:{Tags:[\"RewardEgg\"]}}"
-						}
-					}
-				]
-			}
-		}
-	},
-	"rewards": {
-		"function": "player:item_use/reward_egg"
-	}
+  "criteria": {
+    "something": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "tusb_remake:spawn_egg",
+              "nbt": "{EntityTag:{Tags:[\"RewardEgg\"]}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "player:item_use/reward_egg"
+  }
 }

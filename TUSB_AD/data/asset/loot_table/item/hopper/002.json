@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "報酬ドロッパー",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"報酬ドロッパー\",\"italic\":false}",
                 "minecraft:lore": [
-                  {
-                    "text": "150個のネザースターが入っている",
-                    "italic": false
-                  }
+                  "{\"text\":\"150個のネザースターが入っている\",\"italic\":false}"
                 ],
                 "minecraft:block_entity_data": {
                   "TransferCooldown": 0,

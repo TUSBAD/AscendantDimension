@@ -11,48 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "モードチェンジ",
-                      "italic": false,
-                      "color": "light_purple"
-                    },
-                    {
-                      "text": "-ルビー",
-                      "italic": false,
-                      "color": "red"
-                    },
-                    {
-                      "text": "＆",
-                      "italic": false,
-                      "color": "light_purple"
-                    },
-                    {
-                      "text": "サファイア-",
-                      "italic": false,
-                      "color": "dark_aqua"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"モードチェンジ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"-ルビー\",\"italic\":false,\"color\":\"red\"},{\"text\":\"＆\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"サファイア-\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "モードスキル",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "を切り替える",
-                        "italic": false
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"モードスキル\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"を切り替える\",\"italic\":false}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -153,7 +114,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -483,7 +444,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

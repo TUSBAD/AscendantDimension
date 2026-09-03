@@ -11,75 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "r",
-                      "italic": false,
-                      "color": "blue",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "悪夢の盾",
-                      "italic": false,
-                      "color": "dark_purple",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": "r",
-                      "italic": false,
-                      "color": "blue",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"r\",\"italic\":false,\"color\":\"blue\",\"obfuscated\":true},{\"text\":\"悪夢の盾\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true,\"underlined\":true},{\"text\":\"r\",\"italic\":false,\"color\":\"blue\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "悪夢の化身",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "が用いる盾。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "近寄った者を",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      },
-                      {
-                        "text": "無間地獄",
-                        "italic": false,
-                        "color": "dark_gray",
-                        "bold": true
-                      },
-                      {
-                        "text": "へ",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "引きずり込むと言われている。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"悪夢の化身\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"が用いる盾。\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"近寄った者を\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"無間地獄\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"へ\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"引きずり込むと言われている。\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

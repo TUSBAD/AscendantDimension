@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "サン",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"サン\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:fire_aspect": 3,

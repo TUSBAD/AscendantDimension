@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "塩昆布",
-                  "italic": false,
-                  "color": "dark_green",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"塩昆布\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "yuusya0516",
-                  "id": "1a3c216f-b6ae-4c9f-9ae1-452c7e0712e1",
                   "properties": [
                     {
                       "name": "textures",

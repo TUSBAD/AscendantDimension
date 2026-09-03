@@ -11,67 +11,13 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "spica",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "原初の守護者の釣竿",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": "spica",
-                      "italic": false,
-                      "color": "light_purple",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"spica\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\"原初の守護者の釣竿\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"spica\",\"italic\":false,\"color\":\"light_purple\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "守護の力 Ⅹ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "魂の共鳴 Ⅹ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "原初の世界の守護者",
-                        "italic": false,
-                        "color": "aqua",
-                        "bold": true
-                      },
-                      {
-                        "text": "が使っていたとされる釣竿。",
-                        "italic": false,
-                        "color": "dark_aqua"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "魚が釣れなくなる不思議な特性を持つようだ。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  }
+                  "{\"text\":\"守護の力 Ⅹ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"魂の共鳴 Ⅹ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"原初の世界の守護者\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\"が使っていたとされる釣竿。\",\"italic\":false,\"color\":\"dark_aqua\"}]}",
+                  "{\"text\":\"魚が釣れなくなる不思議な特性を持つようだ。\",\"italic\":false,\"color\":\"dark_aqua\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

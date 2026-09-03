@@ -11,106 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "ﾋｰﾙ",
-                      "italic": false,
-                      "color": "red"
-                    },
-                    {
-                      "text": "ｽﾗｲﾑの印板",
-                      "italic": false,
-                      "color": "green"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ﾋｰﾙ\",\"italic\":false,\"color\":\"red\"},{\"text\":\"ｽﾗｲﾑの印板\",\"italic\":false,\"color\":\"green\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "使用すると、",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "回復ﾎﾟｰｼｮﾝ",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "を",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "周囲にばらまきながら追尾する",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "無害なｽﾗｲﾑを召喚する。",
-                    "italic": false,
-                    "color": "dark_green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "気まぐれな性格",
-                        "italic": false,
-                        "color": "light_purple"
-                      },
-                      {
-                        "text": "で",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "回復ﾎﾟｰｼｮﾝ",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "を",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "落とす時間にはばらつきがある。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★★★",
-                        "italic": false,
-                        "color": "light_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"使用すると、\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"回復ﾎﾟｰｼｮﾝ\",\"italic\":false,\"color\":\"red\"},{\"text\":\"を\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"周囲にばらまきながら追尾する\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"無害なｽﾗｲﾑを召喚する。\",\"italic\":false,\"color\":\"dark_green\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"気まぐれな性格\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"で\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"回復ﾎﾟｰｼｮﾝ\",\"italic\":false,\"color\":\"red\"},{\"text\":\"を\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"落とす時間にはばらつきがある。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★★\",\"italic\":false,\"color\":\"light_purple\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:repair_cost": 1000000000,

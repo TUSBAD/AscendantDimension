@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "バルーンレギスタンス",
-                  "italic": false,
-                  "color": "blue",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"バルーンレギスタンス\",\"italic\":false,\"color\":\"blue\",\"bold\":true}",
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",
                   "custom_effects": [

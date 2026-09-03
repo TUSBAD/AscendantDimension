@@ -11,56 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "blue",
-                      "bold": true,
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "プライモーディアル・コア",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "||||||||",
-                      "italic": false,
-                      "color": "blue",
-                      "bold": true,
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||||||||\",\"italic\":false,\"color\":\"blue\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"プライモーディアル・コア\",\"italic\":false,\"color\":\"aqua\",\"bold\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"||||||||\",\"italic\":false,\"color\":\"blue\",\"bold\":true,\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "SystemKeeperから贈られたコア。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "使うことで贈り物を獲得できる。",
-                    "italic": false,
-                    "color": "light_purple"
-                  },
-                  {
-                    "text": "「中枢からあなたの事を見守っています。大丈夫、あなたならきっと成し遂げられますよ。」",
-                    "italic": false,
-                    "color": "red"
-                  }
+                  "{\"text\":\"SystemKeeperから贈られたコア。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"使うことで贈り物を獲得できる。\",\"italic\":false,\"color\":\"light_purple\"}",
+                  "{\"text\":\"「中枢からあなたの事を見守っています。大丈夫、あなたならきっと成し遂げられますよ。」\",\"italic\":false,\"color\":\"red\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -161,7 +116,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -494,7 +449,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

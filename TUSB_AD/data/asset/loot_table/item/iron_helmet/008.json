@@ -20,7 +20,7 @@
                     "minecraft:projectile_protection": 10
                   }
                 },
-                "minecraft:repair_cost": -1000000000
+                "minecraft:repair_cost": 0
               }
             }
           ]

@@ -11,129 +11,20 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "o|o",
-                      "italic": true,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "神泉の雫",
-                      "italic": false,
-                      "color": "aqua",
-                      "bold": true,
-                      "underlined": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    },
-                    {
-                      "text": "o|o",
-                      "italic": true,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ",
-                      "italic": false
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\" \",\"italic\":false},{\"text\":\"o|o\",\"italic\":true,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"神泉の雫\",\"italic\":false,\"color\":\"aqua\",\"bold\":true,\"underlined\":true},{\"text\":\" \",\"italic\":false},{\"text\":\"o|o\",\"italic\":true,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\" \",\"italic\":false}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "(しんせんのしずく)",
-                    "italic": true,
-                    "color": "green"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "泉の駄女神が自ら瓶に詰め販売している物。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "呪いを解除し、死の運命すら捻じ曲げたと言われている。",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "収集家が居るという噂もあるので、",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "良いアイテムと交換してくれるかも？",
-                    "italic": false,
-                    "color": "dark_aqua"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "効果:",
-                    "italic": false,
-                    "color": "blue"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": " め が み ぱ わ ー !!! ",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": " lol",
-                        "italic": false,
-                        "color": "aqua",
-                        "obfuscated": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "オフハンドに持ったとき:",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": " め が み ぱ わ ー !!! ",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "text": " lol",
-                        "italic": false,
-                        "color": "aqua",
-                        "obfuscated": true
-                      }
-                    ]
-                  }
+                  "{\"text\":\"(しんせんのしずく)\",\"italic\":true,\"color\":\"green\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"泉の駄女神が自ら瓶に詰め販売している物。\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"呪いを解除し、死の運命すら捻じ曲げたと言われている。\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"収集家が居るという噂もあるので、\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"良いアイテムと交換してくれるかも？\",\"italic\":false,\"color\":\"dark_aqua\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"効果:\",\"italic\":false,\"color\":\"blue\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\" め が み ぱ わ ー !!! \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" lol\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true}]}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"オフハンドに持ったとき:\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\" め が み ぱ わ ー !!! \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" lol\",\"italic\":false,\"color\":\"aqua\",\"obfuscated\":true}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

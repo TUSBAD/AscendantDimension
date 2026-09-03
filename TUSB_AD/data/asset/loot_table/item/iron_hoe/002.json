@@ -11,33 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "剥ぎ取りナイフ",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"剥ぎ取りナイフ\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "スゴ腕の狩人が使っていたとされる",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "どんな物でも切り刻めるナイフ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "衰弱したモンスターに使うと",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "多く素材を剥ぎ取れるという",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"スゴ腕の狩人が使っていたとされる\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"どんな物でも切り刻めるナイフ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"衰弱したモンスターに使うと\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"多く素材を剥ぎ取れるという\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

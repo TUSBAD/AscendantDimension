@@ -11,22 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "浄化された黒の魔宝珠",
-                  "italic": false,
-                  "color": "dark_blue"
-                },
+                "minecraft:custom_name": "{\"text\":\"浄化された黒の魔宝珠\",\"italic\":false,\"color\":\"dark_blue\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "怨念と邪気と払った魔宝珠",
-                    "italic": false
-                  }
+                  "{\"text\":\"怨念と邪気と払った魔宝珠\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 9999,
-                    "minecraft:blast_protection": 9999,
-                    "minecraft:infinity": 9999
+                    "minecraft:protection": 255,
+                    "minecraft:blast_protection": 255,
+                    "minecraft:infinity": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

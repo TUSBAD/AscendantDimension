@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "adv.ハサミ",
-                  "italic": false,
-                  "color": "gold",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"adv.ハサミ\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "アドベンチャーで設置されている",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "蔦を回収することが出来るハサミ。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "性能面も通常のハサミより高い。",
-                    "italic": false,
-                    "color": "yellow"
-                  }
+                  "{\"text\":\"アドベンチャーで設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"蔦を回収することが出来るハサミ。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"性能面も通常のハサミより高い。\",\"italic\":false,\"color\":\"yellow\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

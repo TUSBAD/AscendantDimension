@@ -11,56 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "泡盛",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"泡盛\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "泡立つなにかの液体",
-                        "italic": true,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "をお酒にしてしまった。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "あまりのまずさ",
-                        "italic": false,
-                        "color": "dark_purple"
-                      },
-                      {
-                        "text": "に視界が歪み、",
-                        "italic": false,
-                        "color": "white"
-                      },
-                      {
-                        "text": "一瞬まっくら",
-                        "italic": false,
-                        "color": "blue",
-                        "underlined": true
-                      },
-                      {
-                        "text": "になる。",
-                        "italic": false,
-                        "color": "white"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"泡立つなにかの液体\",\"italic\":true,\"color\":\"dark_gray\"},{\"text\":\"をお酒にしてしまった。\",\"italic\":false,\"color\":\"white\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"あまりのまずさ\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"に視界が歪み、\",\"italic\":false,\"color\":\"white\"},{\"text\":\"一瞬まっくら\",\"italic\":false,\"color\":\"blue\",\"underlined\":true},{\"text\":\"になる。\",\"italic\":false,\"color\":\"white\"}]}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

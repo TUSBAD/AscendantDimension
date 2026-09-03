@@ -11,24 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ヒカリタケ",
-                  "italic": false,
-                  "color": "yellow"
-                },
+                "minecraft:custom_name": "{\"text\":\"ヒカリタケ\",\"italic\":false,\"color\":\"yellow\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "仄かに光る不思議なキノコ。",
-                    "italic": false
-                  },
-                  {
-                    "text": "10分ほどで枯れてしまう。",
-                    "italic": false
-                  },
-                  {
-                    "text": "食用には適さない。",
-                    "italic": false
-                  }
+                  "{\"text\":\"仄かに光る不思議なキノコ。\",\"italic\":false}",
+                  "{\"text\":\"10分ほどで枯れてしまう。\",\"italic\":false}",
+                  "{\"text\":\"食用には適さない。\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -129,7 +116,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -459,7 +446,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

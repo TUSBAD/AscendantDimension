@@ -9,7 +9,7 @@ particle minecraft:sweep_attack ~ ~1 ~ 2 2 2 0 1 force
 scoreboard players operation _ WindWall = @s WindWall
 scoreboard players set _ TUSB 20
 scoreboard players operation _ WindWall %= _ TUSB
-execute if score _ WindWall matches 0 run playsound block.fire.extinguish master @a[distance=..16] ~ ~-100 ~ 0 0.5 0.1
+execute if score _ WindWall matches 0 run playsound minecraft:block.fire.extinguish master @a[distance=..16] ~ ~-100 ~ 0 0.5 0.1
 
 ### ウィンドウォールのカウントを更新する
 scoreboard players remove @s WindWall 1

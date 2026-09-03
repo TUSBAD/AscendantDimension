@@ -11,36 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "||",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " 沼 ",
-                      "italic": false,
-                      "color": "gold",
-                      "bold": true
-                    },
-                    {
-                      "text": "||",
-                      "italic": false,
-                      "color": "yellow",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"||\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\" 沼 \",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"||\",\"italic\":false,\"color\":\"yellow\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "欲望のままに",
-                    "italic": false,
-                    "color": "gold"
-                  }
+                  "{\"text\":\"欲望のままに\",\"italic\":false,\"color\":\"gold\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -141,7 +114,7 @@
                       "blocks": "minecraft:tallgrass"
                     },
                     {
-                      "blocks": "minecraft:deadbush"
+                      "blocks": "minecraft:dead_bush"
                     },
                     {
                       "blocks": "minecraft:piston"
@@ -474,7 +447,7 @@
                       "blocks": "minecraft:potatoes"
                     },
                     {
-                      "blocks": "minecraft:wooden_button"
+                      "blocks": "minecraft:oak_button"
                     },
                     {
                       "blocks": "minecraft:skull"

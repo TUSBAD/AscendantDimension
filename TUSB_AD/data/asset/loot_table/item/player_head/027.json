@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "目玉",
-                  "italic": false,
-                  "color": "white",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"目玉\",\"italic\":false,\"color\":\"white\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "anminmakura",
-                  "id": "5c0296c3-54bf-4b15-867b-54c705f98b87",
                   "properties": [
                     {
                       "name": "textures",

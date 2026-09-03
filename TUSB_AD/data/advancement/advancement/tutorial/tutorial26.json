@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crafting_table",
-      "nbt": "{}"
+      "id": "minecraft:crafting_table"
     },
     "title": [
       {

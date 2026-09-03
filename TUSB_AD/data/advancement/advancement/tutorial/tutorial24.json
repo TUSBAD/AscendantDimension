@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blue_ice",
-      "nbt": "{}"
+      "id": "minecraft:blue_ice"
     },
     "title": [
       {
@@ -24,7 +23,7 @@
           "translate": "攻略率に伴う様々な変化",
           "color": "#ff874d"
         },
-                {
+        {
           "translate": "各ディメンションの異変",
           "color": "#ff4d4d"
         }

@@ -11,81 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "照明弾の印板",
-                  "italic": false,
-                  "color": "gold"
-                },
+                "minecraft:custom_name": "{\"text\":\"照明弾の印板\",\"italic\":false,\"color\":\"gold\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "設置後クリックすると、半径60ﾌﾞﾛｯｸに",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "照明弾を撃ち上げ、その後落下地点に",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "松明",
-                        "italic": false,
-                        "color": "gold",
-                        "bold": true
-                      },
-                      {
-                        "text": "を設置する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "弾に当たらないよう",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "注意",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"設置後クリックすると、半径60ﾌﾞﾛｯｸに\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"照明弾を撃ち上げ、その後落下地点に\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"松明\",\"italic\":false,\"color\":\"gold\",\"bold\":true},{\"text\":\"を設置する。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"弾に当たらないよう\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"注意\",\"italic\":false,\"color\":\"red\"},{\"text\":\"。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:attribute_modifiers": {

@@ -11,42 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "|",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " ハスセレブ ",
-                      "italic": false,
-                      "color": "dark_green",
-                      "bold": true
-                    },
-                    {
-                      "text": "|",
-                      "italic": false,
-                      "color": "dark_aqua",
-                      "obfuscated": true
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"|\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\" ハスセレブ \",\"italic\":false,\"color\":\"dark_green\",\"bold\":true},{\"text\":\"|\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "しっとりやわらかなハスざわり。",
-                    "italic": true,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "潤いつづく濃厚保湿ハス",
-                    "italic": false,
-                    "color": "gray",
-                    "bold": true
-                  }
+                  "{\"text\":\"しっとりやわらかなハスざわり。\",\"italic\":true,\"color\":\"gray\"}",
+                  "{\"text\":\"潤いつづく濃厚保湿ハス\",\"italic\":false,\"color\":\"gray\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

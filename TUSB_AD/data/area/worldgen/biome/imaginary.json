@@ -21,12 +21,17 @@
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.005
     },
-    "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
-      "min_delay": 0,
-      "max_delay": 1200,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.nether.nether_wastes",
+          "min_delay": 0,
+          "max_delay": 1200,
+          "replace_current_music": true
+        }
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:nautilus"

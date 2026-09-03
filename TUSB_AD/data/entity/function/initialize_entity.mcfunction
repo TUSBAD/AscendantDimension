@@ -36,8 +36,8 @@
     kill @s[type=area_effect_cloud,predicate=enemy:radius_per_tick_creeper]
 
 # ゾンビ増援制御
-    attribute @s[type=zombie] zombie.spawn_reinforcements base set 0.0
-    data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_reinforcements"}].Modifiers
+    attribute @s[type=zombie] minecraft:spawn_reinforcements base set 0.0
+    data remove entity @s[type=zombie] Attributes[{Name:"minecraft:spawn_reinforcements"}].Modifiers
 
 # 自然湧きじゃないスライム系のチェック
     tag @s[type=#lib:slimey,predicate=!effect:has_absorptionamount] add FromSpawner

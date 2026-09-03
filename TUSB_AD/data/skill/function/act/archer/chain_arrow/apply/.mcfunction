@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-execute at @s run playsound entity.mooshroom.shear master @a[distance=..32] ~ ~ ~ 0.2 1.2 0
+execute at @s run playsound minecraft:entity.mooshroom.shear master @a[distance=..32] ~ ~ ~ 0.2 1.2 0
 execute at @s run particle explosion ~ ~-0.3 ~ 0 0 0 0 1 force
 # タグ判別追加
 execute as @e[distance=0,tag=!ChainArrow,type=#lib:arrow,limit=1] run function skill:act/archer/chain_arrow/apply/arrow

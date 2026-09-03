@@ -11,86 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黒材強化の印板",
-                  "italic": false,
-                  "color": "gray",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"黒材強化の印板\",\"italic\":false,\"color\":\"gray\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "使用すると、付近に設置されている",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "黒素材",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "を強化することが出来る。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "砂利",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "灰色羊毛",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "に、",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "灰色羊毛",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "は",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "安山岩",
-                        "italic": false,
-                        "color": "gray"
-                      },
-                      {
-                        "text": "に変化する。",
-                        "italic": false,
-                        "color": "yellow"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"使用すると、付近に設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"黒素材\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を強化することが出来る。\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"砂利\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"灰色羊毛\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"に、\",\"italic\":false,\"color\":\"yellow\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"灰色羊毛\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"は\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"安山岩\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"に変化する。\",\"italic\":false,\"color\":\"yellow\"}]}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}
@@ -101,7 +27,8 @@
                     "SignStand",
                     "BlackUpgrader",
                     "TypeChecked"
-                  ]
+                  ],
+                  "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
                   "NoGravity": 1,

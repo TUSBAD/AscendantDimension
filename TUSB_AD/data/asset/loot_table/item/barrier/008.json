@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "そうだ、お近づきの証に取引しませんか？",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"そうだ、お近づきの証に取引しませんか？\",\"italic\":false}"
               }
             }
           ]

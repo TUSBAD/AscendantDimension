@@ -11,31 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "親指",
-                      "italic": false,
-                      "color": "red"
-                    },
-                    {
-                      "text": "特注の弓",
-                      "italic": false,
-                      "color": "gold"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"親指\",\"italic\":false,\"color\":\"red\"},{\"text\":\"特注の弓\",\"italic\":false,\"color\":\"gold\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "弾丸の経費節約のために開発された弓、",
-                    "italic": false
-                  },
-                  {
-                    "text": "銃剣の技術が使われており頑丈で近接戦もこなせる",
-                    "italic": false
-                  }
+                  "{\"text\":\"弾丸の経費節約のために開発された弓、\",\"italic\":false}",
+                  "{\"text\":\"銃剣の技術が使われており頑丈で近接戦もこなせる\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {

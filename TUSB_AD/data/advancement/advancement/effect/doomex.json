@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Enchantments:[{}],CustomPotionColor:9174919}"
+      "id": "minecraft:potion"
     },
     "title": [
       {

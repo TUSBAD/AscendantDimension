@@ -11,18 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "黑いるーみあ",
-                  "italic": false,
-                  "color": "dark_blue"
-                },
+                "minecraft:custom_name": "{\"text\":\"黑いるーみあ\",\"italic\":false,\"color\":\"dark_blue\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "えへへ...///",
-                    "italic": false,
-                    "color": "dark_red",
-                    "bold": true
-                  }
+                  "{\"text\":\"えへへ...///\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
@@ -64,7 +55,6 @@
                   "show_in_tooltip": false
                 },
                 "minecraft:profile": {
-                  "id": "32e352ba-1e7c-4b78-8cae-4587893ba79e",
                   "properties": [
                     {
                       "name": "textures",

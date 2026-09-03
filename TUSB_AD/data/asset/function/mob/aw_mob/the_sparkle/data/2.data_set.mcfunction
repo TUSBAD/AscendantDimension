@@ -37,18 +37,18 @@ data modify storage asset: mob.PortalCooldown set value 0
 
 
 ### Attributes
-data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:100}
-data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:10}
-data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.2}
-data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:20}
-data modify storage asset: mob.Attributes append value {Name:generic.armor_toughness, Base:12}
-data modify storage asset: mob.Attributes append value {Name:generic.knockback_resistance, Base:1}
-data modify storage asset: mob.Attributes append value {Name:generic.follow_range, Base:64}
-data modify storage asset: mob.Attributes append value {Name:generic.attack_knockback, Base:1}
+data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:100}
+data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:10}
+data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.2}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:20}
+data modify storage asset: mob.Attributes append value {Name:minecraft:armor_toughness, Base:12}
+data modify storage asset: mob.Attributes append value {Name:minecraft:knockback_resistance, Base:1}
+data modify storage asset: mob.Attributes append value {Name:minecraft:follow_range, Base:64}
+data modify storage asset: mob.Attributes append value {Name:minecraft:attack_knockback, Base:1}
 # それぞれの意味はwikiとかで調べてください
 # 可読性や編集の手間を考慮しなければこれらを全て一つに纏めることも可能です
 # Attribute Modifierというものも使用可能。ただし、UUIDを指定する必要がある(めんどい)
-data modify storage asset: mob.Attributes[{Name:generic.max_health}] append value {Modifiers:[{Amount:1,Operation:0,UUID:[I;1525,58721857,885,8867183],Name:"example_modifier"}]}
+data modify storage asset: mob.Attributes[{Name:minecraft:max_health}] append value {Modifiers:[{Amount:1,Operation:0,UUID:[I;1525,58721857,885,8867183],Name:"example_modifier"}]}
 # Operation:0はn+x+y+z、Operation:1はn×(1+x+y+z)、Operation:2はn×(1+x)×(1+y)×(1+z) Nameは必須ではなさそう
 
 

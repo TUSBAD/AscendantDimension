@@ -6,21 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:deadbush",
+          "name": "minecraft:dead_bush",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "枯れた苗木",
-                  "italic": false,
-                  "color": "aqua"
-                },
+                "minecraft:custom_name": "{\"text\":\"枯れた苗木\",\"italic\":false,\"color\":\"aqua\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "許してヒヤシンス(ゝω・)",
-                    "italic": false
-                  }
+                  "{\"text\":\"許してヒヤシンス(ゝω・)\",\"italic\":false}"
                 ]
               }
             }

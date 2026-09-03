@@ -11,23 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "凝固化エンダーパール",
-                  "italic": false,
-                  "color": "dark_red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"凝固化エンダーパール\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "煉獄産エンダーパールにダイヤモンド加工を施したもの。",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "text": "とある人物に渡すと便利な物に交換してくれるようだ。",
-                    "italic": false,
-                    "color": "white"
-                  }
+                  "{\"text\":\"煉獄産エンダーパールにダイヤモンド加工を施したもの。\",\"italic\":false,\"color\":\"white\"}",
+                  "{\"text\":\"とある人物に渡すと便利な物に交換してくれるようだ。\",\"italic\":false,\"color\":\"white\"}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {}

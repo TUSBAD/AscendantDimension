@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:item/torch/adv_redstone_torch"
+          "value": "item:item/torch/adv_redstone_torch"
         }
       ],
       "rolls": 1.0

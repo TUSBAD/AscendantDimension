@@ -11,13 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "爆破作業員の制服",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"爆破作業員の制服\",\"italic\":false}",
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:blast_protection": 1900
+                    "minecraft:blast_protection": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

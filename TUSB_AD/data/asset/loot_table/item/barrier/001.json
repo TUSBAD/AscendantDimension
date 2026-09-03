@@ -11,10 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "もしかして私に話しかけてます？",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"もしかして私に話しかけてます？\",\"italic\":false}"
               }
             }
           ]

@@ -11,12 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "クラウディア",
-                  "italic": false,
-                  "color": "white",
-                  "underlined": true
-                }
+                "minecraft:custom_name": "{\"text\":\"クラウディア\",\"italic\":false,\"color\":\"white\",\"underlined\":true}"
               }
             }
           ]

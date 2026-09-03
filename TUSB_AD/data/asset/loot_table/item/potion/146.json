@@ -11,37 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "ブラック",
-                      "italic": false,
-                      "color": "dark_gray",
-                      "bold": true
-                    },
-                    {
-                      "text": "メタル",
-                      "italic": false,
-                      "color": "gray"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"ブラック\",\"italic\":false,\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"メタル\",\"italic\":false,\"color\":\"gray\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "黒く輝くこの液体は触れるものを弱らせ",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false
-                  },
-                  {
-                    "text": "力を与える。",
-                    "italic": false
-                  }
+                  "{\"text\":\"黒く輝くこの液体は触れるものを弱らせ\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"\",\"italic\":false}",
+                  "{\"text\":\"力を与える。\",\"italic\":false}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

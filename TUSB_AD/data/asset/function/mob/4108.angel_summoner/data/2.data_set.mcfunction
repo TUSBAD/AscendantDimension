@@ -46,11 +46,11 @@
 
 ### Attributes
     # 最大体力
-        data modify storage asset: mob.Attributes append value {Name:generic.max_health, Base:400}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:400}
     # (近接)攻撃力
-        data modify storage asset: mob.Attributes append value {Name:generic.attack_damage, Base:10}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:10}
     # 移動速度
-        data modify storage asset: mob.Attributes append value {Name:generic.movement_speed, Base:0.1}
+        data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0.1}
     # 防具値
         # data modify storage asset: mob.Attributes append value {Name:generic.armor, Base:20}
     # 防具強度

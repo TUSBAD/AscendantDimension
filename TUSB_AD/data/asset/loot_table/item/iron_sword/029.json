@@ -11,60 +11,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "死",
-                      "italic": false,
-                      "color": "dark_red",
-                      "bold": true
-                    },
-                    {
-                      "text": "の",
-                      "italic": false,
-                      "color": "dark_gray"
-                    },
-                    {
-                      "text": "境界",
-                      "italic": false
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"死\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\"の\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"境界\",\"italic\":false}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "とある疲弊した協会の部長が使ってた刀、",
-                    "italic": false,
-                    "color": "dark_gray"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "威力は",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "高い",
-                        "italic": false,
-                        "color": "red"
-                      },
-                      {
-                        "text": "が扱いが",
-                        "italic": false,
-                        "color": "dark_gray"
-                      },
-                      {
-                        "text": "非常に難しい",
-                        "italic": false,
-                        "color": "dark_red",
-                        "underlined": true
-                      }
-                    ]
-                  }
+                  "{\"text\":\"とある疲弊した協会の部長が使ってた刀、\",\"italic\":false,\"color\":\"dark_gray\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"威力は\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"高い\",\"italic\":false,\"color\":\"red\"},{\"text\":\"が扱いが\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"非常に難しい\",\"italic\":false,\"color\":\"dark_red\",\"underlined\":true}]}"
                 ],
                 "minecraft:attribute_modifiers": {
                   "modifiers": [

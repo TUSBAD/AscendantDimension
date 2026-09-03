@@ -11,20 +11,17 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "ファイナルベント",
-                  "italic": false
-                },
+                "minecraft:custom_name": "{\"text\":\"ファイナルベント\",\"italic\":false}",
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:knockback": 9999,
-                    "minecraft:efficiency": 9999,
-                    "minecraft:fire_aspect": 9999,
-                    "minecraft:smite": 9999,
-                    "minecraft:bane_of_arthropods": 9999
+                    "minecraft:knockback": 255,
+                    "minecraft:efficiency": 255,
+                    "minecraft:fire_aspect": 255,
+                    "minecraft:smite": 255,
+                    "minecraft:bane_of_arthropods": 255
                   }
                 },
-                "minecraft:repair_cost": -2147483648,
+                "minecraft:repair_cost": 0,
                 "minecraft:custom_data": {
                   "Legacy": 1
                 }

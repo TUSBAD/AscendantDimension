@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound block.end_gateway.spawn master @a[distance=..32] -35 71 762 3 1.4 1
+playsound minecraft:block.end_gateway.spawn master @a[distance=..32] -35 71 762 3 1.4 1
 particle explosion_emitter -35 71 762 0 1 0 0 5 force
 particle explosion -29 77 762 1.2 1.2 1.2 0 300
 execute as @e[tag=CannonBullet2] positioned -32 72 764 positioned ~6 ~6 ~-2 run tp @s ~ ~ ~

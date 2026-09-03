@@ -3,7 +3,7 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-playsound entity.item.pickup master @a[distance=..16] ~ ~ ~ 1 0.6 0
+playsound minecraft:entity.item.pickup master @a[distance=..16] ~ ~ ~ 1 0.6 0
 
 # 効果時間を90sから45sに、エフェクトレベルを各レベル+1
 # 効果時間をneoと合わせる(60-90-120)

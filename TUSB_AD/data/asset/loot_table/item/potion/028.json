@@ -11,28 +11,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "Σジャンパー",
-                  "italic": false,
-                  "color": "yellow",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"Σジャンパー\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
                 "minecraft:lore": [
-                  {
-                    "text": "短時間の間、敵から逃げるのに",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "特化された体を手に入れる。",
-                    "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "忍者のように身軽に動く事ができる。",
-                    "italic": false,
-                    "color": "gray"
-                  }
+                  "{\"text\":\"短時間の間、敵から逃げるのに\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"特化された体を手に入れる。\",\"italic\":false,\"color\":\"gray\"}",
+                  "{\"text\":\"忍者のように身軽に動く事ができる。\",\"italic\":false,\"color\":\"gray\"}"
                 ],
                 "minecraft:potion_contents": {
                   "potion": "minecraft:water",

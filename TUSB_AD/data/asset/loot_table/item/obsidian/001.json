@@ -11,29 +11,16 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "宵闇の魔宝珠",
-                  "italic": false,
-                  "color": "dark_blue"
-                },
+                "minecraft:custom_name": "{\"text\":\"宵闇の魔宝珠\",\"italic\":false,\"color\":\"dark_blue\"}",
                 "minecraft:lore": [
-                  {
-                    "text": "闇の宝珠",
-                    "italic": false
-                  },
-                  {
-                    "text": "とある場所を守っている者を倒した証",
-                    "italic": false
-                  },
-                  {
-                    "text": "力を感じる...",
-                    "italic": false
-                  }
+                  "{\"text\":\"闇の宝珠\",\"italic\":false}",
+                  "{\"text\":\"とある場所を守っている者を倒した証\",\"italic\":false}",
+                  "{\"text\":\"力を感じる...\",\"italic\":false}"
                 ],
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:protection": 999,
-                    "minecraft:infinity": 1020
+                    "minecraft:protection": 255,
+                    "minecraft:infinity": 255
                   }
                 },
                 "minecraft:attribute_modifiers": {

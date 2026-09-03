@@ -141,8 +141,8 @@ function #asset:mob/get_data
 # コウモリを作る
 data modify storage _: _.id set value "bat"
 data modify storage _: _.Health set value 100
-data modify storage _: _.Attributes append value {Name:generic.armor, Base:20}
-data modify storage _: _.Attributes append value {Name:generic.max_health, Base:100}
+data modify storage _: _.Attributes append value {Name:minecraft:armor, Base:20}
+data modify storage _: _.Attributes append value {Name:minecraft:max_health, Base:100}
 # スポナーから湧かせるための設定
 data modify storage asset: mob.custom_spawn_rules set value {sky_light_limit:{min_inclusive:0,max_inclusive:15},block_light_limit:{min_inclusive:0,max_inclusive:15}}
 # 乗せる

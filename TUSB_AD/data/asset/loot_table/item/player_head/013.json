@@ -11,15 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "あかさめ",
-                  "italic": false,
-                  "color": "red",
-                  "bold": true
-                },
+                "minecraft:custom_name": "{\"text\":\"あかさめ\",\"italic\":false,\"color\":\"red\",\"bold\":true}",
                 "minecraft:profile": {
                   "name": "akasame",
-                  "id": "1f6e76ab-9e26-4436-b014-a1fb09674fe6",
                   "properties": [
                     {
                       "name": "textures",

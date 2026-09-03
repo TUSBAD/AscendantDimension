@@ -6,7 +6,7 @@ scoreboard players set @s NinjaTime 3
 
 execute if score _ ActivatedSkill matches 2260..2269 if score @s seiyou matches 31.. run scoreboard players set @s seiyou 30
 
-playsound entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 1 1.8 0
+playsound minecraft:entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 1 1.8 0
 particle enchanted_hit ~ ~ ~ 2.0 0 2.0 0 100 force
 playsound minecraft:entity.experience_orb.pickup master @a[distance=..16] ~ ~ ~ 1.0 0.75 0.0
 

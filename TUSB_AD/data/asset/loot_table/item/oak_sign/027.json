@@ -11,95 +11,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
-                  "text": "",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "アイテムまとめ",
-                      "italic": false,
-                      "color": "aqua"
-                    },
-                    {
-                      "text": "印板\"",
-                      "italic": false,
-                      "color": "white"
-                    },
-                    {
-                      "text": "ﾊｲｴｰﾃﾙ",
-                      "italic": false,
-                      "color": "dark_aqua"
-                    },
-                    {
-                      "text": "\"",
-                      "italic": false,
-                      "color": "white"
-                    }
-                  ]
-                },
+                "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"アイテムまとめ\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"印板\\\"\",\"italic\":false,\"color\":\"white\"},{\"text\":\"ﾊｲｴｰﾃﾙ\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"\\\"\",\"italic\":false,\"color\":\"white\"}]}",
                 "minecraft:lore": [
-                  {
-                    "text": "ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたﾎﾟｰｼｮﾝがあった場合",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "そのｱｲﾃﾑをまとめる事が出来る印板。",
-                    "italic": false,
-                    "color": "yellow"
-                  },
-                  {
-                    "text": "まとめ内容：ﾊｲｴｰﾃﾙ17個を16個にまとめる。",
-                    "italic": false,
-                    "color": "green"
-                  },
-                  {
-                    "text": "※看板が照屋な性格の為、近くに２人以上いると",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "恥ずかしがってまとめる事ができなくなります。",
-                    "italic": false,
-                    "color": "red"
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "レアリティ：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "★☆☆",
-                        "italic": false,
-                        "color": "dark_green"
-                      }
-                    ]
-                  },
-                  {
-                    "text": "",
-                    "italic": false,
-                    "extra": [
-                      {
-                        "text": "属性：",
-                        "italic": false,
-                        "color": "yellow"
-                      },
-                      {
-                        "text": "永続型",
-                        "italic": false,
-                        "color": "dark_purple"
-                      }
-                    ]
-                  }
+                  "{\"text\":\"ｲﾝﾍﾞﾝﾄﾘｰ内に下記で要求されたﾎﾟｰｼｮﾝがあった場合\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"そのｱｲﾃﾑをまとめる事が出来る印板。\",\"italic\":false,\"color\":\"yellow\"}",
+                  "{\"text\":\"まとめ内容：ﾊｲｴｰﾃﾙ17個を16個にまとめる。\",\"italic\":false,\"color\":\"green\"}",
+                  "{\"text\":\"※看板が照屋な性格の為、近くに２人以上いると\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"恥ずかしがってまとめる事ができなくなります。\",\"italic\":false,\"color\":\"red\"}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★☆☆\",\"italic\":false,\"color\":\"dark_green\"}]}",
+                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"属性：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"永続型\",\"italic\":false,\"color\":\"dark_purple\"}]}"
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": -10
-                  },
+                  "levels": {},
                   "show_in_tooltip": false
                 },
                 "minecraft:repair_cost": 1000000000,
