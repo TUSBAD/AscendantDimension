@@ -23,15 +23,15 @@ data modify storage asset: mob.Tags set value ["CustomMob","ShieldTried"]
 # data modify storage asset: mob.PortalCooldown set value 0
 
 ## attributes_set
-data modify storage asset: mob.Attributes append value {Name:minecraft:max_health, Base:1}
-data modify storage asset: mob.Attributes append value {Name:minecraft:max_absorption, Base:1024}
-data modify storage asset: mob.Attributes append value {Name:minecraft:attack_damage, Base:0}
-data modify storage asset: mob.Attributes append value {Name:minecraft:movement_speed, Base:0}
-data modify storage asset: mob.Attributes append value {Name:minecraft:armor, Base:0}
-data modify storage asset: mob.Attributes append value {Name:minecraft:armor_toughness, Base:0}
-data modify storage asset: mob.Attributes append value {Name:minecraft:knockback_resistance, Base:1}
-data modify storage asset: mob.Attributes append value {Name:minecraft:follow_range, Base:0}
-data modify storage asset: mob.Attributes append value {Name:minecraft:attack_knockback, Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:max_health", Base:1}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:max_absorption", Base:1024}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:attack_damage", Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:movement_speed", Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:armor", Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:armor_toughness", Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:knockback_resistance", Base:1}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:follow_range", Base:0}
+data modify storage asset: mob.Attributes append value {Name:"minecraft:attack_knockback", Base:0}
 
 ## item_set
 # loot replace entity @e[tag=ItemHolder,limit=1] armor.head
