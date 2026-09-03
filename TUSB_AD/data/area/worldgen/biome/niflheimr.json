@@ -11,12 +11,31 @@
     "water_fog_color": 49151,
     "grass_color": 29900,
     "foliage_color": 2708735,
-    "music": {
-      "sound": "minecraft:music.under_water",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:dragon_fish"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:axoltol"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 1,
     "particle": {
       "options": {
         "type": "minecraft:bubble"

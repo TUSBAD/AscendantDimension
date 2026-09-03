@@ -11,6 +11,7 @@
     "water_fog_color": 5076121,
     "grass_color": 7701650,
     "foliage_color": 7701650,
+    "ambient_sound": "minecraft:entity.warden.heartbeat",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
       "tick_delay": 4000,
@@ -21,12 +22,31 @@
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.005
     },
-    "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
-      "min_delay": 0,
-      "max_delay": 1200,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:ancestry"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:ancestry.pitch1.25"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 0.5,
     "particle": {
       "options": {
         "type": "minecraft:nautilus"

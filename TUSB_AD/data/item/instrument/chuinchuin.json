@@ -1,0 +1,10 @@
+{
+  "description": {
+    "translate": "ChuinChuin"
+  },
+  "range": 32.0,
+  "sound_event": {
+        "sound_id": "easter_egg:chuinchuin"
+    },
+  "use_duration": 8.0
+}

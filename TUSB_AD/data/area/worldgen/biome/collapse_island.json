@@ -51,7 +51,7 @@
     "music_volume": 0.5,
     "particle": {
       "options": {
-        "type": "minecraft:sculk_soul"
+        "type": "minecraft:trial_omen"
       },
       "probability": 0.0001
     }

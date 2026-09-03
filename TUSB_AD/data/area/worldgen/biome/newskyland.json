@@ -22,12 +22,42 @@
       "sound": "minecraft:crimson_forest_shine",
       "tick_chance": 0.01
     },
-    "music": {
-      "sound": "music:echo_in_the_wind",
-      "min_delay": 0,
-      "max_delay": 2000,
-      "replace_current_music": true
-    },
+    "music": [
+      {
+        "weight": 2,
+        "data": {
+          "sound": {
+            "sound_id": "music:pokopoko"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 2,
+        "data": {
+          "sound": {
+            "sound_id": "music:a_familiar_room"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "minecraft:music.game"
+          },
+          "min_delay": 0,
+          "max_delay": 2400,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "music_volume": 1,
     "particle": {
       "options": {
         "type": "minecraft:cherry_leaves"
