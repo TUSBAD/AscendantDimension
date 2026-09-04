@@ -1,3 +1,0 @@
-
-"pack_format": 12,
-"description": "TUSB Old Loot Tables"
