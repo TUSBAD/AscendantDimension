@@ -4,6 +4,10 @@
 #
 # @within function core:load/
 
+###デバッグモード
+# リリースする際は必ずオフにすること
+data modify storage core: debug set value 1b
+
 ### 即時スキル(すぐ効果がでるスキル)
 #scoreboard objectives add InstantSkillA dummy "即時スキルA"
 #scoreboard objectives add InstantCostA dummy "即時スキルAコスト"
@@ -52,7 +56,8 @@ data modify storage core: Prefix.SUCCESS set value "§aSUCCESS >> §r"
 data modify storage core: Prefix.INFO set value "§9INFO >> §r"
 data modify storage core: Prefix.FAILED set value "§7FAILED >> §r"
 data modify storage core: Prefix.ERROR set value "§cERROR >> §r"
-data modify storage core: Prefix.CRIT set value "§4CRITICAL >> §r"
+data modify storage core: Prefix.CRIT set value "§4§lCRITICAL >> §r"
+data modify storage core: Prefix.WARN set value "§c§lWarning >> §r"
 
 ###計算、乱数
 scoreboard objectives add _ dummy {"text":"一時変数"}
@@ -68,7 +73,7 @@ scoreboard objectives add SpawnY dummy {"text": "スポーン座標検知 Y"}
 scoreboard objectives add SpawnZ dummy {"text": "スポーン座標検知 Z"}
 
 ###ジョブ系
-scoreboard objectives add Job dummy {"text": "現在の職業"}
+scoreboard objectives add Job dummy {"text": "現在のジョブ"}
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
@@ -82,7 +87,7 @@ scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
 
 #> ステータススコア
 scoreboard objectives add Armor armor {"text":"アーマーポイント"}
-scoreboard objectives add Level dummy {"text":"累計レベル"}
+scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add HP dummy {"text":"HP"}
 scoreboard objectives add HPMax dummy {"text":"HP最大値"}
 scoreboard objectives add MP dummy {"text":"MP"}
@@ -111,6 +116,7 @@ scoreboard objectives add Shield dummy {"text": "Shield"}
 
 #> 変数や定数、カウンタ
 scoreboard objectives add Difficulty dummy {"text":"難易度保存スコア"}
+scoreboard objectives add ChangeDifficultyLock dummy {"text":"難易度変更制限"}
 scoreboard objectives add DoomEx dummy {"text":"致死の宣告カウント","color":"#cc0000"}
 scoreboard objectives add DeathDoom dummy {"text":"即死の宣告カウント","color":"#f40000"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
@@ -307,6 +313,10 @@ team modify Goddes prefix {"text":"🌌","color":"#00e6ff"}
 function core:load/init_score
 function core:load/init_storage
 
+#難易度リセット カジュアル
+function core:difficulty/reset
+function core:difficulty/init
+
 #> Function実行
 # とても悪いエフェクト
 function settings:effect/too_bad_effects
@@ -316,7 +326,7 @@ function settings:capture/capture_reset
 function settings:skill/black_mage/return/default
 
 #> スキルテーブルを初期化
-function asset_manager:job/skill_init
+function job:init_table/
 
 #> TIPSデータ
 function settings:player/tips

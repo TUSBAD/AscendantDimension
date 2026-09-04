@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "skill:act/knight/war_prelude/damaged"
+		"function": "skill:act/knight/uxo_pu/damaged"
 	}
 }

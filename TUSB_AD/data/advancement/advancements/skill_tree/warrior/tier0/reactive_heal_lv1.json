@@ -1,0 +1,68 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {
+            "translate": "リアクティブヒール %1$s",
+            "color": "white",
+            "with": [
+                {
+                    "translate": "I",
+                    "color": "green"
+                }
+            ]
+        },
+        "description": {
+            "translate": "被ダメージ時、体力が回復する。\n\n・%1$s\n・%2$s\n・%3$s",
+            "color": "white",
+            "with": [
+                {
+                    "translate": "回復量(HP)：%1$s",
+                    "color": "white",
+                    "with": [
+                        {
+                            "translate": "4",
+                            "color": "aqua"
+                        }
+                    ]
+                },
+                {
+                    "translate": "消費MP：%1$s",
+                    "color": "white",
+                    "with": [
+                        {
+                            "translate": "10",
+                            "color": "aqua"
+                        }
+                    ]
+                },
+                {
+                    "translate": "発動方法：%1$s",
+                    "color": "white",
+                    "with": [
+                        {
+                            "translate": "有効後に被弾する",
+                            "color": "aqua"
+                        }
+                    ]
+                }
+            ]
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "advancement:skill_tree/warrior/warrior_tier0",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}

@@ -102,7 +102,7 @@ mana_erosion:{value:32},\
 }\
 }
 
-execute if data storage core: difficult.world{level:"nightmare"} run data modify storage effect: resist set value {\
+execute if data storage core: difficult.world{level:"ascendant"} run data modify storage effect: resist set value {\
 bad_effect:{\
 nausea:{value:1},\
 poison:{value:3},\

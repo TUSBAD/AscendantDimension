@@ -54,12 +54,12 @@
     #function player:custom_floor/tick
 
 # 村人会話
-    execute if entity @s[scores={AgentFlag=1..}] run function mob_manager:villager/talk_event/agent/trigger/
-    execute if entity @s[scores={PastorFlag=1..}] run function mob_manager:villager/talk_event/pastor/trigger/
-    execute if entity @s[scores={AugurFlag=1..}] run function mob_manager:villager/talk_event/augur/trigger/
+    execute if entity @s[scores={AgentFlag=1..}] run function entity:villager/talk_event/agent/trigger/
+    execute if entity @s[scores={PastorFlag=1..}] run function entity:villager/talk_event/pastor/trigger/
+    execute if entity @s[scores={AugurFlag=1..}] run function entity:villager/talk_event/augur/trigger/
 
 # 透明化＆エーテル Invisible
-    execute if entity @s[predicate=player:effects/is_invisibility] run function player:effect/invisible/
+    execute if entity @s[predicate=effect:is_invisibility] run function effect:invisible/
 
 #> スキルトリガー
     execute if entity @s[scores={UseSnowball=1..}] run function skill:trigger/snowball/
@@ -68,23 +68,20 @@
     execute if entity @s[scores={FoodLevel=1..}] run function skill:trigger/food/
     execute if entity @s[scores={UseCarrotStick=1..}] run function skill:trigger/carrot_stick/
     execute if entity @s[scores={UseFungusStick=1..}] run function skill:trigger/fungus_stick/
-    execute if entity @s[advancements={mob_manager:player_hurt_entity={melee_attack=true}}] run function skill:trigger/hit/
+    execute if entity @s[advancements={enemy:player_hurt_entity={melee_attack=true}}] run function skill:trigger/hit/
     execute if entity @s[scores={Jump=1..}] run function skill:trigger/jump/
     execute if entity @s[scores={kill=1..}] run function player:kill/pray/
     execute if entity @s[scores={SneakTime=1..}] run function player:sneak/
     execute if entity @s[scores={SneakFrequency=1..}] run function player:sneak/frequency
 
 # スキル設定変更
-    execute if entity @s[scores={InstantChangeA=0..}] run function skill:change/instant/a
-    execute if entity @s[scores={InstantChangeB=0..}] run function skill:change/instant/b
-    execute if entity @s[scores={ModeChangeA=0..}] run function skill:change/mode/a
-    execute if entity @s[scores={ModeChangeB=0..}] run function skill:change/mode/b
+    execute if entity @s[scores={InstantChangeA=0..}] run function job:change/instant/a
+    execute if entity @s[scores={InstantChangeB=0..}] run function job:change/instant/b
+    execute if entity @s[scores={ModeChangeA=0..}] run function job:change/mode/a
+    execute if entity @s[scores={ModeChangeB=0..}] run function job:change/mode/b
 
 # スキル
     function skill:tick
-
-### カスタムHP回復
-execute if entity @s[scores={HealthHealing=-2147483648..}] run function player:health_healing
 
 ### プレイヤーゲームメニュー
 execute unless score @s ChangeSettings matches 0 run function core:game_menu/triggered
@@ -97,7 +94,7 @@ execute unless score @s ChangeSettings matches 0 run function core:game_menu/tri
     execute if entity @s[predicate=player:heal_count/healcount_large] run function player:health/heal/large
 
 # めり込み死
-    execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
+    execute if entity @s[scores={Age=1..},predicate=!entity:player_invulnerable] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:unbreakable_block
 
 # 死亡トリガー TODO
     scoreboard players reset @s[scores={Deaths=1..}] Deaths

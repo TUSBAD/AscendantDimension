@@ -9,7 +9,7 @@ execute as @s[scores={CurrentMode=2230..2239}] run function skill:act/ninja/isuk
 execute as @s[scores={CurrentMode=4210..4219}] run function skill:act/white_mage/dia/throw
 execute as @s[scores={CurrentMode=4220..4229}] run function skill:act/white_mage/flower_gift/throw
 execute as @s[scores={CurrentMode=4230..4239}] run function skill:act/white_mage/holy/throw
-execute as @s[scores={CurrentMode=4270..4279}] run function skill:act/white_mage/holy_soul_ignition/throw
+execute as @s[scores={CurrentMode=4270..4279}] run function skill:act/white_mage/ignition/throw
 
 execute as @s[scores={CurrentMode=5200..5209}] run function skill:act/black_mage/ice_storm/throw
 execute as @s[scores={CurrentMode=5210..5219}] run function skill:act/black_mage/cross_fire/throw

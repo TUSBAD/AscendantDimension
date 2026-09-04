@@ -2,7 +2,7 @@
 #
 # MP回復時のSE
 #
-# @within function effect:invisible/
+# @within function effects:invisible/
 
 particle minecraft:end_rod ~ ~ ~ 0.15 0.15 0.15 0.1 16 normal
 playsound minecraft:ambient.crimson_forest.shine_1 ambient @s ~ ~ ~ 2 2.0 1

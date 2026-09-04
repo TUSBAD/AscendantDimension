@@ -43,6 +43,4 @@ effect clear @s[scores={ResistLock=1}] slowness
 execute if entity @s[advancements={effect:bad_effects={darkness=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.darkness
 effect clear @s[scores={ResistLock=1}] darkness
 
-execute if entity @a[distance=..32,scores={Job=4}] run function skill:act/white_mage/clear/cure/level2
-
 advancement revoke @s only effect:bad_effects

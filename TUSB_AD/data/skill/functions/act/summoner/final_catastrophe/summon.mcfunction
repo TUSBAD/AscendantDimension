@@ -1,4 +1,0 @@
-#> skill:act/summoner/final_catastrophe/summon
-
-execute as @s at @e[type=#entity:mob,distance=..30,limit=1,sort=nearest] run summon creeper ~ ~ ~ {Tags:["CooldownRequired","TypeChecked","FinalPoint"],powered:0b,PortalCooldown:220,ExplosionRadius:0,Fuse:20,NoAI:1b,Silent:1b,Glowing:1b,Team:"FriendlyTeam",Invulnerable:1b,active_effects:[{id:"minecraft:invisibility",amplifier:127,duration:20000,show_particles:0b}]}
-schedule function skill:act/summoner/final_catastrophe/hit 1t replace

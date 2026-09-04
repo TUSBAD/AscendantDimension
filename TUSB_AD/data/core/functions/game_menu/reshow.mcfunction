@@ -22,4 +22,4 @@ execute if data entity @s Inventory[{tag:{Skill:{Name:"フィール"}}}] in area
 # 200-399: ワールド情報
 # 210-: 各ディメンションの攻略率(予定)
 
-function makeup:game_menu/reshow
+function makeup:core/game_menu/reshow

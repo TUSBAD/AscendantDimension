@@ -4,7 +4,7 @@
 scoreboard players operation @s ActivatedSkill = @s CurrentMode
 scoreboard players operation @s MPConsumption = @s CurrentModeCost
 ### MPチェック
-function job:mp/check/
+function skill:mp/check/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
 execute if score _ ActivatedSkill matches 4240..4249 run function skill:act/white_mage/tenki/cast

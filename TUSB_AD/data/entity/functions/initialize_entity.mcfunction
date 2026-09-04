@@ -27,7 +27,7 @@
     execute as @s[type=villager] if predicate enemy:is_vanilla_villager run data merge entity @s {VillagerData:{profession:"minecraft:shepherd",level:5},Offers:{Recipes:[{maxUses:7,buy:{id:"minecraft:white_wool",Count:22b},sell:{id:"minecraft:emerald",Count:1b},uses:0,rewardExp:1b},{maxUses:7,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:shears",Count:1b},uses:0,rewardExp:1b}]}}
 
 # TNTの見た目変更
-    execute as @s[type=minecraft:tnt] run data merge entity @s {Fuse:20s,Motion:[0d,0d,0d],block_state:{Name:"minecraft:diamond_block"}}
+    execute as @s[type=minecraft:tnt] run data merge entity @s {fuse:20s,Motion:[0d,0d,0d],block_state:{Name:"minecraft:diamond_block"}}
 
 # CustomMobの処理
     execute as @s[tag=CustomMob] run function enemy:custom_mob/init/
@@ -40,10 +40,10 @@
     data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_reinforcements"}].Modifiers
 
 # 自然湧きじゃないスライム系のチェック
-    tag @s[type=#lib:slimey,predicate=!player:effects/has_absorptionamount] add FromSpawner
+    tag @s[type=#lib:slimey,predicate=!effect:has_absorptionamount] add FromSpawner
 
 # 自然わきスライム
-    tag @s[type=#lib:slimey,predicate=player:effects/has_absorptionamount] add Garbage
+    tag @s[type=#lib:slimey,predicate=effect:has_absorptionamount] add Garbage
 
 # 応急措置?
     kill @s[type=item,predicate=lib:overstack_item]

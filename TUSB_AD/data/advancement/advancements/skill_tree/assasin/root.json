@@ -1,0 +1,24 @@
+{
+    "//": "全てのスキル表示のもととなる部分",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt":"{CustomModelData:50}"
+        },
+        "title": "スキルツリー -アサシン-",
+        "description": "常人の3倍の脚力と多彩なｼﾞﾂ で悪環境にも自在に適応\n高い攻撃力で敵をしとめる暗殺者。",
+        "background": "minecraft:textures/block/gravel.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}

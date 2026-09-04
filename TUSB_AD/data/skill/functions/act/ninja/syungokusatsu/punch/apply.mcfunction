@@ -1,4 +1,9 @@
 #> skill:act/ninja/Syungoku/punch/apply
+### 流し斬りがヒットした敵に効果をかける
+
+# あまりにも強すぎるのでTLEでの連舞はナーフする
+
+# multiの部分を0.3から0.2へ
 
 scoreboard players add @s Syungoku 1
 scoreboard players set @s NinjaTime 2
@@ -12,6 +17,10 @@ particle minecraft:flame ~ ~1 ~ 5 5 5 2 100 force
 title @s times 0 30 10
 title @s subtitle {"translate":"                            %1$s HIT!","with":[{"score":{"name":"@s","objective":"Syungoku"}}],"color":"red","italic":true,"bold":true}
 title @s title {"text":""}
+
+### (base + Syungoku * 2) * (1 + Syungoku * 0.3)
+###   +2   +4   +6                    +30
+### +30% +60% +90%                  +450%
 
 attribute @s minecraft:generic.attack_damage modifier remove 6765f63f-00a6-47e7-81ec-5647ceecf0f1
 attribute @s[scores={Syungoku=1}] minecraft:generic.attack_damage modifier add 6765f63f-00a6-47e7-81ec-5647ceecf0f1 "Syungoku" 50.0 add

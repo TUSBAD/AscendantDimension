@@ -12,7 +12,7 @@ scoreboard players set #5120 Damage 5120
 # scoreboard players set #casual NextExp 75
 # scoreboard players set #hardcore NextExp 100
 # scoreboard players set #another NextExp 125
-# scoreboard players set #nightmare NextExp 150
+# scoreboard players set #ascendant NextExp 150
 
 #時間初期化
 execute unless score #Hours Count matches 0.. run scoreboard players set #Hours Count 0

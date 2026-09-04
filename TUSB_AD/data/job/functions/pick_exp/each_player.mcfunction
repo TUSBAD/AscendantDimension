@@ -7,11 +7,11 @@ scoreboard players operation @s ExpToLevel -= _ ItemCount
 # Global: 取得した経験値を含んだワールド総経験値取得量
 # @sTotal: 取得した経験値を含んだ自身の総経験値取得量(Bonusはまだ含まれない)
 
-# @s Total += ItemCount
+# @sTotal += ItemCount
 # ExpToLevel -= ItemCount
-# BonusXp = min((ItemCount × min((Global × 2 ÷ @s Total - 1), 10) + @s Total), Global) - @s Total
+# BonusXp = min((ItemCount × min((Global × 2 ÷ @sTotal - 1), 10) + @sTotal), Global) - @sTotal
 # ExpToLevel -= BonusXp
-# @s Total += BonusXp
+# @sTotal += BonusXp
 scoreboard players operation _ TUSB = #Global TotalXp
 scoreboard players operation _ TUSB += _ TUSB
 scoreboard players operation _ TUSB /= @s TotalXp

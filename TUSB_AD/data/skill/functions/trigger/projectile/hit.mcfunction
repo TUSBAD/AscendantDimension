@@ -11,8 +11,8 @@ execute if score @s PotentialSkill matches 2200..2209 run function skill:act/nin
 execute unless entity @s[team=Boss] if score @s PotentialSkill matches 2230..2239 run function skill:act/ninja/isukumi/hit
 #チェインアローHIT処理
 execute if score @s PotentialSkill matches 10000..99999 run function skill:act/archer/chain_arrow/hit/
-execute if score @s PotentialSkill matches 100000.. run function skill:act/archer/magic_bullet_flash/hit/
-execute if score @s PotentialSkill matches 3280..3289 run function skill:act/archer/ace_in_the_hole/hit/
+execute if score @s PotentialSkill matches 100000.. run function skill:act/archer/madan/hit/
+execute if score @s PotentialSkill matches 3280..3289 run function skill:act/archer/e_su/hit/
 #ブラストショットHIT処理
 execute if score @s PotentialSkill matches 3230..3239 run function skill:act/archer/blast_shot/hit/
 #ガストキャノンHIT処理

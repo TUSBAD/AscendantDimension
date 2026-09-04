@@ -1,0 +1,24 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{Enchantments:[{}],CustomModelData:201}"
+        },
+        "title": "冥人",
+        "description": "主に杖をメインに使用する。\nスリケンを投げたり跳んだり浮いたりする。たまに自爆もする。",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "advancement:skill_tree/assasin/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}

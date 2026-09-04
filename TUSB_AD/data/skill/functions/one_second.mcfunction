@@ -12,7 +12,7 @@
 # 連舞 跳躍
     execute if entity @s[scores={Tsuremai=0..}] run function skill:act/ninja/tsuremai/check
     execute if entity @s[scores={Choyaku=0..}] run function skill:act/ninja/choyaku/check
-    execute if entity @s[scores={SeiyouNabu=0..}] run function skill:act/ninja/seiyounabu/check
+    execute if entity @s[scores={SeiyouNabu=0..}] run function skill:act/ninja/seiyou/check
     execute if entity @s[scores={SyungokuSatsu=0..}] run function skill:act/ninja/syungokusatsu/punch/check
 
 # 黙想継続

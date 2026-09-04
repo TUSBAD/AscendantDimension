@@ -7,7 +7,7 @@
 scoreboard players operation @s ActivatedSkill = @s CurrentMode
 scoreboard players operation @s MPConsumption = @s CurrentModeCost
 ### MPチェック
-function job:mp/check/
+function skill:mp/check/
 
 scoreboard players operation _ ActivatedSkill = @s ActivatedSkill
 execute if score _ ActivatedSkill matches 6200..6209 if entity @s[gamemode=adventure] run function skill:act/summoner/fill/adventure

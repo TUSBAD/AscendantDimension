@@ -11,6 +11,6 @@ execute as @s[scores={CurrentMode=3230..3239}] run function skill:act/archer/bla
 execute as @s[scores={CurrentMode=3240..3249}] run function skill:act/archer/bird_strike/shoot
 execute as @s[scores={CurrentMode=3250..3259}] run function skill:act/archer/ghast_cannon/shoot
 execute as @s[scores={CurrentMode=3260..3269}] run function skill:act/archer/fatal_shot/shoot
-execute as @s[scores={CurrentMode=3270..3279}] run function skill:act/archer/magic_bullet_flash/shoot
-execute as @s[scores={CurrentMode=3280..3289}] run function skill:act/archer/ace_in_the_hole/shoot
+execute as @s[scores={CurrentMode=3270..3279}] run function skill:act/archer/madan/shoot
+execute as @s[scores={CurrentMode=3280..3289}] run function skill:act/archer/e_su/shoot
 scoreboard players reset @s UseBow
