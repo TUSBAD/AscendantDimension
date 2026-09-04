@@ -14,14 +14,17 @@ summon minecraft:firework_rocket ~ ~0.5 ~ {LifeTime:20,FireworksItem:{id:"minecr
 
 ### レベルアップ表示
 title @s times 5 100 20
-title @s subtitle [{"text":"現在のレベル : ","italic":true},{"score":{"name":"*","objective":"Level"},"bold":true,"italic":false}]
+title @s subtitle [{"translate":"Total Level : %1$s","italic":true,"with": [{"score": {"name": "@s","objective": "Level"}}]}]
 title @s title {"text":"LEVEL UP ！","color":"green","bold":true}
 
-### レベル500まで、新しいスキル取得メッセージを表示
-execute if entity @s[scores={Level=..500}] run function job:set_display/learn/
+### 新しいスキル取得メッセージを表示
+# Levelとjobをストレージに取り込む
+execute store result storage skill: _.player.level int 1 run scoreboard players get @s Level
+execute store result storage skill: _.player.job int 1 run scoreboard players get @s Job
+function skill:set_display/learn/ with storage skill: _.player
 
 # ステータス設定
-function effects:status/life_to_max
+function effect:status/life_to_max
 
 ### 次の経験値の設定(難易度補正付き)
 scoreboard players operation @s NextExp = @s Level

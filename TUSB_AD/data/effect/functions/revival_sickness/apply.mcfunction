@@ -13,7 +13,7 @@ execute if data storage core: difficult.world{level:"debug"} run scoreboard play
 execute if data storage core: difficult.world{level:"picnic"} run scoreboard players set @s RevivalSicknessTimer 2
 execute if data storage core: difficult.world{level:"casual"} run scoreboard players set @s RevivalSicknessTimer 4
 execute if data storage core: difficult.world{level:"another"} run scoreboard players set @s RevivalSicknessTimer 8
-execute if data storage core: difficult.world{level:"ascendant"} run scoreboard players set @s RevivalSicknessTimer 10
+execute if data storage core: difficult.world{level:"nightmare"} run scoreboard players set @s RevivalSicknessTimer 10
 
 # マルチなら効果時間2倍
 execute store result score @s _ if entity @a

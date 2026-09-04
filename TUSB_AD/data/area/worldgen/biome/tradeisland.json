@@ -14,7 +14,7 @@
     "music": {
       "sound": "minecraft:music.credits",
       "min_delay": 0,
-      "max_delay": 2400,
+      "max_delay": 2000,
       "replace_current_music": true
     },
     "particle": {

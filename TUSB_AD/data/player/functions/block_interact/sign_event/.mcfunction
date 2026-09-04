@@ -13,11 +13,11 @@ execute if entity @s[advancements={player:block_interact/sign_event={hello_work_
 execute if entity @s[advancements={player:block_interact/sign_event={hello_work_summoner=true}}] run function player:block_interact/sign_event/hello_work/summoner
 
 ## モードチェンジ
-execute if entity @s[advancements={player:block_interact/sign_event={mode_change_ruby=true}}] run function job:display/mode/a
-execute if entity @s[advancements={player:block_interact/sign_event={mode_change_sapphire=true}}] run function job:display/mode/b
+execute if entity @s[advancements={player:block_interact/sign_event={mode_change_ruby=true}}] run function skill:display/mode/a
+execute if entity @s[advancements={player:block_interact/sign_event={mode_change_sapphire=true}}] run function skill:display/mode/b
 ## インスタントチェンジ
-execute if entity @s[advancements={player:block_interact/sign_event={instant_change_ruby=true}}] run function job:display/instant/a
-execute if entity @s[advancements={player:block_interact/sign_event={instant_change_sapphire=true}}] run function job:display/instant/b
+execute if entity @s[advancements={player:block_interact/sign_event={instant_change_ruby=true}}] run function skill:display/instant/a
+execute if entity @s[advancements={player:block_interact/sign_event={instant_change_sapphire=true}}] run function skill:display/instant/b
 
 ## リセットMP表示
 #execute if entity @s[advancements={player:block_interact/sign_event={reset_mp=true}}] run function player:mp/reset_display

@@ -3,8 +3,6 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-### RR変更
-
 # 取得量×(全体の経験値量÷自分の総経験値量)
 scoreboard players operation #Global TotalXp += @s ItemCount
 scoreboard players operation _ ItemCount = @s ItemCount

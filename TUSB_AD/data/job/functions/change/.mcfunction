@@ -1,31 +1,17 @@
 #> job:change/
+#
 # 職業変更の処理
-### Copyright © 2022 赤石愛
-### This software is released under the MIT License, see LICENSE.
+#
+# @within function 
 
-scoreboard players operation @s Job = @s ChangeJob
+execute store result storage _: _.id int 1 run scoreboard players get @s ChangeJob
 
 # 職業変更
-## 剣士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:1} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 1
-## 忍者
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:2} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 2
-## 狩人
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:3} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 3
-## 白魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:4} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 4
-## 黒魔導士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:5} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 5
-## 召喚士
-execute store result storage job: _ int 1 run clear @s minecraft:paper{JobChange:true,Job:6} 0
-execute unless data storage job: {_:0} run scoreboard players set @s Job 6
+scoreboard players operation @s Job = @s ChangeJob
 
-clear @s minecraft:paper{JobChange:true}
+# 演出
+function job:change/vfx.m with storage _: _
 
-# 新しい職業をロード
-function job:load/
+# reset
+scoreboard players reset @s ChangeJob
+data remove storage _: _

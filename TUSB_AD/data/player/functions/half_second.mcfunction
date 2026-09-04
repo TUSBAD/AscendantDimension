@@ -6,4 +6,4 @@
 #Declare entity @s[tag=DoomEX]
 
 ### 致死の宣告
-    execute if entity @s[scores={DoomEx=1..}] run function effect:doom_ex/count
+    execute if entity @s[tag=DoomEx] run function player:effect/invisible/doom_ex/count

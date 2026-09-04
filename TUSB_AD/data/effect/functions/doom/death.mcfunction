@@ -1,4 +1,4 @@
-#> effect:invisible/doom/death
+#> player:effect/invisible/doom/death
 #
 # 死の宣告死亡処理
 #

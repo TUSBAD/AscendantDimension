@@ -1,0 +1,8 @@
+#> skill:act/archer/ace_in_the_hole/schedule/fly
+
+playsound entity.experience_orb.pickup master @a[distance=..32] ~ ~ ~ 0.3 2 0.05
+particle end_rod ~ ~0.2 ~ 2 2 2 0.1 50 force
+execute as @a[distance=..32] at @e[tag=e_su] run function effect:clear_bad_effect
+execute as @e[distance=..45,type=#entity:mob,tag=Enemy] unless predicate skill:is_saturation at @s run function skill:act/archer/ace_in_the_hole/schedule/hit
+scoreboard players add @a[distance=..32] HealCount 4
+data modify storage skill: _ set value true

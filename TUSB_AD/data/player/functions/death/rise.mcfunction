@@ -18,7 +18,7 @@
     effect give @s instant_health 1 10 true
 
 # MP表示修正
-    function skill:mp/bar/set
+    function job:mp/bar/set
 
 # 満腹度調整
     function effect:status/hunger
