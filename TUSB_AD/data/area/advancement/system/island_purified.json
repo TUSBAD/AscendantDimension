@@ -7,11 +7,9 @@
           {
             "condition": "match_tool",
             "predicate": {
-              "item": {
-                "items": [
-                  "minecraft:ender_eye"
-                ]
-              }
+              "items": [
+                "minecraft:ender_eye"
+              ]
             }
           },
           {
@@ -35,11 +33,9 @@
           {
             "condition": "match_tool",
             "predicate": {
-              "item": {
-                "items": [
-                  "minecraft:ender_eye"
-                ]
-              }
+              "items": [
+                "minecraft:ender_eye"
+              ]
             }
           },
           {

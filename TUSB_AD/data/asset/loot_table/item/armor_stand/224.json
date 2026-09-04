@@ -22,6 +22,9 @@
                 },
                 "minecraft:damage": 0,
                 "minecraft:repair_cost": 0,
+                "minecraft:custom_data": {
+                  "TUSB_AD_SignStand": "sign_stand"
+                },
                 "minecraft:entity_data": {
                   "Tags": [
                     "SignStand",

@@ -8,7 +8,9 @@
             "items": [
               "minecraft:lava_bucket"
             ],
-            "nbt": "{display:{Name:'{\"text\":\"§4§lコオリトカース\"}'}}"
+            "components": {
+              "minecraft:custom_name": "{\"text\":\"コオリトカース\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true}"
+            }
           }
         ]
       }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{ForceVanishing:true}"
+            "predicates": {
+              "minecraft:custom_data": "{ForceVanishing:true}"
+            }
           }
         ]
       }

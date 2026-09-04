@@ -38,7 +38,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{CustomCanDestroy:1b}"
+            "predicates": {
+              "minecraft:custom_data": "{CustomCanDestroy:1b}"
+            }
           }
         ]
       }

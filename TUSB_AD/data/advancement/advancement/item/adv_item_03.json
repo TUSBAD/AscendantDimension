@@ -45,13 +45,15 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{CustomCanDestroy:1b}"
+              "predicates": {
+                "minecraft:custom_data": "{CustomCanDestroy:1b}"
+              }
             }
           }
         },
         "items": [
           {
-            "tag": "item:adv_break_item"
+            "items": "#item:adv_break_item"
           }
         ]
       }

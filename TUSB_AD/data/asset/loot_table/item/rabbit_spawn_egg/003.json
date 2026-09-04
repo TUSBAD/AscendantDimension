@@ -748,6 +748,9 @@
                     }
                   ],
                   "Age": -1000
+                },
+                "minecraft:custom_data": {
+                  "TUSB_AD_SkillEgg": "ruby"
                 }
               }
             }

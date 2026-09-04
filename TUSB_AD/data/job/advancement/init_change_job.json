@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:1}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:1}"
+            }
           }
         ]
       }
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:2}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:2}"
+            }
           }
         ]
       }
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:3}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:3}"
+            }
           }
         ]
       }
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:4}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:4}"
+            }
           }
         ]
       }
@@ -45,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:5}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:5}"
+            }
           }
         ]
       }
@@ -55,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:6}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:6}"
+            }
           }
         ]
       }
@@ -65,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:7}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:7}"
+            }
           }
         ]
       }
@@ -75,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{JobChangeTo:8}"
+            "predicates": {
+              "minecraft:custom_data": "{JobChangeTo:8}"
+            }
           }
         ]
       }

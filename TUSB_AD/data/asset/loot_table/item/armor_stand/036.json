@@ -34,6 +34,7 @@
                   "id": "minecraft:armor_stand"
                 },
                 "minecraft:custom_data": {
+                  "TUSB_AD_SignStand": "sign_stand",
                   "Invisible": 1,
                   "Invulnerable": 1,
                   "NoGravity": 1

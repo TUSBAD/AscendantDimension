@@ -23,6 +23,9 @@
                   "levels": {},
                   "show_in_tooltip": false
                 },
+                "minecraft:custom_data": {
+                  "TUSB_AD_SignStand": "sign_stand"
+                },
                 "minecraft:entity_data": {
                   "NoGravity": 1,
                   "Invulnerable": 1,

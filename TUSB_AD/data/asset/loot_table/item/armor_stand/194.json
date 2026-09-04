@@ -651,6 +651,9 @@
                   "show_in_tooltip": false
                 },
                 "minecraft:repair_cost": 1000000000,
+                "minecraft:custom_data": {
+                  "TUSB_AD_SignStand": "sign_stand"
+                },
                 "minecraft:entity_data": {
                   "NoGravity": 1,
                   "Invulnerable": 1,

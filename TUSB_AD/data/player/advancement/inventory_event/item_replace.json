@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{CanPlaceOn: [\"minecraft:stone\"]}"
+            "predicates": {
+              "minecraft:custom_data": "{CanPlaceOn:[\"minecraft:stone\"]}"
+            }
           }
         ]
       }
@@ -18,7 +20,9 @@
             "items": [
               "minecraft:pumpkin"
             ],
-            "nbt": "{display: {Name: '{\"text\":\"§6§lハロウィンヘッド\"}'}}"
+            "components": {
+              "minecraft:custom_name": "{\"text\":\"ハロウィンヘッド\",\"italic\":false,\"color\":\"gold\",\"bold\":true}"
+            }
           }
         ]
       }
@@ -28,7 +32,41 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{RepairCost: 1000000000, Enchantments: [{id: \"minecraft:knockback\", lvl: 10s}, {id: \"minecraft:lure\", lvl: 8s}, {id: \"minecraft:luck_of_the_sea\", lvl: 4s}], Unbreakable: 1b, Damage: 0, HideFlags: 39, display: {Name: '{\"text\":\"§r§3§kcthulhu§2§lくとぅるあー§3§kcthulhu§r\"}', Lore: ['{\"text\":\"§8とある邪神の彫刻が刻み込まれた釣り竿\"}', '{\"text\":\"§8どこでも良いものが釣れるようになる\"}']}, AttributeModifiers: [{Amount: -0.95d, Operation: 2, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 1], AttributeName: \"generic.max_health\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 2], AttributeName: \"generic.movement_speed\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 3], AttributeName: \"generic.attack_damage\", Name: \"anmin\"}, {Amount: -0.95d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 4], AttributeName: \"generic.armor\", Name: \"anmin\"}, {Amount: 0.3d, Operation: 1, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 5], AttributeName: \"generic.attack_speed\", Name: \"anmin\"}, {Amount: -10.0d, Operation: 0, Slot: \"mainhand\", UUID: [I; 0, 1, 0, 6], AttributeName: \"generic.luck\", Name: \"anmin\"}]}"
+            "items": [
+              "minecraft:fishing_rod"
+            ],
+            "components": {
+              "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\"くとぅるあー\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true},{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true}]}",
+              "minecraft:repair_cost": 1000000000,
+              "minecraft:unbreakable": {
+                "show_in_tooltip": false
+              }
+            },
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 10,
+                    "max": 10
+                  }
+                },
+                {
+                  "enchantments": "minecraft:lure",
+                  "levels": {
+                    "min": 8,
+                    "max": 8
+                  }
+                },
+                {
+                  "enchantments": "minecraft:luck_of_the_sea",
+                  "levels": {
+                    "min": 4,
+                    "max": 4
+                  }
+                }
+              ]
+            }
           }
         ]
       }
@@ -41,20 +79,31 @@
             "items": [
               "minecraft:netherite_sword"
             ],
-            "enchantments": [
-              {
-                "enchantment": "minecraft:sharpness",
-                "levels": 127
-              },
-              {
-                "enchantment": "minecraft:knockback",
-                "levels": 127
-              },
-              {
-                "enchantment": "minecraft:fire_aspect",
-                "levels": 127
-              }
-            ]
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 127,
+                    "max": 127
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 127,
+                    "max": 127
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 127,
+                    "max": 127
+                  }
+                }
+              ]
+            }
           }
         ]
       }
@@ -64,12 +113,17 @@
       "conditions": {
         "items": [
           {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:lure",
-                "levels": 8
-              }
-            ]
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:lure",
+                  "levels": {
+                    "min": 8,
+                    "max": 8
+                  }
+                }
+              ]
+            }
           }
         ]
       }
@@ -82,40 +136,66 @@
             "items": [
               "minecraft:netherite_pickaxe"
             ],
-            "enchantments": [
-              {
-                "enchantment": "minecraft:knockback",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:smite",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:flame",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:looting",
-                "levels": 10
-              },
-              {
-                "enchantment": "minecraft:fire_aspect",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:sharpness",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:efficiency",
-                "levels": 255
-              },
-              {
-                "enchantment": "minecraft:fortune",
-                "levels": 10
-              }
-            ]
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:flame",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 10,
+                    "max": 10
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 255,
+                    "max": 255
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 10,
+                    "max": 10
+                  }
+                }
+              ]
+            }
           }
         ]
       }
@@ -127,8 +207,7 @@
           {
             "items": [
               "minecraft:armor_stand"
-            ],
-            "nbt": "{EntityTag:{Tags:[\"TL_SignStand\"]}}"
+            ]
           }
         ]
       }

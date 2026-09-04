@@ -749,6 +749,9 @@
                       "Amplifier": 0
                     }
                   ]
+                },
+                "minecraft:custom_data": {
+                  "TUSB_AD_SkillEgg": "sapphire"
                 }
               }
             }

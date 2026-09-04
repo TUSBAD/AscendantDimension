@@ -7,8 +7,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "tag": "tusb_remake:spawn_egg",
-              "nbt": "{EntityTag:{Tags:[\"RewardEgg\"]}}"
+              "items": "#item:spawn_egg"
             }
           }
         ]
