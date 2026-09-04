@@ -51,7 +51,10 @@ body:
   attributes:
     label: このTODOはこのTUSBAD Versionに影響が出る
     options:
-      - v1 以降
+      - verAlpha
+      - verBeta
+      - ver1.0
+      - ver1.0以降
       - その他
 
   validations:
