@@ -16,3 +16,6 @@
 [submodule "OhMyDat"]
 	path = OhMyDat
 	url = https://github.com/Ai-Akaishi/OhMyDat.git
+[submodule "AnywhereFunction"]
+	path = AnywhereFunction
+	url = https://github.com/Ai-Akaishi/AnywhereFunction.git
