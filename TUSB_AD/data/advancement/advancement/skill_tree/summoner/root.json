@@ -1,0 +1,23 @@
+{
+    "//": "全てのスキル表示のもととなる部分",
+    "display": {
+        "icon": {
+            "id": "minecraft:obsidian"
+        },
+        "title": "スキルツリー -サモナー-",
+        "description": "主に杖を使い召喚獣を従え場を制圧する。",
+        "background": "minecraft:textures/block/white_wool.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}

@@ -10,6 +10,6 @@
     playsound minecraft:entity.villager.no voice @a ~ ~ ~ 1 1 1
 
 # リセット
-    data remove storage core: difficult.change
+    data remove storage core: difficult.changed
     scoreboard players reset #World ChangeDifficulty
     scoreboard players set @s ChangeDifficulty 0
