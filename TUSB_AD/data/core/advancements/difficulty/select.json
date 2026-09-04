@@ -27,12 +27,12 @@
                 }
             }
         },
-        "ascendant": {
+        "nightmare": {
             "trigger": "player_interacted_with_entity",
             "conditions": {
                 "entity": {
                     "type": "interaction",
-                    "nbt": "{Tags:[ascendant]}"
+                    "nbt": "{Tags:[Nightmare]}"
                 }
             }
         }
@@ -41,7 +41,7 @@
         [
             "another",
             "casual",
-            "ascendant",
+            "nightmare",
             "picnic"
         ]
     ],

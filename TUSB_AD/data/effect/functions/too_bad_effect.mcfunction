@@ -6,7 +6,7 @@
 
 execute if predicate effect:resist run function makeup:effect/too_bad_effect
 
-execute if entity @s[advancements={effect:invisible={doom=true}}] unless predicate effect:resist run function effect:doom/apply.m with storage core: difficult.world
+execute if entity @s[advancements={effect:invisible={doom=true}}] unless predicate effect:resist run function effect:doom/apply
 execute if entity @s[advancements={effect:invisible={doom=true}}] if predicate effect:resist run function effect:resist with storage effect: resist.too_bad_effect.doom
 execute if entity @s[advancements={effect:invisible={super_doom=true}}] unless predicate effect:resist run function effect:doom/apply_super
 execute if entity @s[advancements={effect:invisible={super_doom=true}}] if predicate effect:resist run function effect:resist with storage effect: resist.too_bad_effect.doom_super

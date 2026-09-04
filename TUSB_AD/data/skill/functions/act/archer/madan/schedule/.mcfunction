@@ -1,6 +1,0 @@
-#> skill:act/archer/madan/schedule/
-
-data modify storage skill: _ set value false
-execute as @e[type=#lib:arrow,tag=madan] at @s run function skill:act/archer/madan/schedule/fly
-
-execute if data storage skill: {_:true} in minecraft:overworld run schedule function skill:act/archer/madan/schedule/ 1t

@@ -1,4 +1,4 @@
-#> effect:doom_ex/apply
+#> player:effect/invisible/doom_ex/give
 # 透明化がかかっている場合、それに応じて特殊効果をかける
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.

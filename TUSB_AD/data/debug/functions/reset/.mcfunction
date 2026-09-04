@@ -122,7 +122,7 @@ scoreboard players reset * Level
 # scoreboard players reset * SpawnZ
 
 ### スキルテーブルを初期化
-function job:init_table/
+function skill:init_table/
 
 ### 村人会話 => advancements
 # scoreboard players reset * PastorFlag

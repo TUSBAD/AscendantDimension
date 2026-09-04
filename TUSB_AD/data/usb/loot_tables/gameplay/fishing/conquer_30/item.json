@@ -159,7 +159,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Legacy: 1b, Enchantments: [{id: \"minecraft:knockback\", lvl: 255s}, {id: \"minecraft:efficiency\", lvl: 255s}, {id: \"minecraft:fire_aspect\", lvl: 255s}, {id: \"minecraft:smite\", lvl: 255s}, {id: \"minecraft:bane_of_arthropods\", lvl: 255s}], display: {Name: '{\"text\":\"ファイナルベント\"}'}}"
+                            "tag": "{RepairCost: 1000000000, Legacy: 1b, Enchantments: [{id: \"minecraft:knockback\", lvl: 9999s}, {id: \"minecraft:efficiency\", lvl: 9999s}, {id: \"minecraft:fire_aspect\", lvl: 9999s}, {id: \"minecraft:smite\", lvl: 9999s}, {id: \"minecraft:bane_of_arthropods\", lvl: 9999s}], display: {Name: '{\"text\":\"ファイナルベント\"}'}}"
                         }
                     ]
                 },
@@ -243,7 +243,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Unbreakable: 1b, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 1s, id: \"minecraft:respiration\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 3, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 3, 0, 3], Name: \"wax\"}]}"
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 1s, id: \"minecraft:respiration\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"head\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 3, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"head\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 3, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"head\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 3, 0, 3], Name: \"wax\"}]}"
                         }
                     ]
                 },
@@ -254,7 +254,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Unbreakable: 1b, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 4, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"wax\"}]}"
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"chest\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 4, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"chest\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 4, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"chest\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 4, 0, 3], Name: \"wax\"}]}"
                         }
                     ]
                 },
@@ -265,7 +265,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Unbreakable: 1b, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 5, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 5, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 5, 0, 3], Name: \"wax\"}]}"
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"legs\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 5, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"legs\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 5, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"legs\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 5, 0, 3], Name: \"wax\"}]}"
                         }
                     ]
                 },
@@ -276,7 +276,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{RepairCost: 1000000000, Unbreakable: 1b, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:depth_strider\"}, {lvl: 1s, id: \"minecraft:frost_walker\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 6, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"feet\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 6, 0, 3], Name: \"wax\"}]}"
+                            "tag": "{RepairCost: 1000000000, Unbreakable: 1, HideFlags: 32, display: {color: 65535, Name: '{\"text\":\"§3§lホワイトアルバム\"}'}, Enchantments: [{lvl: 13s, id: \"minecraft:protection\"}, {lvl: 13s, id: \"minecraft:fire_protection\"}, {lvl: 13s, id: \"minecraft:feather_falling\"}, {lvl: 13s, id: \"minecraft:blast_protection\"}, {lvl: 13s, id: \"minecraft:projectile_protection\"}, {lvl: 13s, id: \"minecraft:depth_strider\"}, {lvl: 1s, id: \"minecraft:frost_walker\"}], Damage: 0, AttributeModifiers: [{Amount: -0.25d, Slot: \"feet\", AttributeName: \"generic.max_health\", Operation: 2, UUID: [I; 0, 6, 0, 1], Name: \"wax\"}, {Amount: 0.03d, Slot: \"feet\", AttributeName: \"generic.movement_speed\", Operation: 0, UUID: [I; 0, 6, 0, 2], Name: \"wax\"}, {Amount: 0.7d, Slot: \"feet\", AttributeName: \"generic.knockback_resistance\", Operation: 0, UUID: [I; 0, 6, 0, 3], Name: \"wax\"}]}"
                         }
                     ]
                 },
@@ -320,7 +320,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{custom_potion_effects:[{amplifier:-127b,duration:0,id:\"minecraft:levitation\"},{amplifier:106b,duration:0,id:\"minecraft:unluck\"},{amplifier:0b,duration:120,id:\"minecraft:night_vision\",show_particles:0b},{amplifier:0b,duration:1200,Id:10,show_particles:0b},{amplifier:4b,duration:60,Id:6,show_particles:0b},{amplifier:4b,duration:1200,id:\"minecraft:absorption\",show_particles:0b},{amplifier:6b,duration:1200,id:\"minecraft:luck\",show_particles:0b},{amplifier:0b,duration:120,Id:9,show_particles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l３§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§l大きく§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lT§3§l- §a§l７７７§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:7s}],HideFlags:33}"
+                            "tag": "{custom_potion_effects:[{amplifier:-127b,duration:0,id:"minecraft:levitation"},{amplifier:106b,duration:0,id:"minecraft:unluck"},{amplifier:0b,duration:120,id:"minecraft:night_vision",show_particles:0b},{amplifier:0b,duration:1200,Id:10,show_particles:0b},{amplifier:4b,duration:60,Id:6,show_particles:0b},{amplifier:4b,duration:1200,id:"minecraft:absorption",show_particles:0b},{amplifier:6b,duration:1200,id:"minecraft:luck",show_particles:0b},{amplifier:0b,duration:120,Id:9,show_particles:0b}],display:{Lore:['{\"text\":\"§3泡立つしゅわっとした液体に\"}','{\"text\":\"§3神秘の輝きを放つ\"}','{\"text\":\"§3六角形の何かが§a§l３§3つ入っている。\"}','{\"text\":\"§360秒間の間、使用者の運を\"}','{\"text\":\"§e§l大きく§3上昇させ傷を癒す。\"}'],Name:'{\"text\":\"§r§e§k-§a§lハニカム §3§l-§b§lT§3§l- §a§l７７７§e§k-§r\"}'},Enchantments:[{id:\"minecraft:smite\",lvl:7s}],HideFlags:33}"
                         }
                     ]
                 }

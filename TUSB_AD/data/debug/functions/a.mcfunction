@@ -1,1 +1,5 @@
-tellraw @s [{"text":"\nDelay:"},{"nbt":"Delay","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"},{"text":"\nMinDelay:"},{"nbt":"MinSpawnDelay","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"},{"text":"\nMaxDelay:"},{"nbt":"MaxSpawnDelay","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"},{"text":"\nSpawnCount:"},{"nbt":"SpawnCount","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"},{"text":"\nSpawnRange:"},{"nbt":"SpawnRange","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"},{"text":"\nRequiredPlayerRenge:"},{"nbt":"RequiredPlayerRange","entity":"@e[type=spawner_minecart,limit=1,sort=nearest]"}]
+### 新しいスキル取得メッセージを表示
+# Levelとjobをストレージに取り込む
+execute store result storage skill: _.player.level int 1 run scoreboard players get @s Level
+execute store result storage skill: _.player.job int 1 run scoreboard players get @s Job
+function skill:set_display/learn/ with storage skill: _.player

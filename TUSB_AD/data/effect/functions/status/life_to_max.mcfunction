@@ -7,4 +7,4 @@
 function effect:status/modify_max
 scoreboard players operation @s MP = @s MPMax
 effect give @s minecraft:instant_health 1 10
-function skill:mp/bar/set
+function job:mp/bar/set

@@ -20,10 +20,17 @@ execute if entity @s[advancements={effect:invisible={ether_3=true}}] run functio
 execute if entity @s[advancements={effect:invisible={elixir_1=true}}] run function effect:elixir/1
 execute if entity @s[advancements={effect:invisible={elixir_2=true}}] run function effect:elixir/2
 
-## Lv 20~23
+### 聖水 Lv6
+execute if entity @s[advancements={effect:invisible={holywater=true}}] run function effect:doom/clear
+
+## Lv 20~23 難易度選択
+execute if entity @s[advancements={effect:invisible={another=true}}] run function core:difficulty/select/another
+execute if entity @s[advancements={effect:invisible={casual=true}}] run function core:difficulty/select/casual
+execute if entity @s[advancements={effect:invisible={picnic=true}}] run function core:difficulty/select/picnic
+execute if entity @s[advancements={effect:invisible={nightmare=true}}] run function core:difficulty/select/nightmare
 
 ### 黄金酒の聖水 Lv25
-execute if entity @s[advancements={effect:invisible={goldwater=true}}] if score @s DoomEx matches 0.. run function effect:doom_ex/clear
+execute if entity @s[advancements={effect:invisible={goldwater=true}}] run function effect:doom_ex/clear
 
 ### リコール Lv30
 execute if entity @s[advancements={effect:invisible={recallpotion=true}}] run function effect:recall_potion/give

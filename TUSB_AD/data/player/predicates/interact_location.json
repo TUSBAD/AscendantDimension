@@ -12,7 +12,7 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "entity:player_invulnerable"
+        "name": "entity:player"
       }
 
   ]
