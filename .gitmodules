@@ -13,3 +13,6 @@
 [submodule "AiUtil"]
 	path = AiUtil
 	url = https://github.com/Ai-Akaishi/AiUtil.git
+[submodule "OhMyDat"]
+	path = OhMyDat
+	url = https://github.com/Ai-Akaishi/OhMyDat.git
