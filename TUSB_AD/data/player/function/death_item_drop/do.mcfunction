@@ -7,29 +7,22 @@
 # インベントリが空なら墓の出しようがないので中断
     execute unless data entity @s Inventory[0] run return fail
 
-# インベ保存
-    function api:data_get/inventory
-
 # 墓のアイテムディスプレイを召喚する
-    summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:stone_sword",Count:1b,tag:{CustomModelData:1000}},Tags:[Tomb,TombInit]}
+    summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:stone_sword",count:1,components:{"minecraft:custom_model_data":{"floats":[1000]}}},Tags:[Tomb,TombInit]}
     execute as @e[type=item_display,distance=..0.01,tag=TombInit] run function #oh_my_dat:please
 
 # 墓の中に墓は入れません(墓に情報として保存する)
-    data modify storage item: Items set from storage api: Inventory
+    data modify storage item: Items set from entity @s Inventory
     data remove storage item: Items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
     data remove storage item: Items[{tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
     data remove storage item: Items[{tag:{Kyoumei:1b}}]
-    tellraw @a {"nbt":"Items","storage": "item:","color": "blue"}
     data modify storage item: Item set value []
-    data modify storage item: Item append from storage item: Items[{tag:{Tomb:1b}}]
+    data modify storage item: Item append from storage item: Items[{components:{"minecraft:custom_data":{Tomb:1b}}}]
     execute if data storage item: Item[0] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from storage item: Item[]
-    tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory","storage": "oh_my_dat:","color": "white"}
-    #data remove storage item: Items[{id:"minecraft:stone_sword",tag:{Tomb:1b}}]
-    clear @s stone_sword[minecraft:custom_data~{Tomb:1b}]
+    data remove storage item: Items[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{Tomb:1b}}}]
 
 # 墓情報をディスプレイに刻む
-    data modify storage item: Items set from entity @s Inventory
-    execute if data storage item: Items[0] in world_manager:control run function player:death_item_drop/tomb
+    execute if data storage item: Items[0] in area:control run function player:death_item_drop/tomb
 
 # 名前を表示するためのtext_displayを呼び出す
     summon text_display ~ ~ ~ {billboard:"center",alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[1f,1f,1f]},text:'{"text":""}',Tags:[TombName,TombInit]}
@@ -38,16 +31,9 @@
     ride @e[type=text_display,distance=..0.01,tag=TombInit2,limit=1] mount @e[type=item_display,distance=..0.01,tag=TombInit,limit=1]
 
 # 名前を入れる
-# 名前を入れるためにちょっと回りくどいことをする
-    data modify storage item: Strings set value '{"translate":"%sの墓","color":"white","bold":true,"italic":false,"with":[{"selector":"@s","bold":false,"color":"yellow"}],"interpret":true}'
-    execute in world_manager:control run loot replace block 3 1 3 container.1 loot player:tomb
-    execute in world_manager:control run loot give @s mine 3 1 3 debug_stick
-    data modify entity @e[type=text_display,distance=..0.01,tag=TombInit,limit=1] text set from entity @s Inventory[0].tag.display.Name
-    clear @s
-
-# 墓を生成しない場合は削除
-    execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0] run kill @e[distance=..0.01,tag=TombInit]
-    execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0] run kill @e[distance=..0.01,tag=TombInit2]
+    execute in area:control run item replace block 3 1 3 container.0 with stone
+    execute in area:control run item modify block 3 1 3 container.0 {"function":"set_name","name":{"translate":"%sの墓","color":"white","bold":true,"italic":false,"with":[{"selector":"@s","bold":false,"color":"yellow"}]},"entity":"this",target:"item_name"}
+    execute as @e[type=text_display,distance=..0.01,tag=TombInit,limit=1] in area:control run data modify entity @s text set from block 3 1 3 Items[0].components."minecraft:item_name"
 
 # Oh_my_dat リセット
     function #oh_my_dat:please
@@ -55,7 +41,6 @@
 # 初期化タグ外し
     tag @e[distance=..0.01,tag=TombInit] remove TombInit
     tag @e[distance=..0.01,tag=TombInit2] remove TombInit2
-    data remove storage item: Strings
 
 # 共鳴処理
     execute if data storage api: Inventory[{tag:{Kyoumei:1b}}] run function player:custom_item/kyoumei/
