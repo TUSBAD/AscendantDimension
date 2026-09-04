@@ -10,7 +10,7 @@ advancement revoke @s only player:trigger/death
 
 # RR追加部分
 # アイテムをぶちまける
-execute unless data storage core: settings{is_keepinventory:true} run function player:death_item_drop/
+function player:death_item_drop/
 
 ### 死をカウントアップ
 scoreboard players add AllDeathCount DeathCount 1

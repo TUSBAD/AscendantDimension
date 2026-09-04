@@ -26,13 +26,27 @@
       {
         "weight": 1,
         "data": {
-          "sound": "minecraft:music.nether.nether_wastes",
-          "min_delay": 0,
-          "max_delay": 1200,
+          "sound": {
+            "sound_id": "music:ancestry"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "music:ancestry.pitch1.25"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       }
     ],
+    "music_volume": 0.5,
     "particle": {
       "options": {
         "type": "minecraft:nautilus"

@@ -18,8 +18,8 @@
           "sound": {
             "sound_id": "music:comforting_memories"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       },
@@ -29,8 +29,8 @@
           "sound": {
             "sound_id": "music:yakusoku"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       }

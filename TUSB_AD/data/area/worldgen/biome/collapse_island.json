@@ -31,8 +31,8 @@
           "sound": {
             "sound_id": "music:eld_unknown_pitch0.75"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       },
@@ -42,8 +42,8 @@
           "sound": {
             "sound_id": "music:ancestry"
           },
-          "min_delay": 0,
-          "max_delay": 2400,
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       }

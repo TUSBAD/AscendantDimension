@@ -10,24 +10,42 @@
     "water_fog_color": 2402304,
     "grass_color": 7667712,
     "foliage_color": 11409783,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.mood",
     "music": [
       {
         "weight": 1,
         "data": {
-          "sound": "minecraft:music.overworld.deep_dark",
-          "min_delay": 0,
-          "max_delay": 2000,
+          "sound": {
+            "sound_id": "music:end_boss"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
+          "replace_current_music": true
+        }
+      },
+      {
+        "weight": 0,
+        "data": {
+          "sound": {
+            "sound_id": "music:ballad_of_the_cats"
+          },
+          "min_delay": 6000,
+          "max_delay": 12000,
           "replace_current_music": true
         }
       }
     ],
+    "music_volume": 0.75,
     "particle": {
       "options": {
-        "type": "minecraft:falling_dust",
-        "block_state": {
-          "Name": "minecraft:red_concrete_powder",
-          "Properties": {}
-        }
+        "type": "minecraft:trail",
+        "target": [
+          0,
+          304,
+          0
+        ],
+        "color": 16722474,
+        "duration": 200
       },
       "probability": 0.0001
     }
