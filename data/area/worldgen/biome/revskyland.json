@@ -18,9 +18,9 @@
           "sound": {
             "sound_id": "music:end_boss"
           },
-          "min_delay": 0,
+          "min_delay": 12000,
           "max_delay": 12000,
-          "replace_current_music": false
+          "replace_current_music": true
         }
       },
       {
@@ -29,9 +29,9 @@
           "sound": {
             "sound_id": "music:ballad_of_the_cats"
           },
-          "min_delay": 0,
+          "min_delay": 12000,
           "max_delay": 12000,
-          "replace_current_music": false
+          "replace_current_music": true
         }
       }
     ],

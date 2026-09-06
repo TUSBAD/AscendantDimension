@@ -31,9 +31,9 @@
           "sound": {
             "sound_id": "music:nether.warmth"
           },
-          "min_delay": 0,
+          "min_delay": 12000,
           "max_delay": 12000,
-          "replace_current_music": false
+          "replace_current_music": true
         }
       },
       {
@@ -42,9 +42,9 @@
           "sound": {
             "sound_id": "music:chrysopoeia"
           },
-          "min_delay": 0,
+          "min_delay": 12000,
           "max_delay": 12000,
-          "replace_current_music": false
+          "replace_current_music": true
         }
       }
     ],
