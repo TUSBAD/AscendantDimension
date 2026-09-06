@@ -22,9 +22,9 @@
     },
     "additions_sound": {
       "sound": {
-        "sound_id": "ad_sounds:ambient.warped_forest_help"
+        "sound_id": "minecraft:block.sculk_shrieker.shriek"
       },
-      "tick_chance": 0.01
+      "tick_chance": 0.005
     },
     "music": [
       {
