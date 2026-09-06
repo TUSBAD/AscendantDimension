@@ -3,7 +3,7 @@ name: 開発用のタスク
 description: 機能開発とか今後やらないといけないと決まっているタスク
 title: "[feature] <ここにタイトルを入力>"
 labels:
-  - 機能開発
+  - ⚙️機能開発
 body:
   - type: markdown
     attributes:

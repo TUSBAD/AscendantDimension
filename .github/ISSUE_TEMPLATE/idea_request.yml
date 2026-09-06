@@ -3,7 +3,7 @@ name: アイデア
 description: 新しいアイデアを提案する
 title: "[idea] <ここにタイトルを入力>"
 labels:
-  - アイデア
+  - 💡アイデア
 body:
   - type: markdown
     attributes:
