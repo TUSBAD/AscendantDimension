@@ -1,6 +1,7 @@
 {
   "values": [
     "#entity:physical",
-    "#entity:magic"
+    "#entity:magic",
+    "#entity:ascendant"
   ]
 }

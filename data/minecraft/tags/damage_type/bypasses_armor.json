@@ -18,6 +18,7 @@
     "falling_anvil",
     "falling_block",
     "falling_stalactite",
-    "#entity:magic"
+    "#entity:magic",
+    "#entity:ascendant"
   ]
 }

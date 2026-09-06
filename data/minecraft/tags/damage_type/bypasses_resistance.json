@@ -8,6 +8,7 @@
     "minecraft:stalagmite",
     "minecraft:magic",
     "minecraft:indirect_magic",
-    "#entity:magic"
+    "#entity:magic",
+    "#entity:ascendant"
   ]
 }

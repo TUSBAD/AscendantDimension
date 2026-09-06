@@ -39,6 +39,7 @@
     "minecraft:generic_kill",
     "minecraft:out_of_world",
     "#entity:physical",
-    "#entity:magic"
+    "#entity:magic",
+    "#entity:ascendant"
   ]
 }

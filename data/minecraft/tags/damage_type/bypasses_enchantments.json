@@ -9,6 +9,7 @@
     "minecraft:out_of_world",
     "minecraft:sonic_boom",
     "minecraft:stalagmite",
-    "#entity:magic"
+    "#entity:magic",
+    "#entity:ascendant"
   ]
 }
