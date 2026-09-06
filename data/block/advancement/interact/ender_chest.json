@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "block:ender_chest/interact"
+    "function": "area:personal_locker/open/"
   }
 }
