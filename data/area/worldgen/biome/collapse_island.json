@@ -12,7 +12,7 @@
     "grass_color": 8388608,
     "foliage_color": 16711680,
     "ambient_sound": {
-      "sound_id": "ad_sounds:ambient.nether.soulsand_valley.voices4"
+      "sound_id": "ad_sounds:ambient.soul_sand_valley_voice"
     },
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
@@ -21,7 +21,9 @@
       "offset": 2
     },
     "additions_sound": {
-      "sound": "ad_sounds:ambient.nether.warped_forest.help1",
+      "sound": {
+        "sound_id": "ad_sounds:ambient.warped_forest_help"
+      },
       "tick_chance": 0.01
     },
     "music": [
