@@ -12,16 +12,16 @@
     "grass_color": 0,
     "foliage_color": 0,
     "ambient_sound": {
-      "sound_id": "minecraft:ambient.warped_forest_help"
+      "sound_id":"minecraft:entity.warden.heartbeat"
     },
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.loop",
+      "sound": "minecraft:ambient.warped_forest.mood",
       "tick_delay": 1000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.loop",
+      "sound": "ad_sounds:ambient.nether.warped_forest.help2",
       "tick_chance": 0.01
     },
     "music": [
@@ -42,7 +42,7 @@
       "options": {
         "type": "minecraft:raid_omen"
       },
-      "probability": 0.0001
+      "probability": 0.005
     }
   },
   "spawners": {},

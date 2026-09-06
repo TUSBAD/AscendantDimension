@@ -40,9 +40,9 @@
     "music_volume": 0.5,
     "particle": {
       "options": {
-        "type": "minecraft:warped_spore"
+        "type": "minecraft:trial_spawner_detection_ominous"
       },
-      "probability": 0.005
+      "probability": 0.0075
     }
   },
   "spawners": {},
