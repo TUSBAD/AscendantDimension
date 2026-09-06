@@ -16,18 +16,7 @@
         "weight": 1,
         "data": {
           "sound": {
-            "sound_id": "adst:nether2"
-          },
-          "min_delay": 1200,
-          "max_delay": 12000,
-          "replace_current_music": true
-        }
-      },
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "adst:neon"
+            "sound_id": "area_music:nethertrial"
           },
           "min_delay": 1200,
           "max_delay": 12000,
