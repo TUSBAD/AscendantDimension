@@ -96,6 +96,8 @@ scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
 scoreboard objectives add Defense dummy {"text":"物理防御力"}
 scoreboard objectives add MagicAttack dummy {"text":"魔法攻撃力"}
 scoreboard objectives add MagicDefense dummy {"text":"魔法防御力"}
+scoreboard objectives add AscendantAttack dummy {"text":"超越攻撃力"}
+scoreboard objectives add AscendantDefense dummy {"text":"超越防御力"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
