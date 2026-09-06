@@ -18,20 +18,20 @@
           "sound": {
             "sound_id": "music:end_boss"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       },
       {
-        "weight": 0,
+        "weight": 1,
         "data": {
           "sound": {
             "sound_id": "music:ballad_of_the_cats"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       }
     ],
@@ -45,9 +45,9 @@
           0
         ],
         "color": 16722474,
-        "duration": 200
+        "duration": 1200
       },
-      "probability": 0.0001
+      "probability": 0.0005
     }
   },
   "spawners": {},

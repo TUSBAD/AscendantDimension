@@ -17,9 +17,9 @@
           "sound": {
             "sound_id": "music:feather_fall"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       },
       {
@@ -28,9 +28,9 @@
           "sound": {
             "sound_id": "music:watcher"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       }
     ],

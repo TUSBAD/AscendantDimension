@@ -31,9 +31,9 @@
           "sound": {
             "sound_id": "music:so_below_pitch1.5"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       },
       {
@@ -44,7 +44,7 @@
           },
           "min_delay": 0,
           "max_delay": 24000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       }
     ],

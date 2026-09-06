@@ -1,0 +1,10 @@
+{
+  "description": {
+    "translate": "Hightension"
+  },
+  "range": 32.0,
+  "sound_event": {
+        "sound_id": "easter_egg:hightension"
+    },
+  "use_duration": 4.0
+}

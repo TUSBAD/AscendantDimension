@@ -19,8 +19,10 @@
       "offset": 2
     },
     "additions_sound": {
-      "sound": "ad_sounds:crimson_forest_shine",
-      "tick_chance": 0.01
+      "sound": {
+        "sound_id": "ad_sounds:crimson_forest_shine"
+      },
+      "tick_chance": 0.001
     },
     "music": [
       {
@@ -29,9 +31,9 @@
           "sound": {
             "sound_id": "music:all_music"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       },
       {
@@ -40,9 +42,9 @@
           "sound": {
             "sound_id": "adst:overworld_music"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       }
     ],

@@ -18,20 +18,20 @@
           "sound": {
             "sound_id": "music:endless"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       },
       {
-        "weight": 0,
+        "weight": 1,
         "data": {
           "sound": {
             "sound_id": "music:puzzlebox"
           },
-          "min_delay": 6000,
+          "min_delay": 0,
           "max_delay": 12000,
-          "replace_current_music": true
+          "replace_current_music": false
         }
       }
     ],
