@@ -1,7 +1,7 @@
 {
   "criteria": {
     "super_craft": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -39,7 +39,7 @@
       }
     },
     "super_craft2": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -77,7 +77,7 @@
       }
     },
     "all_button": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {

@@ -1,7 +1,7 @@
 {
   "criteria": {
     "mode_change_ruby": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -23,7 +23,7 @@
       }
     },
     "mode_change_sapphire": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -45,7 +45,7 @@
       }
     },
     "instant_change_ruby": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -67,7 +67,7 @@
       }
     },
     "instant_change_sapphire": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -89,7 +89,7 @@
       }
     },
     "reset_mp": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -111,7 +111,7 @@
       }
     },
     "hell_climb": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -133,7 +133,7 @@
       }
     },
     "speed_run": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -155,7 +155,7 @@
       }
     },
     "like_snake": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -177,7 +177,7 @@
       }
     },
     "like_snake_up": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -199,7 +199,7 @@
       }
     },
     "hello_work_how_to": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -221,7 +221,7 @@
       }
     },
     "hello_work_knight": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -243,7 +243,7 @@
       }
     },
     "hello_work_ninja": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -265,7 +265,7 @@
       }
     },
     "hello_work_archer": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -287,7 +287,7 @@
       }
     },
     "hello_work_white_mage": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -309,7 +309,7 @@
       }
     },
     "hello_work_black_mage": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -331,7 +331,7 @@
       }
     },
     "hello_work_summoner": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -353,7 +353,7 @@
       }
     },
     "cannon_ready": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -375,7 +375,7 @@
       }
     },
     "tutorial_4": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -397,7 +397,7 @@
       }
     },
     "old_warp_crystal": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -419,7 +419,7 @@
       }
     },
     "sand_bag_zombie": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -441,7 +441,7 @@
       }
     },
     "sand_bag_creeper": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -463,7 +463,7 @@
       }
     },
     "sand_bag_skeleton": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -485,7 +485,7 @@
       }
     },
     "sand_bag_enter": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -507,7 +507,7 @@
       }
     },
     "sand_bag_enter2": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -529,7 +529,7 @@
       }
     },
     "sand_bag_exit": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -551,7 +551,7 @@
       }
     },
     "sand_bag_exit2": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -573,7 +573,7 @@
       }
     },
     "augur_fortune": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -599,7 +599,7 @@
       }
     },
     "return_from_table": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -621,7 +621,7 @@
       }
     },
     "unseal_table": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -643,7 +643,7 @@
       }
     },
     "clock_notice": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -665,7 +665,7 @@
       }
     },
     "extra_hint": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -687,7 +687,7 @@
       }
     },
     "extra_hint_tutorial": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -709,7 +709,7 @@
       }
     },
     "like_snake_return": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -731,7 +731,7 @@
       }
     },
     "infinity_boss_prep_room_1": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -753,7 +753,7 @@
       }
     },
     "infinity_boss_prep_room_2": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -775,7 +775,7 @@
       }
     },
     "infinity_boss_admission": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -797,7 +797,7 @@
       }
     },
     "infinity_boss_extla": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -819,7 +819,7 @@
       }
     },
     "infinity_boss_tutorial": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -841,7 +841,7 @@
       }
     },
     "game_master_admission": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {
@@ -863,7 +863,7 @@
       }
     },
     "game_master_extla": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "player": [
           {

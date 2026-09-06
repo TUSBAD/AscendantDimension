@@ -1,16 +1,14 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:any_block_use",
+      "trigger": "minecraft:default_block_use",
       "conditions": {
         "location": [
           {
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": [
-                  "minecraft:grindstone"
-                ]
+                "blocks": "minecraft:ender_chest"
               }
             }
           }
@@ -19,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "item:grindstone/interact"
+    "function": "block:ender_chest/interact"
   }
 }
