@@ -3,4 +3,5 @@
 # 100倍して保存
 execute store result score @s Attack run data get storage entity: damage.physical 100
 execute store result score @s MagicAttack run data get storage entity: damage.magic 100
+execute store result score @s AscendantAttack run data get storage entity: damage.ascendant 100
 execute if data storage entity: damage{hit:1b} run tag @s add HitDamage
