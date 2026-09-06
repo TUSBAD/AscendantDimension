@@ -17,7 +17,7 @@
           "sound": {
             "sound_id": "music:feather_fall"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }
@@ -28,7 +28,7 @@
           "sound": {
             "sound_id": "music:watcher"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }

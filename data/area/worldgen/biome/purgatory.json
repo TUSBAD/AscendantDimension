@@ -18,7 +18,7 @@
           "sound": {
             "sound_id": "adst:vector"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }
@@ -29,7 +29,7 @@
           "sound": {
             "sound_id": "adst:neon"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }

@@ -31,7 +31,7 @@
           "sound": {
             "sound_id": "music:nether.concrete_halls"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }
@@ -42,7 +42,7 @@
           "sound": {
             "sound_id": "music:shunjii"
           },
-          "min_delay": 12000,
+          "min_delay": 1200,
           "max_delay": 12000,
           "replace_current_music": true
         }
