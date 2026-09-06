@@ -26,17 +26,6 @@
         "weight": 1,
         "data": {
           "sound": {
-            "sound_id": "music:rubedo"
-          },
-          "min_delay": 12000,
-          "max_delay": 12000,
-          "replace_current_music": true
-        }
-      },
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
             "sound_id": "adst:nether_music"
           },
           "min_delay": 12000,
