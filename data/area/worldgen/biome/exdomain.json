@@ -27,7 +27,7 @@
     "music_volume": 1,
     "particle": {
       "options": {
-        "type": "minecraft:end_rod"
+        "type": "minecraft:electric_spark"
       },
       "probability": 0.0001
     }
