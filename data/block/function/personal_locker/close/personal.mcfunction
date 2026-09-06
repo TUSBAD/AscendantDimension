@@ -1,4 +1,4 @@
-#> area:personal_locker/close/personal
+#> block:personal_locker/close/personal
 #
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.

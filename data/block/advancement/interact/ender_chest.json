@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "area:personal_locker/open/"
+    "function": "block:personal_locker/open/"
   }
 }

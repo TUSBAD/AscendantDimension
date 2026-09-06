@@ -29,10 +29,6 @@ scoreboard players reset @s Age
 ### ネザーアスレチック
 execute as @s[predicate=area:area/nether_trial] at @s run function player:death/in_nether_trial
 
-### コンテナを開いていたら閉じたことにする
-execute if entity @s[advancements={close_detector:open=true}] run function #close_detector:on_closed
-advancement revoke @s[advancements={close_detector:open=true}] only close_detector:open
-
 ### 死の宣告がかかっていたら消す
 tag @s[tag=Doom] remove Doom
 execute if entity @s[tag=DoomEx] run function #oh_my_dat:please

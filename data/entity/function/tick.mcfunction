@@ -28,4 +28,4 @@ execute as @e[type=#entity:has_in_ground,tag=CooldownRequired,tag=!FlyingObject,
     execute at @e[tag=leap] run effect clear @a[distance=..32] jump_boost
 
 # 個人ロッカー(印板)
-    execute as @e[tag=PersonalLockerSign] at @s run function area:personal_locker/tick/personal_locker_sign
+    execute as @e[tag=PersonalLockerSign] at @s run function block:personal_locker/tick/personal_locker_sign

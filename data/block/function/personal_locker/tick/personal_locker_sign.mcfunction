@@ -1,4 +1,4 @@
-#> area:personal_locker/tick/personal_locker_sign
+#> block:personal_locker/tick/personal_locker_sign
 # tick処理
 
 particle enchant ~ ~ ~ 0 0 0 0.5 5
