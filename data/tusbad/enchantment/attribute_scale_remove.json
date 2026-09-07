@@ -4,7 +4,7 @@
     "color": "#fffb00"
   },
   "supported_items": "#minecraft:enchantable/chest_armor",
-  "exclusive_set": "#tusb:scale",
+  "exclusive_set": "#tusbad:scale",
   "weight": 1,
   "max_level": 3,
   "min_cost": {

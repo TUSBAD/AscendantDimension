@@ -4,7 +4,7 @@
     "color": "#55ff5d"
   },
   "supported_items": "#minecraft:enchantable/leg_armor",
-  "exclusive_set": "#tusb:scale",
+  "exclusive_set": "#tusbad:scale",
   "weight": 1,
   "max_level": 5,
   "min_cost": {

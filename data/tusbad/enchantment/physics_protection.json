@@ -3,8 +3,8 @@
     "translate": "%1$s属性軽減",
     "with": [
       {
-        "translate": "魔法",
-        "color": "#ff20ff",
+        "translate": "物理",
+        "color": "#e4e4e4",
         "shadow_color": 6814
       }
     ],
@@ -43,7 +43,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "tusb:is_physics"
+                "id": "tusbad:is_physics"
               },
               {
                 "expected": false,

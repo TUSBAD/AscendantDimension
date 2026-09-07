@@ -1,11 +1,11 @@
 {
   "description": {
-    "translate": "体力増強",
+    "translate": "腕力増強",
     "color": "#55ff5d"
   },
-  "supported_items": "#tusb:armor",
+  "supported_items": "#tusbad:weapon",
   "weight": 1,
-  "max_level": 10,
+  "max_level": 3,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 9
@@ -14,19 +14,19 @@
     "base": 65,
     "per_level_above_first": 9
   },
-  "anvil_cost": 4,
+  "anvil_cost": 10,
   "slots": [
-    "armor"
+    "hand"
   ],
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "health",
-        "attribute": "minecraft:max_health",
+        "id": "attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": {
           "type": "minecraft:linear",
-          "base": 10,
-          "per_level_above_first": 10
+          "base": 5,
+          "per_level_above_first": 5
         },
         "operation": "add_value"
       }

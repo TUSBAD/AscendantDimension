@@ -1,12 +1,11 @@
 {
   "description": {
-    "translate": "脚力上昇",
+    "translate": "体力増強",
     "color": "#55ff5d"
   },
-  "supported_items": "#minecraft:enchantable/foot_armor",
-  "exclusive_set": "#tusb:scale",
+  "supported_items": "#tusbad:armor",
   "weight": 1,
-  "max_level": 3,
+  "max_level": 10,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 9
@@ -15,19 +14,19 @@
     "base": 65,
     "per_level_above_first": 9
   },
-  "anvil_cost": 1,
+  "anvil_cost": 4,
   "slots": [
     "armor"
   ],
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "step_height",
-        "attribute": "minecraft:step_height",
+        "id": "health",
+        "attribute": "minecraft:max_health",
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+          "base": 10,
+          "per_level_above_first": 10
         },
         "operation": "add_value"
       }

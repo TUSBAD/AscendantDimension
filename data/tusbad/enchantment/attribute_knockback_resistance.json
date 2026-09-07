@@ -3,7 +3,7 @@
     "translate": "堅如磐石",
     "color": "#ffa733"
   },
-  "supported_items": "#tusb:armor",
+  "supported_items": "#tusbad:armor",
   "weight": 1,
   "max_level": 10,
   "min_cost": {

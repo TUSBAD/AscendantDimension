@@ -33,7 +33,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:damage_entity",
-          "damage_type": "tusb:magic",
+          "damage_type": "tusbad:magic",
           "min_damage": {
             "type": "minecraft:linear",
             "base": 5,

@@ -1,5 +1,5 @@
 {
-  "message_id": "tusb:magic_damage",
+  "message_id": "tusbad:magic_damage",
   "exhaustion": 0,
   "scaling": "never",
   "death_message_type": "default"

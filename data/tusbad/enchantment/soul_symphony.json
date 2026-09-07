@@ -1,0 +1,29 @@
+{
+  "description": {
+    "translate": "%1$sの共鳴",
+    "with": [
+      {
+        "translate": "魂",
+        "color": "#ffa733",
+        "shadow_color": 12405504
+      }
+    ],
+    "color": "#ff29ed",
+    "shadow_color": 8847544
+  },
+  "supported_items": "#tusbad:weapon_and_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2147483647,
+  "slots": [
+    "any"
+  ]
+}

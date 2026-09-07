@@ -33,7 +33,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:damage_entity",
-          "damage_type": "tusb:physics",
+          "damage_type": "tusbad:physics",
           "min_damage": {
             "type": "minecraft:linear",
             "base": 5,
