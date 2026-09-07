@@ -1,0 +1,32 @@
+{
+  "description": {
+    "translate": "修繕不能",
+    "color": "#ff2a2a"
+  },
+  "effects": {
+    "repair_with_xp": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": -100
+        }
+      }
+    ]
+  },
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": "minecraft:mending",
+  "supported_items": "#enchantable/durability",
+  "anvil_cost": 0,
+  "max_level": 1,
+  "max_cost": {
+    "base": 500,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "weight": 1
+}
