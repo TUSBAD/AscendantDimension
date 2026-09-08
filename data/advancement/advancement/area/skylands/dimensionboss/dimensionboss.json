@@ -34,7 +34,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:skylands/elitemobs",
+  "parent": "advancement:area/skylands/elitemobs",
   "criteria": {
     "enter": {
       "trigger": "minecraft:location",
