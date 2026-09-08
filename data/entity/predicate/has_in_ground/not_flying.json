@@ -2,8 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "#entity:has_in_ground",
-    "movement": {
+    "minecraft:entity_type": "#entity:has_in_ground",
+    "minecraft:movement": {
       "speed": 0
     }
   }

@@ -6,7 +6,7 @@
 playsound minecraft:entity.zombie.infect master @a[distance=..16] ~ ~ ~ 1 2 0
 particle explosion ~ ~1.6 ~ 0 0.1 0 0.1 30 force
 
-execute store result score _ TUSB run time query daytime
+execute store result score _ TUSB run time query time
 scoreboard players remove _ TUSB 18000
 execute if score _ TUSB matches ..-12000 run scoreboard players add _ TUSB 24000
 

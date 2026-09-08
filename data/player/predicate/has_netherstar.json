@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:player",
-    "nbt": "{Inventory:[{id:\"minecraft:nether_star\"}]}"
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:nbt": "{Inventory:[{id:\"minecraft:nether_star\"}]}"
   }
 }

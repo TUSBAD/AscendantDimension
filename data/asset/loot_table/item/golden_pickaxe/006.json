@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"スポナーブレイカー\",\"italic\":false,\"color\":\"red\"}",
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:unbreaking": 5
-                  },
-                  "show_in_tooltip": false
-                },
-                "minecraft:can_break": {
-                  "predicates": [
-                    {
-                      "blocks": "minecraft:mob_spawner"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                },
-                "minecraft:repair_cost": 1000000000
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"スポナーブレイカー\",\"italic\":false,\"color\":\"red\"}",
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 5
+                                },
+                                "minecraft:can_break": [
+                                    {
+                                        "blocks": "minecraft:spawner"
+                                    }
+                                ],
+                                "minecraft:repair_cost": 1000000000,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:can_break"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

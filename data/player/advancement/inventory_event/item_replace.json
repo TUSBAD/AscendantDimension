@@ -1,230 +1,237 @@
 {
-  "criteria": {
-    "old_can_place_on_all": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:custom_data": "{CanPlaceOn:[\"minecraft:stone\"]}"
+    "criteria": {
+        "old_can_place_on_all": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "CanPlaceOn": [
+                                    "minecraft:stone"
+                                ]
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "carve_halloween": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:pumpkin"
-            ],
-            "components": {
-              "minecraft:custom_name": "{\"text\":\"ハロウィンヘッド\",\"italic\":false,\"color\":\"gold\",\"bold\":true}"
+        },
+        "carve_halloween": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pumpkin"
+                        ],
+                        "components": {
+                            "minecraft:custom_name": "{\"text\":\"ハロウィンヘッド\",\"italic\":false,\"color\":\"gold\",\"bold\":true}"
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "cthulhu_lure": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:fishing_rod"
-            ],
-            "components": {
-              "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\"くとぅるあー\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true},{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true}]}",
-              "minecraft:repair_cost": 1000000000,
-              "minecraft:unbreakable": {
-                "show_in_tooltip": false
-              }
-            },
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:knockback",
-                  "levels": {
-                    "min": 10,
-                    "max": 10
-                  }
-                },
-                {
-                  "enchantments": "minecraft:lure",
-                  "levels": {
-                    "min": 8,
-                    "max": 8
-                  }
-                },
-                {
-                  "enchantments": "minecraft:luck_of_the_sea",
-                  "levels": {
-                    "min": 4,
-                    "max": 4
-                  }
-                }
-              ]
+        },
+        "cthulhu_lure": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:fishing_rod"
+                        ],
+                        "components": {
+                            "minecraft:custom_name": "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true},{\"text\":\"くとぅるあー\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true},{\"text\":\"cthulhu\",\"italic\":false,\"color\":\"dark_aqua\",\"obfuscated\":true}]}",
+                            "minecraft:repair_cost": 1000000000,
+                            "minecraft:unbreakable": {},
+                            "minecraft:tooltip_display": {
+                                "hidden_components": [
+                                    "minecraft:unbreakable"
+                                ]
+                            }
+                        },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:knockback",
+                                    "levels": {
+                                        "min": 10,
+                                        "max": 10
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:lure",
+                                    "levels": {
+                                        "min": 8,
+                                        "max": 8
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:luck_of_the_sea",
+                                    "levels": {
+                                        "min": 4,
+                                        "max": 4
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "end_of_end": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_sword"
-            ],
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:sharpness",
-                  "levels": {
-                    "min": 127,
-                    "max": 127
-                  }
-                },
-                {
-                  "enchantments": "minecraft:knockback",
-                  "levels": {
-                    "min": 127,
-                    "max": 127
-                  }
-                },
-                {
-                  "enchantments": "minecraft:fire_aspect",
-                  "levels": {
-                    "min": 127,
-                    "max": 127
-                  }
-                }
-              ]
+        },
+        "end_of_end": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ],
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:sharpness",
+                                    "levels": {
+                                        "min": 127,
+                                        "max": 127
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:knockback",
+                                    "levels": {
+                                        "min": 127,
+                                        "max": 127
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:fire_aspect",
+                                    "levels": {
+                                        "min": 127,
+                                        "max": 127
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "high_lure_change": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:lure",
-                  "levels": {
-                    "min": 8,
-                    "max": 8
-                  }
-                }
-              ]
+        },
+        "high_lure_change": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:lure",
+                                    "levels": {
+                                        "min": 8,
+                                        "max": 8
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "no_got_return": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_pickaxe"
-            ],
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantments": "minecraft:knockback",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:smite",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:flame",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:looting",
-                  "levels": {
-                    "min": 10,
-                    "max": 10
-                  }
-                },
-                {
-                  "enchantments": "minecraft:fire_aspect",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:sharpness",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:efficiency",
-                  "levels": {
-                    "min": 255,
-                    "max": 255
-                  }
-                },
-                {
-                  "enchantments": "minecraft:fortune",
-                  "levels": {
-                    "min": 10,
-                    "max": 10
-                  }
-                }
-              ]
+        },
+        "no_got_return": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ],
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:knockback",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:smite",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:flame",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:looting",
+                                    "levels": {
+                                        "min": 10,
+                                        "max": 10
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:fire_aspect",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:sharpness",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:efficiency",
+                                    "levels": {
+                                        "min": 255,
+                                        "max": 255
+                                    }
+                                },
+                                {
+                                    "enchantments": "minecraft:fortune",
+                                    "levels": {
+                                        "min": 10,
+                                        "max": 10
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
+        },
+        "tl_sign_stand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:armor_stand"
+                        ]
+                    }
+                ]
+            }
+        }
     },
-    "tl_sign_stand": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:armor_stand"
-            ]
-          }
+    "requirements": [
+        [
+            "old_can_place_on_all",
+            "carve_halloween",
+            "cthulhu_lure",
+            "end_of_end",
+            "high_lure_change",
+            "no_got_return",
+            "tl_sign_stand"
         ]
-      }
+    ],
+    "rewards": {
+        "function": "player:inventory_event/item_replace/"
     }
-  },
-  "requirements": [
-    [
-      "old_can_place_on_all",
-      "carve_halloween",
-      "cthulhu_lure",
-      "end_of_end",
-      "high_lure_change",
-      "no_got_return",
-      "tl_sign_stand"
-    ]
-  ],
-  "rewards": {
-    "function": "player:inventory_event/item_replace/"
-  }
 }

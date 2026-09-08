@@ -1,31 +1,27 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 65280
-                },
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 10,
-                    "minecraft:thorns": 5
-                  }
-                },
-                "minecraft:repair_cost": 1000000000
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color": 65280,
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 10,
+                                    "minecraft:thorns": 5
+                                },
+                                "minecraft:repair_cost": 1000000000
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

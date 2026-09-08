@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "equipment": {
+              "minecraft:equipment": {
                 "mainhand": {
                   "items": "#item:tools"
                 }
@@ -21,11 +21,13 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "mainhand": {
                     "items": "#item:tools",
                     "predicates": {
-                      "minecraft:custom_data": "{CustomCanBreak:1b}"
+                      "minecraft:custom_data": {
+                        "CustomCanBreak": 1
+                      }
                     }
                   }
                 }

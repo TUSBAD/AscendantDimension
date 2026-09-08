@@ -4,7 +4,8 @@
     "minecraft:snowball",
     "minecraft:egg",
     "minecraft:ender_pearl",
-    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
     "minecraft:experience_bottle"
   ]
 }

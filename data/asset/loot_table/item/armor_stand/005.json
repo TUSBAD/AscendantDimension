@@ -1,44 +1,42 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:armor_stand",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"全滅の印板\",\"italic\":false,\"color\":\"red\"}",
-                "minecraft:lore": [
-                  "{\"text\":\"半径15m以内のすべてに\",\"italic\":false,\"color\":\"dark_green\"}",
-                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"等しく\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"死\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を与える。\",\"italic\":false,\"color\":\"dark_green\"}]}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {}
-                },
-                "minecraft:repair_cost": 1000000000,
-                "minecraft:entity_data": {
-                  "Tags": [
-                    "SignStand",
-                    "WidowMaker",
-                    "TypeChecked"
-                  ],
-                  "id": "minecraft:armor_stand"
-                },
-                "minecraft:custom_data": {
-                  "TUSB_AD_SignStand": "sign_stand",
-                  "NoGravity": 1,
-                  "Invulnerable": 1,
-                  "Invisible": 1
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"全滅の印板\",\"italic\":false,\"color\":\"red\"}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"半径15m以内のすべてに\",\"italic\":false,\"color\":\"dark_green\"}",
+                                    "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"等しく\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"死\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"を与える。\",\"italic\":false,\"color\":\"dark_green\"}]}"
+                                ],
+                                "minecraft:enchantments": {},
+                                "minecraft:repair_cost": 1000000000,
+                                "minecraft:entity_data": {
+                                    "Tags": [
+                                        "SignStand",
+                                        "WidowMaker",
+                                        "TypeChecked"
+                                    ],
+                                    "id": "minecraft:armor_stand"
+                                },
+                                "minecraft:custom_data": {
+                                    "TUSB_AD_SignStand": "sign_stand",
+                                    "NoGravity": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

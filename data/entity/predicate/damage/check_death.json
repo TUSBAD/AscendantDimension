@@ -5,14 +5,14 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Health:0f}"
+        "minecraft:nbt": "{Health:0f}"
       }
     },
     {
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[Garbage]}"
+        "minecraft:nbt": "{Tags:[Garbage]}"
       }
     }
   ]

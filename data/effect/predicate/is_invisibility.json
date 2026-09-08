@@ -2,8 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:player",
-    "effects": {
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:effects": {
       "minecraft:invisibility": {}
     }
   }

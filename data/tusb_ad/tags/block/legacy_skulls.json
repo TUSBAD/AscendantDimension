@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:wither_skeleton_wall_skull",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:skeleton_wall_skull"
+    ]
+}

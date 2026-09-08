@@ -5,23 +5,21 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
-        "type_specific": {
-          "type": "player",
+        "minecraft:entity_type": "minecraft:player",
+        "minecraft:type_specific/player": {
           "gamemode": [
             "creative"
           ]
         },
-        "nbt": "{Tag:\"Invulnerable\"}"
+        "minecraft:nbt": "{Tag:\"Invulnerable\"}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:player",
-        "type_specific": {
-          "type": "player",
+        "minecraft:entity_type": "minecraft:player",
+        "minecraft:type_specific/player": {
           "gamemode": [
             "spectator"
           ]

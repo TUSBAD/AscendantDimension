@@ -4,4 +4,4 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute as @e[tag=RightEyeBlast] at @s positioned ~ ~3.5 ~ run summon minecraft:creeper ~ ~ ~ {Fuse:0s,ExplosionRadius:5b,Invulnerable:true,DeathTime:19s,CustomName:'"ドラゴンゲイズ"'}
-gamerule mobGriefing false
+gamerule minecraft:mob_griefing false

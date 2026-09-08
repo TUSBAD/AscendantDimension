@@ -4,7 +4,7 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "nbt": "{Tags:[IronWillRollback]}"
+          "minecraft:nbt": "{Tags:[IronWillRollback]}"
         }
       }
     }

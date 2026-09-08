@@ -1,27 +1,25 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:blast_protection": 1,
-                    "minecraft:aqua_affinity": 1
-                  }
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:blast_protection": 1,
+                                    "minecraft:aqua_affinity": 1
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

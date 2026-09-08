@@ -4,7 +4,8 @@
     "minecraft:egg",
     "minecraft:ender_pearl",
     "minecraft:eye_of_ender",
-    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
     "minecraft:snowball",
     "minecraft:spectral_arrow",
     "minecraft:trident"

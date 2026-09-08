@@ -6,7 +6,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:1}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 1
+              }
             }
           }
         ]
@@ -18,7 +20,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:2}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 2
+              }
             }
           }
         ]
@@ -30,7 +34,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:3}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 3
+              }
             }
           }
         ]
@@ -42,7 +48,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:4}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 4
+              }
             }
           }
         ]
@@ -54,7 +62,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:5}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 5
+              }
             }
           }
         ]
@@ -66,7 +76,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:6}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 6
+              }
             }
           }
         ]
@@ -78,7 +90,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:7}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 7
+              }
             }
           }
         ]
@@ -90,7 +104,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{JobChangeTo:8}"
+              "minecraft:custom_data": {
+                "JobChangeTo": 8
+              }
             }
           }
         ]

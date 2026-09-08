@@ -2,12 +2,16 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
+    "minecraft:equipment": {
       "offhand": {
         "items": [
           "minecraft:book"
         ],
-        "nbt": "{saika:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "saika": 1
+          }
+        }
       }
     }
   }

@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:item",
-    "nbt": "{Item:{tag:{ForceVanishing:true}}}"
+    "minecraft:entity_type": "minecraft:item",
+    "minecraft:nbt": "{Item:{tag:{ForceVanishing:true}}}"
   }
 }

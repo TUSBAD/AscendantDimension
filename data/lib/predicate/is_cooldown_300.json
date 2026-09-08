@@ -3,6 +3,6 @@
   "terms": [],
   "entity": "this",
   "predicate": {
-    "nbt": "{PortalCooldown:300}"
+    "minecraft:nbt": "{PortalCooldown:300}"
   }
 }

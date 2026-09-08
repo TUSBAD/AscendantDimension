@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:armor_stand",
-          "nbt": "{DisabledSlots: 2039326, Health: 1.0f, ArmorItems: [{tag: {AttributeModifiers: [{Name: \"minus\"}]}}]}"
+          "minecraft:entity_type": "minecraft:armor_stand",
+          "minecraft:nbt": "{DisabledSlots: 2039326, Health: 1.0f, ArmorItems: [{tag: {AttributeModifiers: [{Name: \"minus\"}]}}]}"
         }
       }
     }

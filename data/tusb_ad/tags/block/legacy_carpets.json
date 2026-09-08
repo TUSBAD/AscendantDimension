@@ -1,0 +1,23 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:orange_carpet",
+        "minecraft:blue_carpet",
+        "minecraft:black_carpet",
+        "minecraft:yellow_carpet",
+        "minecraft:pink_carpet",
+        "minecraft:red_carpet",
+        "minecraft:lime_carpet",
+        "minecraft:white_carpet",
+        "minecraft:light_blue_carpet",
+        "minecraft:cyan_carpet",
+        "minecraft:gray_carpet",
+        "minecraft:light_gray_carpet",
+        "minecraft:green_carpet",
+        "minecraft:magenta_carpet",
+        "minecraft:pale_moss_carpet",
+        "minecraft:purple_carpet",
+        "minecraft:moss_carpet",
+        "minecraft:brown_carpet"
+    ]
+}

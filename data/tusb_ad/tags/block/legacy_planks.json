@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:acacia_planks",
+        "minecraft:oak_planks",
+        "minecraft:crimson_planks",
+        "minecraft:mangrove_planks",
+        "minecraft:warped_planks",
+        "minecraft:jungle_planks",
+        "minecraft:birch_planks",
+        "minecraft:bamboo_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:pale_oak_planks",
+        "minecraft:spruce_planks",
+        "minecraft:cherry_planks"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:bamboo_sapling",
+        "minecraft:potted_spruce_sapling",
+        "minecraft:birch_sapling",
+        "minecraft:potted_acacia_sapling",
+        "minecraft:potted_birch_sapling",
+        "minecraft:pale_oak_sapling",
+        "minecraft:potted_oak_sapling",
+        "minecraft:oak_sapling",
+        "minecraft:cherry_sapling",
+        "minecraft:jungle_sapling",
+        "minecraft:spruce_sapling",
+        "minecraft:dark_oak_sapling",
+        "minecraft:potted_jungle_sapling",
+        "minecraft:potted_dark_oak_sapling",
+        "minecraft:acacia_sapling",
+        "minecraft:potted_cherry_sapling",
+        "minecraft:potted_pale_oak_sapling"
+    ]
+}

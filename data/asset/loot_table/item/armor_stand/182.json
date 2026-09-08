@@ -1,47 +1,49 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:armor_stand",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"愚者の魂\",\"italic\":false,\"color\":\"dark_green\"}",
-                "minecraft:lore": [
-                  "{\"text\":\"軽率な行動をとり、自分や他人を陥れてしまった\",\"italic\":false,\"color\":\"yellow\"}",
-                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"愚者の魂\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"が込められた印板\",\"italic\":false,\"color\":\"yellow\"}]}",
-                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"落ちている一番近くの\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"に魂が刻まれるが\",\"italic\":false,\"color\":\"yellow\"}]}",
-                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の個数や\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｴﾝﾁｬﾝﾄ\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"は上書きされてしまう\",\"italic\":false,\"color\":\"yellow\"}]}",
-                  "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★☆\",\"italic\":false,\"color\":\"aqua\"}]}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {},
-                  "show_in_tooltip": false
-                },
-                "minecraft:custom_data": {
-                  "TUSB_AD_SignStand": "sign_stand"
-                },
-                "minecraft:entity_data": {
-                  "NoGravity": 1,
-                  "Invulnerable": 1,
-                  "Marker": 1,
-                  "Tags": [
-                    "SignStand",
-                    "PermanentStand",
-                    "GusyaStand"
-                  ],
-                  "id": "minecraft:armor_stand"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"愚者の魂\",\"italic\":false,\"color\":\"dark_green\"}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"軽率な行動をとり、自分や他人を陥れてしまった\",\"italic\":false,\"color\":\"yellow\"}",
+                                    "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"愚者の魂\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\"が込められた印板\",\"italic\":false,\"color\":\"yellow\"}]}",
+                                    "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"落ちている一番近くの\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"に魂が刻まれるが\",\"italic\":false,\"color\":\"yellow\"}]}",
+                                    "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"その\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｱｲﾃﾑ\",\"italic\":false,\"color\":\"light_purple\"},{\"text\":\"の個数や\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ｴﾝﾁｬﾝﾄ\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"は上書きされてしまう\",\"italic\":false,\"color\":\"yellow\"}]}",
+                                    "{\"text\":\"\",\"italic\":false,\"extra\":[{\"text\":\"レアリティ：\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"★★☆\",\"italic\":false,\"color\":\"aqua\"}]}"
+                                ],
+                                "minecraft:enchantments": {},
+                                "minecraft:custom_data": {
+                                    "TUSB_AD_SignStand": "sign_stand"
+                                },
+                                "minecraft:entity_data": {
+                                    "NoGravity": 1,
+                                    "Invulnerable": 1,
+                                    "Marker": 1,
+                                    "Tags": [
+                                        "SignStand",
+                                        "PermanentStand",
+                                        "GusyaStand"
+                                    ],
+                                    "id": "minecraft:armor_stand"
+                                },
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

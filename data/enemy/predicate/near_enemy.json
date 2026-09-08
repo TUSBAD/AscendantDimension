@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "#entity:enemy"
+        "minecraft:entity_type": "#entity:enemy"
       }
     }
   ]

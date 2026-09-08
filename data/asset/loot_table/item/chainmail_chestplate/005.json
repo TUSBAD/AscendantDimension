@@ -1,28 +1,26 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:unbreaking": 5,
-                    "minecraft:protection": 3
-                  }
-                },
-                "minecraft:repair_cost": 1000000000
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:unbreaking": 5,
+                                    "minecraft:protection": 3
+                                },
+                                "minecraft:repair_cost": 1000000000
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
