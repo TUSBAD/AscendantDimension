@@ -10,5 +10,5 @@ execute in minecraft:the_nether run data modify block -516 89 1077 Command set v
 
 ### 足場消し用
 execute in minecraft:the_nether run data modify block -515 90 1077 Command set value "fill -532 61 1064 -498 71 1111 minecraft:barrier replace minecraft:light_gray_stained_glass"
-execute in minecraft:the_nether run data modify block -514 90 1077 Command set value "clear @a[x=-539,y=41,z=1048,dx=47,dy=47,dz=73] minecraft:fishing_rod{TrialItem:1b}"
-execute in minecraft:the_nether run data modify block -513 90 1077 Command set value "give @a[x=-539,y=41,z=1058,dx=47,dy=47,dz=59] minecraft:fishing_rod{Enchantments:[{}],TrialItem:1b,Damage:32} 1"
+execute in minecraft:the_nether run data modify block -514 90 1077 Command set value "clear @a[x=-539,y=41,z=1048,dx=47,dy=47,dz=73] minecraft:fishing_rod[custom_data={TrialItem:1b}] 1"
+execute in minecraft:the_nether run data modify block -513 90 1077 Command set value "give @a[x=-539,y=41,z=1058,dx=47,dy=47,dz=59] minecraft:fishing_rod[enchantments={},custom_data={TrialItem:1b},damage=32] 1"

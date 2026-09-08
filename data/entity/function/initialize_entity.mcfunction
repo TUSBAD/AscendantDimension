@@ -17,7 +17,7 @@
     execute unless entity @s[type=!#entity:projectiles,tag=!DamageProjectile] run function entity:initialize_projectile
 
 ### Item to Spawn
-    execute if data entity @s[type=item] Item.tag.SpawnEntities run function entity:spawn/item_to_spawn
+    execute if data entity @s[type=item] Item.components.minecraft:custom_data.SpawnEntities run function entity:spawn/item_to_spawn
 
 # スポナーのタイプは２種類(時間で消える or 地面に付くと消える)
     tag @s[type=minecraft:spawner_minecart,predicate=!lib:is_cooldown_0] add CooldownRequired
@@ -37,7 +37,7 @@
 
 # ゾンビ増援制御
     attribute @s[type=zombie] minecraft:spawn_reinforcements base set 0.0
-    data remove entity @s[type=zombie] Attributes[{Name:"minecraft:spawn_reinforcements"}].Modifiers
+    data remove entity @s[type=zombie] attributes[{Name:"minecraft:spawn_reinforcements"}].modifiers
 
 # 自然湧きじゃないスライム系のチェック
     tag @s[type=#lib:slimey,predicate=!effect:has_absorptionamount] add FromSpawner

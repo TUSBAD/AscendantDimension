@@ -5,4 +5,4 @@
 # 先にmsgだけだす
 me はアクセラレーションを唱えた！
 # schedule(mob griefing回避にscheduleじゃないと謎にできない)
-schedule function enemy:skill/magic/acceralation/schedule_result 1t
+schedule function enemy:skill/enemy/shinsei_king/acceralation/schedule_result 1t

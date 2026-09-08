@@ -14,10 +14,10 @@
 execute at @a[gamemode=!spectator,tag=Boss_Fighting] run summon marker ~ ~ ~ {Tags:["acceralation","BossEnemy"]}
 
 # 演出
-execute at @e[type=marker,tag=acceralation] run function enemy:skill/magic/acceralation/particle
+execute at @e[type=marker,tag=acceralation] run function enemy:skill/enemy/shinsei_king/acceralation/particle
 
 
 # 上のやつちょっとの猶予時間の後にどーんってやってもいいよなぁ
 # 起点マーカーだしてschedule,その後範囲指定してkillかねー
 
-schedule function enemy:skill/magic/acceralation/detect 10t
+schedule function enemy:skill/enemy/shinsei_king/acceralation/detect 10t

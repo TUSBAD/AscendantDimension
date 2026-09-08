@@ -9,7 +9,7 @@
 
 ## 狩人
 # ワイルドクッキング
-execute if entity @s[scores={WildCooking=1..}] run function skill:act/hunter/wild_cooking/debuff_tick
+execute if entity @s[scores={WildCooking=1..}] run function skill:act/archer/wild_cooking/
 
 # 敵スキル発動チェック
     execute if entity @s[tag=SkillMob] run function enemy:skill/
