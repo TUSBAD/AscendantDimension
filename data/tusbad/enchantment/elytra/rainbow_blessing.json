@@ -38,28 +38,177 @@
             {
               "type": "minecraft:spawn_particles",
               "particle": {
-                "type": "minecraft:dust_color_transition",
-                "from_color": 16715687,
-                "to_color": 16705798,
-                "scale": 1
+                "type": "minecraft:dust",
+                "color": 16718080,
+                "scale": 0.75
               },
               "horizontal_position": {
                 "type": "in_bounding_box",
-                "scale": 2
+                "scale": 1.25
               },
               "vertical_position": {
                 "type": "in_bounding_box",
-                "scale": 2
+                "scale": 1.25
               },
               "horizontal_velocity": {
-                "base": 0.1,
+                "base": 0.5,
                 "movement_scale": 1
               },
               "vertical_velocity": {
-                "base": 0.1,
+                "base": 0.5,
                 "movement_scale": 1
               },
-              "speed": 0.1
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 16753152,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 16514816,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 65297,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 64511,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 1717503,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:dust",
+                "color": 9175295,
+                "scale": 0.75
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "vertical_position": {
+                "type": "in_bounding_box",
+                "scale": 1.25
+              },
+              "horizontal_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "vertical_velocity": {
+                "base": 0.5,
+                "movement_scale": 1
+              },
+              "speed": 0.5
             },
             {
               "type": "apply_mob_effect",
