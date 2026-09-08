@@ -1,6 +1,6 @@
 {
   "values": [
-    "tusbad:attribute_scale_add",
-    "tusbad:attribute_scale_remove"
+    "tusbad:armor/attribute_scale_add",
+    "tusbad:armor/attribute_scale_remove"
   ]
 }
