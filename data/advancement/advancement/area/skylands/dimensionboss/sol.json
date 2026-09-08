@@ -48,7 +48,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "advancement:skylands/dimensionboss/dimensionboss",
+  "parent": "advancement:area/skylands/dimensionboss/dimensionboss",
   "criteria": {
     "enter": {
       "trigger": "minecraft:impossible"
