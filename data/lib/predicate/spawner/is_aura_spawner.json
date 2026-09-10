@@ -2,8 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "passenger": {
-      "type": "minecraft:area_effect_cloud"
+    "minecraft:passenger": {
+      "minecraft:entity_type": "minecraft:area_effect_cloud"
     }
   }
 }

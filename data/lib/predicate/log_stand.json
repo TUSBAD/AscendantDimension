@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:text_display",
-    "nbt": "{Tags:[\"LogDisplay\"]}"
+    "minecraft:entity_type": "minecraft:text_display",
+    "minecraft:nbt": "{Tags:[\"LogDisplay\"]}"
   }
 }

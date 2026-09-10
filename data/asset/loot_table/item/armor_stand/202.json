@@ -1,45 +1,43 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:armor_stand",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"回収の印板・改\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}",
-                "minecraft:lore": [
-                  "{\"text\":\"この看板から20m以内のアイテムを\",\"italic\":false,\"color\":\"yellow\"}",
-                  "{\"text\":\"回収できる。\",\"italic\":false,\"color\":\"yellow\"}",
-                  "{\"text\":\"使用しても看板が消滅しない上位版\",\"italic\":false,\"color\":\"gold\"}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {}
-                },
-                "minecraft:entity_data": {
-                  "Tags": [
-                    "SignStand",
-                    "PermanentStand",
-                    "KaisyuStand20m",
-                    "TypeChecked"
-                  ],
-                  "id": "minecraft:armor_stand"
-                },
-                "minecraft:custom_data": {
-                  "TUSB_AD_SignStand": "sign_stand",
-                  "NoGravity": 1,
-                  "Invulnerable": 1,
-                  "Invisible": 1
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"回収の印板・改\",\"italic\":false,\"color\":\"gold\",\"underlined\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"この看板から20m以内のアイテムを\",\"italic\":false,\"color\":\"yellow\"}",
+                                    "{\"text\":\"回収できる。\",\"italic\":false,\"color\":\"yellow\"}",
+                                    "{\"text\":\"使用しても看板が消滅しない上位版\",\"italic\":false,\"color\":\"gold\"}"
+                                ],
+                                "minecraft:enchantments": {},
+                                "minecraft:entity_data": {
+                                    "Tags": [
+                                        "SignStand",
+                                        "PermanentStand",
+                                        "KaisyuStand20m",
+                                        "TypeChecked"
+                                    ],
+                                    "id": "minecraft:armor_stand"
+                                },
+                                "minecraft:custom_data": {
+                                    "TUSB_AD_SignStand": "sign_stand",
+                                    "NoGravity": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

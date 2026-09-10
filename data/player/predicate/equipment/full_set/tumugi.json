@@ -2,30 +2,46 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
+    "minecraft:equipment": {
       "head": {
         "items": [
           "minecraft:diamond_helmet"
         ],
-        "nbt": "{tumugi:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "tumugi": 1
+          }
+        }
       },
       "chest": {
         "items": [
           "minecraft:elytra"
         ],
-        "nbt": "{tumugi:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "tumugi": 1
+          }
+        }
       },
       "legs": {
         "items": [
           "minecraft:diamond_leggings"
         ],
-        "nbt": "{tumugi:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "tumugi": 1
+          }
+        }
       },
       "feet": {
         "items": [
           "minecraft:diamond_boots"
         ],
-        "nbt": "{tumugi:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "tumugi": 1
+          }
+        }
       }
     }
   }

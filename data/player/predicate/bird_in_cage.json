@@ -23,12 +23,19 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "equipment": {
+      "minecraft:equipment": {
         "chest": {
           "items": [
             "minecraft:elytra"
           ],
-          "nbt": "{TrialItem:true,Unbreakable:true}"
+          "predicates": {
+            "minecraft:custom_data": {
+              "TrialItem": true
+            }
+          },
+          "components": {
+            "minecraft:unbreakable": {}
+          }
         }
       }
     }

@@ -2,6 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{life:0s}"
+    "minecraft:nbt": "{life:0s}"
   }
 }

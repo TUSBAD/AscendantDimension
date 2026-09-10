@@ -1,38 +1,36 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"全能ノ一\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
-                "minecraft:lore": [
-                  "{\"text\":\"深淵なる者を倒した証。\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 255,
-                    "minecraft:smite": 255,
-                    "minecraft:flame": 255,
-                    "minecraft:looting": 10,
-                    "minecraft:fire_aspect": 255,
-                    "minecraft:sharpness": 255,
-                    "minecraft:efficiency": 255,
-                    "minecraft:fortune": 10
-                  }
-                },
-                "minecraft:repair_cost": 1000000000
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"全能ノ一\",\"italic\":false,\"color\":\"yellow\",\"bold\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"深淵なる者を倒した証。\",\"italic\":false,\"color\":\"dark_purple\",\"bold\":true}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 255,
+                                    "minecraft:smite": 255,
+                                    "minecraft:flame": 255,
+                                    "minecraft:looting": 10,
+                                    "minecraft:fire_aspect": 255,
+                                    "minecraft:sharpness": 255,
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:fortune": 10
+                                },
+                                "minecraft:repair_cost": 1000000000
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

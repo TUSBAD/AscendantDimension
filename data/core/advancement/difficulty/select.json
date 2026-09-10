@@ -4,8 +4,8 @@
       "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction",
-          "nbt": "{Tags:[Picnic]}"
+          "minecraft:entity_type": "interaction",
+          "minecraft:nbt": "{Tags:[Picnic]}"
         }
       }
     },
@@ -13,8 +13,8 @@
       "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction",
-          "nbt": "{Tags:[Casual]}"
+          "minecraft:entity_type": "interaction",
+          "minecraft:nbt": "{Tags:[Casual]}"
         }
       }
     },
@@ -22,8 +22,8 @@
       "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction",
-          "nbt": "{Tags:[Another]}"
+          "minecraft:entity_type": "interaction",
+          "minecraft:nbt": "{Tags:[Another]}"
         }
       }
     },
@@ -31,8 +31,8 @@
       "trigger": "player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "interaction",
-          "nbt": "{Tags:[ascendant]}"
+          "minecraft:entity_type": "interaction",
+          "minecraft:nbt": "{Tags:[ascendant]}"
         }
       }
     }

@@ -1,42 +1,42 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:shears",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"adv.ハサミ\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
-                "minecraft:lore": [
-                  "{\"text\":\"アドベンチャーで設置されている\",\"italic\":false,\"color\":\"yellow\"}",
-                  "{\"text\":\"蔦を回収することが出来るハサミ。\",\"italic\":false,\"color\":\"yellow\"}",
-                  "{\"text\":\"性能面も通常のハサミより高い。\",\"italic\":false,\"color\":\"yellow\"}"
-                ],
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:efficiency": 4
-                  },
-                  "show_in_tooltip": false
-                },
-                "minecraft:can_break": {
-                  "predicates": [
-                    {
-                      "blocks": "minecraft:vine"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                },
-                "minecraft:repair_cost": 1000000000
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"adv.ハサミ\",\"italic\":false,\"color\":\"gold\",\"bold\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"アドベンチャーで設置されている\",\"italic\":false,\"color\":\"yellow\"}",
+                                    "{\"text\":\"蔦を回収することが出来るハサミ。\",\"italic\":false,\"color\":\"yellow\"}",
+                                    "{\"text\":\"性能面も通常のハサミより高い。\",\"italic\":false,\"color\":\"yellow\"}"
+                                ],
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 4
+                                },
+                                "minecraft:can_break": [
+                                    {
+                                        "blocks": "minecraft:vine"
+                                    }
+                                ],
+                                "minecraft:repair_cost": 1000000000,
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:can_break"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

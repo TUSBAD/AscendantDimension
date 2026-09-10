@@ -8,8 +8,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "player",
+              "minecraft:type_specific/player": {
                 "advancements": {
                   "player:block_interact/press": true
                 }

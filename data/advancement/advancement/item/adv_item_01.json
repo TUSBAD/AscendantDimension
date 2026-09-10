@@ -27,7 +27,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{CustomCanDestroy:1b}"
+              "minecraft:custom_data": {
+                "CustomCanDestroy": 1
+              }
             }
           }
         ]
@@ -39,7 +41,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{CustomCanPlaceOn:1b}"
+              "minecraft:custom_data": {
+                "CustomCanPlaceOn": 1
+              }
             }
           }
         ]

@@ -43,10 +43,12 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-          "equipment": {
+          "minecraft:equipment": {
             "mainhand": {
               "predicates": {
-                "minecraft:custom_data": "{CustomCanDestroy:1b}"
+                "minecraft:custom_data": {
+                  "CustomCanDestroy": 1
+                }
               }
             }
           }

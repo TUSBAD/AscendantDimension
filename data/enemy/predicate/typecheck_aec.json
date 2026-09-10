@@ -5,9 +5,9 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"Enemy\"]}",
-        "passenger": {
-          "type": "minecraft:area_effect_cloud"
+        "minecraft:nbt": "{Tags:[\"Enemy\"]}",
+        "minecraft:passenger": {
+          "minecraft:entity_type": "minecraft:area_effect_cloud"
         }
       }
     },
@@ -17,9 +17,9 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "passenger": {
-            "type": "minecraft:area_effect_cloud",
-            "nbt": "{Tags:[\"TypeChecked\"]}"
+          "minecraft:passenger": {
+            "minecraft:entity_type": "minecraft:area_effect_cloud",
+            "minecraft:nbt": "{Tags:[\"TypeChecked\"]}"
           }
         }
       }

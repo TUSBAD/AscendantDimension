@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "item_frame",
-          "nbt": "{Tags:[\"Capsule\"]}"
+          "minecraft:entity_type": "item_frame",
+          "minecraft:nbt": "{Tags:[\"Capsule\"]}"
         }
       }
     }

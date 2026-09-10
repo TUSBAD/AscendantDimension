@@ -1,25 +1,23 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"レッドストーンカタリスト\",\"italic\":false,\"color\":\"red\",\"bold\":true,\"underlined\":true}",
-                "minecraft:enchantments": {
-                  "levels": {}
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"レッドストーンカタリスト\",\"italic\":false,\"color\":\"red\",\"bold\":true,\"underlined\":true}",
+                                "minecraft:enchantments": {}
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

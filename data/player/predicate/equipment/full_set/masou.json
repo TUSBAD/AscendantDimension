@@ -2,30 +2,46 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
+    "minecraft:equipment": {
       "head": {
         "items": [
           "minecraft:leather_helmet"
         ],
-        "nbt": "{masou:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "masou": 1
+          }
+        }
       },
       "chest": {
         "items": [
           "minecraft:leather_chestplate"
         ],
-        "nbt": "{masou:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "masou": 1
+          }
+        }
       },
       "legs": {
         "items": [
           "minecraft:leather_leggings"
         ],
-        "nbt": "{masou:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "masou": 1
+          }
+        }
       },
       "feet": {
         "items": [
           "minecraft:leather_boots"
         ],
-        "nbt": "{masou:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "masou": 1
+          }
+        }
       }
     }
   }

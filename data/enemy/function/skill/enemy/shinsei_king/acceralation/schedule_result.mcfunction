@@ -6,7 +6,7 @@
 
 # 爆発はクリーパー?
 # 雷はえんちちの方じゃなくて召喚してコマンドでダメージ与える?
-# gamerule mobGriefing false
+# gamerule minecraft:mob_griefing false
 # execute in the_end as @e[type=zombie,tag=NewStar_King] run summon creeper ~ ~ ~ {ExplosionRadius:7b,ignited:true,Fuse:0}
 # scheduleだといけるｗｗｗｗｗｗｗ
 # 半径8でいいかもね。ちょうどいい感じな気がする

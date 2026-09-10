@@ -1,31 +1,29 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:generic",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:sheep_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"text\":\"jeb_\",\"italic\":false}",
-                "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": 1
-                  }
-                },
-                "minecraft:repair_cost": 1000000000,
-                "minecraft:entity_data": {
-                  "id": "minecraft:sheep"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sheep_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"jeb_\",\"italic\":false}",
+                                "minecraft:enchantments": {
+                                    "minecraft:fortune": 1
+                                },
+                                "minecraft:repair_cost": 1000000000,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:sheep"
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -6,6 +6,6 @@
 ### もしもまだ昼を取り戻していなければ、メッセージを出す
 execute if data storage area: settings{force_night:true} run tellraw @a {"text":"昼を取り戻した☀","color":"gold"}
 execute if data storage area: settings{force_night:true} run time set day
-execute if data storage area: settings{force_night:true} run gamerule doDaylightCycle true
+execute if data storage area: settings{force_night:true} run gamerule minecraft:advance_time true
 
 data modify storage area: settings.force_night set value false

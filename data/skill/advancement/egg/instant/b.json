@@ -11,7 +11,9 @@
                 "minecraft:slime_spawn_egg"
               ],
               "predicates": {
-                "minecraft:custom_data": "{TUSB_AD_SkillEgg:\"sapphire\"}"
+                "minecraft:custom_data": {
+                  "TUSB_AD_SkillEgg": "sapphire"
+                }
               }
             }
           }

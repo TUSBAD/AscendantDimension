@@ -7,7 +7,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "movement": {
+          "minecraft:movement": {
             "speed": 0
           }
         }
@@ -35,7 +35,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "movement": {
+                "minecraft:movement": {
                   "x": {
                     "max": 0
                   }
@@ -63,7 +63,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "movement": {
+                "minecraft:movement": {
                   "x": {
                     "min": 0
                   }
@@ -96,7 +96,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "movement": {
+                "minecraft:movement": {
                   "z": {
                     "max": 0
                   }
@@ -124,7 +124,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "movement": {
+                "minecraft:movement": {
                   "z": {
                     "min": 0
                   }

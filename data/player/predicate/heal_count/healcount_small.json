@@ -17,7 +17,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{active_effects:[{id:\"minecraft:regeneration\"}]}"
+          "minecraft:nbt": "{active_effects:[{id:\"minecraft:regeneration\"}]}"
         }
       }
     }

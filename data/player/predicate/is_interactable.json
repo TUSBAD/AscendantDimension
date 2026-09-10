@@ -5,7 +5,7 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "flags": {
+        "minecraft:flags": {
           "is_sneaking": false
         }
       }
@@ -14,10 +14,10 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "flags": {
+        "minecraft:flags": {
           "is_sneaking": true
         },
-        "equipment": {
+        "minecraft:equipment": {
           "mainhand": {},
           "offhand": {}
         }

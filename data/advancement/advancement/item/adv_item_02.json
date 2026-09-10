@@ -39,7 +39,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{CustomCanDestroy:1b}"
+              "minecraft:custom_data": {
+                "CustomCanDestroy": 1
+              }
             }
           }
         ]

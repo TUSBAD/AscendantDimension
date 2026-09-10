@@ -6,7 +6,9 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": "{ForceVanishing:true}"
+              "minecraft:custom_data": {
+                "ForceVanishing": true
+              }
             }
           }
         ]

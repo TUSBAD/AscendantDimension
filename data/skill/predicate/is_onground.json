@@ -2,6 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{OnGround:1b}"
+    "minecraft:nbt": "{OnGround:1b}"
   }
 }

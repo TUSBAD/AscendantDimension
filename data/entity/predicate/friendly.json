@@ -10,7 +10,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "team": "FriendlyTeam"
+          "minecraft:team": "FriendlyTeam"
         }
       }
     ]
@@ -28,7 +28,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:player"
+            "minecraft:entity_type": "minecraft:player"
           }
         }
       }

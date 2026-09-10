@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### お試しセットを渡す
-give @s minecraft:ghast_spawn_egg[enchantment_glint_override=1b,custom_name='"§bお試しセットの印玉"',lore=['"§rモードスキル用お試しセットが入っている。"','"§rなくなったら交易島のアルバイトから買おう。"'],can_place_on={predicates:[{blocks:"#minecraft:all"}],show_in_tooltip:0b},entity_data={id:"minecraft:bat",DeathTime:19s,active_effects:[{id:"minecraft:instant_damage",duration:100,amplifier:5b,show_particles:0b},{id:"minecraft:invisibility",duration:100,amplifier:0b,show_particles:0b}],Tags:["RewardEgg","TypeChecked"],DeathLootTable:"usb:signs/skillkit"}]
+give @s minecraft:ghast_spawn_egg[enchantment_glint_override=1b,custom_name='"§bお試しセットの印玉"',lore=['"§rモードスキル用お試しセットが入っている。"','"§rなくなったら交易島のアルバイトから買おう。"'],can_place_on={blocks:"#minecraft:all"},entity_data={id:"minecraft:bat",DeathTime:19s,active_effects:[{id:"minecraft:instant_damage",duration:100,amplifier:5b,show_particles:0b},{id:"minecraft:invisibility",duration:100,amplifier:0b,show_particles:0b}],Tags:["RewardEgg","TypeChecked"],DeathLootTable:"usb:signs/skillkit"}]
 tellraw @s {"translate":"* %1$s を受け取った。","with":[{"text":"お試しセットの印玉","color":"aqua"}]}
 tag @s remove TrialSet
 

@@ -5,35 +5,35 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "team": "AdvancedBoss"
+        "minecraft:team": "AdvancedBoss"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "team": "ExtremeBoss"
+        "minecraft:team": "ExtremeBoss"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "team": "LegendaryBoss"
+        "minecraft:team": "LegendaryBoss"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "team": "Guardian"
+        "minecraft:team": "Guardian"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "team": "Goddes"
+        "minecraft:team": "Goddes"
       }
     }
   ]

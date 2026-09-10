@@ -2,9 +2,9 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "vehicle": {
-      "type": "minecraft:minecart",
-      "nbt": "{Tags:[\"GliderCart\"]}"
+    "minecraft:vehicle": {
+      "minecraft:entity_type": "minecraft:minecart",
+      "minecraft:nbt": "{Tags:[\"GliderCart\"]}"
     }
   }
 }

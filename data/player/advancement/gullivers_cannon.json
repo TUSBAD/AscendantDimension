@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:horse",
-          "nbt": "{Tags:[CannonSeat]}"
+          "minecraft:entity_type": "minecraft:horse",
+          "minecraft:nbt": "{Tags:[CannonSeat]}"
         }
       }
     }

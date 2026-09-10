@@ -2,11 +2,10 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "player",
+    "minecraft:type_specific/player": {
       "looking_at": {
-        "type": "#entity:item_frames",
-        "nbt": "{Invulnerable:false}"
+        "minecraft:entity_type": "#entity:item_frames",
+        "minecraft:nbt": "{Invulnerable:false}"
       }
     }
   }

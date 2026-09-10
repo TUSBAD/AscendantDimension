@@ -2,13 +2,17 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{FallFlying:1b}",
-    "equipment": {
+    "minecraft:nbt": "{FallFlying:1b}",
+    "minecraft:equipment": {
       "chest": {
         "items": [
           "minecraft:elytra"
         ],
-        "nbt": "{konton:1b}"
+        "predicates": {
+          "minecraft:custom_data": {
+            "konton": 1
+          }
+        }
       }
     }
   }
