@@ -2,7 +2,8 @@
     "pack": {
         "description": "TUSB Ascendant Dimension Data Pack",
         "min_format": [107, 1],
-        "max_format": [107, 1]
+        "max_format": [107, 1],
+        "pack_format": 107
     },
     "filter": {
         "block": [

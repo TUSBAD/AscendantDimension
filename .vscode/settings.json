@@ -1,6 +1,6 @@
 {
-    "datapack.env.cmdVersion": "1.21.4",
-    "datapack.env.dataVersion": "1.21.4",
+    "datapack.env.cmdVersion": "26.2",
+    "datapack.env.dataVersion": "26.2",
     "datapack.env.defaultVisibility": "public",
     "datapack.env.dependsOnVanilla": true,
     "datapack.env.detectionDepth": 1,

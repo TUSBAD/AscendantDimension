@@ -1,7 +1,7 @@
 # TUSB AscendantDimension
 
 ![TUSBAD version](https://img.shields.io/badge/ADversion-1.0-blueviolet.svg?)
-![Minecraft version](https://img.shields.io/badge/MCversion-1.21.4-green.svg?logo=minecraft)
+![Minecraft version](https://img.shields.io/badge/MCversion-26.2-green.svg?logo=minecraft)
 [![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)](https://discord.gg/rTVWQm4ykR)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/TUSBAD/AscendantDimension?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/TUSBAD/AscendantDimension)
