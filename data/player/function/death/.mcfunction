@@ -8,12 +8,11 @@ execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
 advancement revoke @s only player:trigger/death
 
-# RR追加部分
 # アイテムをぶちまける
 function player:death_item_drop/
 
 ### 死をカウントアップ
-scoreboard players add AllDeathCount DeathCount 1
+scoreboard players add @s DeathCount 1
 
 # 時間計算
 execute store result storage math: in int 1 run scoreboard players get @s Age
