@@ -16,7 +16,6 @@
     data modify storage item: DeathInventory set from entity @s SelectedItem.components."minecraft:custom_data".DeathInventory
     data modify storage item: DeathInventory.Set set value []
 
-    tellraw @a {"nbt":"DeathInventory","storage": "item:","color": "blue"}
 # アイテム置換
     data modify storage item: DeathInventory.Set append from storage item: DeathInventory.Inventory[{Slot:0b}]
     data modify storage item: DeathInventory.Slot set value 0b
@@ -47,7 +46,6 @@
     function skill:act/common/dig_tomb/act1
     data modify storage item: DeathInventory.Set append from storage item: DeathInventory.Inventory[{Slot:9b}]
     data modify storage item: DeathInventory.Slot set value 9b
-    tellraw @a {"nbt":"DeathInventory.Set","storage": "item:","color": "red"}
     function skill:act/common/dig_tomb/act1
     data modify storage item: DeathInventory.Set append from storage item: DeathInventory.Inventory[{Slot:10b}]
     data modify storage item: DeathInventory.Slot set value 10b

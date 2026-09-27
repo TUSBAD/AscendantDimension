@@ -46,5 +46,4 @@ execute if data storage item: {Slot:102b} in area:control run item replace entit
 execute if data storage item: {Slot:103b} in area:control run item replace entity @s armor.head from block 3 1 3 container.0
 execute if data storage item: {Slot:-106b} in area:control run item replace entity @s weapon.offhand from block 3 1 3 container.0
 #競合対策でremoveする
-data remove storage item: Slot
-item replace entity @s inventory.26
+data remove storage item: SlottedItem
