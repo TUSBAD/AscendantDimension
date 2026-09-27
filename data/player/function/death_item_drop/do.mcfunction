@@ -5,24 +5,24 @@
 # @within function player:death_item_drop/
 
 # インベントリが空なら墓の出しようがないので中断
-    execute unless data entity @s Inventory[0] run return fail
+    execute unless data entity @s Inventory[0] unless data entity @s equipment run return fail
 
 # 墓のアイテムディスプレイを召喚する
     summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:stone_sword",count:1,components:{"minecraft:custom_model_data":{"floats":[1000]}}},Tags:[Tomb,TombInit]}
     execute as @e[type=item_display,distance=..0.01,tag=TombInit] run function #oh_my_dat:please
 
 # 墓の中に墓は入れません(墓に情報として保存する)
-    data modify storage item: Items set from entity @s Inventory
-    data remove storage item: Items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
-    data remove storage item: Items[{tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
-    data remove storage item: Items[{tag:{Kyoumei:1b}}]
+    data remove storage item: Items
+    data modify storage item: Items.Inventory set from entity @s Inventory
+    data modify storage item: Items.equipment set from entity @s equipment
     data modify storage item: Item set value []
-    data modify storage item: Item append from storage item: Items[{components:{"minecraft:custom_data":{Tomb:1b}}}]
+    data modify storage item: Item append from storage item: Items.Inventory[{components:{"minecraft:custom_data":{Tomb:1b}}}]
+    data modify storage item: Item append from storage item: Items.equipment[{components:{"minecraft:custom_data":{Tomb:1b}}}]
     execute if data storage item: Item[0] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from storage item: Item[]
-    data remove storage item: Items[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{Tomb:1b}}}]
-
+    data remove storage item: Items.Inventory[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{Tomb:1b}}}]
+    data remove storage item: Items.equipment[{id:"minecraft:stone_sword",components:{"minecraft:custom_data":{Tomb:1b}}}]
 # 墓情報をディスプレイに刻む
-    execute if data storage item: Items[0] in area:control run function player:death_item_drop/tomb
+    execute if data storage item: Items in area:control run function player:death_item_drop/tomb
 
 # 名前を表示するためのtext_displayを呼び出す
     summon text_display ~ ~ ~ {billboard:"center",alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[1f,1f,1f]},text:'{"text":""}',Tags:[TombName,TombInit]}
@@ -41,6 +41,3 @@
 # 初期化タグ外し
     tag @e[distance=..0.01,tag=TombInit] remove TombInit
     tag @e[distance=..0.01,tag=TombInit2] remove TombInit2
-
-# 共鳴処理
-    execute if data storage api: Inventory[{tag:{Kyoumei:1b}}] run function player:custom_item/kyoumei/

@@ -7,7 +7,6 @@
 ### ゲームルール / ワールド設定
 gamerule minecraft:log_admin_commands false
 gamerule minecraft:command_block_output false
-gamerule minecraft:send_command_feedback false
 gamerule minecraft:natural_health_regeneration true
 gamerule minecraft:entity_drops true
 gamerule minecraft:mob_drops true
