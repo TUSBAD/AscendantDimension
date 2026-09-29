@@ -11,7 +11,7 @@
 # レベルアップに必要な経験値　　：50         ：100        ：150        ：200        ：next_exp         ：int（百分率/10）
 # 嫌な予感の強さの最大段階　　　：0          ：1          ：3          ：4          ：event_rank_max   ：int
 # 嫌な予感までの時間範囲　　　　：36000-72000：18000-54000：18000-36000：6000-36000 ：event_time_range ：int（tick）
-# キープインベントリ　　　　　　：true       ：true       ：false      ：false      ：is_keepinventory ：byte
+# 墓システム　　　　　　　　　　：true       ：true       ：false      ：false      ：dig_tomb         ：byte
 # ボスの体力補正　　　　　　　　：100        ：100        ：150        ：200        ：health_add       ：int（百分率）
 # マルチプレイ時のボス体力補正　：100        ：100        ：110        ：120        ：multi_health     ：int（百分率）
 # 死の宣告　　　　　　　　　　　：30         ：10         ：10         ：05         ：doom             ：int（sec）
@@ -29,7 +29,7 @@
     data modify storage core: difficult.picnic.next_exp set value 5
     data modify storage core: difficult.picnic.event_rank_max set value 0
     data modify storage core: difficult.picnic.event_time_range set value [36000,72000]
-    data modify storage core: difficult.picnic.is_keepinventory set value true
+    data modify storage core: difficult.picnic.dig_tomb set value true
     data modify storage core: difficult.picnic.health_add set value 100
     data modify storage core: difficult.picnic.multi_health set value 100
     data modify storage core: difficult.picnic.doom set value 31
@@ -47,7 +47,7 @@
     data modify storage core: difficult.casual.next_exp set value 10
     data modify storage core: difficult.casual.event_rank_max set value 1
     data modify storage core: difficult.casual.event_time_range set value [18000,54000]
-    data modify storage core: difficult.casual.is_keepinventory set value true
+    data modify storage core: difficult.casual.dig_tomb set value true
     data modify storage core: difficult.casual.health_add set value 100
     data modify storage core: difficult.casual.multi_health set value 100
     data modify storage core: difficult.casual.doom set value 11
@@ -65,7 +65,7 @@
     data modify storage core: difficult.another.next_exp set value 15
     data modify storage core: difficult.another.event_rank_max set value 3
     data modify storage core: difficult.another.event_time_range set value [18000,36000]
-    data modify storage core: difficult.another.is_keepinventory set value false
+    data modify storage core: difficult.another.dig_tomb set value false
     data modify storage core: difficult.another.health_add set value 150
     data modify storage core: difficult.another.multi_health set value 100
     data modify storage core: difficult.another.doom set value 11
@@ -83,7 +83,7 @@
     data modify storage core: difficult.ascendant.next_exp set value 20
     data modify storage core: difficult.ascendant.event_rank_max set value 4
     data modify storage core: difficult.ascendant.event_time_range set value [6000,36000]
-    data modify storage core: difficult.ascendant.is_keepinventory set value false
+    data modify storage core: difficult.ascendant.dig_tomb set value false
     data modify storage core: difficult.ascendant.health_add set value 200
     data modify storage core: difficult.ascendant.multi_health set value 100
     data modify storage core: difficult.ascendant.doom set value 6

@@ -26,7 +26,7 @@
                     "items": "#item:tools",
                     "predicates": {
                       "minecraft:custom_data": {
-                        "CustomCanBreak": 1
+                        "CustomCanDestroy": 1
                       }
                     }
                   }
