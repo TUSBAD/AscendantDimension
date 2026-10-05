@@ -1,36 +1,57 @@
 {
+  "attributes": {
+    "minecraft:visual/sky_color": 9494521,
+    "minecraft:visual/cloud_color": 10808574,
+    "minecraft:visual/fog_color": 12775679,
+    "minecraft:visual/water_fog_color": 7727539,
+    "minecraft:visual/sunrise_sunset_color": 10406143,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "area_music:airport"
+        },
+        "min_delay": 1200,
+        "max_delay": 12000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:audio/music_volume": 1,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:glow"
+        },
+        "probability": 0.0001
+      }
+    ],
+    "minecraft:visual/cloud_height": 64,
+    "minecraft:visual/moon_phase": "full_moon",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never",
+      "error_message": {
+        "translate": "この世界ではリスポーンを設定できません。",
+        "color": "#fe4d4d"
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/baby_villager_activity": "minecraft:play",
+    "minecraft:gameplay/villager_activity": "minecraft:meet"
+  },
   "temperature": 0.5,
   "downfall": 0.5,
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 9494521,
-    "fog_color": 12775679,
     "water_color": 8189438,
-    "water_fog_color": 7727359,
     "grass_color": 3531576,
     "foliage_color": 2419525,
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "area_music:airport"
-          },
-          "min_delay": 1200,
-          "max_delay": 12000,
-          "replace_current_music": true
-        }
-      }
-    ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "minecraft:glow"
-      },
-      "probability": 0.0001
-    }
+    "dry_foliage_color": 2397222
   },
   "spawners": {},
   "spawn_costs": {},

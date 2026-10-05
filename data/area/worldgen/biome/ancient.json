@@ -1,24 +1,48 @@
 {
+  "effects": {
+    "water_color": 8421504,
+    "grass_color": 6513507,
+    "foliage_color": 9408399,
+    "dry_foliage_color": 9539985
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 10263708,
+    "minecraft:visual/cloud_color": 5526612,
+    "minecraft:visual/fog_color": 9539985,
+    "minecraft:visual/water_fog_color": 9539985,
+    "minecraft:visual/sunrise_sunset_color": 14277081,
+    "minecraft:audio/music_volume": 0,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:dripping_obsidian_tear"
+        },
+        "probability": 0.0001
+      }
+    ],
+    "minecraft:visual/cloud_height": 320,
+    "minecraft:visual/moon_phase": "new_moon",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never",
+      "error_message": {
+        "translate": "この世界ではリスポーンを設定できません。",
+        "color": "#fe4d4d"
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/baby_villager_activity": "minecraft:play",
+    "minecraft:gameplay/villager_activity": "minecraft:meet"
+  },
   "temperature": 0.5,
   "downfall": 0.5,
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "has_precipitation": false,
-  "effects": {
-    "sky_color": 10263708,
-    "fog_color": 9539985,
-    "water_color": 8421504,
-    "water_fog_color": 9539985,
-    "grass_color": 6513507,
-    "foliage_color": 9408399,
-    "music_volume": 0,
-    "particle": {
-      "options": {
-        "type": "minecraft:dripping_obsidian_tear"
-      },
-      "probability": 0.0001
-    }
-  },
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],

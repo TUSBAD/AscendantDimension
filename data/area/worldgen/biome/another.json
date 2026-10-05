@@ -5,32 +5,53 @@
   "creature_spawn_probability": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 3014748,
-    "fog_color": 4653199,
     "water_color": 8455209,
-    "water_fog_color": 7083045,
     "grass_color": 8725912,
     "foliage_color": 7340109,
-    "music": [
+    "dry_foliage_color": 4924564
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 3014748,
+    "minecraft:visual/cloud_color": 10808574,
+    "minecraft:visual/fog_color": 4653199,
+    "minecraft:visual/water_fog_color": 7083045,
+    "minecraft:visual/sunrise_sunset_color": 10406143,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "area_music:another"
+        },
+        "min_delay": 1200,
+        "max_delay": 12000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:audio/music_volume": 1,
+    "minecraft:visual/ambient_particles": [
       {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "area_music:another"
-          },
-          "min_delay": 1200,
-          "max_delay": 12000,
-          "replace_current_music": true
-        }
+        "particle": {
+          "type": "minecraft:trial_spawner_detection"
+        },
+        "probability": 0.0005
       }
     ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "minecraft:trial_spawner_detection"
-      },
-      "probability": 0.0005
-    }
+    "minecraft:visual/cloud_height": 320,
+    "minecraft:visual/moon_phase": "new_moon",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never",
+      "error_message": {
+        "translate": "この世界ではリスポーンを設定できません。",
+        "color": "#fe4d4d"
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/baby_villager_activity": "minecraft:idle",
+    "minecraft:gameplay/villager_activity": "minecraft:idle"
   },
   "spawners": {},
   "spawn_costs": {},
