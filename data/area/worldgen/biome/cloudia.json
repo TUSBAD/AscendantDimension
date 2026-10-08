@@ -5,32 +5,58 @@
   "creature_spawn_probability": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 12451831,
-    "fog_color": 15793919,
     "water_color": 14023672,
-    "water_fog_color": 16777215,
     "grass_color": 15466493,
     "foliage_color": 13759743,
-    "music": [
+    "dry_foliage_color": 9760255
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 12451831,
+    "minecraft:visual/cloud_color": 10808574,
+    "minecraft:visual/fog_color": 15793919,
+    "minecraft:visual/water_fog_color": 16777215,
+    "minecraft:visual/sunrise_sunset_color": 6479870,
+    "minecraft:audio/ambient_sounds": {
+      "loop": {
+        "sound_id": "minecraft:block.amethyst_block.chime"
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "area_music:cloudia"
+        },
+        "min_delay": 1200,
+        "max_delay": 12000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:audio/music_volume": 0.5,
+    "minecraft:visual/ambient_particles": [
       {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "area_music:cloudia"
-          },
-          "min_delay": 1200,
-          "max_delay": 12000,
-          "replace_current_music": true
-        }
+        "particle": {
+          "type": "minecraft:end_rod"
+        },
+        "probability": 0.0001
       }
     ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "minecraft:end_rod"
-      },
-      "probability": 0.0001
-    }
+    "minecraft:visual/cloud_height": 320,
+    "minecraft:visual/moon_phase": "new_moon",
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "never",
+      "error_message": {
+        "translate": "この世界ではリスポーンを設定できません。",
+        "color": "#fe4d4d"
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/baby_villager_activity": "minecraft:idle",
+    "minecraft:gameplay/villager_activity": "minecraft:idle"
   },
   "spawners": {},
   "spawn_costs": {},
